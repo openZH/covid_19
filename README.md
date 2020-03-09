@@ -1,2 +1,2 @@
 # covid_19
-Visualisierung im Rahmen der Medienmitteilung zur kantonalen BEvölkerungserhebung
+COVID19 Fallzahlen Kanton Zürich - Die Fallzahlen umfassen die im Kanton Zürich positiv getesteten Personen. Die Daten werden einmal täglich (zwischen 12:00 und 13:00 Uhr) aktualisiert.
