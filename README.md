@@ -3,3 +3,5 @@ COVID19 Fallzahlen Kanton Zürich - Die Fallzahlen umfassen die im Kanton Züric
 
 ## Status
 *COVID19_Fallzahlen_Kanton_ZH_total.csv* is published as BETA, and currently being reviewed by the data providing organisational unit, the Department of Health Canton of Zurich.
+
+*COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is published as BETA, and currently being reviewed by the data providing organisational unit, the Department of Health Canton of Zurich.
