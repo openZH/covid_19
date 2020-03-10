@@ -19,9 +19,10 @@ Definition of not self-explanatory column names of the data resources are:
 
 We invite other Cantons and the Confederation to provide case numbers in the same structure, regularly updated and machine-readable as Open Government Data (OGD).
 
-We have structured the data in such a way that they can be easily expanded both horizontally (Cantons) and vertically (Confederation).
+The data is structured in such a way, it can be easily expanded both horizontally (Cantons) and vertically (Confederation).
 
 The aim is to create a common official OGD dataset of the Swiss Authorities.
 
-We are available to advise and support interested authorities. You can reach us during office hours at: info@open.zh.ch
-We are also available on Twitter: @OpenDataZH
+We are available to advise and support interested authorities. You can reach us during office hours at: info@open.zh.ch (please mention a phone number, we can call you back)
+
+We are also available on Twitter: https://twitter.com/OpenDataZH
