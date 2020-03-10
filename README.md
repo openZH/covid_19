@@ -2,9 +2,9 @@
 COVID19 case numbers Canton of Zurich - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (between 12am and 2pm).
 
 ## Data
-*COVID19_Fallzahlen_Kanton_ZH_total.csv* is published as BETA, and currently being reviewed by the data providing organisational unit, the Department of Health Canton of Zurich.
+*COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE
 
-*COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is published as BETA, and currently being reviewed by the data providing organisational unit, the Department of Health Canton of Zurich.
+*COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is LIVE
 
 ## Metadata
 Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
