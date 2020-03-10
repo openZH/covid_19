@@ -7,8 +7,21 @@ COVID19 case numbers Canton of Zurich - case numbers include persons tested in t
 *COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is published as BETA, and currently being reviewed by the data providing organisational unit, the Department of Health Canton of Zurich.
 
 ## Metadata
+Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
+
 Definition of not self-explanatory column names of the data resources are:
 - 'NewConfCases' = Newly confirmed cases (2nd tests are positive)
 - 'NewPosTests1' = Newly 1st tests, which are positive
 - 'TotalConfCases' = Total number of confirmed cases (2nd tests are positive)
 - 'TotalPosTests1' = Total number of 1st tests, which are positive
+
+## Other Cantons and whole Switzerland
+
+We invite other Cantons and the Confederation to provide case numbers in the same structure, regularly updated and machine-readable as Open Government Data (OGD).
+
+We have structured the data in such a way that they can be easily expanded both horizontally (Cantons) and vertically (Confederation).
+
+The aim is to create a common official OGD dataset of the Swiss Authorities.
+
+We are available to advise and support interested authorities. You can reach us during office hours at: info@open.zh.ch
+We are also available on Twitter: @OpenDataZH
