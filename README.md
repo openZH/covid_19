@@ -1,7 +1,7 @@
 # covid_19
 COVID19 case numbers Canton of Zurich - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (between 12am and 2pm).
 
-Important: Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
+*Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
 ## Data and status
 *COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE
