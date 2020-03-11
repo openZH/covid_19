@@ -1,3 +1,5 @@
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400" />
+
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
 
