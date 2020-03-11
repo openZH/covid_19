@@ -1,3 +1,6 @@
+[![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
+
+
 # covid_19
 COVID19 case numbers Canton of Zurich - case numbers include persons tested in the Canton of Zurich. The data is updated *at least* once a day (times of collection and update may vary).
 
