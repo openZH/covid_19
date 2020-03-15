@@ -46,9 +46,11 @@ We are available to advise and support interested authorities. You can reach us 
 
 ## Community Contributions
 - https://rsalzer.github.io/COVID_19_KT_ZH/
+
 Robert Salzer on Twitter: https://twitter.com/rob_salzer
 
 - https://github.com/daenuprobst/covid19-cases-switzerland
+
 Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
 
