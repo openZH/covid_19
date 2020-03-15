@@ -46,13 +46,9 @@ The aim is to create a common official OGD dataset of the Swiss Authorities.
 We are available to advise and support interested authorities. You can reach us during office hours at: info@open.zh.ch (please mention a phone number, we call you back)
 
 ## Community Contributions
-- https://rsalzer.github.io/COVID_19_KT_ZH/
+- https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
 
-Robert Salzer on Twitter: https://twitter.com/rob_salzer
-
-- https://github.com/daenuprobst/covid19-cases-switzerland
-
-Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
+- https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
 
 
