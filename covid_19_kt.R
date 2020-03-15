@@ -19,9 +19,9 @@ corona_kt <- pg %>%
     html_node(xpath='/html/body/div[2]/div[3]/div/div[2]/div/div[1]/div[7]/div/div/div/table') %>% 
     html_table()
   
-# Add date to table
+# Add date to table 
 data <- corona_kt %>% mutate(datum=datum)
 
 # store as csv
-write.csv(data, "covid19_kt.csv")
+write.csv(data, "COVID19_Cases_Cantons_CH_total.csv")
 
