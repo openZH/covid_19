@@ -1,15 +1,15 @@
-<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400" />
-<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="360" />
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400"/>
+<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="360"/>
 
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
 
 # COVID-19
-COVID19 cases Cantons CH - case numbers include persons tested in Switzerland per Canton (26 Cantons). The data is updated once a day (times of collection and update may vary). Source: Federal Office of Public Health FOPH, https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081 ("Current situation in Switzerland")
+COVID19 cases Cantons CH - case numbers include persons tested in Switzerland per Canton (26 Cantons). The data is updated once a day (times of collection and update may vary). Source: Federal Office of Public Health FOPH [("Current situation in Switzerland").](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081)
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested.
 
-COVID19 cases Canton of Zurich (ZH) - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (times of collection and update may vary). Source: Department of Health Canton of Zurich, https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7 / https://twitter.com/gd_zuerich
+COVID19 cases Canton of Zurich (ZH) - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (times of collection and update may vary). Source: [Department of Health Canton of Zurich](https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) / https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
@@ -33,7 +33,9 @@ Definition of not self-explanatory column names of the data resources are:
 Metadata (in English): https://opendata.swiss/en/dataset/covid_19-cases-cantons-switzerland (not yet LIVE)
 
 Definition of not self-explanatory column names of the data resources are:
-- ... (to be added)
+- 'tested_pos' = Newly 1st tests, which are positive
+- 'confirmed'= 2nd tests are positive
+- 'time' = timestamp of when the figures where published
 
 ## Other Cantons and the Confederation
 
