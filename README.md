@@ -33,7 +33,8 @@ Definition of not self-explanatory column names of the data resources are:
 Metadata (in English): https://opendata.swiss/en/dataset/covid_19-cases-cantons-switzerland (not yet LIVE)
 
 Definition of not self-explanatory column names of the data resources are:
-- ... (to be added)
+- 'tested_pos' = Newly 1st tests, which are positive
+- 'confirmed'= 2nd tests are positive
 
 ## Other Cantons and the Confederation
 
