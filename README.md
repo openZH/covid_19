@@ -37,6 +37,8 @@ Definition of not self-explanatory column names of the data resources are:
 - 'confirmed'= 2nd tests are positive
 - 'time' = timestamp of when the figures where published
 
+Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
+
 ## Other Cantons and the Confederation
 
 We invite other Cantons and the Confederation to provide case numbers in the same structure, regularly updated and machine-readable as Open Government Data (OGD).
