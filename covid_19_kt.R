@@ -4,6 +4,7 @@ require(dplyr)
 require(rvest)
 
 #URL of the BAG page containing the case numbers
+# pg <- read_html('https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html')
 pg <- read_html('https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html')
 
 #Date
@@ -22,7 +23,9 @@ colnames(corona_kt) <- c("canton","tested_pos","confirmed")
 data <- corona_kt %>% 
         mutate(date=datum) %>% 
         tidyr::separate(date,c("date","time"),sep=",") %>% 
-        mutate(date=as.Date(date, format="%d.%m.%Y"),time=gsub(":","",time))
+        mutate(date=as.Date(date, format="%d.%m.%Y"),time=gsub(":","",time)) %>% 
+        #add Total -> not included on english BAG-page (check if redundant!)
+        add_row(canton = "CH", tested_pos = sum(.$tested_pos), confirmed = sum(.$confirmed),date=unique(.$date),time=unique(.$time))
 
 #load timeseries
 timeseries <- read.csv("COVID19_Cases_Cantons_CH_total.csv", sep=",") %>%
@@ -32,7 +35,7 @@ timeseries <- read.csv("COVID19_Cases_Cantons_CH_total.csv", sep=",") %>%
 #if date not already available add data
 if(!unique(data$date) %in% unique(timeseries$date)){
 
-all2 <- timeseries %>% 
+all <- timeseries %>% 
         bind_rows(data) %>% 
         arrange(canton)
 
