@@ -1,5 +1,5 @@
 <img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400" />
-<img src="https://github.com/openZH/covid_19/blob/master/openZH_logo.png" alt="OpenZH-logo" width="100" />
+<img src="https://github.com/openZH/covid_19/blob/master/" alt="OpenZH-logo" width="100" />
 
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
