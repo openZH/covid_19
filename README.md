@@ -4,20 +4,20 @@
 
 
 # COVID-19
-COVID19 cases Cantons CH - case numbers include persons tested in Switzerland per Canton (26 Cantons). The data is updated once a day (times of collection and update may vary).
+COVID19 cases Cantons CH - case numbers include persons tested in Switzerland per Canton (26 Cantons). The data is updated once a day (times of collection and update may vary). Source: Federal Office of Public Health FOPH, https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081 ("Current situation in Switzerland")
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested.
 
-COVID19 cases Canton of Zurich (ZH) - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (times of collection and update may vary).
+COVID19 cases Canton of Zurich (ZH) - case numbers include persons tested in the Canton of Zurich. The data is updated once a day (times of collection and update may vary). Source: Department of Health Canton of Zurich, https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7 / https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
 ## Data and status
-*COVID19_Cases_Cantons_CH_total.csv* is BETA (since 15.03.2020)
+*COVID19_Cases_Cantons_CH_total.csv* is BETA (latest update: values of 14.03.2020)
 
-*COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE
+*COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE (latest update: values of 13.03.2020)
 
-*COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is LIVE
+*COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is LIVE (latest update: values of 11.03.2020)
 
 ## Metadata and explanations
 ### Cases Canton ZH 
