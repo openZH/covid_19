@@ -16,7 +16,7 @@ COVID19 cases Canton of Zurich (ZH) - case numbers include persons tested in the
 ## Data and status
 *COVID19_Cases_Cantons_CH_total.csv* is BETA (latest update: values of 14.03.2020)
 
-*COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE (latest update: values of 13.03.2020)
+*COVID19_Fallzahlen_Kanton_ZH_total.csv* is LIVE (latest update: values of 16.03.2020, 12:41 pm)
 
 *COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv* is LIVE (latest update: values of 11.03.2020)
 
