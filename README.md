@@ -1,5 +1,4 @@
-<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400"/>
-<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="360"/>
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400"/> <img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="360"/>
 
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
@@ -30,7 +29,7 @@ Definition of not self-explanatory column names of the data resources are:
 - 'TotalConfCases' = Total number of confirmed cases (2nd tests are positive)
 - 'TotalPosTests1' = Total number of 1st tests, which are positive
 ### Cases all Cantons CH
-Metadata (in English): https://opendata.swiss/en/dataset/covid_19-cases-cantons-switzerland (not yet LIVE)
+Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-canton-of-switzerland-and-principality-of-liechtenstein
 
 Definition of not self-explanatory column names of the data resources are:
 - 'tested_pos' = Newly 1st tests, which are positive
