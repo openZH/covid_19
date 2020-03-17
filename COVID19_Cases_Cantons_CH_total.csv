@@ -1,4 +1,4 @@
-"date","canton","tested_pos","confirmed","time"
+"date","canton","tested_pos","confirmed","time","deceased","source"
 2020-03-06,"AG",10,NA,NA
 2020-03-07,"AG",14,NA,NA
 2020-03-08,"AG",14,NA,NA
@@ -53,7 +53,7 @@
 2020-03-12,"BS",80,NA,NA
 2020-03-13,"BS",111,NA,NA
 2020-03-14,"BS",119,100," 10.30 am"
-2020-03-15,"BS",144,NA," 01.15 pm"
+2020-03-15,"BS",144,NA," 01.15 pm",4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-144-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-06,"CH",207,NA,NA
 2020-03-07,"CH",262,NA,NA
 2020-03-08,"CH",331,NA,NA
