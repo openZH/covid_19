@@ -55,6 +55,6 @@ We are available to advise and support interested authorities. You can reach us:
  
 - https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
-- https://github.com/jb3-2 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
+- https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
 Many thanks for the great work!
