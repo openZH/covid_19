@@ -37,6 +37,9 @@ Source: https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinati
 ## Cases Canton SG
 Source: https://www.sg.ch/tools/informationen-coronavirus.html
 
+## Cases Canton SH
+Source: https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). 
 <br>Source: https://twitter.com/Kanton_Thurgau & https://www.tg.ch/news/fachdossier-coronavirus.html/10552
