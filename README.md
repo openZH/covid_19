@@ -22,6 +22,9 @@ COVID19 cases Canton of Basel-Landschaft (BL) - case numbers include persons tes
 ## Cases Canton BS
 COVID19 cases Canton of Basel-Stadt (BS) - case numbers include persons tested in the Canton of Basel-Stadt. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
 
+## Cases Canton JU
+Source: https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
+
 ## Cases Canton NE
 Source: https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 
