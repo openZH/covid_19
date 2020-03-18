@@ -7,7 +7,7 @@
 # COVID-19 Cases in Switzerland
 ## Cases Canton ZH
 COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in the Canton of Zürich. The data is updated once a day (times of collection and update may vary). 
-Source: [Department of Health Canton of Zurich](https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) / https://twitter.com/gd_zuerich
+<br>Source: [Department of Health Canton of Zurich](https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) / https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
