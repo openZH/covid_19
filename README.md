@@ -22,11 +22,15 @@ COVID19 cases Canton of Basel-Landschaft (BL) - case numbers include persons tes
 ## Cases Canton BS
 COVID19 cases Canton of Basel-Stadt (BS) - case numbers include persons tested in the Canton of Basel-Stadt. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
 
+## Cases Canton SG
+COVID19 cases Canton of St. Gallen (SG) - case numbers include persons tested in the Canton of St. Gallen. The data is updated once a day (times of collection and update may vary). Source: https://www.sg.ch/tools/informationen-coronavirus.html
+
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). Source: https://twitter.com/Kanton_Thurgau/status/1239490538417672192
 
+## Further Cantons
 
-Data of further Cantons is being prepared. Please report official Cantonal or other government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!
+*Important:* Please report official Cantonal or other government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!
 
 # Metadata and explanations
 ## Cases Canton ZH 
