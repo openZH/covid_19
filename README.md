@@ -28,6 +28,9 @@ COVID19 cases Canton of Basel-Stadt (BS) - case numbers include persons tested i
 ## Cases Canton JU
 Source: https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 
+## Cases Canton LU
+Source: https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
+
 ## Cases Canton NE
 Source: https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 
@@ -36,7 +39,7 @@ Source: https://www.sg.ch/tools/informationen-coronavirus.html
 
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). 
-<br>Source: https://twitter.com/Kanton_Thurgau/status/1239490538417672192
+<br>Source: https://twitter.com/Kanton_Thurgau & https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 
 ## Cases Canton TI
 Source: https://www4.ti.ch/area-media/comunicati/?parole=&periodo=&FONTE=23690&NEWS_TYPE=
