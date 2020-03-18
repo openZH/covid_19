@@ -7,17 +7,17 @@
 # COVID-19 Cases in Switzerland
 ## Cases Canton ZH
 COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in the Canton of Zürich. The data is updated once a day (times of collection and update may vary). 
-<br>Source: [Department of Health Canton of Zurich](https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) / https://twitter.com/gd_zuerich
+<br>Source: https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) & https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
 ## Cases Canton AG
 COVID19 cases Canton of Aargau (AG) - case numbers include persons tested in the Canton of Aargau. The data is updated once a day (times of collection and update may vary). 
-Source: https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
+<br>Source: https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
 
 ## Cases Canton BE
 COVID19 cases Canton of Bern (BE) - case numbers include persons tested in the Canton of Bern. The data is updated once a day (times of collection and update may vary). 
-Source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
+<br>Source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
 
 ## Cases Canton BL
 COVID19 cases Canton of Basel-Landschaft (BL) - case numbers include persons tested in the Canton of Basel-Landschaft. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
@@ -36,7 +36,7 @@ Source: https://www.sg.ch/tools/informationen-coronavirus.html
 
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). 
-Source: https://twitter.com/Kanton_Thurgau/status/1239490538417672192
+<br>Source: https://twitter.com/Kanton_Thurgau/status/1239490538417672192
 
 ## Cases Canton TI
 Source: https://www4.ti.ch/area-media/comunicati/?parole=&periodo=&FONTE=23690&NEWS_TYPE=
