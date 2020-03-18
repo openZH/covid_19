@@ -10,6 +10,9 @@ COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in th
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
+## Cases Canton AG
+COVID19 cases Canton of Aargau (AG) - case numbers include persons tested in the Canton of Aargau. The data is updated once a day (times of collection and update may vary). Source: https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
+
 ## Cases Canton BE
 COVID19 cases Canton of Bern (BE) - case numbers include persons tested in the Canton of Bern. The data is updated once a day (times of collection and update may vary). Source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
 
