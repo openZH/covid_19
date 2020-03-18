@@ -10,14 +10,18 @@ COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in th
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
+## Cases Canton BE
+COVID19 cases Canton of Bern (BE) - case numbers include persons tested in the Canton of Bern. The data is updated once a day (times of collection and update may vary). Source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
+
+## Cases Canton BL
+COVID19 cases Canton of Basel-Landschaft (BL) - case numbers include persons tested in the Canton of Basel-Landschaft. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
+
 ## Cases Canton BS
 COVID19 cases Canton of Basel-Stadt (BS) - case numbers include persons tested in the Canton of Basel-Stadt. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
 
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). Source: https://twitter.com/Kanton_Thurgau/status/1239490538417672192
 
-## Cases Canton BE
-COVID19 cases Canton of Bern (BE) - case numbers include persons tested in the Canton of Bern. The data is updated once a day (times of collection and update may vary). Source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
 
 Data of further Cantons is being prepared. Please report official Cantonal or other government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!
 
