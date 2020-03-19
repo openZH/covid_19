@@ -55,11 +55,23 @@ Official source: https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankhei
 ## Cases Canton NE
 Official source: https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 
+## Cases Canton NW
+Official source: https://www.nw.ch/gesundheitsamtdienste/6044
+
+## Cases Canton OW
+Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
+
 ## Cases Canton SG
 Official source: https://www.sg.ch/tools/informationen-coronavirus.html
 
 ## Cases Canton SH
 Official source: https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+
+## Cases Canton SO
+Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
+
+## Cases Canton SZ
+Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
 
 ## Cases Canton TG
 COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). 
@@ -70,6 +82,15 @@ Official source: https://www4.ti.ch/area-media/comunicati/?parole=&periodo=&FONT
 
 ## Cases Canton UR
 Official source: https://www.ur.ch/mmdirektionen
+
+## Cases Canton VD
+Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
+
+## Cases Canton VS
+Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
+
+## Cases Canton ZG
+Official source: https://twitter.com/gesundZG
 
 # Metadata and explanations
 ## Cases Canton ZH 
