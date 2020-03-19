@@ -1,2 +1,2 @@
-date,area,tested,tested_pos,confirmed,time,deceased,hospitalized,recovered,source
-2020-03-18,GR,,,116,,1,13,,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
+Date,Area,TotalTestedCases,TotalConfCases,TotalPosTests1,TotalCured,TotalDeaths,TotalHospitalized,Time,Source
+18.03.2020,Canton_GR,,116,,,1,13,,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
