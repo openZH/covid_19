@@ -35,15 +35,27 @@ date,canton,tested_pos,confirmed,time,deceased,hospitalized,recovered,source
 2020-03-12,BE,51,NA,NA,,,,
 2020-03-13,BE,62,NA,NA,,,,
 2020-03-14,BE,78,69," 10.30 am",,,,
-2020-03-06,BL,9,NA,NA,,,,
-2020-03-07,BL,13,NA,NA,,,,
-2020-03-08,BL,19,NA,NA,,,,
-2020-03-09,BL,20,NA,NA,,,,
-2020-03-10,BL,22,NA,NA,,,,
-2020-03-11,BL,23,NA,NA,,,,
-2020-03-12,BL,29,NA,NA,,,,
-2020-03-13,BL,42,NA,NA,,,,
-2020-03-14,BL,48,41," 10.30 am",,,,
+2020-02-28,BL,1,NA,NA,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-erster-bestaetigter-fall-aus-dem-kanton-basel-landschaft
+2020-02-29,BL,2,NA,NA,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/weiterer-bestaetigter-fall-aus-dem-kanton-basel-landschaft
+2020-03-01,BL,2,NA,NA,,,,
+2020-03-02,BL,2,NA,NA,,,,
+2020-03-03,BL,2,NA,NA,,,,
+2020-03-04,BL,2,NA,NA,,,,
+2020-03-05,BL,6,NA,NA,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-sechs-bestaetigte-faelle-im-kanton-basel-landschaft
+2020-03-06,BL,6,NA,NA,,,,
+2020-03-07,BL,15,NA,NA,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-15-bestaetigte-faelle-in-basel-landschaft
+2020-03-08,BL,19,NA,NA,1,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/patient-im-kantonsspital-baselland-stirbt-an-den-folgen-einer-coronavirus-infektion
+2020-03-09,BL,20,NA,NA,1,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-xx-bestaetigte-faelle-in-basel-landschaft
+2020-03-10,BL,22,NA,NA,1,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update
+2020-03-11,BL,26,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-26-bestaetigte-faelle-in-basel-landschaft-1
+2020-03-12,BL,26,NA,NA,2,,,
+2020-03-13,BL,42,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-26-bestaetigte-faelle-in-basel-landschaft-2
+2020-03-14,BL,47,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-47-bestaetigte-faelle-in-basel-landschaft
+2020-03-15,BL,54,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-54-bestaetigte-faelle-in-basel-landschaft
+2020-03-16,BL,76,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-67-bestaetigte-faelle-in-basel-landschaft
+2020-03-17,BL,89,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-89-bestaetigte-faelle-in-basel-landschaft
+2020-03-18,BL,116,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-116-bestaetigte-faelle-in-basel-landschaft
+2020-03-19,BL,134,NA,NA,2,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-131-bestaetigte-faelle-in-basel-landschaft
 2020-03-06,BS,17,NA,NA,,,,
 2020-03-07,BS,22,NA,NA,,,,
 2020-03-08,BS,25,NA,NA,,,,
