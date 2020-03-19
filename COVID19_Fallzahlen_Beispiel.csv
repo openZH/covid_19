@@ -1,2 +1,2 @@
-Date,Area,NewTestedCases,NewConfCases,NewPosTests1,NewHospitalized,NewCured,NewDeaths,Source
-27.02.2020,BS,,0,1,,,,https://www.coronavirus.bs.ch
+date,canton,tested,tested_pos,confirmed,time,deceased,hospitalized,recovered,source
+2020-02-27,BS,,,0,1,,,,https://www.coronavirus.bs.ch
