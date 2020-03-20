@@ -6,24 +6,24 @@
 
 # COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
-We are providing COVID-19 case data in machine-readable form (CSV) as OGD resources (Open Government Data), that has been communicated by official sources (Cantons and FL).
+We are providing COVID-19 case data *in machine-readable form (CSV) as OGD resources (Open Government Data)*, that *has been published online by official sources (Cantons and FL)*.
 
-We seek to cover all Cantons, and to update the data automatically (by web scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73 
+We seek to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73 
 
 (Status: 2020-03-21 01:00)
 | OGD resource | updated by | latest update | Official source(s) |
 |--------------|------------|---------------|--------------------|
-|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-20|see OGD resource|
-|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|web scraping|2020-03-20|see OGD resource|
-|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|manually|2020-03-14|see OGD resource|
-|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|manually|2020-03-18|see OGD resource|
-|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BE_total.csv)|web scraping|2020-03-20|see OGD resource|
-|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BL_total.csv)|manually|2020-03-20|see OGD resource|
-|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BS_total.csv)|manually|2020-03-20|see OGD resource|
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
+|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|
+|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|manually|2020-03-14|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|
+|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|manually|2020-03-18|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|
+|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BE_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BE_total.csv)|
+|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BL_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BL_total.csv)|
+|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BS_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BS_total.csv)|
 |FR|   |   |https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation|
 |GE|   |2020-03-20|https://www.ge.ch/document/point-coronavirus-maladie-covid-19|
 |GL|   |   |   |
-|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|manually|2020-03-19|see OGD resource|
+|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|manually|2020-03-19|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|
 
 
 
