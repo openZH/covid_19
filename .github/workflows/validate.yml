@@ -1,9 +1,6 @@
 name: Validate csv data
 
-on: 
-  push:
-    paths:
-    - '**.csv'
+on: [push]
 
 jobs: 
   validate:
@@ -14,5 +11,5 @@ jobs:
 
     - name: validate
       run: | 
-        npm install -g csval
+        sudo npm install -g csval
         ./validate_csv.sh
