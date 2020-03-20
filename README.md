@@ -4,11 +4,11 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
 
-# COVID-19 Cases in Switzerland
+# COVID-19 Cases in Switzerland and Principality of Liechtenstein (FL)
 
-| Canton and FL | OGD resource | updated by | latest update | Official source(s) |
-|---------------|--------------|------------|---------------|--------------------|
-|FL|https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv |manually|2020-03-20|see OGD resource|
+| OGD resource | updated by | latest update | Official source(s) |
+|--------------|------------|---------------|--------------------|
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv) |manually|2020-03-20|see OGD resource|
 
 ## Cases Canton ZH
 COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in the Canton of Zürich. The data is updated once a day (times of collection and update may vary). 
