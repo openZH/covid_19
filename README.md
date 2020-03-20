@@ -115,7 +115,23 @@ Definition of not self-explanatory column names of the data resources are:
 Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
 
 # Data structure
-The data is structured in such a way, it can be easily expanded both horizontally (Cantons) and vertically (Confederation).
+The data of the cantonal case numbers is structured in such a way, it can be easily expanded both horizontally (Cantons) and vertically (Confederation).
+
+[example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
+
+| Field Name          | Description                                | Format     |
+|---------------------|--------------------------------------------|------------|
+| date               | Date of notification                       | YYYY-MM-DD |
+| time                | Time of notification                       | HH:MM      |
+| abbreviation_canton | Abbreciation of the reporting canton       | Text       |
+| ncumul_tested      | Tests performed (cumulative)               | Number     |
+| ncumul_conf         | Number of confirmed cases                  | Number     |
+| ncumul_hosp         | Number of hospitalised patients            | Number     |
+| ncumul_ICU          | Number of hospitalised patients in ICUs    | Number     |
+| ncumul_vent         | Number of patients requiring ventilation   | Number     |
+| ncumul_released     | Number of patients released from hospitals | Number     |
+| ncumul_deceased     | Number of deceased                         | Number     |
+| source              | Source of the information                  | href       |
 
 The aim is to create a common official OGD dataset of the Swiss Authorities.
 
