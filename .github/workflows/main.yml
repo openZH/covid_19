@@ -27,6 +27,14 @@ jobs:
         morph_key: ${{ secrets.MORPH_KEY }}
       run: curl "https://morph.io/metaodi/covid-19-scraper-canton-sg/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv  
       
+    #validate CSV
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm ci
+    - run: npm test
+      
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
