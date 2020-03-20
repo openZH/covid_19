@@ -1,5 +1,6 @@
 const csval = require("csval");
 const fs = require("fs").promises;
+const path = require('path');
 
 const rules = require("../schema.json");
 
@@ -25,7 +26,7 @@ const validateSequentially = async csvFiles => {
 };
 
 const run = async () => {
-  const csvFiles = (await fs.readdir(process.cwd())).filter(f =>
+  const csvFiles = (await fs.readdir(path.resolve(process.cwd(), 'fallzahlen_kanton_total_csv'))).filter(f =>
     f.match(/^COVID19_.+\.csv$/)
   );
 
