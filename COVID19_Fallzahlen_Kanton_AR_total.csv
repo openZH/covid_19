@@ -1,5 +1,4 @@
-Date,Area,TotalTestedCases,TotalConfCases,TotalPosTests1,TotalCured,TotalDeaths,Source
-05.03.2020,Canton_AR,,1,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/news-aus-dem-departement/detail/news/coronavirusersterfallinappenzellausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=fb1a9cf08108cdc7b82780b9239b009d
-09.03.2020,Canton_AR,,2,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
-12.03.2020,Canton_AR,,5,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-drei-neue-faelle-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=272411484066c8fb971dcc838aa96ef9
-
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumul_ICU,ncumul_vent,ncumul_released,ncumul_deceased,source
+05.03.2020,,AR,,1,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/news-aus-dem-departement/detail/news/coronavirusersterfallinappenzellausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=fb1a9cf08108cdc7b82780b9239b009d
+09.03.2020,,AR,,2,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
+12.03.2020,,AR,,5,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-drei-neue-faelle-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=272411484066c8fb971dcc838aa96ef9
