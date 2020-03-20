@@ -4,12 +4,15 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
 
-# COVID-19 Cases in Switzerland (CH) and Principality of Liechtenstein (FL)
+# COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
+We are providing COVID-19 case data, that has been communicated by official sources (Cantons and FL), in machine-readable form (CSV). We seek to update the data automatically (by web scraping or pipeline). Join our challenge to contribute to our goal: https://db.schoolofdata.ch/project/73 
+
+(Status: 2020-03-21 01:00)
 | OGD resource | updated by | latest update | Official source(s) |
 |--------------|------------|---------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-20|see OGD resource|
-|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|scraping|2020-03-20|see OGD resource|
+|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|web scraping|2020-03-20|see OGD resource|
 |[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|manually|2020-03-14|see OGD resource|
 |[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|manually|2020-03-18|see OGD resource|
 
