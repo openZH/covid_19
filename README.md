@@ -11,6 +11,8 @@
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-20|see OGD resource|
 |[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|scraping|2020-03-20|see OGD resource|
 |[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|manually|2020-03-14|see OGD resource|
+|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|manually|2020-03-18|see OGD resource|
+
 
 
 
