@@ -6,9 +6,9 @@
 
 # COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
-We are providing COVID-19 case data, that has been communicated by official sources (Cantons and FL), in machine-readable form (CSV). We seek to update the data automatically (by web scraping or pipeline). 
+We are providing COVID-19 case data in machine-readable form (CSV) as OGD resources (Open Government Data), that has been communicated by official sources (Cantons and FL).
 
-Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73 
+We seek to cover all Cantons, and to update the data automatically (by web scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73 
 
 (Status: 2020-03-21 01:00)
 | OGD resource | updated by | latest update | Official source(s) |
@@ -20,6 +20,7 @@ Join our challenge to contribute to this goal: https://db.schoolofdata.ch/projec
 |[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BE_total.csv)|web scraping|2020-03-20|see OGD resource|
 |[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BL_total.csv)|manually|2020-03-20|see OGD resource|
 |[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BS_total.csv)|manually|2020-03-20|see OGD resource|
+|FR|   |   |https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation|
 
 
 
