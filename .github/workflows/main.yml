@@ -6,7 +6,6 @@ on: repository_dispatch
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   download:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -17,13 +16,19 @@ jobs:
     - uses: actions/checkout@v2
 
     # Download the latest BE file from morph.io
-    - name: Download CSV from morph.io
+    - name: Download BE CSV from morph.io
       env:
         morph_key: ${{ secrets.MORPH_KEY }}
       run: curl "https://morph.io/metaodi/covid-19-scraper-canton-be/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output COVID19_Fallzahlen_Kanton_BE_total.csv  
-
+    
+    # Download the latest file from morph.io
+    - name: Download SG CSV from morph.io
+      env:
+        morph_key: ${{ secrets.MORPH_KEY }}
+      run: curl "https://morph.io/metaodi/covid-19-scraper-canton-sg/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output COVID19_Fallzahlen_Kanton_SG_total.csv  
+      
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
-        commit_message: Update COVID19_Fallzahlen_Kanton_BE_total.csv
+        commit_message: Update covid-19 from morph.io scraper
         branch: ${{ github.head_ref }}
