@@ -5,6 +5,11 @@
 
 
 # COVID-19 Cases in Switzerland
+
+| Canton and FL | OGD resource | updated by | latest update | Official source 1 | Official source 2 |
+|---------------|--------------|------------|---------------|-------------------| ------------------|
+
+
 ## Cases Canton ZH
 COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in the Canton of Zürich. The data is updated once a day (times of collection and update may vary). 
 <br>Official source: https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) & https://twitter.com/gd_zuerich
@@ -16,7 +21,7 @@ COVID19 cases Canton of Aargau (AG) - case numbers include persons tested in the
 <br>Official source: https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
 
 ## Cases Canton AI
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
+Official source: https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/aktuelles/erste-bestaetigte-coronavirus-faelle-auch-in-innerrhoden
 
 ## Cases Canton AR
 Official source: https://twitter.com/AppAusserrhoden
