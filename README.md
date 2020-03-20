@@ -96,21 +96,10 @@ Official source: https://twitter.com/gesundZG
 ## Cases Canton ZH 
 Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
 
-Definition of not self-explanatory column names of the data resources are:
-- 'NewConfCases' = Newly confirmed cases (2nd tests are positive)
-- 'NewPosTests1' = Newly 1st tests, which are positive
-- 'TotalConfCases' = Total number of confirmed cases (2nd tests are positive)
-- 'TotalPosTests1' = Total number of 1st tests, which are positive
-
 ## Cases all Cantons CH
 Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-canton-of-switzerland-and-principality-of-liechtenstein
 
 *Important:* Data is being updated after the next official data publication incl. Cantonal level issued by the Federal Office of Public Health FOPH: https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081
-
-Definition of not self-explanatory column names of the data resources are:
-- 'tested_pos' = Newly 1st tests, which are positive
-- 'confirmed'= 2nd tests are positive
-- 'time' = timestamp of when the figures where published
 
 Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
 
