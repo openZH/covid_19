@@ -21,6 +21,10 @@ We seek to cover all Cantons, and to update the data automatically (by web scrap
 |[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BL_total.csv)|manually|2020-03-20|see OGD resource|
 |[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BS_total.csv)|manually|2020-03-20|see OGD resource|
 |FR|   |   |https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation|
+|GE|   |2020-03-20|https://www.ge.ch/document/point-coronavirus-maladie-covid-19|
+|GL|   |   |   |
+|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|manually|2020-03-19|see OGD resource|
+
 
 
 
@@ -29,41 +33,6 @@ COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in th
 <br>Official source: https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) & https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
-
-## Cases Canton AG
-COVID19 cases Canton of Aargau (AG) - case numbers include persons tested in the Canton of Aargau. The data is updated once a day (times of collection and update may vary). 
-<br>Official source: https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
-
-## Cases Canton AI
-Official source: https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/aktuelles/erste-bestaetigte-coronavirus-faelle-auch-in-innerrhoden
-
-## Cases Canton AR
-Official source: https://twitter.com/AppAusserrhoden
-
-## Cases Canton BE
-COVID19 cases Canton of Bern (BE) - case numbers include persons tested in the Canton of Bern. The data is updated once a day (times of collection and update may vary). 
-<br>Official source: https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html#originRequestUrl=www.be.ch/corona
-
-## Cases Canton BL
-COVID19 cases Canton of Basel-Landschaft (BL) - case numbers include persons tested in the Canton of Basel-Landschaft. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
-
-## Cases Canton BS
-COVID19 cases Canton of Basel-Stadt (BS) - case numbers include persons tested in the Canton of Basel-Stadt. The data is updated once a day (times of collection and update may vary). Sources are mentioned with the data.
-
-## Cases Principality of Liechtenstein FL
-Official source: https://www.regierung.li/coronavirus
-
-## Cases Canton FR
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton GE
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton GL
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton GR
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
 
 ## Cases Canton JU
 Official source: https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
