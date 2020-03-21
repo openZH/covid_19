@@ -2,16 +2,16 @@
 module.exports = function(app) {
     var controller = require('./controller');
 
-    app.route('/covid19')
+    app.route('/api')
         .get(controller.allData);
 
-    app.route('/covid19/date/:date')
+    app.route('/api/date/:date')
         .get(controller.findByDate);
 
-    app.route('/covid19/area/:area')
+    app.route('/api/area/:area')
         .get(controller.findByArea);
 
-    app.route('/covid19/date/:date/area/:area')
+    app.route('/api/date/:date/area/:area')
         .get(controller.findByDateAndArea);
 
 };
