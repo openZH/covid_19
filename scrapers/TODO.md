@@ -33,3 +33,9 @@ Kanton Schwyz, SZ:
 Kanton Zug, ZG:
  * https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
  * No information provided in general. It might be scattered for some specific days in random sub-articles.
+
+Des Fürstentums Liechtenstein, Principality of Lichtenstein, FL:
+ * https://www.regierung.li/coronavirus
+ * https://www.llv.li/inhalt/1908/amtsstellen/amt-fur-gesundheit
+ * https://www.llv.li/inhalt/118724/amtsstellen/coronavirus-2019_ncov
+ * No readily available numbers on any website. Some radio and video materials available.
