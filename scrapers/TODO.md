@@ -21,6 +21,11 @@ Kanton Obwalden, OW:
  * https://www.ow.ch/de/aktuelles/aktuellesinformationen/amtsmitteilungen/welcome.php?action=showinfo&info_id=63566&ls=0&sq=&kategorie_id=&date_from=&date_to=
  * Can't find numbers.
 
+Kanton Solothurn, SO:
+ * https://corona.so.ch/
+ * https://corona.so.ch/gesundheitsfachleute/aerzteschaft/
+ * Can't find any numbers anywhere.
+
 Kanton Schwyz, SZ:
  * https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
  * PDFs with unstructured text. Some of them contain numbers of cases, some doesn't.
