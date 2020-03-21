@@ -1,5 +1,5 @@
-<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="360"/>
-<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="400"/> 
+<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="180"/>
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/> 
 
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 
@@ -28,6 +28,12 @@ We seek to cover all Cantons, and to update the data automatically (by scraping 
 |[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|
 |NE|   |2020-03-20|https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx|
 |[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|
+|OW|   |   |   |
+|[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv)|
+|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)|
+
+
+
 
 
 
@@ -36,16 +42,6 @@ COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in th
 <br>Official source: https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) & https://twitter.com/gd_zuerich
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
-
-
-## Cases Canton OW
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton SG
-Official source: https://www.sg.ch/tools/informationen-coronavirus.html
-
-## Cases Canton SH
-Official source: https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 
 ## Cases Canton SO
 Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
