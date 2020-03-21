@@ -59,7 +59,7 @@ The data of the Cantonal case numbers is structured in such a way, it can be eas
 |---------------------|--------------------------------------------|------------|
 | date               | Date of notification                       | YYYY-MM-DD |
 | time                | Time of notification                       | HH:MM      |
-| abbreviation_canton | Abbreviation of the reporting canton       | Text       |
+| abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       |
 | ncumul_tested      | Tests performed (cumulative)               | Number     |
 | ncumul_conf         | Number of confirmed cases                  | Number     |
 | ncumul_hosp         | Number of hospitalised patients            | Number     |
