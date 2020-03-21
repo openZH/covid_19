@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "time": {
+      "type": "string",
+      "format": "time"
+    },
+    "abbreviation_canton": {
+      "type": "string",
+      "enum": [
+        "AG",
+        "AI",
+        "AR",
+        "BE",
+        "BL",
+        "BS",
+        "FR",
+        "GE",
+        "GL",
+        "GR",
+        "JU",
+        "LU",
+        "NE",
+        "NW",
+        "OW",
+        "SG",
+        "SH",
+        "SZ",
+        "TG",
+        "TI",
+        "UR",
+        "VD",
+        "VS",
+        "ZG",
+        "ZH"
+      ]
+    },
+    "ncumul_tested": {
+      "type": "integer"
+    },
+    "ncumul_conf": {
+      "type": "integer"
+    },
+    "ncumul_hosp": {
+      "type": "integer"
+    },
+    "ncumul_ICU": {
+      "type": "integer"
+    },
+    "ncumul_vent": {
+      "type": "integer"
+    },
+    "ncumul_released": {
+      "type": "integer"
+    },
+    "ncumul_deceased": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": ["date"]
+}

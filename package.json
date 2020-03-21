@@ -7,6 +7,6 @@
     "csval": "^1.0.6"
   },
   "scripts": {
-    "test": "node scripts/validate-schema.js"
+    "test": "node scripts/validate-schema.js fallzahlen_kanton_total_csv"
   }
 }
