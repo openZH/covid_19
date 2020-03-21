@@ -24,7 +24,11 @@ We seek to cover all Cantons, and to update the data automatically (by scraping 
 |GE|   |2020-03-20|https://www.ge.ch/document/point-coronavirus-maladie-covid-19|
 |GL|   |   |   |
 |[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|manually|2020-03-19|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|
-
+|[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_JU_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_JU_total.csv)|
+|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv
+)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|
+|NE|   |2020-03-20|https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx|
+|[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|
 
 
 
@@ -34,17 +38,6 @@ COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in th
 
 *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
 
-## Cases Canton JU
-Official source: https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
-
-## Cases Canton LU
-Official source: https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-
-## Cases Canton NE
-Official source: https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
-
-## Cases Canton NW
-Official source: https://www.nw.ch/gesundheitsamtdienste/6044
 
 ## Cases Canton OW
 Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
