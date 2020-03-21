@@ -61,45 +61,55 @@ months_all.update(months_it)
 def parse_date(d):
   d = d.replace("&auml;", "ä")
   # print(d)
-  # Assignment expression. Requires Python 3.8 (October 14th, 2019).
-  if (mo := re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d),? (\d\d?)(?:[:\.](\d\d))? Uhr$', d)):
+  # This could be done more nice, using assignment expression. But that
+  # requires Python 3.8 (October 14th, 2019), and many distros still defaults
+  # to Python 3.7 or earlier.
+  mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d),? (\d\d?)(?:[:\.](\d\d))? Uhr$', d)
+  if mo:
     # 20. März 2020 15.00 Uhr
     # 21. März 2020, 10 Uhr
     # 21. M&auml;rz 2020, 11:00 Uhr
     # 21.03.2020, 15h30
     # 21. März 2020, 8.00 Uhr
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
-  if (mo := re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)):
+  mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
+  if mo:
     # 21. März 2020
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T"
-  if (mo := re.search(r'^(\d+)\.(\d+)\.(\d\d)$', d)):
+  mo = re.search(r'^(\d+)\.(\d+)\.(\d\d)$', d)
+  if mo:
     # 21.3.20
     assert 20 <= int(mo[3]) <= 21
     assert 1 <= int(mo[2]) <= 12
     return f"20{int(mo[3]):02d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-  if (mo := re.search(r'^(\d+)\.(\d+)\.(20\d\d), (\d\d?)[h\.](\d\d)', d)):
+  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d), (\d\d?)[h\.](\d\d)', d)
+  if mo:
     # 20.3.2020, 16.30
     # 21.03.2020, 15h30
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[2]) <= 12
     return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
-  if (mo := re.search(r'^(\d+)\.(\d+)\.(20\d\d)$', d)):
+  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d)$', d)
+  if mo:
     # 20.03.2020
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[2]) <= 12
     return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-  if (mo := re.search(r'^(\d+) ([^\W\d_]+) (20\d\d) \((\d+)h\)$', d)):
+  mo = re.search(r'^(\d+) ([^\W\d_]+) (20\d\d) \((\d+)h\)$', d)
+  if mo:
     # 21 mars 2020 (18h)
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[4]) <= 23
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:00"
-  if (mo := re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)$', d)):
+  mo = re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)$', d)
+  if mo:
     # 20.03 à 8h00
     assert 1 <= int(mo[2]) <= 12
     assert 1 <= int(mo[3]) <= 23
     assert 0 <= int(mo[4]) <= 59
     return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:{int(mo[4]):02d}"
-  if (mo := re.search(r'^(\d+) ([^\W\d_]+) (202\d), ore (\d+)\.(\d\d)$', d)):
+  mo = re.search(r'^(\d+) ([^\W\d_]+) (202\d), ore (\d+)\.(\d\d)$', d)
+  if mo:
     # 21 marzo 2020, ore 8.00
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
   assert False, f"Unknown date/time format: {d}"
