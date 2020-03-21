@@ -1,8 +1,8 @@
 <img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="180"/>
-<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/> 
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/>
 
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
 # COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
@@ -12,9 +12,11 @@ We are providing COVID-19 case numbers *in machine-readable form (CSV)* as OGD r
 
 Case numbers include persons tested and treated in the respective Canton resp. Principality of Liechtenstein. *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see e.g. with the Canton of Zurich "Testkriterien" at www.gd.zh.ch/coronavirus).
 
-The data is updated regularly - if available daily. Times of collection and update of the data may vary. 
+The data is updated regularly - if available daily. Times of collection and update of the data may vary.
 
 We are seeking to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73
+
+You can get started exploring the data with `visualise.ipynb` ([run it in your browser](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)).
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
 
@@ -71,7 +73,7 @@ The data of the Cantonal case numbers is structured in such a way, it can be eas
 
 
 # Metadata and explanations
-## Cases Canton ZH 
+## Cases Canton ZH
 Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
 
 ## Cases all Cantons CH
@@ -84,7 +86,7 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 
 # Community Contributions
 - https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
- 
+
 - https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
