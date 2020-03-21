@@ -35,9 +35,26 @@ months_fr = {
   "decembre": 12,
 }
 
+months_it = {
+  "gennaio": 1,
+  "febbraio": 2,
+  "marzo": 3,
+  "aprile": 4,
+  "maggio": 5,
+  "giugno": 6,
+  "luglio": 7,
+  "agosto": 8,
+  "settembre": 9,
+  "ottobre": 10,
+  "novembre": 11,
+  "dicembre": 12,
+}
+
+
 months_all = {}
 months_all.update(months_de)
 months_all.update(months_fr)
+months_all.update(months_it)
 
 
 
@@ -82,6 +99,9 @@ def parse_date(d):
     assert 1 <= int(mo[3]) <= 23
     assert 0 <= int(mo[4]) <= 59
     return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:{int(mo[4]):02d}"
+  if (mo := re.search(r'^(\d+) ([^\W\d_]+) (202\d), ore (\d+)\.(\d\d)$', d)):
+    # 21 marzo 2020, ore 8.00
+    return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
   assert False, f"Unknown date/time format: {d}"
 
 abbr=None

@@ -11,7 +11,8 @@
 #
 # Abbreviation of the canton first.
 #
-# Then scraped timestamp. Current time in ISO-8601 format.
+# Then scraped timestamp. Current time in ISO-8601 format. Implicitly in Swiss
+# timezone (TZ=Europe/Zurich), CET, or CEST.
 #
 # The information about time of when the data was published / gathered.
 # The data and time, or just time, can be omitted if not available.
