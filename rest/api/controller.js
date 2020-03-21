@@ -3,14 +3,17 @@
 const csvFile = __dirname + '/../../COVID19_Cases_Cantons_CH_total.csv';
 const csv = require('csvtojson');
 const request = require('request');
+const cron = require('node-cron');
+
 var allData;
 
-csv({
-    checkType: true
-})
-    //.fromFile(csvFile)
-    .fromStream(request.get('https://raw.githubusercontent.com/openZH/covid_19/master/COVID19_Cases_Cantons_CH_total.csv'))
-    .then(dataAsJson => allData = dataAsJson);
+// initial load
+loadData();
+
+// reaload each minute
+cron.schedule('* * * * *', function () {
+   loadData();
+});
 
 exports.allData = function (req, res) {
     res.json(allData);
@@ -35,3 +38,15 @@ exports.findByDateAndArea = function (req, res) {
     res.json(data)
 };
 
+function loadData() {
+    var dataLocation = 'https://raw.githubusercontent.com/openZH/covid_19/master/COVID19_Cases_Cantons_CH_total.csv';
+    csv({
+        checkType: true
+    })
+    //.fromFile(csvFile)
+        .fromStream(request.get(dataLocation))
+        .then(dataAsJson => {
+            allData = dataAsJson;
+            console.log(new Date().toISOString() + ': Data refreshed from: ' + dataLocation)
+        });
+}
