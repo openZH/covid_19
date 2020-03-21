@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
+# includes a content from datawrapper, which provides actual data and table rendering.
+
 echo VD
 d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
 echo "Scraped at: $(date --iso-8601=seconds)"
