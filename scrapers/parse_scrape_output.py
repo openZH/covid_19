@@ -60,17 +60,20 @@ months_all.update(months_it)
 
 def parse_date(d):
   d = d.replace("&auml;", "ä")
+  d = d.replace("&nbsp;", " ")
   # print(d)
   # This could be done more nice, using assignment expression. But that
   # requires Python 3.8 (October 14th, 2019), and many distros still defaults
   # to Python 3.7 or earlier.
-  mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d),? (\d\d?)(?:[:\.](\d\d))? Uhr$', d)
+  mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d),? (\d\d?)(?:[:\.](\d\d))? +Uhr$', d)
   if mo:
     # 20. März 2020 15.00 Uhr
     # 21. März 2020, 10 Uhr
     # 21. M&auml;rz 2020, 11:00 Uhr
     # 21.03.2020, 15h30
     # 21. März 2020, 8.00 Uhr
+    # 21.&nbsp;März 2020, 18.15&nbsp; Uhr
+    # 21. März 2020, 18.15  Uhr
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
   mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
   if mo:
@@ -113,6 +116,8 @@ def parse_date(d):
     # 21 marzo 2020, ore 8.00
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
   assert False, f"Unknown date/time format: {d}"
+
+
 
 abbr=None
 scrape_time=None
