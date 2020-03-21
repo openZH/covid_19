@@ -83,6 +83,7 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 
 
 # Community Contributions
+- https://rsalzer.github.io/COVID_19_CH/
 - https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
  
 - https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
