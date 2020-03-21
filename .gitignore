@@ -1,2 +1,5 @@
 .idea/*
+.DS_Store
+.~lock.*
+*.log
 node_modules
