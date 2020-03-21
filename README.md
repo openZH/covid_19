@@ -18,7 +18,7 @@ We are seeking to cover all Cantons, and to update the data automatically (by sc
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
 
-(Status: 2020-03-21 03:10)
+(Last roundtrip to check for updates: 2020-03-21 14:00-15:20)
 | OGD resource | updated by | latest update | Official source(s) |
 |--------------|------------|---------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-21 12:00|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
