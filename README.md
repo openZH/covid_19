@@ -25,8 +25,7 @@ We seek to cover all Cantons, and to update the data automatically (by scraping 
 |GL|   |   |   |
 |[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|manually|2020-03-19|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GR_total.csv)|
 |[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_JU_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_JU_total.csv)|
-|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv
-)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|
+|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_LU_total.csv)|
 |NE|   |2020-03-20|https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx|
 |[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|
 
