@@ -6,11 +6,19 @@
 
 # COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
-We are providing COVID-19 case data *in machine-readable form (CSV) as OGD resources (Open Government Data)*, that *has been published online by official sources (Cantons and FL)*.
+Our aim is to create a common official OGD dataset of COVID-19 cases of the Swiss Authorities.
 
-We seek to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73 
+We are providing COVID-19 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specifed with the respective URL(s).
 
-(Status: 2020-03-21 01:00)
+Case numbers include persons tested and treated in the respective Canton resp. Principality of Liechtenstein. *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see e.g. with the Canton of Zurich "Testkriterien" at www.gd.zh.ch/coronavirus).
+
+The data is updated regularly - if available daily. Times of collection and update of the data may vary. 
+
+We are seeking to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73
+
+We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
+
+(Status: 2020-03-21 03:10)
 | OGD resource | updated by | latest update | Official source(s) |
 |--------------|------------|---------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
@@ -30,57 +38,20 @@ We seek to cover all Cantons, and to update the data automatically (by scraping 
 |[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_NW_total.csv)|
 |OW|   |   |   |
 |[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv)|
-|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)| scraping|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)|
+|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)| manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SH_total.csv)|
+|SO|   |   |   |
+|SZ|   |   |   |
+|[TG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_TG_total.csv)| manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_TG_total.csv)|
+|[TI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_TI_total.csv)| manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_TI_total.csv)|
+|[UR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_UR_total.csv)| manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_UR_total.csv)|
+|[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VD_total.csv)|manually|2020-03-19|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VD_total.csv)|
+|[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VS_total.csv)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VS_total.csv)|
+|[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZG_total.csv
+)|manually|2020-03-20|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZG_total.csv)|
 
-
-
-
-
-
-## Cases Canton ZH
-COVID19 cases Canton of Zürich (ZH) - case numbers include persons tested in the Canton of Zürich. The data is updated once a day (times of collection and update may vary). 
-<br>Official source: https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7) & https://twitter.com/gd_zuerich
-
-*Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see "Testkriterien" at www.gd.zh.ch/coronavirus).
-
-## Cases Canton SO
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton SZ
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton TG
-COVID19 cases Canton of Thurgau (TG) - case numbers include persons tested in the Canton of Thurgau. The data is updated once a day (times of collection and update may vary). 
-<br>Official source: https://twitter.com/Kanton_Thurgau & https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-
-## Cases Canton TI
-Official source: https://www4.ti.ch/area-media/comunicati/?parole=&periodo=&FONTE=23690&NEWS_TYPE=
-
-## Cases Canton UR
-Official source: https://www.ur.ch/mmdirektionen
-
-## Cases Canton VD
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton VS
-Official source: *Please report official government sources to us: https://twitter.com/OpenDataZH - we will check and give you feedback. Thanks!*
-
-## Cases Canton ZG
-Official source: https://twitter.com/gesundZG
-
-# Metadata and explanations
-## Cases Canton ZH 
-Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
-
-## Cases all Cantons CH
-Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-canton-of-switzerland-and-principality-of-liechtenstein
-
-*Important:* Data is being updated after the next official data publication incl. Cantonal level issued by the Federal Office of Public Health FOPH: https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081
-
-Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
 
 # Data structure
-The data of the cantonal case numbers is structured in such a way, it can be easily expanded both horizontally (Cantons) and vertically (Confederation).
+The data of the Cantonal case numbers is structured in such a way, it can be easily expanded vertically (Confederation).
 
 [example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
 
@@ -98,9 +69,18 @@ The data of the cantonal case numbers is structured in such a way, it can be eas
 | ncumul_deceased     | Number of deceased                         | Number     |
 | source              | Source of the information                  | href       |
 
-The aim is to create a common official OGD dataset of the Swiss Authorities.
 
-We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
+# Metadata and explanations
+## Cases Canton ZH 
+Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
+
+## Cases all Cantons CH
+Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-canton-of-switzerland-and-principality-of-liechtenstein
+
+*Important:* Data is being updated after the next official data publication incl. Cantonal level issued by the Federal Office of Public Health FOPH: https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081
+
+Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
+
 
 # Community Contributions
 - https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
