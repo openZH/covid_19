@@ -92,4 +92,6 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
+- https://covid19.ddrobotec.com/ based on accumulated data from https://github.com/zdavatz/covid19_ch
+
 Many thanks for the great work!
