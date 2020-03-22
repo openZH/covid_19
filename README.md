@@ -85,14 +85,20 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 
 
 # Community Contributions
-## Visualization of Swiss and Cantonal Case Numbers over Time
+### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
-- https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
+- https://rsalzer.github.io/COVID_19_KT_ZH/ 
+<br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
 
-## Operations Dashboard
-- https://covid19.ddrobotec.com/ (github:  https://github.com/zdavatz/covid19_ch) <br>Zeno Davatz on Twitter: https://twitter.com/zdavatz
+### Operations Dashboard
+- https://covid19.ddrobotec.com/ 
+[github-repo](https://github.com/zdavatz/covid19_ch) 
+<br>Zeno Davatz on Twitter: https://twitter.com/zdavatz
 
-- https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
+### corona-data.ch
+- https://www.corona-data.ch/ 
+[github-repo](https://github.com/daenuprobst/covid19-cases-switzerland) 
+<br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
