@@ -84,6 +84,10 @@ Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-cant
 Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
 
 
+# REST-API
+We provide a REST-API to read the data of [COVID19_Cases_Cantons_CH_total.csv](./COVID19_Cases_Cantons_CH_total.csv) in a machine-readable manner.
+[Read more.](./rest/README.md)
+
 # Community Contributions
 - https://rsalzer.github.io/COVID_19_CH/
 - https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
@@ -93,5 +97,7 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
 - https://covid19.ddrobotec.com/ based on accumulated data from https://github.com/zdavatz/covid19_ch
+
+- https://github.com/apfeuti <br>Andreas Pfeuti
 
 Many thanks for the great work!

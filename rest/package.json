@@ -1,0 +1,34 @@
+{
+  "name": "openzh-covid19-rest-api",
+  "version": "1.0.0",
+  "description": "A rest-api for the COVID19-data in Switzerland, collected by openZH. See https://github.com/openZH/covid_19",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openZH/covid_19.git"
+  },
+  "keywords": [
+    "covid19",
+    "Switzerland-Corona",
+    "openZH"
+  ],
+  "author": "Andreas Pfeuti",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/openZH/covid_19/issues"
+  },
+  "homepage": "https://github.com/openZH/covid_19#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
