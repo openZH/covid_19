@@ -74,6 +74,7 @@ def parse_date(d):
     # 21. März 2020, 8.00 Uhr
     # 21.&nbsp;März 2020, 18.15&nbsp; Uhr
     # 21. März 2020, 18.15  Uhr
+    # 21. März 2020, 14.00 Uhr
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
   mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
   if mo:
