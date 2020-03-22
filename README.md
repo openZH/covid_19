@@ -88,6 +88,8 @@ Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-s
 - https://rsalzer.github.io/COVID_19_CH/
 - https://rsalzer.github.io/COVID_19_KT_ZH/ <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
 
+- https://covid19.ddrobotec.com/ (github:  https://github.com/zdavatz/covid19_ch) <br>Zeno Davatz on Twitter: https://twitter.com/zdavatz
+
 - https://github.com/daenuprobst/covid19-cases-switzerland <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
