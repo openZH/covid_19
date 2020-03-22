@@ -1,13 +1,20 @@
-List of other cantons to add, which were investigated briefly, and did
-present some issue, or had no data available.
+List of other cantons to add (implement), which were investigated
+briefly, and did present some issue, or had no data available.
 
-We should active look for alternative source of data for these cantons,
-or push cantonal authorities to provide these data regularly on their
-website in more structured way for everybody.
+We should actively look for alternative sources of data for these
+cantons, or push cantonal authorities to provide these data regularly on
+their website in more structured way for everybody.
 
 Appenzell Innerrhoden, AI:
  * https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
  * Can't find any numbers.
+
+Appenzell Ausserrhoden, AR:
+ * https://ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus
+ * https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-drei-neue-faelle-in-appenzell-ausserrhoden/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=272411484066c8fb971dcc838aa96ef9
+ * https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-bevoelkerung-und-alle-spitaeler-machen-bei-der-gesundheitsversorgung-mit/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3d2a0733446b5fc7cdad0f48f61c28fd
+ * https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-erster-todesfall-in-appenzell-ausserrhoden/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=a88f209df29c38474f9c5f9e1c5dd53f
+ * Information not frequently updated, and scattered in random sub-articles, or missing.
 
 canton de Fribourg, Kanton Freiburg, FR:
  * https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation
@@ -39,3 +46,4 @@ Des Fürstentums Liechtenstein, Principality of Lichtenstein, FL:
  * https://www.llv.li/inhalt/1908/amtsstellen/amt-fur-gesundheit
  * https://www.llv.li/inhalt/118724/amtsstellen/coronavirus-2019_ncov
  * No readily available numbers on any website. Some radio and video materials available.
+
