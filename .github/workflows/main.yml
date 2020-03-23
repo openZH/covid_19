@@ -23,10 +23,10 @@ jobs:
     #  run: curl "https://morph.io/metaodi/covid-19-scraper-canton-be/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_BE_total.csv  
     
     # Download the latest SG file from morph.io
-    - name: Download SG CSV from morph.io
-      env:
-        morph_key: ${{ secrets.MORPH_KEY }}
-      run: curl "https://morph.io/metaodi/covid-19-scraper-canton-sg/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv  
+    # - name: Download SG CSV from morph.io
+    #  env:
+    #    morph_key: ${{ secrets.MORPH_KEY }}
+    #  run: curl "https://morph.io/metaodi/covid-19-scraper-canton-sg/data.csv?key=$morph_key&query=select+%2A+from+%22data%22" --output fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv  
     
     
     # Download the latest JU file from morph.io
