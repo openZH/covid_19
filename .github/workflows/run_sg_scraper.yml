@@ -5,7 +5,7 @@ on:
     - cron:  '*/5 * * * *'
 
 jobs:
-  build:
+  run_scraper:
 
     runs-on: ubuntu-latest
     strategy:
@@ -34,10 +34,10 @@ jobs:
         
     - name: Export database as csv
       run: |
-        sqlite3 -header -csv data.sqlite "select * from data;" > fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv
+        sqlite3 -header -csv scrapers/data.sqlite "select * from data;" > fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv
         
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
-        commit_message: Update covid-19 from morph.io scraper
+        commit_message: Update COVID19_Fallzahlen_Kanton_SG_total.csv from scraper
         branch: ${{ github.head_ref }}
