@@ -75,6 +75,7 @@ def parse_date(d):
     # 21.&nbsp;März 2020, 18.15&nbsp; Uhr
     # 21. März 2020, 18.15  Uhr
     # 21. März 2020, 14.00 Uhr
+    # 23. M&auml;rz 2020, 15 Uhr
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
   mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
   if mo:
@@ -127,6 +128,7 @@ date=None
 cases=None
 deaths=None
 recovered=None
+hospitalized=None
 
 i = 0
 for line in sys.stdin:
@@ -153,6 +155,9 @@ for line in sys.stdin:
     continue
   if k.startswith("Recovered"):
     recovered = int(v)
+    continue
+  if k.startswith("Hospitalized"):
+    hospitalized = int(v)
     continue
   assert False, f"Unknown data on line {i}: {l}"
 
