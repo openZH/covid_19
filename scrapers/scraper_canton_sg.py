@@ -8,6 +8,7 @@ import json
 import dateparser
 import traceback
 import os
+import sys
 
 DATABASE_NAME = 'data.sqlite'
 conn = sqlite3.connect(DATABASE_NAME)
@@ -116,6 +117,6 @@ try:
 except Exception as e:
     print("Error: %s" % e)
     print(traceback.format_exc())
-    raise
+    sys.exit(1)
 finally:
     conn.close()
