@@ -2,7 +2,7 @@
 set -e
 
 echo UR
-d=$(curl --silent "https://www.ur.ch/themen/2920" | egrep "Personen gestiegen|Anstieg auf [0-9]+ Person")
+d=$(./download.sh "https://www.ur.ch/themen/2920" | egrep "Personen gestiegen|Anstieg auf [0-9]+ Person")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

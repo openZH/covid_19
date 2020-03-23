@@ -2,7 +2,7 @@
 set -e
 
 echo NE
-d=$(curl --silent "https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx" | grep 'Nombre de cas confirmés')
+d=$(./download.sh "https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx" | grep 'Nombre de cas confirmés')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

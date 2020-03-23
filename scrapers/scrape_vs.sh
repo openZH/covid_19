@@ -2,7 +2,7 @@
 set -e
 
 echo VS
-d=$(curl --silent "https://www.vs.ch/de/web/coronavirus" | egrep "bestätigte Fälle")
+d=$(./download.sh "https://www.vs.ch/de/web/coronavirus" | egrep "bestätigte Fälle")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # <p>21.03.2020: Derzeit gibt es 359 bestätigte Fälle von Coronavirus-Infektionen im Kanton.&nbsp;Insgesamt hat das Virus bisher den Tod von 9&nbsp;Personen im Wallis verursacht.</p>

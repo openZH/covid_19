@@ -2,8 +2,8 @@
 set -e
 
 echo BS
-URL=$(curl --silent "https://www.gd.bs.ch/" | egrep 'Tagesbulletin.*Corona' | grep href | head -1 | awk -F '"' '{print $2;}')
-d=$(curl --silent "https://www.gd.bs.ch/${URL}" | grep "positive Fälle")
+URL=$(./download.sh "https://www.gd.bs.ch/" | egrep 'Tagesbulletin.*Corona' | grep href | head -1 | awk -F '"' '{print $2;}')
+d=$(./download.sh "https://www.gd.bs.ch/${URL}" | grep "positive Fälle")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

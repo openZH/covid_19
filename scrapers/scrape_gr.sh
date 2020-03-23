@@ -2,7 +2,7 @@
 set -e
 
 echo GR
-d=$(curl --silent "https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx" | egrep ">Fallzahlen|Best(ä|&auml;)tigte F(ä|&auml;)lle|Personen in Spitalpflege|Verstorbene Personen")  # " # - to make my editor happy
+d=$(./download.sh "https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx" | egrep ">Fallzahlen|Best(ä|&auml;)tigte F(ä|&auml;)lle|Personen in Spitalpflege|Verstorbene Personen")  # " # - to make my editor happy
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

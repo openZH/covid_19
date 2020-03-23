@@ -2,7 +2,7 @@
 set -e
 
 echo SG
-d=$(curl --silent "https://www.sg.ch/tools/informationen-coronavirus.html" | grep "Bestätigte Fälle:")
+d=$(./download.sh "https://www.sg.ch/tools/informationen-coronavirus.html" | grep "Bestätigte Fälle:")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # 									<div class="col-xs-12"><p>20.03.2020:<br/>Bestätigte Fälle: 98<br/><br/></p></div>

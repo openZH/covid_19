@@ -2,7 +2,7 @@
 set -e
 
 echo AR
-d=$(curl --silent "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/" | egrep "Appenzell Ausserrhoden hat.*Stand.*bestätigte Fälle")
+d=$(./download.sh "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/" | egrep "Appenzell Ausserrhoden hat.*Stand.*bestätigte Fälle")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 

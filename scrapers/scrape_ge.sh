@@ -2,7 +2,7 @@
 set -e
 
 echo GE
-d=$(curl --silent "https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger" | pdftotext - - | egrep -B 1 "Dans le canton de Genève|Actuellement.*cas ont|décédées|hospitalisés")
+d=$(./download.sh "https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger" | pdftotext - - | egrep -B 1 "Dans le canton de Genève|Actuellement.*cas ont|décédées|hospitalisés")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 cat >/dev/null <<EOF

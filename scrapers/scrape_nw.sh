@@ -2,7 +2,7 @@
 set -e
 
 echo NW
-d=$(curl --silent "https://www.nw.ch/gesundheitsamtdienste/6044" | egrep "Stand:|Bisher ist bei")
+d=$(./download.sh "https://www.nw.ch/gesundheitsamtdienste/6044" | egrep "Stand:|Bisher ist bei")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # <p class="icmsPContent icms-wysiwyg-first"><em>Stand: 21.&nbsp;März 2020, 18.15&nbsp; Uhr</em></p>

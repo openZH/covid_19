@@ -2,7 +2,7 @@
 set -e
 
 echo ZG
-d=$(curl --silent "https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona" | egrep 'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:')
+d=$(./download.sh "https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona" | egrep 'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 
