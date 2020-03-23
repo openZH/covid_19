@@ -1,34 +1,34 @@
 # Scrapers status
 
-| Canton | Status | Source quality | Comment |
-| ------ | ------ | -------------- | ------- |
-| AG     | 1      | 2              | Indirect daily PDFs URL. Tricky extraction |
-| AI     | 0      | 0              | No reliable data of any kind |
-| AR     | 2      | 3              | Ok. Easy to extract. |
-| BE     | 2      | 3              | Okish |
-| BL     | 1      | 1.5            | Indirect daily updates on separate pages. Non robust extraction. |
-| BS     | 2      | 2              | Indirect sub-page. Easy extraction. |
-| FR     | 0      | 0              | No reliable data of any kind |
-| GE     | 2      | 3              | Okish |
-| GL     | 2      | 3              | Okish. Blocks curl heavily by default. |
-| GR     | 2      | 3              | Okish |
-| JU     | 2      | 3              | Okish. Blocks curl by default. |
-| LU     | 2.5    | 3              | Okish |
-| NE     | 2      | 3              | Okish. Could be better. |
-| NW     | 2      | 3              | Okish. Could be better. |
-| OW     | 1      | 2.5            | Okish. Could be better. Like to break soon. |
-| SG     | 2      | 3              | Okish. Could be better. |
-| SH     | 2      | 2.5            | Okish. Hacky, relays on a lot of JavaScript dynamic content! |
-| SO     | 2      | 3              | Ok. Easy to extract. |
-| SZ     | 1      | 1              | Unreliable data in indirect PDFs. Very aggressive and long blocking of IP after bad requests! Blocking of curl. |
-| TG     | 2      | 3              | Okish. Could be better. |
-| TI     | 2      | 3              | Okish. Burried in a nest of tags. |
-| UR     | 2.5    | 3              | Okish. |
-| VD     | 3      | 4              | Easy extraction of all metadata, including history |
-| VS     | 2      | 3              | Okish. A little bit risky extraction. |
-| ZG     | 3      | 3              | Ok. Very easy to extract. Robust |
-| ZH     | 2.5    | 3              | Okish. |
-| FL     | 0      | 0              | No reliable data of any kind |
+| Canton | Status | Source quality | Auto-Update via GitHub Actions | Comment |
+| ------ | ------ | -------------- | ------------------------------ |------- |
+| AG     | 1      | 2              | no                             | Indirect daily PDFs URL. Tricky extraction |
+| AI     | 0      | 0              | no                             | No reliable data of any kind |
+| AR     | 2      | 3              | yes                            | Ok. Easy to extract. |
+| BE     | 2      | 3              | yes                            | Okish |
+| BL     | 1      | 1.5            | no                             | Indirect daily updates on separate pages. Non robust extraction. |
+| BS     | 2      | 2              | no                             | Indirect sub-page. Easy extraction. |
+| FR     | 0      | 0              | no                             | No reliable data of any kind |
+| GE     | 2      | 3              | yes                            | Okish |
+| GL     | 2      | 3              | no                             | Okish. Blocks curl heavily by default. |
+| GR     | 2      | 3              | yes                            | Okish |
+| JU     | 2      | 3              | yes                            | Okish. Blocks curl by default. |
+| LU     | 2.5    | 3              | yes                            | Okish |
+| NE     | 2      | 3              | yes                            | Okish. Could be better. |
+| NW     | 2      | 3              | yes                            | Okish. Could be better. |
+| OW     | 1      | 2.5            | no                             | Okish. Could be better. Like to break soon. |
+| SG     | 2      | 3              | yes                            | Okish. Could be better. |
+| SH     | 2      | 2.5            | yes                            | Okish. Hacky, relays on a lot of JavaScript dynamic content! |
+| SO     | 2      | 3              | yes                            | Ok. Easy to extract. |
+| SZ     | 1      | 1              | no                             | Unreliable data in indirect PDFs. Very aggressive and long blocking of IP after bad requests! Blocking of curl. |
+| TG     | 2      | 3              | yes                            | Okish. Could be better. |
+| TI     | 2      | 3              | no                             | Okish. Burried in a nest of tags. |
+| UR     | 2.5    | 3              | yes                            | Okish. |
+| VD     | 3      | 4              | no                             | Easy extraction of all metadata, including history |
+| VS     | 2      | 3              | yes                            | Okish. A little bit risky extraction. |
+| ZG     | 3      | 3              | yes                            | Ok. Very easy to extract. Robust |
+| ZH     | 2.5    | 3              | no                             | Okish. |
+| FL     | 0      | 0              | no                             | No reliable data of any kind |
 
 ## Table legend
 
