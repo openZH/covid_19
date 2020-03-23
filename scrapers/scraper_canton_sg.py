@@ -17,28 +17,6 @@ __location__ = os.path.realpath(
     )
 )
 
-try:
-    # open database
-    DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
-    conn = sqlite3.connect(DATABASE_NAME)
-
-    # canton sg - start url
-    start_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
-
-    # get page with data on it
-    page = requests.get(start_url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-
-
-    parse_page(soup, conn)
-except Exception as e:
-    print("Error: %s" % e)
-    print(traceback.format_exc())
-    sys.exit(1)
-finally:
-    conn.close()
-
-
 def parse_page(soup, conn):
     data = {
         'date': None,
@@ -108,3 +86,24 @@ def parse_page(soup, conn):
         print("Error: Data for this date + time has already been added")
     finally:
         conn.commit()
+
+try:
+    # open database
+    DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
+    conn = sqlite3.connect(DATABASE_NAME)
+
+    # canton sg - start url
+    start_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
+
+    # get page with data on it
+    page = requests.get(start_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+
+    parse_page(soup, conn)
+except Exception as e:
+    print("Error: %s" % e)
+    print(traceback.format_exc())
+    sys.exit(1)
+finally:
+    conn.close()
