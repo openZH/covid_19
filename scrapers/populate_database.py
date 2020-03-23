@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 # This script creates a new sqlite database based on the CSV is reiceives as an argument
 # The sqlite database is used as an intermediate step to merge new data in existing CSVs
