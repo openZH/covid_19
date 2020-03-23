@@ -9,6 +9,8 @@ function cleanup {
 }
 trap "cleanup" EXIT
 
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
 
 # SCRAPER_KEY must be set
 if [ -z $SCRAPER_KEY ] || [ -z $SCRAPER_SOURCE ] ; then
@@ -18,13 +20,13 @@ fi
 
 # 1. populate the database with the current CSV
 echo "Populating database from CSV COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv..."
-./populate_database.py ../fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+$DIR/populate_database.py $DIR/../fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
 
 # 2. run the scraper, update the db
 echo "Run the scraper..."
-scrape_script="./scrape_${SCRAPER_KEY,,}.sh"
-$scrape_script | ./parse_scrape_output.py | ./add_db_entry.py
+scrape_script="${DIR}/scrape_${SCRAPER_KEY,,}.sh"
+$scrape_script | $DIR/parse_scrape_output.py | $DIR/add_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv ./data.sqlite "select * from data;" > ../fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data;" > $DIR/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
