@@ -29,4 +29,4 @@ $scrape_script | $DIR/parse_scrape_output.py | $DIR/add_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv $DIR/data.sqlite "select * from data;" > $DIR/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data;" > $DIR/../fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
