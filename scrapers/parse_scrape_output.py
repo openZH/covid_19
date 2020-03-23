@@ -118,6 +118,10 @@ def parse_date(d):
   if mo:
     # 21 marzo 2020, ore 8.00
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
+  mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)$', d)
+  if mo:
+    # 2020-03-23
+    return mo[1]
   assert False, f"Unknown date/time format: {d}"
 
 
