@@ -10,7 +10,7 @@
 | BS     | 2      | 2              | Indirect sub-page. Easy extraction. |
 | FR     | 0      | 0              | No reliable data of any kind |
 | GE     | 2      | 3              | Okish |
-| GL     | 1      | 1.5            | Indirect sub-pages. Non robust extraction |
+| GL     | 2      | 3              | Okish. Blocks curl heavily by default. |
 | GR     | 2      | 3              | Okish |
 | JU     | 2      | 3              | Okish. Blocks curl by default. |
 | LU     | 2.5    | 3              | Okish |
