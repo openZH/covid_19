@@ -144,6 +144,7 @@ for line in sys.stdin:
     date = parse_date(v)
     continue
   if k.startswith("Confirmed cases"):
+    v = re.sub(r'\W+', '', v)
     cases = int(v)
     continue
   if k.startswith("Death"):  # Deaths or Death.

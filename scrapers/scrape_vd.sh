@@ -5,7 +5,7 @@ set -e
 # includes a content from datawrapper, which provides actual data and table rendering.
 
 echo VD
-d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
+d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/17/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # render({
@@ -23,10 +23,10 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 
 echo -n "Date and time: "
-echo "$d" | tail -1 | awk '{print $1;}'
+echo -e "$d" | tail -1 | awk '{print $1;}'
 
 echo -n "Confirmed cases: "
-echo "$d" | tail -1 | awk '{print $5;}'
+echo -e "$d" | tail -1 | awk '{print $5;}'
 
 echo -n "Deaths: "
-echo "$d" | tail -1 | awk '{print $4;}'
+echo -e "$d" | tail -1 | awk '{print $4;}'

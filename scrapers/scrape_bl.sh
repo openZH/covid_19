@@ -14,7 +14,8 @@ d=$(curl --silent "${URL}")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "
-echo "$d" | egrep "Stand" | tr '\240' ' ' | sed -E -e 's/^.*Stand [[:alpha:]]+, (.+ Uhr), .*$/\1/'
+echo "$d" | egrep "Stand" | sed 's/\xC2\xA0/ /g' | sed -E -e 's/^.*Stand [[:alpha:]]+, (.+ Uhr), .*$/\1/' | uniq
 
 echo -n "Confirmed cases: "
-echo "$d" | egrep "Es sind jetzt insgesamt" | tr '\240' ' ' | sed -E -e 's/^.*Es sind jetzt insgesamt ([0-9]+) bestätigte Fälle.*$/\1/'
+echo "$d" | egrep "Es sind jetzt insgesamt" | sed 's/\xC2\xA0/ /g'  | sed -E -e 's/^.*Es sind jetzt insgesamt ([0-9]+) bestätigte Fälle.*$/\1/' | uniq
+
