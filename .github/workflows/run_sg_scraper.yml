@@ -2,7 +2,7 @@ name: Run SG scraper
 
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '0 * * * *'
 
 jobs:
   run_scraper:
