@@ -34,5 +34,5 @@ jobs:
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
-        commit_message: Update COVID19_Fallzahlen_Kanton_SG_total.csv from scraper
-        branch: ${{ github.head_ref }}§
+        commit_message: Update COVID19_Fallzahlen_Kanton_JU_total.csv from scraper
+        branch: ${{ github.head_ref }}
