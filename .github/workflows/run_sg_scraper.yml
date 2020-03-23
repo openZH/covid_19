@@ -26,7 +26,7 @@ jobs:
         
     - name: Populate database from CSV
       run: |
-        python scrapers/populate_database.py
+        python scrapers/populate_database.py fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv
         
     - name: Scrape new data
       run: |
