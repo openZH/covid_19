@@ -9,7 +9,7 @@
 | BL     | 1      | 1.5            | no                             | Indirect daily updates on separate pages. Non robust extraction. |
 | BS     | 2      | 2              | no                             | Indirect sub-page. Easy extraction. |
 | FR     | 0      | 0              | no                             | No reliable data of any kind |
-| GE     | 2      | 3              | yes                            | Okish |
+| GE     | 2      | 3              | no                             | Okish |
 | GL     | 2      | 3              | no                             | Okish. Blocks curl heavily by default. |
 | GR     | 2      | 3              | yes                            | Okish |
 | JU     | 2      | 3              | yes                            | Okish. Blocks curl by default. |
