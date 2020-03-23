@@ -107,13 +107,15 @@ def parse_date(d):
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[4]) <= 23
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:00"
-  mo = re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)$', d)
+  mo = re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)?$', d)
   if mo:
     # 20.03 à 8h00
+    # 23.03 à 12h
     assert 1 <= int(mo[2]) <= 12
     assert 1 <= int(mo[3]) <= 23
-    assert 0 <= int(mo[4]) <= 59
-    return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:{int(mo[4]):02d}"
+    if mo[4]:
+      assert 0 <= int(mo[4]) <= 59
+    return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:{int(mo[4]) if mo[4] else 0:02d}"
   mo = re.search(r'^(\d+) ([^\W\d_]+) (202\d), ore (\d+)\.(\d\d)$', d)
   if mo:
     # 21 marzo 2020, ore 8.00
