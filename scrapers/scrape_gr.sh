@@ -12,4 +12,4 @@ echo -n "Confirmed cases: "
 echo "$d" | egrep "Best(ä|&auml;)tigte F(ä|&auml;)lle" | sed -E -e 's/( |<)/\n/g' | egrep '[0-9]+' | head -1
 
 echo -n "Deaths: "
-echo "$d" | grep "Verstorbene" | sed -E -e 's/( |<)/\n/g' | egrep '[0-9]+' | head -1
+echo "$d" | grep "Verstorbene" | sed -E -e 's/( |<)/\n/g' | sed -E -e 's/&nbsp;//g' | egrep '^[0-9]+' | head -1
