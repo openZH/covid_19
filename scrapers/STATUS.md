@@ -4,7 +4,7 @@
 | ------ | ------ | -------------- | ------- |
 | AG     | 1      | 2              | Indirect daily PDFs URL. Tricky extraction |
 | AI     | 0      | 0              | No reliable data of any kind |
-| AR     | 0      | 1              | Infrequent, scattered.       |
+| AR     | 2      | 3              | Ok. Easy to extract. |
 | BE     | 2      | 3              | Okish |
 | BL     | 1      | 1.5            | Indirect daily updates on separate pages. Non robust extraction. |
 | BS     | 2      | 2              | Indirect sub-page. Easy extraction. |
@@ -16,17 +16,17 @@
 | LU     | 2.5    | 3              | Okish |
 | NE     | 2      | 3              | Okish. Could be better. |
 | NW     | 2      | 3              | Okish. Could be better. |
-| OW     | 0      | 0              | No reliable data of any kind |
+| OW     | 1      | 2.5            | Okish. Could be better. Like to break soon. |
 | SG     | 2      | 3              | Okish. Could be better. |
 | SH     | 2      | 2.5            | Okish. Hacky, relays on a lot of JavaScript dynamic content! |
-| SO     | 0      | 0              | No reliable data of any kind |
+| SO     | 2      | 3              | Ok. Easy to extract. |
 | SZ     | 1      | 1              | Unreliable data in indirect PDFs. Very aggressive and long blocking of IP after bad requests! Blocking of curl. |
 | TG     | 2      | 3              | Okish. Could be better. |
 | TI     | 2      | 3              | Okish. Burried in a nest of tags. |
 | UR     | 2.5    | 3              | Okish. |
 | VD     | 3      | 4              | Easy extraction of all metadata, including history |
 | VS     | 2      | 3              | Okish. A little bit risky extraction. |
-| ZG     | 0      | 0              | No reliable data of any kind |
+| ZG     | 3      | 3              | Ok. Very easy to extract. Robust |
 | ZH     | 2.5    | 3              | Okish. |
 | FL     | 0      | 0              | No reliable data of any kind |
 
