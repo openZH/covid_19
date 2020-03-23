@@ -17,31 +17,32 @@ __location__ = os.path.realpath(
     )
 )
 
-DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
-conn = sqlite3.connect(DATABASE_NAME)
-c = conn.cursor()
-c.execute('DROP TABLE IF EXISTS data')
-c.execute(
-    '''
-    CREATE TABLE IF NOT EXISTS data (
-        date text,
-        time text,
-        abbreviation_canton_and_fl text,
-        ncumul_tested  integer,
-        ncumul_conf integer,
-        ncumul_hosp integer,
-        ncumul_ICU integer,
-        ncumul_vent integer,
-        ncumul_released integer,
-        ncumul_deceased integer,
-        source text,
-        UNIQUE(date, time, abbreviation_canton_and_fl)
-    )
-    '''
-)
-
-# load the csv to sqlite db
 try:
+    # create db
+    DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
+    conn = sqlite3.connect(DATABASE_NAME)
+    c = conn.cursor()
+    c.execute('DROP TABLE IF EXISTS data')
+    c.execute(
+        '''
+        CREATE TABLE IF NOT EXISTS data (
+            date text,
+            time text,
+            abbreviation_canton_and_fl text,
+            ncumul_tested  integer,
+            ncumul_conf integer,
+            ncumul_hosp integer,
+            ncumul_ICU integer,
+            ncumul_vent integer,
+            ncumul_released integer,
+            ncumul_deceased integer,
+            source text,
+            UNIQUE(date, time, abbreviation_canton_and_fl)
+        )
+        '''
+    )
+
+    # load the csv to sqlite db
     assert len(sys.argv) == 2, "Call script with CSV file as parameter"
     filename = sys.argv[1]
     with open(filename,'r') as f:

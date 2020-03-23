@@ -10,28 +10,33 @@ import traceback
 import os
 import sys
 
-DATABASE_NAME = 'data.sqlite'
-conn = sqlite3.connect(DATABASE_NAME)
-c = conn.cursor()
-c.execute(
-    '''
-    CREATE TABLE IF NOT EXISTS data (
-        date text,
-        time text,
-        abbreviation_canton_and_fl text,
-        ncumul_tested  integer,
-        ncumul_conf integer,
-        ncumul_hosp integer,
-        ncumul_ICU integer,
-        ncumul_vent integer,
-        ncumul_released integer,
-        ncumul_deceased integer,
-        source text,
-        UNIQUE(date, time, abbreviation_canton_and_fl)
+__location__ = os.path.realpath(
+    os.path.join(
+        os.getcwd(),
+        os.path.dirname(__file__)
     )
-    '''
 )
-conn.commit()
+
+try:
+    # open database
+    DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
+    conn = sqlite3.connect(DATABASE_NAME)
+
+    # canton sg - start url
+    start_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
+
+    # get page with data on it
+    page = requests.get(start_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+
+    parse_page(soup, conn)
+except Exception as e:
+    print("Error: %s" % e)
+    print(traceback.format_exc())
+    sys.exit(1)
+finally:
+    conn.close()
 
 
 def parse_page(soup, conn):
@@ -103,20 +108,3 @@ def parse_page(soup, conn):
         print("Error: Data for this date + time has already been added")
     finally:
         conn.commit()
-    
-
-# canton bern - start url
-start_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
-
-# get page with data on it
-page = requests.get(start_url)
-soup = BeautifulSoup(page.content, 'html.parser')
-
-try:
-    parse_page(soup, conn)
-except Exception as e:
-    print("Error: %s" % e)
-    print(traceback.format_exc())
-    sys.exit(1)
-finally:
-    conn.close()
