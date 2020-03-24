@@ -1,0 +1,38 @@
+name: Run TG scraper
+
+on:
+  schedule:
+    - cron:  '30 * * * *'
+
+jobs:
+  run_scraper:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        sudo apt-get install sqlite3
+        
+    - name: Scrape new data
+      env:
+        SCRAPER_KEY: TG
+        SCRAPER_SOURCE: https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+      run: |
+        ./scrapers/run_scraper.sh
+        
+    # Commit to repo with updated file
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: Update COVID19_Fallzahlen_Kanton_TG_total.csv from scraper
+        branch: ${{ github.head_ref }}

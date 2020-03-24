@@ -5,8 +5,13 @@ set -e
 # includes a content from datawrapper, which provides actual data and table rendering.
 
 echo VD
-d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
+V=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep http-equiv=.REFRESH | sed -E -e 's,^.*url=\.\./\.\./tr5bJ/([0-9]+)/.*$,\1,')  # ' # Make my editor happy.
+
+# <html><head><meta http-equiv="REFRESH" content="0; url=../../tr5bJ/16/"></head></html>
+
+d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/${V}/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
 echo "Scraped at: $(date --iso-8601=seconds)"
+
 
 # render({
 #            visJSON: {"id":"tables","title":"Table","order":70,"dimensions":2,"namespace":"table","caption":"table","locale":{"show-more":"Afficher\u00a0$0 de plus","show-less":"Afficher moi
