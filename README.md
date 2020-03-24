@@ -4,11 +4,15 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-# COVID-19 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
+# SARS-CoV-2 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
-Our aim is to create a common official OGD dataset of COVID-19 cases of the Swiss Authorities.
+Our aim is to create a common official OGD dataset of SARS-CoV-2 cases of the Swiss Authorities.
 
-We are providing COVID-19 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specifed with the respective URL(s).
+The infection rates refer to the infection with
+[SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2),
+whereas the disease caused by the virus is called [Covid-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019).
+
+We are providing SARS-CoV-2 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specifed with the respective URL(s).
 
 Case numbers include persons tested and treated in the respective Canton resp. Principality of Liechtenstein. *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see e.g. with the Canton of Zurich "Testkriterien" at www.gd.zh.ch/coronavirus).
 
