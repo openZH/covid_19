@@ -4,7 +4,7 @@ from scrape_common import *
 
 print('ZH')
 d = download("https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html")
-d = filter("Im Kanton Zürich sind zurzeit|\\(Stand", d)
+d = filter(r"Im Kanton Zürich sind zurzeit|\(Stand", d)
 
 #                                 <h2>Aktuelle Situation im Kanton Zürich (24.3.2020, 9.30 Uhr)</h2>
 #                         
