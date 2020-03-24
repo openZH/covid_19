@@ -33,19 +33,22 @@ def parse_page(soup, conn):
     }
 
     # parse number of confirmed cases and deceased
-    box = soup.find("h3", string=re.compile("Update Kanton St.Gallen")).parent.find("p")
-    box_str = "".join([str(x) for x in box.contents]) 
+    boxes = soup.find("h3", string=re.compile("Update Kanton St.Gallen")).parent.find_all("p")
+    date_box = "".join([str(x) for x in boxes[0].contents]) 
+    content_box = "".join([str(x) for x in boxes[1].contents]) 
 
-    # <p>19.03.2020:<br/>Bestätigte Fälle: 85<br/><br/></p>
-    date_str = re.search("^([ \d\.]+)\:", box_str).group(1)
+    date_str = re.search("^([ \d\.]+)\:", date_box).group(1)
     update_datetime = dateparser.parse(
         date_str,
         languages=['de']
     )
     data['date'] = update_datetime.date().isoformat()
 
-    case_str = re.search(".*Best.tigte F.lle\:\W*(\d+)", box_str).group(1)
+    case_str = re.search(".*Best.tigte F.lle\:\W*(\d+)", content_box).group(1)
     data['confirmed'] = int(case_str)
+
+    deceased_str = re.search(".*Todesf.lle\:\W*(\d+)", content_box).group(1)
+    data['deceased'] = int(deceased_str)
     c = conn.cursor()
 
     try:
