@@ -24,7 +24,7 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 line=$(echo "$d" | sed -n '/<pre id\="data"/,$p' | grep "</pre>" -m1 -B1 | head -1)
 
 echo -n "Date and time: "
-echo "$line" | cut -d "," -f 1
+echo "$line" | cut -d "," -f 1 | sed 's/\-/./g'
 # echo "$d" | tr '\302' ' ' | egrep --text "Stand" | head -1 | tr '\240' ' ' | sed -E -e 's/^.*Stand +[[:alpha:]]+, +(.+ Uhr),.*$/\1/'
 
 echo -n "Confirmed cases: "
