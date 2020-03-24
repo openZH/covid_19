@@ -24,7 +24,7 @@ You can get started exploring the data with `visualise.ipynb` ([run it in your b
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
 
-(Latest roundtrip to check for updates: started at 2020-03-24 15:30, ongoing ..)
+(Latest roundtrip to check for updates: completed at 2020-03-24 20:46 - next starting at at 2020-03-25 08:00)
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-23 18:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
