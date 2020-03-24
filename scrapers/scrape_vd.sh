@@ -5,11 +5,17 @@ set -e
 # includes a content from datawrapper, which provides actual data and table rendering.
 
 echo VD
-V=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep http-equiv=.REFRESH | sed -E -e 's,^.*url=\.\./\.\./tr5bJ/([0-9]+)/.*$,\1,')  # ' # Make my editor happy.
-
-# <html><head><meta http-equiv="REFRESH" content="0; url=../../tr5bJ/16/"></head></html>
-
-d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/${V}/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
+B="https://datawrapper.dwcdn.net"
+N="tr5bJ"
+V=14
+m=10 # max redirects
+until [ -z $V ] ; do
+    [[ $((m--)) -gt 0 ]] || exit 1
+    R=$(curl --silent "$B/$N/$V/")
+    V=$(echo $R | grep 'http-equiv=.REFRESH' | sed -E -e 's,^.*url=\.\./\.\./'$N'/([0-9]+)/.*$,\1,')
+    # <html><head><meta http-equiv="REFRESH" content="0; url=../../tr5bJ/16/"></head></html>
+done
+d=$(echo $R | grep -A 4 render | grep -oE 'chartData:\s+"[^"]+"' | awk -F '"' '{print $2;}' | sed -E -e 's/\\n/\n/g' | sed -E -e 's/\\t/\t/g')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 
