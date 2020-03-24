@@ -2,6 +2,7 @@
 
 # Various small utilities used by scrapers.
 
+import datetime
 import subprocess
 import re
 
@@ -19,3 +20,8 @@ def find(pattern, d, group=1, flags=re.I):
   if m:
     return m[group]
   return None
+
+def timestamp():
+  now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone()
+  # tzinfo
+  print("Scraped at:", now.isoformat(timespec='seconds'))
