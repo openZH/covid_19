@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo BE
-d=$(curl --silent "https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html" | grep -A 20 'table cellspacing="0" summary="Laufend aktualisierte Zahlen')
+d=$("${DIR}/download.sh" "https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html" | grep -A 20 'table cellspacing="0" summary="Laufend aktualisierte Zahlen')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

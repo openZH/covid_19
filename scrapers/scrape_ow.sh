@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo OW
-d=$(curl --silent "https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962" | egrep '>Stand |ist bei [0-9]+ Personen')
+d=$("${DIR}/download.sh" "https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962" | egrep '>Stand |ist bei [0-9]+ Personen')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 #<p class="object-pages-img"><img src="../../images/5e73948a8f49f.jpg"  alt="Kampagne BAG" style="width:600;height:293;border:0;" /></p><br /><div class="object-pages-description"><p class="icmsPContent icms-wysiwyg-first"><em>Stand 23.03.2020</em></p>

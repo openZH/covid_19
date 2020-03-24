@@ -1,15 +1,17 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 # https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 # includes a content from datawrapper, which provides actual data and table rendering.
 
 echo VD
-V=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep http-equiv=.REFRESH | sed -E -e 's,^.*url=\.\./\.\./tr5bJ/([0-9]+)/.*$,\1,')  # ' # Make my editor happy.
+V=$("${DIR}/download.sh" "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep http-equiv=.REFRESH | sed -E -e 's,^.*url=\.\./\.\./tr5bJ/([0-9]+)/.*$,\1,')  # ' # Make my editor happy.
 
 # <html><head><meta http-equiv="REFRESH" content="0; url=../../tr5bJ/16/"></head></html>
 
-d=$(curl --silent "https://datawrapper.dwcdn.net/tr5bJ/${V}/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
+d=$("${DIR}/download.sh" "https://datawrapper.dwcdn.net/tr5bJ/${V}/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 

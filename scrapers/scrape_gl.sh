@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo GL
-d=$(curl --silent --user-agent "Mozilla Firefox Mozilla/5.0; openZH covid_19 at github" "https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817" | egrep "Fallzahlen Kanton Glarus.+Update|Bestätigte Fälle|Wahrscheinliche Fälle")
+d=$("${DIR}/download.sh" "https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817" | egrep "Fallzahlen Kanton Glarus.+Update|Bestätigte Fälle|Wahrscheinliche Fälle")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 #      <li><strong><a href="#Fallzahlen">Fallzahlen Kanton Glarus</a> (Update 22.03.2020, 13.30 Uhr)</strong></li> 
