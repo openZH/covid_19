@@ -13,9 +13,9 @@ def filter(pattern, d):
   """grep like"""
   return d
 
-def find(pattern, d):
-  """sed like"""
-  m = re.search(pattern, d)
+def find(pattern, d, group=1, flags=re.I):
+  """sed like. Ignore character case by default"""
+  m = re.search(pattern, d, flags=flags)
   if m:
-    return m[1]
+    return m[group]
   return None
