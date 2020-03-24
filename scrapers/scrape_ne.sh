@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo NE
-d=$(./download.sh "https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx" | grep 'Nombre de cas confirmés')
+d=$("${DIR}/download.sh" "https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx" | grep 'Nombre de cas confirmés')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

@@ -1,9 +1,11 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo BL
-URL=$(./download.sh https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/medienmitteilungen-1 | grep "href=.*update-.*-bestaetigte-faelle" | sed -E -e 's/^.*href="([^"]+)".*$/\1/' | head -1)  # " # To make my editor happy.
-d=$(./download.sh "${URL}")
+URL=$("${DIR}/download.sh" https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/medienmitteilungen-1 | grep "href=.*update-.*-bestaetigte-faelle" | sed -E -e 's/^.*href="([^"]+)".*$/\1/' | head -1)  # " # To make my editor happy.
+d=$("${DIR}/download.sh" "${URL}")
 
 #  <p><span>Der Kantonale Krisenstab gibt Stand Dienstag, 17. März 2020, 14.00 Uhr, 13 neue positive Fälle von Personen mit Wohnsitz im Kanton Basel-Landschaft bekannt. Es sind jetzt insgesamt 89 bestätigte Fälle im Kanton Basel-Landschaft zu verzeichnen. </span></p>
 #  <p>Der Kantonale Krisenstab gibt Stand Sonntag, 22. März 2020, 14.00 Uhr,� sieben neue positive Fälle von Personen mit Wohnsitz im Kanton Basel-Landschaft bekannt. Es sind jetzt insgesamt 289 bestätigte Fälle im Kanton Basel-Landschaft zu verzeichnen. Die Anzahl im Kanton Basel-Landschaft am Coronavirus verstorbener Personen beläuft sich auf insgesamt drei.</p>

@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo ZH
-d=$(./download.sh "https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html" | egrep "Im Kanton Zürich sind zurzeit|\\(Stand")
+d=$("${DIR}/download.sh" "https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html" | egrep "Im Kanton Zürich sind zurzeit|\\(Stand")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "
