@@ -3,12 +3,14 @@
 # Various small utilities used by scrapers.
 
 import datetime
+import os
 import subprocess
 import re
 
 def download(url, encoding='utf-8'):
   """curl like"""
-  return subprocess.run(["./download.sh", url], capture_output=True).stdout.decode(encoding)
+  downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
+  return subprocess.run([downloader, url], capture_output=True).stdout.decode(encoding)
 
 def filter(pattern, d, flags=re.I):
   """grep like"""
