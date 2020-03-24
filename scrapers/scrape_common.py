@@ -5,9 +5,9 @@
 import subprocess
 import re
 
-def download(url):
+def download(url, encoding='utf-8'):
   """curl like"""
-  return subprocess.run(["./download.sh", url], capture_output=True).stdout.decode('utf-8')
+  return subprocess.run(["./download.sh", url], capture_output=True).stdout.decode(encoding)
 
 def filter(pattern, d):
   """grep like"""
