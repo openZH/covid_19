@@ -9,9 +9,9 @@ def download(url, encoding='utf-8'):
   """curl like"""
   return subprocess.run(["./download.sh", url], capture_output=True).stdout.decode(encoding)
 
-def filter(pattern, d):
+def filter(pattern, d, flags=re.I):
   """grep like"""
-  return d
+  return "\n".join(l for l in d.split('\n') if re.search(pattern, l, flags=flags))
 
 def find(pattern, d, group=1, flags=re.I):
   """sed like. Ignore character case by default"""
