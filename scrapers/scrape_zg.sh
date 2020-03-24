@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo ZG
-d=$(curl --silent "https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona" | egrep 'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:')
+d=$("${DIR}/download.sh" "https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona" | egrep 'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 

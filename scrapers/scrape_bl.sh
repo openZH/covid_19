@@ -1,12 +1,12 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo BL
-# URL=$(curl --silent https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/medienmitteilungen-1 | grep "href=.*update-.*-bestaetigte-faelle" | sed -E -e 's/^.*href="([^"]+)".*$/\1/' | head -1)  # " # To make my editor happy.
-# d=$(curl --silent "${URL}")
 
 URL="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm"
-d=$(curl --silent "${URL}")
+d=$("${DIR}/download.sh" "${URL}")
 
 # <pre id="data" style="display:none;">Datum, Bestätigte Fälle, Verstorbene
 # 28-02-2020,1,
@@ -25,7 +25,6 @@ line=$(echo "$d" | sed -n '/<pre id\="data"/,$p' | grep "</pre>" -m1 -B1 | head 
 
 echo -n "Date and time: "
 echo "$line" | cut -d "," -f 1 | sed 's/\-/./g'
-# echo "$d" | tr '\302' ' ' | egrep --text "Stand" | head -1 | tr '\240' ' ' | sed -E -e 's/^.*Stand +[[:alpha:]]+, +(.+ Uhr),.*$/\1/'
 
 echo -n "Confirmed cases: "
 echo "$line" | cut -d "," -f 2
