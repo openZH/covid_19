@@ -12,9 +12,9 @@ echo -n "Date and time: "
 echo "$d" | grep "Stato" | sed -E -e 's/^.*<h4>Stato .* al:<\/h4><h4>([^<]+)<\/h4>.*$/\1/'
 
 echo -n "Confirmed cases: "
-# <p ... >918</p><p style="margin-top: 0px;margin-bottom: 0px;font-size: 12px;">Casi positivi COVID-19</p>
-echo "$d" | sed -E -e 's/^.*>([0-9]+)<\/p><p [^>]*>Casi positivi COVID-19<\/p>.*$/\1/'
+# <p ... >1'165</p><p style="margin-top: 0px;margin-bottom: 0px;font-size: 12px;">Casi positivi COVID-19</p>
+echo "$d" | sed -E -e 's/^.*>([0-9'"'"']+)<\/p><p [^>]*>Casi positivi COVID-19<\/p>.*$/\1/' | sed -E -e "s/'//g"
 
 echo -n "Deaths: "
 # <p ... >28</p><p style="margin-top: 0px;font-size: 12px;">† Decessi</p>
-echo "$d" | sed -E -e 's/^.*>([0-9]+)<\/p><p [^>]*>† Decessi<\/p>.*$/\1/'
+echo "$d" | sed -E -e 's/^.*>([0-9'"'"']+)<\/p><p [^>]*>† Decessi<\/p>.*$/\1/' | sed -E -e "s/'//g"

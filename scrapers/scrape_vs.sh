@@ -14,4 +14,4 @@ echo -n "Confirmed cases: "
 echo "$d" | egrep "bestätigte" | sed -E -e 's/^.*es ([0-9]+) best.* Fälle .*$/\1/'
 
 echo -n "Deaths: "
-echo "$d" | egrep "Tod" | sed -E -e 's/^.*Tod von ([0-9])+( |&nbsp;)Person.*$/\1/i'
+echo "$d" | egrep "Tod" | sed -E -e 's/^.*Tod von ([0-9]+)( |&nbsp;)Person.*$/\1/i'
