@@ -2,6 +2,7 @@
 
 import re
 import sys
+import traceback
 
 # [^\W\d_]  - will match any lower or upper case alpha character. No digits or underscore.
 
@@ -136,35 +137,41 @@ deaths=None
 recovered=None
 hospitalized=None
 
-i = 0
-for line in sys.stdin:
-  l = line.strip()
-  # print(l)
-  i += 1
-  if i == 1:
-    abbr = l
-    assert len(abbr) == 2, "The first line should be 2 letter abbreviation in upper case of the canton"
-    assert abbr.upper() == abbr, "The first line should be 2 letter abbreviation in upper case of the canton"
-    continue
-  k, v = l.split(": ")
-  if k.startswith("Scraped at"):
-    scrape_time = v
-    continue
-  if k.startswith("Date and time"):
-    date = parse_date(v)
-    continue
-  if k.startswith("Confirmed cases"):
-    cases = int(v)
-    continue
-  if k.startswith("Death"):  # Deaths or Death.
-    deaths = int(v)
-    continue
-  if k.startswith("Recovered"):
-    recovered = int(v)
-    continue
-  if k.startswith("Hospitalized"):
-    hospitalized = int(v)
-    continue
-  assert False, f"Unknown data on line {i}: {l}"
+try:
+  i = 0
+  for line in sys.stdin:
+    l = line.strip()
+    # print(l)
+    i += 1
+    if i == 1:
+      abbr = l
+      assert len(abbr) == 2, "The first line should be 2 letter abbreviation in upper case of the canton"
+      assert abbr.upper() == abbr, "The first line should be 2 letter abbreviation in upper case of the canton"
+      continue
+    k, v = l.split(": ")
+    if k.startswith("Scraped at"):
+      scrape_time = v
+      continue
+    if k.startswith("Date and time"):
+      date = parse_date(v)
+      continue
+    if k.startswith("Confirmed cases"):
+      cases = int(v)
+      continue
+    if k.startswith("Death"):  # Deaths or Death.
+      deaths = int(v)
+      continue
+    if k.startswith("Recovered"):
+      recovered = int(v)
+      continue
+    if k.startswith("Hospitalized"):
+      hospitalized = int(v)
+      continue
+    assert False, f"Unknown data on line {i}: {l}"
 
-print("{:2} {:<16} {:>7} {:>7} OK {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time))
+  print("{:2} {:<16} {:>7} {:>7} OK {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time))
+
+except Exception as e:
+  print("Error: %s" % e)
+  print(traceback.format_exc())
+  sys.exit(1)
