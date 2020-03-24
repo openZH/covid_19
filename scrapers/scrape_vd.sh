@@ -35,3 +35,6 @@ echo "$d" | tail -1 | awk '{print $5;}'
 
 echo -n "Deaths: "
 echo "$d" | tail -1 | awk '{print $4;}'
+
+echo -n "Hospitalized: "
+echo "$d" | tail -1 | awk '{print $2;}'
