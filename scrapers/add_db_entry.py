@@ -24,7 +24,7 @@ try:
         date_part = match.group(2).split('T')
         data = {
             'date': date_part[0],
-            'time': None,
+            'time': '',
             'area': os.environ['SCRAPER_KEY'],
             'tested': None,
             'confirmed': int(match.group(3)),
