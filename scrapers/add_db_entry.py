@@ -24,7 +24,7 @@ try:
         date_part = match.group(2).split('T')
         data = {
             'date': date_part[0],
-            'time': date_part[1] or None,
+            'time': '',
             'area': os.environ['SCRAPER_KEY'],
             'tested': None,
             'confirmed': int(match.group(3)),
@@ -35,6 +35,9 @@ try:
             'deceased': match.group(4),
             'source': os.environ['SCRAPER_SOURCE']
         }
+
+        if len(date_part) == 2:
+            data['time'] = date_part[1]
 
         if (data['deceased'] == '-'):
             data['deceased'] = None
