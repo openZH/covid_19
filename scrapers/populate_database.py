@@ -37,7 +37,7 @@ try:
             ncumul_released integer,
             ncumul_deceased integer,
             source text,
-            UNIQUE(date, time, abbreviation_canton_and_fl)
+            UNIQUE(date, abbreviation_canton_and_fl)
         )
         '''
     )
