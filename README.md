@@ -20,6 +20,8 @@ The data is updated regularly - if available daily. Times of collection and upda
 
 We are seeking to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73
 
+There is a [merged file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv) of all Cantons and FL that is automatically updated for use in data analysis.
+
 You can get started exploring the data with `visualise.ipynb` ([run it in your browser](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)).
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
@@ -27,7 +29,7 @@ We are available to advise and support interested authorities. You can reach us:
 (Latest full roundtrip to check for updates: completed at 2020-03-25 18:20 - next full roundtrip starting at at 2020-03-25 20:00)
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
-|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-23 18:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-25 20:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
 |[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv)|scraping|2020-03-25 15:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AG_total.csv) <br>for list of all sources see [here](https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp)|
 |[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|manually|2020-03-24 	17:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AI_total.csv)|
 |[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|scraping|2020-03-25 08:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_AR_total.csv)|
