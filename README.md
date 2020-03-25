@@ -20,6 +20,8 @@ The data is updated regularly - if available daily. Times of collection and upda
 
 We are seeking to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73
 
+There is a [merged file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv) of all Cantons and FL that is automatically updated for use in data analysis.
+
 You can get started exploring the data with `visualise.ipynb` ([run it in your browser](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)).
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
