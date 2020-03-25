@@ -62,6 +62,7 @@ months_all.update(months_it)
 def parse_date(d):
   d = d.replace("&auml;", "ä")
   d = d.replace("&nbsp;", " ")
+  d = d.strip()
   # print(d)
   # This could be done more nice, using assignment expression. But that
   # requires Python 3.8 (October 14th, 2019), and many distros still defaults
