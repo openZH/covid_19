@@ -8,6 +8,7 @@ their website in more structured way for everybody.
 Appenzell Innerrhoden, AI:
  * https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
  * Can't find any numbers.
+ * As of 2020-03-23 / 2020-03-24 numbers (cases) are available in the box at the top-right hand corner.
 
 Appenzell Ausserrhoden, AR:
  * https://ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus
