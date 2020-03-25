@@ -125,6 +125,13 @@ def parse_date(d):
   if mo:
     # 2020-03-23
     return mo[1]
+  mo = re.search(r'^(\d+)\.(\d+)\.? / (\d+)h$', d)
+  if mo:
+    assert 1 <= int(mo[1]) <= 31
+    assert 1 <= int(mo[2]) <= 12
+    assert 1 <= int(mo[3]) <= 23
+    # 24.3. / 10h
+    return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:00"
   assert False, f"Unknown date/time format: {d}"
 
 

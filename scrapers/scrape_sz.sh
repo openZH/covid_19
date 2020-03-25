@@ -1,14 +1,16 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo SZ
 
 #       <h2>Medienmitteilungen des kantonalen Führungsstabs</h2> 
 #       <ul> 
 #        <li><a href="https://www.sz.ch/public/upload/assets/45637/MM_KFS_Corona_17_3_2020.pdf">Medienmitteilung vom 17. März 2020</a></li> 
 
-URL=$(curl --silent --user-agent "Mozilla Firefox Mozilla/5.0" 'https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948' | grep -A 3 "Medienmitteilungen des kantonalen Führungsstabs" | grep "<li>" | head -1 | awk -F '"' '{print $2;}')
-d=$(curl --silent --user-agent "Mozilla Firefox Mozilla/5.0" "${URL}" | pdftotext - - | grep "bestätigte Fälle|Schwyz, .+ 202")
+URL=$("${DIR}/download.sh" 'https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948' | grep -A 3 "Medienmitteilungen des kantonalen Führungsstabs" | grep "<li>" | head -1 | awk -F '"' '{print $2;}')
+d=$("${DIR}/download.sh" "${URL}" | pdftotext - - | grep "bestätigte Fälle|Schwyz, .+ 202")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # Schwyz, 17. März 2020
