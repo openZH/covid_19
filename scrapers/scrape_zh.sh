@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from scrape_common import *
+import scrape_common as sc
 
 print('ZH')
-d = download("https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html")
-timestamp()
-d = filter(r"Im Kanton Zürich sind zurzeit|\(Stand", d)
+d = sc.download("https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html")
+sc.timestamp()
+d = sc.filter(r"Im Kanton Zürich sind zurzeit|\(Stand", d)
 #                                 <h2>Aktuelle Situation im Kanton Zürich (24.3.2020, 9.30 Uhr)</h2>
 #                         
 #                         
@@ -14,6 +14,6 @@ d = filter(r"Im Kanton Zürich sind zurzeit|\(Stand", d)
 # <p>(Stand 24.3.2020, 9.30 Uhr)</p>
 
 
-print("Date and time:", find('Stand (.+) Uhr', d))
-print("Confirmed cases:", find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d))
-print("Deaths:", find('Im .* Zürich .* Total ([0-9]+) Todesfälle', d))
+print("Date and time:", sc.find('Stand (.+) Uhr', d))
+print("Confirmed cases:", sc.find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d))
+print("Deaths:", sc.find('Im .* Zürich .* Total ([0-9]+) Todesfälle', d))
