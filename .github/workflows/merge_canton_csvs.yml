@@ -23,7 +23,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Print header line and then merge all files without header line
-      run: ( head -n 1 fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv; ls fallzahlen_kanton_total_csv/*.csv | xargs -n 1 tail -n +2 ) | cut -d, -f 1-11 > COVID19_Fallzahlen_CH_total.csv
+      run: ( head -n 1 fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv; ls fallzahlen_kanton_total_csv/*.csv | xargs -n 1 tail -n +2 ) | awk -vFPAT='([^,]*)|("[^"]+")' '{ for (i=1;i<11;i++) { printf $i "," } print $11 }' > COVID19_Fallzahlen_CH_total.csv
 
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
