@@ -8,7 +8,7 @@ d=$("${DIR}/download.sh" "https://sh.ch/CMS/content.jsp?contentid=3209198&langua
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "
-echo "$d" | grep "Im Kanton Schaffhausen gibt es" | sed -E -e 's/^.*\(([0-9.]+)\).*$/\1/'
+echo "$d" | egrep "Im Kanton Schaffhausen gibt.*" | head -1 | sed -E -e 's/^.*\(Stand ([^\)]+)\).+$/\1/'
 
 echo -n "Confirmed cases: "
 echo "$d" | grep "best&auml;tige" | sed -E -e 's/^.*strong>([0-9]+)[^0-9]*$/\1/'

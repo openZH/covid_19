@@ -5,7 +5,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
 
 
 echo AR
-d=$("${DIR}/download.sh" "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/" | egrep "Appenzell Ausserrhoden hat.*Stand.*bestätigte Fälle")
+d=$("${DIR}/download.sh" "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/" | egrep "Aktuelle Informationen: Zahlen")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 
@@ -16,10 +16,10 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 
 echo -n "Date and time: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*Stand" | tail -1 | sed -E -e 's/^.*Stand (.+ Uhr)\)<.+$/\1/' -e 's/^.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h).*$/\1/'
+echo "$d" | egrep "F.lle.*Stand" | tail -1 | sed -E -e 's/^.*Stand\: (.+ Uhr)\)<.+$/\1/' -e 's/^.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h).*$/\1/'
 
 echo -n "Confirmed cases: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*bestätigte Fälle<" | tail -1 | sed -E -e 's/^.*>([0-9]+) bestätigte Fälle.*$/\1/'
+echo "$d" | egrep ".*bestätigte Fälle:" | sed -E -e 's/.*bestätigte Fälle:( |&nbsp;)*<strong>([0-9]+)[^<]*<\/strong>.*$/\2/'
 
 echo -n "Deaths: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*bestätigte Fälle<" | tail -1 | sed -E -e 's/^.*>([0-9]+) Person.?.? verstorben.*$/\1/'
+echo "$d" | egrep ".*Todesfälle:" | sed -E -e 's/.*Todesfälle:( |&nbsp;)*<strong>([0-9]+)[^<]*<\/strong>.*$/\2/'
