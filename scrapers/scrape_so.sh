@@ -12,7 +12,7 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 
 echo -n "Date and time: "
-echo "$d" | egrep "Situation Kanton Solothurn.*Stand" | head -1 | sed -E -e 's/^.*\(Stand (.+)\)<.+$/\1/'
+echo "$d" | egrep "Situation Kanton Solothurn.*Stand" | head -1 | sed -E -e 's/^.*\(Stand ([^\)]+)\)<.+$/\1/'
 
 echo -n "Confirmed cases: "
 echo "$d" | egrep "Anzahl positiv getesteter Erkrankungsfälle: [0-9]+ " | head -1 | sed -E -e 's/^.*Anzahl positiv getesteter Erkrankungsfälle: ([0-9]+) .*$/\1/'
