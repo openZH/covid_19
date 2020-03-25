@@ -2,12 +2,8 @@ name: Merge cantonal CSVs
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  #push:
-  #  paths:
-  #  - 'fallzahlen_kanton_total_csv/*.csv'
+    paths:
+    - 'fallzahlen_kanton_total_csv/*.csv'
 
 jobs:
   build:
