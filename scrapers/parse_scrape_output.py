@@ -62,6 +62,7 @@ months_all.update(months_it)
 def parse_date(d):
   d = d.replace("&auml;", "ä")
   d = d.replace("&nbsp;", " ")
+  d = d.strip()
   # print(d)
   # This could be done more nice, using assignment expression. But that
   # requires Python 3.8 (October 14th, 2019), and many distros still defaults
@@ -88,11 +89,12 @@ def parse_date(d):
     assert 20 <= int(mo[3]) <= 21
     assert 1 <= int(mo[2]) <= 12
     return f"20{int(mo[3]):02d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d), (\d\d?)[h:\.](\d\d)', d)
+  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d),? (\d\d?)[h:\.](\d\d)', d)
   if mo:
     # 20.3.2020, 16.30
     # 21.03.2020, 15h30
     # 23.03.2020, 12:00
+    # 23.03.2020 12:00
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[2]) <= 12
     return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
