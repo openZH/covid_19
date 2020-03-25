@@ -1,6 +1,9 @@
 name: Validate csv data
 
-on: [push]
+on:
+  push:
+    paths:
+    - '*.csv'
 
 jobs: 
   validate:
