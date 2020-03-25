@@ -24,7 +24,7 @@ You can get started exploring the data with `visualise.ipynb` ([run it in your b
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
 
-(Latest roundtrip to check for updates: completed at 2020-03-24 20:46 - next starting at at 2020-03-25 08:00)
+(Latest full roundtrip to check for updates: completed at 2020-03-25 10:15 - next full roundtrip starting at at 2020-03-25 14:00)
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-23 18:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
@@ -53,7 +53,7 @@ We are available to advise and support interested authorities. You can reach us:
 |[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VD_total.csv)|manually|2020-03-23|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VD_total.csv)|
 |[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VS_total.csv)|scraping|2020-03-24 16:00|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_VS_total.csv)|
 |[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZG_total.csv)|scraping|2020-03-25 	08:00|no|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZG_total.csv)|
-|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv)|manually|2020-03-24 09:30|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv)|
+|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv)|manually|2020-03-25 09:30|yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv)|
 
 
 # Data structure
