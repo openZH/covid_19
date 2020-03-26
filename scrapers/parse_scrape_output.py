@@ -167,6 +167,11 @@ try:
       assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
       continue
     k, v = l.split(": ")
+
+    # Ignore k or v, if v is "None"
+    if v == "None":
+      continue
+
     if k.startswith("Downloading"):
       url_sources.append(v)
       continue
@@ -196,7 +201,15 @@ try:
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
-  print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time, ", ".join(url_sources)))
+  if date and cases:
+    print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time, ", ".join(url_sources)))
+  else:
+    errs = []
+    if not date:
+      errs.append("Missing date")
+    if not cases:
+      errs.append("Missing cases")
+    print("{:2} {:<16} {:>7} {:>7} FAILED {} {} {}".format(abbr, date if date else "-", cases if not cases is None else "-", deaths if not deaths is None else "-", scrape_time if not scrape_time is None else "-", ". ".join(errs), ", ".join(url_sources)))
 
 except Exception as e:
   print("Error: %s" % e)
