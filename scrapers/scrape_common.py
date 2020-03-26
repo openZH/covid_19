@@ -9,6 +9,7 @@ import re
 
 def download(url, encoding='utf-8'):
   """curl like"""
+  print("Downloading:", url)
   downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
   return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
 
