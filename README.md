@@ -69,30 +69,24 @@ The data of the Cantonal case numbers is structured in such a way, it can be eas
 | time                | Time of notification                       | HH:MM      |
 | abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       |
 | ncumul_tested      | Reported number of tests performed as of date| Number     |
-| ncumul_conf         | Reported number of confirmed cases as of date| Number     |
-| ncumul_hosp         | Reported number of hospitalised patients on date| Number     |
-| ncumul_ICU          | Reported number of hospitalised patients in ICUs on date| Number     |
-| ncumul_vent         | Reported number of patients requiring ventilation on date | Number     |
+| ncumul_conf          | Reported number of confirmed cases as of date| Number     |
+| ncumul_hosp *        | Reported number of hospitalised patients on date| Number     |
+| ncumul_ICU  *        | Reported number of hospitalised patients in ICUs on date| Number     |
+| ncumul_vent *        | Reported number of patients requiring ventilation on date | Number     |
 | ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     |
 | ncumul_deceased     |Reported number of deceased as of date| Number     |
 | source              | Source of the information                  | href       |
 
+**These variables reflect current, not cumulative numbers, even if the prefix in the column-name might suggest otherwise. Column names will not be changed to grant stability.*
+
 The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GE_total.csv) contains an additional column reporting the number of currently intubated patients. This column will be integrated into all files shortly.
 | Field Name          | Description                                | Format     |
 |---------------------|--------------------------------------------|------------|
-| ncumul_ICU_intub     |Reported number of patients requiring intubation on date| Number     |
+| ninstant_ICU_intub *   |Reported number of patients requiring intubation on date| Number     |
 
 # Metadata and explanations
 ## Cases Canton ZH
 Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
-
-## Cases all Cantons CH
-Metadata (in English): https://opendata.swiss/de/dataset/covid_19-cases-per-canton-of-switzerland-and-principality-of-liechtenstein
-
-*Important:* Data is being updated after the next official data publication incl. Cantonal level issued by the Federal Office of Public Health FOPH: https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081
-
-Quick beta Visualization: https://observablehq.com/@mmznrstat/covid19-cases-in-switzerland
-
 
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
