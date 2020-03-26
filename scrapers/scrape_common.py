@@ -7,6 +7,24 @@ import os
 import subprocess
 import re
 
+spelledOutNumbersMap = {
+  'eins': 1,
+  'einen': 1,
+  'zwei': 2,
+  'drei': 3,
+  'vier': 4,
+  'fünf': 5,
+  'f&uuml;nf': 5,
+  'sechs': 6,
+  'sieben': 7,
+  'acht': 8,
+  'neun': 9,
+  'zehn': 10,
+  'elf': 11,
+  'zwölf': 12,
+  'zw&ouml;lf':12
+}
+
 def download(url, encoding='utf-8'):
   """curl like"""
   print("Downloading:", url)
@@ -38,3 +56,17 @@ def find(pattern, d, group=1, flags=re.I):
 def timestamp():
   now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone()
   print("Scraped at:", now.isoformat(timespec='seconds'))
+
+def represents_int(s):
+    try:
+        int(s)
+        return True
+    except ValueError:
+        return False
+
+def int_or_word(x):
+  if x in spelledOutNumbersMap:
+    return spelledOutNumbersMap[x]
+  elif represents_int(x):
+    return int(x)
+  return None
