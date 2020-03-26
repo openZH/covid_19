@@ -24,6 +24,8 @@
 #
 # Number of deaths can be omitted, if not available.
 
+export WEBARCHIVE_SNAPSHOT=1
+
 for s in ./scrape_*.sh;
 do
   if ! ./$s | ./parse_scrape_output.py 2>/dev/null; then

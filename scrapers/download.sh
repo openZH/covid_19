@@ -6,6 +6,18 @@
 
 # echo "DOWNLOADING:" "$@" >&2
 
+#WEBARCHIVE_SNAPSHOT=1
+
+if [ "x${WEBARCHIVE_SNAPSHOT}" != "x" ]; then
+  # Note: JSON only allows strings in double quotes.
+  (
+  echo "$(date --iso-8601=seconds)" "Snapshoting: $1"
+  W=$(curl --no-progress-meter -X POST -H "Content-Type: application/json" --data-raw "{\"url\": \"$1\", \"annotation\": {\"id\": \"lst-ib\", \"message\": \"openZH covid_19 github archiving\"}}" "https://pragma.archivelab.org/" 2>&1)
+  echo "Response:"
+  echo "${W}"
+  ) >> webarchiveorg.log
+fi
+
 if which curl >/dev/null; then
   # Few sites, like GL, JU, SZ don't like curl, and return 403, or block site completly per-IP.
   # --output -, because curl, doesn't like to pipe binary files sometimes.
