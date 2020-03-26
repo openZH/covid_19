@@ -68,15 +68,19 @@ The data of the Cantonal case numbers is structured in such a way, it can be eas
 | date               | Date of notification                       | YYYY-MM-DD |
 | time                | Time of notification                       | HH:MM      |
 | abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       |
-| ncumul_tested      | Tests performed (cumulative)               | Number     |
-| ncumul_conf         | Number of confirmed cases                  | Number     |
-| ncumul_hosp         | Number of hospitalised patients            | Number     |
-| ncumul_ICU          | Number of hospitalised patients in ICUs    | Number     |
-| ncumul_vent         | Number of patients requiring ventilation   | Number     |
-| ncumul_released     | Number of patients released from hospitals | Number     |
-| ncumul_deceased     | Number of deceased                         | Number     |
+| ncumul_tested      | Reported number of tests performed as of date| Number     |
+| ncumul_conf         | Reported number of confirmed cases as of date| Number     |
+| ncumul_hosp         | Reported number of hospitalised patients on date| Number     |
+| ncumul_ICU          | Reported number of hospitalised patients in ICUs on date| Number     |
+| ncumul_vent         | Reported number of patients requiring ventilation on date | Number     |
+| ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     |
+| ncumul_deceased     |Reported number of deceased as of date| Number     |
 | source              | Source of the information                  | href       |
 
+The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GE_total.csv) contains an additional column reporting the number of currently intubated patients. This column will be integrated into all files shortly.
+| Field Name          | Description                                | Format     |
+|---------------------|--------------------------------------------|------------|
+| ncumul_ICU_intub     |Reported number of patients requiring intubation on date| Number     |
 
 # Metadata and explanations
 ## Cases Canton ZH
