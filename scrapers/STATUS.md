@@ -8,7 +8,7 @@
 | BE     | 2      | 3              | [![Run BE scraper](https://github.com/openZH/covid_19/workflows/Run%20BE%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BE+scraper%22)                            | Okish |
 | BL     | 1      | 1.5            | [![Run BL scraper](https://github.com/openZH/covid_19/workflows/Run%20BL%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BL+scraper%22)                             | Indirect daily updates on separate pages. Non robust extraction. |
 | BS     | 2      | 2              | no                             | Indirect sub-page. Easy extraction. |
-| FR     | 0      | 0              | no                             | No reliable data of any kind |
+| FR     | 3      | 4              | no                             | Very good. Easy extraction, including history |
 | GE     | 2      | 3              | no                             | Okish |
 | GL     | 2      | 3              | no                             | Okish. Blocks curl heavily by default. |
 | GR     | 2      | 3              | [![Run GR scraper](https://github.com/openZH/covid_19/workflows/Run%20GR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+GR+scraper%22)                            | Okish |
