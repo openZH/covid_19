@@ -82,7 +82,7 @@ The data of the Cantonal case numbers is structured in such a way, it can be eas
 The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GE_total.csv) contains an additional column reporting the number of currently intubated patients. This column will be integrated into all files shortly.
 | Field Name          | Description                                | Format     |
 |---------------------|--------------------------------------------|------------|
-| ninstant_ICU_intub *   |Reported number of patients requiring intubation on date| Number     |
+| ninstant_ICU_intub   |Reported number of patients requiring intubation on date| Number     |
 
 # Metadata and explanations
 ## Cases Canton ZH
