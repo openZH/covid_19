@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import datetime
 import re
 import sys
 import traceback
@@ -62,6 +63,7 @@ months_all.update(months_it)
 def parse_date(d):
   d = d.replace("&auml;", "ä")
   d = d.replace("&nbsp;", " ")
+  d = d.strip()
   # print(d)
   # This could be done more nice, using assignment expression. But that
   # requires Python 3.8 (October 14th, 2019), and many distros still defaults
@@ -88,11 +90,12 @@ def parse_date(d):
     assert 20 <= int(mo[3]) <= 21
     assert 1 <= int(mo[2]) <= 12
     return f"20{int(mo[3]):02d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d), (\d\d?)[h:\.](\d\d)', d)
+  mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d),? (\d\d?)[h:\.](\d\d)', d)
   if mo:
     # 20.3.2020, 16.30
     # 21.03.2020, 15h30
     # 23.03.2020, 12:00
+    # 23.03.2020 12:00
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[2]) <= 12
     return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
@@ -132,17 +135,26 @@ def parse_date(d):
     assert 1 <= int(mo[3]) <= 23
     # 24.3. / 10h
     return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:00"
+  mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)T?(\d\d:\d\d)(:\d\d)?$', d)
+  if mo:
+    # 2020-03-23T15:00:00
+    # 2020-03-23 15:00:00
+    # 2020-03-23 15:00
+    return f"{mo[1]}T{mo[2]}"
   assert False, f"Unknown date/time format: {d}"
 
 
 
 abbr=None
+url_sources=[]
 scrape_time=None
 date=None
 cases=None
 deaths=None
 recovered=None
 hospitalized=None
+icu=None
+vent=None
 
 try:
   i = 0
@@ -152,15 +164,22 @@ try:
     i += 1
     if i == 1:
       abbr = l
-      assert len(abbr) == 2, "The first line should be 2 letter abbreviation in upper case of the canton"
-      assert abbr.upper() == abbr, "The first line should be 2 letter abbreviation in upper case of the canton"
+      assert len(abbr) == 2, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
+      assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
       continue
     k, v = l.split(": ")
+    if k.startswith("Downloading"):
+      url_sources.append(v)
+      continue
     if k.startswith("Scraped at"):
       scrape_time = v
       continue
     if k.startswith("Date and time"):
       date = parse_date(v)
+      day = date.split("T", 2)[0].split('-', 3)
+      day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
+      now = datetime.date.today()
+      assert day <= now, f"Parsed date/time must not be in the future: parsed: {day}: now: {now}"
       continue
     if k.startswith("Confirmed cases"):
       cases = int(v)
@@ -174,9 +193,15 @@ try:
     if k.startswith("Hospitalized"):
       hospitalized = int(v)
       continue
+    if k.startswith("ICU"):
+      icu = int(v)
+      continue
+    if k.startswith("Vent"):
+      vent = int(v)
+      continue
     assert False, f"Unknown data on line {i}: {l}"
 
-  print("{:2} {:<16} {:>7} {:>7} OK {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time))
+  print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time, ", ".join(url_sources)))
 
 except Exception as e:
   print("Error: %s" % e)

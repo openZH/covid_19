@@ -1,12 +1,11 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-
-echo AR
-d=$("${DIR}/download.sh" "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/" | egrep "Appenzell Ausserrhoden hat.*Stand.*bestätigte Fälle")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('AR')
+d = sc.download('https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/')
+sc.timestamp()
+d = sc.filter('Aktuelle Informationen: Zahlen', d)
 
 
 # <div id="c61590" class="csc-element  accordeon-element" ><h2 class="header header2 header-default ">Aktuelle Informationen: Zahlen </h2><div class="csc-textpic-text"><p class="bodytext">&nbsp;</p>
@@ -14,12 +13,11 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 # <p class="bodytext">Appenzell Ausserrhoden hat&nbsp;mit&nbsp; Stand 24.3. / 10h:<strong>
 
-
-echo -n "Date and time: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*Stand" | tail -1 | sed -E -e 's/^.*Stand (.+ Uhr)\)<.+$/\1/' -e 's/^.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h).*$/\1/'
-
-echo -n "Confirmed cases: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*bestätigte Fälle<" | tail -1 | sed -E -e 's/^.*>([0-9]+) bestätigte Fälle.*$/\1/'
-
-echo -n "Deaths: "
-echo "$d" | egrep "Appenzell Ausserrhoden hat.*bestätigte Fälle<" | tail -1 | sed -E -e 's/^.*>([0-9]+) Person.?.? verstorben.*$/\1/'
+# Use non-greedy matching.
+t = sc.find(r'Stand\: (.+? Uhr)\)<', d)
+if not t:
+  t = sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
+print('Date and time:', t)
+# Use non-greedy matching for some parts.
+print('Confirmed cases:', sc.find(r'bestätigte Fälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+print('Deaths:', sc.find(r'Todesfälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))

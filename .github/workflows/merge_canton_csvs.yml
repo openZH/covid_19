@@ -1,0 +1,29 @@
+name: Merge cantonal CSVs
+
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    
+    - name: Setup Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+
+    # Runs a single command using the runners shell
+    - name: Print header line and then merge all files without header line
+      run: ruby scripts/merge_canton_csvs.rb > COVID19_Fallzahlen_CH_total.csv
+
+    # Commit to repo with updated file
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: Update COVID19_Fallzahlen_CH_total.csv
+        branch: ${{ github.head_ref }}

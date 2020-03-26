@@ -24,10 +24,12 @@
 #
 # Number of deaths can be omitted, if not available.
 
+export WEBARCHIVE_SNAPSHOT=1
+
 for s in ./scrape_*.sh;
 do
   if ! ./$s | ./parse_scrape_output.py 2>/dev/null; then
     a=$(echo "$s" | sed -E -e 's/^.*scrape_(..)\..*$/\1/' | tr a-z A-Z) # ' # To make my editor happy.
-    echo "$a" - - - FAILED
+    echo "$a" - - - FAILED "$(date --iso-8601=seconds)"
   fi
 done

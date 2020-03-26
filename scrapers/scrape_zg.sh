@@ -1,27 +1,21 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo ZG
-d=$("${DIR}/download.sh" "https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona" | egrep 'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:')
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('ZG')
+d = sc.download('https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona')
+sc.timestamp()
+d = sc.filter(r'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:', d)
 
+# 2020-03-23
+"""
+      <p>Infizierte Personen: 62</p>
+<p>Genesene Personen: 10</p>
+<p>Verstorbene Personen: 0</p>
+<p>Stand: 23.3.2020, 8.00 Uhr</p>
+"""
 
-#      <p>Infizierte Personen: 62</p>
-#<p>Genesene Personen: 10</p>
-#<p>Verstorbene Personen: 0</p>
-#<p>Stand: 23.3.2020, 8.00 Uhr</p>
-
-
-echo -n "Date and time: "
-echo "$d" | egrep "Stand" | head -1 | sed -E -e 's/^.*Stand:? ([^<]+ Uhr)<.*$/\1/'
-
-echo -n "Confirmed cases: "
-echo "$d" | egrep "Infizierte Personen" | head -1 | sed -E -e 's/^.*Infizierte Personen:? ([0-9]+)<.*$/\1/'
-
-echo -n "Deaths: "
-echo "$d" | egrep "Verstorbene Personen" | head -1 | sed -E -e 's/^.*Verstorbene Personen:? ([0-9]+)<.*$/\1/'
-
-echo -n "Recovered: "
-echo "$d" | egrep "Genesene Personen" | head -1 | sed -E -e 's/^.*Genesene Personen:? ([0-9]+)<.*$/\1/'
+print('Date and time:', sc.find(r'Stand:? ([^<]+ Uhr)<', d))
+print('Confirmed cases:', sc.find(r'Infizierte Personen:? ([0-9]+)<', d))
+print('Deaths:', sc.find(r'Verstorbene Personen:? ([0-9]+)<', d))
+print('Recovered:', sc.find(r'Genesene Personen:? ([0-9]+)<', d))

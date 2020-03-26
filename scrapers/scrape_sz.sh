@@ -1,25 +1,31 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo SZ
+print('SZ')
 
-#       <h2>Medienmitteilungen des kantonalen Führungsstabs</h2> 
-#       <ul> 
-#        <li><a href="https://www.sz.ch/public/upload/assets/45637/MM_KFS_Corona_17_3_2020.pdf">Medienmitteilung vom 17. März 2020</a></li> 
+d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948')
+sc.timestamp()
 
-URL=$("${DIR}/download.sh" 'https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948' | grep -A 3 "Medienmitteilungen des kantonalen Führungsstabs" | grep "<li>" | head -1 | awk -F '"' '{print $2;}')
-d=$("${DIR}/download.sh" "${URL}" | pdftotext - - | grep "bestätigte Fälle|Schwyz, .+ 202")
-echo "Scraped at: $(date --iso-8601=seconds)"
+# 2020-03-25
+"""        <li> <p>Aktuelle Fallzahlen im Kanton Schwyz (Stand: 25. März 2020): 99 Infizierte, 10 Genesene</p> </li> """
 
-# Schwyz, 17. März 2020
-# Im Kanton Schwyz sind aktuell 13 bestätigte Fälle registriert.
+# 2020-03-26, morning
+"""        <li> <p>Bestätigte Fälle im Kanton Schwyz (Stand: 26. März 2020): 99</p> </li> """
 
-echo -n "Date and time: "
-echo "$d" | egrep "Schwyz, .* 202" | sed -E -e 's/^.*Schwyz, (.+ 202[2-9]).*$/\1/'
+# 2020-03-26, afternoon
+"""        <li> <p>99 bestätigte Fälle im Kanton Schwyz, 10 Genesene (Stand: 26. März 2020)</p> </li> """
 
-echo -n "Confirmed cases: "
-echo "$d" | egrep "aktuell" | sed -E -e 's/^.*aktuell ([0-9]+) bestätigte Fälle.*$/\1/'
 
-# The latest PDF from 2020-03-17 doesn't mention numbers. Some previous did tho.
+
+print('Date and time:', sc.find(r'Stand: ([^)]+)\)', d))
+cases = sc.find(r': ([0-9]+) Infizierte', d)
+if not cases:
+  cases = sc.find(r'Bestätigte Fälle .*?\): ([0-9]+)<', d)
+if not cases:
+  cases = sc.find(r'>([0-9]+) bestätigte Fälle', d)
+print('Confirmed cases:', cases)
+
+recovered = sc.find(r', ([0-9]+) Genesene', d)
+if recovered:
+  print('Recovered:', recovered)

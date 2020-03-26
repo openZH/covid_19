@@ -1,14 +1,23 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo LU
-d=$("${DIR}/download.sh" "https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus" | grep "Im Kanton Luzern gibt es" | awk -F '>' '{print $3;}')
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('LU')
+d = sc.download('https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus')
+sc.timestamp()
 
-echo -n "Date and time: "
-echo "$d" | sed -E -e 's/^.*Stand: (.+)(Uhr)?\).+$/\1/'
+# 2020-03-25
+"""
+        <p class="teaser__text richtext"><p>Im Kanton Luzern gibt es 228 best&auml;tige F&auml;lle (Stand: 25. M&auml;rz 2020, 11:00 Uhr).&nbsp; Es gibt zwei Todesf&auml;lle im Zusammenhang dem Coronavirus zu beklagen. </p>
+"""
 
-echo -n "Confirmed cases: "
-echo "$d" | sed -e 's/ /\n/g' | egrep '[0-9]+' | head -1
+d = sc.filter(r'Im Kanton Luzern gibt es', d)
+
+print('Date and time:', sc.find(r'Stand: (.+)(Uhr)?\)', d))
+print('Confirmed cases:', sc.find('gibt es ([0-9]+) best(&auml;|ä)tige F(&auml;|ä)lle', d))
+
+deathsString = sc.find('Es gibt (.*) Todesf(&auml;|ä)lle', d)
+
+deaths = sc.int_or_word(deathsString)
+if not deaths is None:
+  print('Deaths:', deaths)
