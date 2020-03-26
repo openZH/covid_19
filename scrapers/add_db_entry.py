@@ -81,7 +81,7 @@ try:
                 ]
             )
         except sqlite3.IntegrityError:
-            print("Error: Data for this date + time has already been added")
+            print("Error: Data for this date has already been added")
         finally:
             conn.commit()
 except Exception as e:
