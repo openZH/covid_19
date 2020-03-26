@@ -2,7 +2,7 @@
 
 | Canton | Status | Source quality | Auto-Update via GitHub Actions | Comment |
 | ------ | ------ | -------------- | ------------------------------ |------- |
-| AG     | 1      | 2              | [![Run AG scraper](https://github.com/openZH/covid_19/workflows/Run%20AG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AG+scraper%22)                             | Indirect daily PDFs URL. Tricky extraction |
+| AG     | 2      | 3              | [![Run AG scraper](https://github.com/openZH/covid_19/workflows/Run%20AG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AG+scraper%22)                             | Okish |
 | AI     | 3      | 3              | no                             | Easy extraction including date and time. |
 | AR     | 2      | 3              | [![Run AR scraper](https://github.com/openZH/covid_19/workflows/Run%20AR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AR+scraper%22)                            | Ok. Easy to extract. |
 | BE     | 2      | 3              | [![Run BE scraper](https://github.com/openZH/covid_19/workflows/Run%20BE%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BE+scraper%22)                            | Okish |
