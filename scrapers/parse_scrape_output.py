@@ -145,6 +145,7 @@ def parse_date(d):
 
 
 abbr=None
+url_sources=[]
 scrape_time=None
 date=None
 cases=None
@@ -166,6 +167,9 @@ try:
       assert abbr.upper() == abbr, "The first line should be 2 letter abbreviation in upper case of the canton"
       continue
     k, v = l.split(": ")
+    if k.startswith("Downloading"):
+      url_sources.append(v)
+      continue
     if k.startswith("Scraped at"):
       scrape_time = v
       continue
@@ -192,7 +196,7 @@ try:
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
-  print("{:2} {:<16} {:>7} {:>7} OK {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time))
+  print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time, ", ".join(url_sources)))
 
 except Exception as e:
   print("Error: %s" % e)
