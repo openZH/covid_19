@@ -1,12 +1,19 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-echo ZH
-d=$(curl --silent "https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html" | egrep "Im Kanton Zürich sind zurzeit|\\(Stand")
-echo "Scraped at: $(date --iso-8601=seconds)"
+import scrape_common as sc
 
-echo -n "Date and time: "
-echo "$d" | grep "Stand" | sed -E -e 's/.*Stand (.+) Uhr.*/\1/'
+print('ZH')
+d = sc.download("https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html")
+sc.timestamp()
+d = sc.filter(r"Im Kanton Zürich sind zurzeit|\(Stand", d)
+#                                 <h2>Aktuelle Situation im Kanton Zürich (24.3.2020, 9.30 Uhr)</h2>
+#                         
+#                         
+#                         
+#                         <p>Im Kanton Zürich sind zurzeit 1211 Personen positiv auf das Coronavirus getestet worden. Total 5 Todesfälle (78-jährig, 80, 88, 96, 97).</p>
+# <p>(Stand 24.3.2020, 9.30 Uhr)</p>
 
-echo -n "Confirmed cases: "
-echo "$d" | grep "posit" | sed -e 's/ /\n/g' | egrep '[0-9]+' | head -1
+
+print("Date and time:", sc.find('Stand (.+) Uhr', d))
+print("Confirmed cases:", sc.find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d))
+print("Deaths:", sc.find('Im .* Zürich .* Total ([0-9]+) Todesfälle', d))

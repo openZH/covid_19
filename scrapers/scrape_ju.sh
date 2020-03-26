@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo JU
-d=$(curl --silent --user-agent "Mozilla Firefox Mozilla/5.0; openZH covid_19 at github" "https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html" | egrep -B 2 'Situation .*2020')
+d=$("${DIR}/download.sh" "https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html" | egrep -B 2 'Situation .*2020')
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 echo -n "Date and time: "

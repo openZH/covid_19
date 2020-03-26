@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+
 echo SO
-d=$(curl --silent "https://corona.so.ch/" | egrep "Situation Kanton Solothurn.*Stand|Anzahl positiv getesteter Erkrankungsfälle|Verstorben:")
+d=$("${DIR}/download.sh" "https://corona.so.ch/" | egrep "Situation Kanton Solothurn.*Stand|Anzahl positiv getesteter Erkrankungsfälle|Verstorben:")
 echo "Scraped at: $(date --iso-8601=seconds)"
 
 # <p class="bodytext"><strong>Situation Kanton Solothurn (Stand 23.03.2020, 12:00)</strong></p><ul><li>Anzahl positiv getesteter Erkrankungsfälle: 95 Personen</li> 	<li>Verstorben:<strong> </strong>1 Person</li></ul><p class="bodytext"> </p></div></div>
@@ -10,7 +12,7 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 
 echo -n "Date and time: "
-echo "$d" | egrep "Situation Kanton Solothurn.*Stand" | head -1 | sed -E -e 's/^.*\(Stand (.+)\)<.+$/\1/'
+echo "$d" | egrep "Situation Kanton Solothurn.*Stand" | head -1 | sed -E -e 's/^.*\(Stand ([^\)]+)\)<.+$/\1/'
 
 echo -n "Confirmed cases: "
 echo "$d" | egrep "Anzahl positiv getesteter Erkrankungsfälle: [0-9]+ " | head -1 | sed -E -e 's/^.*Anzahl positiv getesteter Erkrankungsfälle: ([0-9]+) .*$/\1/'
