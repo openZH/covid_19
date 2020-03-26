@@ -1,9 +1,8 @@
 name: Merge cantonal CSVs
 
 on:
-  push:
-    paths:
-    - 'fallzahlen_kanton_total_csv/*.csv'
+  schedule:
+    - cron:  '*/15 * * * *'
 
 jobs:
   build:
