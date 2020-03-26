@@ -30,10 +30,10 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 
 
 echo -n "Date and time: "
-echo "$d" | tail -1 | awk '{print $1;}'
+echo -e "$d" | tail -1 | awk '{print $1;}'
 
 echo -n "Confirmed cases: "
-echo "$d" | tail -1 | awk '{print $5;}'
+echo -e "$d" | tail -1 | awk '{print $5;}'
 
 echo -n "Deaths: "
-echo "$d" | tail -1 | awk '{print $4;}'
+echo -e "$d" | tail -1 | awk '{print $4;}'
