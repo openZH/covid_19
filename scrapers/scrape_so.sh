@@ -1,21 +1,17 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo SO
-d=$("${DIR}/download.sh" "https://corona.so.ch/" | egrep "Situation Kanton Solothurn.*Stand|Anzahl positiv getesteter Erkrankungsfälle|Verstorben:")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('SO')
+d = sc.download("https://corona.so.ch/")
+sc.timestamp()
+d = sc.filter("Situation Kanton Solothurn.*Stand|Anzahl positiv getesteter Erkrankungsfälle|Verstorben:", d)
 
-# <p class="bodytext"><strong>Situation Kanton Solothurn (Stand 23.03.2020, 12:00)</strong></p><ul><li>Anzahl positiv getesteter Erkrankungsfälle: 95 Personen</li> 	<li>Verstorben:<strong> </strong>1 Person</li></ul><p class="bodytext"> </p></div></div>
+# 2020-03-23
+"""
+ <p class="bodytext"><strong>Situation Kanton Solothurn (Stand 23.03.2020, 12:00)</strong></p><ul><li>Anzahl positiv getesteter Erkrankungsfälle: 95 Personen</li> 	<li>Verstorben:<strong> </strong>1 Person</li></ul><p class="bodytext"> </p></div></div>
+"""
 
-
-
-echo -n "Date and time: "
-echo "$d" | egrep "Situation Kanton Solothurn.*Stand" | head -1 | sed -E -e 's/^.*\(Stand ([^\)]+)\)<.+$/\1/'
-
-echo -n "Confirmed cases: "
-echo "$d" | egrep "Anzahl positiv getesteter Erkrankungsfälle: [0-9]+ " | head -1 | sed -E -e 's/^.*Anzahl positiv getesteter Erkrankungsfälle: ([0-9]+) .*$/\1/'
-
-echo -n "Deaths: "
-echo "$d" | egrep "Verstorben:.*[0-9]+" | head -1 | sed -E -e 's/^.*Verstorben:(<strong> <\/strong>)?([0-9]+) .*$/\2/'
+print("Date and time:", sc.find(r'\(Stand ([^\)]+)\)<', d))
+print("Confirmed cases:", sc.find(r'Anzahl positiv getesteter Erkrankungsfälle: ([0-9]+) ', d))
+print("Deaths:", sc.find('Verstorben:(<strong> <\/strong>)?([0-9]+) ', d, group=2))

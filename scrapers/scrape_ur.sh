@@ -1,17 +1,26 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo UR
-d=$("${DIR}/download.sh" "https://www.ur.ch/themen/2920" | egrep "Personen gestiegen|Anstieg auf [0-9]+ Person|infiziert sind")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('UR')
+d = sc.download('https://www.ur.ch/themen/2920')
+sc.timestamp()
+d = sc.filter(r'Personen gestiegen|Anstieg auf [0-9]+ Person|infiziert sind', d)
 
-echo -n "Date and time: "
-echo "$d" | grep Stand | head -1 | sed -E -e 's/^.*\(Stand[A-Za-z ]*[:,]? ([^\)]+)\).*$/\1/'
+# 2020-03-24
+"""
+.......<h2 class="icmsH2Content">Coronafälle in Uri</h2><p class="icmsPContent"><strong>Der Kantonale Führungsstab hat am heutigen Lagerapport zur Kenntnis genommen, dass im Kanton Uri zurzeit 25 Personen mit dem Coronavirus infiziert sind (Stand: 24. März 2020, 12.00 Uhr). Eine Person ist hospitalisiert. Eine Person ist genesen.</strong>&nbsp;</p>.....
+"""
 
 # (Stand: 24. März 2020, 12.00 Uhr).
-# echo "$(date --iso-8601=date)"  # Current website doesn't provide information about day or hour. :/ Fake it.
+print('Date and time:', sc.find(r'\(Stand[A-Za-z ]*[:,]? ([^\)]+)\)', d))
 
-echo -n "Confirmed cases: "
-echo "$d" | sed -E -e 's/^.* ([0-9]+) Personen gestiegen.*$/\1/' -e 's/^.*Anstieg auf ([0-9]+) Person.*$/\1/' -e 's/^.*zurzeit ([0-9]+) Person(en)? mit dem Coronavirus infiziert sind.*$/\1/' | head -1
+a = sc.find(r' ([0-9]+) Personen gestiegen', d)
+b = sc.find(r'Anstieg auf ([0-9]+) Person', d)
+c = sc.find(r'zurzeit ([0-9]+) Person(en)? mit dem Coronavirus infiziert sind', d)
+print('Confirmed cases:', a or b or c)
+
+# Should we try extracting this:
+""" Eine Person ist hospitalisiert. Eine Person ist genesen. """
+# ?
+

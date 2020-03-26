@@ -1,33 +1,35 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo BL
+print('BL')
 
-URL="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm"
-d=$("${DIR}/download.sh" "${URL}")
+d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm')
+sc.timestamp()
 
-# <pre id="data" style="display:none;">Datum, Bestätigte Fälle, Verstorbene
-# 28-02-2020,1,
-# 29-02-2020,2,
-# 01-03-2020,2,
-# 02-03-2020,2,
-# ...
-# 21-03-2020,282,3
-# 22-03-2020,289,3
-# 23-03-2020,302,3
-# 24-03-2020,306,4
-# </pre>
+# 2020-03-24
+"""
+<pre id="data" style="display:none;">
+Datum, Bestätigte Fälle, Verstorbene
+28-02-2020,1,
+29-02-2020,2,
+01-03-2020,2,
+02-03-2020,2,
+...
+21-03-2020,282,3
+22-03-2020,289,3
+23-03-2020,302,3
+24-03-2020,306,4
+</pre>
+"""
 
-echo "Scraped at: $(date --iso-8601=seconds)"
-line=$(echo "$d" | sed -n '/<pre id\="data"/,$p' | grep "</pre>" -m1 -B1 | head -1)
+d = d.replace('\n', ' ')
+# Extract last line. Use non-greedy matching.
+d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Verstorbene.*? ([^ ]+) ?</pre>', d)
+assert d, "Can't find a data table"
 
-echo -n "Date and time: "
-echo "$line" | cut -d "," -f 1 | sed 's/\-/./g'
+c = d.split(',')
 
-echo -n "Confirmed cases: "
-echo "$line" | cut -d "," -f 2
-
-echo -n "Deaths: "
-echo "$line" | cut -d "," -f 3
+print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
+print('Confirmed cases:', c[1])
+print('Deaths:', c[2])
