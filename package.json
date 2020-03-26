@@ -4,9 +4,9 @@
   "repository": "git@github.com:openZH/covid_19.git",
   "license": "MIT",
   "dependencies": {
-    "csval": "^1.0.6"
+    "csv-validator": "0.0.3"
   },
   "scripts": {
-    "test": "node scripts/validate-schema.js fallzahlen_kanton_total_csv"
+    "test": "node scripts/validate-csv.js fallzahlen_kanton_total_csv"
   }
 }
