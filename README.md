@@ -84,10 +84,6 @@ The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen
 |---------------------|--------------------------------------------|------------|
 | ninstant_ICU_intub   |Reported number of patients requiring intubation on date| Number     |
 
-# Metadata and explanations
-## Cases Canton ZH
-Metadata (in German): https://opendata.swiss/en/dataset/covid_19-fallzahlen-kanton-zuerich
-
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
