@@ -1,13 +1,15 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo GE
-d=$("${DIR}/download.sh" "https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger" | pdftotext - - | egrep -B 1 "Dans le canton de Genève|Actuellement.*cas ont|décédées|hospitalisés")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('GE')
+d = sc.pdfdownload('https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger')
+sc.timestamp()
 
-cat >/dev/null <<EOF
+#d = sc.filter(r'Dans le canton de Genève|Actuellement.*cas ont|décédées|hospitalisés', d) # + 1 line.
+
+# 2020-03-23
+"""
 Cette fiche destinée à la population générale
 dresse un état des lieux de la situation au 23
 mars 2020.
@@ -51,19 +53,34 @@ Actuellement, au total 214 patients sont hospitalisés,
 dont 43 aux soins intensifs. A l’heure actuelle, 9
 personnes sont décédées dans le canton des suites de
 la maladie.
-EOF
+"""
 
 
-echo -n "Date and time: "
-echo "$d" | grep "Dans le" | sed -E -e 's/.*\((.*)\).*$/\1/'
+# 2020-03-24
+"""
+Dans le canton de Genève (24.03 à 12h)
+Actuellement, 1510 cas ont été confirmés. Le nombre de
+cas continue de progresser.
+Actuellement, au total 238 patients sont hospitalisés,
+dont 41 aux soins intensifs. A l’heure actuelle, 12
+personnes sont décédées dans le canton des suites de
+la maladie.
 
-echo -n "Confirmed cases: "
-echo "$d" | grep "cas ont" | sed -E -e 's/( |<)/\n/g' | sed "s/'//g" | egrep '[0-9]+' | head -1
+"""
 
+# Use non-greedy matching.
+print('Date and time:', sc.find(r'Dans le.*\((.*?h)\)', d))
 
-echo -n "Hospitalized: "
-echo "$d" | grep "hospitalisés" | sed -E -e "s/'//g" | sed -E -e 's/^.*total ([0-9]+) patients?.*hospitalis.*$/\1/' | head -1
+# To handle: 1'231 as 1231
+d = d.replace("'", '')
 
-# Due to pdf line wrapping. Also match previous line and merge it into single line.
-D=$(echo "$d" | grep -B 2 "décédées" | tr '\n' ' ' | sed "s/'//g" | sed -E -e 's/^.*([0-9]+) [^,]* décédées.*$/\1/')  # ' # Make my editor happy.
-echo "Deaths: ${D}"
+print('Confirmed cases:', sc.find(r', ([0-9]+) cas ont', d))
+
+print('Hospitalized:', sc.find(r'total ([0-9]+) patients?.*hospitalis', d))
+
+print('ICU:', sc.find(r'dont ([0-9]+) aux soins? intensifs?', d))
+
+# Due to pdf line wrapping, merge new lines into one line for easier matching.
+d = d.replace('\n', ' ')
+# Use non-greedy matching.
+print('Deaths:', sc.find(r'\b([0-9]+) [^,\.]*? décédées', d))

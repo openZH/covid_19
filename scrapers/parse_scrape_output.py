@@ -163,8 +163,8 @@ try:
     i += 1
     if i == 1:
       abbr = l
-      assert len(abbr) == 2, "The first line should be 2 letter abbreviation in upper case of the canton"
-      assert abbr.upper() == abbr, "The first line should be 2 letter abbreviation in upper case of the canton"
+      assert len(abbr) == 2, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
+      assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
       continue
     k, v = l.split(": ")
     if k.startswith("Downloading"):

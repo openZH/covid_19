@@ -1,14 +1,17 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo TG
-d=$("${DIR}/download.sh" "https://www.tg.ch/news/fachdossier-coronavirus.html/10552" | egrep "<li>Anzahl bestätigter|<em>Stand")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('TG')
+d = sc.download('https://www.tg.ch/news/fachdossier-coronavirus.html/10552')
+sc.timestamp()
+d = sc.filter(r'<li>Anzahl bestätigter|<em>Stand', d)
 
-echo -n "Date and time: "
-echo "$d" | grep "Stand" | sed -E -e 's/^.*Stand ([^<]+)<.*$/\1/'
+# 2020-03-25
+"""
+      <li>Anzahl bestätigter Fälle: 96</li> 
+     <p><em>Stand 25.3.20</em></p> 
+"""
 
-echo -n "Confirmed cases: "
-echo "$d" | grep 'Anzahl' | sed -E -e 's/.* ([0-9]+)<.*$/\1/'
+print('Date and time:', sc.find(r'Stand ([^<]+)<', d))
+print('Confirmed cases:', sc.find(r'Anzahl bestätigter Fälle: ([0-9]+)<', d))

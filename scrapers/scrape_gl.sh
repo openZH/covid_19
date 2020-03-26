@@ -1,11 +1,12 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo GL
-d=$("${DIR}/download.sh" "https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817" | egrep "Fallzahlen Kanton Glarus.+Update|Bestätigte Fälle|Wahrscheinliche Fälle")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('GL')
+d = sc.download('https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817')
+sc.timestamp()
+
+d = sc.filter(r'Fallzahlen Kanton Glarus.+Update|Best(ä|&auml;)tigte F(ä|&auml;)lle|Wahrscheinliche F(ä|&auml;)lle|Hospitalisierungen', d)
 
 #      <li><strong><a href="#Fallzahlen">Fallzahlen Kanton Glarus</a> (Update 22.03.2020, 13.30 Uhr)</strong></li> 
 #...
@@ -14,9 +15,13 @@ echo "Scraped at: $(date --iso-8601=seconds)"
 #      <h2>Wahrscheinliche Fälle:&nbsp;<strong>--</strong></h2> 
 #      <h2>Hospitalisierungen:&nbsp;<strong>3</strong>&nbsp;</h2> 
 
+# 2020-03-26
+"""
+      <h2><strong><a id="Fallzahlen" name="Fallzahlen"></a>Coronavirus: Update Kanton Glarus</strong><br /> (Stand: 25.3.2020, 13:30 Uhr)</h2> 
+      <h2>Bestätigte Fälle: <strong>40&nbsp;</strong>(Vortag: 33)&nbsp;<br /> Hospitalisierungen: <strong>2</strong>&nbsp;(Vortag: 3)</h2> 
+      <p>Die Zahl der bestätigten Fälle umfasst die seit Messbeginn erfassten Personen, die positiv auf COVID-19 getestet wurden. Bereits wieder genesene Personen sind in diesen Zahlen ebenfalls enthalten.</p> 
+"""
 
-echo -n "Date and time: "
-echo "$d" | egrep "Fallzahlen Kanton" | sed -E -e 's/^.*Update (.+ Uhr)\)<.*$/\1/'
-
-echo -n "Confirmed cases: "
-echo "$d" | egrep "Best(ä|&auml;)tigte F(ä|&auml;)lle" | sed -E -e 's/^.*strong>([0-9]+)<.*$/\1/' | head -1
+print('Date and time:', sc.find(r'Update (.+ Uhr)\)<', d))
+print('Confirmed cases:', sc.find(r'Bestätigte Fälle: <strong>([0-9]+)(&nbsp;)?<', sc.filter(r'Best(ä|&auml;)tigte F(ä|&auml;)lle', d)))
+print('Hospitalized:', sc.find(r'Hospitalisierungen: <strong>([0-9]+)(&nbsp;)?<', sc.filter(r'Hospitalisierungen', d)))

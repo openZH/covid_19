@@ -1,16 +1,18 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo SG
-d=$("${DIR}/download.sh" "https://www.sg.ch/tools/informationen-coronavirus.html" | grep "Bestätigte Fälle:")
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('SG')
+d = sc.download("https://www.sg.ch/tools/informationen-coronavirus.html")
+sc.timestamp()
+d = sc.filter(r'Bestätigte Fälle:', d)
 
-# 									<div class="col-xs-12"><p>20.03.2020:<br/>Bestätigte Fälle: 98<br/><br/></p></div>
+# 2020-03-20
+""" 									<div class="col-xs-12"><p>20.03.2020:<br/>Bestätigte Fälle: 98<br/><br/></p></div>"""
 
-echo -n "Date and time: "
-echo "$d" | sed -E -e 's/^.*<p>([0-9]+\.[0-9]+\.[0-9]+):<br.*$/\1/'
+# 2020-03-25
+"""									<div class="col-xs-12"><p>25.03.2020:</p><p>Bestätigte Fälle: 228<br/>Todesfälle: 1</p><p>Die Fallzahlen können nicht nach Regionen oder Gemeinden selektioniert werden. Es treten in allen Regionen des Kantons Fälle auf.&nbsp;</p><p>&nbsp;</p></div>"""
 
-echo -n "Confirmed cases: "
-echo "$d" | sed -E -e 's/^.*>Bestätigte Fälle: ([0-9]+)<.*$/\1/'
+print('Date and time:', sc.find(r'<p>([0-9]+\.[0-9]+\.[0-9]+):(<br|<\/p>)', d))
+print('Confirmed cases:', sc.find(r'>Bestätigte Fälle: ([0-9]+)<', d))
+print('Deaths:', sc.find(r'>Todesfälle: ([0-9]+)<', d))

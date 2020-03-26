@@ -1,28 +1,24 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo AG
+print('AG')
 
 # From the new website:
-d=$("${DIR}/download.sh" "https://www.ag.ch/de/themen_1/coronavirus_2/alle_ereignisse/alle_ereignisse_1.jsp" | egrep 'Neues Lagebulletin')
-echo "Scraped at: $(date --iso-8601=seconds)"
+d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/alle_ereignisse/alle_ereignisse_1.jsp')
+sc.timestamp()
+d = sc.filter(r'Neues Lagebulletin', d)
 
-echo -n "Date and time: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | egrep 'class="timeline__time" datetime="00.*00"' | sed -E -e 's/^.*class="timeline__time" datetime="00(.*00)".*$/\1/' | head -1
+# Use non-greedy match.
+print('Date and time:', sc.find(r'class="timeline__time" datetime="00(.*?00)"', d))
 
-echo -n "Confirmed cases: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | egrep "zurzeit [0-9]+ best(ä|&auml;)tigte F(ä|&auml;)lle" | sed -E -e 's/^.*zurzeit ([0-9]+) best(ä|&auml;)tigte F(ä|&auml;)lle.*$/\1/' | head -1
+print('Confirmed cases:', sc.find(r'zurzeit ([0-9]+) best(ä|&auml;)tigte F(ä|&auml;)lle', d))
 
-echo -n "Hospitalized: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | egrep "[0-9]+ Person(en)? sind zurzeit hospitalisiert" | sed -E -e 's/^.* ([0-9]+) Person(en)? sind zurzeit hospitalisiert.*$/\1/' | head -1
+print('Hospitalized:', sc.find(r' ([0-9]+) Person(en)? sind zurzeit hospitalisiert', d))
 
-echo -n "ICU: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | egrep "[0-9]+ Person(en)? werden auf Intensivstationen behandelt" | sed -E -e 's/^.* ([0-9]+) Person(en)? werden auf Intensivstationen behandelt.*$/\1/' | head -1
+print('ICU:', sc.find(r' ([0-9]+) Person(en)? werden auf Intensivstationen behandelt', d))
 
-echo -n "Vent: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | egrep "[0-9]+ Person(en)? k(ü|&uuml;)nstlich beatmet werden" | sed -E -e 's/^.* ([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden.*$/\1/' | head -1
+print('Vent:', sc.find(r' ([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden', d))
 
-echo -n "Deaths: "
-echo "$d" | sed -E -e 's/Neues Lagebulletin/\n/g' | sed -E -e 's/zwei/2/g' | egrep "[0-9]+ Person(en)? an den Folgen des Coronavirus verstorben" | sed -E -e 's/^.* ([0-9]+) Person(en)? an den Folgen des Coronavirus verstorben.*$/\1/' | head -1
+d = d.replace('zwei', '2')
+print('Deaths:', sc.find(r'([0-9]+) Person(en)? an den Folgen des Coronavirus verstorben', d))

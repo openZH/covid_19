@@ -1,14 +1,11 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
 
-echo JU
-d=$("${DIR}/download.sh" "https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html" | egrep -B 2 'Situation .*2020')
-echo "Scraped at: $(date --iso-8601=seconds)"
+print('JU')
+d = sc.download('https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html')
+sc.timestamp()
+# d = sc.filter(r'Situation .*2020', d) # + 2 lines before.
 
-echo -n "Date and time: "
-echo "$d" | grep Situation | sed -E -e 's/^.*Situation (.+)<\/em.*$/\1/'
-
-echo -n "Confirmed cases: "
-echo "$d" | egrep "<p.*<strong>[0-9]+" | sed -E -e 's/^.*>([0-9]+)<.*$/\1/'
+print('Date and time:', sc.find(r'Situation (.+?)<\/em', d))
+print('Confirmed cases:', sc.find(r'<p.*?<strong>([0-9]+)<', d))
