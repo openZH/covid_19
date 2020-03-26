@@ -15,6 +15,7 @@ def download(url, encoding='utf-8'):
 
 def pdfdownload(url, encoding='utf-8'):
   """Download a PDF and convert it to text"""
+  print("Downloading:", url)
   downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
   with subprocess.Popen([downloader, url], stdout=subprocess.PIPE) as pdf:
     with subprocess.Popen(['pdftotext', '-', '-'], stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
