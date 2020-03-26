@@ -24,6 +24,7 @@ canton de Fribourg, Kanton Freiburg, FR:
  * https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-aktuelle-informationen
  * Can't find any reliable source for numbers. Or any.
  * Some random sub-articles might contain data for specific days, but it has hard to find even by hand.
+ * As of 2020-03-26, 15:05, numbers (cases, deaths, hospitalizations) are on https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 
 Kanton Obwalden, OW:
  * https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
