@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import datetime
 import re
 import sys
 import traceback
@@ -175,6 +176,10 @@ try:
       continue
     if k.startswith("Date and time"):
       date = parse_date(v)
+      day = date.split("T", 2)[0].split('-', 3)
+      day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
+      now = datetime.date.today()
+      assert day <= now, f"Parsed date/time must not be in the future: parsed: {day}: now: {now}"
       continue
     if k.startswith("Confirmed cases"):
       cases = int(v)
