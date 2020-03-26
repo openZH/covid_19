@@ -26,7 +26,7 @@ You can get started exploring the data with `visualise.ipynb` ([run it in your b
 
 We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
 
-(Latest full roundtrip to check for updates: completed at 2020-03-25 18:20 - next full roundtrip starting at at 2020-03-25 20:00)
+(Latest full roundtrip to check for updates: completed at 2020-03-26 21:22 - next full roundtrip starting at 2020-03-27 08:00)
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-26 |yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
@@ -59,7 +59,7 @@ We are available to advise and support interested authorities. You can reach us:
 
 
 # Data structure
-The data of the Cantonal case numbers is structured in such a way, it can be easily expanded vertically (Confederation).
+The data of the Cantonal case numbers is structured as follows:
 
 [example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
 
