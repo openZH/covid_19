@@ -23,7 +23,7 @@
 | SZ     | 1      | 1              | no                             | Unreliable data in indirect PDFs. Very aggressive and long blocking of IP after bad requests! Blocking of curl. |
 | TG     | 2      | 3              | [![Run TG scraper](https://github.com/openZH/covid_19/workflows/Run%20TG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+TG+scraper%22)                            | Okish. Could be better. |
 | TI     | 2      | 3              | no                             | Okish. Burried in a nest of tags. |
-| UR     | 2.5    | 3              | [![Run UR scraper](https://github.com/openZH/covid_19/workflows/Run%20UR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+UR+scraper%22)                            | Okish. |
+| UR     | 3      | 4              | [![Run UR scraper](https://github.com/openZH/covid_19/workflows/Run%20UR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+UR+scraper%22)                            | Okish. |
 | VD     | 3      | 4              | no                             | Easy extraction of all metadata, including history |
 | VS     | 2      | 3              | [![Run VS scraper](https://github.com/openZH/covid_19/workflows/Run%20VS%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+VS+scraper%22)                            | Okish. A little bit risky extraction. |
 | ZG     | 3      | 3              | [![Run ZG scraper](https://github.com/openZH/covid_19/workflows/Run%20ZG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+ZG+scraper%22)                            | Ok. Very easy to extract. Robust |
