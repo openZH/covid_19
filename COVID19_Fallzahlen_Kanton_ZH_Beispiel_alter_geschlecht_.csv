@@ -1,3 +1,3 @@
-id,age_year,gender,hospitalized,preexisting_conditions,symptom_onset_date,confirmed_date,exposition_date,isolated
-1,56,m,y,y,2020-03-04,2020-03-05,2020-02-25,y
-2,31,f,n,n,2020-03-04,2020-03-05,2020-02-25,n
+reporting_date,age_year,gender,preexisting_conditions,isolated,hospitalized,released,deceased
+2020-03-04,56,m,y,y,y,,,
+
