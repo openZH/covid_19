@@ -29,7 +29,7 @@ We are available to advise and support interested authorities, how to easily com
 - mailto:info@open.zh.ch
 
 # Latest Updates
-*[Overview Table](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)*
+**[Overview Table](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)**
 
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
