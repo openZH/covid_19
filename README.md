@@ -12,21 +12,22 @@ The infection rates refer to the infection with
 [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2),
 whereas the disease caused by the virus is called [Covid-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019).
 
-We are providing SARS-CoV-2 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specifed with the respective URL(s).
+We are providing SARS-CoV-2 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specified with the respective URL(s).
 
 Case numbers include persons tested and treated in the respective Canton resp. Principality of Liechtenstein. *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see e.g. with the Canton of Zurich "Testkriterien" at www.gd.zh.ch/coronavirus).
 
-The data is updated regularly - if available daily. Times of collection and update of the data may vary.
+The data is updated regularly - if available daily. Times of collection and update of the data may vary. We are specifying the date of the last reporting, and - if available - a time-stamp, too.
 
-We are seeking to cover all Cantons, and to update the data automatically (by scraping or pipeline). Join our challenge to contribute to this goal: https://db.schoolofdata.ch/project/73
+The data is both automatically and manually updated, and regularly checked. We are performing three times a day complete manual updates and verifications; these "roundtrips" are starting at 8am, 2pm and 8pm. They are usally completed within 60 minutes.
 
 There is a [merged file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv) of all Cantons and FL that is automatically updated for use in data analysis.
 
 You can get started exploring the data with `visualise.ipynb` ([run it in your browser](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)).
 
-We are available to advise and support interested authorities. You can reach us: https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
+We are available to advise and support interested authorities, how to easily complete both historized data, and missing columns. You can reach us:
+- https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
+- mailto:info@open.zh.ch
 
-(Latest full roundtrip to check for updates: completed at 2020-03-26 21:22 - next full roundtrip starting at 2020-03-27 08:00)
 | OGD resource | updated by | latest update | data historized | Official source(s) |
 |--------------|------------|---------------|-----------------|--------------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|manually|2020-03-26 |yes|see 'source' [OGD resource](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_FL_total.csv)|
