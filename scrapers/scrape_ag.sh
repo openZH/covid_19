@@ -20,5 +20,4 @@ print('ICU:', sc.find(r' ([0-9]+) Person(en)? werden auf Intensivstationen behan
 
 print('Vent:', sc.find(r' ([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden', d))
 
-d = d.replace('zwei', '2')
-print('Deaths:', sc.find(r'([0-9]+) Person(en)? an den Folgen des Coronavirus verstorben', d))
+print('Deaths:', sc.find(r'([0-9]+) Person(en)? an den Folgen des Coronavirus ?verstorben', d))
