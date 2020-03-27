@@ -32,12 +32,12 @@ try:
             'date': date_part[0],
             'time': '',
             'area': os.environ['SCRAPER_KEY'],
-            'tested': None,
+            'tested': '',
             'confirmed': int(match.group(3)),
-            'hospitalized': None,
-            'icu': None,
-            'vent': None,
-            'released': None,
+            'hospitalized': '',
+            'icu': '',
+            'vent': '',
+            'released': '',
             'deceased': match.group(4),
             'source': os.environ['SCRAPER_SOURCE']
         }
@@ -46,7 +46,7 @@ try:
             data['time'] = date_part[1]
 
         if (data['deceased'] == '-'):
-            data['deceased'] = None
+            data['deceased'] = ''
         else:
             data['deceased'] = int(data['deceased'])
 
