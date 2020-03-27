@@ -13,6 +13,8 @@ __location__ = os.path.realpath(
     )
 )
 
+input_failures = 0
+
 try:
     DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
     conn = sqlite3.connect(DATABASE_NAME)
@@ -20,7 +22,11 @@ try:
     i = 0
     for line in sys.stdin:
         l = line.strip()
-        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+((\w+|-))', l)
+        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+((\w+|-))\s+OK', l)
+        if not match:
+          input_failures += 1
+          print(f'Error: Not matched input line: {l}')
+          continue
         date_part = match.group(2).split('T')
         data = {
             'date': date_part[0],
@@ -90,3 +96,6 @@ except Exception as e:
     sys.exit(1)
 finally:
     conn.close()
+
+if input_failures:
+  sys.exit(1)

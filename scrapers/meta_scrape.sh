@@ -28,8 +28,11 @@ export WEBARCHIVE_SNAPSHOT=1
 
 for s in ./scrape_*.sh;
 do
-  if ! ./$s | ./parse_scrape_output.py 2>/dev/null; then
+  L=$(./$s | ./parse_scrape_output.py)
+  if ! echo "${L}" | egrep ' (OK|FAILED)' >/dev/null; then
     a=$(echo "$s" | sed -E -e 's/^.*scrape_(..)\..*$/\1/' | tr a-z A-Z) # ' # To make my editor happy.
     echo "$a" - - - FAILED "$(date --iso-8601=seconds)"
+  else
+    echo "${L}"
   fi
 done
