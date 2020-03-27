@@ -6,7 +6,7 @@
 
 # SARS-CoV-2 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
-Our aim is to create a common official OGD dataset of SARS-CoV-2 cases of the Swiss Authorities.
+We are providing a common official OGD dataset of SARS-CoV-2 case numbers, which are communicated by official Swiss canton's (26 cantons, abbreviations see below) and Principality of Liechtenstein's (abbreviation: FL) sources.
 
 The infection rates refer to the infection with
 [SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2),
