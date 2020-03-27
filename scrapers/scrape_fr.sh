@@ -45,12 +45,12 @@ sc.timestamp()
 </div>
 """
 
-m = re.search(r'<table class="table table-condensed table-hover">(.*?)</table>', d, flags=re.MULTILINE | re.DOTALL)
+m = re.search(r'<table class="table.*?">(.*?)</table>', d, flags=re.MULTILINE | re.DOTALL)
 assert m, "Can't find table"
 
 d = m[1]
 
-header = sc.find("<tr>\s*(<td><strong>Date</strong></td>\s*<td><strong>Personnes hospitalisées</strong></td>\s*<td><strong>Total Décès</strong></td>\s*<td><strong>Total cas avérés</strong></td>)\s*</tr>", d)
+header = sc.find("<tr>\s*(<t[dh]><strong>Date</strong></t[dh]>\s*<t[dh]><strong>Personnes hospitalisées</strong></t[dh]>\s*<t[dh]><strong>Total Décès</strong></t[dh]>\s*<t[dh]><strong>Total cas avérés</strong></t[dh]>)\s*</tr>", d)
 assert header, "Header not matched"
 
 d = d.replace('&nbsp;', '')
@@ -66,7 +66,7 @@ d = d.replace('&nbsp;', '')
 """
 
 # For some magical reasons, it works without re.MULTILINE | re.DOTALL.
-r = re.search(r'<tr>\s*<td>(\d\d\.\d\d\.\d\d)</td>\s*<td>([0-9]+| *)</td>\s*<td>([0-9]+| *)</td>\s*<td>([0-9]+| *)</td>', d, flags=re.I)
+r = re.search(r'<tr>\s*<td.*?>(\d\d\.\d\d\.\d\d)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
 assert r, "First row missmatch"
 
 print("Date and time:", r[1])
