@@ -111,6 +111,11 @@ def parse_date(d):
     assert 2020 <= int(mo[3]) <= 2021
     assert 1 <= int(mo[4]) <= 23
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:00"
+  mo = re.search(r'^(\d+) ([^\W\d_]+) (20\d\d)$', d)
+  if mo:
+    # 21 mars 2020
+    assert 2020 <= int(mo[3]) <= 2021
+    return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T"
   mo = re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)?$', d)
   if mo:
     # 20.03 à 8h00
@@ -186,13 +191,17 @@ try:
       scrape_time = v
       continue
     if k.startswith("Date and time"):
-      date = parse_date(v)
-      day = date.split("T", 2)[0].split('-', 3)
+      new_date = parse_date(v)
+      day = new_date.split("T", 2)[0].split('-', 3)
       day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
       now = datetime.date.today()
       if day > now:
         print(f"Parsed date/time must not be in the future: parsed: {day}: now: {now}", file=sys.stderr)
         errs.append(f"Date {day} in the future")
+      # In case there are multiple "Date and time", use first one,
+      # or the one which is more specific (includes time).
+      if date is None or len(new_date) > len(date):
+        date = new_date
       continue
     if k.startswith("Confirmed cases"):
       try:
