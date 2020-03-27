@@ -232,31 +232,52 @@ try:
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
+  extras = {
+    # Actually cumulative.
+    'ncumul_released': recovered,
+    # Actually instantaneous, not cumulative.
+    # See, README.md
+    'ncumul_hosp': hospitalized,
+    'ncumul_ICU': icu,
+    'ncumul_vent': vent,
+  }
+  # Remove Nones
+  extras = {k: v for (k,v) in extras.items() if not v is None}
+  # Format k,v
+  extras = [f"{k}={v}" for (k,v) in extras.items()]
+  # Join into list.
+  extras = ",".join(extras)
+
+  urls = ", ".join(url_sources)
+
   if date and cases and not errs:
-    print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(
+    print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
         abbr,
         date,
         cases,
         deaths if not deaths is None else "-",
         scrape_time,
-        ", ".join(url_sources)))
+        f" # Extras: {extras}" if extras else "",
+        f" # URLs: {urls}"))
   else:
     if not date:
       errs.append("Missing date")
     if not cases:
       errs.append("Missing cases")
     errs.extend(warns)
-    print("{:2} {:<16} {:>7} {:>7} FAILED {} {} # Errors: {}".format(
+    errs = ". ".join(errs)
+    print("{:2} {:<16} {:>7} {:>7} FAILED {} {}{}{}".format(
         abbr,
         date if date else "-",
         cases if not cases is None else "-",
         deaths if not deaths is None else "-",
         scrape_time if not scrape_time is None else "-",
-        ", ".join(url_sources),
-        ". ".join(errs)))
+        f" # Extras: {extras}" if extras else "",
+        f" # URLs: {urls}",
+        f" # Errors: {errs}"))
     sys.exit(1)
 
 except Exception as e:
-  print("{abbr} Error: {e}".format(abbr if abbr else '??', e))
+  print("{} Error: {}".format(abbr if abbr else '??', e))
   print(traceback.format_exc())
   sys.exit(1)

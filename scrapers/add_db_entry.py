@@ -22,7 +22,8 @@ try:
     i = 0
     for line in sys.stdin:
         l = line.strip()
-        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+((\w+|-))\s+OK', l)
+        # Groups:            1       2             3       4           5
+        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+(\w+|-)\s+OK(.*)$', l)
         if not match:
           input_failures += 1
           print(f'Error: Not matched input line: {l}')
@@ -50,6 +51,24 @@ try:
         else:
             data['deceased'] = int(data['deceased'])
 
+        # Parse optional data.
+        rest = match.group(5)
+        extras_match = re.search('# Extras: ([^#]+)', rest)
+        if extras_match.group(1):
+          try:
+            extras = extras_match.group(1).strip()
+            extras = extras.split(',')
+            extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
+            if 'ncumul_hosp' in extras:
+              data['hospitalized'] = extras['ncumul_hosp']
+            if 'ncumul_ICU' in extras:
+              data['icu'] = extras['ncumul_ICU']
+            if 'ncumul_vent' in extras:
+              data['vent'] = extras['ncumul_vent']
+            if 'ncumul_released' in extras:
+              data['released'] = extras['ncumul_released']
+          except Exception as e:
+            print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}')
 
         c = conn.cursor()
         try:
