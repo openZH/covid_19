@@ -102,8 +102,4 @@ The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen
 
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
-### REST-API
-- [https://covid19-rest.herokuapp.com/](https://covid19-rest.herokuapp.com)
-- [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
-
 Many thanks for the great work!
