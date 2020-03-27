@@ -1,39 +1,41 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env python3
 
-DIR="$(cd "$(dirname "$0")" && pwd)"  # " # To make editor happy
+import scrape_common as sc
+import re
+import requests
 
 # https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
-# includes a content from datawrapper, which provides actual data and table rendering.
+# includes a content from datawrapper ( https://datawrapper.dwcdn.net/tr5bJ/14/ ),
+# which provides actual data and table rendering.
+# Here we instead use datawrapper API directly to fetch the data.
 
-echo VD
-V=$("${DIR}/download.sh" "https://datawrapper.dwcdn.net/tr5bJ/14/" | grep http-equiv=.REFRESH | sed -E -e 's,^.*url=\.\./\.\./tr5bJ/([0-9]+)/.*$,\1,')  # ' # Make my editor happy.
+print('VD')
 
-# <html><head><meta http-equiv="REFRESH" content="0; url=../../tr5bJ/16/"></head></html>
+url = 'https://api.datawrapper.de/v3/charts/tr5bJ/data'
+print('Downloading:', url)
+# The bearer authentication token provided by Alex Robert ( https://github.com/AlexBobAlex )
+data = requests.get(url,
+                    headers={'accept': 'text/csv',
+                             'Authorization': 'Bearer 6868e7b3be4d7a69eff00b1a434ea37af3dac1e76f32d9087fc544dbb3f4e229'})
+sc.timestamp()
+d = data.text
 
-d=$("${DIR}/download.sh" "https://datawrapper.dwcdn.net/tr5bJ/${V}/" | grep -A 4 render | grep chartData: | awk -F '"' '{print $2;}' | sed -E -e 's/\n/\n/g')
-echo "Scraped at: $(date --iso-8601=seconds)"
-
-
-# render({
-#            visJSON: {"id":"tables","title":"Table","order":70,"dimensions":2,"namespace":"table","caption":"table","locale":{"show-more":"Afficher\u00a0$0 de plus","show-less":"Afficher moi
-#            chartJSON: {"id":"tr5bJ","title":"Evolution des cas positifs au COVID-19","theme":"datawrapper-data","createdAt":"2020-03-20 11:14:49","lastModifiedAt":"2020-03-21 17:35:00","typ
-#            chartData: "Date\tHospitalisations\tSortis de l'h\u00f4pital\tD\u00e9c\u00e8s\tTotal cas confirm\u00e9s\n10.03.2020\t26\t5\t1\t130\n11.03.2020\t39\t5\t2\t200\n12.03.2020\t43\t5\t3\t292\n13.03.2020\t39\t5\t2\t204\n14.03.2020\t43\t5\t3\t350\n15.03.2020\t62\t5\t4\t406\n16.03.2020\t66\t5\t5\t508\n17.03.2020\t95\t9\t5\t608\n18.03.2020\t117\t16\t5\t796\n19.03.2020\t140\t52\t7\t1210\n20.03.2020\t152\t62\t12\t1432",
-
-# Date	Hospitalisations	Sortis de l'h\u00f4pital	D\u00e9c\u00e8s	Total cas confirm\u00e9s
-# 10.03.2020	26	5	1	130
-# 11.03.2020	39	5	2	200
+# Date	Hospitalisations en cours	Sortis de l'hôpital	Décès	Total cas confirmés
+# 10.03.2020	36	5	1	130
+# 11.03.2020	38	5	2	200
+# 12.03.2020	43	5	3	274
 # ...
-# 18.03.2020	117	16	5	796
-# 19.03.2020	140	52	7	1210
-# 20.03.2020	152	62	12	1432
+# 23.03.2020	223	91	17	2162
+# 24.03.2020	266	100	21	2234
 
+rows = d.split('\n')
 
-echo -n "Date and time: "
-echo "$d" | tail -1 | awk '{print $1;}'
+headers = rows[0].split('\t')
+assert headers[0:5] == ["Date", "Hospitalisations en cours", "Sortis de l'hôpital", "Décès", "Total cas confirmés"], f"Table header mismatch: Got: {headers}"
 
-echo -n "Confirmed cases: "
-echo "$d" | tail -1 | awk '{print $5;}'
-
-echo -n "Deaths: "
-echo "$d" | tail -1 | awk '{print $4;}'
+last_row = rows[-1].split('\t')
+print('Date and time:', last_row[0])
+print('Confirmed cases:', last_row[4])
+print('Deaths:', last_row[3])
+print('Hospitalized:', last_row[1])
+print('Recovered:', last_row[2])
