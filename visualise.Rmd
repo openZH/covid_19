@@ -1,0 +1,130 @@
+---
+title: "COVID-19 Cases in Switzerland"
+output: 
+  github_document: default
+keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+theme_set(theme_bw(base_size=14))
+```
+
+# Data
+
+Read in the data.
+
+```{r readIn}
+dat <- read_csv("COVID19_Fallzahlen_CH_total.csv")
+head(dat)
+```
+
+Fill in data for missing dates. Decide how to handle incomplete data from last (current) day in case of summary stats for whole Switzerland.
+
+- `removeLast=TRUE` removes last (current day)
+- `removeLast=FALSE` transfer the values from previous day for missing cantons
+
+```{r removeLast}
+removeLast <- FALSE
+```
+
+
+```{r fillOffset}
+maxDate <- max(dat$date)
+if (removeLast) {
+  offset <- 0
+} else {
+  offset <- 1
+}
+```
+
+
+```{r cleanData}
+dat <- dat %>% 
+  group_by(abbreviation_canton_and_fl, date) %>%          # group by region and date
+  summarize_if(is.numeric, max, na.rm=TRUE) %>%           # select max value (if there are several per day)
+  mutate_if(is.numeric, na_if, -Inf) %>%                  # replace the -Inf with NA to enable fill
+  complete(date=seq.Date(min(date), max(date), by=1)) %>% # add missing dates (values filled with NA's)
+  fill(-c(date, abbreviation_canton_and_fl)) %>%          # fill NA's with previous value
+  mutate_if(is.numeric, replace_na, 0)                    # replace NA's at the beginning of the time-series
+```
+
+Select data for one canton (BS).
+
+```{r dataOneCanton}
+dat %>%
+  filter(abbreviation_canton_and_fl=="BS") %>%               # filter specific region
+  as.data.frame()
+```
+
+
+## Plotting number of cases
+
+For specific canton,  Basel Stadt (BS) as an example.
+
+```{r plotOneCanton}
+dat %>%
+  filter(abbreviation_canton_and_fl=="BS") %>%               # filter specific region
+  ggplot(aes(x=date, y=ncumul_conf)) +
+  geom_line(colour="steelblue", size=1) + scale_y_log10() +
+  xlab("") + ylab("No. of confirmed cases") + ggtitle("Canton Basel Stadt (BS)")
+```
+
+For several cantons,  Basel Land (BL) and Basel Stadt (BS) as an example.
+
+```{r plotMultipleCantons}
+dat %>%
+  filter(abbreviation_canton_and_fl %in% c("BL","BS")) %>%    # filter specific region(s)
+  ggplot(aes(x=date, y=ncumul_conf)) +
+  geom_line(aes(colour=abbreviation_canton_and_fl), size=1) + scale_y_log10() +
+  xlab("") + ylab("No. of confirmed cases") + ggtitle("Cantons Basel Land (BL) and Stadt (BS)") +
+  theme(legend.title=element_blank())
+```
+
+
+## Whole Switzerland
+
+```{r plotSwitzerland}
+dat %>%
+  complete(date=seq.Date(min(date), maxDate, by=1)) %>%   # add missing dates (values filled with NA's) 
+  fill(-c(date, abbreviation_canton_and_fl)) %>%          # fill NA's with previous value
+  mutate_if(is.numeric, replace_na, 0) %>%                # replace NA's at the beginning of the time-series
+  group_by(date) %>%                                      # group by date and
+  summarize_if(is.numeric, sum) %>%                       # sum-up all cases per date from all regions
+  filter(date < maxDate+offset) %>%                       # if set, remove incomplete data for last day
+  ggplot(aes(x=date, y=ncumul_conf)) +
+  geom_line(colour="steelblue", size=1) + scale_y_log10() +
+  xlab("") + ylab("No. of confirmed cases") + ggtitle("Switzerland")
+```
+
+
+# Doubling rate (simple)
+
+## Per canton
+
+```{r doublingPerCanton}
+dat %>% 
+  arrange(date) %>%                                              # order by date
+  group_by(abbreviation_canton_and_fl) %>%                       # group by region
+  summarize_if(is.numeric, function(x) {sum(x >= x[length(x)]/2)-1}) %>% # count number of days to double
+  rename_at(vars(starts_with("ncumul")), str_replace, pattern="ncumul", "daysToDouble") %>%
+  as.data.frame()
+```
+
+## Whole Switzerland
+
+```{r doublingSwitzerland}
+dat %>% 
+  complete(date=seq.Date(min(date), maxDate, by=1)) %>%          # add missing dates (values filled with NA's) 
+  fill(-c(date, abbreviation_canton_and_fl)) %>%                 # fill NA's with previous value
+  mutate_if(is.numeric, replace_na, 0) %>%                       # replace NA's at the beginning of the time-series
+  arrange(date) %>%                                              # order by date
+  group_by(date) %>%                                             # group by date and
+  summarize_if(is.numeric, sum) %>%                              # sum-up all cases per date from all regions
+  filter(date < maxDate+offset) %>%                              # if set, remove incomplete data for last day
+  summarize_if(is.numeric, function(x) {sum(x >= x[length(x)]/2) -1}) %>% # count number of days to double
+  rename_at(vars(starts_with("ncumul")), str_replace, pattern="ncumul", "daysToDouble") %>%
+  as.data.frame()
+```
+
