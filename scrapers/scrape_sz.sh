@@ -17,14 +17,21 @@ sc.timestamp()
 """        <li> <p>99 bestätigte Fälle im Kanton Schwyz, 10 Genesene (Stand: 26. März 2020)</p> </li> """
 
 
+# 2020-03-27
+"""        <li> <p>Coronafälle im Kanton Schwyz (Stand: 27. März 2020): 119 bestätigte Fälle, 1 Verstorbener, 32 Genesene</p> </li> """
+
+
+
 
 print('Date and time:', sc.find(r'Stand: ([^)]+)\)', d))
 cases = sc.find(r': ([0-9]+) Infizierte', d)
 if not cases:
   cases = sc.find(r'Bestätigte Fälle .*?\): ([0-9]+)<', d)
 if not cases:
-  cases = sc.find(r'>([0-9]+) bestätigte Fälle', d)
+  cases = sc.find(r'\b([0-9]+) bestätigte Fälle', d)
 print('Confirmed cases:', cases)
+
+print('Deaths:', sc.find(r'\b([0-9]+) Verstorbener', d))
 
 recovered = sc.find(r', ([0-9]+) Genesene', d)
 if recovered:
