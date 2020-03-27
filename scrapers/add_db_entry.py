@@ -54,7 +54,7 @@ try:
         # Parse optional data.
         rest = match.group(5)
         extras_match = re.search('# Extras: ([^#]+)', rest)
-        if extras_match.group(1):
+        if extras_match:
           try:
             extras = extras_match.group(1).strip()
             extras = extras.split(',')
