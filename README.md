@@ -30,7 +30,9 @@ We are available to advise and support interested authorities, how to easily com
 
 # Data Updates
 
-**[Check our status dashboard with the latest data](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)**
+--> **[Check our status dashboard with the latest data updates](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)**
+
+## Cantonal / FL data ressources
 
 | Canton / FL | updated by | data historized |
 |-------------|------------|-----------------|
