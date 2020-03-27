@@ -12,7 +12,7 @@ if [ "x${WEBARCHIVE_SNAPSHOT}" != "x" ]; then
   # Note: JSON only allows strings in double quotes.
   (
   echo "$(date --iso-8601=seconds)" "Snapshoting: $1"
-  W=$(curl --no-progress-meter -X POST -H "Content-Type: application/json" --data-raw "{\"url\": \"$1\", \"annotation\": {\"id\": \"lst-ib\", \"message\": \"openZH covid_19 github archiving\"}}" "https://pragma.archivelab.org/" 2>&1)
+  W=$(curl -X POST -H "Content-Type: application/json" --data-raw "{\"url\": \"$1\", \"annotation\": {\"id\": \"lst-ib\", \"message\": \"openZH covid_19 github archiving\"}}" "https://pragma.archivelab.org/" 2>&1)
   echo "Response:"
   echo "${W}"
   ) >> webarchiveorg.log
