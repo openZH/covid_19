@@ -156,6 +156,9 @@ hospitalized=None
 icu=None
 vent=None
 
+errs = []
+warns = []
+
 try:
   i = 0
   for line in sys.stdin:
@@ -167,7 +170,15 @@ try:
       assert len(abbr) == 2, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
       assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
       continue
-    k, v = l.split(": ")
+    k, v = l.split(": ", 2)
+
+    v = v.strip()
+
+    # Ignore k or v, if v is "None"
+    if v == "None":
+      warns.append(f"{k} is None")
+      continue
+
     if k.startswith("Downloading"):
       url_sources.append(v)
       continue
@@ -179,31 +190,73 @@ try:
       day = date.split("T", 2)[0].split('-', 3)
       day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
       now = datetime.date.today()
-      assert day <= now, f"Parsed date/time must not be in the future: parsed: {day}: now: {now}"
+      if day > now:
+        print(f"Parsed date/time must not be in the future: parsed: {day}: now: {now}", file=sys.stderr)
+        errs.append(f"Date {day} in the future")
       continue
     if k.startswith("Confirmed cases"):
-      cases = int(v)
+      try:
+        cases = int(v)
+      except:
+        errs.appent(f"Cases ({v}) not a number")
       continue
     if k.startswith("Death"):  # Deaths or Death.
-      deaths = int(v)
+      try:
+        deaths = int(v)
+      except:
+        warns.appent(f"Deaths ({v}) not a number")
       continue
     if k.startswith("Recovered"):
-      recovered = int(v)
+      try:
+        recovered = int(v)
+      except:
+        errs.appent(f"Recovered ({v}) not a number")
       continue
     if k.startswith("Hospitalized"):
-      hospitalized = int(v)
+      try:
+        hospitalized = int(v)
+      except:
+        warns.appent(f"Hospitalized ({v}) not a number")
       continue
     if k.startswith("ICU"):
-      icu = int(v)
+      try:
+        icu = int(v)
+      except:
+        warns.appent(f"ICU ({v}) not a number")
       continue
     if k.startswith("Vent"):
-      vent = int(v)
+      try:
+        vent = int(v)
+      except:
+        warns.appent(f"Vent ({v}) not a number")
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
-  print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(abbr, date, cases, deaths if not deaths is None else "-", scrape_time, ", ".join(url_sources)))
+  if date and cases and not errs:
+    print("{:2} {:<16} {:>7} {:>7} OK {} {}".format(
+        abbr,
+        date,
+        cases,
+        deaths if not deaths is None else "-",
+        scrape_time,
+        ", ".join(url_sources)))
+  else:
+    if not date:
+      errs.append("Missing date")
+    if not cases:
+      errs.append("Missing cases")
+    errs.extend(warns)
+    print("{:2} {:<16} {:>7} {:>7} FAILED {} {} # Errors: {}".format(
+        abbr,
+        date if date else "-",
+        cases if not cases is None else "-",
+        deaths if not deaths is None else "-",
+        scrape_time if not scrape_time is None else "-",
+        ", ".join(url_sources),
+        ". ".join(errs)))
+    sys.exit(1)
 
 except Exception as e:
-  print("Error: %s" % e)
+  print("{abbr} Error: {e}".format(abbr if abbr else '??', e))
   print(traceback.format_exc())
   sys.exit(1)
