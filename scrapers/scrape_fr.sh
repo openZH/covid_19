@@ -66,7 +66,7 @@ d = d.replace('&nbsp;', '')
 """
 
 # For some magical reasons, it works without re.MULTILINE | re.DOTALL.
-r = re.search(r'<tr>\s*<td.*?>(\d\d\.\d\d\.\d\d)</td>\s*<td>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*>([0-9]+| *)</td>', d, flags=re.I)
+r = re.search(r'<tr>\s*<td.*?>(\d\d\.\d\d\.\d\d)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
 assert r, "First row missmatch"
 
 print("Date and time:", r[1])
