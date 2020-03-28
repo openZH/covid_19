@@ -21,6 +21,9 @@ d = d.replace('&#58;', ':')
 
 print('Date and time:', sc.find(r'Fallzahlen *([^<]+)<', d).strip())
 print('Confirmed cases:', sc.find('Best(ä|&auml;)tigte F(ä|&auml;)lle:? ([0-9]+)[^0-9]', d, group=3))
+hospitalized = sc.find(r'Personen in Spitalpflege:? ([0-9]+)[^0-9]', d)
+if hospitalized:
+  print('Hospitalized:', hospitalized)
 print('Deaths:', sc.find(r'Verstorbene Person(en)?: ([0-9]+)[^0-9]', d, group=2))
 
 
