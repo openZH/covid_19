@@ -7,6 +7,8 @@ print('AG')
 # From the new website:
 d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/alle_ereignisse/alle_ereignisse_1.jsp')
 sc.timestamp()
+
+d = "\n".join(l for l in d.split('<article'))
 d = sc.filter(r'Neues Lagebulletin', d)
 
 # Use non-greedy match.
