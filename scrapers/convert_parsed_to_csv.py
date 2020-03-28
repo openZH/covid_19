@@ -86,11 +86,10 @@ for line in sys.stdin:
     data['source'] = f'Scraper for {abbr} at {scrape_time}'
 
   # Parse optional data.
-  rest = match.group(6) or ''
-  extras_match = re.search('# Extras: ([^#]+)', rest)
-  if extras_match:
+  extras_list = match.group(6)
+  if extras_list:
     try:
-      extras = extras_match.group(1).strip()
+      extras = extras_list.strip()
       extras = extras.split(',')
       extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
       if 'ncumul_hosp' in extras:
@@ -103,7 +102,7 @@ for line in sys.stdin:
         data['ncumul_released'] = extras['ncumul_released']
     except Exception as e:
       input_failures += 1
-      print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}', file=sys.stderr)
+      print(f'Error: Parsing optional data failed, ignoring: {extras_list}', file=sys.stderr)
 
   # print(data)
   writer.writerow(data)
