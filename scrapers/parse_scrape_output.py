@@ -168,6 +168,7 @@ deaths=None
 recovered=None
 hospitalized=None
 icu=None
+intubated=None
 vent=None
 
 errs = []
@@ -242,6 +243,12 @@ try:
       except:
         warns.appent(f"ICU ({v}) not a number")
       continue
+    if k.startswith("Intubated"):
+      try:
+        intubated = int(v)
+      except:
+        warns.appent(f"Intubated ({v}) not a number")
+      continue
     if k.startswith("Vent"):
       try:
         vent = int(v)
@@ -257,6 +264,7 @@ try:
     # See, README.md
     'ncumul_hosp': hospitalized,
     'ncumul_ICU': icu,
+    'ninst_ICU_intub': intubated,
     'ncumul_vent': vent,
   }
   # Remove Nones

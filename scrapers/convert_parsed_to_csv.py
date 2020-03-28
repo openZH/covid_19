@@ -27,6 +27,8 @@ field_names = [
     'ncumul_released',
     'ncumul_deceased',
     'source',
+    'ncumul_ICF',
+    'ninst_ICU_intub',
 ]
 
 writer = csv.DictWriter(sys.stdout, field_names,
@@ -63,11 +65,14 @@ for line in sys.stdin:
       'ncumul_conf': int(match.group(3)),
       'ncumul_hosp': None,
       'ncumul_ICU': None,
+      'ninst_ICU_intub': None,
       'ncumul_vent': None,
       'ncumul_released': None,
       'ncumul_deceased': None,
       'source': '',
   }
+
+
 
   if len(date_part) == 2:
     data['time'] = date_part[1]
@@ -96,6 +101,8 @@ for line in sys.stdin:
         data['ncumul_hosp'] = extras['ncumul_hosp']
       if 'ncumul_ICU' in extras:
         data['ncumul_ICU'] = extras['ncumul_ICU']
+      if 'ninst_ICU_intub' in extras:
+        data['ninst_ICU_intub'] = extras['ninst_ICU_intub']
       if 'ncumul_vent' in extras:
         data['ncumul_vent'] = extras['ncumul_vent']
       if 'ncumul_released' in extras:

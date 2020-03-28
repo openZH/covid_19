@@ -92,7 +92,7 @@ if url:
     # ICU numbers include intubated.
     print('ICU:', sc.find(r'\b([0-9]+) in terapia intensiva', d))
     # "Intubated".
-    print('Vent:', sc.find(r'\b([0-9]+) intubate', d))
+    print('Intubated:', sc.find(r'\b([0-9]+) intubate', d))
     # This article, also contains information about confirmed cases and number
     # of deaths. But because we already capture this in main scraper, which is
     # probably more reliable, we don't do it here.

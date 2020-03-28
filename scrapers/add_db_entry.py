@@ -63,6 +63,8 @@ try:
               data['hospitalized'] = extras['ncumul_hosp']
             if 'ncumul_ICU' in extras:
               data['icu'] = extras['ncumul_ICU']
+            # if 'ninst_ICU_intub' in extras:
+            #   data['intubated'] = extras['ninst_ICU_intub']
             if 'ncumul_vent' in extras:
               data['vent'] = extras['ncumul_vent']
             if 'ncumul_released' in extras:
