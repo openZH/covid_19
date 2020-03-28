@@ -2,7 +2,7 @@ name: Run AG scraper
 
 on:
   schedule:
-    - cron:  '*/10 14-20 * * *'
+    - cron:  '10 * * * *'
 
 jobs:
   run_scraper:
