@@ -30,6 +30,9 @@ d = data.text
 
 rows = d.split('\n')
 
+# Remove empty rows
+rows = [row for row in rows if len(row.strip())]
+
 headers = rows[0].split('\t')
 assert headers[0:5] == ["Date", "Hospitalisations en cours", "Sortis de l'hôpital", "Décès", "Total cas confirmés"], f"Table header mismatch: Got: {headers}"
 
