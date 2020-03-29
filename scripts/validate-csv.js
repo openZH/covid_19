@@ -2,8 +2,7 @@ const csv = require('csv-validator');
 const fs = require("fs").promises;
 const path = require("path");
 
-const DIR = path.resolve(process.argv[2] || process.cwd());
-
+const csvFiles = process.argv.slice(2);
 
 const validateSequentially = async csvFiles => {
     //field names starting with `_` are optional
@@ -46,7 +45,7 @@ const validateSequentially = async csvFiles => {
   let failedChecks = 0;
 
   for (let csvFile of csvFiles) {
-    const csvFilePath = path.join(DIR, csvFile);
+    const csvFilePath = path.resolve(csvFile);
 
     try {
         // check if file can be parsed
@@ -89,7 +88,6 @@ const validateSequentially = async csvFiles => {
 };
 
 const run = async () => {
-  const csvFiles = (await fs.readdir(DIR)).filter(f => f.match(/\.csv$/));
   const failedChecks = await validateSequentially(csvFiles);
 
   if (failedChecks > 0) {
