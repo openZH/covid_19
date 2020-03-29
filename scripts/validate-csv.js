@@ -32,7 +32,14 @@ const validateSequentially = async csvFiles => {
       "ncumul_released",
       "ncumul_deceased",
       "source"
-    ]
+    ];
+    
+    const cumulativeFields = [
+      "ncumul_tested",
+      "ncumul_conf",
+      "ncumul_released",
+      "ncumul_deceased"
+    ];
 
 
 
@@ -42,10 +49,30 @@ const validateSequentially = async csvFiles => {
     const csvFilePath = path.join(DIR, csvFile);
 
     try {
+        // check if file can be parsed
     	const parsed = await csv(csvFilePath, headers);
+
+        //make sure all keys are present
         const hasAllKeys = requiredKeys.every(key => parsed[0].hasOwnProperty(key));
         if (!hasAllKeys) {
             throw new Error(`Required field missing`);
+        }
+
+        //check the cumulative fields
+        var last = {};
+        var errors = [];
+        parsed.forEach(function (item, index) {
+            cumulativeFields.forEach(function(col, col_idx) {
+                if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col])) {
+                    errors.push(`Row ${index+1}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
+                }
+                if (item[col]) {
+                    last[col] = item[col];
+                }
+            });
+        });
+        if (errors.length > 0) {
+            throw new Error(errors);
         }
     } catch (e) {
       failedChecks++;
