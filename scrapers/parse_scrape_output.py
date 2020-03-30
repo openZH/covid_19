@@ -242,10 +242,7 @@ try:
       icu = maybe_new_int("ICU", v, icu)
       continue
     if k.startswith("Intubated"):
-      try:
-        intubated = int(v)
-      except:
-        warns.appent(f"Intubated ({v}) not a number")
+      icu = maybe_new_int("Intubated", v, icu)
       continue
     if k.startswith("Vent"):
       vent = maybe_new_int("Vent", v, vent)
