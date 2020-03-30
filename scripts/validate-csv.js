@@ -2,8 +2,7 @@ const csv = require('csv-validator');
 const fs = require("fs").promises;
 const path = require("path");
 
-const DIR = path.resolve(process.argv[2] || process.cwd());
-
+const csvFiles = process.argv.slice(2);
 
 const validateSequentially = async csvFiles => {
     //field names starting with `_` are optional
@@ -32,20 +31,47 @@ const validateSequentially = async csvFiles => {
       "ncumul_released",
       "ncumul_deceased",
       "source"
-    ]
+    ];
+    
+    const cumulativeFields = [
+      "ncumul_tested",
+      "ncumul_conf",
+      "ncumul_released",
+      "ncumul_deceased"
+    ];
 
 
 
   let failedChecks = 0;
 
   for (let csvFile of csvFiles) {
-    const csvFilePath = path.join(DIR, csvFile);
+    const csvFilePath = path.resolve(csvFile);
 
     try {
+        // check if file can be parsed
     	const parsed = await csv(csvFilePath, headers);
+
+        //make sure all keys are present
         const hasAllKeys = requiredKeys.every(key => parsed[0].hasOwnProperty(key));
         if (!hasAllKeys) {
             throw new Error(`Required field missing`);
+        }
+
+        //check the cumulative fields
+        var last = {};
+        var errors = [];
+        parsed.forEach(function (item, index) {
+            cumulativeFields.forEach(function(col, col_idx) {
+                if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col])) {
+                    errors.push(`Row ${index+1}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
+                }
+                if (item[col]) {
+                    last[col] = item[col];
+                }
+            });
+        });
+        if (errors.length > 0) {
+            throw new Error(errors);
         }
     } catch (e) {
       failedChecks++;
@@ -62,7 +88,6 @@ const validateSequentially = async csvFiles => {
 };
 
 const run = async () => {
-  const csvFiles = (await fs.readdir(DIR)).filter(f => f.match(/\.csv$/));
   const failedChecks = await validateSequentially(csvFiles);
 
   if (failedChecks > 0) {
