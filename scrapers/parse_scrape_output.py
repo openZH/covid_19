@@ -242,7 +242,7 @@ try:
       icu = maybe_new_int("ICU", v, icu)
       continue
     if k.startswith("Intubated"):
-      icu = maybe_new_int("Intubated", v, icu)
+      intubated = maybe_new_int("Intubated", v, intubated)
       continue
     if k.startswith("Vent"):
       vent = maybe_new_int("Vent", v, vent)
