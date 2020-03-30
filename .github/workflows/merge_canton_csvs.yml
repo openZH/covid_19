@@ -29,6 +29,7 @@ jobs:
         source: https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
         destination: dashboard.png
         full-page: true
+        path: dashboard.png
 
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
