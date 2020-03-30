@@ -2,7 +2,7 @@ name: Merge cantonal CSVs
 
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:
@@ -29,7 +29,12 @@ jobs:
         source: https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
         destination: dashboard.png
         full-page: true
-        path: dashboard.png
+    
+    # download artifact
+    - name: Download dashboard screenshot from last step
+      uses: actions/download-artifact@v1
+      with:
+        name: dashboard
 
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
