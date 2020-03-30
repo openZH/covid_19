@@ -173,6 +173,19 @@ vent=None
 errs = []
 warns = []
 
+def maybe_new_int(name, value, old_value, required=False):
+  """Parse a string value as int, or return old_value if not possible."""
+  if value is None:
+    return old_value
+  try:
+    return int(value)
+  except (TypeError, ValueError):
+    if required:
+      errs.append(f"{name} ({value}) not a number")
+    else:
+      warns.append(f"{name} ({value}) not a number")
+  return old_value
+
 try:
   i = 0
   for line in sys.stdin:
@@ -213,40 +226,22 @@ try:
         date = new_date
       continue
     if k.startswith("Confirmed cases"):
-      try:
-        cases = int(v)
-      except:
-        errs.appent(f"Cases ({v}) not a number")
+      cases = maybe_new_int("Confirmed cases", v, cases, required=True)
       continue
     if k.startswith("Death"):  # Deaths or Death.
-      try:
-        deaths = int(v)
-      except:
-        warns.appent(f"Deaths ({v}) not a number")
+      deaths = maybe_new_int("Deaths", v, deaths)
       continue
     if k.startswith("Recovered"):
-      try:
-        recovered = int(v)
-      except:
-        errs.appent(f"Recovered ({v}) not a number")
+      recovered = maybe_new_int("Recovered", v, recovered)
       continue
     if k.startswith("Hospitalized"):
-      try:
-        hospitalized = int(v)
-      except:
-        warns.appent(f"Hospitalized ({v}) not a number")
+      hospitalized = maybe_new_int("Hospitalized", v, hospitalized)
       continue
     if k.startswith("ICU"):
-      try:
-        icu = int(v)
-      except:
-        warns.appent(f"ICU ({v}) not a number")
+      icu = maybe_new_int("ICU", v, icu)
       continue
     if k.startswith("Vent"):
-      try:
-        vent = int(v)
-      except:
-        warns.appent(f"Vent ({v}) not a number")
+      vent = maybe_new_int("Vent", v, vent)
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
