@@ -81,17 +81,12 @@ The data of the Cantonal case numbers is structured as follows:
 | ncumul_conf          | Reported number of confirmed cases as of date| Number     |
 | ncumul_hosp *        | Reported number of hospitalised patients on date| Number     |
 | ncumul_ICU  *        | Reported number of hospitalised patients in ICUs on date| Number     |
-| ncumul_vent *        | Reported number of patients requiring ventilation on date | Number     |
+| ncumul_vent *        | Reported number of patients requiring invasive ventilation on date | Number     |
 | ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     |
 | ncumul_deceased     |Reported number of deceased as of date| Number     |
 | source              | Source of the information                  | href       |
 
 **These variables reflect current, not cumulative numbers, even if the prefix in the column-name might suggest otherwise. Column names will not be changed to grant stability.*
-
-The Data for [Genevé](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_GE_total.csv)  and [Ticino](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_TI_total.csv) contains an additional column reporting the number of currently intubated patients.
-| Field Name          | Description                                | Format     |
-|---------------------|--------------------------------------------|------------|
-| ninstant_ICU_intub   |Reported number of patients requiring intubation on date| Number     |
 
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
