@@ -13,14 +13,17 @@ sc.timestamp()
 <div class="table-responsive">
 <p>&nbsp;</p>
 
-<table class="table table-condensed table-hover">
-	<tbody>
+<table class="table table-condensed table-striped">
+	<thead>
 		<tr>
-			<td><strong>Date</strong></td>
-			<td><strong>Personnes hospitalisées</strong></td>
-			<td><strong>Total Décès</strong></td>
-			<td><strong>Total cas avérés</strong></td>
+			<th><strong>Date</strong></th>
+			<th><strong>Personnes hospitalisées</strong></th>
+			<th><strong>dont soins intensifs</strong></th>
+			<th><strong>Total décès</strong></th>
+			<th><strong>Total cas avérés</strong></th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>26.03.20</td>
 			<td>44</td>
@@ -50,7 +53,7 @@ assert m, "Can't find table"
 
 d = m[1]
 
-header = sc.find("<tr>\s*(<t[dh]><strong>Date</strong></t[dh]>\s*<t[dh]><strong>Personnes hospitalisées</strong></t[dh]>\s*<t[dh]><strong>Total Décès</strong></t[dh]>\s*<t[dh]><strong>Total cas avérés</strong></t[dh]>)\s*</tr>", d)
+header = sc.find("<tr>\s*(<t[dh]><strong>Date</strong></t[dh]>\s*<t[dh]><strong>Personnes hospitalisées</strong></t[dh]>\s*<t[dh]><strong>dont soins intensifs</strong></t[dh]>\s*<t[dh]><strong>Total Décès</strong></t[dh]>\s*<t[dh]><strong>Total cas avérés</strong></t[dh]>)\s*</tr>", d)
 assert header, "Header not matched"
 
 d = d.replace('&nbsp;', '')
@@ -60,16 +63,18 @@ d = d.replace('&nbsp;', '')
 		<tr>
 			<td>26.03.20</td>
 			<td>44</td>
+			<td>5</td>
 			<td>11</td>
 			<td>309</td>
 		</tr>
 """
 
 # For some magical reasons, it works without re.MULTILINE | re.DOTALL.
-r = re.search(r'<tr>\s*<td.*?>(\d\d\.\d\d\.\d\d)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
+r = re.search(r'<tr>\s*<td.*?>(\d\d\.\d\d\.\d\d)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
 assert r, "First row missmatch"
 
 print("Date and time:", r[1])
-print("Confirmed cases:", r[4].strip())
-print("Deaths:", r[3].strip())
+print("Confirmed cases:", r[5].strip())
+print("Deaths:", r[4].strip())
 print("Hospitalized:", r[2].strip())
+print("ICU:", r[3].strip())
