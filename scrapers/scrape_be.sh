@@ -62,7 +62,7 @@ assert m, "Can't find table"
 
 d = m[1].replace('\n', '')
 
-header = sc.find("<thead>\s*<tr>\s*(<th .*><strong>Datum</strong></th>\s*<th .*><strong>Fälle</strong><br />positiv</th>\s*<th .*>Im<br /><strong>Spital</strong><br />gesamt</th>\s*<th .*>Davon<br />normale<br /><strong>Betten-<br /> station</strong></th>\s*<th .*>Davon<br /><strong>Intensiv-<br /> station</strong><br />gesamt</th>\s*<th .*>Davon<br />Intensiv-<br />pflege<br /><strong>beatmet</strong></th>\s*<th .*><strong>Todes-<br /> fälle</strong></th>)\s*</tr>\s*</thead>", d)
+header = sc.find("<thead>\s*<tr>\s*(<th.*?><strong>Datum</strong></th>\s*<th.*?><strong>Fälle</strong><br />positiv</th>\s*<th.*?>Im<br /><strong>Spital</strong><br />gesamt</th>\s*<th.*?>Davon<br />normale<br /><strong>Betten-<br /> station</strong></th>\s*<th.*?>Davon<br /><strong>Intensiv-<br /> station</strong><br />gesamt</th>\s*<th.*?>Davon<br />Intensiv-<br />pflege<br /><strong>beatmet</strong></th>\s*<th.*?><strong>Todes-<br /> fälle</strong></th>)\s*</tr>\s*</thead>", d)
 assert header, "Header not matched"
 
 # Search for:
