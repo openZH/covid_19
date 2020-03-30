@@ -4,7 +4,9 @@ import scrape_common as sc
 
 print('BL')
 
-d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm')
+# d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm')
+# New URL on 2020-03-30. Same data format.
+d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200330_COVID19_BL.htm')
 sc.timestamp()
 
 # 2020-03-24
