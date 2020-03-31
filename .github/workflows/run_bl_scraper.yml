@@ -32,7 +32,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: BL
-        SCRAPER_SOURCE: https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
       run: |
         ./scrapers/run_scraper.sh
         
