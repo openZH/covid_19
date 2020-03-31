@@ -4,9 +4,17 @@ import scrape_common as sc
 
 print('BL')
 
-# d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/Grafik_COVID19_BL_Linie.htm')
-# New URL on 2020-03-30. Same data format.
-d = sc.download('https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200330_COVID19_BL.htm')
+main_site = sc.download("https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft")
+
+# 2020-03-31, iframe
+"""
+<iframe width="100%" class="iframeblock loading" onload="onIframeLoaded(this)" src="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200331_COVID19_BL.htm" scrolling="auto" height="600"></iframe>
+"""
+
+iframe = sc.filter(r'<iframe', main_site)
+iframe_url = sc.find(r'src="(.+?)"', iframe)
+
+d = sc.download(iframe_url)
 sc.timestamp()
 
 # 2020-03-24
