@@ -72,19 +72,19 @@ The data of the Cantonal case numbers is structured as follows:
 
 [example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
 
-| Field Name          | Description                                | Format     |
-|---------------------|--------------------------------------------|------------|
-| date               | Date of notification                       | YYYY-MM-DD |
-| time                | Time of notification                       | HH:MM      |
-| abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       |
-| ncumul_tested      | Reported number of tests performed as of date| Number     |
-| ncumul_conf          | Reported number of confirmed cases as of date| Number     |
-| ncumul_hosp *        | Reported number of hospitalised patients on date| Number     |
-| ncumul_ICU  *        | Reported number of hospitalised patients in ICUs on date| Number     |
-| ncumul_vent *        | Reported number of patients requiring invasive ventilation on date | Number     |
-| ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     |
-| ncumul_deceased     |Reported number of deceased as of date| Number     |
-| source              | Source of the information                  | href       |
+| Field Name          | Description                                | Format     | Note |
+|---------------------|--------------------------------------------|------------|------|
+| date               | Date of notification                       | YYYY-MM-DD | |
+| time                | Time of notification                       | HH:MM      | |
+| abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       | |
+| ncumul_tested      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
+| ncumul_conf          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
+| ncumul_hosp *        | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
+| ncumul_ICU  *        | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
+| ncumul_vent *        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
+| ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
+| ncumul_deceased     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
+| source              | Source of the information                  | href       | |
 
 **These variables reflect current, not cumulative numbers, even if the prefix in the column-name might suggest otherwise. Column names will not be changed to grant stability.*
 
