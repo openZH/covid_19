@@ -88,6 +88,9 @@ The data of the Cantonal case numbers is structured as follows:
 
 **These variables reflect current, not cumulative numbers, even if the prefix in the column-name might suggest otherwise. Column names will not be changed to grant stability.*
 
+Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
+It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
+
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
