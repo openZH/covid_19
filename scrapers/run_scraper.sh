@@ -13,8 +13,8 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 
 
 # SCRAPER_KEY must be set
-if [ -z $SCRAPER_KEY ] || [ -z $SCRAPER_SOURCE ] ; then
-  echo "SCRAPER_KEY and SCRAPER_SOURCE env variables must be set"; 
+if [ -z $SCRAPER_KEY ] ; then
+  echo "SCRAPER_KEY env variable must be set"; 
   exit 1
 fi
 
