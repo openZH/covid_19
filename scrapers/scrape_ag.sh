@@ -23,3 +23,5 @@ print('ICU:', sc.find(r'([0-9]+) Person(en)? werden auf Intensivstationen behand
 print('Vent:', sc.find(r'([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden', d))
 
 print('Deaths:', sc.find(r'([0-9]+) Person(en)? an den Folgen des Coronavirus ?verstorben', d))
+
+print('Downloading:', 'https://www.ag.ch' + sc.find(r'<a .*?href="(.+?)".*?>.*?Lagebulletin.*?</a>', d))
