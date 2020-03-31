@@ -112,6 +112,8 @@ sc.timestamp()
 m = re.search(r'<table[^>]*>\s*<caption>Evolution [^<]*</caption>\s*<thead>(.*)</thead>\s*<tbody>(.*)</tbody>\s*</table>', d, flags=re.I | re.MULTILINE | re.DOTALL)
 if m:
   # m[1]  # Header.
+  # TODO(baryluk): Verify partially header so order of columns is as expected.
+
   data = m[2]  # Rows.
   # Do some substitutions to make it easier.
   data = data.replace('&nbsp;', '')
@@ -137,7 +139,9 @@ if m:
   while len(last_row) < 5:
     last_row.append('')
 
-  date, cases, hospitalized, icu, death = last_row
+  # Some rows do have more than 5 columns actually (6 columns), but these extra
+  # columns are empty and don't have any meaning. So only use first 5 columns.
+  date, cases, hospitalized, icu, death = last_row[0:5]
 
   # The date in table, is just a day without a time.
   # But make at least it is the same day as the other source.

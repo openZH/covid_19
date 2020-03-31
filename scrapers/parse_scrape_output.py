@@ -129,6 +129,15 @@ def parse_date(d):
   if mo:
     # 21 marzo 2020, ore 8.00
     return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
+  mo = re.search(r'^(\d\d)\.(\d\d)\.(202\d),? ore (\d+):(\d\d)$', d)
+  if mo:
+    # 27.03.2020 ore 08:00
+    assert 1 <= int(mo[1]) <= 31
+    assert 1 <= int(mo[2]) <= 12
+    assert 2020 <= int(mo[3]) <= 2021
+    assert 0 <= int(mo[4]) <= 23
+    assert 0 <= int(mo[5]) <= 59
+    return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
   mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)$', d)
   if mo:
     # 2020-03-23
@@ -140,7 +149,7 @@ def parse_date(d):
     assert 1 <= int(mo[3]) <= 23
     # 24.3. / 10h
     return f"2020-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[3]):02d}:00"
-  mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)T?(\d\d:\d\d)(:\d\d)?$', d)
+  mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)[ T](\d\d:\d\d)(:\d\d)?$', d)
   if mo:
     # 2020-03-23T15:00:00
     # 2020-03-23 15:00:00
@@ -163,6 +172,19 @@ vent=None
 
 errs = []
 warns = []
+
+def maybe_new_int(name, value, old_value, required=False):
+  """Parse a string value as int, or return old_value if not possible."""
+  if value is None:
+    return old_value
+  try:
+    return int(value)
+  except (TypeError, ValueError):
+    if required:
+      errs.append(f"{name} ({value}) not a number")
+    else:
+      warns.append(f"{name} ({value}) not a number")
+  return old_value
 
 try:
   i = 0
@@ -204,40 +226,22 @@ try:
         date = new_date
       continue
     if k.startswith("Confirmed cases"):
-      try:
-        cases = int(v)
-      except:
-        errs.appent(f"Cases ({v}) not a number")
+      cases = maybe_new_int("Confirmed cases", v, cases, required=True)
       continue
     if k.startswith("Death"):  # Deaths or Death.
-      try:
-        deaths = int(v)
-      except:
-        warns.appent(f"Deaths ({v}) not a number")
+      deaths = maybe_new_int("Deaths", v, deaths)
       continue
     if k.startswith("Recovered"):
-      try:
-        recovered = int(v)
-      except:
-        errs.appent(f"Recovered ({v}) not a number")
+      recovered = maybe_new_int("Recovered", v, recovered)
       continue
     if k.startswith("Hospitalized"):
-      try:
-        hospitalized = int(v)
-      except:
-        warns.appent(f"Hospitalized ({v}) not a number")
+      hospitalized = maybe_new_int("Hospitalized", v, hospitalized)
       continue
     if k.startswith("ICU"):
-      try:
-        icu = int(v)
-      except:
-        warns.appent(f"ICU ({v}) not a number")
+      icu = maybe_new_int("ICU", v, icu)
       continue
     if k.startswith("Vent"):
-      try:
-        vent = int(v)
-      except:
-        warns.appent(f"Vent ({v}) not a number")
+      vent = maybe_new_int("Vent", v, vent)
       continue
     assert False, f"Unknown data on line {i}: {l}"
 
