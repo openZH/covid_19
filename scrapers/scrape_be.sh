@@ -80,12 +80,32 @@ assert header, "Header not matched"
 </tbody>
 """
 
-r = re.search(r'<tbody>\s*<tr>\s*<td.*?>(\d{2}.\d{2}.\d{4})</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
+# 2020-03-31
+"""
+        <tr>
+                <td headers="th_top_5147_1A"><strong>31.03.20</strong><br />
+08.00 h</td>
+                        <td headers="th_top_5147_2A">856</td>
+                        <td headers="th_top_5147_3A">111</td>
+                        <td headers="th_top_5147_4A">88</td>
+                        <td headers="th_top_5147_5A">23</td>
+                        <td headers="th_top_5147_6A">18</td>
+                        <td headers="th_top_5147_7A">16</td>
+                        </tr>
+"""
+
+
+d = d.replace('<strong>', '').replace('</strong>', '')
+
+r = re.search(r'<tr[^>]*>\s*<td.*?>(\d{2}.\d{2}.\d{2,4})\s*(?:<br */?>)\s*(\d+\.\d+ h)?</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
 assert r, "Row missmatch"
 
-print("Date and time:", r[1])
-print("Confirmed cases:", r[2].strip())
-print("Deaths:", r[7].strip())
-print("Hospitalized:", r[3].strip())
-print("ICU:", r[5].strip())
-print("Vent:", r[6].strip())
+if r[2]:
+  print("Date and time:", r[1] + ', ' + r[2])
+else:
+  print("Date and time:", r[1])
+print("Confirmed cases:", r[3].strip())
+print("Deaths:", r[8].strip())
+print("Hospitalized:", r[4].strip())
+print("ICU:", r[6].strip())
+print("Vent:", r[7].strip())
