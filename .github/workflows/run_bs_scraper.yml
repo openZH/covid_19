@@ -32,7 +32,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: BS
-        SCRAPER_SOURCE: https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-534-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
       run: |
         ./scrapers/run_scraper.sh
         
