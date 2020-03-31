@@ -14,7 +14,7 @@ sc.timestamp()
 d = sc.filter(r'Im Kanton Luzern gibt es', d)
 
 print('Date and time:', sc.find(r'Stand: (.+)(Uhr)?\)', d))
-print('Confirmed cases:', sc.find('gibt es ([0-9]+) best(&auml;|ä)tige F(&auml;|ä)lle', d))
+print('Confirmed cases:', sc.find(r'gibt es\s*([0-9]+)\s*best(&auml;|ä)tigte F(&auml;|ä)lle', d))
 
 deathsString = sc.find('Es gibt (.*) Todesf(&auml;|ä)lle', d)
 
