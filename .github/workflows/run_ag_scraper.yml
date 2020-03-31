@@ -32,7 +32,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: AG
-        SCRAPER_SOURCE: https://www.ag.ch/de/themen_1/coronavirus_2/alle_ereignisse/alle_ereignisse_1.jsp
       run: |
         ./scrapers/run_scraper.sh
         
