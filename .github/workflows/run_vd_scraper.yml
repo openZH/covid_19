@@ -32,7 +32,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: VD
-        SCRAPER_SOURCE: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
+        SCRAPER_SOURCE: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
       run: |
         ./scrapers/run_scraper.sh
         
