@@ -107,10 +107,14 @@ It's on purpose that the cumulative numbers are not carried forward if no new nu
 [github-repo](https://github.com/daenuprobst/covid19-cases-switzerland) 
 <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
-- https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
+### Interactive Small Multiples of Case Numbers by Canton
+- https://sars-cov-2-switzerland.netlify.com/
 
 ### REST-API
 - [https://covid19-rest.herokuapp.com](https://covid19-rest.herokuapp.com)
 - [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
+
+### Data for Basel-Stadt
+- https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
 Many thanks for the great work!

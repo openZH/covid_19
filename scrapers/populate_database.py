@@ -18,6 +18,21 @@ __location__ = os.path.realpath(
 )
 
 try:
+    # load the csv to sqlite db
+    assert len(sys.argv) == 2, "Call script with CSV file as parameter"
+    filename = sys.argv[1]
+    columns = []
+    with open(filename,'r') as f:
+        dr = csv.DictReader(f) 
+        if not columns:
+            columns = dr.fieldnames
+        to_db = []
+        for r in dr:
+            db_row = []
+            for col in columns:
+                db_row.append(r[col])
+            to_db.append(db_row)
+
     # create db
     DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
     conn = sqlite3.connect(DATABASE_NAME)
@@ -41,48 +56,17 @@ try:
         )
         '''
     )
+    # check if there are extra columns
+    for col in columns[11:]:
+        c.execute(f'ALTER TABLE data ADD COLUMN {col} integer;')
 
-    # load the csv to sqlite db
-    assert len(sys.argv) == 2, "Call script with CSV file as parameter"
-    filename = sys.argv[1]
-    with open(filename,'r') as f:
-            dr = csv.DictReader(f) 
-            to_db = []
-            for r in dr:
-                db_row = [
-                    r['date'],
-                    r['time'],
-                    r['abbreviation_canton_and_fl'],
-                    r['ncumul_tested'],
-                    r['ncumul_conf'],
-                    r['ncumul_hosp'],
-                    r['ncumul_ICU'],
-                    r['ncumul_vent'],
-                    r['ncumul_released'],
-                    r['ncumul_deceased'],
-                    r['source']
-                ]
-                to_db.append(db_row)
-    c.executemany(
-        '''
-        INSERT INTO data (
-            date,
-            time,
-            abbreviation_canton_and_fl,
-            ncumul_tested,
-            ncumul_conf,
-            ncumul_hosp,
-            ncumul_ICU,
-            ncumul_vent,
-            ncumul_released,
-            ncumul_deceased,
-            source
-        )
-        VALUES
-        (?,?,?,?,?,?,?,?,?,?,?)
-        ''',
-        to_db
-    )
+    # add entries
+    query = 'INSERT INTO data (\n'
+    query += ",\n".join(columns)
+    query += ') VALUES ('
+    query += ",".join(['?'] * len(columns))
+    query += ');'
+    c.executemany(query, to_db)
     conn.commit()
 except Exception as e:
     print("Error: %s" % e)
