@@ -32,7 +32,7 @@ try:
         data = {
             'date': date_part[0],
             'time': '',
-            'area': os.environ['SCRAPER_KEY'],
+            'area': match.group(1),
             'tested': '',
             'confirmed': int(match.group(3)),
             'hospitalized': '',
@@ -40,7 +40,7 @@ try:
             'vent': '',
             'released': '',
             'deceased': match.group(4),
-            'source': os.environ['SCRAPER_SOURCE']
+            'source': '',
         }
 
         if len(date_part) == 2:
@@ -69,6 +69,17 @@ try:
               data['released'] = extras['ncumul_released']
           except Exception as e:
             print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}')
+
+        # Parse URLs
+        url_match = re.search('# URLs: ([^#]+)', rest)
+        try:
+          url_source = url_match.group(1).strip().split(', ')[-1]
+        except (TypeError, IndexError):
+          url_source = ''
+        if 'SCRAPER_SOURCE' in os.environ:
+          data['source'] = os.environ['SCRAPER_SOURCE']
+        elif url_source:
+          data['source'] = url_source
 
         c = conn.cursor()
         try:
