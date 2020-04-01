@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
 import scrape_common as sc
+from bs4 import BeautifulSoup
 import datetime
-
-def extractStatisticByName(statistics, label):
-    index = [statistics.index(line) + 3 for line in statistics if label in line][0]
-    return statistics[index].replace("""<p style="text-align: right;">""", "").replace("</p>", "")
+import re
 
 print('LU')
 d = sc.download('https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus')
@@ -51,15 +49,25 @@ sc.timestamp()
 </table>
 """
 
-lines = d.split('\n')
-statisticsHeaderLine = [x for x in lines if "Aktuelle Fallzahlen im Kanton Luzern" in x][0]
-beginingOfStatisticsBlock = lines.index(statisticsHeaderLine)
-statisticsLines = lines[beginingOfStatisticsBlock:beginingOfStatisticsBlock + 36]
-dateAsString = statisticsHeaderLine.replace("""<p><strong>Aktuelle Fallzahlen im Kanton Luzern&nbsp;</strong>(Stand: """, "").replace(" Uhr)</p>", "")
-date = datetime.datetime.strptime(dateAsString, '%d. %B %Y, %H:%M')
+print('Date and time:', sc.find(r'Aktuelle\s*Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\)', d))
 
-print('Date and time:', date.strftime("%Y-%m-%d %H:%M"))
-print('Confirmed cases:', extractStatisticByName(statisticsLines, "Bestätigte Fälle:"))
-print('Deaths:', extractStatisticByName(statisticsLines, "Todesfälle:"))
-print('Hospitalized:', extractStatisticByName(statisticsLines, "Hospitalisiert:"))
-print('ICU:', extractStatisticByName(statisticsLines, "Intensivpflege:"))
+soup = BeautifulSoup(d, 'html.parser')
+table = soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find_parent('li').find('table')
+
+assert table, "Table not found"
+
+rows = table.find_all('tr')
+for row in rows:
+    cells = row.find_all('td')
+    assert len(cells) == 2, "Number of columns changed, not 2"
+
+    header_str = "".join([str(x) for x in cells[0].contents]) 
+    value = int(cells[1].find('p').string)
+    if re.search('Bestätigte Fälle', header_str):
+        print('Confirmed cases:', value)
+    if re.search('Hospitalisiert', header_str):
+        print('Hospitalized:', value)
+    if re.search('Todesfälle', header_str):
+        print('Deaths:', value)
+    if re.search('Intensivpflege', header_str):
+        print('ICU:', value)
