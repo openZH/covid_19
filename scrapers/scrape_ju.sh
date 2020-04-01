@@ -40,6 +40,16 @@ sc.timestamp()
 </table>
 """
 
+# 2020-04-01
+"""
+                <tr>
+                        <td>
+                        <p class="wysiwyg-h6"><strong>144</strong></p>
+                        </td>
+                        <td><em>Situation 1er avril 2020 (16h)</em></td>
+                </tr>
+"""
+
 print('Date and time:', sc.find(r'Situation (.+?)<\/em', d))
 print('Confirmed cases:', sc.find(r'<p.*?<strong>([0-9]+)<', d))
 
@@ -109,6 +119,18 @@ sc.timestamp()
 </table>
 """
 
+# 2020-04-01
+"""
+		<tr>
+			<th scope="row">1<sup>er </sup>avril 2020</th>
+			<td>144</td>
+			<td>29</td>
+			<td>5</td>
+			<td>&nbsp;</td>
+		</tr>
+
+"""
+
 m = re.search(r'<table[^>]*>\s*<caption>Evolution [^<]*</caption>\s*<thead>(.*)</thead>\s*<tbody>(.*)</tbody>\s*</table>', d, flags=re.I | re.MULTILINE | re.DOTALL)
 if m:
   # m[1]  # Header.
@@ -118,6 +140,8 @@ if m:
   # Do some substitutions to make it easier.
   data = data.replace('&nbsp;', '')
   data = data.replace('<strong>', '').replace('</strong>', '')
+  data = re.sub(r'<sup>.*?</sup>', ' ', data)
+
   # Split table into rows.
   rows = re.findall('<tr>(.*?)</tr>', data, flags=re.I | re.MULTILINE | re.DOTALL)
   # Do some minor cleanups
