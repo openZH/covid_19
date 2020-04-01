@@ -19,7 +19,16 @@ d = d.replace('&#58;', ':')
                                 </tr>
 """
 
-print('Date and time:', sc.find(r'Fallzahlen *([^<]+)<', d).strip())
+# 2020-04-01
+"""
+                                <tr class="normalRow">
+                                        <td class="Note"><div class="ExternalClass09DC8A7D66FC426587EB9D33D9E7B542"><div class="corona-header"><p><strong>Fallzahlen* 01.04.2020</strong></p></div></div></td>
+                                </tr><tr class="alternatingRow">
+                                        <td class="Note"><div class="ExternalClass40A4AC72FC094BE08A80F37987A167CD"><div class="corona-message">Bestätigte Fälle&#58; 521<br>Personen in Spitalpflege&#58; 58<br>Verstorbene Personen&#58; 21<br></div></div></td>
+                                </tr>
+"""
+
+print('Date and time:', sc.find(r'Fallzahlen\*? *([0-9][^<]+)<', d).strip())
 print('Confirmed cases:', sc.find('Best(ä|&auml;)tigte F(ä|&auml;)lle:? ([0-9]+)[^0-9]', d, group=3))
 hospitalized = sc.find(r'Personen in Spitalpflege:? ([0-9]+)[^0-9]', d)
 if hospitalized:
