@@ -33,13 +33,26 @@ Datum, Bestätigte Fälle, Verstorbene
 </pre>
 """
 
+# 2020-04-01
+"""
+<pre id="data" style="display:none;">
+Datum, Bestätigte Fälle, Geheilte geschätzt, Verstorbene
+28-02-2020,1,,
+29-02-2020,2,,
+...
+31-03-2020,561,242,10
+01-04-2020,588,249,11
+</pre>
+"""
+
 d = d.replace('\n', ' ')
 # Extract last line. Use non-greedy matching.
-d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Verstorbene.*? ([^ ]+) ?</pre>', d)
+d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte geschätzt, Verstorbene.*? ([^ ]+) ?</pre>', d)
 assert d, "Can't find a data table"
 
 c = d.split(',')
 
 print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
 print('Confirmed cases:', c[1])
-print('Deaths:', c[2])
+print('Deaths:', c[3])
+print('Recovered:', c[2])
