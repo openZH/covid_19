@@ -20,13 +20,9 @@ data = requests.get(url,
 sc.timestamp()
 d = data.text
 
-# Date	Hospitalisations en cours	Sortis de l'hôpital	Décès	Total cas confirmés
-# 10.03.2020	36	5	1	130
-# 11.03.2020	38	5	2	200
-# 12.03.2020	43	5	3	274
-# ...
-# 23.03.2020	223	91	17	2162
-# 24.03.2020	266	100	21	2234
+# Date	Hospitalisations en cours	Dont soins intensifs	Sortis de l'hôpital	Décès	Total cas confirmés
+# 10.03.2020	36	8	5	1	130
+# 11.03.2020	38	7	5	3	200
 
 rows = d.split('\n')
 
@@ -34,11 +30,12 @@ rows = d.split('\n')
 rows = [row for row in rows if len(row.strip())]
 
 headers = rows[0].split('\t')
-assert headers[0:5] == ["Date", "Hospitalisations en cours", "Sortis de l'hôpital", "Décès", "Total cas confirmés"], f"Table header mismatch: Got: {headers}"
+assert headers[0:6] == ["Date", "Hospitalisations en cours", "Dont soins intensifs", "Sortis de l'hôpital", "Décès", "Total cas confirmés"], f"Table header mismatch: Got: {headers}"
 
 last_row = rows[-1].split('\t')
 print('Date and time:', last_row[0])
-print('Confirmed cases:', last_row[4])
-print('Deaths:', last_row[3])
+print('Confirmed cases:', last_row[5])
+print('Deaths:', last_row[4])
 print('Hospitalized:', last_row[1])
-print('Recovered:', last_row[2])
+print('ICU:', last_row[2])
+print('Recovered:', last_row[3])
