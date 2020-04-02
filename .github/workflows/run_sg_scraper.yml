@@ -29,17 +29,11 @@ jobs:
         pip install -r requirements.txt
         sudo apt-get install sqlite3
         
-    - name: Populate database from CSV
-      run: |
-        python scrapers/populate_database.py fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv
-        
     - name: Scrape new data
+      env:
+        SCRAPER_KEY: SG
       run: |
-        python scrapers/scraper_canton_sg.py
-        
-    - name: Export database as csv
-      run: |
-        sqlite3 -header -csv scrapers/data.sqlite "select * from data;" > fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_SG_total.csv
+        ./scrapers/run_scraper.sh
         
     # Commit to repo with updated file
     - uses: stefanzweifel/git-auto-commit-action@v4.1.1
