@@ -4,7 +4,7 @@ import scrape_common as sc
 import re
 import requests
 
-# https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
+# https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 # includes a content from datawrapper ( https://datawrapper.dwcdn.net/tr5bJ/14/ ),
 # which provides actual data and table rendering.
 # Here we instead use datawrapper API directly to fetch the data.
