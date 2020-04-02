@@ -1,21 +1,42 @@
 #!/usr/bin/env python3
 
 import scrape_common as sc
+import requests
+from bs4 import BeautifulSoup
+import re
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
+def find_key(row):
+    return sc.find(r'<t.\sheight="17".*>([a-zA-Z][^(]+)\(', row).strip()
+
+
+def find_value(row):
+    return sc.find(r'<t.*>([0-9]+)<', row).strip()
+
+
+def to_statistics(rows):
+    return {find_key(str(row.contents)): find_value(str(row.contents)) for row in rows}
+
 
 print('SG')
-d = sc.download("https://www.sg.ch/tools/informationen-coronavirus.html")
+d = str(requests.get("https://www.sg.ch/tools/informationen-coronavirus.html", verify=False).content)
+
 sc.timestamp()
 
-# 2020-03-20
-""" 									<div class="col-xs-12"><p>20.03.2020:<br/>Bestätigte Fälle: 98<br/><br/></p></div>"""
+soup = BeautifulSoup(d, 'html.parser')
+statsBlock = soup.find(string=re.compile(r'Update\s*ganzer\s*Kanton\s*St\.Gallen')).find_parent("div").find_parent(
+    "div").find_parent("div")
+table = statsBlock.find('table')
+assert table, "Table not found"
 
-# 2020-03-25
-"""									<div class="col-xs-12"><p>25.03.2020:</p><p>Bestätigte Fälle: 228<br/>Todesfälle: 1</p><p>Die Fallzahlen können nicht nach Regionen oder Gemeinden selektioniert werden. Es treten in allen Regionen des Kantons Fälle auf.&nbsp;</p><p>&nbsp;</p></div>"""
-
-
-print('Date and time:', sc.find(r'<h4>([0-9]+\. (April|Mai|Juni) [0-9]+)<\/h4>', d))
-print('Confirmed cases:', sc.find(r'laborbestätigte Fälle \(kumuliert\)<\/th>\s+<th[^>]+>([0-9]+)<\/th>', d.replace("\n", "")))
-print('Deaths:', sc.find(r'>Verstorbene \(kumuliert\)<\/td>\s+<td>([0-9]+)<', d.replace("\n", "")))
-print('Hospitalized:', sc.find(r'>Hospitalisationen Isolation \(aktueller Stand\)<\/td>\s+<td>([0-9]+)<', d.replace("\n", "")))
-print('ICU:', sc.find(r'>Hospitalisationen Intensiv \(aktueller Stand\)<\/td>\s+<td>([0-9]+)<', d.replace("\n", "")))
-print('Recovered:', sc.find(r'>aus Spital entlassene \(kumuliert\)<\/td>\s+<td>([0-9]+)<', d.replace("\n", "")))
+rows = table.find_all('tr')
+statistics = to_statistics(rows)
+print('Date and time:', statsBlock.find("h4").text)
+print('Confirmed cases:', statistics["laborbest\\xc3\\xa4tigte F\\xc3\\xa4lle"])
+print('Hospitalized:', statistics["Hospitalisationen Isolation"])
+print('Deaths:', statistics["Verstorbene"])
+print('ICU:', statistics["Hospitalisationen Intensiv"])
+print('Recovered:', statistics["aus Spital entlassene"])
