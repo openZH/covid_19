@@ -38,4 +38,5 @@ print('Confirmed cases:', last_row[5])
 print('Deaths:', last_row[4])
 print('Hospitalized:', last_row[1])
 print('ICU:', last_row[2])
-print('Recovered:', last_row[3])
+if last_row[3].isnumeric():
+    print('Recovered:', last_row[3])
