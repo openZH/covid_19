@@ -86,10 +86,15 @@ d = sc.download('https://www4.ti.ch/area-media/comunicati/')
 ...
 """
 
-# Use non-greedy matching on a content between <a> and </a>.
-# We need to put part of href content inside the match, because otherwise
-# we might match some A tags that are early.
-url = sc.find(r'<a[^>]*href="(area-media/comunicati/dettaglio-comunicato/[^"]+)"[^>]*>.*?Coronavirus: aggiornamento della situazione.*?</a>', d, flags=re.DOTALL | re.MULTILINE | re.I)
+# Break list into individual articles, so we don't capture article boundouaries
+# with '.*' pattern.
+articles = re.findall('<article>.*?</article>', d, flags=re.DOTALL | re.MULTILINE | re.I)
+
+url = None
+# Iterate over articles and try to find one with stats.
+while articles and url is None:
+  url = sc.find(r'<a[^>]*href="(area-media/comunicati/dettaglio-comunicato/[^"]+)"[^>]*>.*?Coronavirus: aggiornamento della situazione.*?</a>', articles.pop(0), flags=re.DOTALL | re.MULTILINE | re.I)
+
 if url:
   url = url.replace('&amp;', '&')
   # url = url.replace('%5B', '').replace('%5D', '')
