@@ -23,7 +23,8 @@ d = sc.download('https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavir
   {"date":"2020-03-30","time":"","abbreviation_canton_and_fl":"GR","ncumul_tested":"","ncumul_conf":"497","ncumul_hosp":"63","ncumul_ICU":"","ncumul_vent":"","ncumul_released":"","ncumul_deceased":"12","source":"https://www.gr.ch/coronavirus"},
   {"date":"2020-03-31","time":"","abbreviation_canton_and_fl":"GR","ncumul_tested":"","ncumul_conf":"513","ncumul_hosp":"58","ncumul_ICU":"","ncumul_vent":"","ncumul_released":"","ncumul_deceased":"19","source":"https://www.gr.ch/coronavirus"},
   {"date":"2020-04-01","time":"","abbreviation_canton_and_fl":"GR","ncumul_tested":"","ncumul_conf":"521","ncumul_hosp":"58","ncumul_ICU":"","ncumul_vent":"","ncumul_released":"","ncumul_deceased":"21","source":"https://www.gr.ch/coronavirus"},
-  {"date":"2020-04-02","time":"","abbreviation_canton_and_fl":"GR","ncumul_tested":"","ncumul_conf":"569","ncumul_hosp":"59","ncumul_ICU":"","ncumul_vent":"","ncumul_released":"","ncumul_deceased":"23","source":"https://www.gr.ch/coronavirus"}]
+  {"date":"2020-04-02","time":"","abbreviation_canton_and_fl":"GR","ncumul_tested":"","ncumul_conf":"569","ncumul_hosp":"59","ncumul_ICU":"","ncumul_vent":"","ncumul_released":"","ncumul_deceased":"23","source":"https://www.gr.ch/coronavirus"}
+]
 """
 
 sc.timestamp()
