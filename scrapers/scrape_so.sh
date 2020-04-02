@@ -18,15 +18,4 @@ d = sc.filter("Situation Kanton Solothurn.*Stand|Anzahl positiv getesteter Erkra
 
 print("Date and time:", sc.find(r'\(Stand ([^\)]+)\)<', d))
 print("Confirmed cases:", sc.find(r'Anzahl positiv getesteter Erkrankungsfälle: ([0-9]+) ', d))
-
-deaths_strings = [
-    'Verstorben:(<strong> <\/strong>)?([0-9]+) ',
-    'Verstorbene Personen:(<strong> <\/strong>)?([0-9]+) ',
-]
-deaths = None
-for deaths_string in deaths_strings:
-    deaths = sc.find(deaths_string, d, group=2)
-    if deaths is not None:
-        break
-
-print("Deaths:", deaths)
+print("Deaths:", sc.find('Verstorben(?:e Personen)?:(<strong> <\/strong>)?([0-9]+) ', d, group=2))
