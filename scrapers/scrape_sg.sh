@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import re
 import scrape_common as sc
 
 print('SG')
