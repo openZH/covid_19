@@ -9,6 +9,7 @@ print('LU')
 d = sc.download('https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus')
 sc.timestamp()
 
+# 2020-04-01
 """
 <p><strong>Aktuelle Fallzahlen im Kanton Luzern&nbsp;</strong>(Stand: 1. April 2020, 11:00 Uhr)</p>
 <table border="0" cellspacing="0" cellpadding="0">
@@ -49,6 +50,20 @@ sc.timestamp()
 </table>
 """
 
+# 2020-04-03
+"""
+...
+        <tr>
+            <td valign="top" style="width: 151px;">
+            <p><strong></strong>Positiv getestet (kumuliert): </p>
+            </td>
+            <td valign="top" style="width: 47px;">
+            <p style="text-align: right;">422</p>
+            </td>
+        </tr>
+...
+"""
+
 print('Date and time:', sc.find(r'Aktuelle\s*Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\)', d))
 
 soup = BeautifulSoup(d, 'html.parser')
@@ -63,7 +78,7 @@ for row in rows:
 
     header_str = "".join([str(x) for x in cells[0].contents]) 
     value = int(cells[1].find('p').string)
-    if re.search('Bestätigte Fälle', header_str):
+    if re.search('Bestätigte Fälle|Positiv getestet', header_str):
         print('Confirmed cases:', value)
     if re.search('Hospitalisiert', header_str):
         print('Hospitalized:', value)
