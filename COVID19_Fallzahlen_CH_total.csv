@@ -1,16 +1,16 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumul_ICU,ncumul_vent,ncumul_released,ncumul_deceased,source
-2020-02-25,,GE,,,0,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-02-25,,GE,72,0,0,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-25,,TI,,1,,,,,,https://www.srf.ch/news/schweiz/tessiner-patient-erster-coronavirus-fall-in-der-schweiz
-2020-02-26,,GE,,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-02-26,,GE,178,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-26,,TI,,,,,,,,
 2020-02-27,,FL,3,,,,,,,https://www.regierung.li/media/attachments/83-verdachtsfaelle-negativ-getestet.pdf?t=637202562374055719
-2020-02-27,,GE,,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-02-27,,GE,326,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-27,,TI,,,,,,,,
 2020-02-27,,ZH,,1,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-02-27,19:17,BS,"",0,"","","","","",https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 2020-02-28,"",BE,"",1,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.archiv.meldungNeu.html/portal/de/meldungen/mm/2020/02/20200229_0936_corona.html
 2020-02-28,"",BL,"",1,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-erster-bestaetigter-fall-aus-dem-kanton-basel-landschaft
-2020-02-28,,GE,,3,2,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-02-28,,GE,533,3,2,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-28,,TI,,,,,,,,
 2020-02-28,"",VD,"","",4,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-28,"",VS,"",1,3,"","","","",https://vs.ch/documents/529400/6767345/2020+02+28+-+Medienmitteilung+-+1.+Fall+Coronavirus+VS.pdf/37c4f942-c5d5-6ab5-64fd-83444de4eba5?t=1582923242156
@@ -18,7 +18,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-28,10:15,BS,"",0,"","","","","",https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20
 2020-02-28,15:00,AG,"",1,"","","","","",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/20200228_KFS_20200106_Coronavirus_Lagebulletin_AG_Unterschrieben.pdf
 2020-02-29,"",BL,"",2,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/weiterer-bestaetigter-fall-aus-dem-kanton-basel-landschaft
-2020-02-29,,GE,,5,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-02-29,,GE,673,5,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-29,,TI,,,,,,,,
 2020-02-29,"",VD,"","",4,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-29,"",VS,"",1,3,"","","","",https://www.vs.ch/documents/6756452/7008787/Sit%20Epid%20-%20%C3%89tat%20Stand%2025.03.2020.pdf
@@ -26,7 +26,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-01,"",BE,"",2,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200302_1522_zweiter_bestaetigtercorona-fallinbiel
 2020-03-01,"",BL,"",2,"","","","","",""
 2020-03-01,"",FR,30,1,"","","","","",https://www.fr.ch/sites/default/files/2020-03/200301_commd_dsas_covid_cas_fr.pdf
-2020-03-01,,GE,,7,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-01,,GE,782,7,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-01,"",GL,"",0,"","","","","",https://www.suedostschweiz.ch/ereignisse/2020-03-02/kantone-gehen-unterschiedlich-mit-dem-corona-virus-um
 2020-03-01,,TI,,,,,,,,
 2020-03-01,"",VD,"","",4,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -35,7 +35,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-02,"",BE,"",4,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200303_1333_mann_in_spital_interlakenpositivgetestet
 2020-03-02,"",BL,"",2,"","","","","",""
 2020-03-02,"",FR,"",2,"","","","","",https://www.fr.ch/sites/default/files/2020-03/200302_CommD_DSAS_covid_cas%20FR.pdf
-2020-03-02,,GE,,7,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-02,,GE,870,7,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-02,"",SG,"",0,"","","","","",https://www.sg.ch/news/sgch_allgemein/2020/03/zwei-personen-in-quarantaene---kein-bestaetigter-fall.html
 2020-03-02,,TI,,2,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187352&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=ea65dbcabb28d4711459f3b613bbc1b7
 2020-03-02,"",VD,"","",6,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -45,7 +45,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-02,18:00,AG,"",2,"","","","","",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/200302_KFS_Coronavirus_Lagebulletin_2.pdf
 2020-03-03,"",BL,"",2,"","","","","",""
 2020-03-03,,FL,14,,,,,,,https://www.regierung.li/media/attachments/90-coronavirus.pdf?t=637202562374055719
-2020-03-03,,GE,,9,4,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-03,,GE,977,9,4,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-03,"",JU,"",1,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-03,"",SZ,1,1,"","","","","",https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf
 2020-03-03,,TI,,4,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187363&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=b34e82602a39cad67a7f8d54150dcf70   https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187369&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=3154d18e72821fc23d7b3c5cdfe9f9a3
@@ -59,7 +59,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-04,"",BL,"",2,"","","","","",""
 2020-03-04,,FL,16,1,,,,,,https://www.regierung.li/media/attachments/97-coronavirus.pdf?t=637202562374055719
 2020-03-04,"",FR,"",4,"","","","","",https://www.fr.ch/sites/default/files/2020-03/200304_CommD_DSAS_covid_cas%20FR.pdf
-2020-03-04,,GE,,9,4,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-04,,GE,1084,9,4,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-04,"",JU,"",1,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-04,"",SZ,3,3,1,"","","","",https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf
 2020-03-04,,TI,,5,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187371&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=174f2d754f3b657af79f343c92fc5c89
@@ -73,7 +73,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-05,"",BL,"",6,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-sechs-bestaetigte-faelle-im-kanton-basel-landschaft
 2020-03-05,,FL,18,1,,,,,,https://www.regierung.li/media/attachments/100-coronavirus-18-verdachtsfaelle-0305.pdf?t=637202562374055719
 2020-03-05,"",FR,"",6,"","","","","",https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation
-2020-03-05,,GE,,13,5,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-05,,GE,1148,13,5,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-05,"",JU,"",2,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-05,,TI,,18,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187385&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=a9ddddfae2c7446e5b856451e178a61a
 2020-03-05,"",VD,"","",14,1,"","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -85,7 +85,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-06,"",BE,"",17,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200306_1343_corona6-3
 2020-03-06,"",BL,"",6,"","","","","",""
 2020-03-06,,FL,22,1,,,,,,https://www.regierung.li/media/attachments/104-coronavirus-vorsicht.pdf?t=637202562374055719
-2020-03-06,,GE,,17,7,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-06,,GE,1244,17,7,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-06,"",JU,"",3,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-06,"",SZ,6,6,"","","","","",https://www.sz.ch/public/upload/assets/45417/MM_Coronavirus_6_3_2020.pdf
 2020-03-06,,TI,,,,,,,,
@@ -97,7 +97,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-06,15:00,AG,"",12,"","","",1,"",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200305_KFS_Coronavirus_Lagebulletin_6.pdf
 2020-03-06,15:38,SG,"",2,"","","","","",https://www.sg.ch/news/sgch_allgemein/2020/03/zweiter-bestaetigter-fall-einer-corona-patientin.html
 2020-03-07,"",BL,"",15,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-15-bestaetigte-faelle-in-basel-landschaft
-2020-03-07,,GE,,26,7,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-07,,GE,1319,26,7,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-07,"",JU,"",4,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-07,,TI,,45,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187406&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=e553d0b42db2ead87a7d05e499fac4db
 2020-03-07,"",VD,"",30,16,4,"","",1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -105,7 +105,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-07,12:00,BS,"",21,"","","","","",https://twitter.com/BAG_OFSP_UFSP/status/1236249864473894914?s=20
 2020-03-08,"",BL,"",19,"","","","",1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/patient-im-kantonsspital-baselland-stirbt-an-den-folgen-einer-coronavirus-infektion
 2020-03-08,"",FR,"",8,"","","","","",https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation
-2020-03-08,,GE,,35,9,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-08,,GE,1392,35,9,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-08,"",JU,"",4,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-08,,TI,,58,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187407&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8d1ff4bf2a674892913340827de952ea
 2020-03-08,"",VD,"",40,22,3,"","",1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -117,7 +117,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-09,"",BL,"",20,"","","",1,1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-xx-bestaetigte-faelle-in-basel-landschaft
 2020-03-09,,FL,24,1,,,,,,https://www.regierung.li/media/attachments/106-coronavirus-anpassung-massnahmen.pdf?t=637202562374055719
 2020-03-09,"",FR,"",11,"","","","","",https://www.fr.ch/de/covid19/gesundheit/covid-19/coronavirus-entwicklungen-der-situation
-2020-03-09,,GE,,44,13,3,1,,1,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-09,,GE,1505,44,13,3,1,,1,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-09,"",JU,"",5,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-09,,TI,,68,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187417&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=20e9b76118246e98781581881b459523
 2020-03-09,"",VD,"",51,29,5,"","",1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -127,7 +127,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-09,15:00,AG,"",14,"","","",2,"",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200309_KFS_Coronavirus_Lagebulletin_7.pdf
 2020-03-10,"",BL,"",22,"","","",2,1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update
 2020-03-10,,FL,37,1,,,,,,https://www.regierung.li/media/attachments/110-corona-0310.pdf?t=637202562374055719
-2020-03-10,,GE,,68,18,4,1,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-10,,GE,1708,68,18,4,1,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-10,"",JU,"",6,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-10,,TI,,,,,,,1,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187422&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=24aa247e65de88fdd1551a61fcc407d9
 2020-03-10,"",VD,"",77,36,6,"","",1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -138,7 +138,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-11,"",BL,"",26,"","","",2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-26-bestaetigte-faelle-in-basel-landschaft-1
 2020-03-11,,FL,50,3,,,,1,,https://www.regierung.li/media/attachments/112-drei-personen-infiziert.pdf?t=637202562374055719
 2020-03-11,"",FR,"",16,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-11,,GE,,79,20,6,4,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-11,,GE,1954,79,20,6,4,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-11,"",JU,"",6,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-11,"",NW,"",4,"","","","","",https://www.nw.ch/aktuellesinformationen/63359
 2020-03-11,,TI,,,,,,,,
@@ -151,7 +151,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-12,"",BL,"",26,"","","",2,2,""
 2020-03-12,,FL,57,3,,,,1,,https://www.regierung.li/media/attachments/114-hallenbaeder-geschlossen-0312.pdf?t=637202562374055719
 2020-03-12,"",FR,"",22,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-12,,GE,,108,23,6,4,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-12,,GE,2319,108,23,6,4,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-12,"",JU,"",9,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-12,"",SG,"",15,"","","","","",https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-12,,TI,,180,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187437&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=59cf6112c82abed490acd8901f5a0bb2
@@ -163,7 +163,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-12,15:00,AG,"",27,1,"","",3,"",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200312_KFS_Coronavirus_Lagebulletin_10.pdf
 2020-03-13,"",BL,"",42,"","","",2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-26-bestaetigte-faelle-in-basel-landschaft-2
 2020-03-13,"",FR,"",29,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-13,,GE,,173,33,7,5,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-13,,GE,2794,173,33,7,5,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-13,"",JU,"",10,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-13,,TI,,258,65,13,,,,https://www.youtube.com/watch?v=_x_yQ6uwGAQ
 2020-03-13,"",VD,"",204,52,10,"",5,2,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -178,7 +178,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-14,"",BL,"",47,"","","",2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-47-bestaetigte-faelle-in-basel-landschaft
 2020-03-14,,FL,99,3,,,,1,,https://www.regierung.li/media/attachments/118-corona-rueckkehrer-skiferien-0314.pdf?t=637202562374055719
 2020-03-14,"",FR,"",36,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-14,,GE,,282,43,8,5,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-14,,GE,3455,282,43,8,5,,2,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-14,"",JU,"",15,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-14,,TI,,265,,,,,3,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187466&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=1b10e6e8117296766155edcf9c317a4c
 2020-03-14,"",VD,"",350,43,14,"",5,3,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -189,7 +189,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-15,"",BL,"",54,"","","",5,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-54-bestaetigte-faelle-in-basel-landschaft
 2020-03-15,,FL,,7,,,,1,,https://www.regierung.li/media/attachments/119-corona-massnahmen-verschaerft-0315.pdf?t=637202562374055719
 2020-03-15,"",FR,"",40,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-15,,GE,,372,46,12,8,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-15,,GE,3895,372,46,12,8,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-15,"",JU,"",16,"","","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-15,"",SZ,"",13,"","","","","",https://www.sz.ch/public/upload/assets/45590/MM_Coronavirus_15_3_2020.pdf
 2020-03-15,,TI,,291,,,,,6,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187467&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=af5473066754ef4d1272e156056acc07
@@ -199,7 +199,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-16,"",BE,"",123,"","","","",1,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-16,"",BL,"",76,"","","",5,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-67-bestaetigte-faelle-in-basel-landschaft
 2020-03-16,"",FR,"",45,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-16,,GE,,472,66,10,9,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-16,,GE,4378,472,66,10,9,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-16,"",JU,"",17,7,"","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-16,"",TG,246,17,"","","","","",""
 2020-03-16,,TI,,330,,,,,8,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187475&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=dee4a529abd4e9300e116c7ff4db5774
@@ -213,7 +213,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-17,"",BL,"",89,"","","",13,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-89-bestaetigte-faelle-in-basel-landschaft
 2020-03-17,,FL,,19,,,,1,,https://www.regierung.li/media/attachments/126-corona-generelles-veranstaltungsverbot-weitere-schliessungen.pdf?t=637202562374055719
 2020-03-17,"",FR,"",59,"","","","","",https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-17,,GE,,619,75,19,17,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-17,,GE,5028,619,75,19,17,,4,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-17,"",GL,"",10,"","","","","",https://www.suedostschweiz.ch/ereignisse/2020-03-20/die-zahl-der-corona-faelle-im-glarnerland-steigt-stark-an
 2020-03-17,"",JU,"",24,7,"","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-17,"",SG,"",47,"","","","","",https://www.sg.ch/tools/informationen-coronavirus.html
@@ -228,7 +228,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-18,"",BE,"",193,"","","","",1,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-18,"",BL,"",116,"","","",16,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-116-bestaetigte-faelle-in-basel-landschaft
 2020-03-18,,FL,,28,,,,1,,https://www.regierung.li/media/attachments/131-corona-hotline-0318.pdf?t=637202562374055719
-2020-03-18,,GE,,751,78,20,17,,6,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-18,,GE,5674,751,78,20,17,,6,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-18,"",GR,"",116,13,"","","",1,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-03-18,"",JU,"",26,6,"","","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-18,"",SG,"",61,"","","","","",https://www.sg.ch/tools/informationen-coronavirus.html
@@ -247,7 +247,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-19,"",BE,"",282,"","","","",1,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-19,"",BL,"",134,"","","",16,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-131-bestaetigte-faelle-in-basel-landschaft
 2020-03-19,"",FR,"",111,12,5,"","",1,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-19,,GE,,961,92,19,18,,6,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-19,,GE,6398,961,92,19,18,,6,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-19,"",GL,"",17,"","","","","",https://www.suedostschweiz.ch/ereignisse/2020-03-20/die-zahl-der-corona-faelle-im-glarnerland-steigt-stark-an
 2020-03-19,"",GR,"",145,18,"","","",1,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-03-19,"",NW,"",25,"","","","","",https://www.nw.ch/gesundheitsamtdienste/6044
@@ -265,7 +265,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-20,"",BL,"",184,"","","",18,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-170-bestaetigte-faelle-in-basel-landschaft
 2020-03-20,,FL,,37,,,,1,,https://www.regierung.li/media/attachments/136-soziale-kontakte-reduktion-corona.pdf?t=637203388043363286
 2020-03-20,"",FR,"",145,20,6,"","",1,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-20,,GE,,1136,109,22,21,,8,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-20,,GE,6951,1136,109,22,21,,8,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-20,"",GR,"",213,24,"","","",3,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-03-20,"",SG,"",98,"","","","","",https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-20,"",SH,"",14,"","","","","",https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
@@ -288,7 +288,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-21,"",BL,"",282,"","","",21,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-282-bestaetigte-faelle-in-basel-landschaft
 2020-03-21,,FL,,44,,,,,,https://www.regierung.li/media/attachments/138-corona-starke-zunahme-0321.pdf?t=637204593432337675
 2020-03-21,"",FR,"",167,28,6,"","",2,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-21,,GE,,1262,145,25,24,,9,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-21,,GE,7320,1262,145,25,24,,9,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-21,"",GR,"",239,24,"","","",3,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-03-21,"",TG,"",56,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-21,"",VD,"",1676,175,23,"",70,15,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -303,7 +303,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-22,"",BL,"",289,"","","",21,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/update-289-bestaetigte-faelle-in-basel-landschaft
 2020-03-22,,FL,,46,,,,,,https://www.regierung.li/media/attachments/139-46-faelle-0322.pdf?t=637204971345932209
 2020-03-22,"",FR,"",202,32,8,"","",3,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-03-22,,GE,,1417,179,36,36,,10,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-22,,GE,7579,1417,179,36,36,,10,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-22,"",GR,"",266,27,"","","",6,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-03-22,"",TG,"",75,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-22,"",VD,"",1782,203,23,"",75,16,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
@@ -332,7 +332,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-23,10:00,AR,"",30,7,"","","",1,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-23,10:00,BS,"",376,56,"","",78,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-23,11:00,LU,"",156,"","","","",1,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-23,12:00,GE,,1509,214,43,41,,10,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-23,12:00,GE,7915,1509,214,43,41,,10,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-23,12:00,SO,"",95,"","","","",1,https://corona.so.ch/
 2020-03-23,15:00,AG,"",241,10,3,2,"",1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200323_KFS_Coronavirus_Lagebulletin_17.pdf
 2020-03-23,15:00,NE,"",204,"","","","",2,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
@@ -355,7 +355,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-24,09:30,ZH,,1211,,,,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-03-24,10:00,AR,"",33,6,"","","",2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-24,11:00,LU,"",205,"","","","",2,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-24,12:00,GE,,1598,238,41,41,103,13,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-24,12:00,GE,8260,1598,238,41,41,103,13,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-24,12:00,UR,"",25,1,"","",1,"",https://www.ur.ch/themen/2920
 2020-03-24,13:30,GL,"",33,3,"","","","",https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-24,15:00,AG,"",266,24,2,2,"",2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200324_KFS_Coronavirus_Lagebulletin_18.pdf
@@ -382,7 +382,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-25,09:30,ZH,,1363,,,,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-03-25,10:00,BS,"",466,58,"","",128,8,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-466-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-25,11:00,LU,"",228,"","","","",2,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-25,12:00,GE,,1708,258,50,48,122,16,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-25,12:00,GE,8689,1708,258,50,48,122,16,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-25,13:30,GL,"",40,2,"","","","",https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-25,14:00,NE,"",256,"","","","",2,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 2020-03-25,15:00,AG,"",319,16,5,5,"",2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200325_KFS_Coronavirus_Lagebulletin_19.pdf
@@ -408,7 +408,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-26,09:30,ZH,,1476,152,,32,,9,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-03-26,10:30,BS,"",505,74,8,"",155,12,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-505-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-26,11:00,LU,"",253,"","","","",3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-26,12:00,GE,,1902,272,52,48,144,22,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-26,12:00,GE,9193,1902,272,52,48,144,22,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-26,13:30,GL,"",43,2,"","","","",https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-26,14:30,NE,"",271,"","","","",5,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 2020-03-26,15:00,AG,"",349,38,10,9,"",2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200326_KFS_Coronavirus_Lagebulletin_20.pdf
@@ -433,7 +433,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-27,09:30,ZH,,1578,156,,37,,11,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-03-27,10:00,BS,"",534,76,8,"",191,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-534-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-27,11:00,LU,"",287,"","","","",3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-27,12:00,GE,,2051,313,54,54,153,23,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-27,12:00,GE,9640,2051,313,54,54,153,23,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-27,13:00,AR,"",44,"","","","",2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-27,13:30,GL,"",44,3,"","","","",https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-27,14:00,NE,"",287,"","","","",5,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
@@ -458,7 +458,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-28,08:00,TI,,1727,385,69,60,,87,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187538&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=736a7f1a780ed9bdb1d8e45f8a0326ff
 2020-03-28,10:00,BS,"",573,79,11,"",211,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-573-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-28,11:00,LU,"",317,"","","","",4,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-28,12:00,GE,,2277,339,59,54,175,27,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-28,12:00,GE,10305,2277,339,59,54,175,27,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-28,13:30,GL,"",47,3,"","","",1,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-28,14:00,NE,"",311,"","","","",6,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 2020-03-28,14:00,ZH,,1720,187,,42,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
@@ -481,7 +481,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-29,08:00,TI,,1837,402,69,59,,93,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187540&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=ae32268e60ac2b59add1b9d55de51cbf
 2020-03-29,10:00,BS,"",609,87,12,"",228,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-609-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-29,11:00,LU,"",339,"","","","",5,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-29,12:00,GE,,2349,365,59,55,193,37,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-29,12:00,GE,10597,2349,365,59,55,193,37,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-29,14:00,NE,"",313,"","","","",6,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 2020-03-29,14:00,ZH,,1758,194,,46,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-03-29,15:00,VS,"",964,112,23,14,"",21,https://www.vs.ch/documents/6756452/7008787/Sit%20Epid%20-%20%C3%89tat%20Stand%2029.03.2020.pdf
@@ -504,7 +504,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-30,10:00,BS,"",621,90,12,"",263,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-621-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-30,11:00,LU,"",351,"","","","",6,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-30,12:00,AI,"",14,"","","","","",https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-03-30,12:00,GE,,2450,382,57,54,216,43,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-30,12:00,GE,11157,2450,382,57,54,216,43,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-30,13:30,GL,"",50,1,"","","",1,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-30,14:00,NE,"",338,"","","","",6,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Coronavirus.aspx
 2020-03-30,15:00,AG,"",481,94,25,23,"",8,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200330_KFS_Coronavirus_Lagebulletin_22.pdf
@@ -531,7 +531,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-31,10:00,BS,"",657,105,15,"",292,16,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-628-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-31,11:00,LU,"",375,"","","","",7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-31,12:00,AI,"",14,"","","","","",https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-03-31,12:00,GE,,2657,405,64,49,241,52,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-03-31,12:00,GE,11760,2657,405,64,49,241,52,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-31,13:30,GL,"",53,5,"","","",2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-03-31,15:00,AG,"",499,85,25,25,"",11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200331_KFS_Coronavirus_Lagebulletin_23.pdf
 2020-03-31,15:00,VS,"",1085,136,23,18,"",35,https://www.vs.ch/documents/6756452/7008787/Sit%20Epid%20-%20%C3%89tat%20Stand%2031.03.2020.pdf
@@ -556,7 +556,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-01,08:00,ZG,"",125,"","","",40,1,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-01,10:00,BS,"",691,108,16,"",323,18,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-01,11:00,LU,"",401,57,12,"","",7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-01,12:00,GE,,2775,406,64,58,260,65,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-04-01,12:00,GE,12243,2775,406,64,58,260,65,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-01,13:30,GL,"",56,5,"","","",2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-01,15:00,AG,"",549,94,27,27,"",11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200401_KFS_Coronavirus_Lagebulletin_24.pdf
 2020-04-01,15:00,VS,"",1145,139,23,18,70,37,https://www.vs.ch/documents/6756452/7008787/2020%2004%2001%20Sit%20Epid%20-%20%C3%89tat%20Stand
@@ -583,7 +583,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,10:00,BS,"",718,119,17,"",350,19,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-718-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-02,11:00,LU,"",422,66,11,"","",7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-02,12:00,AR,"",64,"","","","",3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-04-02,12:00,GE,,2845,424,62,54,283,67,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-04-02,12:00,GE,12505,2845,424,62,54,283,67,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-02,12:00,NE,"","",61,12,10,"","",https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-02,13:00,GL,"",58,5,"","","",2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-02,14:00,UR,"",60,4,"","",13,1,https://www.ur.ch/themen/2920
@@ -593,3 +593,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,17:00,ZH,,2323,200,,53,,36,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-04-02,19:00,JU,"",145,27,4,"","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-04-03,00:00,SO,"",237,"","","","",3,https://corona.so.ch/
+2020-04-03,08:00,ZG,"",138,"","","",44,1,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
