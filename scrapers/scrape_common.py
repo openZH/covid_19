@@ -31,12 +31,15 @@ def download(url, encoding='utf-8'):
   downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
   return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
 
-def pdfdownload(url, encoding='utf-8'):
+def pdfdownload(url, encoding='utf-8', raw=False):
   """Download a PDF and convert it to text"""
   print("Downloading:", url)
   downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
   with subprocess.Popen([downloader, url], stdout=subprocess.PIPE) as pdf:
-    with subprocess.Popen(['pdftotext', '-', '-'], stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
+    pdf_command = ['pdftotext', '-', '-']
+    if raw:
+      pdf_command = ['pdftotext', '-raw', '-', '-']
+    with subprocess.Popen(pdf_command, stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
       t = text.stdout.read()
       text.wait()
       return t.decode(encoding)
