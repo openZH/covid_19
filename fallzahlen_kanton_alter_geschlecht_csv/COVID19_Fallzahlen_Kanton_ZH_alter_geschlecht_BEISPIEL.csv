@@ -1,3 +1,4 @@
-date,canton,age,gender,conf_case,deceased
+Date,Area,AgeYear,Gender,NewConfCases,NewDeaths
 27.02.2020,ZH,30,f,1,0
-27.02.2020,ZH,30,f,0,1
+27.02.2020,ZH,32,f,0,1
+
