@@ -5,8 +5,9 @@ import scrape_common as sc
 print('VS')
 d = sc.download('https://www.vs.ch/de/web/coronavirus')
 sc.timestamp()
-d = sc.filter(r'best(ä|&auml;)tigte\s*F(ä|&auml;)lle', d)
 d = d.replace('&nbsp;', ' ')
+d = d.replace('&auml;', 'ä')
+d = sc.filter(r'bestätigte\s*Fälle', d)
 
 # 2020-03-21
 """
@@ -19,5 +20,109 @@ d = d.replace('&nbsp;', ' ')
 """
 
 print('Date and time:', sc.find(r'<p>\s*([0-9]+\.[0-9]+\.202[0-2]):\s*Derzeit', d))
-print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*best(ä|&auml;)tigte\s*F(ä|&auml;)lle', d))
+print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*bestätigte\s*Fälle', d))
 print('Deaths:', sc.find(r'Tod\s*von\s*([0-9]+)\s*Person', d))
+
+# Download list of PDFs with statistics updated daily
+d = sc.download('https://www.vs.ch/de/web/coronavirus/statistiques')
+
+# 2020-04-02  (but also earlier)
+"""
+ ... ... <ul> <li><a href="/documents/6756452/7008787/2020 04 02 Sit Epid - État Stand.pdf" target="_blank">2020 04 02 Sit Epid - État Stand.pdf</a></li> <li><a href="/documents/6756452/7008787/2020 04 01 Sit Epid - État Stand" target="_blank">2020 04 01 Sit Epid - État Stand</a></li> <li>
+"""
+
+# Note, these are PDFs, but not all of them have pdf "extension".
+url = sc.find(r'<li>\s*<a href="([^"]+)"[^>]*>[^<]*Stand(?:\.pdf)?<', d)
+assert url, "Can't find latest PDF URL"
+
+import urllib.parse
+full_url = 'https://www.vs.ch' + urllib.parse.quote(url)
+d = sc.pdfdownload(full_url, raw=True)
+
+# 2020-03-29
+"""
+État au – Stand : 29.03.2020 15.00h
+Nombre de cas positifs COVID-19 - Anzahl positive COVID-19 Fälle
+Total de cas positifs
+Total positive Fälle
+∆ J-1 Incidence cumulée pour 100'000 habitants
+Kumulierte Inzidenz pro 100'000 Einwohner
+964 +62 278.1
+
+...
+
+Nombre de décès – Anzahl Todesfälle
+Total ∆ J-1
+Taux de létalité -
+Tödlichkeitsrate
+(décès/cas - Todesfälle/Infektionen)
+Taux de mortalité (‰)
+Sterblichkeitsrate
+(décès/population – Todesfälle/Bevölkerung)
+21 +0 2.2% 0.06‰
+
+...
+
+Hospitalisations en cours –
+laufende Hospitalisierungen
+Nb ∆ J-1
+Total
+112 +2
+En soins intensifs – In Intensivpflege
+23 +4
+Sous respirateur – Mit Intubation
+14 -1
+"""
+
+# 2020-04-02, 15:00
+"""
+Total de cas positifs
+Total positive Fälle
+∆ J-1 Incidence cumulée pour 100'000 habitants
+Kumulierte Inzidenz pro 100'000 Einwohner
+1218 +73 351.4
+
+...
+Nombre de décès – Anzahl Todesfälle
+Total ∆ J-1
+Taux de létalité -
+Tödlichkeitsrate
+(décès/cas - Todesfälle/Infektionen)
+Taux de mortalité (‰)
+Sterblichkeitsrate
+(décès/population – Todesfälle/Bevölkerung)
+40 +3 3.3% 0.12‰
+
+
+...
+Intensivpflege (IP) mit Intubation Intensivpflege ohne Intubation Stationäre Pflege
+Nb ∆ J-1
+Cumul sorties – Total Spitalentlassungen
+88 +18
+Hospitalisations en cours - laufende Hospitalisierungen
+135 -4
+En soins intensifs – In Intensivpflege
+23 +0
+Sous respirateur – Mit Intubation
+21 +3
+"""
+
+# Because it is finnicky, only extract the last table for the moment.
+
+# TODO(baryluk): Extract confirmed cases and deceased numbers too for completness.
+
+# Example: État au – Stand : 29.03.2020 15.00h
+print('Date and time:', sc.find(r'État\s*au\s*(?:–|-)?\s*Stand\s*:\s*(.+h)', d))
+
+# Released
+# Started reporting from 2020-04-01
+released = sc.find(r'Cumul\s*sorties\s*(?:–|-)?\s*Total\s*Spitalentlassungen\n([0-9]+)\b', d)
+if released:
+  print('Recovered:', released)
+
+print('Hospitalized:', sc.find(r'Hospitalisations\s*en\s*cours\s*(?:–|-)?\s*laufende\s*Hospitalisierungen(?:\n?Nb\s*∆\s*J-1\s*\nTotal\n?)?\n([0-9]+)\b', d))
+
+print('ICU:', sc.find(r'En\s*soins\s*intensifs\s*(?:–|-)?\s*In\s*Intensivpflege\n([0-9]+)\b', d))
+
+# Intubated.
+print('Vent:', sc.find(r'Sous\s*respirateur\s*(?:–|-)?\s*Mit\s*Intubation\n([0-9]+)\b', d))

@@ -18,7 +18,7 @@ print('Confirmed cases:', sc.find(r'zurzeit ([0-9]+) best(ä|&auml;)tigte F(ä|&
 
 print('Hospitalized:', sc.find(r'([0-9]+) Person(en)? sind zurzeit hospitalisiert', d))
 
-print('ICU:', sc.find(r'([0-9]+) Person(en)? werden auf Intensivstationen behandelt', d))
+print('ICU:', sc.find(r'([0-9]+) Person(en)?( werden)? auf Intensivstationen behandelt', d))
 
 print('Vent:', sc.find(r'([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden', d))
 
