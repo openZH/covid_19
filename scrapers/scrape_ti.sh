@@ -103,15 +103,18 @@ if url:
   d = sc.download(full_url)
   if d:
     sc.timestamp()
-    print('Date and time:', sc.find(r'Coronavirus: aggiornamento della situazione in Ticino \(([^)]+)\)', d))
-    print('Hospitalized:', sc.find(r'Nelle strutture ospedaliere dedicate alla cura dei pazienti affetti dal virus sono attualmente ricoverate ([0-9]+) persone:', d))
+    print('Date and time:', sc.find(r'Coronavirus:\s*aggiornamento\s*della\s*situazione\s*in\s*Ticino\s*\(([^)]+)\)', d))
+    print('Hospitalized:', sc.find(r'sono\s*attualmente\s*ricoverate\s*([0-9]+)\s*persone:', d))
     # ICU numbers include intubated.
-    print('ICU:', sc.find(r'\b([0-9]+) in terapia intensiva', d))
+    print('ICU:', sc.find(r'\b([0-9]+)\s*in\s*terapia\s*intensiva', d))
     # "Intubated".
-    print('Vent:', sc.find(r'\b([0-9]+) intubate', d))
+    print('Vent:', sc.find(r'\b([0-9]+)\s*intubate', d))
     # This article, also contains information about confirmed cases and number
     # of deaths. But because we already capture this in main scraper, which is
     # probably more reliable, we don't do it here.
+
+    # Try to extract information about releases.
+    print('Recovered:', sc.find(r'dimesse\s*(?:dalle\s*strutture\s*sanitarie)?\s*([0-9]+)\s*persone?', d))
 
 # 2020-03-27
 """
