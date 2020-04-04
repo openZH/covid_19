@@ -36,5 +36,5 @@ d = d.replace('<strong>', '').replace('</strong>', '')
 
 print('Date and time:', sc.find(r'Update\s*(.+ Uhr)\)<', d))
 print('Confirmed cases:', sc.find(r'Bestätigte\s*Fälle\s*:\s*([0-9]+)\b', d))
-print('Hospitalized:', sc.find(r'Personen in Spitalpflege\s*:\s*([0-9]+)\b', d))
+print('Hospitalized:', sc.find(r'(?:Hospitalisierungen|Personen in Spitalpflege)\s*:\s*([0-9]+)\b', d))
 print('Deaths:', sc.find(r'Verstorbene\s*Personen\s*:\s*([0-9+])\b', d))
