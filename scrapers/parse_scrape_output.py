@@ -198,6 +198,7 @@ def maybe_new_int(name, value, old_value, required=False):
             warns.append(f"{name} ({value}) not a number")
     return old_value
 
+import scrape_matrix as sm
 
 try:
     i = 0
@@ -278,6 +279,10 @@ try:
     urls = ", ".join(url_sources)
 
     if date and cases and not errs:
+        violated_expectations = sm.check_expected(abbr, deaths=deaths, hospitalized=hospitalized, icu=icu, vent=vent, released=recovered)
+        # For now just print warnings on stderr.
+        for violated_expectation in violated_expectations:
+          print(f'WARNING: {violated_expectation}', file=sys.stderr)
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
             abbr,
             date,
