@@ -24,16 +24,19 @@ months_de = {
 
 months_fr = {
   "janvier": 1,
+  "fèvrier": 2,
   "février": 2,
   "mars": 3,
   "avril": 4,
   "mai": 5,
   "juin": 6,
   "juillet": 7,
+  "aout": 8,
   "août": 8,
   "septembre": 9,
   "octobre": 10,
   "novembre": 11,
+  "decembre": 12,
   "décembre": 12,
 }
 
