@@ -91,6 +91,13 @@ The data of the Cantonal case numbers is structured as follows:
 Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
 It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
 
+## Note about empty values vs. `0`:
+
+| Value    | Meaning |
+|----------| --------|
+| 0        | canton communicated `0` for this variable on that date|
+|empty     | canton communicated nothing/did not provide a value for this variable on that date|
+
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
