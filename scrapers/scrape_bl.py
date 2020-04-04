@@ -57,7 +57,7 @@ Datum, Bestätigte Fälle, Geheilte kalkuliert, Verstorbene
 
 d = d.replace('\n', ' ')
 # Extract last line. Use non-greedy matching.
-d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), Verstorbene.*? ([^ ]+) ?</pre>', d)
+d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle).*? ([^ ]+) ?</pre>', d)
 assert d, "Can't find a data table"
 
 c = d.split(',')
