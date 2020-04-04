@@ -38,19 +38,19 @@ last_row = json_data[-1]
 
 # {'date': '2020-03-27', 'time': '', 'abbreviation_canton_and_fl': 'GR', 'ncumul_tested': '', 'ncumul_conf': '409', 'ncumul_hosp': '52', 'ncumul_ICU': '', 'ncumul_vent': '', 'ncumul_released': '', 'ncumul_deceased': '9', 'source': 'https://www.gr.ch/coronavirus'}
 if last_row['time']:
-  print('Date and time:', '{}T{}'.format(last_row['date'], last_row['time']))
+    print('Date and time:', '{}T{}'.format(last_row['date'], last_row['time']))
 else:
-  print('Date and time:', last_row['date'])
+    print('Date and time:', last_row['date'])
 if last_row['ncumul_tested']:
-  print('Tested:', last_row['ncumul_tested'])
+    print('Tested:', last_row['ncumul_tested'])
 print('Confirmed cases:', last_row['ncumul_conf'])
 if last_row['ncumul_hosp']:
-  print('Hospitalized:', last_row['ncumul_hosp'])
+    print('Hospitalized:', last_row['ncumul_hosp'])
 if last_row['ncumul_ICU']:
-  print('ICU:', last_row['ncumul_ICU'])
+    print('ICU:', last_row['ncumul_ICU'])
 if last_row['ncumul_vent']:
-  print('Vent:', last_row['ncumul_vent'])
+    print('Vent:', last_row['ncumul_vent'])
 if last_row['ncumul_released']:
-  print('Recovered:', last_row['ncumul_released'])
+    print('Recovered:', last_row['ncumul_released'])
 if last_row['ncumul_deceased']:
-  print('Deaths:', last_row['ncumul_deceased'])
+    print('Deaths:', last_row['ncumul_deceased'])

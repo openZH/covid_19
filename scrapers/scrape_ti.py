@@ -96,25 +96,25 @@ while articles and url is None:
   url = sc.find(r'<a[^>]*href="(area-media/comunicati/dettaglio-comunicato/[^"]+)"[^>]*>.*?Coronavirus: aggiornamento della situazione.*?</a>', articles.pop(0), flags=re.DOTALL | re.MULTILINE | re.I)
 
 if url:
-  url = url.replace('&amp;', '&')
-  # url = url.replace('%5B', '').replace('%5D', '')
-  # Because of: <base href="https://www4.ti.ch/">
-  full_url = 'https://www4.ti.ch/' + url
-  d = sc.download(full_url)
-  if d:
-    sc.timestamp()
-    print('Date and time:', sc.find(r'Coronavirus:\s*aggiornamento\s*della\s*situazione\s*in\s*Ticino\s*\(([^)]+)\)', d))
-    print('Hospitalized:', sc.find(r'sono\s*attualmente\s*ricoverate\s*([0-9]+)\s*persone:', d))
-    # ICU numbers include intubated.
-    print('ICU:', sc.find(r'\b([0-9]+)\s*in\s*terapia\s*intensiva', d))
-    # "Intubated".
-    print('Vent:', sc.find(r'\b([0-9]+)\s*intubate', d))
-    # This article, also contains information about confirmed cases and number
-    # of deaths. But because we already capture this in main scraper, which is
-    # probably more reliable, we don't do it here.
+    url = url.replace('&amp;', '&')
+    # url = url.replace('%5B', '').replace('%5D', '')
+    # Because of: <base href="https://www4.ti.ch/">
+    full_url = 'https://www4.ti.ch/' + url
+    d = sc.download(full_url)
+    if d:
+        sc.timestamp()
+        print('Date and time:', sc.find(r'Coronavirus:\s*aggiornamento\s*della\s*situazione\s*in\s*Ticino\s*\(([^)]+)\)', d))
+        print('Hospitalized:', sc.find(r'sono\s*attualmente\s*ricoverate\s*([0-9]+)\s*persone:', d))
+        # ICU numbers include intubated.
+        print('ICU:', sc.find(r'\b([0-9]+)\s*in\s*terapia\s*intensiva', d))
+        # "Intubated".
+        print('Vent:', sc.find(r'\b([0-9]+)\s*intubate', d))
+        # This article, also contains information about confirmed cases and number
+        # of deaths. But because we already capture this in main scraper, which is
+        # probably more reliable, we don't do it here.
 
-    # Try to extract information about releases.
-    print('Recovered:', sc.find(r'dimesse\s*(?:dalle\s*strutture\s*sanitarie)?\s*([0-9]+)\s*persone?', d))
+        # Try to extract information about releases.
+        print('Recovered:', sc.find(r'dimesse\s*(?:dalle\s*strutture\s*sanitarie)?\s*([0-9]+)\s*persone?', d))
 
 # 2020-03-27
 """

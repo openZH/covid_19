@@ -101,9 +101,9 @@ r = re.search(r'<tr[^>]*>\s*<td.*?>(\d{2}.\d{2}.\d{2,4})\s*(?:<br */?>)\s*(\d+\.
 assert r, "Row missmatch"
 
 if r[2]:
-  print("Date and time:", r[1] + ', ' + r[2])
+    print("Date and time:", r[1] + ', ' + r[2])
 else:
-  print("Date and time:", r[1])
+    print("Date and time:", r[1])
 print("Confirmed cases:", r[3].strip())
 print("Deaths:", r[8].strip())
 print("Hospitalized:", r[4].strip())
