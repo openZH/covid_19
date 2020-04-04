@@ -7,7 +7,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-27,,GE,326,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-27,,TI,,,,,,,,
 2020-02-27,,ZH,,1,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
-2020-02-27,19:17,BS,"",0,"","","","","",https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
+2020-02-27,19:17,BS,"",1,"","","","","",https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 2020-02-28,"",BE,"",1,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.archiv.meldungNeu.html/portal/de/meldungen/mm/2020/02/20200229_0936_corona.html
 2020-02-28,"",BL,"",1,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-erster-bestaetigter-fall-aus-dem-kanton-basel-landschaft
 2020-02-28,,GE,533,3,2,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
@@ -15,14 +15,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-28,"",VD,"","",4,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-28,"",VS,"",1,3,"","","","",https://vs.ch/documents/529400/6767345/2020+02+28+-+Medienmitteilung+-+1.+Fall+Coronavirus+VS.pdf/37c4f942-c5d5-6ab5-64fd-83444de4eba5?t=1582923242156
 2020-02-28,,ZH,,2,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
-2020-02-28,10:15,BS,"",0,"","","","","",https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20
+2020-02-28,10:15,BS,"",1,"","","","","",https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20
 2020-02-28,15:00,AG,"",1,"","","","","",https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/20200228_KFS_20200106_Coronavirus_Lagebulletin_AG_Unterschrieben.pdf
 2020-02-29,"",BL,"",2,"","","","","",https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/weiterer-bestaetigter-fall-aus-dem-kanton-basel-landschaft
 2020-02-29,,GE,673,5,3,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-29,,TI,,,,,,,,
 2020-02-29,"",VD,"","",4,"","","","",https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-29,"",VS,"",1,3,"","","","",https://www.vs.ch/documents/6756452/7008787/Sit%20Epid%20-%20%C3%89tat%20Stand%2025.03.2020.pdf
-2020-02-29,15:23,BS,"",0,"","","","","",https://twitter.com/BAG_OFSP_UFSP/status/1233759578241863681?s=20
+2020-02-29,15:23,BS,"",1,"","","","","",https://twitter.com/BAG_OFSP_UFSP/status/1233759578241863681?s=20
 2020-03-01,"",BE,"",2,"","","","","",https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200302_1522_zweiter_bestaetigtercorona-fallinbiel
 2020-03-01,"",BL,"",2,"","","","","",""
 2020-03-01,"",FR,30,1,"","","","","",https://www.fr.ch/sites/default/files/2020-03/200301_commd_dsas_covid_cas_fr.pdf
@@ -590,7 +590,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,"",FR,"",550,80,23,"","",26,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 2020-04-02,"",GR,"",569,59,"","","",23,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-02,"",OW,"",51,"","","","","",https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-04-02,"",SG,"",480,53,11,"",49,8,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-02,"",SG,"",480,64,11,"",49,8,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-02,"",SZ,"",155,"","","",65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-04-02,"",TG,"",179,"","","","",4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-02,"",VD,"",3796,386,83,"","",107,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -617,7 +617,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-03,"",FR,"",588,77,21,"","",31,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 2020-04-03,"",GR,"",598,60,"","","",27,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-03,"",OW,"",56,"","","","","",https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-04-03,"",SG,"",480,63,12,"",50,8,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-03,"",SG,"",480,75,12,"",50,8,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-03,"",SH,"",47,6,3,"","",1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-03,"",SZ,"",164,"","","",75,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-04-03,"",TG,"",198,"","","","",5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
@@ -639,7 +639,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-03,16:00,NE,,,61,11,9,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-03,16:00,ZG,"",138,"","","",44,2,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-04,"",FR,"",638,89,21,"","",37,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-04-04,"",SG,"",504,66,13,"",62,9,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-04,"",SG,"",504,79,13,"",62,9,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-04,"",SZ,"",168,"","","",92,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-04-04,00:00,SO,"",250,"","","","",3,https://corona.so.ch/
 2020-04-04,08:00,BE,"",1106,113,35,28,"",28,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
