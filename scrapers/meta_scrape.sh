@@ -24,7 +24,7 @@
 #
 # Number of deaths can be omitted, if not available.
 
-for s in ./scrape_*.py;
+for s in ./scrape_??.py;
 do
   L=$(./$s | ./parse_scrape_output.py)
   if ! echo "${L}" | egrep ' (OK|FAILED)' >/dev/null; then
