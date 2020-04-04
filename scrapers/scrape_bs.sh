@@ -20,8 +20,8 @@ d = sc.download(f'https://www.gd.bs.ch/{URL}')
 sc.timestamp()
 
 d = d.replace('&auml;', 'ä')
+d = d.replace('&ouml;', 'ö')
 d = d.replace('&nbsp;', ' ')
-d = sc.filter(r'positive\s*Fälle', d)
 
 # 2020-03-25
 """
@@ -64,4 +64,6 @@ d = sc.filter(r'positive\s*Fälle', d)
 # Use non-greedy matching.
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
 print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
-print('Recovered:', sc.find(r'([0-9]+) Personen der \d+ positiv Getesteten .+ sind wieder genesen', d))
+print('Recovered:', sc.find(r'([0-9]+) Personen der [0-9]+ positiv Getesteten .+ sind wieder genesen', d))
+print('Hospitalized:', sc.find(r'Aktuell befinden sich ([0-9]+) Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege', d))
+print('ICU:', sc.find(r'Insgesamt ([0-9]+) Personen benötigen Intensivpflege', d))
