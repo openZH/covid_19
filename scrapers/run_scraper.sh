@@ -24,7 +24,7 @@ $DIR/populate_database.py $DIR/../fallzahlen_kanton_total_csv/COVID19_Fallzahlen
 
 # 2. run the scraper, update the db
 echo "Run the scraper..."
-scrape_script="${DIR}/scrape_${SCRAPER_KEY,,}.sh"
+scrape_script="${DIR}/scrape_${SCRAPER_KEY,,}.py"
 $scrape_script | $DIR/parse_scrape_output.py | $DIR/add_db_entry.py
 
 # 3. Export the database as csv
