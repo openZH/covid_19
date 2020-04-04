@@ -31,10 +31,10 @@ print('Date and time:', sc.find(r'\(Stand ([^\)]+)\)', d)) # sc.filter('Im Kanto
 print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*bestätige\s*(Coronavirus)?-?\s*Fälle', d) or sc.find(r'(?:Anzahl)?\s*Infizierte\s*Fälle\s*(?:\(kumuliert\))?:\s*([0-9]+)<', d))
 hospitalized = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Isolation\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
 if hospitalized:
-  print('Hospitalized:', hospitalized)
+    print('Hospitalized:', hospitalized)
 icu = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Intensiv\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
 if icu:
-  print('ICU:', icu)
+    print('ICU:', icu)
 deaths = sc.find(r'Verstorbene\s*(?:\(kummuliert\))?:\s*([0-9]+)<', d)
 if deaths:
-  print('Deaths:', deaths)
+    print('Deaths:', deaths)

@@ -27,13 +27,13 @@ sc.timestamp()
 print('Date and time:', sc.find(r'Stand: ([^)]+)\)', d))
 cases = sc.find(r': ([0-9]+) Infizierte', d)
 if not cases:
-  cases = sc.find(r'Bestätigte Fälle .*?\): ([0-9]+)<', d)
+    cases = sc.find(r'Bestätigte Fälle .*?\): ([0-9]+)<', d)
 if not cases:
-  cases = sc.find(r'\b([0-9]+) bestätigte Fälle', d)
+    cases = sc.find(r'\b([0-9]+) bestätigte Fälle', d)
 print('Confirmed cases:', cases)
 
 print('Deaths:', sc.find(r'\b([0-9]+) Verstorbene?r?', d))
 
 recovered = sc.find(r', ([0-9]+) Genesene', d)
 if recovered:
-  print('Recovered:', recovered)
+    print('Recovered:', recovered)

@@ -59,18 +59,18 @@ d = d.replace('<strong>', ' ').replace('</strong>', ' ')
 print("Date and time:", sc.find('Stand (.+) Uhr', d))
 cases = sc.find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d)
 if not cases:
-  cases = sc.find('Zurzeit sind\s*([0-9]+)\s*Personen mit Wohnsitz', d)
+    cases = sc.find('Zurzeit sind\s*([0-9]+)\s*Personen mit Wohnsitz', d)
 print("Confirmed cases:", cases)
 
 deaths = sc.find('Im .* Zürich .* Total ([0-9]+) Todesfälle', d)
 if not deaths:
-  deaths = sc.find('Total\s*([0-9]+)\s*Todesfälle', d)
+    deaths = sc.find('Total\s*([0-9]+)\s*Todesfälle', d)
 print("Deaths:", deaths)
 
 hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
 if hospitalized:
-  print('Hospitalized:', hospitalized)
+    print('Hospitalized:', hospitalized)
 
 ventilated = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d)
 if ventilated:
-  print('Vent:', ventilated)
+    print('Vent:', ventilated)

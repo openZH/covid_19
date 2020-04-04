@@ -118,7 +118,7 @@ print('Date and time:', sc.find(r'État\s*au\s*(?:–|-)?\s*Stand\s*:\s*(.+h)', 
 # Started reporting from 2020-04-01
 released = sc.find(r'Cumul\s*sorties\s*(?:–|-)?\s*Total\s*Spitalentlassungen\n([0-9]+)\b', d)
 if released:
-  print('Recovered:', released)
+    print('Recovered:', released)
 
 print('Hospitalized:', sc.find(r'Hospitalisations\s*en\s*cours\s*(?:–|-)?\s*laufende\s*Hospitalisierungen(?:\n?Nb\s*∆\s*J-1\s*\nTotal\n?)?\n([0-9]+)\b', d))
 
