@@ -64,3 +64,4 @@ d = sc.filter(r'positive\s*Fälle', d)
 # Use non-greedy matching.
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
 print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
+print('Recovered:', sc.find(r'([0-9]+) Personen der \d+ positiv Getesteten .+ sind wieder genesen', d))
