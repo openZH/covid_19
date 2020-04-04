@@ -67,7 +67,7 @@ if not deaths:
   deaths = sc.find('Total\s*([0-9]+)\s*Todesfälle', d)
 print("Deaths:", deaths)
 
-hospitalized = sc.find('\s*\b([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
+hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
 if hospitalized:
   print('Hospitalized:', hospitalized)
 
