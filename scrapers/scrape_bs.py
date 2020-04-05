@@ -1,8 +1,28 @@
 #!/usr/bin/env python3
+import requests
+from bs4 import BeautifulSoup
+
 
 import scrape_common as sc
+import utils.bs as bs
+
+def text_from_url(url: str) -> str:
+    req = requests.get(url)
+    html = BeautifulSoup(req.content, "html.parser")
+
+    # I dont really know what I am doing here...
+    # But seems to be working.
+    # The goal is to extract the main text from the URL.
+    texts = []
+    for p in html.find_all("p")[1:-8]:
+        text = p.get_text()
+        if len(text.split(" ")) > 5:
+            texts.append(text)
+    return " ".join(texts)
 
 print('BS')
+sc.timestamp()
+
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
 URL = sc.download("https://www.gd.bs.ch/")
 URL = sc.filter(r'Tagesbulletin.*Corona', URL)
@@ -14,14 +34,16 @@ URL = sc.filter(r'Tagesbulletin.*Corona', URL)
     <a href="/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 376 bestätigte Fälle im Kanton Basel-Stadt</a>
 """
 
-URL = sc.filter(r'href', URL)
-URL = URL.split('"')[1]
-d = sc.download(f'https://www.gd.bs.ch/{URL}')
-sc.timestamp()
+URL = sc.filter(r'href', URL).split('"')[1]
+text = text_from_url(f'https://www.gd.bs.ch/{URL}')
 
-d = d.replace('&auml;', 'ä')
-d = d.replace('&ouml;', 'ö')
-d = d.replace('&nbsp;', ' ')
+ptext = bs.preprocess(text)
+try:
+    result = bs.parse(ptext)
+    result = bs.update_indirect_numbers(result)
+except:
+    result ={}
+
 
 # 2020-03-25
 """
@@ -61,9 +83,10 @@ d = d.replace('&nbsp;', ' ')
                     <p>Mit Stand Mittwoch, 1. April 2020, 10 Uhr, liegen insgesamt 691 positive F&auml;lle von Personen mit Wohnsitz im Kanton Basel-Stadt vor. 323 Personen der 691 positiv Getesteten und damit &uuml;ber 45 Prozent sind wieder genesen.</p>
 """
 
-# Use non-greedy matching.
-print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
-print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
-print('Recovered:', sc.find(r'([0-9]+) Personen der [0-9]+ positiv Getesteten .+ sind wieder genesen', d))
-print('Hospitalized:', sc.find(r'Aktuell befinden sich ([0-9]+) Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege', d))
-print('ICU:', sc.find(r'Insgesamt ([0-9]+) Personen benötigen Intensivpflege', d))
+
+print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', text))
+print("Confirmed cases: ", result.get("NUMCUL_CONF_RESIDENTS", ""))
+print("Death: ", result.get("NUMCUL_DECEASED", ""))
+print("Recovered: ", result.get("NUMCUL_RELEASED", ""))
+print("Hospitalized: ", result.get("NUMCUL_HOSP", ""))
+print("ICU: ", result.get("NUMCUL_ICU", ""))

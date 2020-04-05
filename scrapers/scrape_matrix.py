@@ -21,7 +21,7 @@ matrix = {
   # BS: Technically there are Deaths numbers on website, but we don't scrape
   # them at the moment (2020-04-04).
   # See https://github.com/openZH/covid_19/issues/193 for details.
-  'BS': ['Released', 'Hospitalized', 'ICU'],
+  'BS': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'FR': ['Deaths', 'Hospitalized', 'ICU'],
   'GE': ['Deaths', 'Hospitalized', 'ICU'],
   'GL': ['Deaths', 'Hospitalized'],
