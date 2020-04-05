@@ -1,4 +1,7 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumul_ICU,ncumul_vent,ncumul_released,ncumul_deceased,source
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
 2020-02-25,,GE,72,0,0,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-25,"",TI,"",1,"","","","","",https://www.srf.ch/news/schweiz/tessiner-patient-erster-coronavirus-fall-in-der-schweiz
 2020-02-26,,GE,178,1,1,0,0,,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
@@ -675,6 +678,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-05,11:00,LU,"",478,49,12,"","",9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-05,13:00,AR,"",67,"","","","",3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-05,15:00,VS,"",1356,151,26,21,94,53,https://www.vs.ch/documents/6756452/7008787/2020%2004%2005%20Sit%20Epid%20-%20%C3%89tat%20Stand
+2020-04-05,15:00,ZH,"",2522,194,"",59,"",45,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus/_jcr_content/contentPar/downloadlist_0/downloaditems/gesundheitsdirektion.spooler.download.1586099044818.pdf/gd_zh_corona_lagebulletin.pdf
 2020-04-05,15:55,NW,"",80,"","","","",0,https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-05,16:00,JU,"",156,25,3,"","","",https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 2020-04-05,16:00,NE,,,58,12,8,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
