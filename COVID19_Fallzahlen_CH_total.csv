@@ -603,7 +603,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,11:00,LU,"",422,66,11,"","",7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-02,12:00,AR,"",64,"","","","",3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-02,12:00,GE,12505,2938,424,62,54,283,72,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
-2020-04-02,12:00,NE,,430,61,12,10,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
+2020-04-02,12:00,NE,,430,61,12,10,,23,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-02,13:00,GL,"",58,5,"","","",2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-02,14:00,UR,"",60,4,"","",13,1,https://www.ur.ch/themen/2920
 2020-04-02,15:00,AG,"",592,94,27,27,"",12,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200402_KFS_Coronavirus_Lagebulletin_25.pdf
@@ -637,7 +637,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-03,15:00,ZH,"",2452,207,"",57,"",38,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-04-03,15:50,NW,"",79,"","","","","",https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-03,16:00,JU,"",149,25,3,"","","",https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
-2020-04-03,16:00,NE,,433,61,11,9,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
+2020-04-03,16:00,NE,,433,61,11,9,,23,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-03,16:00,ZG,"",138,"","","",44,2,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-04,"",BL,"",656,"","","",298,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-04,,FL,,77,,,,,1,https://www.regierung.li/media/attachments/168-corona-person-verstorben-0404.pdf?t=637216219078826521
@@ -659,10 +659,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-04,15:00,VS,"",1319,142,26,21,95,51,https://www.vs.ch/documents/6756452/7008787/2020%2004%2004%20Sit%20Epid%20-%20État%20Stand
 2020-04-04,15:00,ZH,"",2492,194,"",59,"",41,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html#title-content-internet-gesundheitsdirektion-de-themen-coronavirus-jcr-content-contentPar-textimage_7
 2020-04-04,16:00,JU,"",153,24,3,"","","",https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
-2020-04-04,16:00,NE,,,59,10,9,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
+2020-04-04,16:00,NE,,,59,10,9,,24,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-04,16:15,NW,"",80,"","","","",0,https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-04,17:00,UR,"",66,6,"","",26,1,https://www.ur.ch/themen/2920
 2020-04-05,"",BL,"",670,"","","",369,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
+2020-04-05,,FL,,77,,,,,1,https://www.regierung.li/de/mitteilungen/223366/?typ=news
 2020-04-05,"",FR,"",669,87,20,"","",40,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 2020-04-05,"",SG,"",515,"","","","","",https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-05,"",SZ,"",170,"","","",93,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
@@ -676,5 +677,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-05,13:00,AR,"",67,"","","","",3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-05,15:55,NW,"",80,"","","","",0,https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-05,16:00,JU,"",156,25,3,"","","",https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
+2020-04-05,16:00,NE,,,58,12,8,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-05,17:00,UR,"",67,5,"","",26,2,https://www.ur.ch/themen/2920
 2020-05-04,12:00,GE,,,424,56,50,327,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
