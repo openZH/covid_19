@@ -27,9 +27,6 @@ d = d.replace('&nbsp;', ' ')
 
 print('Date and time:', sc.find(r'Stand\s*([^<]+)<', d))
 print('Confirmed cases:', sc.find(r'(?:Anzahl)?\s*bestätigter\s*Fälle:?\s*([0-9]+)\b', d))
-deaths = sc.find(r'\b([0-9]+)\s*verstorb', d)
-if deaths is None:
-    deaths = sc.find(r'Verstorben: ([0-9]+)', d)
-print('Deaths:', deaths)
-print('Hospitalized:', sc.find(r'Hospitalisiert: ([0-9]+)', d))
+print('Deaths:', sc.find(r'\b([0-9]+)\s*verstorb', d) or sc.find(r'Verstorben:?\s*([0-9]+)', d))
+print('Hospitalized:', sc.find(r'Hospitalisiert:\s*([0-9]+)', d))
 print('ICU:', sc.find(r'davon auf der Intensivstation:\s+([0-9]+)', d))
