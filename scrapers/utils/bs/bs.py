@@ -3,11 +3,7 @@ import logging
 
 logging.basicConfig(level=logging.ERROR)
 
-
-try:
-    import spacy
-except ModuleNotFoundError:
-    pass
+import spacy
 
 
 with open("utils/bs/numbers.txt", "r") as txtfile:
@@ -43,10 +39,9 @@ def parse(text: str) -> dict:
 
 
 def update_indirect_numbers(result: dict) -> dict:
-    if result.get("NUMCUL_CONF", None) and result.get("NUMCUL_CONF_RESIDENTS"):
+    if result.get("NUMCUL_CONF") and result.get("NUMCUL_CONF_RESIDENTS"):
         result["NUMCUL_CONFIRMED_NON_RESIDENT"] = result["NUMCUL_CONF"] - result["NUMCUL_CONF_RESIDENTS"]
 
-    if result.get("NUMCUL_HOSP", None) and result.get("NUMCUL_HOSP_RESIDENTS", None):
+    if result.get("NUMCUL_HOSP") and result.get("NUMCUL_HOSP_RESIDENTS"):
         result["NINST_HOSP_NON_RESIDENT"] = result["NUMCUL_HOSP"] - result["NUMCUL_HOSP_RESIDENTS"]
     return result
-

@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 
 
 import scrape_common as sc
-import utils.bs as bs
 
 def text_from_url(url: str) -> str:
+    print(f"Downloading: {url}")
     req = requests.get(url)
     html = BeautifulSoup(req.content, "html.parser")
 
@@ -21,7 +21,6 @@ def text_from_url(url: str) -> str:
     return " ".join(texts)
 
 print('BS')
-sc.timestamp()
 
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
 URL = sc.download("https://www.gd.bs.ch/")
@@ -36,9 +35,11 @@ URL = sc.filter(r'Tagesbulletin.*Corona', URL)
 
 URL = sc.filter(r'href', URL).split('"')[1]
 text = text_from_url(f'https://www.gd.bs.ch/{URL}')
+sc.timestamp()
 
-ptext = bs.preprocess(text)
 try:
+    import utils.bs as bs
+    ptext = bs.preprocess(text)
     result = bs.parse(ptext)
     result = bs.update_indirect_numbers(result)
 except:
@@ -85,8 +86,8 @@ except:
 
 
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', text))
-print("Confirmed cases: ", result.get("NUMCUL_CONF_RESIDENTS", ""))
-print("Death: ", result.get("NUMCUL_DECEASED", ""))
-print("Recovered: ", result.get("NUMCUL_RELEASED", ""))
-print("Hospitalized: ", result.get("NUMCUL_HOSP", ""))
-print("ICU: ", result.get("NUMCUL_ICU", ""))
+print("Confirmed cases:", result.get("NUMCUL_CONF_RESIDENTS", ""))
+print("Death:", result.get("NUMCUL_DECEASED", ""))
+print("Recovered:", result.get("NUMCUL_RELEASED", ""))
+print("Hospitalized:", result.get("NUMCUL_HOSP", ""))
+print("ICU:", result.get("NUMCUL_ICU", ""))
