@@ -28,7 +28,9 @@ d = d.replace('&auml;', 'ä')
 
 
 print('Date and time:', sc.find(r'\(Stand ([^\)]+)\)', d)) # sc.filter('Im Kanton Schaffhausen gibt.*', d)
-print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*bestätige\s*(Coronavirus)?-?\s*Fälle', d) or sc.find(r'(?:Anzahl)?\s*Infizierte\s*Fälle\s*(?:\(kumuliert\))?:\s*([0-9]+)<', d))
+print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*bestätige\s*(Coronavirus)?-?\s*Fälle', d) or
+      sc.find(r'(?:Anzahl)?\s*Infizierte\s*Fälle\s*(?:\(kumuliert\))?:\s*([0-9]+)<', d) or
+      sc.find(r'Anzahl\s+positiv\s+getestete\s+Personen\s+\(kumuliert\):\s+([0-9]+)', d))
 hospitalized = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Isolation\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
 if hospitalized:
     print('Hospitalized:', hospitalized)
