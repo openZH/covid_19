@@ -30,7 +30,7 @@ matrix = {
   'LU': ['Deaths', 'Hospitalized', 'ICU'],
   'NE': ['Deaths'],  # Currently broken.
   'NW': ['Deaths'],  # Currently 0, but present.
-  'OW': [],
+  'OW': ['Deaths', 'Hospitalized'],
   'SG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'SH': ['Deaths', 'Hospitalized', 'ICU'],
   'SO': ['Deaths', 'Hospitalized'],
@@ -63,7 +63,7 @@ matrix_time = [
   'LU',
   'NW',
   # 'NE',  # Broken scraper.
-  # 'OW',  # Not available.
+  'OW',
   # 'SG',  # Not available.
   # 'SH',  # Not available.
   'SO',
