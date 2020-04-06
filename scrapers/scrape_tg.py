@@ -31,3 +31,5 @@ deaths = sc.find(r'\b([0-9]+)\s*verstorb', d)
 if deaths is None:
     deaths = sc.find(r'Verstorben: ([0-9]+)', d)
 print('Deaths:', deaths)
+print('Hospitalized:', sc.find(r'Hospitalisiert: ([0-9]+)', d))
+print('ICU:', sc.find(r'davon auf der Intensivstation:\s+([0-9]+)', d))
