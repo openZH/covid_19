@@ -56,7 +56,10 @@ d = d.replace('<strong>', ' ').replace('</strong>', ' ')
 <p>(Stand 31.3.2020, 17.00 Uhr)</p>
 """
 
-print("Date and time:", sc.find('Stand (.+) Uhr', d))
+date_time_info = sc.find('Stand (.+) Uhr', d)
+if date_time_info is None:
+    date_time_info = sc.find('Aktuelle Situation im Kanton Zürich \(([^)]+)\)', d)
+print("Date and time:", date_time_info)
 cases = sc.find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d)
 if not cases:
     cases = sc.find('Zurzeit sind\s*([0-9]+)\s*Personen mit Wohnsitz', d)
