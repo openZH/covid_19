@@ -29,7 +29,7 @@ matrix = {
   'JU': ['Hospitalized', 'ICU'],
   'LU': ['Deaths', 'Hospitalized', 'ICU'],
   'NE': ['Deaths'],  # Currently broken.
-  'NW': ['Deaths'],  # Currently 0, but present.
+  'NW': ['Deaths', 'Hospitalized', 'ICU'],
   'OW': ['Deaths', 'Hospitalized'],
   'SG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'SH': ['Deaths', 'Hospitalized', 'ICU'],
