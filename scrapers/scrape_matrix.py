@@ -35,7 +35,7 @@ matrix = {
   'SH': ['Deaths', 'Hospitalized', 'ICU'],
   'SO': ['Deaths', 'Hospitalized'],
   'SZ': ['Deaths', 'Released'],
-  'TG': ['Deaths'],
+  'TG': ['Deaths', 'Hospitalized', 'ICU'],
   'TI': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
   'UR': ['Deaths', 'Released', 'Hospitalized'],
   'VD': ['Deaths', 'Hospitalized', 'ICU'],
