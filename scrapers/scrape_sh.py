@@ -41,6 +41,4 @@ if hospitalized:
 icu = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Intensiv\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
 if icu:
     print('ICU:', icu)
-deaths = sc.find(r'Verstorbene\s*(?:\(kummuliert\))?:\s*([0-9]+)<', d)
-if deaths:
-    print('Deaths:', deaths)
+print('Deaths:', sc.find(r'Verstorbene\s*(?:\(kumm?uliert\))?:\s*([0-9]+)<', d))
