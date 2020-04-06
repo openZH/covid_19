@@ -61,9 +61,23 @@ d = d.replace('&nbsp;', ' ')
                     <p>Mit Stand Mittwoch, 1. April 2020, 10 Uhr, liegen insgesamt 691 positive F&auml;lle von Personen mit Wohnsitz im Kanton Basel-Stadt vor. 323 Personen der 691 positiv Getesteten und damit &uuml;ber 45 Prozent sind wieder genesen.</p>
 """
 
+# 2020-04-06
+"""
+                    <div class="text">
+                    <p>Mit Stand Montag, 6. April 2020, 9.45 Uhr, liegen insgesamt 803 positive F&auml;lle von Personen mit Wohnsitz im Kanton Basel-Stadt vor. Dies sind 9 mehr als am Vortag. 481 Personen der 803 positiv Getesteten und damit 60 Prozent sind wieder genesen. Der Kanton Basel-Stadt verzeichnet unver&auml;ndert 26 Todesf&auml;lle.</p>
+
+<p>Im Kanton Basel-Stadt werden nebst den Tests der Kantonsbewohnerinnen und -bewohner auch Tests von Verdachtsf&auml;llen aus anderen Schweizer Kantonen und dem grenznahen Ausland durchgef&uuml;hrt. Bisher sind die Tests von 1241 Personen positiv ausgefallen (inklusive der 803 Basler F&auml;lle).</p>
+
+<p>Aktuell befinden sich 78 Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege in einem baselst&auml;dtischen Spital. Total sind dies 99 Personen. Insgesamt 13 Personen ben&ouml;tigen Intensivpflege. Die anderen Patientinnen und Patienten befinden sich auf der normalen Station.</p>
+
+                    </div>
+"""
+
 # Use non-greedy matching.
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
 print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
-print('Recovered:', sc.find(r'([0-9]+) Personen der [0-9]+ positiv Getesteten .+ sind wieder genesen', d))
-print('Hospitalized:', sc.find(r'Aktuell befinden sich ([0-9]+) Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege', d))
-print('ICU:', sc.find(r'Insgesamt ([0-9]+) Personen benötigen Intensivpflege', d))
+print('Recovered:', sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d))
+print('Hospitalized:', sc.find(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege', d))
+print('ICU:', sc.find(r'Insgesamt\s*([0-9]+)\s*Personen benötigen\s*Intensivpflege', d))
+print('Deaths:', sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
+                 sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d))
