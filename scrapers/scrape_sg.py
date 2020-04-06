@@ -42,10 +42,37 @@ d = d.replace('&nbsp;', ' ')
 </tr></tbody></table>
 """
 
+# 2020-04-05
+"""
+		<h4>5. April 2020</h4>
+		
+			
+			
+				<table id="sgch_accordion_list__sgch_accordion_sgch_table" class="table small-padding table-bordered" style="width: 100%">
+<thead><tr class="odd" ><th>&nbsp;</th>
+<th colspan="2">Anzahl&nbsp;</th>
+<th data-hide="phone" colspan="2">Veränderung gegenüber dem Vortag</th>
+</tr></thead><tbody><tr class="even" ><td height="20" width="263">laborbestätigte Fälle (kumuliert)</td>
+<td colspan="2" width="160">515</td>
+<td colspan="2" width="208">+11</td>
+</tr><tr class="odd" ><td height="20">Hospitalisationen Isolation (akt. Stand)</td>
+<td colspan="2">57</td>
+<td colspan="2">-9</td>
+</tr><tr class="even" ><td height="20">Hospitalisationen Intensiv (akt. Stand)</td>
+<td colspan="2">13</td>
+<td colspan="2">unverändert</td>
+</tr><tr class="odd" ><td height="20">aus Spital entlassene (kumuliert)</td>
+<td colspan="2">70</td>
+<td colspan="2">+8</td>
+</tr><tr class="even" ><td height="20">Verstorbene (kumuliert)</td>
+<td colspan="2">9</td>
+<td colspan="2">unverändert</td>
+</tr></tbody></table>
+"""
 
-print('Date and time:', sc.find(r'<h4>([0-9]+\. (April|Mai|Juni) [0-9]+)<\/h4>', d))
-print('Confirmed cases:', sc.find(r'laborbestätigte Fälle \(kumuliert\)<\/t[hd]>\s*<t[hd][^>]+>([0-9]+)<\/t[hd]>', d.replace("\n", "")))
-print('Deaths:', sc.find(r'>Verstorbene \(kumuliert\)<\/td>\s*<td>([0-9]+)<', d.replace("\n", "")))
-print('Hospitalized:', sc.find(r'>Hospitalisationen Isolation \(aktueller Stand\)<\/td>\s*<td>([0-9]+)<', d.replace("\n", "")))
-print('ICU:', sc.find(r'>Hospitalisationen Intensiv \(aktueller Stand\)<\/td>\s*<td>([0-9]+)<', d.replace("\n", "")))
-print('Recovered:', sc.find(r'>aus Spital entlassene \(kumuliert\)<\/td>\s*<td>([0-9]+)<', d.replace("\n", "")))
+print('Date and time:', sc.find(r'<h4>([0-9]+\. [A-Za-z]* [0-9]{4})<\/h4>', d))
+print('Confirmed cases:', sc.find(r'laborbestätigte\s*Fälle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", "")))
+print('Deaths:', sc.find(r'>Verstorbene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)<', d.replace("\n", "")))
+print('Hospitalized:', sc.find(r'>Hospitalisationen Isolation\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)<', d.replace("\n", "")))
+print('ICU:', sc.find(r'>Hospitalisationen\s*Intensiv\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)<', d.replace("\n", "")))
+print('Recovered:', sc.find(r'>aus\s*Spital\s*entlassene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)<', d.replace("\n", "")))
