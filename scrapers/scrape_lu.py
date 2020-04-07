@@ -67,16 +67,14 @@ sc.timestamp()
 print('Date and time:', sc.find(r'Aktuelle\s*Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\)', d))
 
 soup = BeautifulSoup(d, 'html.parser')
-table = soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find_parent('li').find('table')
-
-assert table, "Table not found"
-
-rows = table.find_all('tr')
+rows = []
+for table in soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find_parent('li').find_all('table'):
+    rows += table.find_all('tr')
 for row in rows:
     cells = row.find_all('td')
     assert len(cells) == 2, "Number of columns changed, not 2"
 
-    header_str = "".join([str(x) for x in cells[0].contents]) 
+    header_str = "".join([str(x) for x in cells[0].contents])
     value = int(cells[1].find('p').string)
     if re.search('Bestätigte Fälle|Positiv getestet', header_str):
         print('Confirmed cases:', value)
