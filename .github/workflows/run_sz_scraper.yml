@@ -32,7 +32,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: SZ
-        SCRAPER_SOURCE: https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
       run: |
         ./scrapers/run_scraper.sh
         
