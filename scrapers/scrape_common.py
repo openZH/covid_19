@@ -6,6 +6,8 @@ import datetime
 import os
 import subprocess
 import re
+import requests
+import xlrd
 
 spelledOutNumbersMap = {
     'eins': 1,
@@ -32,6 +34,14 @@ def download(url, encoding='utf-8'):
     downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
     return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
 
+def xlsdownload(url):
+    print("Downloading:", url)
+    r = requests.get(url) 
+    xls = xlrd.open_workbook(file_contents=r.content)
+    return xls
+
+def xldate_as_datetime(sheet, date):
+    return xlrd.xldate.xldate_as_datetime(date, sheet.book.datemode)
 
 def pdfdownload(url, encoding='utf-8', raw=False):
     """Download a PDF and convert it to text"""
@@ -62,7 +72,7 @@ def find(pattern, d, group=1, flags=re.I):
 
 def timestamp():
     now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone()
-    print("Scraped at:", now.isoformat(timespec='seconds'))
+    print("Scraped at:", now.isoformat())
 
 
 def represents_int(s):
