@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 print('BL')
@@ -11,14 +12,15 @@ main_site = sc.download("https://www.baselland.ch/politik-und-behorden/direktion
 <iframe width="100%" class="iframeblock loading" onload="onIframeLoaded(this)" src="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200331_COVID19_BL.htm" scrolling="auto" height="600"></iframe>
 """
 
-iframe = sc.filter(r'<iframe', main_site)
-iframe_url = sc.find(r'src="(.+?)"', iframe)
+soup = BeautifulSoup(main_site, 'html.parser')
+for iframe in soup.find_all('iframe'):
+    iframe_url = (iframe['src'])
 
-d = sc.download(iframe_url)
-sc.timestamp()
+    d = sc.download(iframe_url)
+    sc.timestamp()
 
-# 2020-03-24
-"""
+    # 2020-03-24
+    """
 <pre id="data" style="display:none;">
 Datum, Bestätigte Fälle, Verstorbene
 28-02-2020,1,
@@ -33,8 +35,8 @@ Datum, Bestätigte Fälle, Verstorbene
 </pre>
 """
 
-# 2020-04-01
-"""
+    # 2020-04-01
+    """
 <pre id="data" style="display:none;">
 Datum, Bestätigte Fälle, Geheilte geschätzt, Verstorbene
 28-02-2020,1,,
@@ -45,8 +47,8 @@ Datum, Bestätigte Fälle, Geheilte geschätzt, Verstorbene
 </pre>
 """
 
-# 2020-04-02
-"""
+    # 2020-04-02
+    """
 <pre id="data" style="display:none;">
 Datum, Bestätigte Fälle, Geheilte kalkuliert, Verstorbene
 28-02-2020,1,,
@@ -55,14 +57,21 @@ Datum, Bestätigte Fälle, Geheilte kalkuliert, Verstorbene
 </pre>
 """
 
-d = d.replace('\n', ' ')
-# Extract last line. Use non-greedy matching.
-d = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle).*? ([^ ]+) ?</pre>', d)
-assert d, "Can't find a data table"
+    d = d.replace('\n', ' ')
+    # Extract last line. Use non-greedy matching.
+    data = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle).*? ([^ ]+) ?</pre>', d)
+    if data:
+        c = data.split(',')
 
-c = d.split(',')
+        print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
+        print('Confirmed cases:', c[1])
+        print('Deaths:', c[3])
+        print('Recovered:', c[2])
+    else:
+        data = sc.find(r'<pre id="data".*?> ?Datum, Normale Station, Intensivstation.*? ([^ ]+) ?</pre>', d)
+        c = data.split(',')
+        print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
+        print('Hospitalized:', c[1])
+        print('ICU:', c[2])
 
-print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
-print('Confirmed cases:', c[1])
-print('Deaths:', c[3])
-print('Recovered:', c[2])
+
