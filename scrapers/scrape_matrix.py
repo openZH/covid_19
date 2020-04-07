@@ -17,7 +17,7 @@ matrix = {
   'AI': [],
   'AR': ['Deaths'],
   'BE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
-  'BL': ['Deaths', 'Released'],
+  'BL': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'BS': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'FR': ['Deaths', 'Hospitalized', 'ICU'],
   'GE': ['Deaths', 'Hospitalized', 'ICU'],
