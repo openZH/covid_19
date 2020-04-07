@@ -4,36 +4,23 @@ import scrape_common as sc
 
 print('SZ')
 
-d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948')
+xls = sc.xlsdownload('https://www.sz.ch/public/upload/assets/45951/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx')
 sc.timestamp()
 
-# 2020-03-25
-"""        <li> <p>Aktuelle Fallzahlen im Kanton Schwyz (Stand: 25. März 2020): 99 Infizierte, 10 Genesene</p> </li> """
+sheet = xls.sheet_by_index(0)
+last_row = sheet.nrows - 1
 
-# 2020-03-26, morning
-"""        <li> <p>Bestätigte Fälle im Kanton Schwyz (Stand: 26. März 2020): 99</p> </li> """
+date_value = sheet.cell_value(last_row, 0)
+current_date = sc.xldate_as_datetime(sheet, date_value)
+print('Date and time:', current_date.date().isoformat())
 
-# 2020-03-26, afternoon
-"""        <li> <p>99 bestätigte Fälle im Kanton Schwyz, 10 Genesene (Stand: 26. März 2020)</p> </li> """
-
-
-# 2020-03-27
-"""        <li> <p>Coronafälle im Kanton Schwyz (Stand: 27. März 2020): 119 bestätigte Fälle, 1 Verstorbener, 32 Genesene</p> </li> """
-
-# 2020-03-28
-"""        <li> <p>Coronafälle im Kanton Schwyz (Stand: 28. März 2020): 122 bestätigte Fälle, 2 Verstorbene, 33 Genesene</p> </li> """
-
-
-print('Date and time:', sc.find(r'Stand: ([^)]+)\)', d))
-cases = sc.find(r': ([0-9]+) Infizierte', d)
-if not cases:
-    cases = sc.find(r'Bestätigte Fälle .*?\): ([0-9]+)<', d)
-if not cases:
-    cases = sc.find(r'\b([0-9]+) bestätigte Fälle', d)
+cases = int(sheet.cell_value(last_row, 1)) 
 print('Confirmed cases:', cases)
 
-print('Deaths:', sc.find(r'\b([0-9]+) Verstorbene?r?', d))
+deaths = int(sheet.cell_value(last_row, 2))
+if deaths:
+    print('Deaths:', deaths)
 
-recovered = sc.find(r', ([0-9]+) Genesene', d)
+recovered = int(sheet.cell_value(last_row, 3))
 if recovered:
     print('Recovered:', recovered)
