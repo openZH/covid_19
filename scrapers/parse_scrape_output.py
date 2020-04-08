@@ -92,12 +92,13 @@ def parse_date(d):
         assert 20 <= int(mo[3]) <= 21
         assert 1 <= int(mo[2]) <= 12
         return f"20{int(mo[3]):02d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-    mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d),? (\d\d?)[h:\.](\d\d)', d)
+    mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d)[,:]? (\d\d?)[h:\.](\d\d)(?: Uhr)', d)
     if mo:
         # 20.3.2020, 16.30
         # 21.03.2020, 15h30
         # 23.03.2020, 12:00
         # 23.03.2020 12:00
+        # 08.04.2020: 09.30 Uhr
         assert 2020 <= int(mo[3]) <= 2021
         assert 1 <= int(mo[2]) <= 12
         return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
@@ -212,7 +213,7 @@ try:
                 abbr) == 2, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
             assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
             continue
-        k, v = l.split(": ", 2)
+        k, v = l.split(": ", 1)
 
         v = v.strip()
 
@@ -229,7 +230,7 @@ try:
             continue
         if k.startswith("Date and time"):
             new_date = parse_date(v)
-            day = new_date.split("T", 2)[0].split('-', 3)
+            day = new_date.split("T", 1)[0].split('-', 2)
             day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
             now = datetime.date.today()
             if day > now:
