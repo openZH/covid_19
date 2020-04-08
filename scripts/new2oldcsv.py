@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This script convert CSV files from the old to the new structure
+# This script convert CSV files from the new to the old structure
 
 import sqlite3
 import csv
@@ -23,16 +23,15 @@ try:
               'abbreviation_canton_and_fl': r['abbreviation_canton_and_fl'],
               'ncumul_tested': r['ncumul_tested'],
               'ncumul_conf': r['ncumul_conf'],
-              'new_hosp': '',
-              'current_hosp': r['ncumul_hosp'],
-              'current_icu': r['ncumul_ICU'],
-              'current_vent': r['ncumul_vent'],
+              'ncumul_hosp': r['current_hosp'],
+              'ncumul_ICU': r['current_icu'],
+              'ncumul_vent': r['current_vent'],
               'ncumul_released': r['ncumul_released'],
               'ncumul_deceased': r['ncumul_deceased'],
               'source': r['source'],
             }
             # re-add extra columns
-            for col in dr.fieldnames[11:]:
+            for col in dr.fieldnames[12:]:
                 data[col] = r[col]
             rows.append(data)
 
