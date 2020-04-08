@@ -28,7 +28,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: UR
-        SCRAPER_SOURCE: https://www.ur.ch/themen/2920
       run: |
         ./scrapers/run_scraper.sh
         
