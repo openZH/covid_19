@@ -35,6 +35,7 @@ try:
             'area': match.group(1),
             'tested': '',
             'confirmed': int(match.group(3)),
+            'new_hospitalized': '',
             'hospitalized': '',
             'icu': '',
             'vent': '',
@@ -92,9 +93,10 @@ try:
                     abbreviation_canton_and_fl,
                     ncumul_tested,
                     ncumul_conf,
-                    ncumul_hosp,
-                    ncumul_ICU,
-                    ncumul_vent,
+                    new_hosp,
+                    current_hosp,
+                    current_icu,
+                    current_vent,
                     ncumul_released,
                     ncumul_deceased,
                     source
@@ -108,6 +110,7 @@ try:
                     data['area'],
                     data['tested'],
                     data['confirmed'],
+                    data['new_hospitalized'],
                     data['hospitalized'],
                     data['icu'],
                     data['vent'],
@@ -121,8 +124,8 @@ try:
         finally:
             conn.commit()
 except Exception as e:
-    print("Error: %s" % e)
-    print(traceback.format_exc())
+    print("Error: %s" % e, file=sys.stderr)
+    print(traceback.format_exc(), file=sys.stderr)
     sys.exit(1)
 finally:
     conn.close()
