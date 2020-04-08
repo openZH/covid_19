@@ -1,25 +1,25 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumul_ICU,ncumul_vent,ncumul_released,ncumul_deceased,source
-2020-03-16,"",TG,246,17,"","","","","",""
-2020-03-17,"",TG,276,23,"","","","","",""
-2020-03-18,"",TG,"",32,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-19,"",TG,"",36,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-20,"",TG,"",49,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-21,"",TG,"",56,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-22,"",TG,"",75,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-23,"",TG,"",81,"","","","","",https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-24,"",TG,"",87,"","","","",1,"https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & https://www.tg.ch/news/news-detailseite.html/485/news/44925"
-2020-03-25,"",TG,"",96,"","","","",1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-26,"",TG,"",110,"","","","",1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-27,"",TG,"",117,"","","","",2,"https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & email der Staatskanzlei des Kanton Thurgau"
-2020-03-28,"",TG,"",134,"","","","",2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-29,"",TG,"",138,"","","","",2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-30,"",TG,"",148,"","","","",2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-31,"",TG,"",154,"","","","",3,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-01,"",TG,"",166,"","","","",4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-02,"",TG,"",179,"","","","",4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-03,"",TG,"",198,"","","","",5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-04,"",TG,"",208,"","","","",5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-05,"",TG,"",213,"","","","",7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-06,"",TG,"",219,34,14,"","",7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-07,"",TG,"",221,33,13,"","",8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-04-08,"",TG,"",236,30,15,"","",8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-16,,TG,246,17,,,,,,
+2020-03-17,,TG,276,23,,,,,,
+2020-03-18,,TG,,32,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-19,,TG,,36,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-20,,TG,,49,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-21,,TG,,56,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-22,,TG,,75,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-23,,TG,,81,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-24,,TG,,87,,,,,1,"https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & https://www.tg.ch/news/news-detailseite.html/485/news/44925"
+2020-03-25,,TG,,96,,,,,1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-26,,TG,,110,,,,,1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-27,,TG,,117,,,,,2,"https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & email der Staatskanzlei des Kanton Thurgau"
+2020-03-28,,TG,,134,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-29,,TG,,138,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-30,,TG,,148,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-03-31,,TG,,154,,,,,3,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-01,,TG,,166,,,,,4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-02,,TG,,179,,,,,4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-03,,TG,,198,,,,,5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-04,,TG,,208,,,,,5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-05,,TG,,213,,,,,7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-06,,TG,,219,34,14,,,7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-07,,TG,,221,33,13,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
+2020-04-08,,TG,,236,30,15,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
