@@ -10,7 +10,7 @@
 ```diff
 - new column will be added 'new_hosp' (=new hospitalisations since last date)
 - the'ncumul_hosp'-column will be renamed to 'current_hosp' (=number of hospitalisations on that date)
-- the 'ncumul_icu'-column will be renamed to 'current_icu' (=number of ICU patients on that date) .. /2
+- the 'ncumul_icu'-column will be renamed to 'current_icu' (=number of ICU patients on that date)
 - the'ncumul_vent'-column will be renamed to 'current_vent' (=number of patients required to receive ventilation on that date)
 - all column names will be turned into lower case (only one column affected : '_icu' instead of 'ICU')
 ```
