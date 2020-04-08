@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
 
 print('OW')
@@ -41,9 +43,17 @@ d = d.replace('&nbsp;', ' ')
 
 print('Date and time:', sc.find(r'Stand ([^<]+ Uhr)', d) or
                         sc.find(r'Stand ([^<]+)<', d))
-print('Confirmed cases:', sc.find(r'ist\s*bei\s*([0-9]+)\s*Personen', d) or
-                          sc.find(r'Positiv\s*getestete\s*Personen:?\s*([0-9]+)\b', d))
 
-# Reported from 2020-04-06
-print('Hospitalized:', sc.find(r'hospitalisierte\s*Personen:?\s*([0-9]+)\b', d))
-print('Deaths:', sc.find(r'Verstorbene\s*Personen:?\s*([0-9]+)\b', d))
+soup = BeautifulSoup(d, 'html.parser')
+for row in soup.find(id='Fallzahl').find_next('table').find_all('tr'):
+    cells = row.find_all('td')
+    assert len(cells) == 2, "Number of columns changed, not 2"
+
+    header_str = cells[0].find('span').string
+    value = int(cells[1].find('span').string.split()[0])
+    if re.search('Bestätigte Fälle|Positiv getestet', header_str):
+        print('Confirmed cases:', value)
+    if re.search('In OW hospitalisiert \(aktuell\):', header_str):
+        print('Hospitalized:', value)
+    if re.search('Todesfälle', header_str):
+        print('Deaths:', value)
