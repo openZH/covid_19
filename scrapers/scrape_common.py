@@ -43,14 +43,17 @@ def xlsdownload(url):
 def xldate_as_datetime(sheet, date):
     return xlrd.xldate.xldate_as_datetime(date, sheet.book.datemode)
 
-def pdfdownload(url, encoding='utf-8', raw=False):
+def pdfdownload(url, encoding='utf-8', raw=False, layout=False):
     """Download a PDF and convert it to text"""
     print("Downloading:", url)
     downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
     with subprocess.Popen([downloader, url], stdout=subprocess.PIPE) as pdf:
-        pdf_command = ['pdftotext', '-', '-']
+        pdf_command = ['pdftotext']
         if raw:
-            pdf_command = ['pdftotext', '-raw', '-', '-']
+            pdf_command += ['-raw']
+        if layout:
+            pdf_command += ['-layout']
+        pdf_command += ['-', '-']
         with subprocess.Popen(pdf_command, stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
             t = text.stdout.read()
             text.wait()
