@@ -2,11 +2,9 @@
 
 # This script convert CSV files from the new to the old structure
 
-import sqlite3
 import csv
-import traceback
-import os
 import sys
+import traceback
 
 assert len(sys.argv) == 2, "Call script with CSV file as parameter"
 
