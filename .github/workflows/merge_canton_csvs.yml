@@ -20,13 +20,13 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Print header line and then merge all files without header line
-      run: ruby scripts/merge_canton_csvs.rb > COVID19_Fallzahlen_CH_total.csv
+      run: ruby scripts/merge_canton_csvs.rb > COVID19_Fallzahlen_CH_total_v2.csv
 
     # Create v2 files
-    - name: Create v2 files based on old structure
+    - name: Create v1 files based on new structure
       run: |
-        ./scripts/transform_all_old2new.sh
-        ./scripts/old2newcsv.py COVID19_Fallzahlen_CH_total.csv > COVID19_Fallzahlen_CH_total_v2.csv
+        ./scripts/transform_all_new2old.sh
+        ./scripts/new2oldcsv.py COVID19_Fallzahlen_CH_total_v2.csv > COVID19_Fallzahlen_CH_total.csv
 
     # update screenshot of dashboard
     - name: Screenshot Dashboard

@@ -3,7 +3,7 @@
 require 'csv'
 
 # get files
-files = Dir["fallzahlen_kanton_total_csv/*.csv"]
+files = Dir["fallzahlen_kanton_total_csv_v2/*.csv"]
 
 # output array
 rows = []
@@ -18,7 +18,7 @@ files.each do |fn|
     if row[1] =~ /(\d{1,2}):(\d{1,2})/
       row[1] = sprintf "%02d:%02d", $1.to_i, $2.to_i
     end
-    rows << row[0..10]
+    rows << row[0..11]
   end
 end
 
