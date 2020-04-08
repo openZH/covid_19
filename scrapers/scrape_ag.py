@@ -16,6 +16,8 @@ print('Date and time:', sc.find(r'class="timeline__time" datetime="00(.*?00)"', 
 
 print('Confirmed cases:', sc.find(r'zurzeit ([0-9]+) best(ä|&auml;)tigte F(ä|&auml;)lle', d))
 
+print('Recovered:', sc.find(r'gelten im Aargau rund ([0-9]+) Personen .*? als geheilt', d))
+
 print('Hospitalized:', sc.find(r'([0-9]+) Person(en)? sind zurzeit hospitalisiert', d))
 
 print('ICU:', sc.find(r'([0-9]+) Person(en)?( werden)? auf Intensivstationen behandelt', d))
