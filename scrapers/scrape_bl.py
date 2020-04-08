@@ -7,9 +7,10 @@ print('BL')
 
 main_site = sc.download("https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft")
 
-# 2020-03-31, iframe
+# 2020-04-08, two iframes
 """
-<iframe width="100%" class="iframeblock loading" onload="onIframeLoaded(this)" src="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200331_COVID19_BL.htm" scrolling="auto" height="600"></iframe>
+    <iframe width="100%" class="iframeblock loading" onload="onIframeLoaded(this)" src="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200407_COVID19_BL.htm" scrolling="auto" height="600"></iframe>
+    <iframe width="100%" class="iframeblock loading" onload="onIframeLoaded(this)" src="https://www.statistik.bl.ch/files/sites/Grafiken/COVID19/20200407_COVID19_BL_Hosp.htm" scrolling="auto" height="600"></iframe>
 """
 
 soup = BeautifulSoup(main_site, 'html.parser')
@@ -57,6 +58,20 @@ Datum, Bestätigte Fälle, Geheilte kalkuliert, Verstorbene
 </pre>
 """
 
+    # 2020-04-08, in _Hosp.html
+    """
+<pre id="data" style="display:none;">
+Datum, Normale Station, Intensivstation
+28-02-2020,,
+29-02-2020,1,
+...
+05-04-2020,54,19
+06-04-2020,50,17
+07-04-2020,48,18
+</pre>
+
+"""
+
     d = d.replace('\n', ' ')
     # Extract last line. Use non-greedy matching.
     data = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle).*? ([^ ]+) ?</pre>', d)
@@ -71,7 +86,5 @@ Datum, Bestätigte Fälle, Geheilte kalkuliert, Verstorbene
         data = sc.find(r'<pre id="data".*?> ?Datum, Normale Station, Intensivstation.*? ([^ ]+) ?</pre>', d)
         c = data.split(',')
         print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
-        print('Hospitalized:', c[1])
+        print('Hospitalized:', int(c[1]) + int(c[2]))
         print('ICU:', c[2])
-
-
