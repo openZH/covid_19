@@ -13,7 +13,7 @@ import sys
 # and is not listed in this list.
 matrix = {
   # Note: Please keep the order of cantons and entries.
-  'AG': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
+  'AG': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
   'AI': [],
   'AR': ['Deaths'],
   'BE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
