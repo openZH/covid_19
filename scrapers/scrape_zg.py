@@ -3,7 +3,7 @@
 import re
 from io import StringIO
 from bs4 import BeautifulSoup
-import pandas as pd
+import csv
 import scrape_common as sc
 
 print('ZG')
@@ -11,10 +11,15 @@ d = sc.download('https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesun
 sc.timestamp()
 soup = BeautifulSoup(d, 'html.parser')
 d = sc.filter(r'Infizierte Personen|Genesene Personen|Verstorbene Personen|Stand:', d)
-print('Date and time:', sc.find(r'Stand:? ([^<]+ Uhr)<', d))
+date_time_string = sc.find(r'Stand:? ([^<]+ Uhr)<', d)
+print('Date and time:', date_time_string)
+last_update = None
+matches = re.search(r'(\d+)\.(\d+)\.(\d+)', date_time_string)
+if matches is not None:
+    last_update = f"{int(matches[1]):02d}.{int(matches[2]):02d}.{matches[3]}"
 
 detailed_stats = soup.find("a", text=re.compile("Detaillierte Statistik"))
-if detailed_stats:
+if detailed_stats and last_update is not None:
     d_detailed_stats = sc.download(detailed_stats['href'])
     csv_path = sc.find(r'csv_path:"([^"]+)"', d_detailed_stats)
     csv_url = f"https://www.zg.ch/{csv_path}"
@@ -42,17 +47,19 @@ NA,NA,NA,"1","subtitle",""
 NA,NA,NA,"1","description","Aufgrund der kleinen Fallzahlen im Kanton Zug können die Veränderungen von Tag zu Tag stark schwanken. Veränderungen dürfen deshalb nicht als Trend interpretiert werden. Die Zahlen der Hospitalisierten umfasst jeweils auch Hospitalisierte in Intensivpflege. Die Fallzahlen und Todesfälle werden im Zeitverlauf summiert, die Hospitatilierungen umfassen nur die Hospitalisierungen des jeweiligen Tags."
 NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
 """
-    df = pd.read_csv(StringIO(d_csv), sep=",", parse_dates=['Datum'], dayfirst=True)
-    df_cases = df[df['Typ'] == 'Fallzahl'].sort_values(by='Datum', ascending=False)
-    print('Confirmed cases:', int(df_cases.iloc[0]['Anzahl']))
-    df_hospitalized = df[df['Typ'] == 'Hospitalisierte'].sort_values(by='Datum', ascending=False)
-    print('Hospitalized:', int(df_hospitalized.iloc[0]['Anzahl']))
-    df_icu = df[df['Typ'] == 'Hospitalisierte in Intensivpflege'].sort_values(by='Datum', ascending=False)
-    print('ICU:', int(df_icu.iloc[0]['Anzahl']))
-    df_recovered = df[df['Typ'] == 'Genesene'].sort_values(by='Datum', ascending=False)
-    print('Recovered:', int(df_recovered.iloc[0]['Anzahl']))
-    df_deaths = df[df['Typ'] == 'Todesfälle'].sort_values(by='Datum', ascending=False)
-    print('Deaths:', int(df_deaths.iloc[0]['Anzahl']))
+    reader = csv.DictReader(StringIO(d_csv), delimiter=',')
+    for row in reader:
+        if row['Datum'] == last_update:
+            if row['Typ'] == 'Fallzahl':
+                print('Confirmed cases:', int(row['Anzahl']))
+            elif row['Typ'] == 'Hospitalisierte':
+                print('Hospitalized:', int(row['Anzahl']))
+            elif row['Typ'] == 'Hospitalisierte in Intensivpflege':
+                print('ICU:', int(row['Anzahl']))
+            elif row['Typ'] == 'Genesene':
+                print('Recovered:', int(row['Anzahl']))
+            elif row['Typ'] == 'Todesfälle':
+                print('Deaths:', int(row['Anzahl']))
 
 else:
     # 2020-03-23
