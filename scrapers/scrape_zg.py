@@ -21,6 +21,16 @@ if detailed_stats:
     csv_path = sc.find(r'csv_path:"([^"]+)"', d_detailed_stats)
     csv_url = f"{d_detailed_stats_comps.scheme}://{d_detailed_stats_comps.netloc}{csv_path}"
     d_csv = sc.download(csv_url)
+    """
+"Typ","Datum","Anzahl","Meta","Type","Content"
+"Fallzahl","01.03.2020","0",NA,NA,NA
+"Fallzahl","02.03.2020","0",NA,NA,NA
+"Fallzahl","03.03.2020","1",NA,NA,NA
+"Fallzahl","04.03.2020","1",NA,NA,NA
+"Fallzahl","05.03.2020","2",NA,NA,NA
+"Fallzahl","06.03.2020","3",NA,NA,NA
+"Fallzahl","07.03.2020","3",NA,NA,NA
+"""
     df = pd.read_csv(StringIO(d_csv), sep=",", parse_dates=['Datum'], dayfirst=True)
     df_cases = df[df['Typ'] == 'Fallzahl'].sort_values(by='Datum', ascending=False)
     print('Confirmed cases:', int(df_cases.iloc[0]['Anzahl']))
