@@ -8,11 +8,11 @@
 ## Breaking changes to dataset-structure (as of 2020-04-09, 09:00)
 
 ```diff
-- new column will be added 'new_hosp' (=new hospitalisations since last date)
-- the'ncumul_hosp'-column will be renamed to 'current_hosp' (=number of hospitalisations on that date)
-- the 'ncumul_icu'-column will be renamed to 'current_icu' (=number of ICU patients on that date)
-- the'ncumul_vent'-column will be renamed to 'current_vent' (=number of patients required to receive ventilation on that date)
-- all column names will be turned into lower case (only one column affected : '_icu' instead of 'ICU')
+- new column has been added 'new_hosp' (=new hospitalisations since last date)
+- the'ncumul_hosp'-column has been renamed to 'current_hosp' (=number of hospitalisations on that date)
+- the 'ncumul_icu'-column has been renamed to 'current_icu' (=number of ICU patients on that date)
+- the'ncumul_vent'-column has been renamed to 'current_vent' (=number of patients required to receive ventilation on that date)
+- all column names have been turned into lower case (only one column affected : '_icu' instead of 'ICU')
 ```
 To allow a smooth transition, the datasets with the deprecated structure are still available under the usual links and will continue to be updated automatically for a limited period.
 
