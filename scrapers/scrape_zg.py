@@ -24,12 +24,25 @@ if detailed_stats:
     """
 "Typ","Datum","Anzahl","Meta","Type","Content"
 "Fallzahl","01.03.2020","0",NA,NA,NA
-"Fallzahl","02.03.2020","0",NA,NA,NA
-"Fallzahl","03.03.2020","1",NA,NA,NA
-"Fallzahl","04.03.2020","1",NA,NA,NA
-"Fallzahl","05.03.2020","2",NA,NA,NA
-"Fallzahl","06.03.2020","3",NA,NA,NA
-"Fallzahl","07.03.2020","3",NA,NA,NA
+...
+"Fallzahl","09.04.2020","165",NA,NA,NA
+"Hospitalisierte","01.03.2020","0",NA,NA,NA
+...
+"Hospitalisierte","09.04.2020","13",NA,NA,NA
+"Hospitalisierte in Intensivpflege","01.03.2020","0",NA,NA,NA
+...
+"Hospitalisierte in Intensivpflege","09.04.2020","9",NA,NA,NA
+"Genesene","01.03.2020","0",NA,NA,NA
+...
+"Genesene","09.04.2020","69",NA,NA,NA
+"Todesfälle","01.03.2020","0",NA,NA,NA
+...
+"Todesfälle","09.04.2020","3",NA,NA,NA
+NA,NA,NA,"1","datatypes","string,date,integer"
+NA,NA,NA,"1","title",""
+NA,NA,NA,"1","subtitle",""
+NA,NA,NA,"1","description","Aufgrund der kleinen Fallzahlen im Kanton Zug können die Veränderungen von Tag zu Tag stark schwanken. Veränderungen dürfen deshalb nicht als Trend interpretiert werden. Die Zahlen der Hospitalisierten umfasst jeweils auch Hospitalisierte in Intensivpflege. Die Fallzahlen und Todesfälle werden im Zeitverlauf summiert, die Hospitatilierungen umfassen nur die Hospitalisierungen des jeweiligen Tags."
+NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
 """
     df = pd.read_csv(StringIO(d_csv), sep=",", parse_dates=['Datum'], dayfirst=True)
     df_cases = df[df['Typ'] == 'Fallzahl'].sort_values(by='Datum', ascending=False)
