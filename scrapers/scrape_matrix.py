@@ -25,7 +25,7 @@ matrix = {
   'GR': ['Deaths', 'Hospitalized'],
   'JU': ['Hospitalized', 'ICU'],
   'LU': ['Deaths', 'Hospitalized', 'ICU'],
-  'NE': ['Deaths'],  # Currently broken.
+  'NE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
   'NW': ['Deaths', 'Hospitalized', 'ICU'],
   'OW': ['Deaths', 'Hospitalized'],
   'SG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
