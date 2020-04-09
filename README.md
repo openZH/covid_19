@@ -22,7 +22,7 @@ However, we encourage our users to switch to the data files with the new structu
 
 https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2
 
-## NEW Merged File for all Canton
+## NEW Merged File for all Cantons
 
 https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv
 
