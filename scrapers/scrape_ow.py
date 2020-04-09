@@ -45,15 +45,22 @@ print('Date and time:', sc.find(r'Stand ([^<]+ Uhr)', d) or
                         sc.find(r'Stand ([^<]+)<', d))
 
 soup = BeautifulSoup(d, 'html.parser')
+i = 0
 for row in soup.find(id='Fallzahl').find_next('table').find_all('tr'):
+    i += 1
     cells = row.find_all('td')
-    assert len(cells) == 2, "Number of columns changed, not 2"
+    assert len(cells) >= 2, "Number of columns changed, not 2+"
+    if i == 1:  # Header.
+      assert 'COVID-19' in str(cells[0].find('strong').string)
+      assert 'Anzahl' in str(cells[1].find('strong').string)
+      # assert 'Veränderung' in str(cells[2].find('strong').string)
+      continue
 
     header_str = cells[0].find('span').string
     value = int(cells[1].find('span').string.split()[0])
-    if re.search('Bestätigte Fälle|Positiv getestet', header_str):
+    if re.search(r'Bestätigte Fälle|Positiv getestet', header_str):
         print('Confirmed cases:', value)
-    if re.search('In OW hospitalisiert \(aktuell\):', header_str):
+    if re.search(r'In OW hospitalisiert \(aktuell\):?', header_str):
         print('Hospitalized:', value)
-    if re.search('Todesfälle', header_str):
+    if re.search(r'Todesfälle', header_str):
         print('Deaths:', value)
