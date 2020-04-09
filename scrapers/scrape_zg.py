@@ -2,7 +2,6 @@
 
 import re
 from io import StringIO
-from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import pandas as pd
 import scrape_common as sc
@@ -17,9 +16,8 @@ print('Date and time:', sc.find(r'Stand:? ([^<]+ Uhr)<', d))
 detailed_stats = soup.find("a", text=re.compile("Detaillierte Statistik"))
 if detailed_stats:
     d_detailed_stats = sc.download(detailed_stats['href'])
-    d_detailed_stats_comps = urlparse(detailed_stats['href'])
     csv_path = sc.find(r'csv_path:"([^"]+)"', d_detailed_stats)
-    csv_url = f"{d_detailed_stats_comps.scheme}://{d_detailed_stats_comps.netloc}{csv_path}"
+    csv_url = f"https://www.zg.ch/{csv_path}"
     d_csv = sc.download(csv_url)
     """
 "Typ","Datum","Anzahl","Meta","Type","Content"
