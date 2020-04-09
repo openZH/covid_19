@@ -19,7 +19,7 @@ matrix = {
   'BE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
   'BL': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'BS': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-  'FR': ['Deaths', 'Hospitalized', 'ICU'],
+  'FR': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'GE': ['Deaths', 'Hospitalized', 'ICU'],
   'GL': ['Deaths', 'Hospitalized'],
   'GR': ['Deaths', 'Hospitalized'],
