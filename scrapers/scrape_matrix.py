@@ -37,7 +37,7 @@ matrix = {
   'UR': ['Deaths', 'Released', 'Hospitalized'],
   'VD': ['Deaths', 'Hospitalized', 'ICU'],
   'VS': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-  'ZG': ['Deaths', 'Released'],
+  'ZG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
   'ZH': ['Deaths', 'Hospitalized', 'Vent'],
   # 'FL': [],  # No scraper.
 }
