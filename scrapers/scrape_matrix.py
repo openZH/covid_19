@@ -59,10 +59,10 @@ matrix_time = [
   'JU',
   'LU',
   'NW',
-  # 'NE',  # Broken scraper.
+  # 'NE',  # Not easily available.
   'OW',
   # 'SG',  # Not available.
-  # 'SH',  # Not available.
+  'SH',
   'SO',
   # 'SZ',  # Not available.
   # 'TG',  # Not available.
@@ -75,14 +75,14 @@ matrix_time = [
   # 'FL',  # No scraper.
 ]
 
-def check_expected(abbr, deaths, hospitalized, icu, vent, released):
+def check_expected(abbr, date, deaths, extras):
   """
   Verify that canton `abbr` has expected numbers presents.
   If not, return a non-empty list of expectation violations back to the caller.
   """
-  extras = matrix[abbr]
+  expected_extras = matrix[abbr]
 
-  for k in extras:
+  for k in expected_extras:
     if k not in allowed_extras:
       print(f'WARNING: Unknown extra {k} present (typo?) in expectation matrix[{abbr}]', file=sys.stderr)
 
@@ -90,20 +90,30 @@ def check_expected(abbr, deaths, hospitalized, icu, vent, released):
 
   cross = {
     'Deaths': deaths,
-    'Hospitalized': hospitalized,
-    'ICU': icu,
-    'Vent': vent,
-    'Released': released,
+    'Hospitalized': extras.get('ncumul_hosp'),
+    'ICU': extras.get('ncumul_ICU'),
+    'Vent': extras.get('ncumul_vent'),
+    'Released': extras.get('ncumul_released'),
   }
 
   # Check for fields that should be there, but aren't
   for k, v in cross.items():
-    if v is None and k in extras:
+    if v is None and k in expected_extras:
       violated_expectations.append(f'Expected {k} to be present for {abbr}')
 
   # Check for new fields, that are there, but we didn't expect them
   for k, v in cross.items():
-    if v is not None and k not in extras:
+    if v is not None and k not in expected_extras:
       violated_expectations.append(f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.')
+
+  assert "T" in date
+  date_time = date.split("T", 1)
+  assert len(date_time[0]) == 10
+  if abbr in matrix_time:
+    if len(date_time[1]) != 5:
+      violated_expectations.append(f'Expected time of a day to be present for {abbr}. Found none.')
+  else:
+    if len(date_time[1]) != 0:
+      violated_expectations.append(f'Not expected time of a day to be present for {abbr}. Found "{date_time[1]}". Update scrape_matrix.py file?')
 
   return violated_expectations

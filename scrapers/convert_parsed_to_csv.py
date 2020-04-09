@@ -45,7 +45,7 @@ for line in sys.stdin:
   # GE 2020-03-27T         1924      23 OK 2020-03-28T18:57:34+01:00 # Extras: ncumul_hosp=313,ncumul_ICU=54 # URLs: https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger
 
   # Groups:             1              2                                         3       4              5                               6                            7             8
-  match = re.search(r'^([A-Z][A-Z])\s+((?:\d\d\d\d-\d\d-\d\d)T(?:\d\d:\d\d)?)\s+(\d+)\s+(\d+|-)\s+OK\s+([0-9A-Z:\+\-]+)(?:\s+# Extras: ([^#]+))?(?:\s+(?:(# URLs: )?(h.+)))?(?:\s+(http.+))?$', l)
+  match = re.search(r'^([A-Z][A-Z])\s+((?:\d\d\d\d-\d\d-\d\d)T(?:\d\d:\d\d)?)\s+(\d+)\s+(\d+|-)\s+OK\s+([0-9:\+\-\.T]+)(?:\s+# Extras: ([^#]+))?(?:\s+(?:(# URLs: )?(h.+)))?(?:\s+(http.+))?$', l)
   if not match:
     input_failures += 1
     print(f"Failed to parse line: {l}", file=sys.stderr)
@@ -92,14 +92,10 @@ for line in sys.stdin:
       extras = extras_list.strip()
       extras = extras.split(',')
       extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-      if 'ncumul_hosp' in extras:
-        data['ncumul_hosp'] = extras['ncumul_hosp']
-      if 'ncumul_ICU' in extras:
-        data['ncumul_ICU'] = extras['ncumul_ICU']
-      if 'ncumul_vent' in extras:
-        data['ncumul_vent'] = extras['ncumul_vent']
-      if 'ncumul_released' in extras:
-        data['ncumul_released'] = extras['ncumul_released']
+      # data.update(extras)
+      for k in ['ncumul_hosp', 'ncumul_ICU', 'ncumul_vent', 'ncumul_released', 'new_hosp', 'current_hosp']:
+        if k in extras:
+          data[k] = extras[k]
     except Exception as e:
       input_failures += 1
       print(f'Error: Parsing optional data failed, ignoring: {extras_list}', file=sys.stderr)
