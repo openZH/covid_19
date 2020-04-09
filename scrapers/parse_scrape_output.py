@@ -313,6 +313,6 @@ try:
         sys.exit(1)
 
 except Exception as e:
-    print("{} Error: {}".format(abbr if abbr else '??', e))
-    print(traceback.format_exc())
+    print("{} Error: {}".format(abbr if abbr else '??', e), file=sys.stderr)
+    print(traceback.format_exc(), file=sys.stderr)
     sys.exit(1)

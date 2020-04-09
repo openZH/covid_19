@@ -7,6 +7,6 @@
     "csv-validator": "0.0.3"
   },
   "scripts": {
-    "test": "node scripts/validate-csv.js fallzahlen_kanton_total_csv/*.csv"
+    "test": "node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv"
   }
 }
