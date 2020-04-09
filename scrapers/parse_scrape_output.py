@@ -156,7 +156,7 @@ def parse_date(d):
     mo = re.search(r'^(\d\d\d\d-\d\d-\d\d)$', d)
     if mo:
         # 2020-03-23
-        return mo[1]
+        return f"{mo[1]}T"
     mo = re.search(r'^(\d+)\.(\d+)\.? / (\d+)h$', d)
     if mo:
         assert 1 <= int(mo[1]) <= 31
@@ -221,16 +221,17 @@ try:
 
         # Ignore k or v, if v is "None"
         if v == "None":
+            print(f'WARNING: {k} is None')
             warns.append(f"{k} is None")
             continue
 
-        if k.startswith("Downloading"):
+        if k == "Downloading":
             url_sources.append(v)
             continue
-        if k.startswith("Scraped at"):
+        if k == "Scraped at":
             scrape_time = v
             continue
-        if k.startswith("Date and time"):
+        if k == "Date and time":
             new_date = parse_date(v)
             day = new_date.split("T", 1)[0].split('-', 2)
             day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
@@ -243,27 +244,27 @@ try:
             if date is None or len(new_date) > len(date):
                 date = new_date
             continue
-        if k.startswith("Confirmed cases"):
+        if k == "Confirmed cases":
             cases = maybe_new_int("Confirmed cases", v, cases, required=True)
             continue
         if k.startswith("Death"):  # Deaths or Death.
             deaths = maybe_new_int("Deaths", v, deaths)
             continue
-        if k.startswith("Recovered"):
+        if k == "Recovered" or k == "Released":
             recovered = maybe_new_int("Recovered", v, recovered)
             continue
-        if k.startswith("Hospitalized"):
+        if k == "Hospitalized":
             hospitalized = maybe_new_int("Hospitalized", v, hospitalized)
             continue
-        if k.startswith("ICU"):
+        if k == "ICU":
             icu = maybe_new_int("ICU", v, icu)
             continue
-        if k.startswith("Vent"):
+        if k == "Vent":
             vent = maybe_new_int("Vent", v, vent)
             continue
         assert False, f"Unknown data on line {i}: {l}"
 
-    extras = {
+    extras_dict = {
         # Actually cumulative.
         'ncumul_released': recovered,
         # Actually instantaneous, not cumulative.
@@ -273,7 +274,7 @@ try:
         'ncumul_vent': vent,
     }
     # Remove Nones
-    extras = {k: v for (k, v) in extras.items() if not v is None}
+    extras = {k: v for (k, v) in extras_dict.items() if not v is None}
     # Format k,v
     extras = [f"{k}={v}" for (k, v) in extras.items()]
     # Join into list.
@@ -282,7 +283,7 @@ try:
     urls = ", ".join(url_sources)
 
     if date and cases and not errs:
-        violated_expectations = sm.check_expected(abbr, deaths=deaths, hospitalized=hospitalized, icu=icu, vent=vent, released=recovered)
+        violated_expectations = sm.check_expected(abbr, date=date, deaths=deaths, extras=extras_dict)
         # For now just print warnings on stderr.
         for violated_expectation in violated_expectations:
           print(f'WARNING: {violated_expectation}', file=sys.stderr)
