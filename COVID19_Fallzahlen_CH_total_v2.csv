@@ -759,7 +759,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-08,15:00,OW,,61,,2,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-08,15:00,VS,,1484,,132,26,23,130,68,https://www.vs.ch/documents/6756452/7008787/2020%2004%2008%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-08,15:00,ZH,,2807,,170,,56,,57,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-04-08,16:00,JU,,174,,26,4,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
+2020-04-08,16:00,JU,,174,,26,4,,,1,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-04-08,16:00,NE,,516,,63,10,7,,34,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-08,17:50,NW,,93,,7,1,,,0,https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-09,,BL,,711,,62,18,16,485,21,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -776,7 +776,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-09,09:30,SH,,52,,17,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-09,10:00,BS,,846,,93,13,,572,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-846-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-09,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-04-09,12:00,GE,,,,393,47,45,442,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-04-09,12:00,GE,17828,4271,,393,47,45,435,133,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-09,13:00,GL,,67,0,2,,,,2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-09,13:00,LU,,542,,62,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-09,14:00,UR,,72,,4,,,45,4,https://www.ur.ch/themen/2962
@@ -786,7 +786,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-09,15:00,OW,,62,,1,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-09,15:00,VS,,1525,,128,26,23,136,73,https://www.vs.ch/documents/6756452/7008787/2020%2004%2009%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-09,15:30,NW,,96,1,8,1,,,0,https://www.nw.ch/gesundheitsamtdienste/6044
-2020-04-09,16:00,JU,,179,,26,4,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
+2020-04-09,16:00,JU,,179,,26,4,,,1,https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 2020-04-09,16:00,NE,,,,58,10,7,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-10,,BL,,722,,54,17,15,502,22,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-10,,FR,,796,,73,19,,88,49,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
@@ -802,6 +802,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-10,10:00,BS,,859,,87,13,,593,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-859-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-10,10:00,ZG,,168,,15,9,,76,3,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-10,11:00,LU,,560,,69,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
+2020-04-10,12:00,GE,,,,379,47,47,448,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-10,14:43,ZH,,2929,,152,,50,,64,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-10,15:55,NW,,100,,8,1,,,0,https://www.nw.ch/gesundheitsamtdienste/6044
+2020-04-10,16:00,JU,,182,,24,5,,,2,https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 2020-04-10,16:00,UR,,74,,4,,,49,4,https://www.ur.ch/themen/2962
