@@ -260,7 +260,7 @@ try:
 
         # Ignore k or v, if v is "None"
         if v == "None":
-            print(f'WARNING: {k} is None')
+            print(f'WARNING: {k} is None', file=sys.stderr)
             warns.append(f"{k} is None")
             continue
 
