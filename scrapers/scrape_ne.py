@@ -9,9 +9,11 @@ sc.timestamp()
 
 # Heavily inspired by code by https://github.com/maekke97
 
+import re
+
 # Magic column fix (don't know if this is stable).
-d = d.replace('avr\n   il', 'avril')
-d = d.replace('avr\n il', 'avril')
+d = re.sub(r'avr\n? *i\n? *l', 'avril', d, flags=re.I)
+
 # Find the start of the table on page 5.
 d = d[d.find('1mars2020'):]
 
