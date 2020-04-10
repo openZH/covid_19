@@ -94,5 +94,5 @@ print('Deaths:', sc.find(r'(?:Am\s*Virus\s*)?verstorbene\s*Persone?n?:?\s*([0-9]
                  sc.find(r'Verstorbene\s*Personen</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
 
 # Added on 2020-04-06
-print('Hospitalized:', sc.find(r'Derzeit\s*hospitalisiert</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
-print('ICU:', sc.find(r'Davon\s*auf\s*der\s*Intensiv\s*station</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
+print('Hospitalized:', sc.find(r'Derzeit\s*hospitalisiert[^<]*</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
+print('ICU:', sc.find(r'Davon\s*auf\s*der\s*Intensiv\s*station[^<]*</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
