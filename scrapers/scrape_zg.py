@@ -17,7 +17,6 @@ last_update = None
 matches = re.search(r'(\d+)\.(\d+)\.(\d+)', date_time_string)
 if matches is not None:
     last_update = f"{int(matches[1]):02d}.{int(matches[2]):02d}.{matches[3]}"
-    print("last_update:", last_update)
 
 detailed_stats = soup.find("a", text=re.compile("Detaillierte Statistik"))
 
