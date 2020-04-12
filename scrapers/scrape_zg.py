@@ -19,6 +19,10 @@ if matches is not None:
     last_update = f"{int(matches[1]):02d}.{int(matches[2]):02d}.{matches[3]}"
 
 detailed_stats = soup.find("a", text=re.compile("Detaillierte Statistik"))
+
+cases = None
+deaths = None
+recovered = None
 if detailed_stats and last_update is not None:
     d_detailed_stats = sc.download(detailed_stats['href'])
     csv_path = sc.find(r'csv_path:"([^"]+)"', d_detailed_stats)
@@ -51,24 +55,29 @@ NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
     for row in reader:
         if row['Datum'] == last_update:
             if row['Typ'] == 'Fallzahl':
-                print('Confirmed cases:', int(row['Anzahl']))
+                cases = int(row['Anzahl'])
+                print('Confirmed cases:', cases)
             elif row['Typ'] == 'Hospitalisierte':
                 print('Hospitalized:', int(row['Anzahl']))
             elif row['Typ'] == 'Hospitalisierte in Intensivpflege':
                 print('ICU:', int(row['Anzahl']))
             elif row['Typ'] == 'Genesene':
-                print('Recovered:', int(row['Anzahl']))
+                recovered = int(row['Anzahl'])
+                print('Recovered:', recovered)
             elif row['Typ'] == 'Todesfälle':
-                print('Deaths:', int(row['Anzahl']))
+                deaths = int(row['Anzahl'])
+                print('Deaths:', deaths)
 
-else:
-    # 2020-03-23
-    """
+# 2020-03-23
+"""
       <p>Infizierte Personen: 62</p>
 <p>Genesene Personen: 10</p>
 <p>Verstorbene Personen: 0</p>
 <p>Stand: 23.3.2020, 8.00 Uhr</p>
 """
+if cases is None:
     print('Confirmed cases:', sc.find(r'Infizierte Personen:? ([0-9]+)<', d))
+if deaths is None:
     print('Deaths:', sc.find(r'Verstorbene Personen:? ([0-9]+)<', d))
+if recovered is None:
     print('Recovered:', sc.find(r'Genesene Personen:? ([0-9]+)<', d))
