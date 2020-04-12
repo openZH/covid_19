@@ -59,10 +59,12 @@ const validateSequentially = async csvFiles => {
             throw new Error(`Required field missing`);
         }
 
-        //check the cumulative fields
         var last = {};
         var errors = [];
+        var unique = {};
+        var today = new Date();
         parsed.forEach(function (item, index) {
+            // check if cumulative field only increase
             cumulativeFields.forEach(function(col, col_idx) {
                 if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col])) {
                     errors.push(`Row ${index+1}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
@@ -71,6 +73,25 @@ const validateSequentially = async csvFiles => {
                     last[col] = item[col];
                 }
             });
+
+            // check if date is in the future
+            var abbr = item['abbreviation_canton_and_fl'];
+            var date = item['date'];
+            var dateObj = new Date(date);
+            if (dateObj.getTime() > today.getTime()) {
+                errors.push(`Row ${index+1}: date ${date} is in the future.`);
+            }
+
+            // check if there is only one entry per area and date
+            if (!(date in unique)) {
+                unique[date] = {};
+            }
+            if (abbr in unique[date]) {
+                unique[date][abbr] += 1;
+                errors.push(`Row ${index+1}: duplicate entry for date ${date}`);
+            } else {
+                unique[date][abbr] = 1;
+            }
         });
         if (errors.length > 0) {
             throw new Error(errors);
