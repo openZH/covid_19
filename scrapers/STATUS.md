@@ -6,7 +6,7 @@
 | AI     | 3      | 3              | [![Run AI scraper](https://github.com/openZH/covid_19/workflows/Run%20AI%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AI+scraper%22)                             | Easy extraction including date and time. |
 | AR     | 2      | 3              | [![Run AR scraper](https://github.com/openZH/covid_19/workflows/Run%20AR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AR+scraper%22)                            | Ok. Easy to extract. |
 | BE     | 2      | 3              | [![Run BE scraper](https://github.com/openZH/covid_19/workflows/Run%20BE%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BE+scraper%22)                            | Okish |
-| BL     | 1      | 1.5            | [![Run BL scraper](https://github.com/openZH/covid_19/workflows/Run%20BL%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BL+scraper%22)                             | Indirect daily updates on separate pages. Non robust extraction. |
+| BL     | 1      | 1.5            | no                             | Indirect daily updates on separate pages. Non robust extraction. |
 | BS     | 2      | 2              | [![Run BS scraper](https://github.com/openZH/covid_19/workflows/Run%20BS%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BS+scraper%22)                             | Indirect sub-page. Easy extraction. |
 | FR     | 3      | 4              | [![Run FR scraper](https://github.com/openZH/covid_19/workflows/Run%20FR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+FR+scraper%22)                             | Very good. Easy extraction, including history |
 | GE     | 2      | 3              | no                            | Okish, current values are always provisional |
@@ -27,7 +27,7 @@
 | VD     | 4      | 4.5            | [![Run VD scraper](https://github.com/openZH/covid_19/workflows/Run%20VD%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+VD+scraper%22)                             | Easy extraction of all metadata, including history |
 | VS     | 2      | 3              | [![Run VS scraper](https://github.com/openZH/covid_19/workflows/Run%20VS%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+VS+scraper%22)                            | Okish. A little bit risky extraction. |
 | ZG     | 3      | 3              | [![Run ZG scraper](https://github.com/openZH/covid_19/workflows/Run%20ZG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+ZG+scraper%22)                            | Ok. Very easy to extract. Robust |
-| ZH     | 2.5    | 3              | [![Run ZH scraper](https://github.com/openZH/covid_19/workflows/Run%20ZH%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+ZH+scraper%22)                             | Okish. |
+| ZH     | 2.5    | 3              | no                             | Okish. |
 | FL     | 0      | 0              | no                             | No reliable data of any kind |
 
 ## Table legend
