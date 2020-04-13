@@ -125,6 +125,7 @@ def check_expected(abbr, date, deaths, extras):
 
 if __name__ == '__main__':
     all_features = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
+    has_issue = False
     for canton, features in matrix.items():
         features += ['Confirmed cases']
         print(canton)
@@ -135,11 +136,15 @@ if __name__ == '__main__':
                 feature = r'(:?Released|Recovered)'
             matches = re.search(f'{feature}: (.+)', output)
             if matches is None or matches[1].startswith('None'):
+                has_issue = True
                 print(f"missing {feature} for {canton}")
         for feature in all_features:
             if feature not in features:
                 if feature == 'Released':
                     feature = r'(:?Released|Recovered)'
                 if re.search(f'{feature}:', output) is not None:
+                    has_issue = True
                     print(f"{feature} is present for {canton} but not listed in feature matrix")
 
+    if has_issue:
+        sys.exit(1)
