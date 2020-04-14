@@ -125,15 +125,15 @@ It's on purpose that the cumulative numbers are not carried forward if no new nu
 ## Detail Datasets : Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
 Selected Cantons publish detailed datasets, which are available in this __directory__:
 https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
-| Field Name          | Description                                | Format     |Reporting Cantons|
+| __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
-| Date               | Date of notification                       | YYYY-MM-DD | |
-| Area               | Abbreviation of the reporting canton|     | |
-| AgeYear |      | Number   |ZH,BS,BL |
-| Gender     |  | Text    |ZH,BS,BL   |
-| NewConfCases       | Number of Confirmed Cases | Number     | ZH  |
-| NewDeaths       | Number of Deceased  | Number     | ZH,BS,BL  |
-| PreExistingCond       | Pre-Existing Conditions | Text    | BL,BS |
+| __Date__               | Date of notification (confirmed cases) / Date of death (deaths) | YYYY-MM-DD | |
+| __Area__               | Abbreviation of the reporting canton|     | |
+| __AgeYear__ |      | Number   |ZH,BS,BL |
+| __Gender__     |  | Text    |ZH,BS,BL   |
+| __NewConfCases__       | Number of Confirmed Cases | Number     | ZH  |
+| __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
+| __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
 
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
