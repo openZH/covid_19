@@ -143,6 +143,10 @@ It's on purpose that the cumulative numbers are not carried forward if no new nu
 - [https://covid19-rest.herokuapp.com](https://covid19-rest.herokuapp.com)
 - [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
 
+### Estimated reproduction number by Canton
+https://amkuhn.shinyapps.io/restimate/
+ <br>Alexandre Kuhn
+
 ### Data for Basel-Stadt
 - https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
