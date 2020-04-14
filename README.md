@@ -91,7 +91,9 @@ Note: Image below is updated every 15 minutes.
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|manually (by ZH)|yes|
 
 # Data structure
-The data of the Cantonal case numbers is structured as follows:
+
+## Data on Cantonal Case Numbers
+The dataset containing the cantonal case numbers is structured as follows:
 
 [example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
 
@@ -113,12 +115,25 @@ The data of the Cantonal case numbers is structured as follows:
 Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
 It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
 
-## Note about empty values vs. `0`:
+### Note about empty values vs. `0`:
 
 | Value    | Meaning |
 |----------| --------|
 | 0        | canton communicated `0` for this variable on that date|
 |empty     | canton communicated nothing/did not provide a value for this variable on that date|
+
+## Detail Datasets : Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
+Selected Cantons publish detailed datasets, which are available in this __directory__:
+https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
+| Field Name          | Description                                | Format     |Reporting Cantons|
+|---------------------|--------------------------------------------|------------|--|
+| Date               | Date of notification                       | YYYY-MM-DD | |
+| Area               | Abbreviation of the reporting canton|     | |
+| AgeYear |      | Number   |ZH,BS,BL |
+| Gender     |  | Text    |ZH,BS,BL   |
+| NewConfCases       | Number of Confirmed Cases | Number     | ZH  |
+| NewDeaths       | Number of Deceased  | Number     | ZH,BS,BL  |
+| PreExistingCond       | Pre-Existing Conditions | Text    | BL,BS |
 
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
