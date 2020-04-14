@@ -40,7 +40,7 @@ Case numbers include persons tested and treated in the respective Canton resp. P
 
 The data is updated regularly - if available daily. Times of collection and update of the data may vary. We are specifying the date of the last reporting, and - if available - a time-stamp, too.
 
-The data is both automatically and manually updated, and regularly checked. We are performing three times a day complete manual updates and verifications; these "roundtrips" are starting at 8am, 2pm and 8pm. They are usually completed within 60 minutes.
+The data is both automatically and manually updated, and regularly checked. We are performing a complete manual update and verification once a day; this "roundtrip" starts at 6pm CET. It is usually completed within 120 minutes.
 
 There is a [merged file](
 https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv) of all Cantons and FL that is automatically updated for use in data analysis.
