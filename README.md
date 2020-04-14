@@ -97,18 +97,18 @@ The data of the Cantonal case numbers is structured as follows:
 
 | Field Name          | Description                                | Format     | Note |
 |---------------------|--------------------------------------------|------------|------|
-| date               | Date of notification                       | YYYY-MM-DD | |
-| time                | Time of notification                       | HH:MM      | |
-| abbreviation_canton_and_fl | Abbreviation of the reporting canton       | Text       | |
-| ncumul_tested      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
-| ncumul_conf          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
-| new_hosp        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
-| current_hosp       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
-| current_icu       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
-| current_vent        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
-| ncumul_released     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
-| ncumul_deceased     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
-| source              | Source of the information                  | href       | |
+| __date__              | Date of notification                       | YYYY-MM-DD | |
+| __time__                 | Time of notification                       | HH:MM      | |
+| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
+| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
+| __ncumul_conf__          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
+| __new_hosp__        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
+| __current_hosp__       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
+| __current_icu__       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
+| __current_vent__        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
+| __ncumul_released__     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
+| __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
+| __source__              | Source of the information                  | href       | |
 
 Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
 It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
@@ -144,7 +144,7 @@ It's on purpose that the cumulative numbers are not carried forward if no new nu
 - [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
 
 ### Estimated reproduction number by Canton
-https://amkuhn.shinyapps.io/restimate/
+- https://amkuhn.shinyapps.io/restimate/
  <br>Alexandre Kuhn
 
 ### Data for Basel-Stadt
