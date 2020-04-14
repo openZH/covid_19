@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import re
-import subprocess
 import sys
 
 # This file contains expectations of what data is provided by each scraper.
@@ -121,30 +119,3 @@ def check_expected(abbr, date, deaths, extras):
                 f'Not expected time of a day to be present for {abbr}. Found "{date_time[1]}". Update scrape_matrix.py file?')
 
     return violated_expectations
-
-
-if __name__ == '__main__':
-    all_features = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
-    has_issue = False
-    for canton, features in matrix.items():
-        features += ['Confirmed cases']
-        print(canton)
-        result = subprocess.run(['python', f'scrape_{canton}.py'], stdout=subprocess.PIPE)
-        output = result.stdout.decode('utf-8')
-        for feature in features:
-            if feature == 'Released':
-                feature = r'(:?Released|Recovered)'
-            matches = re.search(f'{feature}: (.+)', output)
-            if matches is None or matches[1].startswith('None'):
-                has_issue = True
-                print(f"missing {feature} for {canton}")
-        for feature in all_features:
-            if feature not in features:
-                if feature == 'Released':
-                    feature = r'(:?Released|Recovered)'
-                if re.search(f'{feature}:', output) is not None:
-                    has_issue = True
-                    print(f"{feature} is present for {canton} but not listed in feature matrix")
-
-    if has_issue:
-        sys.exit(1)
