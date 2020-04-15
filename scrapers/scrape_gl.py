@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
-from bs4 import BeautifulSoup
 import re
+from bs4 import BeautifulSoup
+import scrape_common as sc
 
 print('GL')
 d = sc.download('https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817')

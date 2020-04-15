@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import re
+import csv
 from io import StringIO
 from bs4 import BeautifulSoup
-import csv
 import scrape_common as sc
 
 print('ZG')

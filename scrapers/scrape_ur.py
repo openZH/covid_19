@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
 import re
+import scrape_common as sc
 
 print('UR')
 d = sc.download('https://www.ur.ch/themen/2962')

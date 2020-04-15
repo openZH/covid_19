@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import re
 import scrape_common as sc
 
 print('NE')
@@ -9,7 +10,6 @@ sc.timestamp()
 
 # Heavily inspired by code by https://github.com/maekke97
 
-import re
 
 # Magic column fix (don't know if this is stable).
 d = re.sub(r'avr\n? *i\n? *l', 'avril', d, flags=re.I)
@@ -88,21 +88,20 @@ COLUMNS = [
 # Take last non-empty row with non-empty confirmed cases values.
 last_row = []
 while len(data):
-  last_row = data[-1]
-  data = data[:-1]  # Chop the last row off.
-  if (len(last_row) >= COLUMNS.index('ncumul_cases') + 1) \
-     and last_row[COLUMNS.index('ncumul_cases')]:
-    break
+    last_row = data[-1]
+    data = data[:-1]  # Chop the last row off.
+    if (len(last_row) >= COLUMNS.index('ncumul_cases') + 1) and last_row[COLUMNS.index('ncumul_cases')]:
+        break
 
 def get_column(name):
-  if COLUMNS.index(name) < len(last_row):
-    return last_row[COLUMNS.index(name)] or 'None'
-  return None
+    if COLUMNS.index(name) < len(last_row):
+        return last_row[COLUMNS.index(name)] or 'None'
+    return None
 
 def get_column_int(name):
-  if COLUMNS.index(name) < len(last_row):
-    return int(last_row[COLUMNS.index(name)] or '0')
-  return 0
+    if COLUMNS.index(name) < len(last_row):
+        return int(last_row[COLUMNS.index(name)] or '0')
+    return 0
 
 print('Date and time:', get_column('date'))
 

@@ -25,9 +25,9 @@ try:
         # Groups:            1       2             3       4           5
         match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+(\w+|-)\s+OK(.*)$', l)
         if not match:
-          input_failures += 1
-          print(f'Error: Not matched input line: {l}')
-          continue
+            input_failures += 1
+            print(f'Error: Not matched input line: {l}')
+            continue
         date_part = match.group(2).split('T')
         data = {
             'date': date_part[0],
@@ -47,7 +47,7 @@ try:
         if len(date_part) == 2:
             data['time'] = date_part[1]
 
-        if (data['deceased'] == '-'):
+        if data['deceased'] == '-':
             data['deceased'] = ''
         else:
             data['deceased'] = int(data['deceased'])
@@ -56,31 +56,31 @@ try:
         rest = match.group(5)
         extras_match = re.search('# Extras: ([^#]+)', rest)
         if extras_match:
-          try:
-            extras = extras_match.group(1).strip()
-            extras = extras.split(',')
-            extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-            if 'ncumul_hosp' in extras:
-              data['hospitalized'] = extras['ncumul_hosp']
-            if 'ncumul_ICU' in extras:
-              data['icu'] = extras['ncumul_ICU']
-            if 'ncumul_vent' in extras:
-              data['vent'] = extras['ncumul_vent']
-            if 'ncumul_released' in extras:
-              data['released'] = extras['ncumul_released']
-          except Exception as e:
-            print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}')
+            try:
+                extras = extras_match.group(1).strip()
+                extras = extras.split(',')
+                extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
+                if 'ncumul_hosp' in extras:
+                    data['hospitalized'] = extras['ncumul_hosp']
+                if 'ncumul_ICU' in extras:
+                    data['icu'] = extras['ncumul_ICU']
+                if 'ncumul_vent' in extras:
+                    data['vent'] = extras['ncumul_vent']
+                if 'ncumul_released' in extras:
+                    data['released'] = extras['ncumul_released']
+            except Exception as e:
+                print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}')
 
         # Parse URLs
         url_match = re.search('# URLs: ([^#]+)', rest)
         try:
-          url_source = url_match.group(1).strip().split(', ')[-1]
+            url_source = url_match.group(1).strip().split(', ')[-1]
         except (TypeError, IndexError):
-          url_source = ''
+            url_source = ''
         if 'SCRAPER_SOURCE' in os.environ:
-          data['source'] = os.environ['SCRAPER_SOURCE']
+            data['source'] = os.environ['SCRAPER_SOURCE']
         elif url_source:
-          data['source'] = url_source
+            data['source'] = url_source
 
         c = conn.cursor()
         try:
@@ -131,4 +131,4 @@ finally:
     conn.close()
 
 if input_failures:
-  sys.exit(1)
+    sys.exit(1)

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import urllib.parse
 import scrape_common as sc
 
 print('VS')
@@ -35,7 +36,6 @@ d = sc.download('https://www.vs.ch/de/web/coronavirus/statistiques')
 url = sc.find(r'<li>\s*<a href="([^"]+)"[^>]*>[^<]*Stand(?:\.pdf)?<', d)
 assert url, "Can't find latest PDF URL"
 
-import urllib.parse
 full_url = 'https://www.vs.ch' + urllib.parse.quote(url)
 d = sc.pdfdownload(full_url, raw=True)
 

@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
-import re
 import requests
+import scrape_common as sc
 
 # https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 # includes a content from datawrapper ( https://datawrapper.dwcdn.net/tr5bJ/14/ ),
@@ -39,4 +38,4 @@ print('Deaths:', last_row[4])
 print('Hospitalized:', last_row[1])
 print('ICU:', last_row[2])
 if last_row[3].isnumeric():
-      print('Recovered:', last_row[3])
+    print('Recovered:', last_row[3])

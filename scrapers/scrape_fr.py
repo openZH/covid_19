@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
 import re
+import scrape_common as sc
 
 print('FR')
 d = sc.download('https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton')

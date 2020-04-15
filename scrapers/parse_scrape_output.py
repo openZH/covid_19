@@ -325,7 +325,7 @@ try:
         violated_expectations = sm.check_expected(abbr, date=date, deaths=deaths, extras=extras_dict)
         # For now just print warnings on stderr.
         for violated_expectation in violated_expectations:
-          print(f'WARNING: {violated_expectation}', file=sys.stderr)
+            print(f'WARNING: {violated_expectation}', file=sys.stderr)
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
             abbr,
             date,

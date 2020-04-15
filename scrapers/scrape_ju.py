@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
 import re
+import scrape_common as sc
 
 print('JU')
 d = sc.download('https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html')

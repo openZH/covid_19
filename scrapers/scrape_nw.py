@@ -90,8 +90,11 @@ b = sc.find(r'Positiv\s*getestete\s*Personen:?\s*([0-9]+)\b', d)
 c = sc.find(r'Positiv\s*getestete\s*Personen</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d)
 print('Confirmed cases:', a or b or c)
 
-print('Deaths:', sc.find(r'(?:Am\s*Virus\s*)?verstorbene\s*Persone?n?:?\s*([0-9]+)\b', d) or
-                 sc.find(r'Verstorbene\s*Personen</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
+print(
+    'Deaths:',
+    sc.find(r'(?:Am\s*Virus\s*)?verstorbene\s*Persone?n?:?\s*([0-9]+)\b', d) or
+    sc.find(r'Verstorbene\s*Personen</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d)
+)
 
 # Added on 2020-04-06
 print('Hospitalized:', sc.find(r'Derzeit\s*hospitalisiert[^<]*</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d))
