@@ -87,7 +87,7 @@ print('Date and time:', sc.find(r'em>Stand: *([^<]+)<\/em>', d))
 
 a = sc.find(r'Bisher\s*(?:ist\s*bei|sind)\s*([0-9]+)(&nbsp;| )Pers', d)
 b = sc.find(r'Positiv\s*getestete\s*Personen:?\s*([0-9]+)\b', d)
-c = sc.find(r'Positiv\s*getestete\s*Personen</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d)
+c = sc.find(r'Positiv\s*getestete\s*Personen\s*</t[dh]>\s*<t[dh][^>]*>([0-9]+)\b', d)
 print('Confirmed cases:', a or b or c)
 
 print('Deaths:', sc.find(r'(?:Am\s*Virus\s*)?verstorbene\s*Persone?n?:?\s*([0-9]+)\b', d) or
