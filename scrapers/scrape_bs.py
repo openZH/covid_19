@@ -101,5 +101,8 @@ else:
 
 print('Recovered:', sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d))
 print('ICU:', sc.find(r'Insgesamt\s*([0-9]+)\s*Personen benötigen\s*Intensivpflege', d))
-print('Deaths:', sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
-                 sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d))
+print('Deaths:',
+      sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
+      sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d) or
+      sc.find(r'Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*unverändert\s*([0-9]+)\b', d)
+)
