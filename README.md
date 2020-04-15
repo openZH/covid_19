@@ -109,8 +109,8 @@ It's on purpose that the cumulative numbers are not carried forward if no new nu
 | 0        | canton communicated `0` for this variable on that date|
 |empty     | canton communicated nothing/did not provide a value for this variable on that date|
 
-## Detail Datasets : Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
-Selected Cantons publish detailed datasets, which are available in this __directory__:
+## Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
+Selected Cantons publish more detailed datasets, which are available in this __directory__:
 https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
 | __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
