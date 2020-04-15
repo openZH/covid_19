@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
 import re
+import scrape_common as sc
 
 print('TI')
 d = sc.download('https://www4.ti.ch/dss/dsp/covid19/home/')

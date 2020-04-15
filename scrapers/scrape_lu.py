@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
-from bs4 import BeautifulSoup
-import datetime
 import re
+from bs4 import BeautifulSoup
+import scrape_common as sc
 
 print('LU')
 d = sc.download('https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus')

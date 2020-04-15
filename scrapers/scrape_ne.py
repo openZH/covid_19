@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import re
 import scrape_common as sc
 
 print('NE')
@@ -9,7 +10,6 @@ sc.timestamp()
 
 # Heavily inspired by code by https://github.com/maekke97
 
-import re
 
 # Magic column fix (don't know if this is stable).
 d = re.sub(r'avr\n? *i\n? *l', 'avril', d, flags=re.I)

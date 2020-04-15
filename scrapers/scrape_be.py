@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
 import re
+import scrape_common as sc
 
 print('BE')
 d = sc.download('https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html')

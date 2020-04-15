@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup
 import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 print('OW')

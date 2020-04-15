@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-import scrape_common as sc
+import re
 import sys
+import scrape_common as sc
 
 print('BS')
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
@@ -88,9 +89,6 @@ d = d.replace('&nbsp;', ' ')
 
 # Use non-greedy matching.
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
-
-
-import re
 
 m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
 if m:
