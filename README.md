@@ -4,28 +4,6 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-
-## Breaking changes to dataset-structure (as of 2020-04-09, 09:00)
-
-```diff
-- new column has been added 'new_hosp' (=new hospitalisations since last date)
-- the'ncumul_hosp'-column has been renamed to 'current_hosp' (=number of hospitalisations on that date)
-- the 'ncumul_icu'-column has been renamed to 'current_icu' (=number of ICU patients on that date)
-- the'ncumul_vent'-column has been renamed to 'current_vent' (=number of patients required to receive ventilation on that date)
-- all column names have been turned into lower case (only one column affected : '_icu' instead of 'ICU')
-```
-To allow a smooth transition, the datasets with the deprecated structure are still available under the usual links and will continue to be updated automatically for a limited period.
-
-However, we encourage our users to switch to the data files with the new structure as soon as possible:
-
-## NEW Single Cantonal Files
-
-https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2
-
-## NEW Merged File for all Cantons
-
-https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv
-
 # SARS-CoV-2 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
 
 We are providing a common official OGD dataset of SARS-CoV-2 case numbers, which are communicated by official Swiss canton's (26 cantons, abbreviations see below) and Principality of Liechtenstein's (abbreviation: FL) sources.
@@ -93,6 +71,15 @@ Note: Image below is updated every 15 minutes.
 # Data structure
 
 ## Data on Cantonal Case Numbers
+
+### Single Cantonal Files
+
+https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2
+
+### Merged File for all Cantons
+
+https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv
+
 The dataset containing the cantonal case numbers is structured as follows:
 
 [example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
