@@ -74,6 +74,18 @@ d = d.replace('&nbsp;', ' ')
                     </div>
 """
 
+# 2020-04-14
+"""
+                    <div class="text">
+                    <p>Mit Stand Dienstag, 14. April 2020, 10 Uhr, liegen insgesamt 899 positive F&auml;lle von Personen mit Wohnsitz im Kanton Basel-Stadt vor. Dies sind sechs mehr als am Vortag. 663 Personen der 899 positiv Getesteten und damit &uuml;ber 70 Prozent sind wieder genesen. Die Zahl der Todesf&auml;lle im Kanton Basel-Stadt betr&auml;gt unver&auml;ndert 34.</p>
+
+<p>Im Kanton Basel-Stadt werden nebst den Tests der Kantonsbewohnerinnen und -bewohner auch Tests von Verdachtsf&auml;llen aus anderen Schweizer Kantonen und dem grenznahen Ausland durchgef&uuml;hrt. Bisher sind die Tests von 1389 Personen positiv ausgefallen (inklusive der 899 Basler F&auml;lle).</p>
+
+<p>Aktuell befinden sich 61 Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege in einem baselst&auml;dtischen Spital. Total sind es 86 Personen (inklusive ausserkantonale und ausl&auml;ndische Patientinnen und Patienten). Insgesamt 9 Personen ben&ouml;tigen Intensivpflege. Die anderen Patientinnen und Patienten befinden sich auf der normalen Station.</p>
+
+                    </div>
+"""
+
 # Use non-greedy matching.
 print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
 
@@ -90,7 +102,7 @@ else:
   print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
   print('WARNING: Main pattern for matching confirmed cases numbers failed to match', file=sys.stderr)
 
-m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*dies\s*([0-9]+)\s*Personen', d, flags=re.I)
+m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*([0-9]+)\s*Personen', d, flags=re.I)
 if m:
   # print('Hospitalized (non-residents):', int(m[2]) - int(m[1]))
   # print('Hospitalized (residents):', int(m[1]))
@@ -102,4 +114,5 @@ else:
 print('Recovered:', sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d))
 print('ICU:', sc.find(r'Insgesamt\s*([0-9]+)\s*Personen benötigen\s*Intensivpflege', d))
 print('Deaths:', sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
-                 sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d))
+                 sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d) or
+                 sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*unverändert\s*([0-9]+)\b', d))
