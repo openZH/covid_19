@@ -90,7 +90,7 @@ else:
   print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
   print('WARNING: Main pattern for matching confirmed cases numbers failed to match', file=sys.stderr)
 
-m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*dies\s*([0-9]+)\s*Personen', d, flags=re.I)
+m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*([0-9]+)\s*Personen', d, flags=re.I)
 if m:
   # print('Hospitalized (non-residents):', int(m[2]) - int(m[1]))
   # print('Hospitalized (residents):', int(m[1]))
