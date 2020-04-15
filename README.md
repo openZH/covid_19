@@ -127,7 +127,7 @@ Selected Cantons publish detailed datasets, which are available in this __direct
 https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
 | __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
-| __Date__              | __ZH__ = Date of test result (NewConfCases) / Date of Death (NewDeaths) </br> __BL__ = Date of death </br> __BS__ = Date of notification | YYYY-MM-DD | |
+| __Date__              | __ZH__ = Date of test result (NewConfCases) / Date of death (NewDeaths) </br> __BL__ = Date of death </br> __BS__ = Date of notification | YYYY-MM-DD | |
 | __Area__               | Abbreviation of the reporting canton|     | |
 | __AgeYear__ |      | Number   |ZH,BS,BL |
 | __Gender__     |  | Text    |ZH,BS,BL   |
