@@ -93,7 +93,7 @@ articles = re.findall('<article>.*?</article>', d, flags=re.DOTALL | re.MULTILIN
 url = None
 # Iterate over articles and try to find one with stats.
 while articles and url is None:
-  url = sc.find(r'<a[^>]*href="(area-media/comunicati/dettaglio-comunicato/[^"]+)"[^>]*>.*?Coronavirus: aggiornamento della situazione.+\sore\s.+</a>', articles.pop(0), flags=re.DOTALL | re.MULTILINE | re.I)
+    url = sc.find(r'<a[^>]*href="(area-media/comunicati/dettaglio-comunicato/[^"]+)"[^>]*>.*?Coronavirus: aggiornamento della situazione.+\sore\s.+</a>', articles.pop(0), flags=re.DOTALL | re.MULTILINE | re.I)
 
 if url:
     url = url.replace('&amp;', '&')

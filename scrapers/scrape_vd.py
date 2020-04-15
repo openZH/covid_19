@@ -39,4 +39,4 @@ print('Deaths:', last_row[4])
 print('Hospitalized:', last_row[1])
 print('ICU:', last_row[2])
 if last_row[3].isnumeric():
-      print('Recovered:', last_row[3])
+    print('Recovered:', last_row[3])
