@@ -1,29 +1,30 @@
 #!/usr/bin/env python3
 
 import scrape_common as sc
+import re
 
 print('AG')
 
-# From the new website:
-d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/alle_ereignisse/alle_ereignisse_1.jsp')
+# get latest from list with all bulletins
+d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp')
+
+url = sc.find(r'<a [^>]*href="([^"]+\.pdf)">.+Bulletin.+</a>', d)
+
+# download latest PDF
+d = sc.pdfdownload('https://www.ag.ch' + url, raw=True)
+
 sc.timestamp()
 
-d = "\n".join(d.split('<article'))
-d = sc.filter(r'Neues Lagebulletin', d)
+print('Date and time:', sc.find(r'Aarau, (.+? Uhr)', d))
 
-# Use non-greedy match.
-print('Date and time:', sc.find(r'class="timeline__time" datetime="00(.*?00)"', d))
+print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9]+)\s+bestätigte\s+Fälle', d))
 
-print('Confirmed cases:', sc.find(r'zurzeit ([0-9]+) best(ä|&auml;)tigte F(ä|&auml;)lle', d))
+print('Recovered:', sc.find(r'([0-9]+)\s+Personen.*?als\s+geheilt', d))
 
-print('Recovered:', sc.find(r'gelten im Aargau rund ([0-9]+) Personen .*? als geheilt', d))
+print('Hospitalized:', sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d))
 
-print('Hospitalized:', sc.find(r'([0-9]+) Person(en)? sind zurzeit hospitalisiert', d))
+print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?.*?auf\s+Intensivstationen', d))
 
-print('ICU:', sc.find(r'([0-9]+) Person(en)?( werden)? auf Intensivstationen behandelt', d))
+print('Vent:', sc.find(r'([0-9]+)\s+Person(en)?\s+künstlich\s+beatmet', d))
 
-print('Vent:', sc.find(r'([0-9]+) Person(en)? k(ü|&uuml;)nstlich beatmet werden', d))
-
-print('Deaths:', sc.find(r'([0-9]+) Person(en)? an den Folgen des Coronavirus ?verstorben', d))
-
-print('Downloading:', 'https://www.ag.ch' + sc.find(r'<a .*?href="(.+?)".*?>.*?Lagebulletin.*?</a>', d))
+print('Deaths:', sc.find(r'([0-9]+)\s+Person(en)?\s+an\s+den\s+Folgen\s+des\s+Coronavirus\s+verstorben', d))
