@@ -110,9 +110,7 @@ else:
     print('WARNING: Main pattern for matching hospitalized numbers failed to match', file=sys.stderr)
 
 print('Recovered:', sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d))
-icu_number_exp = '([0-9]+|' + "|".join(sc.spelledOutNumbersMap.keys()) + ')'
-icu = sc.find(r'Insgesamt\s*' + icu_number_exp + '\s*Personen benötigen\s*Intensivpflege', d)
-print('ICU:', sc.int_or_word(icu))
+print('ICU:', sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d)))
 print(
     'Deaths:',
     sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
