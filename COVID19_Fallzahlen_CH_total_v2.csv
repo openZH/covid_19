@@ -723,7 +723,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-06,16:00,JU,,164,,27,4,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-04-06,16:00,NE,,466,,59,10,8,,30,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-07,,BL,,690,,66,18,17,452,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2020-04-07,,FL,,78,,,,,,,https://www.liechtenstein.li/news-detail/article/aktuelle-informationen-zum-coronavirus/
+2020-04-07,,FL,,78,,,,,,1,https://www.liechtenstein.li/news-detail/article/aktuelle-informationen-zum-coronavirus/
 2020-04-07,,FR,,729,,78,22,,73,44,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 2020-04-07,,GR,,668,,49,,,,34,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-07,,SG,,557,,65,9,,79,13,https://www.sg.ch/tools/informationen-coronavirus.html
@@ -837,7 +837,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-11,08:00,BE,,1419,,99,33,24,,44,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-11,08:00,TI,,2818,,282,68,59,493,229,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187611&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=6f94f1f1d5cf92bdf5a1e053e6602530
 2020-04-11,09:30,BS,,866,,,,,612,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-866-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-11,09:30,SH,,55,,11,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-11,09:30,SH,,55,,13,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-11,10:00,AR,,77,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-11,10:00,ZG,,168,,14,9,,79,4,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-11,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -862,7 +862,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-12,00:00,SO,,315,,23,,,,7,https://corona.so.ch/
 2020-04-12,08:00,BE,,1441,,95,33,22,,49,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-12,08:00,TI,,2869,,269,63,56,511,244,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187612&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=01ed3fadc99b1b00f0a8c4a0e41e7252
-2020-04-12,09:30,SH,,57,,14,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-12,09:30,SH,,57,,16,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-12,10:00,BS,,882,,86,12,,629,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-882-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-12,10:00,ZG,,168,,,,,80,5,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-12,11:00,LU,,576,,60,5,,,10,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -886,7 +886,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-13,08:00,AR,,78,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-13,08:00,BE,,1456,,92,32,21,,49,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-13,08:00,TI,,2900,,269,63,56,511,251,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187614&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0464d89cb8c291fbc9c266e6b7008814
-2020-04-13,09:30,SH,,57,,14,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-13,09:30,SH,,57,,16,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-13,10:00,BS,,893,,,,,653,34,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-893-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-13,10:00,ZG,,170,,13,9,,84,5,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-13,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -916,7 +916,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-14,10:00,BS,,899,,86,9,,663,34,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-899-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-14,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-14,11:00,LU,,589,,47,4,,,11,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-14,12:00,GE,,4438,,365,46,41,490,172,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-04-14,12:00,GE,19596,4438,,365,46,41,490,172,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-14,13:00,GL,,105,,2,,,,2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-14,14:00,UR,,78,,3,,,56,4,https://www.ur.ch/themen/2962
 2020-04-14,14:30,ZH,,3067,,149,,52,,85,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -927,7 +927,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-14,16:00,JU,,185,,23,5,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-04-14,16:00,NE,,602,,60,11,10,,45,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-15,,BL,,768,,45,9,7,610,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2020-04-15,,FL,,80,,,,,,,https://www.regierung.li/media/attachments/194-corona-neue-wege-zur-messung-0415.pdf?t=637225709239139141
+2020-04-15,,FL,,80,,,,,,1,https://www.regierung.li/media/attachments/194-corona-neue-wege-zur-messung-0415.pdf?t=637225709239139141
 2020-04-15,,FR,,890,,61,16,,105,63,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
 2020-04-15,,GR,,746,,36,,,,38,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-15,,SG,,676,,47,9,,123,23,https://www.sg.ch/tools/informationen-coronavirus.html
@@ -943,20 +943,20 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-15,10:00,BS,,909,,80,7,,682,36,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-909-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-15,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-15,11:00,LU,,596,,46,4,,,12,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-15,12:00,GE,,4486,,352,41,37,502,178,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
+2020-04-15,12:00,GE,19927,4486,,352,41,37,502,178,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-15,12:00,GL,,105,,2,,,,2,https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
 2020-04-15,14:30,ZH,,3114,,136,,50,,89,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-15,14:45,AG,,929,,69,20,20,450,22,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200415_KFS_Coronavirus_Lagebulletin_33.pdf
-2020-04-15,15:00,VS,,1682,,106,22,16,175,95,https://www.vs.ch/de/web/coronavirus; https://www.vs.ch/documents/6756452/7008787/2020%2004%2015%20Sit%20Epid%20-%20%C3%89tat%20Stand
+2020-04-15,15:00,VS,,1682,,106,22,16,175,94,https://www.vs.ch/documents/6756452/7008787/2020%2004%2015%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-15,15:25,OW,,64,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-15,16:00,JU,,188,,17,5,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 2020-04-15,16:00,NE,,615,,54,12,10,,48,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-15,16:00,UR,,78,,3,,,62,4,https://www.ur.ch/themen/2962
 2020-04-15,17:30,NW,,106,,7,2,,,2,https://www.nw.ch/gesundheitsamtdienste/6044
 2020-04-16,,BL,,781,,46,8,6,623,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2020-04-16,,FL,,80,,,,,,,https://www.regierung.li/media/attachments/196-corona-regierung-informiert-freitag-0416.pdf?t=637226573940474014
+2020-04-16,,FL,,80,,,,,,1,https://www.regierung.li/media/attachments/196-corona-regierung-informiert-freitag-0416.pdf?t=637226573940474014
 2020-04-16,,FR,,907,,60,15,,105,65,https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton
-2020-04-16,,SG,,680,,49,7,,138,25,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-16,,SG,,680,,56,7,,138,25,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-16,,SZ,,265,,,,,154,14,https://www.sz.ch/public/upload/assets/46137/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-16,,TG,,308,,28,14,,,11,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-16,08:00,AR,,79,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -964,7 +964,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-16,08:00,TI,,2953,,249,59,49,568,269,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187632&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=65b441f9003d32defd9e1c4f2650c177
 2020-04-16,08:00,ZG,,171,,,,,94,6,https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
 2020-04-16,09:00,BS,,917,,76,6,,711,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-917-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-16,09:30,SH,,60,,8,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-16,09:30,SH,,60,,10,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-16,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-16,12:00,GE,,,,350,38,33,520,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-04-16,12:30,LU,,599,,40,3,,,13,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -972,7 +972,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-16,14:30,ZH,,3151,,135,,51,,90,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-16,14:45,AG,,943,,61,20,20,500,23,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200416_KFS_Coronavirus_Lagebulletin_34.pdf
 2020-04-16,15:00,UR,,78,,2,,,62,5,https://www.ur.ch/themen/2962
-2020-04-16,15:00,VS,,1707,,109,21,14,178,,https://www.vs.ch/documents/6756452/7008787/2020%2004%2016%20Sit%20Epid%20-%20État%20Stand
+2020-04-16,15:00,VS,,1707,,109,21,14,178,94,https://www.vs.ch/documents/6756452/7008787/2020%2004%2016%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-16,15:30,OW,,65,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
+2020-04-16,16:00,JU,,189,,17,5,,,,https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
 2020-04-16,16:00,NE,,,,52,11,9,,48,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.pdf
 2020-04-16,17:10,NW,,106,,5,2,,,2,https://www.nw.ch/gesundheitsamtdienste/6044
