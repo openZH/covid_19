@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 print('BE')
@@ -57,55 +57,86 @@ pflege<br />
     </table>
 """
 
-m = re.search(r'<table .*? summary="Laufend aktualisierte Zahlen zu den Corona-Erkrankungen im Kanton Bern">(.*?)<\/table>', d, flags=re.MULTILINE | re.DOTALL)
-assert m, "Can't find table"
-
-d = m[1].replace('\n', '')
-
-header = sc.find("<thead>\s*<tr>\s*(<th.*?><strong>Datum</strong></th>\s*<th.*?><strong>Fälle</strong><br />positiv</th>\s*<th.*?>Im<br /><strong>Spital</strong><br />gesamt</th>\s*<th.*?>Davon<br />normale<br /><strong>Betten-<br /> station</strong></th>\s*<th.*?>Davon<br /><strong>Intensiv-<br /> station</strong><br />gesamt</th>\s*<th.*?>Davon<br />Intensiv-<br />pflege<br /><strong>beatmet</strong></th>\s*<th.*?><strong>Todes-<br /> fälle</strong></th>)\s*</tr>\s*</thead>", d)
-assert header, "Header not matched"
-
-# Search for:
+# 2020-04-17
 """
-<tbody>
-    <tr>
-        <td headers="th_top_5147_1A">30.03.2020</td>
-        <td headers="th_top_5147_2A">826</td>
-        <td headers="th_top_5147_3A">112</td>
-        <td headers="th_top_5147_4A">91</td>
-        <td headers="th_top_5147_5A">21</td>
-        <td headers="th_top_5147_6A">17</td>
-        <td headers="th_top_5147_7A">13</td>
-    </tr>
-</tbody>
-"""
-
-# 2020-03-31
-"""
+    <table cellspacing="0" summary="Laufend aktualisierte Zahlen zu den Corona-Erkrankungen im Kanton Bern">
+        <colgroup>
+                <col width="5%"></col>
+                <col width="10%"></col>
+                <col width="10%"></col>
+                <col width="10%"></col>
+                <col width="10%"></col>
+                <col width="10%"></col>
+                <col width="10%"></col>
+                </colgroup>
+        <thead>
         <tr>
-                <td headers="th_top_5147_1A"><strong>31.03.20</strong><br />
-08.00 h</td>
-                        <td headers="th_top_5147_2A">856</td>
-                        <td headers="th_top_5147_3A">111</td>
-                        <td headers="th_top_5147_4A">88</td>
-                        <td headers="th_top_5147_5A">23</td>
-                        <td headers="th_top_5147_6A">18</td>
-                        <td headers="th_top_5147_7A">16</td>
+                <th id="th_top_5147_1A"><strong>Datum</strong></th>
+                        <th id="th_top_5147_2A"><strong>Fälle</strong><br />
+positiv</th>
+                        <th id="th_top_5147_3A">Im<br />
+<strong>Spital</strong><br />
+gesamt</th>
+                        <th id="th_top_5147_4A">Davon<br />
+normale<br />
+<strong>Betten-<br />
+ station</strong></th>
+                        <th id="th_top_5147_5A">Davon<br />
+<strong>Intensiv-<br />
+ station</strong><br />
+gesamt</th>
+                        <th id="th_top_5147_6A">Davon<br />
+Intensiv-<br />
+pflege<br />
+<strong>beatmet</strong></th>
+                        <th id="th_top_5147_7A"><strong>Todes-<br />
+ fälle</strong></th>
                         </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <td headers="th_top_5147_1A"><strong>17.04.20</strong><br />
+08.00 h</td>
+                        <td headers="th_top_5147_2A">1'553</td>
+                        <td headers="th_top_5147_3A">69</td>
+                        <td headers="th_top_5147_4A">44</td>
+                        <td headers="th_top_5147_5A">25</td>
+                        <td headers="th_top_5147_6A">13</td>
+                        <td headers="th_top_5147_7A">67</td>
+                        </tr>
+        <tr class="colored">
+                <td headers="th_top_5147_1A"><strong>16.04.20</strong><br />
+08.00 h</td>
+                        <td headers="th_top_5147_2A">1'515</td>
+                        <td headers="th_top_5147_3A">70</td>
+                        <td headers="th_top_5147_4A">44</td>
+                        <td headers="th_top_5147_5A">26</td>
+                        <td headers="th_top_5147_6A">12</td>
+                        <td headers="th_top_5147_7A">55</td>
+                        </tr>
+        </tbody>
+    </table>
 """
 
-
-d = d.replace('<strong>', '').replace('</strong>', '')
-
-r = re.search(r'<tr[^>]*>\s*<td.*?>(\d{2}.\d{2}.\d{2,4})\s*(?:<br */?>)\s*(\d+\.\d+ h)?</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>\s*<td.*?>([0-9]+| *)</td>', d, flags=re.I)
-assert r, "Row missmatch"
-
-if r[2]:
-    print("Date and time:", r[1] + ', ' + r[2])
-else:
-    print("Date and time:", r[1])
-print("Confirmed cases:", r[3].strip())
-print("Deaths:", r[8].strip())
-print("Hospitalized:", r[4].strip())
-print("ICU:", r[6].strip())
-print("Vent:", r[7].strip())
+soup = BeautifulSoup(d, 'html.parser')
+rows = []
+for t in soup.find_all('table'):
+    if t.attrs['summary'] == 'Laufend aktualisierte Zahlen zu den Corona-Erkrankungen im Kanton Bern':
+        headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
+        # getting first data row
+        row = [r for r in t.find_all('tr') if r.find_all('td')][0]
+        col_num = 0
+        for cell in row.find_all(['td']):
+            if headers[col_num] == 'Datum':
+                print('Date and Time:', " ".join(cell.stripped_strings))
+            elif headers[col_num] == 'Fälle positiv':
+                print('Confirmed cases:', cell.string)
+            elif 'Todes' in headers[col_num]:
+                print('Deaths:', cell.string)
+            elif headers[col_num] == 'Im Spital gesamt':
+                print('Hospitalized:', cell.string)
+            elif 'beatmet' in headers[col_num]:
+                print('Vent:', cell.string)
+            elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
+                print('ICU:', cell.string)
+            col_num += 1
