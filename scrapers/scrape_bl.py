@@ -72,6 +72,22 @@ Datum, Normale Station, Intensivstation
 
 """
 
+    # 2020-04-17
+    """
+<pre id="data" style="display:none;">
+Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle
+28-02-2020,,1,
+29-02-2020,,2,
+01-03-2020,,2,
+02-03-2020,,2,
+03-03-2020,,2,
+04-03-2020,,2,
+05-03-2020,,6,
+06-03-2020,,6,
+...
+</pre>
+"""
+
     d = d.replace('\n', ' ')
     # Extract last line. Use non-greedy matching.
     data = sc.find(r'<pre id="data".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle).*? ([^ ]+) ?</pre>', d)
@@ -84,7 +100,16 @@ Datum, Normale Station, Intensivstation
         print('Recovered:', c[2])
     else:
         data = sc.find(r'<pre id="data".*?> ?Datum, Normale Station, Intensivstation.*? ([^ ]+) ?</pre>', d)
-        c = data.split(',')
-        print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
-        print('Hospitalized:', int(c[1]) + int(c[2]))
-        print('ICU:', c[2])
+        if data:
+            c = data.split(',')
+            print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
+            print('Hospitalized:', int(c[1]) + int(c[2]))
+            print('ICU:', c[2])
+        else:
+            data = sc.find(r'<pre id="data".*?> ?Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle.*? ([^ ]+) ?</pre>', d)
+            if data:
+                c = data.split(',')
+                print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
+                print('Confirmed cases:', int(c[1]) + int(c[2]) + int(c[3]))
+                print('Recovered:', c[1])
+                print('Death:', c[3])
