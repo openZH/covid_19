@@ -128,7 +128,7 @@ for t in soup.find_all('table'):
         col_num = 0
         for cell in row.find_all(['td']):
             if headers[col_num] == 'Datum':
-                print('Date and Time:', " ".join(cell.stripped_strings))
+                print('Date and time:', " ".join(cell.stripped_strings))
             elif headers[col_num] == 'Fälle positiv':
                 print('Confirmed cases:', cell.string)
             elif 'Todes' in headers[col_num]:
