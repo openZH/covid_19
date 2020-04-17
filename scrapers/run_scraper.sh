@@ -3,6 +3,7 @@
 # Script to run a single scraper
 
 set -e
+set -o pipefail
 
 function cleanup {
   exit $?
