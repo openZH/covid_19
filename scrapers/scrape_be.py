@@ -127,16 +127,20 @@ for t in soup.find_all('table'):
         row = [r for r in t.find_all('tr') if r.find_all('td')][0]
         col_num = 0
         for cell in row.find_all(['td']):
+            value = cell.string
+            if value:
+                value = value.replace("'", "")
+
             if headers[col_num] == 'Datum':
-                print('Date and Time:', " ".join(cell.stripped_strings))
+                print('Date and time:', " ".join(cell.stripped_strings))
             elif headers[col_num] == 'Fälle positiv':
-                print('Confirmed cases:', cell.string)
+                print('Confirmed cases:', value)
             elif 'Todes' in headers[col_num]:
-                print('Deaths:', cell.string)
+                print('Deaths:', value)
             elif headers[col_num] == 'Im Spital gesamt':
-                print('Hospitalized:', cell.string)
+                print('Hospitalized:', value)
             elif 'beatmet' in headers[col_num]:
-                print('Vent:', cell.string)
+                print('Vent:', value)
             elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
-                print('ICU:', cell.string)
+                print('ICU:', value)
             col_num += 1
