@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import re
 from bs4 import BeautifulSoup
@@ -15,25 +16,10 @@ xls_url = box.find('a', string=re.compile(r'.*Dokument.*')).get('href')
 xls = sc.xlsdownload(xls_url)
 sc.timestamp()
 
-sheet = xls.sheet_by_index(0)
-last_row = sheet.nrows - 1
-
-date_value = sheet.cell_value(last_row, 0)
-time_value = sheet.cell_value(last_row, 1)
-import xlrd
-current_date = sc.xldate_as_datetime(sheet, date_value)
-if time_value:
-  print('Date and time:', current_date.date().isoformat(), xlrd.xldate.xldate_as_datetime(time_value, xls.datemode).time().isoformat())
-else:
-  print('Date and time:', current_date.date().isoformat())
-
-cases = int(sheet.cell_value(last_row, 2))
-print('Confirmed cases:', cases)
-
-hosp = int(sheet.cell_value(last_row, 3))
-if hosp:
-    print('Hospitalized:', hosp)
-
-deaths = int(sheet.cell_value(last_row, 4))
-if deaths:
-    print('Deaths:', deaths)
+rows = sc.parse_xls(xls)
+last_row = rows[-1]
+if last_row:
+    print('Date and time:', last_row['Datum'].date().isoformat(), last_row['Zeit'].time().isoformat())
+    print('Confirmed cases:', last_row['Bestätigte Fälle (kumuliert)'])
+    print('Hospitalized:', last_row['Personen in Spitalpflege'])
+    print('Deaths:', last_row['Todesfälle (kumuliert)'])

@@ -254,7 +254,11 @@ try:
                 abbr) == 2, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
             assert abbr.upper() == abbr, f"The first line should be 2 letter abbreviation in upper case of the canton: Got: {l}"
             continue
-        k, v = l.split(": ", 1)
+        try:
+            k, v = l.split(": ", 1)
+        except ValueError:
+            warns.append(f"Value missing on line '{l}'")
+            continue
 
         v = v.strip()
 

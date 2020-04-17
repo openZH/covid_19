@@ -40,8 +40,24 @@ def xlsdownload(url):
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
-def xldate_as_datetime(sheet, date):
-    return xlrd.xldate.xldate_as_datetime(date, sheet.book.datemode)
+def parse_xls(book, sheet_index=0, header_row=1):
+    rows = []
+    sheet = book.sheet_by_index(sheet_index)
+    headers = {c: sheet.cell_value(header_row, c) for c in range(sheet.ncols)} 
+    for r in range(sheet.nrows):
+        entry = {}
+        for c, h in headers.items():
+            cell_type = sheet.cell_type(r, c)
+            value = sheet.cell_value(r, c)
+            if cell_type == xlrd.XL_CELL_DATE:
+                entry[h] = xlrd.xldate.xldate_as_datetime(value, book.datemode)
+            elif represents_int(value):
+                entry[h] = int(value)
+            else:
+                entry[h] = value
+
+        rows.append(entry)
+    return rows
 
 def pdfdownload(url, encoding='utf-8', raw=False, layout=False):
     """Download a PDF and convert it to text"""
