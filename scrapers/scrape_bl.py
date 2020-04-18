@@ -112,4 +112,4 @@ Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle
                 print('Date and time:', c[0].replace('-', '.'))  # 24-03-2020 -> 24.03.2020
                 print('Confirmed cases:', int(c[1]) + int(c[2]) + int(c[3]))
                 print('Recovered:', c[1])
-                print('Death:', c[3])
+                print('Deaths:', c[3])
