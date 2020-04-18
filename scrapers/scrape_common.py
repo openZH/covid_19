@@ -98,7 +98,7 @@ def represents_int(s):
     try:
         int(s)
         return True
-    except ValueError:
+    except (ValueError, TypeError):
         return False
 
 
