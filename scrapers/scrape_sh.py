@@ -35,10 +35,9 @@ print('Confirmed cases:',
       sc.find(r'\b([0-9]+)\s*bestätige\s*(Coronavirus)?-?\s*Fälle', d) or
       sc.find(r'(?:Anzahl)?\s*Infizierte\s*Fälle\s*(?:\(kumuliert\))?:\s*([0-9]+)<', d) or
       sc.find(r'(?:Anzahl)?\s*positiv\s*getestete\s*Personen\s*(?:\(kumuliert\))?:?\s*([0-9]+)', d))
-hospitalized = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Isolation\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
-if hospitalized:
-    print('Hospitalized:', hospitalized)
-icu = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Intensiv\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
-if icu:
-    print('ICU:', icu)
+hospitalized_isolated = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Isolation\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
+hospitalized_intensive = sc.find(r'(?:Anzahl)?\s*Hospitalisationen\s*Intensiv\s*(?:\(aktuell\))?:\s*([0-9]+)<', d)
+if hospitalized_isolated and hospitalized_intensive:
+    print('Hospitalized:', int(hospitalized_isolated) + int(hospitalized_intensive))
+    print('ICU:', hospitalized_intensive)
 print('Deaths:', sc.find(r'Verstorbene\s*(?:\(kumm?uliert\))?:\s*([0-9]+)<', d))
