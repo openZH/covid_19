@@ -70,7 +70,7 @@ def parse_date(d):
     # This could be done more nice, using assignment expression. But that
     # requires Python 3.8 (October 14th, 2019), and many distros still defaults
     # to Python 3.7 or earlier.
-    mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d),? (\d\d?)(?:[:\.](\d\d))? +Uhr$', d)
+    mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)\s*(?:,?\s+|,\s*)(\d\d?)(?:[:\.](\d\d))? +Uhr$', d)
     if mo:
         # 20. März 2020 15.00 Uhr
         # 21. März 2020, 10 Uhr
@@ -81,6 +81,7 @@ def parse_date(d):
         # 21. März 2020, 18.15  Uhr
         # 21. März 2020, 14.00 Uhr
         # 23. M&auml;rz 2020, 15 Uhr
+        # 18. April 2020,16.00 Uhr
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
     mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
     if mo:
@@ -184,6 +185,7 @@ date_tests = [
     ('21. März 2020, 18.15  Uhr',           '2020-03-21T18:15'),
     ('21. März 2020, 14.00 Uhr',            '2020-03-21T14:00'),
     ('23. M&auml;rz 2020, 15 Uhr',          '2020-03-23T15:00'),
+    ('18. April 2020,16.00 Uhr',            '2020-04-18T16:00'),
     ('21. März 2020',                       '2020-03-21T'),
     ('21.3.20',                             '2020-03-21T'),
     ('20.3.2020, 16.30',                    '2020-03-20T16:30'),
