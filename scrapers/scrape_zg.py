@@ -69,7 +69,7 @@ NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
         'Genesene' in last_day and
         'Todesfälle' in last_day):
         found_last_day = True
-        print('Date and time', days[-1])
+        print('Date and time:', days[-1])
         print('Confirmed cases:', last_day['Fallzahl'])
         print('Hospitalized:', last_day['Hospitalisierte'])
         print('ICU:', last_day['Hospitalisierte in Intensivpflege'])
