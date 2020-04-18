@@ -14,8 +14,8 @@ xls = sc.xlsdownload(xls_url)
 sc.timestamp()
 
 rows = sc.parse_xls(xls)
-last_row = rows[-1]
-if last_row:
+if rows:
+    last_row = rows[-1]
     print('Date and time:', last_row['Datum'].date().isoformat())
     print('Confirmed cases:', last_row['Bestätigte Fälle (kumuliert)'])
     print('Deaths:', last_row['Todesfälle (kumuliert)'])
