@@ -62,7 +62,7 @@ NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
         data[row['Datum']][row['Typ']] = row['Anzahl']
     days = list(data.keys())
     last_day = data[days[-1]]
-    if (last_day == last_update and
+    if (days[-1] == last_update and
         'Fallzahl' in last_day and
         'Hospitalisierte' in last_day and
         'Hospitalisierte in Intensivpflege' in last_day and
