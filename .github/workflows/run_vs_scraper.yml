@@ -29,7 +29,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: VS
-        SCRAPER_SOURCE: https://www.vs.ch/de/web/coronavirus
       run: |
         ./scrapers/run_scraper.sh
         
