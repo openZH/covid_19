@@ -29,7 +29,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: JU
-        SCRAPER_SOURCE: https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html
       run: |
         ./scrapers/run_scraper.sh
         
