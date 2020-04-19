@@ -23,7 +23,7 @@ matrix = {
     'GE': ['Deaths', 'Hospitalized', 'ICU'],
     'GL': ['Deaths', 'Hospitalized'],
     'GR': ['Deaths', 'Hospitalized'],
-    'JU': ['Hospitalized', 'ICU'],
+    'JU': ['Deaths', 'Hospitalized', 'ICU'],
     'LU': ['Deaths', 'Hospitalized', 'ICU'],
     'NE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
     'NW': ['Deaths', 'Hospitalized', 'ICU'],
