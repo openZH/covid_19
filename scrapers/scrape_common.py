@@ -43,7 +43,8 @@ def xlsdownload(url):
 def parse_xls(book, sheet_index=0, header_row=1):
     rows = []
     sheet = book.sheet_by_index(sheet_index)
-    headers = {c: sheet.cell_value(header_row, c) for c in range(sheet.ncols)} 
+    # if a header cell is empty, the name of the column (e.g. "A") is used instead
+    headers = {c: sheet.cell_value(header_row, c) or xlrd.formula.colname(c) for c in range(sheet.ncols)} 
     for r in range(sheet.nrows):
         entry = {}
         for c, h in headers.items():
