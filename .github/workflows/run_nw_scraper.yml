@@ -29,7 +29,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: NW
-        SCRAPER_SOURCE: https://www.nw.ch/gesundheitsamtdienste/6044
       run: |
         ./scrapers/run_scraper.sh
         
