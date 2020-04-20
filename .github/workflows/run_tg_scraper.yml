@@ -2,7 +2,7 @@ name: Run TG scraper
 
 on:
   schedule:
-    - cron:  '30 * * * *'
+    - cron:  '30 11-20 * * *'
 
 jobs:
   run_scraper:
