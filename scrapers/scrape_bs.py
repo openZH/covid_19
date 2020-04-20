@@ -114,6 +114,6 @@ print('ICU:', sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s
 print(
     'Deaths:',
     sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
-    sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*nunmehr\s*insgesamt\s*([0-9]+)\b', d) or
+    sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*unverändert\s*([0-9]+)\b', d)
 )
