@@ -1267,7 +1267,6 @@ Date,Area,AgeYear,Gender,NewConfCases,NewDeaths,Source
 2020-03-31,Canton_ZH,46,,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-03-31,Canton_ZH,47,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-03-31,Canton_ZH,47,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-03-31,Canton_ZH,48,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-03-31,Canton_ZH,50,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-03-31,Canton_ZH,50,M,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-03-31,Canton_ZH,51,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -1774,8 +1773,8 @@ Date,Area,AgeYear,Gender,NewConfCases,NewDeaths,Source
 2020-04-07,Canton_ZH,22,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,24,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,25,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-04-07,Canton_ZH,26,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,26,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-07,Canton_ZH,29,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,31,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,32,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-07,Canton_ZH,36,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -2292,6 +2291,7 @@ Date,Area,AgeYear,Gender,NewConfCases,NewDeaths,Source
 2020-04-18,Canton_ZH,89,F,0,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-18,Canton_ZH,93,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-18,Canton_ZH,95,F,0,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-18,Canton_ZH,98,F,0,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-19,Canton_ZH,18,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-19,Canton_ZH,19,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-19,Canton_ZH,22,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -2316,3 +2316,18 @@ Date,Area,AgeYear,Gender,NewConfCases,NewDeaths,Source
 2020-04-19,Canton_ZH,89,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-19,Canton_ZH,94,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-19,Canton_ZH,96,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,9,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,20,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,31,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,32,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,35,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,40,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,45,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,57,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,62,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,78,F,2,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,86,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,90,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,91,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,92,M,0,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,Canton_ZH,98,F,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
