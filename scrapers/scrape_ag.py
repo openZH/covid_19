@@ -17,13 +17,13 @@ sc.timestamp()
 
 print('Date and time:', sc.find(r'Aarau, (.+? Uhr)', d))
 
-print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9]+)\s+bestätigte\s+Fälle', d))
+print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9\']+)\s+bestätigte\s+Fälle', d).replace("'", ''))
 
-print('Recovered:', sc.find(r'([0-9]+)\s+Personen.*?als\s+geheilt', d))
+print('Recovered:', sc.find(r'([0-9]+)\s+Personen\s+als\s+geheilt', d))
 
 print('Hospitalized:', sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d))
 
-print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?.*?auf\s+Intensivstationen', d))
+print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d))
 
 print('Vent:', sc.find(r'([0-9]+)\s+Person(en)?\s+künstlich\s+beatmet', d))
 
