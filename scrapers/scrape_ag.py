@@ -23,7 +23,7 @@ print('Recovered:', sc.find(r'([0-9]+)\s+Personen.*?als\s+geheilt', d))
 
 print('Hospitalized:', sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d))
 
-print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?.*?auf\s+Intensivstationen', d))
+print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d))
 
 print('Vent:', sc.find(r'([0-9]+)\s+Person(en)?\s+künstlich\s+beatmet', d))
 
