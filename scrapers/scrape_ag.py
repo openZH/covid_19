@@ -17,7 +17,7 @@ sc.timestamp()
 
 print('Date and time:', sc.find(r'Aarau, (.+? Uhr)', d))
 
-print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9]+)\s+bestätigte\s+Fälle', d))
+print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9\']+)\s+bestätigte\s+Fälle', d).replace("'", ''))
 
 print('Recovered:', sc.find(r'([0-9]+)\s+Personen.*?als\s+geheilt', d))
 
