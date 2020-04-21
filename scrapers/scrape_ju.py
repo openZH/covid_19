@@ -50,7 +50,17 @@ sc.timestamp()
                 </tr>
 """
 
-print('Date and time:', sc.find(r'Situation (.+?)<\/em', d))
+# 2020-04-20
+"""
+		<tr>
+			<td>
+			<p class="wysiwyg-h6"><strong>194</strong></p>
+			</td>
+			<td><em>Situation lundi 20 avril 2020 (16h)</em></td>
+		</tr>
+"""
+
+print('Date and time:', sc.find(r'Situation:?\s*[^\W\d_]*\s*,?\s*([0-9].+?)<\/em', d))
 print('Confirmed cases:', sc.find(r'<p.*?<strong>([0-9]+)<', d))
 
 d = sc.download('https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html')
