@@ -3,7 +3,15 @@
 import re
 import subprocess
 import sys
+import os
 from scrape_matrix import matrix
+
+__location__ = os.path.realpath(
+    os.path.join(
+        os.getcwd(),
+        os.path.dirname(__file__)
+    )
+)
 
 
 if __name__ == '__main__':
@@ -11,7 +19,7 @@ if __name__ == '__main__':
     has_issue = False
     for canton, features in matrix.items():
         print(canton)
-        result = subprocess.run([f'./scrape_{canton.lower()}.py'], stdout=subprocess.PIPE)
+        result = subprocess.run([f'{__location__}/scrape_{canton.lower()}.py'], stdout=subprocess.PIPE)
         output = result.stdout.decode('utf-8')
         for feature in features:
             if feature == 'Released':
