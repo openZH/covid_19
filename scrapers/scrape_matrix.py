@@ -13,36 +13,36 @@ import sys
 # and is not listed in this list.
 matrix = {
     # Note: Please keep the order of cantons and entries.
-    'AG': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'AI': [],
-    'AR': ['Deaths'],
-    'BE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
-    'BL': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'BS': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'FR': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'GE': ['Deaths', 'Hospitalized', 'ICU'],
-    'GL': ['Deaths', 'Hospitalized'],
-    'GR': ['Deaths', 'Hospitalized'],
-    'JU': ['Deaths', 'Hospitalized', 'ICU'],
-    'LU': ['Deaths', 'Hospitalized', 'ICU'],
+    'AG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'AI': ['Confirmed'],
+    'AR': ['Confirmed', 'Deaths'],
+    'BE': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'BL': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'BS': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'FR': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'GE': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'GL': ['Confirmed', 'Deaths', 'Hospitalized'],
+    'GR': ['Confirmed', 'Deaths', 'Hospitalized'],
+    'JU': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'LU': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
     'NE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
-    'NW': ['Deaths', 'Hospitalized', 'ICU'],
-    'OW': ['Deaths', 'Hospitalized'],
-    'SG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'SH': ['Deaths', 'Hospitalized', 'ICU'],
-    'SO': ['Deaths', 'Hospitalized'],
-    'SZ': ['Deaths', 'Released'],
-    'TG': ['Deaths', 'Hospitalized', 'ICU'],
-    'TI': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'UR': ['Deaths', 'Released', 'Hospitalized'],
-    'VD': ['Deaths', 'Hospitalized', 'ICU'],
-    'VS': ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'ZG': ['Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'ZH': ['Deaths', 'Hospitalized', 'Vent'],
+    'NW': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'OW': ['Confirmed', 'Deaths', 'Hospitalized'],
+    'SG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'SH': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'SO': ['Confirmed', 'Deaths', 'Hospitalized'],
+    'SZ': ['Confirmed', 'Deaths', 'Released'],
+    'TG': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'TI': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'UR': ['Confirmed', 'Deaths', 'Released', 'Hospitalized'],
+    'VD': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'VS': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'ZG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'ZH': ['Confirmed', 'Deaths', 'Hospitalized', 'Vent'],
     # 'FL': [],  # No scraper.
 }
 
-allowed_extras = ['Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
+allowed_extras = ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
 
 # List of cantons that are expected to have date AND time.
 matrix_time = [
@@ -91,6 +91,7 @@ def check_expected(abbr, date, deaths, extras):
 
     cross = {
         'Deaths': deaths,
+        'Confirmed': extras.get('ncumul_conf'),
         'Hospitalized': extras.get('ncumul_hosp'),
         'ICU': extras.get('ncumul_ICU'),
         'Vent': extras.get('ncumul_vent'),

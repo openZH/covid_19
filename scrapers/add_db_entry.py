@@ -23,7 +23,7 @@ try:
     for line in sys.stdin:
         l = line.strip()
         # Groups:            1       2             3       4           5
-        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+(\w+|-)\s+OK(.*)$', l)
+        match = re.search('^(\w+)\s+([\w\-\:]+)\s+([\w\-]+)\s+(\w+|-)\s+OK(.*)$', l)
         if not match:
             input_failures += 1
             print(f'Error: Not matched input line: {l}')
@@ -34,7 +34,7 @@ try:
             'time': '',
             'area': match.group(1),
             'tested': '',
-            'confirmed': int(match.group(3)),
+            'confirmed': match.group(3),
             'new_hospitalized': '',
             'hospitalized': '',
             'icu': '',
@@ -46,6 +46,11 @@ try:
 
         if len(date_part) == 2:
             data['time'] = date_part[1]
+
+        if data['confirmed'] == '-':
+            data['confirmed'] = ''
+        else:
+            data['confirmed'] = int(data['confirmed'])
 
         if data['deceased'] == '-':
             data['deceased'] = ''
