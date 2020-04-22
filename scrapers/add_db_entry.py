@@ -23,7 +23,7 @@ try:
     for line in sys.stdin:
         l = line.strip()
         # Groups:            1       2             3       4           5
-        match = re.search('^(\w+)\s+([\w\-\:]+)\s+(\w+)\s+(\w+|-)\s+OK(.*)$', l)
+        match = re.search('^(\w+)\s+([\w\-\:]+)\s+([\w\-]+)\s+(\w+|-)\s+OK(.*)$', l)
         if not match:
             input_failures += 1
             print(f'Error: Not matched input line: {l}')
@@ -34,7 +34,7 @@ try:
             'time': '',
             'area': match.group(1),
             'tested': '',
-            'confirmed': int(match.group(3)),
+            'confirmed': match.group(3),
             'new_hospitalized': '',
             'hospitalized': '',
             'icu': '',
@@ -46,6 +46,11 @@ try:
 
         if len(date_part) == 2:
             data['time'] = date_part[1]
+
+        if data['confirmed'] == '-':
+            data['confirmed'] = ''
+        else:
+            data['confirmed'] = int(data['confirmed'])
 
         if data['deceased'] == '-':
             data['deceased'] = ''
@@ -60,12 +65,12 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                if 'ncumul_hosp' in extras:
-                    data['hospitalized'] = extras['ncumul_hosp']
-                if 'ncumul_ICU' in extras:
-                    data['icu'] = extras['ncumul_ICU']
-                if 'ncumul_vent' in extras:
-                    data['vent'] = extras['ncumul_vent']
+                if 'current_hosp' in extras:
+                    data['hospitalized'] = extras['current_hosp']
+                if 'current_icu' in extras:
+                    data['icu'] = extras['current_icu']
+                if 'current_vent' in extras:
+                    data['vent'] = extras['current_vent']
                 if 'ncumul_released' in extras:
                     data['released'] = extras['ncumul_released']
             except Exception as e:

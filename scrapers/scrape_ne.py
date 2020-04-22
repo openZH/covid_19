@@ -11,7 +11,7 @@ sc.timestamp()
 rows = sc.parse_xls(xls)
 if rows:
     last_row = rows[-1]
-    print('Date and time:', last_row['A'].isoformat())
+    print('Date and time:', last_row['A'].date().isoformat())
     print('Confirmed cases:', last_row['Cumul'])
     print('Hospitalized:', last_row['Total des cas hospitalisés'])
     print('ICU:', int(last_row['Soins intensifs (intubés)']) + int(last_row['Soins intensifs (non intubés)']))

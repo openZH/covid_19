@@ -4,6 +4,7 @@ import datetime
 import re
 import sys
 import traceback
+import scrape_matrix as sm
 
 # [^\W\d_]  - will match any lower or upper case alpha character. No digits or underscore.
 
@@ -242,7 +243,6 @@ def maybe_new_int(name, value, old_value, required=False):
             warns.append(f"{name} ({value}) not a number")
     return old_value
 
-import scrape_matrix as sm
 
 try:
     i = 0
@@ -309,17 +309,16 @@ try:
             continue
         assert False, f"Unknown data on line {i}: {l}"
 
-    extras_dict = {
-        # Actually cumulative.
+    data = {
+        'ncumul_conf': cases,
         'ncumul_released': recovered,
-        # Actually instantaneous, not cumulative.
-        # See, README.md
-        'ncumul_hosp': hospitalized,
-        'ncumul_ICU': icu,
-        'ncumul_vent': vent,
+        'ncumul_deceased': deaths,
+        'current_hosp': hospitalized,
+        'current_icu': icu,
+        'current_vent': vent,
     }
     # Remove Nones
-    extras = {k: v for (k, v) in extras_dict.items() if not v is None}
+    extras = {k: v for (k, v) in data.items() if not v is None}
     # Format k,v
     extras = [f"{k}={v}" for (k, v) in extras.items()]
     # Join into list.
@@ -327,32 +326,30 @@ try:
 
     urls = ", ".join(url_sources)
 
-    if date and cases and not errs:
-        violated_expectations = sm.check_expected(abbr, date=date, deaths=deaths, extras=extras_dict)
-        # For now just print warnings on stderr.
-        for violated_expectation in violated_expectations:
-            print(f'WARNING: {violated_expectation}', file=sys.stderr)
+    # if expectations are not met, we treat this as an error
+    violated_expectations = sm.check_expected(abbr, date, data)
+    errs.extend(violated_expectations)
+
+    if date and not errs:
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
             abbr,
             date,
-            cases,
-            deaths if not deaths is None else "-",
+            cases or '-',
+            deaths or "-",
             scrape_time,
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}"))
     else:
         if not date:
             errs.append("Missing date")
-        if not cases:
-            errs.append("Missing cases")
         errs.extend(warns)
         errs = ". ".join(errs)
         print("{:2} {:<16} {:>7} {:>7} FAILED {} {}{}{}".format(
             abbr,
-            date if date else "-",
-            cases if not cases is None else "-",
-            deaths if not deaths is None else "-",
-            scrape_time if not scrape_time is None else "-",
+            date or "-",
+            cases or "-",
+            deaths or "-",
+            scrape_time or "-",
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}",
             f" # Errors: {errs}"))
