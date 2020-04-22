@@ -327,7 +327,7 @@ try:
     urls = ", ".join(url_sources)
 
     # if expectations are not met, we treat this as an error
-    violated_expectations = sm.check_expected(abbr, date=date, deaths=deaths, extras=extras_dict)
+    violated_expectations = sm.check_expected(abbr, date, data)
     errs.extend(violated_expectations)
 
     if date and not errs:
