@@ -309,18 +309,16 @@ try:
             continue
         assert False, f"Unknown data on line {i}: {l}"
 
-    extras_dict = {
-        # Actually cumulative.
+    data = {
         'ncumul_conf': cases,
         'ncumul_released': recovered,
-        # Actually instantaneous, not cumulative.
-        # See, README.md
-        'ncumul_hosp': hospitalized,
-        'ncumul_ICU': icu,
-        'ncumul_vent': vent,
+        'ncumul_deceased': deaths,
+        'current_hosp': hospitalized,
+        'current_icu': icu,
+        'current_vent': vent,
     }
     # Remove Nones
-    extras = {k: v for (k, v) in extras_dict.items() if not v is None}
+    extras = {k: v for (k, v) in data.items() if not v is None}
     # Format k,v
     extras = [f"{k}={v}" for (k, v) in extras.items()]
     # Join into list.

@@ -65,12 +65,12 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                if 'ncumul_hosp' in extras:
-                    data['hospitalized'] = extras['ncumul_hosp']
-                if 'ncumul_ICU' in extras:
-                    data['icu'] = extras['ncumul_ICU']
-                if 'ncumul_vent' in extras:
-                    data['vent'] = extras['ncumul_vent']
+                if 'current_hosp' in extras:
+                    data['hospitalized'] = extras['current_hosp']
+                if 'current_icu' in extras:
+                    data['icu'] = extras['current_icu']
+                if 'current_vent' in extras:
+                    data['vent'] = extras['current_vent']
                 if 'ncumul_released' in extras:
                     data['released'] = extras['ncumul_released']
             except Exception as e:
