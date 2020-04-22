@@ -334,8 +334,8 @@ try:
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
             abbr,
             date,
-            cases or '-',
-            deaths or "-",
+            cases if cases is not None else '-',
+            deaths if deaths in not None else '-',
             scrape_time,
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}"))
@@ -347,8 +347,8 @@ try:
         print("{:2} {:<16} {:>7} {:>7} FAILED {} {}{}{}".format(
             abbr,
             date or "-",
-            cases or "-",
-            deaths or "-",
+            cases if cases is not None else '-',
+            deaths if deaths in not None else '-',
             scrape_time or "-",
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}",
