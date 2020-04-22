@@ -13,36 +13,36 @@ import sys
 # and is not listed in this list.
 matrix = {
     # Note: Please keep the order of cantons and entries.
-    'AG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'AI': ['Confirmed'],
-    'AR': ['Confirmed', 'Deaths'],
-    'BE': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
-    'BL': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'BS': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'FR': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'GE': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'GL': ['Confirmed', 'Deaths', 'Hospitalized'],
-    'GR': ['Confirmed', 'Deaths', 'Hospitalized'],
-    'JU': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'LU': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
+    'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'AI': ['Confirmed cases'],
+    'AR': ['Confirmed cases', 'Deaths'],
+    'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'BS': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'FR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'GE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'JU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'LU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'NE': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
-    'NW': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'OW': ['Confirmed', 'Deaths', 'Hospitalized'],
-    'SG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'SH': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'SO': ['Confirmed', 'Deaths', 'Hospitalized'],
-    'SZ': ['Confirmed', 'Deaths', 'Released'],
-    'TG': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'TI': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'UR': ['Confirmed', 'Deaths', 'Released', 'Hospitalized'],
-    'VD': ['Confirmed', 'Deaths', 'Hospitalized', 'ICU'],
-    'VS': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
-    'ZG': ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'ZH': ['Confirmed', 'Deaths', 'Hospitalized', 'Vent'],
+    'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'SG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'SH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'SO': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'SZ': ['Confirmed cases', 'Deaths', 'Released'],
+    'TG': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'TI': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'UR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized'],
+    'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'VS': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'Vent'],
     # 'FL': [],  # No scraper.
 }
 
-allowed_extras = ['Confirmed', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
+allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
 
 # List of cantons that are expected to have date AND time.
 matrix_time = [
@@ -76,7 +76,7 @@ matrix_time = [
 ]
 
 
-def check_expected(abbr, date, deaths, extras):
+def check_expected(abbr, date, data):
     """
     Verify that canton `abbr` has expected numbers presents.
     If not, return a non-empty list of expectation violations back to the caller.
@@ -90,12 +90,12 @@ def check_expected(abbr, date, deaths, extras):
     violated_expectations = []
 
     cross = {
-        'Deaths': deaths,
-        'Confirmed': extras.get('ncumul_conf'),
-        'Hospitalized': extras.get('ncumul_hosp'),
-        'ICU': extras.get('ncumul_ICU'),
-        'Vent': extras.get('ncumul_vent'),
-        'Released': extras.get('ncumul_released'),
+        'Confirmed cases': data.get('ncumul_conf'),
+        'Deaths': data.get('ncumul_deceased'),
+        'Hospitalized': data.get('current_hosp'),
+        'ICU': data.get('current_icu'),
+        'Vent': data.get('current_vent'),
+        'Released': data.get('ncumul_released'),
     }
 
     # Check for fields that should be there, but aren't

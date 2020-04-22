@@ -10,7 +10,6 @@ if __name__ == '__main__':
     all_features = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
     has_issue = False
     for canton, features in matrix.items():
-        features += ['Confirmed cases']
         print(canton)
         result = subprocess.run([f'./scrape_{canton.lower()}.py'], stdout=subprocess.PIPE)
         output = result.stdout.decode('utf-8')
