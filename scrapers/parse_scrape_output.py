@@ -335,7 +335,7 @@ try:
             abbr,
             date,
             cases if cases is not None else '-',
-            deaths if deaths in not None else '-',
+            deaths if deaths is not None else '-',
             scrape_time,
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}"))
@@ -348,7 +348,7 @@ try:
             abbr,
             date or "-",
             cases if cases is not None else '-',
-            deaths if deaths in not None else '-',
+            deaths if deaths is not None else '-',
             scrape_time or "-",
             f" # Extras: {extras}" if extras else "",
             f" # URLs: {urls}",
