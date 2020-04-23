@@ -15,7 +15,7 @@ matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'AI': ['Confirmed cases'],
-    'AR': ['Confirmed cases', 'Deaths'],
+    'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],

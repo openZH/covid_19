@@ -35,6 +35,14 @@ print('Date and time:', t)
 # <li>laborbestätigte Fälle: <strong>44 </strong>Personen</li>
 # <li>Todesfälle: <strong>2 </strong>Personen</li>
 
+# 2020-04-23
+# <li>laborbestätigte Fälle kumuliert: <strong>88 </strong>Personen</li>
+# <li>aktuell hospitalisierte COVID-19-Patienten (inkl. Verdachtsfälle, Station + IPS): <strong>5</strong> Personen</li>
+# IPS-COVID-19-Patienten (inkl. Verdachtsfälle, mit und ohne Beatmung):<br /> 		<strong>2</strong> Personen
+# <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
+
 # Use non-greedy matching for some parts.
-print('Confirmed cases:', sc.find(r'bestätigte Fälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
-print('Deaths:', sc.find(r'Todesfälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+print('Confirmed cases:', sc.find(r'bestätigte Fälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+print('Hospitalized:', sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+Station\s+[+]\s+IPS\):\s+<strong>(\d+)</strong>', d))
+print('ICU:', sc.find(r'IPS-COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):<br\s*/>\s+<strong>(\d+)</strong>\s+Personen', d))
+print('Deaths:', sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
