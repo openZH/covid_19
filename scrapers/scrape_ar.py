@@ -35,6 +35,11 @@ print('Date and time:', t)
 # <li>laborbestätigte Fälle: <strong>44 </strong>Personen</li>
 # <li>Todesfälle: <strong>2 </strong>Personen</li>
 
+# 2020-04-23
+# <li>laborbestätigte Fälle kumuliert: <strong>88 </strong>Personen</li>
+# <li>aktuell hospitalisierte COVID-19-Patienten (inkl. Verdachtsfälle, Station + IPS): <strong>5</strong> Personen</li>
+# <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
+
 # Use non-greedy matching for some parts.
-print('Confirmed cases:', sc.find(r'bestätigte Fälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
-print('Deaths:', sc.find(r'Todesfälle:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+print('Confirmed cases:', sc.find(r'bestätigte Fälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+print('Deaths:', sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
