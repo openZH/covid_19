@@ -327,8 +327,9 @@ try:
     urls = ", ".join(url_sources)
 
     # if expectations are not met, we treat this as an error
-    violated_expectations = sm.check_expected(abbr, date, data)
+    violated_expectations, warnings_exp = sm.check_expected(abbr, date, data)
     errs.extend(violated_expectations)
+    warns.extend(warnings_exp)
 
     if date and not errs:
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
