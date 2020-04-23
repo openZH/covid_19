@@ -23,8 +23,12 @@ print('Recovered:', sc.find(r'([0-9]+)\s+Personen\s+als\s+geheilt', d))
 
 print('Hospitalized:', sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d))
 
-print('ICU:', sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d))
+icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d)
+print('ICU:', icu)
 
-print('Vent:', sc.find(r'([0-9]+)\s+Person(en)?\s+künstlich\s+beatmet', d))
+vent = sc.find(r'([0-9]+|alle)\s+Person(en)?\s+künstlich\s+beatmet', d)
+if vent == 'alle':
+    vent = icu
+print('Vent:', vent)
 
 print('Deaths:', sc.find(r'([0-9]+)\s+Person(en)?\s+an\s+den\s+Folgen\s+des\s+Coronavirus\s+verstorben', d))
