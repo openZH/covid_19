@@ -34,6 +34,11 @@ def download(url, encoding='utf-8'):
     downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
     return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
 
+def jsondownload(url):
+    print("Downloading:", url)
+    r = requests.get(url)
+    return r.json()
+
 def xlsdownload(url):
     print("Downloading:", url)
     r = requests.get(url) 
@@ -52,6 +57,8 @@ def parse_xls(book, sheet_index=0, header_row=1):
             value = sheet.cell_value(r, c)
             if cell_type == xlrd.XL_CELL_DATE:
                 entry[h] = xlrd.xldate.xldate_as_datetime(value, book.datemode)
+            elif cell_type == xlrd.XL_CELL_EMPTY:
+                entry[h] = None
             elif represents_int(value):
                 entry[h] = int(value)
             else:
