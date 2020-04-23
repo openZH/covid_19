@@ -50,7 +50,7 @@ def parse_xls(book, sheet_index=0, header_row=1):
     sheet = book.sheet_by_index(sheet_index)
     # if a header cell is empty, the name of the column (e.g. "A") is used instead
     headers = {c: sheet.cell_value(header_row, c) or xlrd.formula.colname(c) for c in range(sheet.ncols)} 
-    for r in range(sheet.nrows):
+    for r in range(header_row + 1, sheet.nrows):
         entry = {}
         for c, h in headers.items():
             cell_type = sheet.cell_type(r, c)
