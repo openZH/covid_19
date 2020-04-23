@@ -166,6 +166,7 @@ if m:
             continue
         parsed_rows.append(columns)
 
+
     # Get last non-empty row.
     last_row = parsed_rows[-1]
 
@@ -175,7 +176,7 @@ if m:
 
     # Some rows do have more than 5 columns actually (6 columns), but these extra
     # columns are empty and don't have any meaning. So only use first 5 columns.
-    date, cases, hospitalized, icu, death = last_row[0:5]
+    date, cases, hospitalized, icu = last_row[0:4]
 
     # The date in table, is just a day without a time.
     # But make at least it is the same day as the other source.
@@ -191,5 +192,7 @@ if m:
         print('Hospitalized:', hospitalized)
     if icu:
         print('ICU:', icu)
-    if death:
-        print('Deaths:', death)
+
+    # sum the daily death numbers
+    deaths = sum([int(d[4]) for d in parsed_rows if len(d) >= 5 and re.search(r'^\d+$', d[4])])
+    print('Deaths:', deaths)
