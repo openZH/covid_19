@@ -29,7 +29,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: ZG
-        SCRAPER_SOURCE: https://www.zg.ch/behoerden/gesundheitsdirektion/amt-fuer-gesundheit/corona
+        SCRAPER_SOURCE: https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
       run: |
         ./scrapers/run_scraper.sh
         
