@@ -87,8 +87,7 @@ d = d.replace('&nbsp;', ' ')
                     </div>
 """
 
-# Use non-greedy matching.
-print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+?),\s*(?:liegen\s*)?insgesamt', d))
+print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+\s+(:?Uhr)?),\s*(?:liegen\s*)?(?:insgesamt\s*)?', d))
 
 m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
 if m:

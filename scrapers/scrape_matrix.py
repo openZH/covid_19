@@ -112,7 +112,7 @@ def check_expected(abbr, date, data):
             print(f'WARNING: {text}', file=sys.stderr)
             warnings.append(text)
 
-    assert "T" in date
+    assert date and "T" in date, f'Date is invalid: {date}'
     date_time = date.split("T", 1)
     assert len(date_time[0]) == 10
     if abbr in matrix_time:
