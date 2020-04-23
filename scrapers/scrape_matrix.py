@@ -58,7 +58,7 @@ matrix_time = [
     # 'GR',  # Not available.
     'JU',
     'LU',
-    'NW',
+    # 'NW',  # Not available
     # 'NE',  # Not easily available.
     'OW',
     # 'SG',  # Not available.
