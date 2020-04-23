@@ -58,7 +58,7 @@ matrix_time = [
     # 'GR',  # Not available.
     'JU',
     'LU',
-    'NW',
+    # 'NW',  # Not available
     # 'NE',  # Not easily available.
     'OW',
     # 'SG',  # Not available.
@@ -82,12 +82,14 @@ def check_expected(abbr, date, data):
     If not, return a non-empty list of expectation violations back to the caller.
     """
     expected_extras = matrix[abbr]
+    violated_expectations = []
+    warnings = []
 
     for k in expected_extras:
         if k not in allowed_extras:
-            print(f'WARNING: Unknown extra {k} present (typo?) in expectation matrix[{abbr}]', file=sys.stderr)
-
-    violated_expectations = []
+            text = f'Unknown extra {k} present (typo?) in expectation matrix[{abbr}]'
+            print(f'WARNING: {text}', file=sys.stderr)
+            warnings.append(text)
 
     cross = {
         'Confirmed cases': data.get('ncumul_conf'),
@@ -106,7 +108,9 @@ def check_expected(abbr, date, data):
     # Check for new fields, that are there, but we didn't expect them
     for k, v in cross.items():
         if v is not None and k not in expected_extras:
-            violated_expectations.append(f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.')
+            text = f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.'
+            print(f'WARNING: {text}', file=sys.stderr)
+            warnings.append(text)
 
     assert "T" in date
     date_time = date.split("T", 1)
@@ -116,7 +120,8 @@ def check_expected(abbr, date, data):
             violated_expectations.append(f'Expected time of a day to be present for {abbr}. Found none.')
     else:
         if len(date_time[1]) != 0:
-            violated_expectations.append(
-                f'Not expected time of a day to be present for {abbr}. Found "{date_time[1]}". Update scrape_matrix.py file?')
+            text = f'Not expected time of a day to be present for {abbr}. Found "{date_time[1]}". Update scrape_matrix.py file?'
+            print(f'WARNING: {text}', file=sys.stderr)
+            warnings.append(text)
 
-    return violated_expectations
+    return (violated_expectations, warnings)
