@@ -28,19 +28,22 @@ spelledOutNumbersMap = {
 }
 
 
-def download(url, encoding='utf-8'):
+def download(url, encoding='utf-8', silent=False):
     """curl like"""
-    print("Downloading:", url)
+    if not silent:
+        print("Downloading:", url)
     downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
     return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
 
-def jsondownload(url):
-    print("Downloading:", url)
+def jsondownload(url, silent=False):
+    if not silent:
+        print("Downloading:", url)
     r = requests.get(url)
     return r.json()
 
-def xlsdownload(url):
-    print("Downloading:", url)
+def xlsdownload(url, silent=False):
+    if not silent:
+        print("Downloading:", url)
     r = requests.get(url) 
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
@@ -70,9 +73,10 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None):
         rows.append(entry)
     return rows
 
-def pdfdownload(url, encoding='utf-8', raw=False, layout=False):
+def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False):
     """Download a PDF and convert it to text"""
-    print("Downloading:", url)
+    if not silent:
+        print("Downloading:", url)
     downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
     with subprocess.Popen([downloader, url], stdout=subprocess.PIPE) as pdf:
         pdf_command = ['pdftotext']
