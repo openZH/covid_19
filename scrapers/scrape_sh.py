@@ -4,9 +4,8 @@
 import scrape_common as sc
 import json
 
-print('SH')
 # A JavaScript content loaded from https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-m = sc.jsondownload('https://sh.ch/CMS/content.jsp?contentid=3666465&language=DE')
+m = sc.jsondownload('https://sh.ch/CMS/content.jsp?contentid=3666465&language=DE', silent=True)
 
 # 2020-04-24
 """
@@ -57,20 +56,29 @@ m = sc.jsondownload('https://sh.ch/CMS/content.jsp?contentid=3666465&language=DE
 """
 
 meta = json.loads(m['data_filemeta'])
-xlsurl = f"https://sh.ch{meta['url']}"
-xls = sc.xlsdownload(xlsurl)
-sc.timestamp()
+xls_url = f"https://sh.ch{meta['url']}"
+xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls, header_row=0)
-if rows:
-    # find last row
-    last_row = None
-    for row in rows:
-        if row['Datum'] is None:
-            break
-        last_row = row
-    print('Date and time:', last_row['Datum'].date().isoformat(), last_row['Uhrzeit'].time().isoformat())
-    print('Confirmed cases:', last_row['Positiv'])
-    print('Hospitalized:', (last_row['Hospitalisiert_Iso'] + last_row['Hospitalisiert_Intensiv']))
-    print('ICU:', last_row['Hospitalisiert_Intensiv'])
-    print('Deaths:', last_row['Verstorben'])
+for i, row in enumerate(rows):
+    if row['Datum'] is None:
+        break
+
+    print('SH')
+    sc.timestamp()
+    print('Downloading:', xls_url)
+    if row['Uhrzeit']:
+        print('Date and time:', row['Datum'].date().isoformat(), row['Uhrzeit'].time().isoformat())
+    else:
+        print('Date and time:', row['Datum'].date().isoformat())
+
+    print('Confirmed cases:', row['Positiv'])
+    if row['Hospitalisiert_Iso'] and row['Hospitalisiert_Intensiv']:
+        print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
+        print('ICU:', row['Hospitalisiert_Intensiv'])
+    print('Deaths:', row['Verstorben'])
+    # do not print record delimiter for last record
+    # this is an indicator for the next script to check
+    # for expected values.
+    if len(rows) - 1 > i:
+        print('-' * 10)
