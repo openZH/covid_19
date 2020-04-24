@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
