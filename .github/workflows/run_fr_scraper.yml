@@ -2,7 +2,7 @@ name: Run FR scraper
 
 on:
   schedule:
-    - cron:  '8 * * * *'
+    - cron:  '47 * * * *'
 
 jobs:
   run_scraper:
