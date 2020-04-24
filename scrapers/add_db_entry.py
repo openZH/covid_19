@@ -124,8 +124,44 @@ try:
                     data['source'],
                 ]
             )
+            print("Successfully added new entry.")
         except sqlite3.IntegrityError:
-            print("Error: Data for this date has already been added")
+            if os.environ.get('SCRAPER_OVERWRITE') == 'yes':
+                c.execute(
+                    '''
+                    UPDATE data
+                    SET 
+                        time = ? ,
+                        ncumul_tested = ? ,
+                        ncumul_conf = ? , 
+                        new_hosp = ? ,
+                        current_hosp = ? ,
+                        current_icu = ? ,
+                        current_vent = ? ,
+                        ncumul_released = ? ,
+                        ncumul_deceased = ?,
+                        source = ?
+                    WHERE date = ?
+                    AND   abbreviation_canton_and_fl = ?
+                    ''',
+                    [
+                        data['time'],
+                        data['tested'],
+                        data['confirmed'],
+                        data['new_hospitalized'],
+                        data['hospitalized'],
+                        data['icu'],
+                        data['vent'],
+                        data['released'],
+                        data['deceased'],
+                        data['source'],
+                        data['date'],
+                        data['area'],
+                    ]
+                )
+                print("Successfully updated entry.")
+            else:
+                print("Error: Data for this date has already been added")
         finally:
             conn.commit()
 except Exception as e:

@@ -20,11 +20,14 @@ xls = sc.xlsdownload(xls_url)
 sc.timestamp()
 
 rows = sc.parse_xls(xls, header_row=0, sheet_name='Données sites internet')
-if rows:
-    last_row = rows[-1]
-    print('Date and time:', last_row['Date'].date().isoformat())
-    print('Confirmed cases:', last_row['Total cas avérés'])
-    print('Hospitalized:', last_row['Personnes hospitalisées'])
-    print('ICU:', last_row['dont soins intensifs'])
-    print('Deaths:', last_row['Total décès'])
-    print('Recovered:', last_row['Total Sortis de l\'hôpital'])
+for row in rows:
+    print('FR')
+    sc.timestamp()
+    print('Downloading:', xls_url)
+    print('Date and time:', row['Date'].date().isoformat())
+    print('Confirmed cases:', row['Total cas avérés'])
+    print('Hospitalized:', row['Personnes hospitalisées'])
+    print('ICU:', row['dont soins intensifs'])
+    print('Deaths:', row['Total décès'])
+    print('Recovered:', row['Total Sortis de l\'hôpital'])
+    print('-' * 10)
