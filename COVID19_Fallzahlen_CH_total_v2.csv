@@ -228,7 +228,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-14,,TI,,265,,,,,,3,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187466&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=1b10e6e8117296766155edcf9c317a4c
 2020-03-14,,VD,,311,,76,10,,5,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-14,,VS,,98,,33,1,1,,1,https://www.vs.ch/documents/6756452/7008787/2020%2004%2023%20Sit%20Epid%20-%20%C3%89tat%20Stand
-2020-03-14,03:03,SZ,10,12,,,,,,,"https://www.bote.ch/nachrichten/schwyz/schwyz_bdu/coronavirus-einsatz-fuer-spitalbataillon-5;art146989,1229758"
+2020-03-14,03:03,SZ,10,12,,,,,,,https://www.bote.ch/nachrichten/schwyz/schwyz_bdu/coronavirus-einsatz-fuer-spitalbataillon-5
 2020-03-14,08:00,ZG,,13,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-14,11:27,BS,,100,,13,,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238773726423941127?s=20
 2020-03-14,14:30,ZH,,219,,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -428,6 +428,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-24,,NW,,42,,4,,,,,http://www.nw.ch/coronastatistik
 2020-03-24,,OW,,25,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-24,,SH,,34,,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-03-24,,SZ,,97,,,,,10,0,https://www.sz.ch/public/upload/assets/46169/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-24,,TG,,87,,,,,,1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & https://www.tg.ch/news/news-detailseite.html/485/news/44925
 2020-03-24,,VD,,2112,,285,41,,100,32,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-24,00:00,SO,,104,,,,,,1,https://corona.so.ch/
@@ -454,7 +455,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-25,,OW,,27,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-25,,SG,,228,,,,,,1,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-25,,SH,,35,,10,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-25,,SZ,,99,,,,,10,,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-25,,SZ,,,,,,,10,0,https://www.sz.ch/public/upload/assets/46178/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-25,,TG,,96,,,,,,1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-25,,VD,,2302,,313,52,,117,40,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-25,00:00,SO,,129,,,,,,1,https://corona.so.ch/
@@ -480,7 +481,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-26,,OW,,30,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-26,,SG,,306,,,,,,2,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-26,,SH,,36,,6,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-26,,SZ,,99,,,,,10,1,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-26,,SZ,,107,,,,,20,0,https://www.sz.ch/public/upload/assets/46199/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-26,,TG,,110,,,,,,1,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-26,,UR,,38,,4,,,2,,https://www.ur.ch/themen/2920
 2020-03-26,,VD,,2604,,326,57,,148,57,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -506,7 +507,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-27,,NW,,54,,3,,,,,http://www.nw.ch/coronastatistik
 2020-03-27,,OW,,37,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-27,,SH,,37,,10,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-27,,SZ,,119,,,,,32,1,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-27,,SZ,,119,,,,,32,1,https://www.sz.ch/public/upload/assets/46266/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-27,,TG,,117,,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552 & email der Staatskanzlei des Kanton Thurgau
 2020-03-27,,UR,,40,,7,,,3,,https://www.ur.ch/themen/2920
 2020-03-27,,VD,,2817,,361,61,,174,61,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -532,7 +533,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-28,,NW,,55,,4,,,,,http://www.nw.ch/coronastatistik
 2020-03-28,,SG,,339,,,,,,5,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-28,,SH,,40,,14,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-28,,SZ,,122,,,,,33,2,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-28,,SZ,,122,,,,,33,1,https://www.sz.ch/public/upload/assets/46298/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-28,,TG,,134,,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-28,,UR,,48,,7,,,3,,https://www.ur.ch/themen/2920
 2020-03-28,,VD,,3002,,370,63,,187,72,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -557,7 +558,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-29,,NW,,59,,4,,,,,http://www.nw.ch/coronastatistik
 2020-03-29,,SG,,365,,,,,,5,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-29,,SH,,41,,15,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-29,,SZ,,128,,,,,33,2,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-29,,SZ,,128,,,,,33,2,https://www.sz.ch/public/upload/assets/46137/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-29,,TG,,138,,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-29,,UR,,50,,7,,,3,,https://www.ur.ch/themen/2920
 2020-03-29,,VD,,3246,,373,65,,203,81,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -581,7 +582,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-30,,OW,,46,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-30,,SG,,389,,,,,,5,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-30,,SH,,42,,19,3,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-30,,SZ,,135,,,,,33,2,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-30,,SZ,,135,,,,,33,2,https://www.sz.ch/public/upload/assets/46153/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-30,,TG,,148,,,,,,2,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-30,,UR,,53,,7,,,9,,https://www.ur.ch/themen/2920
 2020-03-30,,VD,,3351,,376,68,,223,92,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -607,7 +608,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-31,,OW,,46,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-03-31,,SG,,414,,,,,,7,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-31,,SH,,44,,18,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-31,,SZ,,141,,,,,48,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-03-31,,SZ,,140,,,,,48,4,https://www.sz.ch/public/upload/assets/46165/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-03-31,,TG,,154,,,,,,3,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-31,,UR,,57,,9,,,11,,https://www.ur.ch/themen/2920
 2020-03-31,,VD,,3548,,384,71,,225,104,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -634,7 +635,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-01,,OW,,48,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-01,,SG,,414,,,,,,7,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-01,,SH,,44,,10,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-01,,SZ,,146,,,,,65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-01,,SZ,,146,,,,,65,4,https://www.sz.ch/public/upload/assets/46167/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-01,,TG,,166,,,,,,4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-01,,UR,,59,,10,,,13,1,https://www.ur.ch/themen/2920
 2020-04-01,,VD,,3721,,390,74,,,115,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -660,7 +661,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-02,,OW,,51,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-02,,SG,,480,,64,11,,49,8,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-02,,SH,,47,,18,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-02,,SZ,,155,,,,,65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-02,,SZ,,155,,,,,65,4,https://www.sz.ch/public/upload/assets/46169/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-02,,TG,,179,,,,,,4,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-02,,VD,,3874,,381,75,,,134,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-02,00:00,SO,,227,,14,,,,3,https://corona.so.ch/index.php?id=27979
@@ -687,7 +688,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-03,,OW,,56,,,,,,,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-03,,SG,,480,,75,12,,50,8,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-03,,SH,,47,,9,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-03,,SZ,,164,,,,,75,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-03,,SZ,,165,,,,,75,4,https://www.sz.ch/public/upload/assets/46178/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-03,,TG,,198,,,,,,5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-03,,VD,,4000,,371,72,,,152,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-03,00:00,SO,,237,,17,,,,3,https://corona.so.ch/index.php?id=27979
@@ -713,7 +714,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-04,,NW,,80,,10,2,,,,http://www.nw.ch/coronastatistik
 2020-04-04,,SG,,504,,79,13,,62,9,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-04,,SH,,47,,12,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-04,,SZ,,168,,,,,92,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-04,,SZ,,168,,,,,92,5,https://www.sz.ch/public/upload/assets/46199/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-04,,TG,,208,,,,,,5,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-04,,VD,,4130,,371,72,,,162,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-04,00:00,SO,,250,,,,,,3,https://corona.so.ch/index.php?id=27979
@@ -738,7 +739,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-05,,NW,,80,,9,2,,,,http://www.nw.ch/coronastatistik
 2020-04-05,,SG,,515,,70,13,,70,9,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-05,,SH,,49,,12,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-05,,SZ,,170,,,,,93,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-05,,SZ,,170,,,,,93,5,https://www.sz.ch/public/upload/assets/46266/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-05,,TG,,213,,,,,,7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-05,,VD,,4202,,382,70,,,174,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-05,00:00,SO,,258,,16,,,,3,https://corona.so.ch/index.php?id=27979
@@ -761,7 +762,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-06,,NW,,86,,11,2,,,,http://www.nw.ch/coronastatistik
 2020-04-06,,SG,,532,,70,12,,75,11,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-06,,SH,,50,,15,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-06,,SZ,,178,,,,,93,6,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-06,,SZ,,178,,,,,93,6,https://www.sz.ch/public/upload/assets/46298/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-06,,TG,,219,,34,14,,,7,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-06,,VD,,4233,,366,68,,,190,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-06,00:00,SO,,261,,26,,,,3,https://corona.so.ch/index.php?id=27979
@@ -787,7 +788,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-07,,GR,,684,,49,,,,35,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-07,,NW,,87,,9,2,,,,http://www.nw.ch/coronastatistik
 2020-04-07,,SG,,557,,65,9,,79,13,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-07,,SZ,,185,,,,,105,7,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-07,,SZ,,185,,,,,105,7,https://www.sz.ch/public/upload/assets/46137/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-07,,TG,,221,,33,13,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-07,,VD,,4308,,340,68,,,202,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-07,00:00,SO,,264,,29,,,,3,https://corona.so.ch/index.php?id=27979
@@ -813,7 +814,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-08,,GR,,698,,38,,,,35,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-08,,NW,,93,,9,1,,,,http://www.nw.ch/coronastatistik
 2020-04-08,,SG,,578,,52,12,,89,15,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-08,,SZ,,196,,,,,107,7,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2020-04-08,,SZ,,196,,,,,107,7,https://www.sz.ch/public/upload/assets/46153/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-08,,TG,,236,,30,15,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-08,,VD,,4384,,333,67,,,214,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-08,00:00,SO,,276,,22,,,,3,https://corona.so.ch/index.php?id=27979
@@ -839,7 +840,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-09,,GR,,719,,39,,,,36,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-09,,NW,,96,,9,1,,,,http://www.nw.ch/coronastatistik
 2020-04-09,,SG,,604,0,52,13,,92,16,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-09,,SZ,,213,,,,,113,9,https://www.sz.ch/public/upload/assets/46039/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-09,,SZ,,213,,,,,113,9,https://www.sz.ch/public/upload/assets/46165/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-09,,TG,,255,,27,12,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-09,,VD,,4486,,317,68,,,228,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-09,00:00,SO,,282,,23,,,,5,https://corona.so.ch/index.php?id=27979
@@ -866,7 +867,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-10,,GR,,730,,35,,,,36,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-10,,NW,,100,,7,1,,,,http://www.nw.ch/coronastatistik
 2020-04-10,,SG,,632,,60,11,,93,17,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-10,,SZ,,215,,,,,118,10,https://www.sz.ch/public/upload/assets/46056/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-10,,SZ,,215,,,,,118,10,https://www.sz.ch/public/upload/assets/46167/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-10,,TG,,264,,32,13,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-10,,VD,,4591,,308,70,,,235,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-10,00:00,SO,,294,,22,,,,5,https://corona.so.ch/index.php?id=27979
@@ -891,7 +892,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-11,,GR,,743,,35,,,,36,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-11,,NW,,103,,8,2,,,1,http://www.nw.ch/coronastatistik
 2020-04-11,,SG,,641,,60,11,,102,18,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-11,,SZ,,249,,,,,118,10,https://www.sz.ch/public/upload/assets/46061/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-11,,SZ,,249,,,,,118,10,https://www.sz.ch/public/upload/assets/46169/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-11,,TG,,274,,32,14,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-11,,VD,,4625,,294,70,,,241,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-11,00:00,SO,,306,,,,,,6,https://corona.so.ch/index.php?id=27979
@@ -917,7 +918,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-12,,GR,,747,,35,,,,36,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-12,,NW,,104,,7,2,,,1,http://www.nw.ch/coronastatistik
 2020-04-12,,SG,,649,,58,9,,109,21,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-12,,SZ,,251,,,,,119,11,https://www.sz.ch/public/upload/assets/46063/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-12,,SZ,,251,,,,,119,11,https://www.sz.ch/public/upload/assets/46178/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-12,,TG,,285,,32,14,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-12,,VD,,4706,,303,69,,,249,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-12,00:00,SO,,315,,23,,,,7,https://corona.so.ch/index.php?id=27979
@@ -941,7 +942,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-13,,GR,,750,,34,,,,37,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-13,,NW,,104,,7,2,,,1,http://www.nw.ch/coronastatistik
 2020-04-13,,SG,,657,,58,10,,119,21,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-13,,SZ,,251,,,,,128,12,https://www.sz.ch/public/upload/assets/46064/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-13,,SZ,,251,,,,,128,12,https://www.sz.ch/public/upload/assets/46199/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-13,,TG,,292,,32,17,,,8,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-13,,VD,,4740,,303,66,,,255,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-13,00:00,SO,,321,,23,,,,7,https://corona.so.ch/index.php?id=27979
@@ -966,7 +967,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-14,,GR,,753,,34,,,,37,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-14,,NW,,105,,7,2,,,1,http://www.nw.ch/coronastatistik
 2020-04-14,,SG,,664,,59,9,,120,21,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-14,,SZ,,258,,,,,128,13,https://www.sz.ch/public/upload/assets/46067/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-14,,SZ,,258,,,,,128,13,https://www.sz.ch/public/upload/assets/46266/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-14,,TG,,296,,35,16,,,10,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-14,,VD,,4794,,286,63,,,265,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-14,00:00,SO,,325,,22,,,,8,https://corona.so.ch/index.php?id=27979
@@ -993,7 +994,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-15,,GR,,759,,36,,,,38,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-15,,NW,,106,,7,2,,,2,http://www.nw.ch/coronastatistik
 2020-04-15,,SG,,676,,47,9,,123,23,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-04-15,,SZ,,261,,,,,144,13,https://www.sz.ch/public/upload/assets/46093/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
+2020-04-15,,SZ,,261,,,,,144,13,https://www.sz.ch/public/upload/assets/46298/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-15,,TG,,302,,28,14,,,11,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-15,,VD,,4843,,259,59,,,282,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-15,00:00,SO,,329,,22,,,,8,https://corona.so.ch/index.php?id=27979
@@ -1073,10 +1074,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-18,,GR,,773,,29,,,,40,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-18,,NW,,108,,4,2,,,3,http://www.nw.ch/coronastatistik
 2020-04-18,,SG,,699,,44,7,,150,27,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-18,,SZ,,266,,,,,176,14,https://www.sz.ch/public/upload/assets/46165/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-18,,TG,,332,,23,12,,,13,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-18,,VD,,4972,,235,52,,,302,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-18,00:00,SO,,353,,19,,,,10,https://corona.so.ch/index.php?id=27979
-2020-04-18,00:01,SZ,,266,,,,,176,14,https://www.sz.ch/public/upload/assets/46165/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-18,08:00,BE,,1586,,71,22,12,,69,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-18,08:00,TI,,2994,,244,56,42,606,277,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187644&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=df3ace8d6228b4587b78db3bfa080a83
 2020-04-18,08:00,ZG,,175,,11,6,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -1097,10 +1098,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-19,,GR,,778,,28,,,,41,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-19,,NW,,108,,4,2,,,3,http://www.nw.ch/coronastatistik
 2020-04-19,,SG,,705,,45,7,,150,27,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-19,,SZ,,268,,,,,180,15,https://www.sz.ch/public/upload/assets/46167/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-19,,TG,,333,,23,12,,,13,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-19,,VD,,4993,,238,52,,,306,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-19,00:00,SO,,355,,19,,,,11,https://corona.so.ch/index.php?id=27979
-2020-04-19,00:01,SZ,,268,,,,,180,15,https://www.sz.ch/public/upload/assets/46167/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-19,08:00,BE,,1599,,78,20,13,,69,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-19,08:00,TI,,3032,,237,54,42,616,281,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187645&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=7c0ead3ab8e681d79f11cb3d67995946
 2020-04-19,08:00,ZG,,175,,11,5,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -1122,13 +1123,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-20,,GR,,785,,29,,,,42,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
 2020-04-20,,NW,,108,,4,2,,,3,http://www.nw.ch/coronastatistik
 2020-04-20,,SG,,711,,42,7,,159,27,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-04-20,,SZ,,272,,,,,180,15,https://www.sz.ch/public/upload/assets/46169/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-20,,TG,,335,,24,12,,,13,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-20,,VD,,5007,,221,48,,,315,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-20,00:00,SO,,355,,19,,,,11,https://corona.so.ch/index.php?id=27979
 2020-04-20,08:00,BE,,1613,,71,19,11,,73,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-20,08:00,TI,,3058,,237,54,42,616,288,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187648&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8c7fb45c6eada1e8d97d120f23176eb1
 2020-04-20,08:00,ZG,,176,,9,4,,99,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-04-20,08:54,SZ,,272,,,,,180,15,https://www.sz.ch/public/upload/assets/46169/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-20,09:30,BS,,928,,,,,770,42,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-20,09:30,SH,,63,,6,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-20,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -1152,12 +1153,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-21,,TG,,339,,24,12,,,13,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-04-21,,VD,,5041,,208,47,,,321,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-21,00:00,SO,,359,,19,,,,11,https://corona.so.ch/index.php?id=27979
-2020-04-21,07:43,SZ,,276,,,,,192,16,https://www.sz.ch/public/upload/assets/46178/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-21,08:00,BE,,1622,,66,17,11,,77,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-21,08:00,TI,,3065,,236,54,36,639,291,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187654&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8ae7085e87cf92c2997d0e458baa17f9
 2020-04-21,08:00,ZG,,176,,6,3,,99,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-21,09:15,BS,,928,,54,9,,781,44,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html
 2020-04-21,09:30,SH,,63,,10,2,,,2,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-21,10:00,SZ,,276,,,,,192,16,https://www.sz.ch/public/upload/assets/46178/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-21,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-21,11:30,OW,,67,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-21,12:00,LU,,643,,35,5,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -1182,9 +1183,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-22,08:00,BE,,1643,,67,14,10,,77,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-22,08:00,TI,,3089,,213,42,32,661,295,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187672&cHash=73c20eed4b20c3cb714758f2678c3f15
 2020-04-22,08:00,ZG,,178,,5,3,,131,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-04-22,08:23,SZ,,282,,,,,194,16,https://www.sz.ch/public/upload/assets/46199/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-22,09:30,SH,,63,,10,2,,,3,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-22,09:45,BS,,928,,49,7,,786,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html
+2020-04-22,10:00,SZ,,282,,,,,194,16,https://www.sz.ch/public/upload/assets/46199/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-22,11:00,AI,,24,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-22,11:00,LU,,648,,,,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-22,13:30,GL,,117,,3,,,,6,https://www.gl.ch/public/upload/assets/27574/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
@@ -1207,9 +1208,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-23,08:00,BE,,1670,,66,11,7,,79,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-04-23,08:00,TI,,3106,,215,41,32,676,298,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187678&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=c546dd2da307919487d6578b8c7353cd
 2020-04-23,08:00,ZG,,178,,5,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-04-23,08:20,SZ,,282,,,,,198,16,https://www.sz.ch/public/upload/assets/46266/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-23,09:00,BS,,931,,42,7,,793,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-931-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-23,09:30,SH,,65,,8,2,,,3,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2020-04-23,10:00,SZ,,282,,,,,198,16,https://www.sz.ch/public/upload/assets/46266/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-23,11:00,AI,,25,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-23,11:00,LU,,654,,,,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-23,12:00,GE,,,,284,29,27,592,,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
