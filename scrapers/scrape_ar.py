@@ -4,6 +4,7 @@ import scrape_common as sc
 
 print('AR')
 d = sc.download('https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/')
+d = d.replace('&nbsp;', ' ')
 sc.timestamp()
 # d = sc.filter('Aktuelle Informationen: Zahlen', d)
 
@@ -41,8 +42,14 @@ print('Date and time:', t)
 # IPS-COVID-19-Patienten (inkl. Verdachtsfälle, mit und ohne Beatmung):<br /> 		<strong>2</strong> Personen
 # <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
 
+# 2020-04-24
+# <li>laborbestätigte Fälle kumuliert: <strong>88 </strong>Personen</li>
+# <li>aktuell hospitalisierte COVID-19-Patienten (inkl. Verdachtsfälle, Station + IPS):&nbsp;<strong>4</strong> Personen</li>
+# <li>aktuelle IPS-COVID-19-Fälle (inkl. Verdachtsfälle, mit und ohne Beatmung): <strong>2</strong> Personen</li>
+# <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
+
 # Use non-greedy matching for some parts.
 print('Confirmed cases:', sc.find(r'bestätigte Fälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
 print('Hospitalized:', sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+Station\s+[+]\s+IPS\):\s+<strong>(\d+)</strong>', d))
-print('ICU:', sc.find(r'IPS-COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):<br\s*/>\s+<strong>(\d+)</strong>\s+Personen', d))
+print('ICU:', sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d))
 print('Deaths:', sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
