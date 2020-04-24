@@ -214,7 +214,6 @@ date_tests = [
 for text, date in date_tests:
     assert parse_date(text) == date, f"parse_date('{text}') = '{parse_date(text)}', but expected '{date}'"
 
-
 abbr = None
 url_sources = []
 scrape_time = None
@@ -229,9 +228,10 @@ vent = None
 errs = []
 warns = []
 
-
 def maybe_new_int(name, value, old_value, required=False):
     """Parse a string value as int, or return old_value if not possible."""
+    global err
+    global warns
     if value is None:
         return old_value
     try:
@@ -244,11 +244,82 @@ def maybe_new_int(name, value, old_value, required=False):
     return old_value
 
 
+def finalize_record(check_expectations=False):
+    # do nothing if record has already been finalized
+    if not abbr:
+        return
+    print("Finalize", check_expectations)
+    global errs
+    global warns
+    data = {
+        'ncumul_conf': cases,
+        'ncumul_released': recovered,
+        'ncumul_deceased': deaths,
+        'current_hosp': hospitalized,
+        'current_icu': icu,
+        'current_vent': vent,
+    }
+    # Remove Nones
+    extras = {k: v for (k, v) in data.items() if not v is None}
+    # Format k,v
+    extras = [f"{k}={v}" for (k, v) in extras.items()]
+    # Join into list.
+    extras = ",".join(extras)
+
+    urls = ", ".join(url_sources)
+
+    # if expectations are not met, we treat this as an error
+    if check_expectations:
+        violated_expectations, warnings_exp = sm.check_expected(abbr, date, data)
+        errs.extend(violated_expectations)
+        warns.extend(warnings_exp)
+
+    if date and not errs:
+        print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
+            abbr,
+            date,
+            cases if cases is not None else '-',
+            deaths if deaths is not None else '-',
+            scrape_time,
+            f" # Extras: {extras}" if extras else "",
+            f" # URLs: {urls}"))
+    else:
+        if not date:
+            errs.append("Missing date")
+        errs.extend(warns)
+        errs = ". ".join(errs)
+        print("{:2} {:<16} {:>7} {:>7} FAILED {} {}{}{}".format(
+            abbr,
+            date or "-",
+            cases if cases is not None else '-',
+            deaths if deaths is not None else '-',
+            scrape_time or "-",
+            f" # Extras: {extras}" if extras else "",
+            f" # URLs: {urls}",
+            f" # Errors: {errs}"))
+        sys.exit(1)
+
 try:
     i = 0
     for line in sys.stdin:
         l = line.strip()
         # print(l)
+        # dashed line = new record, so reset all vars
+        if l == '-' * 10:
+            finalize_record()
+            i = 0
+            abbr = None
+            date = None
+            cases = None
+            deaths = None
+            recovered = None
+            hospitalized = None
+            icu = None
+            vent = None
+            url_sources = []
+            errs = []
+            warns = []
+            continue
         i += 1
         if i == 1:
             abbr = l
@@ -308,53 +379,9 @@ try:
             vent = maybe_new_int("Vent", v, vent)
             continue
         assert False, f"Unknown data on line {i}: {l}"
-
-    data = {
-        'ncumul_conf': cases,
-        'ncumul_released': recovered,
-        'ncumul_deceased': deaths,
-        'current_hosp': hospitalized,
-        'current_icu': icu,
-        'current_vent': vent,
-    }
-    # Remove Nones
-    extras = {k: v for (k, v) in data.items() if not v is None}
-    # Format k,v
-    extras = [f"{k}={v}" for (k, v) in extras.items()]
-    # Join into list.
-    extras = ",".join(extras)
-
-    urls = ", ".join(url_sources)
-
-    # if expectations are not met, we treat this as an error
-    violated_expectations, warnings_exp = sm.check_expected(abbr, date, data)
-    errs.extend(violated_expectations)
-    warns.extend(warnings_exp)
-
-    if date and not errs:
-        print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
-            abbr,
-            date,
-            cases if cases is not None else '-',
-            deaths if deaths is not None else '-',
-            scrape_time,
-            f" # Extras: {extras}" if extras else "",
-            f" # URLs: {urls}"))
-    else:
-        if not date:
-            errs.append("Missing date")
-        errs.extend(warns)
-        errs = ". ".join(errs)
-        print("{:2} {:<16} {:>7} {:>7} FAILED {} {}{}{}".format(
-            abbr,
-            date or "-",
-            cases if cases is not None else '-',
-            deaths if deaths is not None else '-',
-            scrape_time or "-",
-            f" # Extras: {extras}" if extras else "",
-            f" # URLs: {urls}",
-            f" # Errors: {errs}"))
-        sys.exit(1)
+    # only run the checks on the last record
+    # bc older records might not fulfil the current settings
+    finalize_record(check_expectations=True)
 
 except Exception as e:
     print("{} Error: {}".format(abbr if abbr else '??', e), file=sys.stderr)

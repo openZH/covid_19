@@ -9,8 +9,6 @@ import sys
 # It is to track and detect regressions.
 
 # A per-canton list of extra fields that are expected to be present.
-# Number of confirmed cases is always required to be present,
-# and is not listed in this list.
 matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
