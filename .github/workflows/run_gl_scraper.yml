@@ -29,7 +29,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: GL
-        SCRAPER_SOURCE: https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen
+        SCRAPER_OVERWRITE: yes
       run: |
         ./scrapers/run_scraper.sh
         
