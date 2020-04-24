@@ -248,7 +248,6 @@ def finalize_record(check_expectations=False):
     # do nothing if record has already been finalized
     if not abbr:
         return
-    print("Finalize", check_expectations)
     global errs
     global warns
     data = {
