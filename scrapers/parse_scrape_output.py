@@ -245,6 +245,10 @@ def maybe_new_int(name, value, old_value, required=False):
 
 
 def finalize_record(check_expectations=False):
+    # do nothing if record has already been finalized
+    if not abbr:
+        return
+    print("Finalize", check_expectations)
     global errs
     global warns
     data = {
@@ -312,6 +316,7 @@ try:
             hospitalized = None
             icu = None
             vent = None
+            url_sources = []
             errs = []
             warns = []
             continue
