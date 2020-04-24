@@ -244,7 +244,7 @@ def maybe_new_int(name, value, old_value, required=False):
     return old_value
 
 
-def finalize_record():
+def finalize_record(check_expectations=False):
     global errs
     global warns
     data = {
@@ -265,9 +265,10 @@ def finalize_record():
     urls = ", ".join(url_sources)
 
     # if expectations are not met, we treat this as an error
-    violated_expectations, warnings_exp = sm.check_expected(abbr, date, data)
-    errs.extend(violated_expectations)
-    warns.extend(warnings_exp)
+    if check_expectations:
+        violated_expectations, warnings_exp = sm.check_expected(abbr, date, data)
+        errs.extend(violated_expectations)
+        warns.extend(warnings_exp)
 
     if date and not errs:
         print("{:2} {:<16} {:>7} {:>7} OK {}{}{}".format(
@@ -373,7 +374,9 @@ try:
             vent = maybe_new_int("Vent", v, vent)
             continue
         assert False, f"Unknown data on line {i}: {l}"
-    finalize_record()
+    # only run the checks on the last record
+    # bc older records might not fulfil the current settings
+    finalize_record(check_expectations=True)
 
 except Exception as e:
     print("{} Error: {}".format(abbr if abbr else '??', e), file=sys.stderr)
