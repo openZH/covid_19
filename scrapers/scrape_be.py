@@ -3,9 +3,8 @@
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-print('BE')
-d = sc.download('https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html')
-sc.timestamp()
+html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
+d = sc.download(html_url, silent=True)
 
 # 2020-03-30
 """
@@ -123,24 +122,33 @@ rows = []
 for t in soup.find_all('table'):
     if t.attrs['summary'] == 'Laufend aktualisierte Zahlen zu den Corona-Erkrankungen im Kanton Bern':
         headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
-        # getting first data row
-        row = [r for r in t.find_all('tr') if r.find_all('td')][0]
-        col_num = 0
-        for cell in row.find_all(['td']):
-            value = cell.string
-            if value:
-                value = value.replace("'", "")
 
-            if headers[col_num] == 'Datum':
-                print('Date and time:', " ".join(cell.stripped_strings))
-            elif headers[col_num] == 'Fälle positiv':
-                print('Confirmed cases:', value)
-            elif 'Todes' in headers[col_num]:
-                print('Deaths:', value)
-            elif headers[col_num] == 'Im Spital gesamt':
-                print('Hospitalized:', value)
-            elif 'beatmet' in headers[col_num]:
-                print('Vent:', value)
-            elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
-                print('ICU:', value)
-            col_num += 1
+        is_first = True
+        for row in [r for r in t.find_all('tr') if r.find_all('td')]:
+            if is_first:
+                is_first = False
+            else:
+                print('-' * 10)
+            print('BE')
+            sc.timestamp()
+            print('Downloading:', html_url)
+
+            col_num = 0
+            for cell in row.find_all(['td']):
+                value = cell.string
+                if value:
+                    value = value.replace("'", "")
+
+                if headers[col_num] == 'Datum':
+                    print('Date and time:', " ".join(cell.stripped_strings))
+                elif headers[col_num] == 'Fälle positiv':
+                    print('Confirmed cases:', value)
+                elif 'Todes' in headers[col_num]:
+                    print('Deaths:', value)
+                elif headers[col_num] == 'Im Spital gesamt':
+                    print('Hospitalized:', value)
+                elif 'beatmet' in headers[col_num]:
+                    print('Vent:', value)
+                elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
+                    print('ICU:', value)
+                col_num += 1
