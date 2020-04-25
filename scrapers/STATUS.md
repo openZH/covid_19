@@ -2,7 +2,7 @@
 
 | Canton | Status | Source quality | Time series | Auto-Update via GitHub Actions | Comment |
 | ------ | ------ | -------------- | ------------| ------------------------------ |-------- |
-| AG     | 2      | 3              | no          |  [![Run AG scraper](https://github.com/openZH/covid_19/workflows/Run%20AG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AG+scraper%22)                             | Okish |
+| AG     | 2      | 3              | partly          |  [![Run AG scraper](https://github.com/openZH/covid_19/workflows/Run%20AG%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AG+scraper%22)                             | Okish, time series only goes back one week and covers only the confirmed cases. |
 | AI     | 3      | 3              | no          |  [![Run AI scraper](https://github.com/openZH/covid_19/workflows/Run%20AI%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AI+scraper%22)                             | Easy extraction including date and time. |
 | AR     | 2      | 3              | no          |  [![Run AR scraper](https://github.com/openZH/covid_19/workflows/Run%20AR%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+AR+scraper%22)                            | Ok. Easy to extract. |
 | BE     | 2      | 3              | no          |  [![Run BE scraper](https://github.com/openZH/covid_19/workflows/Run%20BE%20scraper/badge.svg)](https://github.com/openZH/covid_19/actions?query=workflow%3A%22Run+BE+scraper%22)                            | Okish |
