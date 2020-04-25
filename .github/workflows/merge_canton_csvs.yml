@@ -36,6 +36,7 @@ jobs:
         source: https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
         destination: dashboard.png
         full-page: true
+        delay: 5
     
     # download artifact
     - name: Download dashboard screenshot from last step
