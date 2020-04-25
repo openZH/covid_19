@@ -5,7 +5,7 @@ import re
 
 
 # get latest from list with all bulletins
-d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp')
+d = sc.download('https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp', silent=True)
 
 url = sc.find(r'<a [^>]*href="([^"]+\.pdf)">.+Bulletin.+</a>', d)
 
@@ -18,7 +18,7 @@ data_rows = [row for row in d.split("\n")
 for row in data_rows[0:-1]:
     print('AG')
     sc.timestamp()
-    m = re.search(r'^(.+)\s+([0-9]+)$', re.sub(r'[\'’]', '', row))
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)?,?\s*(.+)\s+([0-9]+)$', re.sub(r'[\'’]', '', row))
     print('Downloading:', pdf_url)
     print('Date and time:', m[1])
     print('Confirmed cases:', m[2])
