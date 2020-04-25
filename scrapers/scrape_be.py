@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
-d = sc.download(html_url)
+d = sc.download(html_url, silent=True)
 
 # 2020-03-30
 """
