@@ -29,7 +29,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: SO
-        SCRAPER_SOURCE: https://corona.so.ch/
+        SCRAPER_OVERWRITE: yes
       run: |
         ./scrapers/run_scraper.sh
         
