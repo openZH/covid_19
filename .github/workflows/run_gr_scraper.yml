@@ -30,6 +30,7 @@ jobs:
       env:
         SCRAPER_KEY: GR
         SCRAPER_SOURCE: https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx
+        SCRAPER_OVERWRITE: yes
       run: |
         ./scrapers/run_scraper.sh
         

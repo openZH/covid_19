@@ -3,9 +3,8 @@
 import json
 import scrape_common as sc
 
-print('GR')
-
-d = sc.download('https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/_layouts/15/GenericDataFeed/feed.aspx?PageID=26&ID=g_1175d522_e609_4287_93af_d14c9efd5218&FORMAT=JSONRAW')
+json_url = 'https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/_layouts/15/GenericDataFeed/feed.aspx?PageID=26&ID=g_1175d522_e609_4287_93af_d14c9efd5218&FORMAT=JSONRAW'
+d = sc.download(json_url, silent=True)
 
 # 2020-04-02
 """
@@ -27,30 +26,28 @@ d = sc.download('https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavir
 ]
 """
 
-sc.timestamp()
-
 json_data = json.loads(d)
 
 # Sort by date, just in case. ISO 8601 is used, so we can just sort using strings.
 json_data.sort(key=lambda x: x['date'])
 
-last_row = json_data[-1]
+for i, row in enumerate(json_data):
+    print('GR')
+    sc.timestamp()
+    print('Downloading:', json_url)
 
-# {'date': '2020-03-27', 'time': '', 'abbreviation_canton_and_fl': 'GR', 'ncumul_tested': '', 'ncumul_conf': '409', 'ncumul_hosp': '52', 'ncumul_ICU': '', 'ncumul_vent': '', 'ncumul_released': '', 'ncumul_deceased': '9', 'source': 'https://www.gr.ch/coronavirus'}
-if last_row['time']:
-    print('Date and time:', '{}T{}'.format(last_row['date'], last_row['time']))
-else:
-    print('Date and time:', last_row['date'])
-if last_row['ncumul_tested']:
-    print('Tested:', last_row['ncumul_tested'])
-print('Confirmed cases:', last_row['ncumul_conf'])
-if last_row['ncumul_hosp']:
-    print('Hospitalized:', last_row['ncumul_hosp'])
-if last_row['ncumul_ICU']:
-    print('ICU:', last_row['ncumul_ICU'])
-if last_row['ncumul_vent']:
-    print('Vent:', last_row['ncumul_vent'])
-if last_row['ncumul_released']:
-    print('Recovered:', last_row['ncumul_released'])
-if last_row['ncumul_deceased']:
-    print('Deaths:', last_row['ncumul_deceased'])
+    if row['time']:
+        print('Date and time:', f"{row['date']}T{row['time']}")
+    else:
+        print('Date and time:', row['date'])
+    print('Tested:', row['ncumul_tested'])
+    print('Confirmed cases:', row['ncumul_conf'])
+    print('Hospitalized:', row['ncumul_hosp'])
+    print('ICU:', row['ncumul_ICU'])
+    print('Vent:', row['ncumul_vent'])
+    print('Recovered:', row['ncumul_released'])
+    print('Deaths:', row['ncumul_deceased'])
+
+    if len(json_data) - 1 > i:
+        print('-' * 10)
+
