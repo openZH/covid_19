@@ -11,7 +11,7 @@ url = sc.find(r'<a [^>]*href="([^"]+\.pdf)">.+Bulletin.+</a>', d)
 
 # download latest PDF
 pdf_url = 'https://www.ag.ch' + url
-d = sc.pdfdownload(pdf_url, raw=True)
+d = sc.pdfdownload(pdf_url, raw=True, silent=True)
 # extract case numbers reported for previous days
 data_rows = [row for row in d.split("\n")
              if re.search(r'^(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+\d{2}\.\d{2}\.\d{4}\s+[\'’0-9]+$', row)]
