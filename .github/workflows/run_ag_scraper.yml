@@ -29,7 +29,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: AG
-        SCRAPER_OVERWRITE: yes
+        SCRAPER_OVERWRITE: no
       run: |
         ./scrapers/run_scraper.sh
         
