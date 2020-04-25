@@ -8,7 +8,6 @@ import scrape_common as sc
 # which provides actual data and table rendering.
 # Here we instead use datawrapper API directly to fetch the data.
 
-print('VD')
 
 url = 'https://api.datawrapper.de/v3/charts/tr5bJ/data'
 print('Downloading:', url)
@@ -16,7 +15,6 @@ print('Downloading:', url)
 data = requests.get(url,
                     headers={'accept': 'text/csv',
                              'Authorization': 'Bearer 6868e7b3be4d7a69eff00b1a434ea37af3dac1e76f32d9087fc544dbb3f4e229'})
-sc.timestamp()
 d = data.text
 
 # Date	Hospitalisations en cours	Dont soins intensifs	Sortis de l'hôpital	Décès	Total cas confirmés
@@ -31,11 +29,20 @@ rows = [row for row in rows if len(row.strip())]
 headers = rows[0].split('\t')
 assert headers[0:6] == ["Date", "Hospitalisations en cours", "Dont soins intensifs", "Sortis de l'hôpital", "Décès", "Total cas confirmés"], f"Table header mismatch: Got: {headers}"
 
-last_row = rows[-1].split('\t')
-print('Date and time:', last_row[0])
-print('Confirmed cases:', last_row[5])
-print('Deaths:', last_row[4])
-print('Hospitalized:', last_row[1])
-print('ICU:', last_row[2])
-if last_row[3].isnumeric():
-    print('Recovered:', last_row[3])
+is_first = True
+for row in rows:
+    if is_first:
+        is_first = False
+    else:
+        print('-' * 10)
+    cells = row.split('\t')
+    print('VD')
+    sc.timestamp()
+    print('Downloading:', url)
+    print('Date and time:', cells[0])
+    print('Confirmed cases:', cells[5])
+    print('Deaths:', cells[4])
+    print('Hospitalized:', cells[1])
+    print('ICU:', cells[2])
+    if cells[3].isnumeric():
+        print('Recovered:', cells[3])
