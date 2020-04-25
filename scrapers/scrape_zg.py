@@ -8,7 +8,8 @@ import scrape_common as sc
 print('ZG')
 sc.timestamp()
 
-d_csv = sc.download('https://raw.githubusercontent.com/statzg/glibraries-stat-zug/master/daten/result-themen-14-03-01.csv')
+csv_url = 'https://raw.githubusercontent.com/statzg/glibraries-stat-zug/master/daten/result-themen-14-03-01.csv'
+d_csv = sc.download(csv_url, silent=True)
 """
 "Typ","Datum","Anzahl","Stand","Meta","Type","Content"
 "Fallzahl","22.04.2020","176","2020-04-22 08:00:00",NA,NA,NA
@@ -35,9 +36,15 @@ for row in reader:
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
 last_day = data[days[-1]]
-print('Date and time:', days[-1])
-print('Confirmed cases:', last_day['Fallzahl'])
-print('Hospitalized:', last_day['Hospitalisierte'])
-print('ICU:', last_day['Hospitalisierte in Intensivpflege'])
-print('Recovered:', last_day['Genesene'])
-print('Deaths:', last_day['Todesfälle'])
+for i, day in enumerate(days):
+    print('ZG')
+    sc.timestamp()
+    print('Downloading:', csv_url)
+    print('Date and time:', day)
+    print('Confirmed cases:', data[day]['Fallzahl'])
+    print('Hospitalized:', data[day]['Hospitalisierte'])
+    print('ICU:', data[day]['Hospitalisierte in Intensivpflege'])
+    print('Recovered:', data[day]['Genesene'])
+    print('Deaths:', data[day]['Todesfälle'])
+    if len(days) - 1 > i:
+        print('-' * 10)
