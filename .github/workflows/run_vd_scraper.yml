@@ -30,6 +30,7 @@ jobs:
       env:
         SCRAPER_KEY: VD
         SCRAPER_SOURCE: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
+        SCRAPER_OVERWRITE: yes
       run: |
         ./scrapers/run_scraper.sh
         
