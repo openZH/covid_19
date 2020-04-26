@@ -63,7 +63,7 @@ def parse_xlsx():
                 is_first = False
             else:
                 print('-' * 10)
-            print('NE')
+            print('VD')
             sc.timestamp()
             print('Downloading:', xls_url)
             print('Date and time:', row['A'].date().isoformat())
