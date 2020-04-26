@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import datetime
 import requests
@@ -53,12 +54,10 @@ def parse_html():
 def parse_xlsx():
     xls_url = 'https://partage.vd.ch/fss/public/link/public/stream/read/G12_HOP_POST_EPID_OMC_HOSP_SI_TA.xlsx?linkToken=hUApwTjAKdaXQCnB&itemName=StatistiquesDSAS'
     xls = sc.xlsdownload(xls_url, silent=True)
-    rows = sc.parse_xls(xls)
-    headers = rows[0]
-    assert headers == {'A': 'Date', 'B': 'Hospitalisation en cours', 'C': 'Dont soins intensifs', 'D': 'Décès', 'E': 'Nombre total de cas confirmés positifs'}
+    rows = sc.parse_xls(xls, header_row=2)
     is_first = True
-    for row in rows[1:]:
-        if row['A'] is not None and isinstance(row['A'], datetime.datetime):
+    for row in rows:
+        if row['Date'] is not None and isinstance(row['Date'], datetime.datetime):
             if is_first:
                 is_first = False
             else:
@@ -66,11 +65,11 @@ def parse_xlsx():
             print('VD')
             sc.timestamp()
             print('Downloading:', xls_url)
-            print('Date and time:', row['A'].date().isoformat())
-            print('Confirmed cases:', row['E'])
-            print('Hospitalized:', row['B'])
-            print('ICU:', row['C'])
-            print('Deaths:', row['D'])
+            print('Date and time:', row['Date'].date().isoformat())
+            print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
+            print('Hospitalized:', row['Hospitalisation en cours'])
+            print('ICU:', row['Dont soins intensifs'])
+            print('Deaths:', row['Décès'])
 
 
 if __name__ == '__main__':
