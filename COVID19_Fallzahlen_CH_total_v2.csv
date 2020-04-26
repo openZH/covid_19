@@ -1,4 +1,5 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source
+,,,,,,,,,,,
 2020-02-25,,GE,72,0,,0,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-25,,TI,,1,,,,,,,https://www.srf.ch/news/schweiz/tessiner-patient-erster-coronavirus-fall-in-der-schweiz
 2020-02-26,,GE,178,1,,1,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
@@ -1250,6 +1251,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-24,15:00,VS,,1808,,66,13,10,218,126,https://www.vs.ch/documents/6756452/7008787/2020%2004%2024%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-24,17:00,OW,,71,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-25,,BL,,816,,27,1,0,710,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
+2020-04-25,,FL,,82,,,,,,1,https://www.regierung.li/de/mitteilungen/223427/?typ=news
 2020-04-25,,FR,,1029,,54,7,,119,76,https://www.fr.ch/sites/default/files/2020-04/statistiques_situation_FR_2604.xlsx
 2020-04-25,,JU,,196,,11,4,,,6,https://www.jura.ch/Htdocs/Files/v/34255.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_26_04.xlsx?download=1
 2020-04-25,,NE,,,,35,4,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
@@ -1267,6 +1269,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-25,14:30,ZH,,3397,,77,,38,,115,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-04-25,15:00,VS,,1825,,67,13,10,218,128,https://www.vs.ch/documents/6756452/7008787/2020%2004%2025%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-26,,BL,,816,,27,0,0,724,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
+2020-04-26,,FL,,82,,,,,,1,https://www.regierung.li/de/mitteilungen/223428/?typ=news
 2020-04-26,,FR,,1033,,54,5,,120,77,https://www.fr.ch/sites/default/files/2020-04/statistiques_situation_FR_2604.xlsx
 2020-04-26,,JU,,196,,11,4,,,6,https://www.jura.ch/Htdocs/Files/v/34255.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_26_04.xlsx?download=1
 2020-04-26,,NE,,,,32,3,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
