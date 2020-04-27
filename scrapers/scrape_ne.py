@@ -13,8 +13,10 @@ for i, row in enumerate(rows):
     print('Date and time:', row['A'].date().isoformat())
     print('Confirmed cases:', row['Cumul'])
     print('Hospitalized:', row['Total des cas hospitalisés'])
-    if row['Soins intensifs (intubés)'] and row['Soins intensifs (non intubés)']:
-        print('ICU:', int(row['Soins intensifs (intubés)']) + int(row['Soins intensifs (non intubés)']))
+    if row['Soins intensifs (intubés)'] is not None and row['Soins intensifs (non intubés)'] is not None:
+        ICU=row['Soins intensifs (intubés)']
+        ICU2=row['Soins intensifs (non intubés)']
+        print('ICU:', int(ICU)+int(ICU2))
     print('Vent:', row['Soins intensifs (intubés)'])
     print('Deaths:', row['Cumul des décès'])
     # do not print record delimiter for last record
