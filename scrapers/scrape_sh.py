@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import scrape_common as sc
+import datetime
 import json
+import scrape_common as sc
 
 # A JavaScript content loaded from https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 m = sc.jsondownload('https://sh.ch/CMS/content.jsp?contentid=3666465&language=DE', silent=True)
@@ -61,7 +62,7 @@ xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls, header_row=0)
 for i, row in enumerate(rows):
-    if row['Datum'] is None:
+    if not isinstance(row['Datum'], datetime.datetime):
         break
 
     print('SH')
