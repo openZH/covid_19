@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import datetime
+import re
 import requests
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
@@ -52,7 +54,11 @@ def parse_html():
 
 
 def parse_xlsx():
-    xls_url = 'https://partage.vd.ch/fss/public/link/public/stream/read/G12_HOP_POST_EPID_OMC_HOSP_SI_TA.xlsx?linkToken=hUApwTjAKdaXQCnB&itemName=StatistiquesDSAS'
+    html_url = 'https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/'
+    d = sc.download(html_url, silent=True)
+    soup = BeautifulSoup(d, 'html.parser')
+    xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
+    assert xls_url, "URL is empty"
     xls = sc.xlsdownload(xls_url, silent=True)
     rows = sc.parse_xls(xls, header_row=2)
     is_first = True
