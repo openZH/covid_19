@@ -40,12 +40,16 @@ for i, row in enumerate(json_data):
         print('Date and time:', f"{row['date']}T{row['time']}")
     else:
         print('Date and time:', row['date'])
-    print('Tested:', row['ncumul_tested'])
+    if row['ncumul_tested']:
+        print('Tested:', row['ncumul_tested'])
     print('Confirmed cases:', row['ncumul_conf'])
     print('Hospitalized:', row['ncumul_hosp'])
-    print('ICU:', row['ncumul_ICU'])
-    print('Vent:', row['ncumul_vent'])
-    print('Recovered:', row['ncumul_released'])
+    if row['ncumul_ICU']:
+        print('ICU:', row['ncumul_ICU'])
+    if row['ncumul_vent']:
+        print('Vent:', row['ncumul_vent'])
+    if row['ncumul_released']:
+        print('Recovered:', row['ncumul_released'])
     print('Deaths:', row['ncumul_deceased'])
 
     if len(json_data) - 1 > i:
