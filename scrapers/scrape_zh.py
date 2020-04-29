@@ -2,9 +2,9 @@
 
 import scrape_common as sc
 
-print('ZH')
-d = sc.download("https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html")
-sc.timestamp()
+url = "https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html"
+dd = sc.DayData(canton='ZH', url=url)
+d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 d = d.replace('<strong>', ' ').replace('</strong>', ' ')
 # d = sc.filter(r"Im Kanton Zürich sind zurzeit|\(Stand|Total ([0-9]+) Todesfälle|Spitalbehandlung|beatmet", d)
@@ -64,21 +64,20 @@ d = d.replace('<strong>', ' ').replace('</strong>', ' ')
 date_time_info = sc.find('Stand (.+) Uhr', d)
 if date_time_info is None:
     date_time_info = sc.find('Situation im Kanton Zürich\s*(?:am\s*)?(?:[A-Za-z]*[,:]?)?\(?([^)<]+)\)?', d)
-print("Date and time:", date_time_info)
+dd.datetime = date_time_info
+
 cases = sc.find('Im .* Zürich .* ([0-9]+) Person(en)? posit', d)
 if not cases:
     cases = sc.find('Zurzeit sind\s*([0-9]+)\s*Personen mit Wohnsitz', d)
-print("Confirmed cases:", cases)
+dd.cases = cases
 
 deaths = sc.find('Im .* Zürich .* Total ([0-9]+) Todesfälle', d)
 if not deaths:
     deaths = sc.find('Total\s*([0-9]+)\s*Todesfälle', d)
-print("Deaths:", deaths)
+dd.deaths = deaths
 
-hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
-if hospitalized:
-    print('Hospitalized:', hospitalized)
+dd.hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
 
-ventilated = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d)
-if ventilated:
-    print('Vent:', ventilated)
+dd.vent = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d)
+
+print(dd)

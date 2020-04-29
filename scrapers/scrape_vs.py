@@ -3,9 +3,7 @@
 import urllib.parse
 import scrape_common as sc
 
-print('VS')
 d = sc.download('https://www.vs.ch/de/web/coronavirus')
-sc.timestamp()
 d = d.replace('&nbsp;', ' ')
 d = d.replace('&auml;', 'ä')
 d = sc.filter(r'bestätigte\s*Fälle', d)
@@ -37,7 +35,8 @@ url = sc.find(r'<li>\s*<a href="([^"]+)"[^>]*>[^<]*Stand(?:\.pdf)?<', d)
 assert url, "Can't find latest PDF URL"
 
 full_url = 'https://www.vs.ch' + urllib.parse.quote(url)
-d = sc.pdfdownload(full_url, raw=True)
+dd = sc.DayData(canton='VS', url=full_url)
+d = sc.pdfdownload(full_url, raw=True, silent=True)
 
 # 2020-03-29
 """
@@ -112,17 +111,15 @@ Sous respirateur – Mit Intubation
 # TODO(baryluk): Extract confirmed cases and deceased numbers too for completness.
 
 # Example: État au – Stand : 29.03.2020 15.00h
-print('Date and time:', sc.find(r'État\s*au\s*(?:–|-)?\s*Stand\s*:\s*(.+h)', d))
+dd.datetime = sc.find(r'État\s*au\s*(?:–|-)?\s*Stand\s*:\s*(.+h)', d)
 
 # Released
 # Started reporting from 2020-04-01
-released = sc.find(r'Cumul\s*sorties\s*(?:–|-)?\s*Total\s*Spitalentlassungen\n([0-9]+)\b', d)
-if released:
-    print('Recovered:', released)
-
-print('Hospitalized:', sc.find(r'Hospitalisations\s*en\s*cours\s*(?:–|-)?\s*laufende\s*Hospitalisierungen(?:\n?Nb\s*∆\s*J-1\s*\nTotal\n?)?\n([0-9]+)\b', d))
-
-print('ICU:', sc.find(r'En\s*soins\s*intensifs\s*(?:–|-)?\s*In\s*Intensivpflege\n([0-9]+)\b', d))
+dd.recovered = sc.find(r'Cumul\s*sorties\s*(?:–|-)?\s*Total\s*Spitalentlassungen\n([0-9]+)\b', d)
+dd.hospitalized = sc.find(r'Hospitalisations\s*en\s*cours\s*(?:–|-)?\s*laufende\s*Hospitalisierungen(?:\n?Nb\s*∆\s*J-1\s*\nTotal\n?)?\n([0-9]+)\b', d)
+dd.icu = sc.find(r'En\s*soins\s*intensifs\s*(?:–|-)?\s*In\s*Intensivpflege\n([0-9]+)\b', d)
 
 # Intubated.
-print('Vent:', sc.find(r'Sous\s*respirateur\s*(?:–|-)?\s*Mit\s*Intubation\n([0-9]+)\b', d))
+dd.vent = sc.find(r'Sous\s*respirateur\s*(?:–|-)?\s*Mit\s*Intubation\n([0-9]+)\b', d)
+
+print(dd)

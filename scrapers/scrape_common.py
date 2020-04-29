@@ -9,6 +9,42 @@ import re
 import requests
 import xlrd
 
+
+class DayData:
+    def __init__(self, canton, url):
+        self.canton = canton
+        self.url = url
+        self.timestamp = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().isoformat()
+        self.datetime = None
+        self.tested = None
+        self.cases = None
+        self.hospitalized = None
+        self.icu = None
+        self.vent = None
+        self.deaths = None
+        self.recovered = None
+
+    def __str__(self):
+        str_rep = [self.canton, self.timestamp, f'Downloading: {self.url}']
+        if self.datetime is not None and self.datetime != '':
+            str_rep += [f'Date and time: {self.datetime}']
+        if self.tested is not None and self.tested != '':
+            str_rep += [f'Tested: {self.tested}']
+        if self.cases is not None and self.cases != '':
+            str_rep += [f'Confirmed cases: {self.cases}']
+        if self.hospitalized is not None and self.hospitalized != '':
+            str_rep += [f'Hospitalized: {self.hospitalized}']
+        if self.icu is not None and self.icu != '':
+            str_rep += [f'ICU: {self.icu}']
+        if self.vent is not None and self.vent != '':
+            str_rep += [f'Vent: {self.vent}']
+        if self.deaths is not None and self.deaths != '':
+            str_rep += [f'Deaths: {self.deaths}']
+        if self.recovered is not None and self.recovered != '':
+            str_rep += [f'Recovered: {self.recovered}']
+        return "\n".join(str_rep)
+
+
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,
