@@ -29,6 +29,7 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: LU
+        SCRAPER_OVERWRITE: yes
         SCRAPER_SOURCE: https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
       run: |
         ./scrapers/run_scraper.sh

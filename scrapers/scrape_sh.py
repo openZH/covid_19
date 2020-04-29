@@ -61,10 +61,14 @@ xls_url = f"https://sh.ch{meta['url']}"
 xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls, header_row=0)
-for i, row in enumerate(rows):
+is_first = True
+for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         break
-
+    if is_first:
+        is_first = False
+    else:
+        print('-' * 10)
     print('SH')
     sc.timestamp()
     print('Downloading:', xls_url)
@@ -78,8 +82,3 @@ for i, row in enumerate(rows):
         print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     print('Deaths:', row['Verstorben'])
-    # do not print record delimiter for last record
-    # this is an indicator for the next script to check
-    # for expected values.
-    if len(rows) - 1 > i:
-        print('-' * 10)
