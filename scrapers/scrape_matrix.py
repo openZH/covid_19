@@ -55,7 +55,7 @@ matrix_time = [
     'GL',
     # 'GR',  # Not available.
     # 'JU',  # Not available in xls
-    'LU',
+    # 'LU',  # Available, but different values are reported at differnt times
     # 'NW',  # Not available in xls
     # 'NE',  # Not easily available.
     'OW',
