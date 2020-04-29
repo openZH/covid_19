@@ -12,8 +12,8 @@ for i, row in enumerate(rows):
     dd.cases = row['Cumul']
     dd.hospitalized = row['Total des cas hospitalisés']
     if row['Soins intensifs (intubés)'] is not None and row['Soins intensifs (non intubés)'] is not None:
-        ICU=row['Soins intensifs (intubés)']
-        ICU2=row['Soins intensifs (non intubés)']
+        ICU = row['Soins intensifs (intubés)']
+        ICU2 = row['Soins intensifs (non intubés)']
         dd.icu = int(ICU)+int(ICU2)
     dd.vent = row['Soins intensifs (intubés)']
     dd.deaths = row['Cumul des décès']
