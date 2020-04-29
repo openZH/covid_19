@@ -32,26 +32,19 @@ json_data = json.loads(d)
 json_data.sort(key=lambda x: x['date'])
 
 for i, row in enumerate(json_data):
-    print('GR')
-    sc.timestamp()
-    print('Downloading:', json_url)
-
+    dd = sc.DayData(canton='GR', url=json_url)
     if row['time']:
-        print('Date and time:', f"{row['date']}T{row['time']}")
+        dd.datetime = f"{row['date']}T{row['time']}"
     else:
-        print('Date and time:', row['date'])
-    if row['ncumul_tested']:
-        print('Tested:', row['ncumul_tested'])
-    print('Confirmed cases:', row['ncumul_conf'])
-    print('Hospitalized:', row['ncumul_hosp'])
-    if row['ncumul_ICU']:
-        print('ICU:', row['ncumul_ICU'])
-    if row['ncumul_vent']:
-        print('Vent:', row['ncumul_vent'])
-    if row['ncumul_released']:
-        print('Recovered:', row['ncumul_released'])
-    print('Deaths:', row['ncumul_deceased'])
-
+        dd.datetime = row['date']
+    dd.tested = row['ncumul_tested']
+    dd.cases = row['ncumul_conf']
+    dd.hospitalized = row['ncumul_hosp']
+    dd.icu = row['ncumul_ICU']
+    dd.vent = row['ncumul_vent']
+    dd.recovered = row['ncumul_released']
+    dd.deaths = row['ncumul_deceased']
+    print(dd)
     if len(json_data) - 1 > i:
         print('-' * 10)
 
