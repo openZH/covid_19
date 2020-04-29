@@ -14,6 +14,11 @@ rows = sc.parse_xls(xls)
 for i, row in enumerate(rows):
     if not row['Datum']:
         continue
+
+    # handle wrong value on 2020-03-25, see issue #631
+    if row['Datum'].date().isoformat() == '2020-03-25':
+        row['Bestätigte Fälle (kumuliert)'] = ''
+
     print('SZ')
     sc.timestamp()
     print('Downloading:', xls_url)
