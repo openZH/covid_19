@@ -11,14 +11,16 @@ for i, row in enumerate(rows):
     sc.timestamp()
     print('Downloading:', xls_url)
     print('Date and time:', row['A'].date().isoformat())
-    print('Confirmed cases:', row['Cumul'])
+    if row['Cumul'] is not None:
+        print('Confirmed cases:', row['Cumul'])
     print('Hospitalized:', row['Total des cas hospitalisés'])
     if row['Soins intensifs (intubés)'] is not None and row['Soins intensifs (non intubés)'] is not None:
         ICU=row['Soins intensifs (intubés)']
         ICU2=row['Soins intensifs (non intubés)']
         print('ICU:', int(ICU)+int(ICU2))
     print('Vent:', row['Soins intensifs (intubés)'])
-    print('Deaths:', row['Cumul des décès'])
+    if row['Cumul des décès'] is not None:
+        print('Deaths:', row['Cumul des décès'])
     # do not print record delimiter for last record
     # this is an indicator for the next script to check
     # for expected values.
