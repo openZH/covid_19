@@ -7,20 +7,17 @@ xls_url = 'https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccin
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls)
 for i, row in enumerate(rows):
-    print('NE')
-    sc.timestamp()
-    print('Downloading:', xls_url)
-    print('Date and time:', row['A'].date().isoformat())
-    if row['Cumul'] is not None:
-        print('Confirmed cases:', row['Cumul'])
-    print('Hospitalized:', row['Total des cas hospitalisés'])
+    dd = sc.DayData(canton='NE', url=xls_url)
+    dd.datetime = row['A'].date().isoformat()
+    dd.cases = row['Cumul']
+    dd.hospitalized = row['Total des cas hospitalisés']
     if row['Soins intensifs (intubés)'] is not None and row['Soins intensifs (non intubés)'] is not None:
         ICU=row['Soins intensifs (intubés)']
         ICU2=row['Soins intensifs (non intubés)']
-        print('ICU:', int(ICU)+int(ICU2))
-    print('Vent:', row['Soins intensifs (intubés)'])
-    if row['Cumul des décès'] is not None:
-        print('Deaths:', row['Cumul des décès'])
+        dd.icu = int(ICU)+int(ICU2)
+    dd.vent = row['Soins intensifs (intubés)']
+    dd.deaths = row['Cumul des décès']
+    print(dd)
     # do not print record delimiter for last record
     # this is an indicator for the next script to check
     # for expected values.

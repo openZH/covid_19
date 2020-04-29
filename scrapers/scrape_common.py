@@ -9,6 +9,37 @@ import re
 import requests
 import xlrd
 
+
+class DayData:
+    def __init__(self, canton, url):
+        self.canton = canton
+        self.url = url
+        self.timestamp = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).astimezone().isoformat()
+        self.datetime = None
+        self.cases = None
+        self.hospitalized = None
+        self.icu = None
+        self.vent = None
+        self.deaths = None
+        self.recovered = None
+
+    def __str__(self):
+        str_rep = [self.canton, self.timestamp, f'Downloading: {self.url}']
+        if self.cases is not None:
+            str_rep += [f'Confirmed cases: {self.canton}']
+        if self.hospitalized is not None:
+            str_rep += [f'Hospitalized: {self.hospitalized}']
+        if self.icu is not None:
+            str_rep += [f'ICU: {self.icu}']
+        if self.vent is not None:
+            str_rep += [f'Vent: {self.vent}']
+        if self.deaths is not None:
+            str_rep += [f'Deaths: {self.deaths}']
+        if self.recovered is not None:
+            str_rep += [f'Recovered: {self.recovered}']
+        return "\n".join(str_rep)
+
+
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,

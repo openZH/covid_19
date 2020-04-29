@@ -16,33 +16,20 @@ d = sc.pdfdownload(pdf_url, raw=True, silent=True)
 data_rows = [row for row in d.split("\n")
              if re.search(r'^(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+\d{2}\.\d{2}\.\d{4}\s+[\'’0-9]+$', row)]
 for row in data_rows[0:-1]:
-    print('AG')
-    sc.timestamp()
+    dd = sc.DayData(canton='AG', url=pdf_url)
     m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)?,?\s*(.+)\s+([0-9]+)$', re.sub(r'[\'’]', '', row))
-    print('Downloading:', pdf_url)
-    print('Date and time:', m[1])
-    print('Confirmed cases:', m[2])
+    dd.datetime = m[1]
+    dd.cases = m[2]
+    print(dd)
     print('-' * 10)
 
 # and now the latest data for the current day
-print('AG')
-sc.timestamp()
-print('Downloading:', pdf_url)
-
-print('Date and time:', sc.find(r'Aarau, (.+? Uhr)', d))
-
-print('Confirmed cases:', sc.find(r'zurzeit\s+([0-9\']+)\s+bestätigte\s+Fälle', d).replace("'", ''))
-
-print('Recovered:', sc.find(r'([0-9]+)\s+Personen\s+als\s+geheilt', d))
-
-print('Hospitalized:', sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d))
-
-icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d)
-print('ICU:', icu)
-
-vent = sc.find(r'([0-9]+|alle)\s+Person(en)?\s+künstlich\s+beatmet', d)
-if vent == 'alle':
-    vent = icu
-print('Vent:', vent)
-
-print('Deaths:', sc.find(r'([0-9]+)\s+Person(en)?\s+an\s+den\s+Folgen\s+des\s+Coronavirus\s+verstorben', d))
+dd = sc.DayData(canton='AG', url=pdf_url)
+dd.datetime = sc.find(r'Aarau, (.+? Uhr)', d)
+dd.cases = sc.find(r'zurzeit\s+([0-9\']+)\s+bestätigte\s+Fälle', d).replace("'", '')
+dd.recovered = sc.find(r'([0-9]+)\s+Personen\s+als\s+geheilt', d)
+dd.hospitalized = sc.find(r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d)
+dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d)
+dd.vent = sc.find(r'([0-9]+|alle)\s+Person(en)?\s+künstlich\s+beatmet', d)
+dd.deaths = sc.find(r'([0-9]+)\s+Person(en)?\s+an\s+den\s+Folgen\s+des\s+Coronavirus\s+verstorben', d)
+print(dd)
