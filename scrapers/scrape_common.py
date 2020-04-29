@@ -25,6 +25,8 @@ class DayData:
 
     def __str__(self):
         str_rep = [self.canton, self.timestamp, f'Downloading: {self.url}']
+        if self.datetime is not None:
+            str_rep += [f'Date and time: {self.datetime}']
         if self.cases is not None:
             str_rep += [f'Confirmed cases: {self.canton}']
         if self.hospitalized is not None:
