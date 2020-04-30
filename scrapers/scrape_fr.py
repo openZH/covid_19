@@ -3,6 +3,7 @@
 
 import re
 import datetime
+import sys
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
@@ -19,6 +20,7 @@ rows = sc.parse_xls(xls, header_row=0, sheet_name='Données sites internet')
 is_first = True
 for row in rows:
     if not isinstance(row['Date'], datetime.datetime):
+        print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
 
     if is_first:
