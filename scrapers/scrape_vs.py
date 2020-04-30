@@ -3,7 +3,8 @@
 import urllib.parse
 import scrape_common as sc
 
-d = sc.download('https://www.vs.ch/de/web/coronavirus')
+main_url = 'https://www.vs.ch/de/web/coronavirus'
+d = sc.download(main_url, silent=True)
 d = d.replace('&nbsp;', ' ')
 d = d.replace('&auml;', 'ä')
 d = sc.filter(r'bestätigte\s*Fälle', d)
@@ -18,9 +19,10 @@ d = sc.filter(r'bestätigte\s*Fälle', d)
 ... <p>29.03.2020: Derzeit gibt es 964&nbsp;bestätigte Fälle von Coronavirus-Infektionen im Kanton.&nbsp;Insgesamt hat das Virus bisher den Tod von 21&nbsp;Personen im Wallis verursacht. Eine Übersicht über die epidemiologische Lage im Wallis ist  ...
 """
 
-print('Date and time:', sc.find(r'<p>\s*([0-9]+\.[0-9]+\.202[0-2]):\s*Derzeit', d))
-print('Confirmed cases:', sc.find(r'\b([0-9]+)\s*bestätigte\s*Fälle', d))
-print('Deaths:', sc.find(r'Tod\s*von\s*([0-9]+)\s*Person', d))
+dd = sc.DayData(canton='VS', url=main_url)
+dd.datetime = sc.find(r'<p>\s*([0-9]+\.[0-9]+\.202[0-2]):\s*Derzeit', d)
+dd.cases = sc.find(r'\b([0-9]+)\s*bestätigte\s*Fälle', d)
+dd.deaths = sc.find(r'Tod\s*von\s*([0-9]+)\s*Person', d)
 
 # Download list of PDFs with statistics updated daily
 d = sc.download('https://www.vs.ch/de/web/coronavirus/statistiques')
@@ -35,7 +37,7 @@ url = sc.find(r'<li>\s*<a href="([^"]+)"[^>]*>[^<]*Stand(?:\.pdf)?<', d)
 assert url, "Can't find latest PDF URL"
 
 full_url = 'https://www.vs.ch' + urllib.parse.quote(url)
-dd = sc.DayData(canton='VS', url=full_url)
+dd.url = full_url
 d = sc.pdfdownload(full_url, raw=True, silent=True)
 
 # 2020-03-29
