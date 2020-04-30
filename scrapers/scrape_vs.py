@@ -25,7 +25,7 @@ dd.cases = sc.find(r'\b([0-9]+)\s*bestätigte\s*Fälle', d)
 dd.deaths = sc.find(r'Tod\s*von\s*([0-9]+)\s*Person', d)
 
 # Download list of PDFs with statistics updated daily
-d = sc.download('https://www.vs.ch/de/web/coronavirus/statistiques')
+d = sc.download('https://www.vs.ch/de/web/coronavirus/statistiques', silent=True)
 
 # 2020-04-02  (but also earlier)
 """
