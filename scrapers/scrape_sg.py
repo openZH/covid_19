@@ -70,7 +70,7 @@ d = d.replace('&nbsp;', ' ')
 </tr></tbody></table>
 """
 
-print('Date and time:', sc.find(r'<h4>([0-9]+\. [A-Za-z]* [0-9]{4})<\/h4>', d))
+print('Date and time:', sc.find(r'<h4>([0-9]+\.\s*[A-Za-z]*\s*[0-9]{4})<\/h4>', d))
 print('Confirmed cases:', sc.find(r'laborbestätigte\s*Fälle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", "")))
 print('Deaths:', sc.find(r'>Verstorbene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", "")))
 hospitalized_isolated = sc.find(r'>Hospitalisationen Isolation\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))

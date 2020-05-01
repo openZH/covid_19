@@ -84,9 +84,10 @@ def parse_date(d):
         # 23. M&auml;rz 2020, 15 Uhr
         # 18. April 2020,16.00 Uhr
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
-    mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)$', d)
+    mo = re.search(r'^(\d+)\.\s*([^\W\d_]+)\s*(20\d\d)$', d)
     if mo:
         # 21. März 2020
+        # 1.Mai 2020
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T"
     mo = re.search(r'^(\d+)\.(\d+)\.(\d\d)$', d)
     if mo:
@@ -212,6 +213,7 @@ date_tests = [
     ('2020-03-23 15:00:00',                 '2020-03-23T15:00'),
     ('2020-03-23 15:00',                    '2020-03-23T15:00'),
     ('30.04.2020,13.30 Uhr',                '2020-04-30T13:30'),
+    ('1.Mai 2020',                          '2020-05-01T'),
 ]
 for text, date in date_tests:
     assert parse_date(text) == date, f"parse_date('{text}') = '{parse_date(text)}', but expected '{date}'"
