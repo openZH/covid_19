@@ -1375,7 +1375,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-29,10:20,AR,,94,,2,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-29,10:30,BS,,946,,26,7,,810,49,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-946-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-29,11:00,AI,,25,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-04-29,12:00,GE,,,,254,21,19,634,,https://www.ge.ch/document/20094/telecharger
+2020-04-29,12:00,GE,25223,4927,,252,19,18,640,248,https://www.ge.ch/document/20094/telecharger
 2020-04-29,13:30,GL,,122,,3,,,,9,https://www.gl.ch/public/upload/assets/27992/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-29,14:00,UR,,85,,5,,,71,5,https://www.ur.ch/themen/2962
 2020-04-29,14:30,ZH,,3462,,82,,19,,121,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -1408,6 +1408,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-30,16:00,OW,,78,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-30,16:00,UR,,86,,4,,,71,5,https://www.ur.ch/themen/2962
 2020-05-01,,BL,,825,,8,1,1,758,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
+2020-05-01,,FL,,82,,,,,,,https://www.regierung.li/media/attachments/230-corona-immer-noch-82-0501.pdf?t=637239528964359340
 2020-05-01,,FR,,1078,,43,5,,123,78,https://www.fr.ch/sites/default/files/2020-05/statistiques_situation_FR_0105.xlsx
 2020-05-01,,LU,,703,,40,8,,,17,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-05-01,,SG,,788,,36,3,,187,33,https://www.sg.ch/tools/informationen-coronavirus.html
@@ -1419,6 +1420,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-01,09:30,SH,,75,,7,2,,,6,https://sh.ch/CMS/get/file/c1688ab0-1c33-488a-8c2b-85b3bde7fe77
 2020-05-01,10:00,SZ,,303,,,,,242,21,https://www.sz.ch/public/upload/assets/46403/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-05-01,11:00,AI,,25,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
+2020-05-01,12:00,GE,,,,238,18,17,658,,https://www.ge.ch/document/20094/telecharger
 2020-05-01,12:30,AR,,96,,6,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-05-01,13:00,GL,,122,,2,,,,11,https://www.gl.ch/public/upload/assets/27992/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-01,14:30,ZH,,3486,,43,,14,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
