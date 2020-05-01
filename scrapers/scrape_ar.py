@@ -2,10 +2,11 @@
 
 import scrape_common as sc
 
-print('AR')
-d = sc.download('https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/')
+url = 'https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/'
+d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
-sc.timestamp()
+
+dd = sc.DayData(canton='AR', url=url)
 # d = sc.filter('Aktuelle Informationen: Zahlen', d)
 
 
@@ -30,7 +31,7 @@ sc.timestamp()
 t = sc.find(r'Stand\: (.+? Uhr)\)<', d)
 if not t:
     t = sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
-print('Date and time:', t)
+dd.datetime = t
 
 # 2020-03-24 - 2020-03-27
 # <li>laborbestätigte Fälle: <strong>44 </strong>Personen</li>
@@ -49,7 +50,11 @@ print('Date and time:', t)
 # <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
 
 # Use non-greedy matching for some parts.
-print('Confirmed cases:', sc.find(r'bestätigte Fälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
-print('Hospitalized:', sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+Station\s+[+]\s+IPS\):\s+<strong>(\d+)</strong>', d))
-print('ICU:', sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d))
-print('Deaths:', sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2))
+dd.cases = sc.find(r'bestätigte(?:\sFälle)?(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
+dd.hospitalized = sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+Station\s+[+]\s+IPS\):\s+<strong>(\d+)</strong>', d) or \
+    sc.find(r'Aktuell\s+hospitalisierte\s+Patienten\s+\(inkl\.\s+Verdachtsfälle\):\s+<strong>(\d+)</strong>', d)
+dd.icu = sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d) or \
+    sc.find(r'Davon\s+IPS-Patienten\s+\(mit\s+und\s+ohne\s+Beatmung\):\s+<strong>(\d+)</strong>', d)
+dd.deaths = sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
+
+print(dd)
