@@ -63,7 +63,7 @@ sc.timestamp()
 ...
 """
 
-print('Date and time:', sc.find(r'Aktuelle\s*Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d))
+print('Date and time:', sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d))
 
 soup = BeautifulSoup(d, 'html.parser')
 rows = []
