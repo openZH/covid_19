@@ -1,19 +1,19 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source
 2020-02-25,,GE,72,0,,0,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
-2020-02-25,,TI,,1,,,,,,,https://www.srf.ch/news/schweiz/tessiner-patient-erster-coronavirus-fall-in-der-schweiz
+2020-02-25,,TI,,0,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-02-26,,GE,177,1,,1,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
-2020-02-26,,TI,,,,,,,,,
+2020-02-26,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-02-27,,FL,3,,,,,,,,https://www.regierung.li/media/attachments/83-verdachtsfaelle-negativ-getestet.pdf?t=637202562374055719
 2020-02-27,,GE,325,1,,1,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-27,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
-2020-02-27,,TI,,,,,,,,,
+2020-02-27,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-02-27,14:30,ZH,,2,,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-02-27,19:17,BS,,1,,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 2020-02-28,,BE,,1,,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.archiv.meldungNeu.html/portal/de/meldungen/mm/2020/02/20200229_0936_corona.html
 2020-02-28,,BL,,1,,,,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/neuer-coronavirus-covid-19-erster-bestaetigter-fall-aus-dem-kanton-basel-landschaft
 2020-02-28,,GE,532,4,,2,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-28,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
-2020-02-28,,TI,,,,,,,,,
+2020-02-28,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-02-28,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-28,,VS,,1,,5,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-02-28,10:15,BS,,1,,,,,,,https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20
@@ -22,7 +22,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-29,,BL,,2,,1,,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/weiterer-bestaetigter-fall-aus-dem-kanton-basel-landschaft
 2020-02-29,,GE,672,6,,3,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-02-29,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
-2020-02-29,,TI,,,,,,,,,
+2020-02-29,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-02-29,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-29,,VS,,1,,5,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-02-29,08:00,ZG,,0,,0,0,,,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -34,7 +34,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-01,,GE,778,8,,3,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-01,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-01,,NE,,1,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-01,,TI,,,,,,,,,
+2020-03-01,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-01,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-01,,VS,,2,,6,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-01,08:00,ZG,,0,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -47,7 +47,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-02,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-02,,NE,,1,,1,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-02,,SG,,0,,,,,,,https://www.sg.ch/news/sgch_allgemein/2020/03/zwei-personen-in-quarantaene---kein-bestaetigter-fall.html
-2020-03-02,,TI,,2,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187352&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=ea65dbcabb28d4711459f3b613bbc1b7
+2020-03-02,,TI,,4,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-02,,VD,,,,6,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-02,,VS,,3,,9,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-02,08:00,ZG,,0,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -60,7 +60,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-03,,JU,,2,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-03,,NE,,1,,1,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-03,,SZ,1,1,,,,,,,https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf
-2020-03-03,,TI,,4,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187363&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=b34e82602a39cad67a7f8d54150dcf70   https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187369&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=3154d18e72821fc23d7b3c5cdfe9f9a3
+2020-03-03,,TI,,8,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-03,,VD,,,,8,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-03,,VS,,3,,11,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-03,08:00,ZG,,1,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -75,7 +75,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-04,,JU,,2,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-04,,NE,,8,,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-04,,SZ,3,3,,1,,,,,https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf
-2020-03-04,,TI,,5,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187371&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=174f2d754f3b657af79f343c92fc5c89
+2020-03-04,,TI,,13,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-04,,VD,,,,11,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-04,,VS,,4,,12,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-04,06:35,SG,,1,,,,,,,https://www.sg.ch/news/sgch_allgemein/2020/03/erster-bestaetigter-corona-fall-im-kanton-.html
@@ -91,7 +91,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-05,,GE,1146,15,,5,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-05,,JU,,4,,2,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-05,,NE,,9,,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-05,,TI,,18,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187385&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=a9ddddfae2c7446e5b856451e178a61a
+2020-03-05,,TI,,25,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-05,,VD,,,,14,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-05,,VS,,5,,10,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-05,08:00,ZG,,2,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -105,7 +105,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-06,,JU,,4,,5,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-06,,NE,,13,,2,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-06,,SZ,6,6,,,,,,,https://www.sz.ch/public/upload/assets/45417/MM_Coronavirus_6_3_2020.pdf
-2020-03-06,,TI,,,,,,,,,
+2020-03-06,,TI,,28,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-06,,VD,,23,,15,2,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-06,,VS,,6,,11,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-06,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -118,7 +118,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-07,,GE,1316,30,,7,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-07,,JU,,5,,5,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-07,,NE,,18,,2,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-07,,TI,,45,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187406&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=e553d0b42db2ead87a7d05e499fac4db
+2020-03-07,,TI,,41,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-07,,VD,,30,,16,4,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-07,,VS,,7,,11,0,0,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-07,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -129,7 +129,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-08,,GE,1383,38,,9,0,0,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-08,,JU,,5,,5,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-08,,NE,,24,,3,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-08,,TI,,58,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187407&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8d1ff4bf2a674892913340827de952ea
+2020-03-08,,TI,,49,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-08,,VD,,40,,22,3,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-08,,VS,,12,,15,1,1,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-08,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -143,7 +143,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-09,,GE,1488,47,,13,3,1,,0,https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve/telecharger
 2020-03-09,,JU,,7,,5,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-09,,NE,,27,,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-09,,TI,,68,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187417&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=20e9b76118246e98781581881b459523
+2020-03-09,,TI,,61,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-09,,VD,,51,,29,5,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-09,,VS,,17,,16,1,1,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-09,08:00,ZG,,10,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -156,7 +156,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-10,,GL,,1,,0,,,,0,https://www.gl.ch/public/upload/assets/27992/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-03-10,,JU,,7,,5,0,,,0,https://www.jura.ch/Htdocs/Files/v/34293.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_01_05.xlsx?download=1
 2020-03-10,,NE,,31,,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2020-03-10,,TI,,,,,,,,1,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187422&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=24aa247e65de88fdd1551a61fcc407d9
+2020-03-10,,TI,,75,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-10,,VD,,130,,48,8,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-10,,VS,,22,,19,1,1,3,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-10,08:00,ZG,,10,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -172,7 +172,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-11,,NE,,37,,6,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-11,,NW,,4,,2,,,,,http://www.nw.ch/coronastatistik
 2020-03-11,,SH,,1,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
-2020-03-11,,TI,,,,,,,,,
+2020-03-11,,TI,,108,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-11,,VD,,203,,51,7,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-11,,VS,,30,,20,1,1,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-11,08:00,ZG,,11,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -190,7 +190,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-12,,NW,,5,,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-12,,SG,,15,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-12,,SH,,1,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
-2020-03-12,,TI,,180,,,,,,,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187437&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=59cf6112c82abed490acd8901f5a0bb2
+2020-03-12,,TI,,163,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-12,,UR,,2,,,,,,,
 2020-03-12,,VD,,277,,55,6,,,3,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-12,,VS,,53,,27,1,1,,0,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
@@ -206,7 +206,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-13,,NE,,59,,9,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-13,,NW,,5,,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-13,,SH,,1,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
-2020-03-13,,TI,,258,,65,13,,,,https://www.youtube.com/watch?v=_x_yQ6uwGAQ
+2020-03-13,,TI,,206,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-13,,VD,,369,,61,7,,,3,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-13,,VS,,76,,29,1,1,,1,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-13,08:00,ZG,,11,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -225,7 +225,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-14,,NE,,68,,10,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-14,,NW,,5,,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-14,,SH,,1,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
-2020-03-14,,TI,,265,,,,,,3,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187466&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=1b10e6e8117296766155edcf9c317a4c
+2020-03-14,,TI,,265,,77,13,0,61,3,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-14,,VD,,476,,75,10,,,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-14,,VS,,98,,33,1,1,,1,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-14,03:03,SZ,10,12,,,,,,,https://www.bote.ch/nachrichten/schwyz/schwyz_bdu/coronavirus-einsatz-fuer-spitalbataillon-5
@@ -242,7 +242,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-15,,NW,,8,,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-15,,SH,,1,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-03-15,,SZ,,13,,,,,,,https://www.sz.ch/public/upload/assets/45590/MM_Coronavirus_15_3_2020.pdf
-2020-03-15,,TI,,291,,,,,,6,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187467&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=af5473066754ef4d1272e156056acc07
+2020-03-15,,TI,,293,,92,16,0,61,6,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-15,,VD,,566,,90,10,,,5,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-15,,VS,,115,,35,1,1,,2,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-15,08:00,ZG,,13,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -258,7 +258,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-16,,NW,,10,,7,,,,,http://www.nw.ch/coronastatistik
 2020-03-16,,SH,,2,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-03-16,,TG,246,17,,,,,,,
-2020-03-16,,TI,,330,,,,,,8,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187475&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=dee4a529abd4e9300e116c7ff4db5774
+2020-03-16,,TI,,368,,112,18,0,61,8,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-16,,VD,,796,,126,20,,,7,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-16,,VS,,172,,41,2,1,,3,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-16,08:00,ZG,,20,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -278,7 +278,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-17,,SG,,47,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-17,,SH,,2,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-03-17,,TG,276,23,,,,,,,
-2020-03-17,,TI,,422,,,,,,10,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187486&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=d106aab74491da09b294ff13ffadd02f
+2020-03-17,,TI,,426,,137,23,0,62,10,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-17,,VD,,1039,,140,24,,,9,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-17,,VS,,225,,46,2,2,,3,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-17,08:00,ZG,,29,,0,0,,1,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
@@ -300,7 +300,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-18,,SH,,8,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-03-18,,SO,,43,,,,,,,https://www.oltnertagblatt.ch/solothurn/kanton-solothurn/zivilschuetzer-kontrollieren-wer-in-die-solothurner-spitaeler-rein-will-137174885
 2020-03-18,,TG,,32,,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-18,,TI,,511,,,,,,14,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187493&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=7803bbc03dd49ef2e421dfd6b12dd239
+2020-03-18,,TI,,511,,163,29,28,62,12,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-18,,UR,85,5,,,,,,,https://www.ur.ch/mmdirektionen/63802
 2020-03-18,,VD,,1305,,153,24,,,12,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-18,,VS,,312,,58,2,2,,4,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
@@ -322,7 +322,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-19,,SG,,85,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-19,,SH,,12,,,,,,0,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-03-19,,TG,,37,,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
-2020-03-19,,TI,,638,,155,33,,,15,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187499&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=634a783514bdcbb426c005f1ea916268 https://www.youtube.com/watch?v=34RQ7OOWYoI
+2020-03-19,,TI,,638,,182,33,32,65,13,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-19,,UR,,7,,,,,,,https://www.ur.ch/mmdirektionen/63841
 2020-03-19,,VD,,1514,,170,23,,,13,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-19,,VS,,349,,64,5,5,,6,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
@@ -345,7 +345,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-20,,TG,,50,,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-20,,VD,,1756,,182,23,,,19,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-20,,VS,,436,,73,6,5,,7,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
-2020-03-20,08:00,TI,,834,,168,35,,,22,https://www4.ti.ch/dss/dsp/covid19/home/ https://www.youtube.com/watch?v=34RQ7OOWYoI
+2020-03-20,08:00,TI,,849,,190,35,34,67,22,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-20,08:00,ZG,,48,,1,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-20,09:40,LU,,92,,,,,,,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-20,10:00,BS,,270,,45,,,46,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-272-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -368,7 +368,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-21,,TG,,57,,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-21,,VD,,1875,,210,24,,,22,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-21,,VS,,498,,83,8,6,,10,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
-2020-03-21,08:00,TI,,918,,184,40,37,,28,https://www4.ti.ch/dss/dsp/covid19/home/ https://www.youtube.com/watch?v=7g2sALU9bQM
+2020-03-21,08:00,TI,,916,,224,40,37,68,28,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-21,08:00,UR,,12,,,,,,,https://www.ur.ch/themen/2920
 2020-03-21,08:00,ZG,,53,,3,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-21,10:00,BS,,297,,46,,,57,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-299-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -387,7 +387,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-22,,TG,,76,,,,,,,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-03-22,,VD,,1977,,230,30,,,24,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-22,,VS,,535,,92,11,7,,11,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
-2020-03-22,08:00,TI,,939,,246,46,43,,37,https://web.archive.org/web/20200322153528/https://www4.ti.ch/dss/dsp/covid19/home/
+2020-03-22,08:00,TI,,945,,246,46,43,70,37,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-22,08:00,ZG,,53,,3,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-22,10:30,BS,,356,,50,,,73,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-358-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-22,11:00,LU,,131,,,,,,1,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -409,7 +409,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-23,,UR,,22,,1,,,1,,https://www.ur.ch/themen/2920
 2020-03-23,,VD,,2283,,248,39,,,28,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-23,,VS,,628,,104,12,9,,13,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
-2020-03-23,08:00,TI,,1165,,261,45,43,,48,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187510&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0120f665ab49651b9d66c876ef272a91
+2020-03-23,08:00,TI,,1162,,261,45,43,71,48,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-23,08:00,ZG,,53,,3,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-23,10:00,AR,,30,,7,,,,1,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-23,10:00,BS,,374,,56,,,78,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -436,7 +436,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-24,,VD,,2548,,284,40,,,32,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-24,,VS,,728,,117,13,12,,14,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-24,00:00,SO,,104,,,,,,1,https://corona.so.ch/
-2020-03-24,08:00,TI,,1211,,285,50,48,,53,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187520&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=4d581f57e92de04937175bab9e5b0f14
+2020-03-24,08:00,TI,,1209,,285,50,48,80,53,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-24,08:00,ZG,,72,,6,0,,12,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-24,09:00,BS,,410,,58,,,105,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-414-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-24,10:00,AR,,33,,6,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -464,7 +464,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-25,,VS,,793,,118,15,14,,15,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-25,00:00,SO,,129,,,,,,1,https://corona.so.ch/
 2020-03-25,08:00,AR,,34,,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-03-25,08:00,TI,,1354,,306,57,55,,60,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187523&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=982795a2c13394282accc3a8506c9ba0
+2020-03-25,08:00,TI,,1354,,306,57,55,85,60,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-25,08:00,ZG,,80,,9,1,,18,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-25,10:00,BS,,462,,58,,,128,8,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-466-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-25,11:00,LU,,228,,,,,,2,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -490,7 +490,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-26,,VD,,2945,,322,55,,,57,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-26,,VS,,874,,128,19,17,,17,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-26,00:00,SO,,141,,,,,,1,https://corona.so.ch/
-2020-03-26,08:00,TI,,1401,,358,60,56,,67,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187529&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8ce8f2f412a3bb9022fb4a28c9ad7fa4
+2020-03-26,08:00,TI,,1401,,358,60,56,91,67,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-26,08:00,ZG,,87,,10,1,,18,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-26,10:30,BS,,501,,74,8,,155,12,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-505-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-26,11:00,LU,,253,,,,,,3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -517,7 +517,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-27,,VD,,3179,,356,59,,,61,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-27,,VS,,968,,137,20,16,,21,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-27,00:00,SO,,157,,,,,,1,https://corona.so.ch/
-2020-03-27,08:00,TI,,1688,,386,61,51,,76,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187533&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0f01b9fd5e63dbb0f6f5cec02aa32b40
+2020-03-27,08:00,TI,,1688,,386,61,51,107,76,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-27,08:00,ZG,,94,,12,5,,18,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-27,10:00,BS,,530,,76,8,,191,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-534-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-27,11:00,LU,,287,,,,,,3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -544,7 +544,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-28,,VS,,1017,,142,21,19,,25,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-28,00:00,SO,,173,,,,,,1,https://corona.so.ch/
 2020-03-28,08:00,AR,,45,,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-03-28,08:00,TI,,1727,,385,69,60,,87,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187538&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=736a7f1a780ed9bdb1d8e45f8a0326ff
+2020-03-28,08:00,TI,,1727,,385,69,60,136,87,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-28,08:00,ZG,,101,,12,5,,21,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-28,10:00,BS,,569,,79,11,,211,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-573-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-28,11:00,LU,,317,,,,,,4,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -569,7 +569,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-29,,VS,,1055,,152,22,21,,31,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-29,00:00,SO,,190,,,,,,2,https://corona.so.ch/
 2020-03-29,08:00,AR,,48,,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-03-29,08:00,TI,,1837,,402,69,59,,93,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187540&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=ae32268e60ac2b59add1b9d55de51cbf
+2020-03-29,08:00,TI,,1837,,402,69,59,155,93,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-29,08:00,ZG,,101,,12,5,,21,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-29,10:00,BS,,605,,87,12,,228,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-609-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-29,11:00,LU,,339,,,,,,5,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -592,7 +592,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-30,,VD,,3607,,368,63,,,93,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-30,,VS,,1144,,152,25,23,,35,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-30,07:00,BE,,826,,112,21,17,,13,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-03-30,08:00,TI,,1962,,415,75,61,,105,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187546&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=1465eace9ac68357130a7327d0c9b8f9
+2020-03-30,08:00,TI,,1962,,415,75,61,165,105,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-30,08:00,ZG,,112,,13,5,,29,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-30,10:00,BS,,617,,90,12,,263,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-621-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-30,11:00,LU,,351,,,,,,6,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -619,7 +619,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-31,,VS,,1211,,151,24,23,,37,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-03-31,00:00,SO,,196,,,,,,2,https://corona.so.ch/index.php?id=27979
 2020-03-31,08:00,BE,,856,,111,23,18,,16,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-03-31,08:00,TI,,2091,,401,74,67,202,120,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187550&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=007dc1182450e5b85ee4f533dfdcd6e3
+2020-03-31,08:00,TI,,2091,,401,74,67,202,120,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-03-31,08:00,ZG,,114,,14,6,,39,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-31,10:00,BS,,653,,105,15,,292,16,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-628-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-31,11:00,LU,,375,,,,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -646,7 +646,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-01,,VS,,1282,,145,26,25,70,40,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-01,00:00,SO,,216,,,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-01,08:00,BE,,909,,115,26,21,,20,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-01,08:00,TI,,2195,,396,76,72,229,132,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187555&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=843d72993004667ab731d64142591372
+2020-04-01,08:00,TI,,2195,,396,76,72,229,132,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-01,08:00,ZG,,125,,13,5,,40,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-01,10:00,BS,,687,,108,16,,323,18,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-01,11:00,LU,,401,,57,12,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -671,7 +671,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-02,,VS,,1334,,145,28,24,88,47,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-02,00:00,SO,,227,,14,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-02,08:00,BE,,1003,,104,24,20,,23,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-02,08:00,TI,,2271,,374,75,73,263,141,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187564&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=6abbcb9cd18b83f8ce260e2748b9a326
+2020-04-02,08:00,TI,,2271,,374,75,73,263,141,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-02,08:00,ZG,,131,,14,5,,41,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-02,10:00,BS,,714,,119,17,,350,19,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-718-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-02,11:00,LU,,422,,66,11,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -699,7 +699,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-03,00:00,SO,,237,,17,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-03,08:00,AR,,65,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-03,08:00,BE,,1073,,109,30,26,,26,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-03,08:00,TI,,2377,,370,75,67,287,155,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187570&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=bf727072887350e7700586450c3cf957
+2020-04-03,08:00,TI,,2377,,370,75,67,287,155,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-03,08:00,ZG,,138,,15,7,,44,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-03,08:30,BS,,754,,115,17,,397,21,https://www.gd.bs.ch/nm/2020-tagesbulletin-coronavirus-748-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-771-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-03,11:00,AI,,20,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -724,7 +724,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-04,,VS,,1416,,148,28,23,95,53,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-04,00:00,SO,,250,,,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-04,08:00,BE,,1106,,113,35,28,,28,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-04,08:00,TI,,2442,,363,72,67,314,165,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187575&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=4b3f64139a9dd36b9fd30a1ace23654a
+2020-04-04,08:00,TI,,2442,,363,72,67,314,165,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-04,08:00,ZG,,146,,14,7,,46,2,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-04,10:15,BS,,767,,112,16,,434,24,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-771-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-04,11:00,AI,,21,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -749,7 +749,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-05,,VS,,1431,,145,26,23,,57,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-05,00:00,SO,,258,,16,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-05,08:00,BE,,1137,,110,30,25,,28,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-05,08:00,TI,,2508,,362,74,61,340,177,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187576&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=7486178287491dbfa00376059224e150
+2020-04-05,08:00,TI,,2508,,362,74,61,340,177,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-05,08:00,ZG,,146,,14,7,,46,2,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-05,10:15,BS,,789,,106,15,,460,26,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-794-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-05,11:00,LU,,478,,49,12,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -773,7 +773,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-06,00:00,SO,,261,,26,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-06,08:00,AR,,69,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-06,08:00,BE,,1173,,117,35,30,,31,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-06,08:00,TI,,2546,,357,72,62,350,189,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187585&cHash=71dae3c15afd6b09d15f28f43d415af1
+2020-04-06,08:00,TI,,2546,,357,72,62,350,189,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-06,08:00,ZG,,152,,14,8,,52,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-06,09:45,BS,,798,,99,13,,481,26,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-803-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-06,11:00,AI,,21,,,,,,,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -799,7 +799,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-07,00:00,SO,,264,,29,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-07,08:00,AR,,69,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-07,08:00,BE,,1228,,122,34,26,,33,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-07,08:00,TI,,2599,,335,72,65,388,198,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187585&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=4bf78e02dc8ee0d240e06c4603f5605c
+2020-04-07,08:00,TI,,2599,,335,72,65,388,198,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-07,08:00,ZG,,157,,15,8,,54,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-07,09:30,BS,,808,,101,13,,508,28,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-813-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-07,09:30,SH,,50,,14,3,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -825,7 +825,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-08,00:00,SO,,276,,22,,,,3,https://corona.so.ch/index.php?id=27979
 2020-04-08,08:00,AR,,72,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-08,08:00,BE,,1286,,127,35,27,,37,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-08,08:00,TI,,2659,,319,71,64,420,211,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187593&cHash=04877af9adec32de4f5ef43a5916f801
+2020-04-08,08:00,TI,,2659,,319,71,64,420,211,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-08,08:00,ZG,,162,,12,9,,61,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-08,09:30,SH,,50,,15,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-08,10:00,BS,,829,,99,14,,535,31,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-834-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -851,7 +851,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-09,00:00,SO,,282,,23,,,,5,https://corona.so.ch/index.php?id=27979
 2020-04-09,08:00,AR,,74,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-09,08:00,BE,,1335,,117,36,27,,38,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-09,08:00,TI,,2714,,301,72,68,447,219,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187601&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=a02f7a88b61d913138f4f86dbeeaa599
+2020-04-09,08:00,TI,,2714,,301,72,68,447,219,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-09,08:00,ZG,,165,,13,9,,69,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-09,09:30,SH,,52,,17,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-09,10:00,BS,,841,,93,13,,572,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-846-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -878,7 +878,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-10,00:00,SO,,294,,22,,,,5,https://corona.so.ch/index.php?id=27979
 2020-04-10,08:00,AR,,77,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-10,08:00,BE,,1375,,107,33,25,,42,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-10,08:00,TI,,2776,,297,68,62,466,227,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187607&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=e9c51debb7c11815ec53651f6c8c8d24
+2020-04-10,08:00,TI,,2776,,297,68,62,466,227,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-10,08:00,ZG,,168,,15,9,,76,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-10,09:30,SH,,53,,13,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-10,10:00,BS,,854,,87,13,,593,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-859-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -902,7 +902,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-11,,VS,,1653,,112,20,15,148,85,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-11,00:00,SO,,306,,,,,,6,https://corona.so.ch/index.php?id=27979
 2020-04-11,08:00,BE,,1419,,99,33,24,,44,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-11,08:00,TI,,2818,,282,68,59,493,229,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187611&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=6f94f1f1d5cf92bdf5a1e053e6602530
+2020-04-11,08:00,TI,,2818,,282,68,59,493,229,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-11,08:00,ZG,,168,,14,9,,79,4,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-11,09:30,BS,,861,,,,,612,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-866-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-11,09:30,SH,,55,,13,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -928,7 +928,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-12,,VS,,1666,,110,22,14,157,91,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-12,00:00,SO,,315,,23,,,,7,https://corona.so.ch/index.php?id=27979
 2020-04-12,08:00,BE,,1441,,95,33,22,,49,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-12,08:00,TI,,2869,,269,63,56,511,244,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187612&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=01ed3fadc99b1b00f0a8c4a0e41e7252
+2020-04-12,08:00,TI,,2869,,269,63,56,511,244,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-12,08:00,ZG,,168,,13,9,,80,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-12,09:30,SH,,57,,16,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-12,10:00,BS,,877,,86,12,,629,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-882-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -953,7 +953,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-13,00:00,SO,,321,,23,,,,7,https://corona.so.ch/index.php?id=27979
 2020-04-13,08:00,AR,,78,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-13,08:00,BE,,1456,,92,32,21,,49,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-13,08:00,TI,,2900,,274,63,55,517,251,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187614&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0464d89cb8c291fbc9c266e6b7008814
+2020-04-13,08:00,TI,,2900,,274,63,55,517,251,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-13,08:00,ZG,,170,,13,9,,84,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-13,09:30,SH,,57,,16,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-13,10:00,BS,,888,,,,,653,34,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-893-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -978,7 +978,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-14,00:00,SO,,325,,22,,,,8,https://corona.so.ch/index.php?id=27979
 2020-04-14,08:00,AR,,79,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-14,08:00,BE,,1470,,85,31,21,,49,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-14,08:00,TI,,2912,,274,63,54,524,258,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187617&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=64be59067038bfdaf603d60bfab0aa52
+2020-04-14,08:00,TI,,2912,,274,63,54,524,258,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-14,08:00,ZG,,171,,13,9,,88,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-14,09:30,SH,,57,,10,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-14,10:00,BS,,894,,86,9,,663,34,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-899-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -1005,7 +1005,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-15,00:00,SO,,329,,22,,,,8,https://corona.so.ch/index.php?id=27979
 2020-04-15,08:00,AR,,79,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-15,08:00,BE,,1489,,82,30,18,,53,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-15,08:00,TI,,2927,,265,60,50,548,263,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187624&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=c6ac05de202d47a4a41e41ec4d16b3b1
+2020-04-15,08:00,TI,,2927,,265,60,50,548,263,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-15,08:00,ZG,,171,,13,9,,92,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-15,09:30,SH,,59,,11,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-15,10:00,BS,,904,,80,7,,682,36,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-909-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -1032,7 +1032,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-16,00:00,SO,,343,,22,,,,8,https://corona.so.ch/index.php?id=27979
 2020-04-16,08:00,AR,,79,,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-16,08:00,BE,,1515,,70,26,12,,55,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-16,08:00,TI,,2953,,249,59,49,568,269,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187632&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=65b441f9003d32defd9e1c4f2650c177
+2020-04-16,08:00,TI,,2953,,249,59,49,568,269,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-16,08:00,ZG,,171,,9,7,,94,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-16,09:00,BS,,912,,76,6,,711,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-917-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-16,09:30,SH,,60,,10,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1057,7 +1057,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-17,,VS,,1759,,84,16,10,184,99,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-17,00:00,SO,,350,,20,,,,9,https://corona.so.ch/index.php?id=27979
 2020-04-17,08:00,BE,,1553,,69,25,13,,67,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187639&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=293da33bc5267650fbd8e590032cd6f3
+2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-17,08:00,ZG,,172,,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-17,09:00,BS,,918,,68,7,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-17,09:30,SH,,60,,8,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1084,7 +1084,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-18,,VS,,1768,,83,18,10,185,104,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-18,00:00,SO,,353,,19,,,,10,https://corona.so.ch/index.php?id=27979
 2020-04-18,08:00,BE,,1586,,71,22,12,,69,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-18,08:00,TI,,2994,,244,56,42,606,277,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187644&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=df3ace8d6228b4587b78db3bfa080a83
+2020-04-18,08:00,TI,,2994,,244,56,42,606,277,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-18,08:00,ZG,,174,,6,6,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-18,09:30,SH,,61,,11,4,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-18,09:45,BS,,924,,,,,753,40,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-929-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -1108,7 +1108,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-19,,VS,,1775,,81,16,9,204,107,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-19,00:00,SO,,355,,19,,,,11,https://corona.so.ch/index.php?id=27979
 2020-04-19,08:00,BE,,1599,,78,20,13,,69,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-19,08:00,TI,,3032,,237,54,42,616,281,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187645&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=7c0ead3ab8e681d79f11cb3d67995946
+2020-04-19,08:00,TI,,3032,,237,54,42,616,281,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-19,08:00,ZG,,175,,11,6,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-19,09:30,SH,,62,,6,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-19,10:00,BS,,927,,,,,764,40,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-932-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
@@ -1133,7 +1133,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-20,,VS,,1792,,76,15,9,206,110,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-20,00:00,SO,,355,,19,,,,11,https://corona.so.ch/index.php?id=27979
 2020-04-20,08:00,BE,,1613,,71,19,11,,73,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-20,08:00,TI,,3058,,237,55,42,621,288,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187648&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8c7fb45c6eada1e8d97d120f23176eb1
+2020-04-20,08:00,TI,,3058,,237,55,42,621,288,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-20,08:00,ZG,,175,,11,5,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-20,09:30,BS,,928,,,,,770,42,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-20,09:30,SH,,63,,6,2,,,1,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1159,7 +1159,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-21,,VS,,1799,,73,14,11,210,115,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-21,00:00,SO,,359,,19,,,,11,https://corona.so.ch/index.php?id=27979
 2020-04-21,08:00,BE,,1622,,66,17,11,,77,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-21,08:00,TI,,3065,,236,54,36,639,291,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187654&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=8ae7085e87cf92c2997d0e458baa17f9
+2020-04-21,08:00,TI,,3065,,236,54,36,639,291,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-21,08:00,ZG,,176,,9,4,,99,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-21,09:15,BS,,928,,54,9,,781,44,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html
 2020-04-21,09:30,SH,,63,,10,2,,,2,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1186,7 +1186,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-22,,VS,,1805,,74,13,11,210,118,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-22,00:00,SO,,368,,18,,,,11,https://corona.so.ch/index.php?id=27979
 2020-04-22,08:00,BE,,1643,,67,14,10,,77,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-22,08:00,TI,,3089,,213,42,32,661,295,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187672&cHash=73c20eed4b20c3cb714758f2678c3f15
+2020-04-22,08:00,TI,,3089,,213,42,32,661,295,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-22,08:00,ZG,,176,,6,3,,131,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-22,09:30,SH,,63,,10,2,,,3,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-22,09:45,BS,,928,,49,7,,786,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html
@@ -1213,7 +1213,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-23,,VS,,1821,,70,13,10,211,123,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-23,00:00,SO,,375,,15,,,,12,https://corona.so.ch/index.php?id=27979
 2020-04-23,08:00,BE,,1670,,66,11,7,,79,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-23,08:00,TI,,3106,,215,41,32,676,298,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187678&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=c546dd2da307919487d6578b8c7353cd
+2020-04-23,08:00,TI,,3106,,215,41,32,676,298,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-23,08:00,ZG,,178,,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-23,09:00,BS,,931,,42,7,,793,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-931-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-23,09:30,SH,,65,,8,2,,,3,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1240,7 +1240,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-24,,VS,,1830,,66,14,10,218,127,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-24,00:00,SO,,376,,15,,,,14,https://corona.so.ch/index.php?id=27979
 2020-04-24,08:00,BE,,1694,,60,11,8,,82,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-24,08:00,TI,,3121,,214,42,33,682,299,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187683&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=96a9e3da92c22f69b3a6ed9000584d1b
+2020-04-24,08:00,TI,,3121,,214,42,33,682,299,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-24,08:00,ZG,,180,,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-24,09:15,BS,,936,,40,7,,800,46,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-936-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-24,09:30,AR,,88,,4,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -1268,7 +1268,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-25,00:00,SO,,379,,13,,,,14,https://corona.so.ch/index.php?id=27979
 2020-04-25,00:01,SZ,,287,,,,,215,17,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-25,08:00,BE,,1708,,61,11,10,,83,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-25,08:00,TI,,3142,,198,40,30,698,304,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187687&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=4113a890fda2606d774861e2b936b052
+2020-04-25,08:00,TI,,3142,,198,40,30,698,304,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-25,08:00,ZG,,181,,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-25,09:30,BS,,938,,,,,,46,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-941-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-25,09:30,SH,,71,,6,1,,,5,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1292,7 +1292,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-26,00:00,SO,,380,,12,,,,15,https://corona.so.ch/index.php?id=27979
 2020-04-26,00:01,SZ,,293,,,,,216,18,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-04-26,08:00,BE,,1714,,54,9,9,,83,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-26,08:00,TI,,3161,,192,37,26,704,306,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187688&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=88b9dbc8a11bbaf69e33668cf73a2501
+2020-04-26,08:00,TI,,3161,,192,37,26,704,306,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-26,08:00,ZG,,181,,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-26,09:30,BS,,940,,,,,,46,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-941-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-26,09:30,SH,,72,,9,2,,,5,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1314,7 +1314,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-27,,VS,,1850,,60,14,10,220,132,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-27,00:00,SO,,382,,13,,,,15,https://corona.so.ch/index.php?id=27979
 2020-04-27,08:00,BE,,1722,,54,10,9,,83,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-27,08:00,TI,,3169,,188,34,25,709,311,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187690&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=b776cbdac6ff3c231bf4c3da4ce22b7f
+2020-04-27,08:00,TI,,3169,,188,34,25,709,311,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-27,08:00,ZG,,185,,7,3,,134,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-27,09:30,SH,,73,,12,3,,,5,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-27,10:00,SZ,,293,,,,,216,18,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
@@ -1342,7 +1342,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-28,,VS,,1852,,56,13,9,233,135,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-28,00:00,SO,,383,,13,,,,15,https://corona.so.ch/index.php?id=27979
 2020-04-28,08:00,BE,,1733,,47,7,7,,83,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-28,08:00,TI,,3176,,186,30,22,712,316,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187695&cHash=3d4572a26df56761bd6605aea6d65b84
+2020-04-28,08:00,TI,,3176,,186,30,22,712,316,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-28,08:00,ZG,,185,,7,3,,134,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-28,09:30,BS,,943,,28,7,,,49,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-943-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-28,09:30,SH,,74,,10,2,,,6,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1368,7 +1368,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-29,,VS,,1853,,56,11,9,237,136,https://www.vs.ch/documents/6756452/7008787/2020%2004%2029%20Sit%20Epid%20-%20%C3%89tat%20Stand
 2020-04-29,00:00,SO,,384,,12,,,,15,https://corona.so.ch/index.php?id=27979
 2020-04-29,08:00,BE,,1741,,44,10,10,,83,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-29,08:00,TI,,3191,,172,29,21,728,318,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187697&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=b8bc11fad760b3058475d2ff66e64b4b
+2020-04-29,08:00,TI,,3191,,172,29,21,728,318,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-29,08:00,ZG,,185,,6,3,,135,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-29,09:30,SH,,74,,12,2,,,6,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-04-29,10:00,SZ,,295,,,,,224,20,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
@@ -1394,7 +1394,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-30,,VD,,5284,,142,27,,,377,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-30,00:00,SO,,388,,12,,,,15,https://corona.so.ch/index.php?id=27979
 2020-04-30,08:00,BE,,1757,,39,9,9,,85,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-04-30,08:00,TI,,3210,,162,30,23,739,321,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187705&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=784ddfcb642aacdda332f314cb6089b4
+2020-04-30,08:00,TI,,3210,,162,30,23,739,321,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-04-30,08:00,ZG,,189,,6,3,,135,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-30,09:00,BS,,951,,24,8,,828,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-951-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-30,09:30,SH,,75,,8,2,,,6,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
@@ -1418,7 +1418,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-01,,TG,,367,,14,7,,,17,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-05-01,00:00,SO,,390,,12,,,,15,https://corona.so.ch/index.php?id=27979
 2020-05-01,08:00,BE,,1767,,40,9,7,,86,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
-2020-05-01,08:00,TI,,3218,,142,25,20,764,322,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187711&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0d1b5183c317edf314906c84c9fbe736
+2020-05-01,08:00,TI,,3218,,142,25,20,764,322,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-05-01,08:00,ZG,,189,,4,1,,136,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-05-01,09:30,SH,,75,,7,2,,,6,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
 2020-05-01,10:00,SZ,,303,,,,,242,21,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
@@ -1433,5 +1433,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-01,15:30,UR,,87,,3,,,72,6,https://www.ur.ch/themen/2962
 2020-05-02,00:00,SO,,392,,11,,,,15,https://corona.so.ch/index.php?id=27979
 2020-05-02,00:01,SZ,,304,,,,,246,21,https://www.sz.ch/public/upload/assets/46421/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
-2020-05-02,08:00,TI,,3225,,142,25,20,764,323,https://www4.ti.ch/area-media/comunicati/dettaglio-comunicato/?NEWS_ID=187711&tx_tichareamedia_comunicazioni%5Baction%5D=show&tx_tichareamedia_comunicazioni%5Bcontroller%5D=Comunicazioni&cHash=0d1b5183c317edf314906c84c9fbe736
+2020-05-02,08:00,TI,,3225,,134,23,16,774,323,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-05-02,09:30,SH,,75,,7,2,,,6,https://sh.ch/CMS/get/file/88489ddb-f211-4e59-9f93-f0b18b68c4c3
