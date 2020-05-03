@@ -2,7 +2,7 @@ name: Run BS scraper
 
 on:
   schedule:
-    - cron:  '47 * * * *'
+    - cron:  '47 14 * * *'
 
 jobs:
   run_scraper:
