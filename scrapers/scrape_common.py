@@ -25,7 +25,11 @@ class DayData:
         self.recovered = None
 
     def __str__(self):
-        str_rep = [self.canton, self.timestamp, f'Downloading: {self.url}']
+        str_rep = [
+            self.canton,
+            f'Scraped at: {self.timestamp}',
+            f'Downloading: {self.url}'
+        ]
         if self.datetime is not None and self.datetime != '':
             str_rep += [f'Date and time: {self.datetime}']
         if self.tested is not None and self.tested != '':
