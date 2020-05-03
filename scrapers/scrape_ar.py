@@ -50,7 +50,7 @@ dd.datetime = t
 # <li>Todesfälle kumuliert:&nbsp;<strong>3</strong><strong> </strong>Personen</li>
 
 # Use non-greedy matching for some parts.
-dd.cases = sc.find(r'bestätigte(?:\sFälle)?(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
+dd.cases = sc.find(r'bestätigte(?:\sFälle)?.*?(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
 dd.hospitalized = sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Verdachtsfälle,\s+Station\s+[+]\s+IPS\):\s+<strong>(\d+)</strong>', d) or \
     sc.find(r'Aktuell\s+hospitalisierte\s+Patienten\s+\(inkl\.\s+Verdachtsfälle\):\s+<strong>(\d+)</strong>', d)
 dd.icu = sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d) or \
