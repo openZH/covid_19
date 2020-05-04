@@ -1361,7 +1361,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-29,,GR,,811,,23,,,,45,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/_layouts/15/GenericDataFeed/feed.aspx?PageID=26&ID=g_1175d522_e609_4287_93af_d14c9efd5218&FORMAT=JSONRAW
 2020-04-29,,JU,,197,,9,5,,,7,https://www.jura.ch/Htdocs/Files/v/34295.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_03_05.xlsx?download=1
 2020-04-29,,LU,,687,,31,8,,,17,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-29,,NE,,680,,26,4,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
+2020-04-29,,NE,,680,,26,4,4,,74,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-04-29,,NW,,111,,2,0,,,3,http://www.nw.ch/coronastatistik
 2020-04-29,,SG,,776,,44,10,,176,33,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-29,,TG,,363,,15,7,,,17,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
@@ -1388,7 +1388,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-30,,GR,,813,,21,,,,45,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/_layouts/15/GenericDataFeed/feed.aspx?PageID=26&ID=g_1175d522_e609_4287_93af_d14c9efd5218&FORMAT=JSONRAW
 2020-04-30,,JU,,198,,8,5,,,7,https://www.jura.ch/Htdocs/Files/v/34295.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_03_05.xlsx?download=1
 2020-04-30,,LU,,694,,31,8,,,17,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-30,,NE,,685,,25,5,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
+2020-04-30,,NE,,685,,25,5,4,,76,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-04-30,,NW,,113,,1,0,,,3,http://www.nw.ch/coronastatistik
 2020-04-30,,SG,,780,,37,3,,184,33,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-30,,TG,,365,,14,7,,,17,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
@@ -1414,7 +1414,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-01,,GR,,814,,21,,,,45,https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/_layouts/15/GenericDataFeed/feed.aspx?PageID=26&ID=g_1175d522_e609_4287_93af_d14c9efd5218&FORMAT=JSONRAW
 2020-05-01,,JU,,198,,8,5,,,7,https://www.jura.ch/Htdocs/Files/v/34295.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_03_05.xlsx?download=1
 2020-05-01,,LU,,703,,40,8,,,17,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-05-01,,NE,,686,,26,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
+2020-05-01,,NE,,687,,26,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-05-01,,NW,,113,,1,0,,,3,http://www.nw.ch/coronastatistik
 2020-05-01,,SG,,788,,36,3,,187,33,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-05-01,,TG,,367,,14,7,,,17,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
@@ -1482,6 +1482,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-04,,BL,,828,,9,1,1,769,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-04,,FR,,1102,,36,4,,130,79,https://www.fr.ch/sites/default/files/2020-05/statistiques_situation_FR_0405.xlsx
 2020-05-04,,LU,,705,,34,6,,,18,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
+2020-05-04,,NE,,,,25,3,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-05-04,,SG,,793,,29,2,,189,33,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-05-04,,TG,,372,,14,5,,,17,https://www.tg.ch/news/fachdossier-coronavirus.html/10552
 2020-05-04,00:00,SO,,400,,11,,,,15,https://corona.so.ch/index.php?id=27979
@@ -1496,3 +1497,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-04,13:00,GL,,122,,2,,,,12,https://www.gl.ch/public/upload/assets/27992/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-04,14:00,UR,,91,,2,,,72,6,https://www.ur.ch/themen/2962
 2020-05-04,14:45,AG,,1133,,38,5,4,940,36,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200504_KFS_Coronavirus_Lagebulletin_46.pdf
+2020-05-04,15:00,VS,,1882,,53,10,8,241,141,https://www.vs.ch/documents/6756452/7008787/2020%2005%2004%20Sit%20Epid%20-%20%C3%89tat%20Stand
