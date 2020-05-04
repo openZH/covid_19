@@ -45,7 +45,12 @@ jobs:
         name: dashboard
 
     # Commit to repo with updated file
-    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+    - name: Commit and push to repo
+      uses: github-actions-x/commit@v2.6
       with:
-        commit_message: Update COVID19_Fallzahlen_CH_total.csv
-        branch: ${{ github.head_ref }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        name: GitHub Action Scraper
+        email: scraper@open.zh.ch
+        commit-message: Update COVID19_Fallzahlen_CH_total.csv
+        rebase: 'true'
