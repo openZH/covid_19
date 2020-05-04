@@ -82,7 +82,7 @@ try:
             url_source = url_match.group(1).strip().split(', ')[-1]
         except (TypeError, IndexError):
             url_source = ''
-        if 'SCRAPER_SOURCE' in os.environ:
+        if 'SCRAPER_SOURCE' in os.environ and os.environ['SCRAPER_SOURCE']:
             data['source'] = os.environ['SCRAPER_SOURCE']
         elif url_source:
             data['source'] = url_source
