@@ -122,6 +122,8 @@ https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlech
 | __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
 
+Comparable data for the Canton Thurgau in a slightly different format is available on [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
+
 # Community Contributions
 ### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
