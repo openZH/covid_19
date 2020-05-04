@@ -8,9 +8,10 @@ jobs:
   run_scraper:
 
     runs-on: ubuntu-latest
-    continue-on-error: true
+    continue-on-error: ${{ matrix.allow-failure }}
     timeout-minutes: 10
     strategy:
+      fail-fast: false
       matrix:
         python-version: [3.7]
         canton:
@@ -37,7 +38,12 @@ jobs:
           - VD
           - VS
           - ZG
+        allow-failure: [false]
         include:
+          - python-version: 3.7
+            canton: BS
+            allow-failure: true
+
           - python-version: 3.7
             canton: FR
             overwrite: yes
