@@ -4,9 +4,8 @@ import re
 import sys
 import scrape_common as sc
 
-print('BS')
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
-URL = sc.download("https://www.gd.bs.ch/")
+URL = sc.download("https://www.gd.bs.ch/", silent=True)
 URL = sc.filter(r'Tagesbulletin.*Corona', URL)
 
 # 2020-03-25, List of sub-articles:
@@ -16,10 +15,9 @@ URL = sc.filter(r'Tagesbulletin.*Corona', URL)
     <a href="/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 376 bestätigte Fälle im Kanton Basel-Stadt</a>
 """
 
-URL = sc.filter(r'href', URL)
-URL = URL.split('"')[1]
-d = sc.download(f'https://www.gd.bs.ch/{URL}')
-sc.timestamp()
+url = 'https://www.gd.bs.ch/' + sc.filter(r'href', URL).split('"')[1]
+dd = sc.DayData(canton='BS', url=url)
+d = sc.download(url, silent=True)
 
 d = d.replace('&auml;', 'ä')
 d = d.replace('&ouml;', 'ö')
@@ -87,34 +85,20 @@ d = d.replace('&nbsp;', ' ')
                     </div>
 """
 
-print('Date and time:', sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+\s+(:?Uhr)?),\s*(?:liegen\s*)?(?:insgesamt\s*)?', d))
+dd.datetime = sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+\s+(:?Uhr)?),\s*(?:liegen\s*)?(?:insgesamt\s*)?', d)
 
 m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
 if m:
-    # print('Confirmed cases (residents):', int(m[2]))
-    # print('Confirmed cases (non-residents):', int(m[1]) - int(m[2]))
-    # print('Confirmed cases (all):', int(m[1]))
-    print('Confirmed cases:', int(m[2]))  # Residents only.
-else:
-    print('Confirmed cases:', sc.find(r'(?:insgesamt\s*)?([0-9]+)\s*positive', d))
-    print('WARNING: Main pattern for matching confirmed cases numbers failed to match', file=sys.stderr)
+    dd.cases = int(m[2])
 
 m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*([0-9]+)\s*Personen', d, flags=re.I)
 if m:
-    # print('Hospitalized (non-residents):', int(m[2]) - int(m[1]))
-    # print('Hospitalized (residents):', int(m[1]))
-    # print('Hospitalized (all):', int(m[2]))
-    print('Hospitalized:', int(m[2]))  # Irrespective of residency.
-else:
-    print('WARNING: Main pattern for matching hospitalized numbers failed to match', file=sys.stderr)
+    dd.hospitalized = int(m[2])
 
-print('Recovered:', sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d))
-icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
-if icu:
-    print('ICU:', icu)
-print(
-    'Deaths:',
-    sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or
-    sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or
+dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d)
+dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
+dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or \
+    sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*unverändert\s*([0-9]+)\b', d)
-)
+
+print(dd)
