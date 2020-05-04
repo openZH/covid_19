@@ -11,6 +11,7 @@ for row in rows:
     if not is_first:
         print('-' * 10)
     is_first = False
+
     dd = sc.DayData(canton='NE', url=xls_url)
     dd.datetime = row['A'].date().isoformat()
     dd.cases = row['Cumul']

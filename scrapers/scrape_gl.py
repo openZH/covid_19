@@ -14,7 +14,12 @@ xls_url = box.find('a', string=re.compile(r'.*Dokument.*')).get('href')
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls)
-for i, row in enumerate(rows):
+is_first = True
+for row in rows:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+
     print('GL')
     sc.timestamp()
     print('Downloading:', xls_url)
@@ -25,8 +30,3 @@ for i, row in enumerate(rows):
     print('Confirmed cases:', row['Bestätigte Fälle (kumuliert)'])
     print('Hospitalized:', row['Personen in Spitalpflege'])
     print('Deaths:', row['Todesfälle (kumuliert)'])
-    # do not print record delimiter for last record
-    # this is an indicator for the next script to check
-    # for expected values.
-    if len(rows) - 1 > i:
-        print('-' * 10)

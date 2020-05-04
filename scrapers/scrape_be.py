@@ -125,10 +125,10 @@ for t in soup.find_all('table'):
 
         is_first = True
         for row in [r for r in t.find_all('tr') if r.find_all('td')]:
-            if is_first:
-                is_first = False
-            else:
+            if not is_first:
                 print('-' * 10)
+            is_first = False
+
             print('BE')
             sc.timestamp()
             print('Downloading:', html_url)

@@ -29,8 +29,13 @@ for row in data_table.find_all('tr'):
     if data:
         rows.append(data)
 
+is_first = True
 # skip first row
-for i, row in enumerate(rows[1:]):
+for row in rows[1:]:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+
     print('SO')
     sc.timestamp()
     print('Downloading:', url)
@@ -39,6 +44,3 @@ for i, row in enumerate(rows[1:]):
     print(f"Confirmed cases: {row['Cases']}")
     print(f"Hospitalized: {row['Hospitalized']}")
     print(f"Deaths: {row['Deaths']}")
-
-    if len(rows[1:]) - 1 > i:
-        print('-' * 10)
