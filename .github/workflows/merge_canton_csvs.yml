@@ -45,10 +45,7 @@ jobs:
         name: dashboard
 
     # Commit to repo with updated file
-    - name: Commit and push to repo
-      uses: github-actions-x/commit@v2.6
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: master
         commit_message: Update COVID19_Fallzahlen_CH_total.csv
-        rebase: 'true'
+        branch: ${{ github.head_ref }}
