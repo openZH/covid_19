@@ -31,7 +31,12 @@ json_data = json.loads(d)
 # Sort by date, just in case. ISO 8601 is used, so we can just sort using strings.
 json_data.sort(key=lambda x: x['date'])
 
-for i, row in enumerate(json_data):
+is_first = True
+for row in json_data:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+
     dd = sc.DayData(canton='GR', url=json_url)
     if row['time']:
         dd.datetime = f"{row['date']}T{row['time']}"
@@ -45,6 +50,3 @@ for i, row in enumerate(json_data):
     dd.recovered = row['ncumul_released']
     dd.deaths = row['ncumul_deceased']
     print(dd)
-    if len(json_data) - 1 > i:
-        print('-' * 10)
-

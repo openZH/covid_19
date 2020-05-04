@@ -64,11 +64,12 @@ rows = sc.parse_xls(xls, header_row=0)
 is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
-        break
-    if is_first:
-        is_first = False
-    else:
+        continue
+
+    if not is_first:
         print('-' * 10)
+    is_first = False
+
     print('SH')
     sc.timestamp()
     print('Downloading:', xls_url)

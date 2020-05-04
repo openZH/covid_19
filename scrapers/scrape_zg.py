@@ -36,7 +36,12 @@ for row in reader:
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
 last_day = data[days[-1]]
-for i, day in enumerate(days):
+is_first = True
+for day in days:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+
     print('ZG')
     sc.timestamp()
     print('Downloading:', csv_url)
@@ -46,5 +51,3 @@ for i, day in enumerate(days):
     print('ICU:', data[day]['Hospitalisierte in Intensivpflege'])
     print('Recovered:', data[day]['Genesene'])
     print('Deaths:', data[day]['Todesfälle'])
-    if len(days) - 1 > i:
-        print('-' * 10)

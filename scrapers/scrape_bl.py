@@ -128,10 +128,10 @@ Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle
 
 is_first = True
 for row_date, row in rows.items():
-    if is_first:
-        is_first = False
-    else:
+    if not is_first:
         print('-' * 10)
+    is_first = False
+
     print('BL')
     sc.timestamp()
     print('Date and time:', row_date)

@@ -36,10 +36,10 @@ def parse_html():
 
     is_first = True
     for row in rows:
-        if is_first:
-            is_first = False
-        else:
+        if not is_first:
             print('-' * 10)
+        is_first = False
+
         cells = row.split('\t')
         print('VD')
         sc.timestamp()
@@ -63,19 +63,21 @@ def parse_xlsx():
     rows = sc.parse_xls(xls, header_row=2)
     is_first = True
     for row in rows:
-        if row['Date'] is not None and isinstance(row['Date'], datetime.datetime):
-            if is_first:
-                is_first = False
-            else:
-                print('-' * 10)
-            print('VD')
-            sc.timestamp()
-            print('Downloading:', xls_url)
-            print('Date and time:', row['Date'].date().isoformat())
-            print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
-            print('Hospitalized:', row['Hospitalisation en cours'])
-            print('ICU:', row['Dont soins intensifs'])
-            print('Deaths:', row['Décès'])
+        if not isinstance(row['Date'], datetime.datetime):
+            continue
+
+        if not is_first:
+            print('-' * 10)
+        is_first = False
+
+        print('VD')
+        sc.timestamp()
+        print('Downloading:', xls_url)
+        print('Date and time:', row['Date'].date().isoformat())
+        print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
+        print('Hospitalized:', row['Hospitalisation en cours'])
+        print('ICU:', row['Dont soins intensifs'])
+        print('Deaths:', row['Décès'])
 
 
 if __name__ == '__main__':

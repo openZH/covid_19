@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
@@ -11,9 +12,14 @@ xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'
 xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls)
-for i, row in enumerate(rows):
-    if not row['Datum']:
+is_first = True
+for row in rows:
+    if not isinstance(row['Datum'], datetime.datetime):
         continue
+
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
     # handle wrong value on 2020-03-25, see issue #631
     if row['Datum'].date().isoformat() == '2020-03-25':
@@ -29,8 +35,3 @@ for i, row in enumerate(rows):
     print('Confirmed cases:', row['Bestätigte Fälle (kumuliert)'])
     print('Deaths:', row['Todesfälle (kumuliert)'])
     print('Recovered:', row['Genesene (kumuliert)'])
-    # do not print record delimiter for last record
-    # this is an indicator for the next script to check
-    # for expected values.
-    if len(rows) - 1 > i:
-        print('-' * 10)

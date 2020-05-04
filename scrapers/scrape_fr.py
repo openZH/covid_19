@@ -23,10 +23,10 @@ for row in rows:
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
 
-    if is_first:
-       is_first = False
-    else:
+    if not is_first:
         print('-' * 10)
+    is_first = False
+
     print('FR')
     sc.timestamp()
     print('Downloading:', xls_url)
