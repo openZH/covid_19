@@ -72,9 +72,9 @@ jobs:
             canton: SO
             overwrite: yes
 
-          - python-version: 3.7
-            canton: SZ
-            overwrite: yes
+          #- python-version: 3.7
+          #  canton: SZ
+          #  overwrite: yes
 
           - python-version: 3.7
             canton: TI
