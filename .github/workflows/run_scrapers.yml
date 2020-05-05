@@ -2,7 +2,7 @@ name: Run scrapers
 
 on:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '5-59/15 * * * *' # run at 5', 20', 35', 50'
 
 jobs:
   run_scraper:
