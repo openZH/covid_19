@@ -4,7 +4,7 @@
 import datetime
 import scrape_common as sc
 
-xls_url = 'https://github.com/metaodi/covid-meta/blob/master/Chiffres%20%20COVID-19%20Valais_20200504.xlsx?raw=true'
+xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20%20COVID-19%20Valais.xlsx'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=1)
 is_first = True
