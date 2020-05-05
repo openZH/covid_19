@@ -87,6 +87,7 @@ jobs:
 
           - python-version: 3.7
             canton: VS
+            source: https://www.vs.ch/de/web/coronavirus
             overwrite: yes
 
           - python-version: 3.7
