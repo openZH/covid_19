@@ -36,6 +36,23 @@ sc.timestamp()
 </div>
 """
 
+# 2020-05-06
+"""
+
+<h2>
+      Anzahl Fälle kumuliert
+  </h2>
+
+  
+  <div class="visualClear">Stand 06.05.2020, 11.00 Uhr</div>
+<div class="visualClear">
+<ul>
+<li>25 laborbestätigte Fälle</li>
+<li>0 Todesfälle</li>
+</ul>
+</div>
+"""
 
 print("Date and time:", sc.find('>Stand (.+ Uhr)</div>', d))
-print("Confirmed cases:", sc.find('<li>([0-9]+) (infizierte Person(en)?|(labor)?bestätigte Fälle)</li>', d))
+print("Confirmed cases:", sc.find('<li>([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle)<\/li>', d))
+print("Deaths:", sc.find('<li>([0-9]+)\s*Todesf.+?lle<\/li>', d))
