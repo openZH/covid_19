@@ -126,7 +126,9 @@ try:
             )
             print("Successfully added new entry.")
         except sqlite3.IntegrityError:
-            if os.environ.get('SCRAPER_OVERWRITE') == 'yes':
+            if os.environ.get('SCRAPER_OVERWRITE') == 'no':
+                print("Error: Data for this date has already been added")
+            else:
                 c.execute(
                     '''
                     UPDATE data
@@ -160,8 +162,6 @@ try:
                     ]
                 )
                 print("Successfully updated entry.")
-            else:
-                print("Error: Data for this date has already been added")
         finally:
             conn.commit()
 except Exception as e:
