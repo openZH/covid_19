@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
 import re
+import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-print('LU')
-d = sc.download('https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus')
-sc.timestamp()
+url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus'
+d = sc.download(url, silent=True)
+dd = sc.DayData(canton='LU', url=url)
 
 # 2020-04-01
 """
@@ -63,7 +64,22 @@ sc.timestamp()
 ...
 """
 
-print('Date and time:', sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d))
+include_hosp = True
+include_cases = True
+
+case_date_str = sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d)
+hosp_date_str = sc.find(r'Hospitalisierungen.*\(Stand:\s*(.+?)\,', d)
+
+case_date = sc.date_from_text(case_date_str)
+hosp_date = sc.date_from_text(hosp_date_str)
+if case_date > hosp_date:
+    include_hosp = False
+    dd.datetime = case_date_str
+elif hosp_date > case_date:
+    include_cases = False 
+    dd.datetime = hosp_date_str
+else:
+    dd.datetime = case_date_str
 
 soup = BeautifulSoup(d, 'html.parser')
 rows = []
@@ -75,11 +91,13 @@ for row in rows:
 
     header_str = "".join([str(x) for x in cells[0].contents])
     value = int(cells[1].find('p').string)
-    if re.search('Bestätigte Fälle|Positiv getestet', header_str):
-        print('Confirmed cases:', value)
-    if re.search('Hospitalisiert', header_str):
-        print('Hospitalized:', value)
-    if re.search('Todesfälle', header_str):
-        print('Deaths:', value)
-    if re.search('Intensivpflege', header_str):
-        print('ICU:', value)
+    if re.search('Bestätigte Fälle|Positiv getestet', header_str) and include_cases:
+        dd.cases = value
+    if re.search('Todesfälle', header_str) and include_cases:
+        dd.deaths = value
+    if re.search('Hospitalisiert', header_str) and include_hosp:
+        dd.hospitalized = value
+    if re.search('Intensivpflege', header_str) and include_hosp:
+        dd.icu = value
+
+print(dd)
