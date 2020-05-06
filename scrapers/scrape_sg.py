@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
+import re
+import datetime
+import sys
+from scrape_dates import parse_date
 import scrape_common as sc
 
-print('SG')
-d = sc.download("https://www.sg.ch/tools/informationen-coronavirus.html")
-sc.timestamp()
-
+url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
+d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
+
+dd = sc.DayData(canton='SG', url=url)
 
 # 2020-03-20
 """ 									<div class="col-xs-12"><p>20.03.2020:<br/>Bestätigte Fälle: 98<br/><br/></p></div>"""
@@ -70,12 +74,44 @@ d = d.replace('&nbsp;', ' ')
 </tr></tbody></table>
 """
 
-print('Date and time:', sc.find(r'<h4>([0-9]+\.\s*[A-Za-z]*\s*[0-9]{4})<\/h4>', d))
-print('Confirmed cases:', sc.find(r'laborbestätigte\s*Fälle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", "")))
-print('Deaths:', sc.find(r'>Verstorbene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", "")))
-hospitalized_isolated = sc.find(r'>Hospitalisationen Isolation\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
-hospitalized_intensive = sc.find(r'>Hospitalisationen\s*Intensiv\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
-if hospitalized_intensive and hospitalized_isolated:
-  print('Hospitalized:', int(hospitalized_isolated) + int(hospitalized_intensive))
-  print('ICU:', hospitalized_intensive)
-print('Recovered:', sc.find(r'>aus\s*Spital\s*entlassene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", "")))
+
+def date_from_text(date_str):
+    new_date = parse_date(date_str)
+    day = new_date.split("T", 1)[0].split('-', 2)
+    day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
+    return day
+
+include_hosp = True
+include_cases = True
+
+dates = re.findall(r'<h4>Stand ([0-9]+\.\s*[A-Za-z]*\s*[0-9]{4}).*<\/h4>', d)
+dates = ['6. Mai 2020', '6. Mai 2020']
+if len(dates) == 1:
+    dd.datetime = dates[0]
+elif len(dates) >= 2:
+    d1 = date_from_text(dates[0])
+    d2 = date_from_text(dates[1])
+    if d1 > d2:
+        include_hosp = False
+        dd.datetime = dates[1]
+    elif d2 > d1:
+        include_cases = False 
+        dd.datetime = dates[1]
+    else:
+        dd.datetime = dates[0]
+else:
+    print("Error: Date not found.", file=sys.stderr)
+
+if include_cases:
+    dd.cases = sc.find(r'laborbestätigte\s*Fälle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", ""))
+    dd.deaths = sc.find(r'>Verstorbene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
+
+if include_hosp:
+    hospitalized_isolated = sc.find(r'>Hospitalisationen Isolation\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
+    hospitalized_intensive = sc.find(r'>Hospitalisationen\s*Intensiv\s*\((?:akt\.|aktueller)\s*Stand\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
+    if hospitalized_intensive and hospitalized_isolated:
+      dd.hospitalized = int(hospitalized_isolated) + int(hospitalized_intensive)
+      dd.icu = hospitalized_intensive
+    dd.recovered = sc.find(r'>aus\s*Spital\s*entlassene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
+
+print(dd)
