@@ -22,11 +22,11 @@ matrix = {
     'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'JU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'LU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'LU': [], # LU does not always provides the same numbers 
     'NE': ['Hospitalized', 'Vent'],
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    'SG': [], # since SG either provides case numbers or hosp. numbers we can't specify the expectations here
+    'SG': [], # SG does not always provides the same numbers 
     'SH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'SO': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'SZ': ['Confirmed cases', 'Deaths', 'Released'],

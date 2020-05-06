@@ -3,7 +3,6 @@
 import re
 import datetime
 import sys
-from scrape_dates import parse_date
 import scrape_common as sc
 
 url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
@@ -74,23 +73,15 @@ dd = sc.DayData(canton='SG', url=url)
 </tr></tbody></table>
 """
 
-
-def date_from_text(date_str):
-    new_date = parse_date(date_str)
-    day = new_date.split("T", 1)[0].split('-', 2)
-    day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
-    return day
-
 include_hosp = True
 include_cases = True
 
 dates = re.findall(r'<h4>Stand ([0-9]+\.\s*[A-Za-z]*\s*[0-9]{4}).*<\/h4>', d)
-dates = ['6. Mai 2020', '6. Mai 2020']
 if len(dates) == 1:
     dd.datetime = dates[0]
 elif len(dates) >= 2:
-    d1 = date_from_text(dates[0])
-    d2 = date_from_text(dates[1])
+    d1 = sc.date_from_text(dates[0])
+    d2 = sc.date_from_text(dates[1])
     if d1 > d2:
         include_hosp = False
         dd.datetime = dates[1]

@@ -8,6 +8,7 @@ import subprocess
 import re
 import requests
 import xlrd
+from scrape_dates import parse_date
 
 
 class DayData:
@@ -163,3 +164,10 @@ def int_or_word(x):
     elif represents_int(x):
         return int(x)
     return None
+
+
+def date_from_text(date_str):
+    new_date = parse_date(date_str)
+    day = new_date.split("T", 1)[0].split('-', 2)
+    day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
+    return day
