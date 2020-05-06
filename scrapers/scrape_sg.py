@@ -2,6 +2,7 @@
 
 import re
 import datetime
+import sys
 from scrape_dates import parse_date
 import scrape_common as sc
 
