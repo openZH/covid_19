@@ -41,59 +41,20 @@ jobs:
         allow-failure: [false]
         include:
           - python-version: 3.7
-            canton: FR
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: GL
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: GR
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: JU
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: LU
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: NE
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: SH
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: SO
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: SZ
-            overwrite: yes
-
-          - python-version: 3.7
-            canton: TI
-            overwrite: yes
+            canton: AG
+            overwrite: no
 
           - python-version: 3.7
             canton: VD
             source: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
-            overwrite: yes
 
           - python-version: 3.7
             canton: VS
             source: https://www.vs.ch/de/web/coronavirus
-            overwrite: yes
 
           - python-version: 3.7
             canton: ZG
             source: https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-            overwrite: yes
 
     steps:
     - uses: actions/checkout@v2
