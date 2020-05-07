@@ -12,7 +12,7 @@ soup = BeautifulSoup(d, 'html.parser')
 try:
     xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'))['href']
 except TypeError:
-    print("Unable to determine xls url")
+    print("Unable to determine xls url", file=sys.stderr)
     sys.exit(1)
 xls = sc.xlsdownload(xls_url, silent=True)
 
