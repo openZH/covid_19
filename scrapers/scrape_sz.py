@@ -2,13 +2,18 @@
 # -*- coding: utf-8 -*-
 
 import re
+import sys
 import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
 d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
-xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'))['href']
+try:
+    xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'))['href']
+except TypeError:
+    print("Unable to determine xls url")
+    sys.exit(1)
 xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls)
