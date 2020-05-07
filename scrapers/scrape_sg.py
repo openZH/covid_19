@@ -84,7 +84,7 @@ elif len(dates) >= 2:
     d2 = sc.date_from_text(dates[1])
     if d1 > d2:
         include_hosp = False
-        dd.datetime = dates[1]
+        dd.datetime = dates[0]
     elif d2 > d1:
         include_cases = False 
         dd.datetime = dates[1]
