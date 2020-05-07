@@ -8,7 +8,8 @@ url = "https://corona.so.ch/index.php?id=27979"
 d = sc.download(url, silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
-data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find_next("table")
+data_table = soup.find('h2', text=re.compile(
+    "Situation Kanton Solothurn")).find_next("table")
 headers = [cell.string for cell in data_table.find('tr').find_all('th')]
 rows = []
 for row in data_table.find_all('tr'):
@@ -18,7 +19,7 @@ for row in data_table.find_all('tr'):
         if headers[col_num] == 'Datum':
             data['Date'] = cell.string
         elif headers[col_num] == 'Zeit':
-            data['Time'] = cell.string
+            data['Time'] = cell.string.replace(";", ":")
         elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
             data['Cases'] = cell.string
         elif headers[col_num] == 'Todesfälle (kumuliert)':
