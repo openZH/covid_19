@@ -26,36 +26,36 @@ try:
         match = re.search('^(\w+)\s+([\w\-\:]+)\s+([\w\-]+)\s+(\w+|-)\s+OK(.*)$', l)
         if not match:
             input_failures += 1
-            print(f'Error: Not matched input line: {l}')
+            print(f'Error: Not matched input line: {l}', file=sys.stderr)
             continue
         date_part = match.group(2).split('T')
         data = {
             'date': date_part[0],
             'time': '',
-            'area': match.group(1),
-            'tested': '',
-            'confirmed': match.group(3),
-            'new_hospitalized': '',
-            'hospitalized': '',
-            'icu': '',
-            'vent': '',
-            'released': '',
-            'deceased': match.group(4),
+            'abbreviation_canton_and_fl': match.group(1),
+            'ncumul_tested': '',
+            'ncumul_conf': match.group(3),
+            'new_hosp': '',
+            'current_hosp': '',
+            'current_icu': '',
+            'current_vent': '',
+            'ncumul_released': '',
+            'ncumul_deceased': match.group(4),
             'source': '',
         }
 
         if len(date_part) == 2:
             data['time'] = date_part[1]
 
-        if data['confirmed'] == '-':
-            data['confirmed'] = ''
+        if data['ncumul_conf'] == '-':
+            data['ncumul_conf'] = ''
         else:
-            data['confirmed'] = int(data['confirmed'])
+            data['ncumul_conf'] = int(data['ncumul_conf'])
 
-        if data['deceased'] == '-':
-            data['deceased'] = ''
+        if data['ncumul_deceased'] == '-':
+            data['ncumul_deceased'] = ''
         else:
-            data['deceased'] = int(data['deceased'])
+            data['ncumul_deceased'] = int(data['ncumul_deceased'])
 
         # Parse optional data.
         rest = match.group(5)
@@ -65,16 +65,11 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                if 'current_hosp' in extras:
-                    data['hospitalized'] = extras['current_hosp']
-                if 'current_icu' in extras:
-                    data['icu'] = extras['current_icu']
-                if 'current_vent' in extras:
-                    data['vent'] = extras['current_vent']
-                if 'ncumul_released' in extras:
-                    data['released'] = extras['ncumul_released']
+                for key in ['current_hosp', 'current_icu', 'current_vent', 'ncumul_released']:
+                    if key in extras:
+                        data[key] = extras[key]
             except Exception as e:
-                print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}')
+                print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}', file=sys.stderr)
 
         # Parse URLs
         url_match = re.search('# URLs: ([^#]+)', rest)
@@ -112,56 +107,49 @@ try:
                 [
                     data['date'],
                     data['time'],
-                    data['area'],
-                    data['tested'],
-                    data['confirmed'],
-                    data['new_hospitalized'],
-                    data['hospitalized'],
-                    data['icu'],
-                    data['vent'],
-                    data['released'],
-                    data['deceased'],
+                    data['abbreviation_canton_and_fl'],
+                    data['ncumul_tested'],
+                    data['ncumul_conf'],
+                    data['new_hosp'],
+                    data['current_hosp'],
+                    data['current_icu'],
+                    data['current_vent'],
+                    data['ncumul_released'],
+                    data['ncumul_deceased'],
                     data['source'],
                 ]
             )
             print("Successfully added new entry.")
         except sqlite3.IntegrityError:
             if os.environ.get('SCRAPER_OVERWRITE') == 'no':
-                print("Error: Data for this date has already been added")
+                print("Error: Data for this date has already been added", file=sys.stderr)
             else:
-                c.execute(
-                    '''
-                    UPDATE data
-                    SET 
-                        time = ? ,
-                        ncumul_tested = ? ,
-                        ncumul_conf = ? , 
-                        new_hosp = ? ,
-                        current_hosp = ? ,
-                        current_icu = ? ,
-                        current_vent = ? ,
-                        ncumul_released = ? ,
-                        ncumul_deceased = ?,
-                        source = ?
-                    WHERE date = ?
-                    AND   abbreviation_canton_and_fl = ?
-                    ''',
-                    [
-                        data['time'],
-                        data['tested'],
-                        data['confirmed'],
-                        data['new_hospitalized'],
-                        data['hospitalized'],
-                        data['icu'],
-                        data['vent'],
-                        data['released'],
-                        data['deceased'],
-                        data['source'],
-                        data['date'],
-                        data['area'],
+                try:
+                    # keys that are updated
+                    update_keys = [
+                        'time',
+                        'ncumul_tested',
+                        'ncumul_conf',
+                        'new_hosp',
+                        'current_hosp',
+                        'current_icu',
+                        'current_vent',
+                        'ncumul_released',
+                        'ncumul_deceased',
+                        'source',
                     ]
-                )
-                print("Successfully updated entry.")
+                    for key in update_keys:
+                        # only update for non-empty values
+                        # Note: `0` is a valid value
+                        if data[key] is not None and data[key] != '':
+                            c.execute(
+                                f'UPDATE data SET {key} = ? WHERE date = ? AND abbreviation_canton_and_fl = ?;',
+                                [data[key], data['date'], data['abbreviation_canton_and_fl']]
+                            )
+                            print(f"Successfully updated field '{key}' of {data['abbreviation_canton_and_fl']}: {data[key]} ({data['date']}).")
+                except sqlite3.Error as e:
+                    print("Error: an error occured in sqlite3: ", e.args[0], file=sys.stderr)
+                    conn.rollback()
         finally:
             conn.commit()
 except Exception as e:
