@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import re
 import sys
@@ -6,7 +7,7 @@ import scrape_common as sc
 
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
 URL = sc.download("https://www.gd.bs.ch/", silent=True)
-URL = sc.filter(r'Tagesbulletin.*Corona', URL)
+URL = sc.filter(r'Tagesbulletin.*Corona.*\d+\s*bestätigte\s*Fälle', URL)
 
 # 2020-03-25, List of sub-articles:
 """
