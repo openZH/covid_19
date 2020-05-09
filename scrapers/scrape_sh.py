@@ -75,6 +75,8 @@ for row in rows:
     print('Downloading:', xls_url)
     if isinstance(row['Uhrzeit'], datetime.datetime):
         print('Date and time:', row['Datum'].date().isoformat(), row['Uhrzeit'].time().isoformat())
+    elif row['Uhrzeit']:
+        print('Date and time:', row['Datum'].strftime('%d.%m.%Y'), row['Uhrzeit'])
     else:
         print('Date and time:', row['Datum'].date().isoformat())
 
