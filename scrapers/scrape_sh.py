@@ -73,8 +73,10 @@ for row in rows:
     print('SH')
     sc.timestamp()
     print('Downloading:', xls_url)
-    if row['Uhrzeit']:
+    if isinstance(row['Uhrzeit'], datetime.datetime):
         print('Date and time:', row['Datum'].date().isoformat(), row['Uhrzeit'].time().isoformat())
+    elif row['Uhrzeit']:
+        print('Date and time:', row['Datum'].date().isoformat(), row['Uhrzeit'])
     else:
         print('Date and time:', row['Datum'].date().isoformat())
 
