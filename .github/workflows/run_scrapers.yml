@@ -103,6 +103,7 @@ jobs:
         rebase: 'true'
 
     - name: Get current unix timestamp
+      if: always()
       id: date
       run: echo "::set-output name=ts::$(date +'%s')"
 
