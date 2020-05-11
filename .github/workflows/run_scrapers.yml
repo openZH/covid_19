@@ -70,6 +70,7 @@ jobs:
 
     - name: Upload Boxplot
       uses: actions/upload-artifact@v2
+      if: always()
       with:
         name: boxplot
         path: boxplot.png
