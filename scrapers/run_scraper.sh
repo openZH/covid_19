@@ -35,3 +35,6 @@ sed -i 's/""//g' $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanto
 
 # 4. Validate the result
 node $DIR/../scripts/validate-csv.js $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+
+# 5. Check for outliers
+python $DIR/../scripts/check_for_outliers.py $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
