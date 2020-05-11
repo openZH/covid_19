@@ -49,6 +49,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: Notify slack start
+      id: slack
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: voxmedia/github-action-slack-notify-build@v1
+      with:
+        channel: covid19_casenumber_checks
+        status: STARTING
+        color: warning
+ 
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
@@ -77,3 +88,25 @@ jobs:
         email: scraper@open.zh.ch
         commit-message: Update COVID19_Fallzahlen_Kanton_${{ matrix.canton }}_total.csv from scraper
         rebase: 'true'
+
+    - name: Notify slack success
+      if: success()
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: voxmedia/github-action-slack-notify-build@v1
+      with:
+        message_id: ${{ steps.slack.outputs.message_id }}
+        channel: covid19_casenumber_checks
+        status: SUCCESS
+        color: good
+
+    - name: Notify slack failure
+      if: failure()
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: voxmedia/github-action-slack-notify-build@v1
+      with:
+        message_id: ${{ steps.slack.outputs.message_id }}
+        channel: covid19_casenumber_checks
+        status: FAILED
+        color: danger
