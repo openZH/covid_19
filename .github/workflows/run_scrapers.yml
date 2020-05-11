@@ -85,7 +85,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{"attachments": [{"fallback": "Job finished successfully.", "color": "good", "title": "Run Scrapers (${{ matrix.canton }})", "title_link": "https://github.com/openZH/covid_19/runs/${{ github.run_id }}?check_suite_focus=true", "text": ":white_check_mark: Scraper succeeded", "footer": "GitHub Action", "footer_icon": "https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png"}]}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scrapers (${{ matrix.canton }})\", \"title_link\": \"https://github.com/openZH/covid_19/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":white_check_mark: Scraper succeeded\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\"}]}'
 
     - name: Notify slack failure
       if: failure()
