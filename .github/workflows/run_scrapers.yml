@@ -49,16 +49,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      
-    - name: Notify slack start
-      id: slack
-      env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: voxmedia/github-action-slack-notify-build@v1
-      with:
-        channel: covid19_casenumber_checks
-        status: STARTING
-        color: warning
  
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
@@ -93,12 +83,9 @@ jobs:
       if: success()
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: voxmedia/github-action-slack-notify-build@v1
+      uses: pullreminders/slack-action@master
       with:
-        message_id: ${{ steps.slack.outputs.message_id }}
-        channel: covid19_casenumber_checks
-        status: SUCCESS
-        color: good
+        args: '{"attachments": [{"fallback": "Job finished successfully.", "color": "good", "title": "Run Scrapers (${{ matrix.canton }})", "title_link": "https://github.com/openZH/covid_19/runs/${{ github.run_id }}?check_suite_focus=true", "text": ":white_check_mark: Scraper succeeded", "footer": "GitHub Action", "footer_icon": "https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png"}]}'
 
     - name: Notify slack failure
       if: failure()
@@ -106,7 +93,6 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: voxmedia/github-action-slack-notify-build@v1
       with:
-        message_id: ${{ steps.slack.outputs.message_id }}
         channel: covid19_casenumber_checks
         status: FAILED
         color: danger
