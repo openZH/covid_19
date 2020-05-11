@@ -79,20 +79,22 @@ jobs:
         commit-message: Update COVID19_Fallzahlen_Kanton_${{ matrix.canton }}_total.csv from scraper
         rebase: 'true'
 
+    - name: Get current unix timestamp
+      id: date
+      run: echo "::set-output name=ts::$(date +'%s')"
+
     - name: Notify slack success
       if: success()
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scrapers (${{ matrix.canton }})\", \"title_link\": \"https://github.com/openZH/covid_19/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":white_check_mark: Scraper succeeded\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\"}]}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scraper ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/runs/${{ github.job }}?check_suite_focus=true\", \"text\": \":check: Scraper succeeded\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
 
     - name: Notify slack failure
       if: failure()
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-      uses: voxmedia/github-action-slack-notify-build@v1
+      uses: pullreminders/slack-action@master
       with:
-        channel: covid19_casenumber_checks
-        status: FAILED
-        color: danger
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job failed.\", \"color\": \"danger\", \"title\": \"Run Scrapers ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/runs/${{ github.job }}?check_suite_focus=true\", \"text\": \":x: Scraper failed\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
