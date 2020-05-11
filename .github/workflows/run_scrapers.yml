@@ -67,6 +67,12 @@ jobs:
         SCRAPER_OVERWRITE: ${{ matrix.overwrite }}
       run: |
         ./scrapers/run_scraper.sh
+
+    - name: Upload Boxplot
+      uses: actions/upload-artifact@v2
+      with:
+        name: boxplot
+        path: boxplot.png
     
     - name: Commit and push to repo
       uses: github-actions-x/commit@v2.6
