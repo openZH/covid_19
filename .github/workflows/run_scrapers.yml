@@ -7,6 +7,7 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
+    if: always()
     steps:
     - name: Say hello in slack
       env:
@@ -18,6 +19,7 @@ jobs:
   goodbye:
     runs-on: ubuntu-latest
     needs: run_scraper
+    if: always()
     steps:
     - name: Say goodbye in slack
       env:
