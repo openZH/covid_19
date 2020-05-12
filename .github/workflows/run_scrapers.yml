@@ -65,6 +65,7 @@ jobs:
         SCRAPER_KEY: ${{ matrix.canton }}
         SCRAPER_SOURCE: ${{ matrix.source }}
         SCRAPER_OVERWRITE: ${{ matrix.overwrite }}
+        OUTLIER_ACCEPT: ${{ matrix.accept_outlier }}
       run: |
         ./scrapers/run_scraper.sh
 
