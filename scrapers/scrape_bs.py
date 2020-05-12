@@ -86,6 +86,18 @@ d = d.replace('&nbsp;', ' ')
                     </div>
 """
 
+# 2020-05-12
+"""
+<div class="text">
+                    
+
+<p>Im Kanton Basel-Stadt werden nebst den Tests der Kantonsbewohnerinnen und -bewohner auch Tests von Verdachtsfällen aus anderen Schweizer Kantonen und dem grenznahen Ausland durchgeführt. Bisher sind die Tests von 1475 Personen positiv ausgefallen (inklusive der 970 Basler Fälle).</p>
+
+<p>Mit Stand Dienstag, 12. Mai 2020, 9.50 Uhr, liegen 970 positive Fälle von Personen mit Wohnsitz im Kanton Basel-Stadt vor. Dies sind gleich viele wie am Vortag. 892 Personen der 970 positiv Getesteten und damit mehr als 90 Prozent sind wieder genesen. Die Zahl der Todesfälle im Kanton Basel-Stadt beträgt weiterhin unverändert 50.</p><p>Aktuell befinden sich 10 Einwohnerinnen und Einwohner des Kantons Basel-Stadt aufgrund einer Covid-19-Infektion in Spitalpflege in einem baselstädtischen Spital. Total sind es 15 Personen (inklusive ausserkantonale und ausländische Patientinnen und Patienten). Insgesamt drei Personen benötigen Intensivpflege. Die anderen Patientinnen und Patienten befinden sich auf der normalen Station. Zahlen zu den Hospitalisationen liegen am Freitag wieder vor.</p>
+
+                    </div>
+"""
+
 dd.datetime = sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+\s+(:?Uhr)?),\s*(?:liegen\s*)?(?:insgesamt\s*)?', d)
 
 m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
@@ -100,6 +112,6 @@ dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getest
 dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
 dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or \
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
-    sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*unverändert\s*([0-9]+)\b', d)
+    sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
 
 print(dd)
