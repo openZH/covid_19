@@ -22,8 +22,12 @@ jobs:
       with:
         python-version: 3.7
     - run: npm ci
-    - run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
-    - run: python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
+    - name: Validate structure and content of CSVs
+      run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
+
+    - name: Check for outliers in CSVs
+      run: python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
+      continue-on-error: true
 
     # notify slack if a CSV validation failed
     - name: Get current unix timestamp
