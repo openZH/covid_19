@@ -13,8 +13,11 @@ MIN_VALUE = 20
 # only check the last x days
 LAG_PERIODS = 30
 
+# periods considered "recent"
+RECENT_PERIODS = 3
+
 # IQR factor, determines how many times the IQR is the limit for an outlier
-FACTOR = 1.5
+FACTOR = 2
 
 assert len(sys.argv) >= 2, "Error: Call this script with the path(s) to CSV file(s)"
 
@@ -43,22 +46,26 @@ for csv_file in args:
 
     upper_limit = max(upper_limit, MIN_VALUE)
     lower_limit = max(lower_limit, 0)
-    df_conf['upper_limit'] = upper_limit
-    df_conf['lower_limit'] = lower_limit
-    df_conf['iqr'] = iqr
-    df_conf['factor'] = FACTOR
     df_conf['q1'] = q1
     df_conf['q3'] = q3
+    df_conf['iqr'] = iqr
+    df_conf['factor'] = FACTOR
+    df_conf['upper_limit'] = upper_limit
+    df_conf['lower_limit'] = lower_limit
 
     # use IQR*factor to get outliers
     outliers = df_conf.query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
+    recent_outliers = df_conf.tail(RECENT_PERIODS).query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
     if outliers.empty:
         print(f"✓ {csv_file} has no outliers.");
     else:
-        print(f"× {csv_file} has outliers, please check if this is an error.");
+        if not recent_outliers.empty:
+            fail = True
+            print(f"× {csv_file} has recent outliers, please check if this is an error.");
+        else:
+            print(f"⚠️ {csv_file} has outliers, but nothing recent.");
         print(outliers)
         print('')
-        fail = True
 
 if fail:
     sys.exit(1)
