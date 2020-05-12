@@ -3,8 +3,12 @@ name: Validate CSV
 on:
   push:
     branches: [ master ]
+    paths:
+    - '**.csv'
   pull_request:
     branches: [ master ]
+    paths:
+    - '**.csv'
 
 jobs:
   validate:
@@ -13,5 +17,34 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: npm ci
-    - run: npm test
+
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+
+    - name: Install dependencies
+      run: |
+        npm ci
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Validate structure and content of CSVs
+      run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
+
+    - name: Check for outliers in CSVs
+      run: python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
+
+    - name: Get current unix timestamp
+      if: always()
+      id: date
+      run: echo "::set-output name=ts::$(date +'%s')"
+
+    # notify slack if a CSV validation failed
+    - name: Notify slack failure
+      if: ${{ failure() }}
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: pullreminders/slack-action@master
+      with:
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job failed.\", \"color\": \"danger\", \"title\": \"Validate CSV\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":x: CSV validation failed\", \"footer\": \"<https://github.com/openZH/covid_19|openZH/covid_19>\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'

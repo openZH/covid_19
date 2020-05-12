@@ -32,9 +32,3 @@ $scrape_script | $DIR/parse_scrape_output.py | $DIR/add_db_entry.py
 echo "Export database to CSV..."
 sqlite3 -header -csv $DIR/data.sqlite "select * from data order by date asc;" > $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
 sed -i 's/""//g' $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
-
-# 4. Validate the result
-node $DIR/../scripts/validate-csv.js $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
-
-# 5. Check for outliers
-python $DIR/../scripts/check_for_outliers.py $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
