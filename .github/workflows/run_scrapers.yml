@@ -14,7 +14,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C013C0UUQ4S\", \"text\": \"===========> Scraper starten... <===========\"}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"text\": \":laufen: <https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}|*Scraper starten...*> :laufen:\"}'
 
   goodbye:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C013C0UUQ4S\", \"text\": \"<=========== Scraper sind fertig. ===========>\"}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"text\": \":zielflagge: <https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}|*Scraper sind fertig*> :zielflagge:\"}'
         
   run_scraper:
     needs: hello
@@ -113,7 +113,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scraper ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}\", \"text\": \":check: Scraper succeeded\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scraper ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}\", \"text\": \":check: Scraper succeeded\", \"footer\": \"<https://github.com/openZH/covid_19|openZH/covid_19>\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
 
     - name: Notify slack failure
       if: failure()
@@ -121,4 +121,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job failed.\", \"color\": \"danger\", \"title\": \"Run Scrapers ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":x: Scraper failed\", \"footer\": \"GitHub Action\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job failed.\", \"color\": \"danger\", \"title\": \"Run Scrapers ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":x: Scraper failed\", \"footer\": \"<https://github.com/openZH/covid_19|openZH/covid_19>\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
