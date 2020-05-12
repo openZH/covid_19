@@ -4,21 +4,21 @@
 import sys
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # only values above this MIN_VALUE are considered outliers
 # this is to prevent a failing scraper run if the absolute value is not very high
 # this outlier detection is mostly to prevent human error (wrong data added)
 MIN_VALUE = 20
 
+# only check the last x days
+LAG_PERIODS = 30
 
-# to use different styles, make sure to reload the default to always get clean results
-# plt.style.available
-def use_style(style):
-    plt.style.use('default')
-    plt.style.use(style)
+# IQR factor, determines how many times the IQR is the limit for an outlier
+FACTOR = 1.5
 
 assert len(sys.argv) >= 2, "Error: Call this script with the path(s) to CSV file(s)"
+
+fail = False
 
 args = sys.argv[1:]
 for csv_file in args:
@@ -31,40 +31,35 @@ for csv_file in args:
     df_conf['current_conf'] = df['ncumul_conf'] - df['ncumul_conf'].shift(1)
 
     # only use the last 30 rows
-    df_conf = df_conf.tail(30).reset_index(drop=True)
-
-    # generate boxplot
-    use_style('ggplot')
-    df_conf.boxplot(column='current_conf')
-    plt.savefig('boxplot.png')
-
+    df_conf = df_conf.tail(LAG_PERIODS).reset_index(drop=True)
 
     # caculate iqr for confirmed cases
     q1 = df_conf['current_conf'].quantile(0.25)
     q3 = df_conf['current_conf'].quantile(0.75)
     iqr = q3 - q1
-    factor = 1.5
 
-    print(f"IQR * {factor} = {iqr * factor}")
-
-    lower_limit = q1 - (iqr * factor)
-    upper_limit = q3 + (iqr * factor)
+    lower_limit = q1 - (iqr * FACTOR)
+    upper_limit = q3 + (iqr * FACTOR)
 
     upper_limit = max(upper_limit, MIN_VALUE)
     lower_limit = max(lower_limit, 0)
+    df_conf['upper_limit'] = upper_limit
+    df_conf['lower_limit'] = lower_limit
+    df_conf['iqr'] = iqr
+    df_conf['factor'] = FACTOR
+    df_conf['q1'] = q1
+    df_conf['q3'] = q3
 
     # use IQR*factor to get outliers
     outliers = df_conf.query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
     if outliers.empty:
-        print('No outliers found.')
+        print(f"✓ {csv_file} has no outliers.");
     else:
-        print("Outliers:")
+        print(f"× {csv_file} has outliers, please check if this is an error.");
         print(outliers)
+        print('')
+        fail = True
 
-    if not df_conf.tail(1).query('(current_conf < @lower_limit) or (current_conf > @upper_limit)').empty:
-        print("Last entry is an outlier, please check if this is an error")
-        if os.environ.get('OUTLIER_ACCEPT') == 'yes':
-            print("OUTLIER_ACCEPT is set to `yes`, so exit without error")
-            sys.exit(0)
-        else:
-            sys.exit(1)
+if fail:
+    sys.exit(1)
+
