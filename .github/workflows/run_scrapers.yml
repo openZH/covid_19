@@ -73,7 +73,7 @@ jobs:
       uses: actions/upload-artifact@v2
       if: always()
       with:
-        name: boxplot
+        name: Boxplot of ${{ matrix.canton }} (confirmed cases)
         path: boxplot.png
     
     - name: Commit and push to repo
