@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -61,4 +62,8 @@ else:
 
 if not df_conf.tail(1).query('(current_conf < @lower_limit) or (current_conf > @upper_limit)').empty:
     print("Last entry is an outlier, please check if this is an error")
-    sys.exit(1)
+    if os.environ.get('OUTLIER_ACCEPT') == 'yes':
+        print("OUTLIER_ACCEPT is set to `yes`, so exit without error")
+        sys.exit(0)
+    else:
+        sys.exit(1)
