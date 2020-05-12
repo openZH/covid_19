@@ -1,6 +1,8 @@
 name: Validate CSV
 
 on:
+  schedule:
+    - cron:  '10 */4 * * *'
   push:
     branches: [ master ]
     paths:
