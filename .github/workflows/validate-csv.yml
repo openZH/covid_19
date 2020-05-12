@@ -17,11 +17,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-    - run: npm ci
+
+    - name: Install dependencies
+      run: |
+        npm ci
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
     - name: Validate structure and content of CSVs
       run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
 
