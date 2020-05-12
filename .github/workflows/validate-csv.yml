@@ -33,12 +33,7 @@ jobs:
       run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
 
     - name: Check for outliers in CSVs
-      id: outliers
-      run:  |
-        echo "::set-env name=outliers_status::failed"
-        python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
-        echo "::set-env name=outliers_status::success"
-      continue-on-error: true
+      run: python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
 
     - name: Get current unix timestamp
       if: always()
@@ -47,7 +42,7 @@ jobs:
 
     # notify slack if a CSV validation failed
     - name: Notify slack failure
-      if: ${{ failure()  || env.outliers_status == 'failed' }}
+      if: ${{ failure() }}
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
