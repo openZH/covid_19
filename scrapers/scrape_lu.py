@@ -64,6 +64,16 @@ dd = sc.DayData(canton='LU', url=url)
 ...
 """
 
+# 2020-05-13
+"""
+         <tr>
+            <td valign="top">
+            <p>Intensivpflege (aktuell):</p>
+            </td>
+            <td style="text-align: right; vertical-align: top;">4</td>
+        </tr>
+"""
+
 include_hosp = True
 include_cases = True
 
@@ -90,7 +100,9 @@ for row in rows:
     assert len(cells) == 2, "Number of columns changed, not 2"
 
     header_str = "".join([str(x) for x in cells[0].contents])
-    value = int(cells[1].find('p').string)
+
+    value_str = cells[1].find('p') or cells[1]
+    value = int(value_str.string)
     if re.search('Bestätigte Fälle|Positiv getestet', header_str) and include_cases:
         dd.cases = value
     if re.search('Todesfälle', header_str) and include_cases:
