@@ -115,6 +115,7 @@ jobs:
 
   merge_csvs:
     needs: run_scraper
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -153,6 +154,7 @@ jobs:
 
   update_screenshot:
     needs: merge_csvs
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
