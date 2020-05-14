@@ -157,6 +157,5 @@ Comparable data for the Canton Thurgau in a slightly different format is availab
 ### COVID-19 Data Hub
 - https://covid19datahub.io
 - https://github.com/covid19datahub/COVID19/
-- https://cloud.r-project.org/web/packages/COVID19/index.html
 
 Many thanks for the great work!
