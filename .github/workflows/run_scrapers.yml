@@ -150,8 +150,13 @@ jobs:
       with:
         name: dashboard
 
+   - name: Check if there are changes in the repo
+      id: changes
+      uses: UnicornGlobal/has-changes-action@v1.0.11
+
     # Commit to repo with updated file
     - name: Commit and push to repo
+      if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
       uses: github-actions-x/commit@v2.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
