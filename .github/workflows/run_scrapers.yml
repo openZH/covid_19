@@ -135,6 +135,30 @@ jobs:
         ./scripts/transform_all_new2old.sh
         ./scripts/new2oldcsv.py COVID19_Fallzahlen_CH_total_v2.csv > COVID19_Fallzahlen_CH_total.csv
 
+   - name: Check if there are changes in the repo
+      id: changes
+      uses: UnicornGlobal/has-changes-action@v1.0.11
+
+    # Commit to repo with updated file
+    - name: Commit and push to repo
+      if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        name: GitHub Action Scraper
+        email: scraper@open.zh.ch
+        commit-message: Update COVID19_Fallzahlen_CH_total.csv
+        rebase: 'true'
+
+  update_screenshot:
+    needs: merge_csvs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - uses: actions/checkout@v2
+    
     # update screenshot of dashboard
     - name: Screenshot Dashboard
       uses: swinton/screenshot-website@v1.x
@@ -163,5 +187,5 @@ jobs:
         push-branch: master
         name: GitHub Action Scraper
         email: scraper@open.zh.ch
-        commit-message: Update COVID19_Fallzahlen_CH_total.csv
+        commit-message: Update dashboard screenshot
         rebase: 'true'
