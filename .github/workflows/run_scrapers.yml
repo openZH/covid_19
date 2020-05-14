@@ -135,7 +135,7 @@ jobs:
         ./scripts/transform_all_new2old.sh
         ./scripts/new2oldcsv.py COVID19_Fallzahlen_CH_total_v2.csv > COVID19_Fallzahlen_CH_total.csv
 
-   - name: Check if there are changes in the repo
+    - name: Check if there are changes in the repo
       id: changes
       uses: UnicornGlobal/has-changes-action@v1.0.11
 
@@ -174,7 +174,7 @@ jobs:
       with:
         name: dashboard
 
-   - name: Check if there are changes in the repo
+    - name: Check if there are changes in the repo
       id: changes
       uses: UnicornGlobal/has-changes-action@v1.0.11
 
