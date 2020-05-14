@@ -33,8 +33,8 @@ dd.cases = sc.find(
 dd.recovered = sc.find(r'([0-9\']+)\s+Personen\s+als\s+geheilt', d).replace("'", '')
 dd.hospitalized = sc.find(
     r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d)
-dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+Intensivstationen', d)
-dd.vent = sc.find(r'([0-9]+|alle)\s+Person(en)?(\s+auf\s+Intensivstationen\s+behandelt\s+und)?\s+künstlich\s+beatmet', d)
+dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+(der\s+)?Intensivstation(en)?', d)
+dd.vent = sc.find(r'([0-9]+|alle)\s+Person(en)?(\s+auf\s+Intensivstationen\s+behandelt\s+und)?(\s+auf\s+der\s+Intensivstation\s+behandelt\s+und)?\s+künst(\-\s+)?lich\s+beatmet', d)
 if dd.vent == 'alle':
     dd.vent = dd.icu
 dd.deaths = sc.find(
