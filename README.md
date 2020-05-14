@@ -33,7 +33,7 @@ We are available to advise and support interested authorities, how to easily com
 
 --> **[Check our status dashboard with the latest data updates](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)**
 
-Note: Image below is updated every 15 minutes.
+Note: Image below is updated every 20 minutes.
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](https://www.web.statistik.zh.ch/covid19_dashboard/index.html)
 
 ## Cantonal / FL data resources
