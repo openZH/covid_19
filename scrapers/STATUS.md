@@ -8,7 +8,7 @@
 | AI     | 3      | 3              | no          | Easy extraction including date and time.                                        |
 | AR     | 2      | 3              | no          | Ok. Easy to extract.                                                            |
 | BE     | 2      | 3              | partly      | Okish, time series goes only back 1 day                                         |
-| BL     | 1      | 1.5            | no          | Indirect daily updates on separate pages. Non robust extraction.                |
+| BL     | 2      | 3              | yes         | Daily updates in separate iframes. Okish.                                       |
 | BS     | 2      | 2              | no          | Indirect sub-page. Easy extraction.                                             |
 | FR     | 3      | 4              | yes         | Very good. Easy extraction, including history                                   |
 | GE     | 2      | 3              | no          | Okish, current values are always provisional                                    |
