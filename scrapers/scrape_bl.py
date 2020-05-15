@@ -147,7 +147,7 @@ Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle
                             rows[key] = {'date': row_date}
                         if c[1] or c[2] or c[3]:
                             rows[key]['hospitalized'] = int(float(c[1] or 0) + float(c[2] or 0) + float(c[3] or 0))
-                        rows[key]['icu'] = c[2]
+                        rows[key]['icu'] = int(float(c[2] or 0) + float(c[3] or 0))
                         rows[key]['vent'] = c[3]
 
 # order dict by key to ensure the most recent entry is last
