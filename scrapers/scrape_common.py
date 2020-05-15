@@ -157,6 +157,13 @@ def represents_int(s):
     except (ValueError, TypeError):
         return False
 
+def safeint(s):
+    f = float(s)
+    r = round(f)
+    if f == r:
+        return int(f)
+    else:
+        raise ValueError(f"Can't parse {s} as int without losing precision")
 
 def int_or_word(x):
     if x in spelledOutNumbersMap:
