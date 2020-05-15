@@ -163,12 +163,12 @@ for row_date, row in ordered_rows.items():
     print('Date and time:', row['date'])
     print('Downloading:', main_url)
     if 'cases' in row and row['cases']:
-        print('Confirmed cases:', row['cases'])
+        print('Confirmed cases:', sc.safeint(row['cases']))
     if 'hospitalized' in row and row['hospitalized']:
-        print('Hospitalized:', row['hospitalized'])
+        print('Hospitalized:', sc.safeint(row['hospitalized']))
     if 'icu' in row and row['icu']:
-        print('ICU:', row['icu'])
+        print('ICU:', sc.safeint(row['icu']))
     if 'deaths' in row and row['deaths']:
-        print('Deaths:', row['deaths'])
+        print('Deaths:', sc.safeint(row['deaths']))
     if 'recovered' in row and row['recovered']:
-        print('Recovered:', row['recovered'])
+        print('Recovered:', sc.safeint(row['recovered']))
