@@ -158,6 +158,8 @@ def represents_int(s):
         return False
 
 def safeint(s):
+    if not s:
+        return s
     f = float(s)
     r = round(f)
     if f == r:
