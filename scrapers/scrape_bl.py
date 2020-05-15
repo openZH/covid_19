@@ -128,19 +128,17 @@ Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle
                         rows[row_date]['deaths'] = c[3]
             else:
                 data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Normale Station&quot;,&quot;Intensivstation \(nicht beatmet\)&quot;,&quot;Intensivstation \(beatmet\)&quot;\s*([^<]+)</pre>', d)
-                if data:
-                    for row in data.split(" "):
-                        c = row.split(',')
-                        if len(c) == 4:
-                            row_date = c[0].replace('-', '.')
-                            if row_date not in rows:
-                                rows[row_date] = {'date': row_date}
-                            if c[1] or c[2] or c[3]:
-                                rows[row_date]['hospitalized'] = int(float(c[1] or 0) + float(c[2] or 0) + float(c[3] or 0))
-                            rows[row_date]['icu'] = c[2]
-                            rows[row_date]['vent'] = c[3]
-                else:
-                    print("bug in regexp")
+                assert data, f"issue parsing data in iframe {iframe_url}"
+                for row in data.split(" "):
+                    c = row.split(',')
+                    if len(c) == 4:
+                        row_date = c[0].replace('-', '.')
+                        if row_date not in rows:
+                            rows[row_date] = {'date': row_date}
+                        if c[1] or c[2] or c[3]:
+                            rows[row_date]['hospitalized'] = int(float(c[1] or 0) + float(c[2] or 0) + float(c[3] or 0))
+                        rows[row_date]['icu'] = c[2]
+                        rows[row_date]['vent'] = c[3]
 
 is_first = True
 for row_date, row in rows.items():
