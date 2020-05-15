@@ -28,6 +28,7 @@ jobs:
         npm ci
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        sudo apt-get install poppler-utils
 
     - name: Test run of all scrapers
       run: ./scrapers/test_scraper.sh
