@@ -107,7 +107,7 @@ jobs:
         args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job finished successfully.\", \"color\": \"good\", \"title\": \"Run Scraper ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}\", \"text\": \":check: Scraper succeeded\", \"footer\": \"<https://github.com/openZH/covid_19|openZH/covid_19>\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
 
     - name: Notify slack failure
-      if: ${{ failure()  || env.validate_status == 'failed' }}
+      if: ${{ failure()  || cancelled() || env.validate_status == 'failed' }}
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
