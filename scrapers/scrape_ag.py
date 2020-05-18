@@ -30,7 +30,7 @@ dd = sc.DayData(canton='AG', url=pdf_url)
 dd.datetime = sc.find(r'Aarau, (.+? Uhr)', d)
 dd.cases = sc.find(
     r'zurzeit\s+([0-9\']+)\s+bestätigte\s+Fälle', d).replace("'", '')
-dd.recovered = sc.find(r'([0-9\']+)\s+Personen\s+als\s+geheilt', d).replace("'", '')
+dd.recovered = sc.find(r'([0-9\']+)\s+Personen\s+als\s+ge(\-\s+)?heilt', d).replace("'", '')
 dd.hospitalized = sc.find(
     r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d)
 dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+(der\s+)?Intensivstation(en)?', d)
