@@ -19,7 +19,11 @@ if __name__ == '__main__':
     has_issue = False
     for canton, features in matrix.items():
         print(canton)
-        result = subprocess.run([f'{__location__}/scrape_{canton.lower()}.py'], stdout=subprocess.PIPE)
+        scraper = f'{__location__}/scrape_{canton.lower()}.py'
+        if not os.access(scraper, os.X_OK):
+            print(f"{scraper} is not executable; skipping")
+            continue
+        result = subprocess.run([scraper], stdout=subprocess.PIPE)
         output = re.sub('----------\n$', '', result.stdout.decode('utf-8')).split('----------\n')[-1]
         for feature in features:
             if feature == 'Released':
