@@ -26,6 +26,7 @@ for row in data_rows[0:-1]:
     print('-' * 10)
 
 # and now the latest data for the current day
+d = d.replace("-\n", '')
 dd = sc.DayData(canton='AG', url=pdf_url)
 dd.datetime = sc.find(r'Aarau, (.+? Uhr)', d)
 dd.cases = sc.find(
@@ -33,8 +34,9 @@ dd.cases = sc.find(
 dd.recovered = sc.find(r'([0-9\']+)\s+Personen\s+als\s+ge(\-\s+)?heilt', d).replace("'", '')
 dd.hospitalized = sc.find(
     r'([0-9]+)\s+Person(en)?\s+sind\s+zurzeit\s+hospitalisiert', d)
-dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+(der\s+)?Intensivstation(en)?', d)
-dd.vent = sc.find(r'([0-9]+|alle)\s+Person(en)?(\s+auf\s+Intensivstationen\s+behandelt\s+und)?(\s+auf\s+der\s+Intensivstation\s+behandelt\s+und)?\s+künst(\-\s+)?lich\s+beatmet', d)
+dd.icu = sc.find(r'([0-9]+)\s+Person(en)?\s+auf\s+(der\s+)?Intensivstation(en)? behandelt', d)
+dd.vent = sc.find(r'([0-9]+|alle)\s+Person(en)?(\s+auf\s+Intensivstationen\s+behandelt\s+und)?(\s+auf\s+der\s+Intensivstation\s+behandelt\s+und)?\s+künst(\-\s+)?lich\s+beatmet', d) \
+    or sc.find(r'([0-9]+|alle)\s+Personen\s+auf\s+der\s+Intensivstation\s+müssen\s+künstlich\s+beatmet\s+werden', d)
 if dd.vent == 'alle':
     dd.vent = dd.icu
 dd.deaths = sc.find(
