@@ -104,9 +104,9 @@ m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positi
 if m:
     dd.cases = int(m[2])
 
-m = re.search(r'Aktuell\s*befinden\s*sich\s*([0-9]+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*([0-9]+)\s*Personen', d, flags=re.I)
+m = re.search(r'Aktuell\s*befinden\s*sich\s*(\S+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*(\S+)\s*Personen', d, flags=re.I)
 if m:
-    dd.hospitalized = int(m[2])
+    dd.hospitalized = sc.int_or_word(m[2])
 
 dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d)
 dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
