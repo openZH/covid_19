@@ -169,6 +169,10 @@ for row_date, row in ordered_rows.items():
         dd.icu = sc.safeint(row['icu'])
     except KeyError:
         pass
+    try:
+        dd.vent = sc.safeint(row['vent'])
+    except KeyError:
+        pass
     dd.deaths = sc.safeint(row['deaths'])
     dd.recovered = sc.safeint(row['recovered'])
     print(dd)
