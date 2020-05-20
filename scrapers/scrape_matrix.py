@@ -34,7 +34,7 @@ matrix = {
     'TI': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'UR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized'],
     'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'VS': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'VS': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
     'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'Vent'],
     # 'FL': [],  # No scraper.
