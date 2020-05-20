@@ -140,8 +140,14 @@ try:
             continue
         if k == "Date and time":
             new_date = parse_date(v)
-            day = new_date.split("T", 1)[0].split('-', 2)
+            parts = new_date.split("T", 1)
+            day = parts[0].split('-', 2)
             day = datetime.date(int(day[0]), int(day[1]), int(day[2]))
+
+            if parts[1] == '24:00':
+                day = day + datetime.timedelta(days=1)
+                new_date = f"{day.isoformat()}T00:00"
+
             now = datetime.date.today()
             if day > now:
                 print(f"Parsed date/time must not be in the future: parsed: {day}: now: {now}", file=sys.stderr)
