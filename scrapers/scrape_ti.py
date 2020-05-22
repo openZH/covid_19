@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
 
 # get xlsx URL from covid19 page of TI
