@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
-xls_url = 'https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx'
+# get xlsx URL from covid19 page of TI
+main_url = 'https://www4.ti.ch/dss/dsp/covid19/home/'
+d = sc.download(main_url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
+assert xls_url, "URL is empty"
+
+#xls_url = 'https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 is_first = True
