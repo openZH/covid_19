@@ -30,7 +30,8 @@ if data_table:
             elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
                 data.hospitalized = cell.string.strip()
             col_num += 1
-        if data and not (tmp_date is None and tmp_time is None):
+        if data and tmp_date is not None and \
+                not tmp_date.startswith('bis ') and not (tmp_date is None and tmp_time is None):
             data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
 else:
