@@ -14,21 +14,25 @@ data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find
 if data_table:
     headers = [cell.string for cell in data_table.find('tr').find_all('th')]
     for row in data_table.find_all('tr'):
-        data = {}
+        data = sc.DayData(canton='SO', url=url)
         col_num = 0
+        tmp_date = None
+        tmp_time = None
         for cell in row.find_all(['td']):
             if headers[col_num] == 'Datum':
-                data['Date'] = cell.string
+                tmp_date = cell.string
             elif headers[col_num] == 'Zeit':
-                data['Time'] = cell.string
+                tmp_time = cell.string
             elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
-                data['Cases'] = cell.string
+                data.cases = cell.string.strip()
             elif headers[col_num] == 'Todesfälle (kumuliert)':
-                data['Deaths'] = cell.string
+                data.deaths = cell.string.strip()
             elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
-                data['Hospitalized'] = cell.string
+                data.hospitalized = cell.string.strip()
             col_num += 1
-        if data:
+        if data and tmp_date is not None and \
+                not tmp_date.startswith('bis ') and not (tmp_date is None and tmp_time is None):
+            data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
 else:
     # if the table is not there (it vanished on 2020-05-20) fallback to main page
@@ -38,42 +42,28 @@ else:
     title = soup.find('strong', text=re.compile("Situation Kanton Solothurn"))
     data_list = title.find_parent("div").find_all('li')
     date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
-    row = {
-        'Date': date_str,
-        'Time': '',
-        'Cases': '',
-        'Hospitalized': '',
-        'Deaths': '',
-    }
+    data = sc.DayData(canton='SO', url=url)
     for item in data_list:
         content = "".join([str(s) for s in item.contents])
         if not item:
             continue
         if 'Anzahl positiv getesteter Erkrankungsfälle' in content:
-            row['Cases'] = sc.find('.*:.*?(\d+)\s*.*', content)
+            data.cases = sc.find('.*:.*?(\d+)\s*.*', content).strip()
             continue
         if 'Verstorbene Personen' in content:
-            row['Deaths'] = sc.find('.*:.*?(\d+)\s*.*', content)
+            data.deaths = sc.find('.*:.*?(\d+)\s*.*', content).strip()
             continue
         if 'hospitalisierte Personen' in content and not 'weniger als' in content:
-            row['Hospitalized'] = sc.find('.*:.*?(\d+)\s*.*', content)
+            data.hospitalized = sc.find('.*:.*?(\d+)\s*.*', content).strip()
             continue
-    rows.append({})
-    rows.append(row)
+    rows.append(data)
 
 
 is_first = True
 # skip first row
-for row in rows[1:]:
+for row in rows:
     if not is_first:
         print('-' * 10)
     is_first = False
+    print(row)
 
-    print('SO')
-    sc.timestamp()
-    print('Downloading:', url)
-
-    print(f"Date and time: {row['Date']} {row['Time']}")
-    print(f"Confirmed cases: {row['Cases']}")
-    print(f"Hospitalized: {row['Hospitalized']}")
-    print(f"Deaths: {row['Deaths']}")
