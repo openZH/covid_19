@@ -12,7 +12,9 @@ soup = BeautifulSoup(d, 'html.parser')
 xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
 assert xls_url, "URL is empty"
 
-#xls_url = 'https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx'
+if not xls_url.startswith('http'):
+    xls_url = f'https://www4.ti.ch/{xls_url}'
+
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 is_first = True
