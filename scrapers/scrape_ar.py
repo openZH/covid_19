@@ -28,9 +28,9 @@ dd = sc.DayData(canton='AR', url=url)
 """
 
 # Use non-greedy matching.
-t = sc.find(r'Stand\: (.+? Uhr)\)<', d)
-if not t:
-    t = sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
+t = sc.find(r'Fälle\s+\(Stand\:\s+(.+?Uhr)\)<', d) or \
+    sc.find(r'Stand\: (.+? Uhr)\)<', d) or \
+    sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
 dd.datetime = t
 
 # 2020-03-24 - 2020-03-27
