@@ -138,6 +138,7 @@ for t in soup.find_all('table'):
                 value = cell.string
                 if value:
                     value = value.replace("'", "")
+                    value = value.replace("*", "")
 
                 if headers[col_num] == 'Datum':
                     print('Date and time:', " ".join(cell.stripped_strings))
