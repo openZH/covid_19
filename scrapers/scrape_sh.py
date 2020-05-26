@@ -80,7 +80,12 @@ for row in rows:
     else:
         print('Date and time:', row['Datum'].date().isoformat())
 
-    print('Confirmed cases:', row['Positiv'])
+    cases = row['Positiv']
+    false_positive = sc.find(r'(\d+)\s+.+falsch positiv', row['G'] or '')
+    if false_positive is not None:
+        cases = int(cases) - int(false_positive)
+    print('Confirmed cases:', cases)
+
     if row['Hospitalisiert_Iso'] and row['Hospitalisiert_Intensiv']:
         print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
