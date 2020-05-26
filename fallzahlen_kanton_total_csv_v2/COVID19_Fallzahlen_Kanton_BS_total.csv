@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,ncumul_confirmed_non_resident,current_hosp_non_resident,current_infected_isolated,current_quarantined
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,ncumul_confirmed_non_resident,current_hosp_non_resident,current_isolated,current_quarantined
 2020-02-27,19:17,BS,,1,,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html,1,,,
 2020-02-28,10:15,BS,,1,,,,,,,https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20,1,,,
 2020-02-29,15:23,BS,,1,,,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1233759578241863681?s=20,1,,,
@@ -87,4 +87,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-23,09:00,BS,,976,,,,,916,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-976-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html,505,,,
 2020-05-24,09:00,BS,,976,,,,,916,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-976-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html,505,,,
 2020-05-25,09:00,BS,,976,,,,,920,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-976-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html,505,,6,9
-2020-05-26,10:00,BS,,976,,4,,,922,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-weiterhin-976-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,,
+2020-05-26,10:00,BS,,976,,4,2,,922,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-weiterhin-976-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,505,2,4,7
