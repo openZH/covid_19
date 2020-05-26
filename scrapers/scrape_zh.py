@@ -78,6 +78,7 @@ dd.deaths = deaths
 
 dd.hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in\s*Spitalbehandlung', d)
 
-dd.vent = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d)
+dd.vent = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d) or \
+    sc.find('davon\s+wird\s+(\d+)\s+Patient\s+künstlich\s+beatmet', d)
 
 print(dd)
