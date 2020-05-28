@@ -99,7 +99,7 @@ The dataset containing the cantonal case numbers is structured as follows:
 | __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
 | __source__              | Source of the information                  | href       | |
 | __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
-| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselve |
+| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
 
 Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
 It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
