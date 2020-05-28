@@ -41,4 +41,6 @@ if dd.vent == 'alle':
     dd.vent = dd.icu
 dd.deaths = sc.find(
     r'([0-9]+)\s+Person(en)?\s+an\s+den\s+Folgen\s+des\s+Coronavirus\s+verstorben', d)
+dd.isolated = sc.find(r'betreut\s+sind\s+([0-9]+)\s+infizierte\s+Personen(en)?', d)
+dd.quarantined = sc.find(r'([0-9]+)\s+enge\s+Kontaktperson(en)?', d)
 print(dd)
