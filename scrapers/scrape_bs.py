@@ -7,7 +7,7 @@ import scrape_common as sc
 
 # The list of articles is also available on https://www.gd.bs.ch/medienseite/medienmitteilungen.html
 URL = sc.download("https://www.gd.bs.ch/", silent=True)
-URL = sc.filter(r'Tagesbulletin.*Corona.*\d+\s*bestätigte\s*Fälle', URL)
+URL = sc.filter(r'Tagesbulletin.*Corona.*\d+\s*bestätigte\s*(Fälle|Infektionen)', URL)
 
 # 2020-03-25, List of sub-articles:
 """
@@ -98,17 +98,28 @@ d = d.replace('&nbsp;', ' ')
                     </div>
 """
 
+# 2020-05-29
+"""
+Die Zahl der 978 Infektionen setzt sich zusammen aus 923 genesenen Personen, 50 Todesfällen und fünf aktiven Fällen in Isolation (+ 2), wovon zwei im Spital sind. In Quarantäne befinden sich aktuell drei Personen (+ 3). Die Zahl der Todesfälle im Kanton Basel-Stadt beträgt seit dem 30. April 2020 unverändert 50.
+"""
+
 dd.datetime = sc.find(r'Stand\s*[A-Za-z]*,?\s*(.+\s+(:?Uhr)?),\s*(?:liegen\s*)?(?:insgesamt\s*)?', d)
 
-m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
+m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen.*\s*positiv\s*ausgefallen\s*\(inklusive\s*der\s*([0-9]+)\s*Basler\s*Fälle\)', d, flags=re.I)
 if m:
     dd.cases = int(m[2])
+else:
+    dd.cases = sc.find('Die\s*Zahl\s*der\s*(\d+)\s*Infektionen\s*setzt\s*sich\s*zusammen\s*aus', d)
 
 m = re.search(r'Aktuell\s*befinden\s*sich\s*(\S+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*(\S+)\s*Personen', d, flags=re.I)
 if m:
     dd.hospitalized = sc.int_or_word(m[2])
+else:
+    dd.hospitalized = sc.int_or_word(sc.find('wovon\s*(\S+)\s*im\s*Spital sind', d))
 
-dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d)
+dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d) or \
+    sc.find('(\d+) genesenen Personen', d)
+
 dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
 dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or \
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \

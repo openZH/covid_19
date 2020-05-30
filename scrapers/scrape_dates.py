@@ -60,6 +60,7 @@ months_all.update(months_it)
 
 
 def parse_date(d):
+    assert d, "Content is empty"
     d = d.replace("&auml;", "ä")
     d = d.replace("&nbsp;", " ")
     d = d.strip()
