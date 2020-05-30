@@ -14,7 +14,7 @@ MIN_VALUE = 20
 LAG_PERIODS = 30
 
 # periods considered "recent"
-RECENT_PERIODS = 3
+RECENT_PERIODS = 2
 
 # IQR factor, determines how many times the IQR is the limit for an outlier
 FACTOR = 1.5
