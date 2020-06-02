@@ -42,6 +42,8 @@ try:
             'ncumul_released': '',
             'ncumul_deceased': match.group(4),
             'source': '',
+            'current_isolated': '',
+            'current_quarantined': '',
         }
 
         if len(date_part) == 2:
@@ -65,7 +67,7 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                for key in ['current_hosp', 'current_icu', 'current_vent', 'ncumul_released']:
+                for key in ['current_hosp', 'current_icu', 'current_vent', 'ncumul_released', 'current_isolated', 'current_quarantined']:
                     if key in extras:
                         data[key] = extras[key]
             except Exception as e:
@@ -99,7 +101,9 @@ try:
                     current_vent,
                     ncumul_released,
                     ncumul_deceased,
-                    source
+                    source,
+                    current_isolated,
+                    current_quarantined
                 )
                 VALUES
                 (?,?,?,?,?,?,?,?,?,?,?,?)
@@ -117,6 +121,8 @@ try:
                     data['ncumul_released'],
                     data['ncumul_deceased'],
                     data['source'],
+                    data['current_isolated'],
+                    data['current_quarantined'],
                 ]
             )
             print("Successfully added new entry.")
@@ -137,6 +143,8 @@ try:
                         'ncumul_released',
                         'ncumul_deceased',
                         'source',
+                        'current_isolated',
+                        'current_quarantined',
                     ]
                     for key in update_keys:
                         # only update for non-empty values
