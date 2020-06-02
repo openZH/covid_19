@@ -34,6 +34,9 @@ jobs:
     - name: Validate structure and content of CSVs
       run: node scripts/validate-csv.js fallzahlen_kanton_total_csv_v2/*.csv
 
+    - name: Check if there are empty lines
+      run: scripts/check_for_empty_lines.sh fallzahlen_kanton_total_csv_v2/*.csv
+
     - name: Check for outliers in CSVs
       run: python scripts/check_for_outliers.py fallzahlen_kanton_total_csv_v2/*.csv
 
