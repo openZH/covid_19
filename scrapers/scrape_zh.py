@@ -81,4 +81,7 @@ dd.hospitalized = sc.find('([0-9]+)\s*positiv\s*Getestete\s*befinden\s*sich\s*in
 dd.vent = sc.find('davon\s*werden\s*([0-9]+)\s*künstlich\s*beatmet', d) or \
     sc.find('davon\s+wird\s+(\d+)\s+Patient\s+künstlich\s+beatmet', d)
 
+dd.isolated = sc.find(r'(\d+)\s+Personen\s+in\s+Isolation', d)
+dd.quarantined = sc.find(r'(\d+)\s+in\s+Quarantäne', d)
+
 print(dd)
