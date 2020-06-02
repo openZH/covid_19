@@ -29,7 +29,7 @@ try:
               'source': r['source'],
             }
             # re-add extra columns
-            for col in dr.fieldnames[12:]:
+            for col in dr.fieldnames[14:]:
                 data[col] = r[col]
             rows.append(data)
 

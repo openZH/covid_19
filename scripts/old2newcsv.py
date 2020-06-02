@@ -28,6 +28,8 @@ try:
               'ncumul_released': r['ncumul_released'],
               'ncumul_deceased': r['ncumul_deceased'],
               'source': r['source'],
+              'current_isolated': '',
+              'current_quarantined': '',
             }
             # re-add extra columns
             for col in dr.fieldnames[11:]:
