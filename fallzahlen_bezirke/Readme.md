@@ -1,6 +1,6 @@
 <img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/>
 
-# Sars-CoV-2 : Fallzahlen und Todesfälle nach Bezirk
+# Sars-CoV-2 - Fallzahlen und Todesfälle nach Bezirk
 
 Der Kanton Zürich stellt einen regelmässig aktualisierten Datensatz zu den bestätigten Sars-CoV-2-Fällen und Todesfällen nach Bezirk und Datum zur Verfügung. 
 
