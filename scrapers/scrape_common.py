@@ -24,6 +24,8 @@ class DayData:
         self.vent = None
         self.deaths = None
         self.recovered = None
+        self.isolated = None
+        self.quarantined = None
 
     def __str__(self):
         str_rep = [
@@ -47,6 +49,10 @@ class DayData:
             str_rep += [f'Deaths: {self.deaths}']
         if self.recovered is not None and self.recovered != '':
             str_rep += [f'Recovered: {self.recovered}']
+        if self.isolated is not None and self.isolated != '':
+            str_rep += [f'Isolated: {self.isolated}']
+        if self.quarantined is not None and self.quarantined != '':
+            str_rep += [f'Quarantined: {self.quarantined}']
         return "\n".join(str_rep)
 
 

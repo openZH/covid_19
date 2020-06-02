@@ -16,6 +16,8 @@ recovered = None
 hospitalized = None
 icu = None
 vent = None
+isolated = None
+quarantined = None
 
 errs = []
 warns = []
@@ -49,6 +51,8 @@ def finalize_record(check_expectations=False):
         'current_hosp': hospitalized,
         'current_icu': icu,
         'current_vent': vent,
+        'current_isolated': isolated,
+        'current_quarantined': quarantined
     }
     # Remove Nones
     extras = {k: v for (k, v) in data.items() if not v is None}
@@ -107,6 +111,8 @@ try:
             hospitalized = None
             icu = None
             vent = None
+            isolated = None
+            quarantined = None
             url_sources = []
             errs = []
             warns = []
@@ -174,6 +180,12 @@ try:
             continue
         if k == "Vent":
             vent = maybe_new_int("Vent", v, vent)
+            continue
+        if k == "Isolated":
+            isolated = maybe_new_int("Isolated", v, isolated)
+            continue
+        if k == "Quarantined":
+            quarantined = maybe_new_int("Quarantined", v, quarantined)
             continue
         assert False, f"Unknown data on line {i}: {l}"
     # only run the checks on the last record
