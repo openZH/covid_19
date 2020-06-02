@@ -19,6 +19,8 @@ const validateSequentially = async csvFiles => {
         _ncumul_released: /^(\d+)?$/,
         _ncumul_deceased: /^(\d+)?$/,
         _source: ''
+        _current_isolated: /^(\d+)?$/,
+        _current_quarantined: /^(\d+)?$/,
     };
     const requiredKeys = [
       "date",
@@ -32,7 +34,9 @@ const validateSequentially = async csvFiles => {
       "current_vent",
       "ncumul_released",
       "ncumul_deceased",
-      "source"
+      "source",
+      "current_isolated",
+      "current_quarantined"
     ];
     
     const cumulativeFields = [
