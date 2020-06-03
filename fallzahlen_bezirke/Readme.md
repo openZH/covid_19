@@ -10,7 +10,7 @@ Der Kanton Zürich stellt einen regelmässig aktualisierten Datensatz zu den bes
 | __DistrictId__              |     Bezirks-ID (BFS-Nummer)*               |District (BFS-Id)* |Zahl|
 | __District__                |      Bezirksname*                  |  District name*   | Text |
 | __Population__  | Wohnbevölkerung | Population |Zahl|
-| __Date__  | Datum des Befundes (NewConfCases) / Todesdatum (NewDeaths) | Date of test result (NewConfCases) / Date of death (NewDeaths) |YYYY-MM-DD |
+| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatum (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) ||
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 | __TotalConfCases__        |Total der bestätigten Fälle (kumuliert) | Total of confirmed cases (cumulated) | Zahl   |  
