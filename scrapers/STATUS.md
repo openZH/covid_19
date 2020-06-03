@@ -29,7 +29,7 @@
 | VD     | 4      | 4.5            | yes         | Easy extraction of all metadata, including history                              |
 | VS     | 2      | 4              | yes         | Okish.                                                                          |
 | ZG     | 3      | 4              | yes         | Ok. Very easy to extract. Robust                                                |
-| ZH     | 2.5    | 3              | no          | Okish.                                                                          |
+| ZH     | 2      | 4              | yes         | Okish.                                                                          |
 | FL     | 0      | 0              | no          | No reliable data of any kind                                                    |
 
 ## Table legend
