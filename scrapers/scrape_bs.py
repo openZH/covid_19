@@ -125,7 +125,7 @@ dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Tode
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
 
-dd.isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen\s+in\s+Isolation', d))
+dd.isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
 dd.quarantined = sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+aktuell\s+(\d+)\s+Personen', d)
 
 print(dd)
