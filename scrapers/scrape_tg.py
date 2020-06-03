@@ -29,7 +29,7 @@ d = d.replace('&nbsp;', ' ')
 """
 
 row_day, row_month, row_year = [int(n) for n in sc.find(r'Stand\s*([^<]+)<', d).split('.')]
-main_date = f"20{row_year}/{row_month:02d}/{row_day:02d}"
+main_date = f"{row_day:02d}.{row_month:02d}.20{row_year}"
 print('Date and time:', main_date)
 print('Confirmed cases:', sc.find(r'(?:Anzahl)?\s*bestätigter\s*Fälle:?\s*([0-9]+)\b', d))
 print('Deaths:', sc.find(r'\b([0-9]+)\s*verstorb', d) or sc.find(r'Verstorben:?\s*([0-9]+)', d))
@@ -56,7 +56,7 @@ if data:
         if len(c) != 4:
             continue
         row_year, row_month, row_day = [int(n) for n in c[0].split('/')]
-        row_date = f"{row_year}/{row_month:02d}/{row_day:02d}"
+        row_date = f"{row_day:02d}.{row_month:02d}.{row_year}"
         rows[row_date] = {'hospitalized': c[2], 'icu': c[3]}
 
 data = sc.find(
@@ -69,7 +69,7 @@ if data:
         if len(c) != 5:
             continue
         row_year, row_month, row_day = [int(n) for n in c[0].split('/')]
-        row_date = f"{row_year}/{row_month:02d}/{row_day:02d}"
+        row_date = f"{row_day:02d}.{row_month:02d}.{row_year}"
         dd = sc.DayData(canton='TG', url=fulldata_url)
         dd.datetime = row_date
         dd.cases = c[1]
