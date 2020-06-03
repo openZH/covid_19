@@ -18,9 +18,9 @@ const validateSequentially = async csvFiles => {
         _current_vent: /^(\d+)?$/,
         _ncumul_released: /^(\d+)?$/,
         _ncumul_deceased: /^(\d+)?$/,
-        _source: ''
+        _source: '',
         _current_isolated: /^(\d+)?$/,
-        _current_quarantined: /^(\d+)?$/,
+        _current_quarantined: /^(\d+)?$/
     };
     const requiredKeys = [
       "date",
