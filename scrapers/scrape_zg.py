@@ -5,9 +5,6 @@ import csv
 from io import StringIO
 import scrape_common as sc
 
-print('ZG')
-sc.timestamp()
-
 csv_url = 'https://raw.githubusercontent.com/statzg/glibraries-stat-zug/master/daten/result-themen-14-03-01.csv'
 d_csv = sc.download(csv_url, silent=True)
 """
@@ -36,6 +33,7 @@ for row in reader:
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
 last_day = data[days[-1]]
+main_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona'
 is_first = True
 for day in days:
     if not is_first:
@@ -44,7 +42,7 @@ for day in days:
 
     print('ZG')
     sc.timestamp()
-    print('Downloading:', csv_url)
+    print('Downloading:', main_url)
     print('Date and time:', day)
     print('Confirmed cases:', data[day]['Fallzahl'])
     print('Hospitalized:', data[day]['Hospitalisierte'])

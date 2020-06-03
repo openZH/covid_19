@@ -37,15 +37,7 @@ jobs:
           - VD
           - VS
           - ZG
-        include:
-          - canton: VD
-            source: https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
-
-          - canton: VS
-            source: https://www.vs.ch/de/web/coronavirus
-
-          - canton: ZG
-            source: https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
+          - ZH
 
     steps:
     - uses: actions/checkout@v2
@@ -64,7 +56,6 @@ jobs:
     - name: Scrape new data
       env:
         SCRAPER_KEY: ${{ matrix.canton }}
-        SCRAPER_SOURCE: ${{ matrix.source }}
         SCRAPER_OVERWRITE: ${{ matrix.overwrite }}
       run: |
         ./scrapers/run_scraper.sh

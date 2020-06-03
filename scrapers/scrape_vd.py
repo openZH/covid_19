@@ -13,9 +13,9 @@ def parse_html():
     # includes a content from datawrapper ( https://datawrapper.dwcdn.net/tr5bJ/14/ ),
     # which provides actual data and table rendering.
     # Here we instead use datawrapper API directly to fetch the data.
-
+    main_url = 'https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/'
     url = 'https://api.datawrapper.de/v3/charts/tr5bJ/data'
-    print('Downloading:', url)
+    print('Downloading:', main_url)
     # The bearer authentication token provided by Alex Robert ( https://github.com/AlexBobAlex )
     data = requests.get(url,
                         headers={'accept': 'text/csv',
@@ -43,7 +43,7 @@ def parse_html():
         cells = row.split('\t')
         print('VD')
         sc.timestamp()
-        print('Downloading:', url)
+        print('Downloading:', main_url)
         print('Date and time:', cells[0])
         print('Confirmed cases:', cells[5])
         print('Deaths:', cells[4])
@@ -72,7 +72,7 @@ def parse_xlsx():
 
         print('VD')
         sc.timestamp()
-        print('Downloading:', xls_url)
+        print('Downloading:', html_url)
         print('Date and time:', row['Date'].date().isoformat())
         print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
         print('Hospitalized:', row['Hospitalisation en cours'])
