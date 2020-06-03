@@ -21,15 +21,18 @@ try:
               'abbreviation_canton_and_fl': r['abbreviation_canton_and_fl'],
               'ncumul_tested': r['ncumul_tested'],
               'ncumul_conf': r['ncumul_conf'],
-              'ncumul_hosp': r['current_hosp'],
-              'ncumul_ICU': r['current_icu'],
-              'ncumul_vent': r['current_vent'],
+              'new_hosp': r['new_hosp'],
+              'current_hosp': r['current_hosp'],
+              'current_icu': r['current_icu'],
+              'current_vent': r['current_vent'],
               'ncumul_released': r['ncumul_released'],
               'ncumul_deceased': r['ncumul_deceased'],
               'source': r['source'],
+              'current_isolated': r.get('current_isolated', ''),     # new field
+              'current_quarantined': r.get('current_quarantined', ''),  # new field
             }
             # re-add extra columns
-            for col in dr.fieldnames[14:]:
+            for col in dr.fieldnames[12:]:
                 data[col] = r[col]
             rows.append(data)
 

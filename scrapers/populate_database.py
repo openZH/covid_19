@@ -53,12 +53,14 @@ try:
             ncumul_released integer,
             ncumul_deceased integer,
             source text,
+            current_isolated integer,
+            current_quarantined integer,
             UNIQUE(date, abbreviation_canton_and_fl)
         )
         '''
     )
     # check if there are extra columns
-    for col in columns[12:]:
+    for col in columns[14:]:
         c.execute(f'ALTER TABLE data ADD COLUMN {col} integer;')
 
     # add entries

@@ -13,7 +13,7 @@ matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'AI': ['Confirmed cases', 'Deaths'],
-    'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Isolated', 'Quarantined'],
     'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
@@ -40,7 +40,7 @@ matrix = {
     # 'FL': [],  # No scraper.
 }
 
-allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent']
+allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent', 'Isolated', 'Quarantined']
 
 # List of cantons that are expected to have date AND time.
 matrix_time = [
@@ -96,6 +96,8 @@ def check_expected(abbr, date, data):
         'ICU': data.get('current_icu'),
         'Vent': data.get('current_vent'),
         'Released': data.get('ncumul_released'),
+        'Isolated': data.get('current_isolated'),
+        'Quarantined': data.get('current_quarantined'),
     }
 
     # Check for fields that should be there, but aren't
