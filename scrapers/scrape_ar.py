@@ -8,12 +8,13 @@ d = d.replace('&nbsp;', ' ')
 
 # Contact Tracing with its own timestamp
 
+dd_ct = sc.DayData(canton='AR', url=url)
+
 t = sc.find(r'Contact tracing\s+\(Stand\:\s+(.+?Uhr)\)<', d) or \
     sc.find(r'Stand\: (.+? Uhr)\)<', d) or \
     sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
 dd_ct.datetime = t
 
-dd_ct = sc.DayData(canton='AR', url=url)
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
 dd_ct.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Kontaktpersonen\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
 
