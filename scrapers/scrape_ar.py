@@ -6,6 +6,22 @@ url = 'https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 
+# Contact Tracing with its own timestamp
+
+t = sc.find(r'Contact tracing\s+\(Stand\:\s+(.+?Uhr)\)<', d) or \
+    sc.find(r'Stand\: (.+? Uhr)\)<', d) or \
+    sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
+dd_ct.datetime = t
+
+dd_ct = sc.DayData(canton='AR', url=url)
+dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
+dd_ct.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Kontaktpersonen\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
+
+print(dd_ct)
+print('-' * 10)
+
+# cases
+
 dd = sc.DayData(canton='AR', url=url)
 # d = sc.filter('Aktuelle Informationen: Zahlen', d)
 
@@ -56,7 +72,5 @@ dd.hospitalized = sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Ve
 dd.icu = sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d) or \
     sc.find(r'Davon\s+IPS-Patienten\s+\(mit\s+und\s+ohne\s+Beatmung\):\s+<strong>(\d+)</strong>', d)
 dd.deaths = sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
-dd.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
-dd.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Kontaktpersonen\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
 
 print(dd)
