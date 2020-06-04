@@ -2,7 +2,7 @@
 
 # Sars-CoV-2 - Fallzahlen und Todesfälle nach Bezirk
 
-Der Kanton Zürich stellt einen regelmässig aktualisierten Datensatz zu den bestätigten Sars-CoV-2-Fällen und Todesfällen nach Bezirk und Datum zur Verfügung. 
+Dieser Datensatz enthält Zahlen zu den bestätigten Sars-CoV-2-Fällen und Todesfällen nach Bezirk und Kalenderwoche. Die Daten werden wöchentlich aktualisiert.
 
 
 | Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
