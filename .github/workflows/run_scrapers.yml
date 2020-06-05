@@ -18,7 +18,7 @@ jobs:
           - AR
           - BE
           - BL
-          # - BS disable until #801 is fixed
+          - BS
           - FR
           - GL
           - GR
