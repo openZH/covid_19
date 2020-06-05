@@ -115,7 +115,10 @@ m = re.search(r'Aktuell\s*befinden\s*sich\s*(\S+)\s*Einwohnerinnen\s*und\s*Einwo
 if m:
     dd.hospitalized = sc.int_or_word(m[2])
 else:
-    dd.hospitalized = sc.int_or_word(sc.find('wovon\s*(\S+)\s*im\s*Spital sind', d))
+    dd.hospitalized = sc.int_or_word(
+        sc.find('wovon\s*(\S+)\s*im\s*Spital sind', d) or
+        sc.find(r'Von\s+den\s+aktiven\s+Fällen\s+befinden\s+sich\s+(\S+)\s+Personen\s+in\s+Spitalpflege', d)
+    )
 
 dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getesteten\s*.+\s*sind\s*wieder\s*genesen', d) or \
     sc.find('(\d+) genesenen Personen', d)
@@ -125,7 +128,10 @@ dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Tode
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
 
-dd.isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
-dd.quarantined = sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+aktuell\s+(\d+)\s+Personen', d)
+isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
+if dd.hospitalized is not None:
+    isolated = int(isolated) - int(dd.hospitalized)
+dd.isolated = isolated
+dd.quarantined = sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\d+)\s+Personen', d)
 
 print(dd)
