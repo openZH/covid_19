@@ -17,7 +17,7 @@ for row in rows:
         print('-' * 10)
     is_first = False
 
-    dd = sc.DayData(canton='VS', url=main_url)
+    dd = sc.DayData(canton='VS', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas positifs']
     dd.hospitalized = row['Total hospitalisations COVID-19']
