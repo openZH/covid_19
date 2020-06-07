@@ -33,6 +33,17 @@ for row in reader:
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
 last_day = data[days[-1]]
+
+csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-06-e1.csv'
+d_csv = sc.download(csv_url, silent=True)
+reader = csv.DictReader(StringIO(d_csv), delimiter=',')
+data2 = collections.defaultdict(dict)
+for row in reader:
+    if row['Typ'] == 'NA' or row['Datum'] == 'NA':
+        continue
+    date = sc.date_from_text(row['Datum'])
+    data2[date.isoformat()][row['Typ']] = row['Anzahl']
+
 main_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona'
 is_first = True
 for day in days:
@@ -49,3 +60,8 @@ for day in days:
     print('ICU:', data[day]['Hospitalisierte in Intensivpflege'])
     print('Recovered:', data[day]['Genesene'])
     print('Deaths:', data[day]['Todesfälle'])
+    date = sc.date_from_text(day).isoformat()
+    if date in data2 is not None and 'Positiv getestete Personen' in data2[date] is not None:
+        print('Isolated:', data2[date]['Positiv getestete Personen'])
+    if date in data2 and 'Total Personen' in data2[date] is not None:
+        print('Quarantined:', data2[date]['Total Personen'])
