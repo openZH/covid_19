@@ -5,8 +5,60 @@ import csv
 from io import StringIO
 import scrape_common as sc
 
-csv_url = 'https://raw.githubusercontent.com/statzg/glibraries-stat-zug/master/daten/result-themen-14-03-01.csv'
-d_csv = sc.download(csv_url, silent=True)
+main_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona'
+
+ct_csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-06-e1.csv'
+d_csv = sc.download(ct_csv_url, silent=True)
+"""
+"Typ","Datum","Anzahl","Meta","Type","Content"
+"Positiv getestete Personen","01.03.2020","0",NA,NA,NA
+"Positiv getestete Personen","02.03.2020","2",NA,NA,NA
+"Positiv getestete Personen","03.03.2020","2",NA,NA,NA
+"Positiv getestete Personen","04.03.2020","2",NA,NA,NA
+"Positiv getestete Personen","05.03.2020","3",NA,NA,NA
+"Positiv getestete Personen","06.03.2020","3",NA,NA,NA
+"Positiv getestete Personen","07.03.2020","5",NA,NA,NA
+"Positiv getestete Personen","08.03.2020","7",NA,NA,NA
+"Positiv getestete Personen","09.03.2020","7",NA,NA,NA
+"Positiv getestete Personen","10.03.2020","7",NA,NA,NA
+"Positiv getestete Personen","11.03.2020","6",NA,NA,NA
+"Positiv getestete Personen","12.03.2020","6",NA,NA,NA
+"Positiv getestete Personen","13.03.2020","8",NA,NA,NAh
+"Positiv getestete Personen","14.03.2020","10",NA,NA,NA
+"Positiv getestete Personen","15.03.2020","11",NA,NA,NA
+"Positiv getestete Personen","16.03.2020","19",NA,NA,NA
+"Positiv getestete Personen","17.03.2020","22",NA,NA,NA
+"""
+
+reader = csv.DictReader(StringIO(d_csv), delimiter=',')
+data = collections.defaultdict(dict)
+for row in reader:
+    if row['Typ'] == 'NA' or row['Datum'] == 'NA':
+        continue
+    date = sc.date_from_text(row['Datum'])
+    data[date.isoformat()][row['Typ']] = row['Anzahl']
+
+days = list(data.keys())
+is_first = True
+for day in days:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+
+    print('ZG')
+    sc.timestamp()
+    print('Downloading:', main_url)
+    print('Date and time:', day)
+    print('Isolated:', data[day]['Positiv getestete Personen'])
+    try:
+        cp1 = int(data[day]['Kontaktpersonen im Haushalt'])
+        cp2 = int(data[day]['Kontaktpersonen ausserhalb des Haushalts'])
+        print('Quarantined:', cp1 + cp2)
+    except (ValueError, TypeError):
+        continue
+
+cases_csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-01-e1.csv'
+d_csv = sc.download(cases_csv_url, silent=True)
 """
 "Typ","Datum","Anzahl","Stand","Meta","Type","Content"
 "Fallzahl","22.04.2020","176","2020-04-22 08:00:00",NA,NA,NA
@@ -32,25 +84,8 @@ for row in reader:
         continue
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
-last_day = data[days[-1]]
-
-csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-06-e1.csv'
-d_csv = sc.download(csv_url, silent=True)
-reader = csv.DictReader(StringIO(d_csv), delimiter=',')
-data2 = collections.defaultdict(dict)
-for row in reader:
-    if row['Typ'] == 'NA' or row['Datum'] == 'NA':
-        continue
-    date = sc.date_from_text(row['Datum'])
-    data2[date.isoformat()][row['Typ']] = row['Anzahl']
-
-main_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona'
-is_first = True
 for day in days:
-    if not is_first:
-        print('-' * 10)
-    is_first = False
-
+    print('-' * 10)
     print('ZG')
     sc.timestamp()
     print('Downloading:', main_url)
@@ -60,8 +95,3 @@ for day in days:
     print('ICU:', data[day]['Hospitalisierte in Intensivpflege'])
     print('Recovered:', data[day]['Genesene'])
     print('Deaths:', data[day]['Todesfälle'])
-    date = sc.date_from_text(day).isoformat()
-    if date in data2 is not None and 'Positiv getestete Personen' in data2[date] is not None:
-        print('Isolated:', data2[date]['Positiv getestete Personen'])
-    if date in data2 and 'Total Personen' in data2[date] is not None:
-        print('Quarantined:', data2[date]['Total Personen'])
