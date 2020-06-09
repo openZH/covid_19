@@ -7,7 +7,7 @@ import sys
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-d = sc.download('https://www.fr.ch/covid19/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton', silent=True)
+d = sc.download('https://www.fr.ch/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton', silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
 xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
