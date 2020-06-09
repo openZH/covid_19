@@ -38,7 +38,6 @@ sc.timestamp()
 
 # 2020-05-06
 """
-
 <h2>
       Anzahl Fälle kumuliert
   </h2>
@@ -53,6 +52,26 @@ sc.timestamp()
 </div>
 """
 
-print("Date and time:", sc.find('>Stand (.+ Uhr)</div>', d))
-print("Confirmed cases:", sc.find('<li>([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle)<\/li>', d))
-print("Deaths:", sc.find('<li>([0-9]+)\s*Todesf.+?lle<\/li>', d))
+# 2020-06-09
+"""
+<h2>
+      Anzahl Fälle
+  </h2>
+
+  
+  <div class="visualClear">Stand 9.6.2020, 8.00 Uhr</div>
+<div class="visualClear">
+<ul>
+<li>25 laborbestätigte Fälle (kumuliert)</li>
+<li>0 Todesfälle</li>
+<li>0 Personen in Isolation (aktuell)</li>
+<li>0 Personen in Quarantäne (aktuell)</li>
+</ul>
+</div>
+"""
+
+print("Date and time:", sc.find('>.*Stand (.+ Uhr).*</div>', d))
+print("Confirmed cases:", sc.find('<li>.*([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle).*<\/li>', d))
+print("Deaths:", sc.find('<li>.*([0-9]+)\s*Todesf.+?lle.*<\/li>', d))
+print("Isolated:", sc.find('<li>.*([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d))
+print("Quarantined:", sc.find('<li>.*([0-9]+)\s*Personen\s+in\s*Quarant.+ne.*<\/li>', d))
