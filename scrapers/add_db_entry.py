@@ -67,7 +67,19 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                for key in ['ncumul_tested', 'current_hosp', 'current_icu', 'current_vent', 'ncumul_released', 'current_isolated', 'current_quarantined', 'ncumul_ICF']:
+                valid_keys = [
+                    'ncumul_tested',
+                    'current_hosp',
+                    'current_icu',
+                    'current_vent',
+                    'ncumul_released',
+                    'current_isolated',
+                    'current_quarantined',
+                    'ncumul_ICF', # GE only
+                    'ncumul_confirmed_non_resident', # BS only
+                    'hosp_non_resident', # BS only
+                ]
+                for key in valid_keys:
                     if key in extras:
                         data[key] = extras[key]
             except Exception as e:
@@ -79,9 +91,7 @@ try:
             url_source = url_match.group(1).strip().split(', ')[-1]
         except (TypeError, IndexError):
             url_source = ''
-        if 'SCRAPER_SOURCE' in os.environ and os.environ['SCRAPER_SOURCE']:
-            data['source'] = os.environ['SCRAPER_SOURCE']
-        elif url_source:
+        if url_source:
             data['source'] = url_source
 
         c = conn.cursor()
@@ -146,6 +156,8 @@ try:
                         'current_isolated',
                         'current_quarantined',
                         'ncumul_ICF', # GE only
+                        'ncumul_confirmed_non_resident', # BS only
+                        'hosp_non_resident', # BS only
                     ]
                     for key in update_keys:
                         # only update for non-empty values

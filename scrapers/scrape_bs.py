@@ -109,11 +109,13 @@ m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen.*\s*posi
 if m:
     dd.cases = int(m[2])
 else:
-    dd.cases = sc.find('Die\s*Zahl\s*der\s*(\d+)\s*Infektionen\s*setzt\s*sich\s*zusammen\s*aus', d)
+    dd.cases = int(sc.find('Die\s*Zahl\s*der\s*(\d+)\s*Infektionen\s*setzt\s*sich\s*zusammen\s*aus', d))
 
 m = re.search(r'Aktuell\s*befinden\s*sich\s*(\S+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*(\S+)\s*Personen', d, flags=re.I)
 if m:
+    bs_residents = sc.int_or_word(m[1])
     dd.hospitalized = sc.int_or_word(m[2])
+    dd.hosp_non_resident = dd.hospitalized - bs_residents
 else:
     dd.hospitalized = sc.int_or_word(
         sc.find('wovon\s*(\S+)\s*im\s*Spital sind', d) or
@@ -129,9 +131,16 @@ dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Tode
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
 
 isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
-if dd.hospitalized is not None:
+if dd.hospitalized is not None and isolated is not None:
     isolated = int(isolated) - int(dd.hospitalized)
 dd.isolated = isolated
 dd.quarantined = sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\d+)\s+Personen', d)
+
+m = re.search(r'Tests\s+von\s+Verdachtsfällen.*?anderen\s+Schweizer\s+Kantonen.*?grenznahen Ausland.*?Bisher\s+sind\s+die\s+Tests\s+von\s+(\d+)\s+Personen\s+.*?positiv ausgefallen.*?inklusive\s+der\s+(\d+)\s+Basler\s+Fälle', d, flags=re.I)
+if m:
+    all_confirmed = int(m[1])
+    bs_confirmed = int(m[2])
+    assert dd.cases == bs_confirmed, f"BS confirmed cases do not match in bulletin: {dd.cases} != {bs_confirmed}"
+    dd.confirmed_non_resident = all_confirmed - bs_confirmed
 
 print(dd)
