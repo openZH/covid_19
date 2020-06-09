@@ -25,6 +25,10 @@ for i, row in enumerate(rows):
     if not is_first:
         print('-' * 10)
     is_first = False
+    
+    # handle wrong value on 2020-04-09, see issue #819
+    if row['Date'].date().isoformat() == '2020-04-09':
+        row['Cumul COVID-19 sorties d\'hospitalisation'] = ''
 
     dd = sc.DayData(canton='GE', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
@@ -36,5 +40,6 @@ for i, row in enumerate(rows):
     dd.vent = row['Patients COVID-19\naux soins intensifs intubés']
     dd.deaths = row['Cumul décès COVID-19 ']
     dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
-    dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
+    # on 2020-06-09 GE removed the `Nombre tests` column
+    #dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
     print(dd)
