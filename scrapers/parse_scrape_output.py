@@ -22,6 +22,9 @@ isolated = None
 quarantined = None
 # canton-specific fields
 icf = None
+confirmed_non_resident = None
+hosp_non_resident = None
+
 
 errs = []
 warns = []
@@ -60,6 +63,8 @@ def finalize_record(check_expectations=False):
         'current_isolated': isolated,
         'current_quarantined': quarantined,
         'ncumul_ICF': icf, # GE only
+        'ncumul_confirmed_non_resident': confirmed_non_resident, # BS only
+        'current_hosp_non_resident': hosp_non_resident, # BS only
     }
     # Remove Nones
     extras = {k: v for (k, v) in data.items() if not v is None}
@@ -123,6 +128,8 @@ try:
             isolated = None
             quarantined = None
             icf = None
+            confirmed_non_resident = None
+            hosp_non_resident = None
             url_sources = []
             errs = []
             warns = []
@@ -205,6 +212,12 @@ try:
             continue
         if k == "ICF":
             icf = maybe_new_int("ICF", v, icf)
+            continue
+        if k == "Confirmed non-resident":
+            confirmed_non_resident = maybe_new_int("Confirmed non-resident", v, confirmed_non_resident)
+            continue
+        if k == "Hospitalized non-resident":
+            hosp_non_resident = maybe_new_int("Hospitalized non-resident", v, hosp_non_resident)
             continue
         assert False, f"Unknown data on line {i}: {l}"
     # only run the checks on the last record

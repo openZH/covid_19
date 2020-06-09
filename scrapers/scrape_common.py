@@ -29,6 +29,8 @@ class DayData:
         self.quarantined = None
         # canton-specific fields
         self.icf = None
+        self.confirmed_non_resident = None
+        self.hosp_non_resident = None
 
     def __str__(self):
         str_rep = [
@@ -60,6 +62,10 @@ class DayData:
             str_rep += [f'Quarantined: {self.quarantined}']
         if self.icf is not None and self.icf != '':
             str_rep += [f'ICF: {self.icf}']
+        if self.confirmed_non_resident is not None and self.confirmed_non_resident != '':
+            str_rep += [f'Confirmed non-resident: {self.confirmed_non_resident}']
+        if self.hosp_non_resident is not None and self.hosp_non_resident != '':
+            str_rep += [f'Hospitalized non-resident: {self.hosp_non_resident}']
         return "\n".join(str_rep)
 
 
