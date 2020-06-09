@@ -30,6 +30,7 @@ for i, row in enumerate(rows):
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas COVID-19']
     dd.hospitalized = row['Total hospitalisations COVID-19']
+    dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
     dd.icu = row['Patients COVID-19 \naux soins intensifs total']
     dd.icf = row['Patients COVID-19 \naux soins intermédiaires']
     dd.vent = row['Patients COVID-19\naux soins intensifs intubés']

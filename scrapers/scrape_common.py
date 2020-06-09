@@ -20,6 +20,7 @@ class DayData:
         self.tested = None
         self.cases = None
         self.hospitalized = None
+        self.new_hosp = None
         self.icu = None
         self.vent = None
         self.deaths = None
@@ -43,6 +44,8 @@ class DayData:
             str_rep += [f'Confirmed cases: {self.cases}']
         if self.hospitalized is not None and self.hospitalized != '':
             str_rep += [f'Hospitalized: {self.hospitalized}']
+        if self.new_hosp is not None and self.new_hosp != '':
+            str_rep += [f'New Hospitalized: {self.new_hosp}']
         if self.icu is not None and self.icu != '':
             str_rep += [f'ICU: {self.icu}']
         if self.vent is not None and self.vent != '':

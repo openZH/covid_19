@@ -15,6 +15,7 @@ tested = None
 deaths = None
 recovered = None
 hospitalized = None
+new_hosp = None
 icu = None
 vent = None
 isolated = None
@@ -53,6 +54,7 @@ def finalize_record(check_expectations=False):
         'ncumul_released': recovered,
         'ncumul_deceased': deaths,
         'current_hosp': hospitalized,
+        'new_hosp': new_hosp,
         'current_icu': icu,
         'current_vent': vent,
         'current_isolated': isolated,
@@ -115,6 +117,7 @@ try:
             deaths = None
             recovered = None
             hospitalized = None
+            new_hosp = None
             icu = None
             vent = None
             isolated = None
@@ -184,6 +187,9 @@ try:
             continue
         if k == "Hospitalized":
             hospitalized = maybe_new_int("Hospitalized", v, hospitalized)
+            continue
+        if k == "New Hospitalized":
+            new_hosp = maybe_new_int("New Hospitalized", v, new_hosp)
             continue
         if k == "ICU":
             icu = maybe_new_int("ICU", v, icu)
