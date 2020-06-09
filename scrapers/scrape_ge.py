@@ -1,86 +1,40 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+import re
+import datetime
+import sys
+from bs4 import BeautifulSoup
 import scrape_common as sc
+d = sc.download('https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve', silent=True)
 
-print('GE')
-d = sc.pdfdownload('https://www.ge.ch/document/point-coronavirus-maladie-covid-19/telecharger')
-sc.timestamp()
+soup = BeautifulSoup(d, 'html.parser')
+xls_url = soup.find(title=re.compile("\.xlsx$")).get('href')
+assert xls_url, "URL is empty"
+if not xls_url.startswith('http'):
+    xls_url = f'https://www.ge.ch{xls_url}'
 
-#d = sc.filter(r'Dans le canton de Genève|Actuellement.*cas ont|décédées|hospitalisés', d) # + 1 line.
+xls = sc.xlsdownload(xls_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0, skip_rows=2)
+is_first = True
+for i, row in enumerate(rows):
+    if not isinstance(row['Date'], datetime.datetime):
+        print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
+        continue
 
-# 2020-03-23
-"""
-Cette fiche destinée à la population générale
-dresse un état des lieux de la situation au 23
-mars 2020.
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
-Chiffres clés au 22 mars 2020 (OMS, OFSP
-et DGS pour la Suisse et Genève)
-Chine
-
-81'498 cas
-
-3'267 décès
-
-Europe
-
-151'293 cas
-
-7'426 décès
-
-Italie
-
-53'578 cas
-
-4'827 décès
-
-Suisse
-
-8'060 cas
-
-66 décès
-
-Genève
-
-1'203 cas
-
-9 décès
-
-Dans le canton de Genève (23.03 à 12h)
-Actuellement, 1'231 cas ont été confirmés. Le nombre de
-cas continue de progresser.
-Actuellement, au total 214 patients sont hospitalisés,
-dont 43 aux soins intensifs. A l’heure actuelle, 9
-personnes sont décédées dans le canton des suites de
-la maladie.
-"""
-
-
-# 2020-03-24
-"""
-Dans le canton de Genève (24.03 à 12h)
-Actuellement, 1510 cas ont été confirmés. Le nombre de
-cas continue de progresser.
-Actuellement, au total 238 patients sont hospitalisés,
-dont 41 aux soins intensifs. A l’heure actuelle, 12
-personnes sont décédées dans le canton des suites de
-la maladie.
-
-"""
-
-# Use non-greedy matching.
-print('Date and time:', sc.find(r'Dans le.*\((.*?h)\)', d))
-
-# To handle: 1'231 as 1231
-d = d.replace("'", '')
-
-print('Confirmed cases:', sc.find(r', ([0-9]+) cas ont', d))
-
-print('Hospitalized:', sc.find(r'total ([0-9]+) patients?.*hospitalis', d))
-
-print('ICU:', sc.find(r'dont ([0-9]+) aux soins? intensifs?', d))
-
-# Due to pdf line wrapping, merge new lines into one line for easier matching.
-d = d.replace('\n', ' ')
-# Use non-greedy matching.
-print('Deaths:', sc.find(r'\b([0-9]+) [^,\.]*? décédées', d))
+    dd = sc.DayData(canton='GE', url=xls_url)
+    dd.datetime = row['Date'].date().isoformat()
+    dd.cases = row['Cumul cas COVID-19']
+    dd.hospitalized = row['Total hospitalisations COVID-19']
+    dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
+    dd.icu = row['Patients COVID-19 \naux soins intensifs total']
+    dd.icf = row['Patients COVID-19 \naux soins intermédiaires']
+    dd.vent = row['Patients COVID-19\naux soins intensifs intubés']
+    dd.deaths = row['Cumul décès COVID-19 ']
+    dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
+    dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
+    print(dd)

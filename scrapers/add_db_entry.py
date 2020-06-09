@@ -67,7 +67,7 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                for key in ['current_hosp', 'current_icu', 'current_vent', 'ncumul_released', 'current_isolated', 'current_quarantined']:
+                for key in ['ncumul_tested', 'current_hosp', 'current_icu', 'current_vent', 'ncumul_released', 'current_isolated', 'current_quarantined', 'ncumul_ICF']:
                     if key in extras:
                         data[key] = extras[key]
             except Exception as e:
@@ -145,11 +145,12 @@ try:
                         'source',
                         'current_isolated',
                         'current_quarantined',
+                        'ncumul_ICF', # GE only
                     ]
                     for key in update_keys:
                         # only update for non-empty values
                         # Note: `0` is a valid value
-                        if data[key] is not None and data[key] != '':
+                        if key in data and data[key] is not None and data[key] != '':
                             c.execute(
                                 f'UPDATE data SET {key} = ? WHERE date = ? AND abbreviation_canton_and_fl = ?;',
                                 [data[key], data['date'], data['abbreviation_canton_and_fl']]

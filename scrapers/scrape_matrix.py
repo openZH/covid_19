@@ -18,7 +18,7 @@ matrix = {
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
     'FR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'GE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'GE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent', 'Released'],
     'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'JU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
@@ -51,7 +51,7 @@ matrix_time = [
     # 'BL',  # Not available.
     'BS',
     # 'FR',  # Not available.
-    'GE',
+    # 'GE',  # Not available.
     'GL',
     # 'GR',  # Not available.
     # 'JU',  # Not available in xls

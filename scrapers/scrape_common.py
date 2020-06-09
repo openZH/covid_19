@@ -20,12 +20,15 @@ class DayData:
         self.tested = None
         self.cases = None
         self.hospitalized = None
+        self.new_hosp = None
         self.icu = None
         self.vent = None
         self.deaths = None
         self.recovered = None
         self.isolated = None
         self.quarantined = None
+        # canton-specific fields
+        self.icf = None
 
     def __str__(self):
         str_rep = [
@@ -41,6 +44,8 @@ class DayData:
             str_rep += [f'Confirmed cases: {self.cases}']
         if self.hospitalized is not None and self.hospitalized != '':
             str_rep += [f'Hospitalized: {self.hospitalized}']
+        if self.new_hosp is not None and self.new_hosp != '':
+            str_rep += [f'New Hospitalized: {self.new_hosp}']
         if self.icu is not None and self.icu != '':
             str_rep += [f'ICU: {self.icu}']
         if self.vent is not None and self.vent != '':
@@ -53,6 +58,8 @@ class DayData:
             str_rep += [f'Isolated: {self.isolated}']
         if self.quarantined is not None and self.quarantined != '':
             str_rep += [f'Quarantined: {self.quarantined}']
+        if self.icf is not None and self.icf != '':
+            str_rep += [f'ICF: {self.icf}']
         return "\n".join(str_rep)
 
 
@@ -95,7 +102,7 @@ def xlsdownload(url, silent=False):
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
-def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None):
+def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1):
     rows = []
     if sheet_name:
         sheet = book.sheet_by_name(sheet_name)
@@ -103,7 +110,7 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None):
         sheet = book.sheet_by_index(sheet_index)
     # if a header cell is empty, the name of the column (e.g. "A") is used instead
     headers = {c: sheet.cell_value(header_row, c) or xlrd.formula.colname(c) for c in range(sheet.ncols)} 
-    for r in range(header_row + 1, sheet.nrows):
+    for r in range(header_row + skip_rows, sheet.nrows):
         entry = {}
         for c, h in headers.items():
             cell_type = sheet.cell_type(r, c)

@@ -11,13 +11,17 @@ url_sources = []
 scrape_time = None
 date = None
 cases = None
+tested = None
 deaths = None
 recovered = None
 hospitalized = None
+new_hosp = None
 icu = None
 vent = None
 isolated = None
 quarantined = None
+# canton-specific fields
+icf = None
 
 errs = []
 warns = []
@@ -45,14 +49,17 @@ def finalize_record(check_expectations=False):
     global errs
     global warns
     data = {
+        'ncumul_tested': tested,
         'ncumul_conf': cases,
         'ncumul_released': recovered,
         'ncumul_deceased': deaths,
         'current_hosp': hospitalized,
+        'new_hosp': new_hosp,
         'current_icu': icu,
         'current_vent': vent,
         'current_isolated': isolated,
-        'current_quarantined': quarantined
+        'current_quarantined': quarantined,
+        'ncumul_ICF': icf, # GE only
     }
     # Remove Nones
     extras = {k: v for (k, v) in data.items() if not v is None}
@@ -106,13 +113,16 @@ try:
             abbr = None
             date = None
             cases = None
+            tested = None
             deaths = None
             recovered = None
             hospitalized = None
+            new_hosp = None
             icu = None
             vent = None
             isolated = None
             quarantined = None
+            icf = None
             url_sources = []
             errs = []
             warns = []
@@ -166,6 +176,9 @@ try:
         if k == "Confirmed cases":
             cases = maybe_new_int("Confirmed cases", v, cases, required=True)
             continue
+        if k == "Tested":
+            tested = maybe_new_int("Tested", v, tested)
+            continue
         if k.startswith("Death"):  # Deaths or Death.
             deaths = maybe_new_int("Deaths", v, deaths)
             continue
@@ -174,6 +187,9 @@ try:
             continue
         if k == "Hospitalized":
             hospitalized = maybe_new_int("Hospitalized", v, hospitalized)
+            continue
+        if k == "New Hospitalized":
+            new_hosp = maybe_new_int("New Hospitalized", v, new_hosp)
             continue
         if k == "ICU":
             icu = maybe_new_int("ICU", v, icu)
@@ -186,6 +202,9 @@ try:
             continue
         if k == "Quarantined":
             quarantined = maybe_new_int("Quarantined", v, quarantined)
+            continue
+        if k == "ICF":
+            icf = maybe_new_int("ICF", v, icf)
             continue
         assert False, f"Unknown data on line {i}: {l}"
     # only run the checks on the last record
