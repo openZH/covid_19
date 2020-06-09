@@ -11,7 +11,7 @@
 | BL     | 2      | 3              | yes         | Daily updates in separate iframes. Okish.                                       |
 | BS     | 2      | 2              | no          | Indirect sub-page. Easy extraction.                                             |
 | FR     | 3      | 4              | yes         | Very good. Easy extraction, including history                                   |
-| GE     | 2      | 3              | no          | Okish, current values are always provisional                                    |
+| GE     | 2      | 4              | yes         | Okish.                                                                          |
 | GL     | 2      | 4              | yes         | Okish. Blocks curl heavily by default.                                          |
 | GR     | 2      | 4              | yes         | Okish                                                                           |
 | JU     | 2      | 4              | yes         | Okish. Blocks curl by default.                                                  |
