@@ -71,7 +71,7 @@ sc.timestamp()
 """
 
 print("Date and time:", sc.find('>.*Stand (.+ Uhr).*</div>', d))
-print("Confirmed cases:", sc.find('<li>.*([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle).*<\/li>', d))
-print("Deaths:", sc.find('<li>.*([0-9]+)\s*Todesf.+?lle.*<\/li>', d))
-print("Isolated:", sc.find('<li>.*([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d))
-print("Quarantined:", sc.find('<li>.*([0-9]+)\s*Personen\s+in\s*Quarant.+ne.*<\/li>', d))
+print("Confirmed cases:", sc.find('<li>.*?([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle).*<\/li>', d))
+print("Deaths:", sc.find('<li>.*?([0-9]+)\s*Todesf.+?lle.*<\/li>', d))
+print("Isolated:", sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d))
+print("Quarantined:", sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Quarant.+ne.*<\/li>', d))
