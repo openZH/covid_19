@@ -40,5 +40,6 @@ for i, row in enumerate(rows):
     dd.vent = row['Patients COVID-19\naux soins intensifs intubés']
     dd.deaths = row['Cumul décès COVID-19 ']
     dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
-    dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
+    # on 2020-06-09 GE removed the `Nombre tests` column
+    #dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
     print(dd)
