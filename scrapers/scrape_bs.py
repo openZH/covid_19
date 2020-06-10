@@ -109,7 +109,7 @@ m = re.search(r'Bisher\s*sind\s*die\s*Tests\s*von\s*([0-9]+)\s*Personen.*\s*posi
 if m:
     dd.cases = int(m[2])
 else:
-    dd.cases = int(sc.find('Die\s*Zahl\s*der\s*(\d+)\s*Infektionen\s*setzt\s*sich\s*zusammen\s*aus', d))
+    dd.cases = int(sc.find('Die\s*Zahl\s*der\s*(\d+)\s*Infektionen\s*setzt\s*sich.*?zusammen\s*aus', d))
 
 m = re.search(r'Aktuell\s*befinden\s*sich\s*(\S+)\s*Einwohnerinnen\s*und\s*Einwohner\s*des\s*Kantons\s*Basel-Stadt\s*aufgrund\s*einer\s*Covid-19-Infektion\s*in\s*Spitalpflege\s*in\s*einem\s*baselstädtischen\s*Spital\.\s*Total\s*sind\s*(?:dies|es)\s*(\S+)\s*Personen', d, flags=re.I)
 if m:
