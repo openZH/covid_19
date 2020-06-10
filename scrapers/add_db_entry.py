@@ -67,21 +67,8 @@ try:
                 extras = extras_match.group(1).strip()
                 extras = extras.split(',')
                 extras = { kv.split('=', 2)[0]: int(kv.split('=', 2)[1]) for kv in extras }
-                valid_keys = [
-                    'ncumul_tested',
-                    'current_hosp',
-                    'current_icu',
-                    'current_vent',
-                    'ncumul_released',
-                    'current_isolated',
-                    'current_quarantined',
-                    'ncumul_ICF', # GE only
-                    'ncumul_confirmed_non_resident', # BS only
-                    'hosp_non_resident', # BS only
-                ]
-                for key in valid_keys:
-                    if key in extras:
-                        data[key] = extras[key]
+                for key in extras:
+                    data[key] = extras[key]
             except Exception as e:
                 print(f'Error: Parsing optional data failed, ignoring: {extras_match.group(1)}', file=sys.stderr)
 
