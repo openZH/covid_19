@@ -21,7 +21,8 @@ for row in rows:
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas positifs']
     dd.hospitalized = row['Total hospitalisations COVID-19']
-    dd.icu = row['Patients COVID-19 aux SI total']
+    dd.new_hosp = row['Nb nouvelles admissions à l\'hôpital']
+    dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
     dd.deaths = row['Cumul décès COVID-19']
     print(dd)
