@@ -9,7 +9,7 @@ main_url = 'https://www.vs.ch/de/web/coronavirus'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=1)
 is_first = True
-for row in rows:
+for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
 
@@ -25,5 +25,6 @@ for row in rows:
     dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
     dd.deaths = row['Cumul décès COVID-19']
+    dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
     print(dd)
 

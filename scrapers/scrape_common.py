@@ -11,7 +11,8 @@ import xlrd
 from scrape_dates import parse_date
 
 
-class DayData:
+class DayData(object):
+    __isfrozen = False
     def __init__(self, canton, url):
         self.canton = canton
         self.url = url
@@ -31,6 +32,14 @@ class DayData:
         self.icf = None
         self.confirmed_non_resident = None
         self.hosp_non_resident = None
+
+        # freeze class, so that no new attributes can be created
+        self.__isfrozen = True
+
+    def __setattr__(self, key, value):
+        if self.__isfrozen and not hasattr(self, key):
+            raise TypeError( "%r is a frozen class" % self )
+        object.__setattr__(self, key, value)
 
     def __str__(self):
         str_rep = [
