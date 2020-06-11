@@ -134,7 +134,7 @@ isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
 if dd.hospitalized is not None and isolated is not None:
     isolated = int(isolated) - int(dd.hospitalized)
 dd.isolated = isolated
-dd.quarantined = sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\d+)\s+Personen', d)
+dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\S+)\s+Personen', d))
 
 m = re.search(r'Tests\s+von\s+Verdachtsfällen.*?anderen\s+Schweizer\s+Kantonen.*?grenznahen Ausland.*?Bisher\s+sind\s+die\s+Tests\s+von\s+(\d+)\s+Personen\s+.*?positiv ausgefallen.*?inklusive\s+der\s+(\d+)\s+Basler\s+Fälle', d, flags=re.I)
 if m:
