@@ -26,6 +26,7 @@ for i, row in enumerate(rows):
         print('-' * 10)
     is_first = False
     
+    # TODO: remove when source is fixed
     # handle wrong value on 2020-04-09, see issue #819
     if row['Date'].date().isoformat() == '2020-04-09':
         row['Cumul COVID-19 sorties d\'hospitalisation'] = ''
@@ -40,6 +41,8 @@ for i, row in enumerate(rows):
     dd.vent = row['Patients COVID-19\naux soins intensifs intubés']
     dd.deaths = row['Cumul décès COVID-19 ']
     dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
+
+    # TODO: check if Nombre tests is added again
     # on 2020-06-09 GE removed the `Nombre tests` column
     #dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
     print(dd)
