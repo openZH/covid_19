@@ -27,7 +27,7 @@ matrix = {
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'SG': [], # SG does not always provides the same numbers 
-    'SH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'SH': ['Confirmed cases', 'Deaths'],
     'SO': ['Confirmed cases', 'Deaths'],
     'SZ': ['Confirmed cases', 'Deaths', 'Released'],
     'TG': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
