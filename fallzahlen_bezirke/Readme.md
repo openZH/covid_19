@@ -11,6 +11,7 @@ Dieser Datensatz enthält Zahlen zu den bestätigten Sars-CoV-2-Fällen und Tode
 | __District__                |      Bezirksname*                  |  District name*   | Text |
 | __Population__  | Wohnbevölkerung | Population |Zahl|
 | __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 | __TotalConfCases__        |Total der bestätigten Fälle (kumuliert) | Total of confirmed cases (cumulated) | Zahl   |  
