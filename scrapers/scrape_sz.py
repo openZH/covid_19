@@ -26,6 +26,7 @@ for row in rows:
         print('-' * 10)
     is_first = False
 
+    # TODO: remove when source is fixed
     # handle wrong value on 2020-03-25, see issue #631
     if row['Datum'].date().isoformat() == '2020-03-25':
         row['Bestätigte Fälle (kumuliert)'] = ''
