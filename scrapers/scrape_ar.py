@@ -10,8 +10,8 @@ d = d.replace('&nbsp;', ' ')
 
 dd_ct = sc.DayData(canton='AR', url=url)
 
-t = sc.find(r'Contact\s+tracing\s+\(?Stand\:?\s+(.+?Uhr)\)?', d) or \
-    sc.find(r'Contact\s+tracing\s+\(?Stand\:?\s+([0-9]+\.[0-9]+\.? \/ [0-9]+h)\)?', d)
+t = sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+(.+?Uhr).*?\)?', d) or \
+    sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([0-9]+\.[0-9]+\.? \/ [0-9]+h).*?\)?', d)
 dd_ct.datetime = t
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
@@ -44,8 +44,8 @@ dd = sc.DayData(canton='AR', url=url)
 """
 
 # Use non-greedy matching.
-t = sc.find(r'Fälle\s+\(Stand\:?\s+(.+?Uhr)\)', d) or \
-    sc.find(r'Stand\: (.+? Uhr)\)', d) or \
+t = sc.find(r'Fälle\s+\(.*?Stand\:?\s+(.+?Uhr).*?\)', d) or \
+    sc.find(r'Stand\:? (.+? Uhr).*?\)', d) or \
     sc.find(r'Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
 dd.datetime = t
 
