@@ -19,9 +19,9 @@ if [ -z $SCRAPER_KEY ] ; then
   exit 1
 fi
 
-area="$SCRAPER_KEY"
-if [ $SCRAPER_KEY -ne "FL" ] ; then
-   area="Kanton_$SCRAPER_KEY"
+area="Kanton_${SCRAPER_KEY}"
+if [ "$SCRAPER_KEY" = "FL" ] ; then
+   area="${SCRAPER_KEY}"
 fi
 
 # 1. populate the database with the current CSV
