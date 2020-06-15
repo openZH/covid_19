@@ -11,6 +11,7 @@
 **The Federal Office of Public Health FOPH is issueing daily case number updates (incl. on weekends) on its website: ["Confirmed coronavirus infections, deaths, epidemiological situation"](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081)**
 
 **Due to different sources, definitions and methodologies the values communicated by cantons may differ from those communicated by the FOPH.**
+
 ---
 
 We are providing a common official OGD dataset of SARS-CoV-2 case numbers, which are communicated by official Swiss canton's (26 cantons, abbreviations see below) and Principality of Liechtenstein's (abbreviation: FL) sources.
