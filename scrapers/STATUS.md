@@ -30,7 +30,7 @@
 | VS     | 2      | 4              | yes         | Okish.                                                                          |
 | ZG     | 3      | 4              | yes         | Ok. Very easy to extract. Robust                                                |
 | ZH     | 2      | 4              | yes         | Okish.                                                                          |
-| FL     | 0      | 0              | no          | No reliable data of any kind                                                    |
+| FL     | 1      | 2              | no          | Only press releases with free text.                                             |
 
 ## Table legend
 
@@ -47,5 +47,3 @@ Source quality:
   * 3 - daily data available, with specified hour, and relatively easy to extract.
   * 4 - semi-machine readable, including full history.
   * 5 - human and machine readable, including full history, robust extraction.
-
-For the ones that has Status or Source quality 0, check [TODO.md](TODO.md)

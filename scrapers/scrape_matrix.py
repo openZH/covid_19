@@ -37,7 +37,7 @@ matrix = {
     'VS': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
     'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    # 'FL': [],  # No scraper.
+    'FL': ['Confirmed cases', 'Deaths'],
 }
 
 allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent', 'Isolated', 'Quarantined']
@@ -70,7 +70,7 @@ matrix_time = [
     # 'VS',  # Not available
     'ZG',
     'ZH',
-    # 'FL',  # No scraper.
+    # 'FL',  # Not available
 ]
 
 
