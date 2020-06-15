@@ -8,6 +8,7 @@ import re
 d = sc.download('https://www.regierung.li/coronavirus', silent=True)
 
 pdf_url = sc.find(r'<a.*?href="([^"]+\.pdf[^"]*)".*?>.+Situationsbericht.+<\/a>', d)
+assert pdf_url, "PDF URL not found"
 
 # download latest PDF
 d = sc.pdfdownload(pdf_url, raw=True, silent=True)
