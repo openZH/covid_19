@@ -39,6 +39,7 @@ jobs:
           - VS
           - ZG
           - ZH
+          - FL
 
     steps:
     - uses: actions/checkout@v2
@@ -65,6 +66,16 @@ jobs:
     - name: Check if there are changes in the repo
       id: changes
       uses: UnicornGlobal/has-changes-action@v1.0.11
+  
+    - name: Set commit message
+      env:
+        SCRAPER_KEY: ${{ matrix.canton }}
+      run: |
+        if [ "$SCRAPER_KEY" = "FL" ] ; then
+          echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_${SCRAPER_KEY}_total.csv from scraper
+        else
+          echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv from scraper
+        fi
 
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
@@ -74,7 +85,7 @@ jobs:
         push-branch: master
         name: GitHub Action Scraper
         email: scraper@open.zh.ch
-        commit-message: Update COVID19_Fallzahlen_Kanton_${{ matrix.canton }}_total.csv from scraper
+        commit-message: ${{ env.commit_msg }}
         rebase: 'true'
 
     - name: Validate scraper output
