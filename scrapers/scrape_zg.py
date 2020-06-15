@@ -50,12 +50,7 @@ for day in days:
     print('Downloading:', main_url)
     print('Date and time:', day)
     print('Isolated:', data[day]['Positiv getestete Personen'])
-    try:
-        cp1 = int(data[day]['Kontaktpersonen im Haushalt'])
-        cp2 = int(data[day]['Kontaktpersonen ausserhalb des Haushalts'])
-        print('Quarantined:', cp1 + cp2)
-    except (ValueError, TypeError):
-        continue
+    print('Quarantined:', data[day]['Kontaktpersonen'])
 
 cases_csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-01-e1.csv'
 d_csv = sc.download(cases_csv_url, silent=True)
