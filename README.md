@@ -8,8 +8,9 @@
 
 **Since 8 June 2020 most cantons are not communicating cantonal case numbers more often than once or twice per week, and neither  over weekends. The data in our repository is kept up-to-date with the [latest communicated data by Swiss cantons and FL](https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/).**
 
-**The Federal Office of Public Health is issueing daily updates (incl. on weekends) on its website: ["Confirmed coronavirus infections, deaths, epidemiological situation"](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081)**
+**The Federal Office of Public Health FOPH is issueing daily case number updates (incl. on weekends) on its website: ["Confirmed coronavirus infections, deaths, epidemiological situation"](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081)**
 
+**Due to different sources, definitions and methodologies the values communicated by cantons may differ from those communicated by the FOPH.**
 ---
 
 We are providing a common official OGD dataset of SARS-CoV-2 case numbers, which are communicated by official Swiss canton's (26 cantons, abbreviations see below) and Principality of Liechtenstein's (abbreviation: FL) sources.
