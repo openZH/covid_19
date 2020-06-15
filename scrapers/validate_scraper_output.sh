@@ -19,8 +19,13 @@ if [ -z $SCRAPER_KEY ] ; then
   exit 1
 fi
 
+area="Kanton_${SCRAPER_KEY}"
+if [ "$SCRAPER_KEY" = "FL" ] ; then
+   area="${SCRAPER_KEY}"
+fi
+
 # 1. Validate the result
-node $DIR/../scripts/validate-csv.js $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+node $DIR/../scripts/validate-csv.js $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_${area}_total.csv
 
 # 2. Check for outliers
-python $DIR/../scripts/check_for_outliers.py $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv
+python $DIR/../scripts/check_for_outliers.py $DIR/../fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_${area}_total.csv
