@@ -134,7 +134,7 @@ isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+(?:Fällen|Fall)', d))
 if dd.hospitalized is not None and isolated is not None:
     isolated = int(isolated) - int(dd.hospitalized)
 dd.isolated = isolated
-if 'In Quarantäne befindet sich seit gestern Montag niemand mehr.' in d:
+if re.search(r'In\s+Quarantäne\s+befindet\s+sich[^.]*\s+niemand', d):
     dd.quarantined = 0
 else:
     dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\S+)\s+Personen', d))
