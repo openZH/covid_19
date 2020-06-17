@@ -137,7 +137,7 @@ dd.isolated = isolated
 if re.search(r'In\s+Quarantäne\s+befindet\s+sich[^.]*\s+niemand', d):
     dd.quarantined = 0
 else:
-    dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\S+)\s+Personen', d))
+    dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:.*?)?(\S+)\s+(?:neue\s+)?Personen', d))
 
 m = re.search(r'Tests\s+von\s+Verdachtsfällen.*?anderen\s+Schweizer\s+Kantonen.*?grenznahen Ausland.*?Bisher\s+sind\s+die\s+Tests\s+von\s+(\d+)\s+Personen\s+.*?positiv ausgefallen.*?inklusive\s+der\s+(\d+)\s+Basler\s+Fälle', d, flags=re.I)
 if m:
