@@ -11,7 +11,7 @@ import sys
 # A per-canton list of extra fields that are expected to be present.
 matrix = {
     # Note: Please keep the order of cantons and entries.
-    'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'AG': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AI': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
