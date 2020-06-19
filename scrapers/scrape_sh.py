@@ -81,7 +81,7 @@ for row in rows:
         print('Date and time:', row['Datum'].date().isoformat())
 
     print('Confirmed cases:', row['Positiv'])
-    if row['Hospitalisiert_Iso'] and row['Hospitalisiert_Intensiv']:
+    if sc.represents_int(row['Hospitalisiert_Iso']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
         print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     print('Deaths:', row['Verstorben'])
