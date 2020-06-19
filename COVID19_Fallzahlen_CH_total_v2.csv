@@ -2581,7 +2581,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-17,,GR,,830,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1,6
 2020-06-17,,JU,,206,,1,0,,,7,https://www.jura.ch/Htdocs/Files/v/34692.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_18_06.xlsx?download=1,,
 2020-06-17,,LU,,740,,13,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
-2020-06-17,,NE,,,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-06-17,,NE,,739,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-06-17,,NW,,124,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-06-17,,SG,,820,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-06-17,,TG,,385,,1,0,,,18,https://www.tg.ch/news/fachdossier-coronavirus.html/10552,,
@@ -2622,6 +2622,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-19,,BL,,847,,0,0,0,810,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2,5
 2020-06-19,,FR,,1186,,2,0,,151,84,https://www.fr.ch/sites/default/files/2020-06/statistiques_situation_FR_1906.xlsx,,
 2020-06-19,,LU,,741,,9,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
+2020-06-19,,NE,,,,5,1,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-06-19,,NW,,124,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-06-19,,TG,,385,,0,0,,,18,https://www.tg.ch/news/fachdossier-coronavirus.html/10552,,
 2020-06-19,00:00,SO,,451,,,,,,17,https://corona.so.ch/index.php?id=27979,,
