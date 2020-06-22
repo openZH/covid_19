@@ -2651,6 +2651,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-20,09:30,BS,,985,,,,,933,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,2,4
 2020-06-20,09:30,SH,,,,,,,,,https://sh.ch/CMS/get/file/5c9be237-6cc6-4dda-aaed-945e773989e5,,
 2020-06-20,10:00,SZ,,309,,,,,285,23,https://www.sz.ch/public/upload/assets/47146/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
+2020-06-20,14:30,ZH,,3692,,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html,,
 2020-06-21,,FL,,82,,,,,,1,https://www.regierung.li/media/attachments/345-corona-situationsbericht-0621.pdf,,
 2020-06-21,,FR,,1191,,3,0,,151,84,https://www.fr.ch/sites/default/files/2020-06/statistiques_situation_FR_2206.xlsx,,
 2020-06-21,,GR,,830,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1,6
@@ -2662,6 +2663,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-21,09:30,BS,,985,,,,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,1,4
 2020-06-21,09:30,SH,,,,,,,,,https://sh.ch/CMS/get/file/5c9be237-6cc6-4dda-aaed-945e773989e5,,
 2020-06-21,10:00,SZ,,309,,,,,285,23,https://www.sz.ch/public/upload/assets/47146/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
+2020-06-21,14:30,ZH,,3698,,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html,,
 2020-06-22,,LU,,745,,9,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
 2020-06-22,,SG,,822,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-06-22,,TG,,385,,0,0,,,18,https://www.tg.ch/news/fachdossier-coronavirus.html/10552,,
@@ -2675,3 +2677,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-22,10:00,AR,,100,,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,0,0
 2020-06-22,10:00,SZ,,313,,,,,285,23,https://www.sz.ch/public/upload/assets/47146/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-06-22,12:00,GL,,128,,0,,,,13,https://www.gl.ch/public/upload/assets/28728/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
+2020-06-22,14:00,OW,,82,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,,
+2020-06-22,14:30,ZH,,3701,,11,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html,,
