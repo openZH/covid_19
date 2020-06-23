@@ -1,32 +1,34 @@
 #!/usr/bin/env python3
 
+import csv
+from io import StringIO
+import requests
 import scrape_common as sc
 
-print('TG')
-d = sc.download('https://www.tg.ch/news/fachdossier-coronavirus.html/10552')
-sc.timestamp()
-d = d.replace('&nbsp;', ' ')
+# perma link to TG COVID dataset on opendata.swiss
+r = requests.get(
+    'https://opendata.swiss/api/3/action/ogdch_dataset_by_identifier',
+    params={'identifier': 'gesundheit_04-2020_stat@kanton-thurgau'}
+)
+dataset = r.json()['result']
+resource = next(r for r in dataset['resources'] if r['name']['de'] == 'COVID19 Fallzahlen Kanton Thurgau')
 
-# 2020-03-25
-"""
-      <li>Anzahl bestätigter Fälle: 96</li> 
-     <p><em>Stand 25.3.20</em></p> 
-"""
+assert resource['download_url'], "Download URL not found"
+    
+d_csv = sc.download(resource['download_url'], silent=True)
 
-# 2020-04-03
-"""
-    <div class="box box--blue"> 
-     <h2>Aktuelle Fallzahlen im Kanton Thurgau</h2> 
-     <ul> 
-      <li>Anzahl bestätigter Fälle: 198</li> 
-      <li>davon&nbsp;5 verstorben</li> 
-     </ul> 
-     <p><em>Stand 3.4.20</em></p> 
-    </div> 
-"""
-
-print('Date and time:', sc.find(r'Stand\s*([^<]+)<', d))
-print('Confirmed cases:', sc.find(r'(?:Anzahl)?\s*bestätigter\s*Fälle:?\s*([0-9]+)\b', d))
-print('Deaths:', sc.find(r'\b([0-9]+)\s*verstorb', d) or sc.find(r'Verstorben:?\s*([0-9]+)', d))
-print('Hospitalized:', sc.find(r'Hospitalisiert:\s*([0-9]+)', d))
-print('ICU:', sc.find(r'davon auf der Intensivstation:\s+([0-9]+)', d))
+reader = csv.DictReader(StringIO(d_csv), delimiter=';')
+is_first = True
+for row in reader:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+    dd = sc.DayData(canton='TG', url=row['source'])
+    dd.datetime = f"{row['date']} {row['time']}"
+    dd.cases = row['ncumul_conf']
+    dd.deaths = row['ncumul_deceased']
+    dd.hospitalized = row['current_hosp']
+    dd.new_hosp = row['new_hosp']
+    dd.recovered = row['ncumul_released']
+    dd.icu = row['current_ICU']
+    print(dd)
