@@ -23,7 +23,7 @@
 | SH     | 2      | 4              | yes         | Okish. Hacky, relays on a lot of JavaScript dynamic content!                    |
 | SO     | 2      | 3              | yes         | Ok. Easy to extract.                                                            |
 | SZ     | 1      | 4              | yes         | Okish.                                                                          |
-| TG     | 2      | 3              | no          | Okish. Could be better.                                                         |
+| TG     | 3      | 4              | yes         | Okish. Could be better.                                                         |
 | TI     | 2      | 4              | yes         | Okish. Burried in a nest of tags.                                               |
 | UR     | 3      | 4              | no          | Okish.                                                                          |
 | VD     | 4      | 4.5            | yes         | Easy extraction of all metadata, including history                              |
