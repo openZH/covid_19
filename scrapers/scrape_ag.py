@@ -33,7 +33,7 @@ for t in soup.find_all('table'):
                     dd.cases = value
                 if col_header == 'Todesfälle':
                     dd.deaths = value
-            if row_header == 'Gesamtzahl aktuell betreuter Personen':
+            if row_header == 'Aktuell betreute Personen':
                 if col_header == 'Infizierte Personen in Isolation':
                     dd.isolated = value
                 if col_header == 'Kontaktpersonen in Quarantäne':
