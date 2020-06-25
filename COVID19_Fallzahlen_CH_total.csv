@@ -2739,6 +2739,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-24,,BL,,851,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-24,,FL,,82,,,,,1,https://www.regierung.li/media/attachments/353-corona-situationsbericht-0624-637286141958123270.pdf
 2020-06-24,,FR,,1203,2,0,,152,85,https://www.fr.ch/sites/default/files/2020-06/statistiques_situation_FR_2406.xlsx
+2020-06-24,,GR,,831,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-06-24,,JU,,208,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34705.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees-cas-confirmes-et-cas-confirmes-hospitalises_24-juin-2020.xlsx?download=1
 2020-06-24,,LU,,747,10,1,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-06-24,,NW,,124,0,0,,,3,http://www.nw.ch/coronastatistik
@@ -2758,6 +2759,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-24,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-25,,SG,,828,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-06-25,00:00,SO,,453,,,,,17,https://corona.so.ch/index.php?id=27979
+2020-06-25,08:00,TI,,3327,5,0,0,910,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
 2020-06-25,08:00,ZG,,219,0,0,,196,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-06-25,09:00,AR,,101,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
+2020-06-25,09:30,BS,,985,,,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd-4.html
 2020-06-25,10:00,SZ,,317,,,,285,23,https://www.sz.ch/public/upload/assets/47309/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
