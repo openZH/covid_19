@@ -126,6 +126,8 @@ dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getest
     sc.find('(\d+) genesenen Personen', d)
 
 dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
+if not dd.icu and re.search('Seit\s+.+\s+befindet\s+sich\s+niemand\s+mehr\s+mit\s+Wohnsitz\s+Basel-Stadt\s+in\s+Akut-\s+oder\s+Intensivspitalpflege', d):
+    dd.icu = 0
 dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or \
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
