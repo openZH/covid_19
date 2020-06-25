@@ -10,7 +10,7 @@ d = d.replace('&nbsp;', ' ')
 
 dd_ct = sc.DayData(canton='AR', url=url)
 
-t = sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+(.+?Uhr).*?\)?', d) or \
+t = sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([^\)]+)(Uhr)?.*?\)?', d) or \
     sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([0-9]+\.[0-9]+\.? \/ [0-9]+h).*?\)?', d)
 dd_ct.datetime = t
 
