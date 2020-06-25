@@ -19,6 +19,8 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0, sheet_name='Données sites internet')
 is_first = True
 for row in rows:
+    if row['Date'] is None:
+        continue
     if not isinstance(row['Date'], datetime.datetime):
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
