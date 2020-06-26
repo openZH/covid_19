@@ -2762,6 +2762,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-24,15:00,OW,,82,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,,
 2020-06-25,,BL,,852,,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,7,38
 2020-06-25,,FL,,82,,,,,,1,https://www.regierung.li/media/attachments/356-corona-situationsbericht-0625.pdf,,
+2020-06-25,,GR,,831,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1,13
 2020-06-25,,JU,,210,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34711.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees--cas-confirmes-et-cas-confirmes-hospitalises---situation-au-25-juin-2020.xlsx?download=1,,
 2020-06-25,,LU,,747,,10,1,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
 2020-06-25,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -2781,3 +2782,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-25,14:30,ZH,,3727,,7,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html,59,122
 2020-06-25,15:00,OW,,82,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,,
 2020-06-26,,SG,,831,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
+2020-06-26,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
