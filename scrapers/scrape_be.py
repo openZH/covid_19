@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
 
 html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
@@ -126,6 +127,8 @@ for t in soup.find_all('table'):
         is_first = True
         for row in [r for r in t.find_all('tr') if r.find_all('td')]:
             if "Nachmeldung" in row.text:
+                continue
+            if re.search(r'Daten.*bereini.*gung', row.text.replace("\n", " ")):
                 continue
             if not is_first:
                 print('-' * 10)
