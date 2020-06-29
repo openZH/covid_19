@@ -63,7 +63,7 @@ matrix_time = [
     'SH',
     'SO',
     'SZ',
-    # 'TG',  # Not available.
+    'TG',
     'TI',
     'UR',
     # 'VD',  # Not available.
