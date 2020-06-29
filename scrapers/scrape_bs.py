@@ -17,7 +17,7 @@ json_url = re.sub(
 is_first = True
 for record in sorted(sc.jsondownload(json_url, silent=True), key=lambda record: record['fields']['date']):
     dd = sc.DayData(canton='BS', url=json_url)
-    dd.datetime = record['fields']['date']
+    dd.datetime = record['fields']['timestamp']
     if 'ncumul_conf' in record['fields']:
         dd.cases = int(record['fields']['ncumul_conf'])
     if 'ncumul_deceased' in record['fields']:
