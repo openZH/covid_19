@@ -119,7 +119,7 @@ def parse_date(d):
     mo = re.search(r'^(\d+)\.(\d+)\.(20\d\d)$', d)
     if mo:
         # 20.03.2020
-        assert 2020 <= int(mo[3]) <= 2021
+        assert 2020 <= int(mo[3]) <= 2022
         assert 1 <= int(mo[2]) <= 12
         return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
     mo = re.search(r'^(\d+)[a-z]* ([^\W\d_]+) (20\d\d) \((\d+)h\)$', d)
