@@ -30,13 +30,13 @@ matrix = {
     'SH': ['Confirmed cases', 'Deaths'],
     'SO': ['Confirmed cases', 'Deaths'],
     'SZ': ['Confirmed cases', 'Deaths', 'Released'],
-    'TG': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'TG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'TI': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'UR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized'],
     'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'VS': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'VS': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent', 'Released'],
     'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'Vent'],
     'FL': ['Confirmed cases', 'Deaths'],
 }
 
@@ -63,7 +63,7 @@ matrix_time = [
     'SH',
     'SO',
     'SZ',
-    # 'TG',  # Not available.
+    'TG',
     'TI',
     'UR',
     # 'VD',  # Not available.
@@ -106,11 +106,11 @@ def check_expected(abbr, date, data):
             violated_expectations.append(f'Expected {k} to be present for {abbr}')
 
     # Check for new fields, that are there, but we didn't expect them
-    for k, v in cross.items():
-        if v is not None and k not in expected_extras:
-            text = f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.'
-            print(f'WARNING: {text}', file=sys.stderr)
-            warnings.append(text)
+    # for k, v in cross.items():
+    #     if v is not None and k not in expected_extras:
+    #         text = f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.'
+    #         print(f'WARNING: {text}', file=sys.stderr)
+    #         warnings.append(text)
 
     assert date and "T" in date, f'Date is invalid: {date}'
     date_time = date.split("T", 1)
