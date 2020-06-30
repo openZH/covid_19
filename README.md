@@ -162,7 +162,7 @@ Comparable data for the Canton Thurgau in a slightly different format is availab
  <br>Alexandre Kuhn
 
 ### Data for Basel-Stadt
-- https://github.com/opendatabs/covid_19 <br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
+- https://data.bs.ch/pages/covid-19-dashboard/<br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
 
 ### COVID-19 Data Hub
 - https://covid19datahub.io
