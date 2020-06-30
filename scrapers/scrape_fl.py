@@ -33,7 +33,7 @@ print(dd)
 history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
 d = sc.pdfdownload(history_url, layout=True, silent=True)
 for row in d.splitlines():
-    m = re.search(r'^((?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag).+\d{4})\s+(\d+)$', row)
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)$', row)
     if m and dd.datetime not in m[1]:
         dd_full_list = sc.DayData(canton='FL', url=history_url)
         dd_full_list.datetime = m[1]
