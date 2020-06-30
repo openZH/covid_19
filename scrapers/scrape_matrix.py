@@ -36,8 +36,8 @@ matrix = {
     'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'VS': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent', 'Released'],
     'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
-    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized', 'Vent'],
-    'FL': ['Confirmed cases', 'Deaths'],
+    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'FL': ['Confirmed cases'],
 }
 
 allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent', 'Isolated', 'Quarantined']
