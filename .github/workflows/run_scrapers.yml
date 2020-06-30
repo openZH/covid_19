@@ -16,7 +16,7 @@ jobs:
           - AG
           - AI
           - AR
-          # - BE # TODO: disable until #871 is fixed
+          - BE
           - BL
           # - BS # disable BS, data is updated manually for now
           - FR
