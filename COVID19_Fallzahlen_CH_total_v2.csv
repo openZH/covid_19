@@ -2876,7 +2876,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-29,,GR,,836,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,6,80
 2020-06-29,,JU,,216,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34745.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees--cas-confirmes-et-cas-confirmes-hospitalises---situation-au-30-juin-2020.xlsx?download=1,,
 2020-06-29,,LU,,754,,10,1,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
-2020-06-29,,NE,,745,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-06-29,,NE,,746,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-06-29,,NW,,124,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-06-29,,SG,,837,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-06-29,,VD,,5567,,28,3,,,424,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -2899,6 +2899,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-30,,GR,,837,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7,84
 2020-06-30,,JU,,217,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34745.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees--cas-confirmes-et-cas-confirmes-hospitalises---situation-au-30-juin-2020.xlsx?download=1,,
 2020-06-30,,LU,,760,,,,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
+2020-06-30,,NE,,748,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-06-30,,NW,,124,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-06-30,,SG,,843,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-06-30,00:00,SO,,459,,,,,,17,https://corona.so.ch/index.php?id=27979,,
@@ -2918,6 +2919,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-01,,BL,,860,,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,9,51
 2020-07-01,,FL,,82,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-01,,LU,,763,,9,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
+2020-07-01,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-01,,NW,,124,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-07-01,,SG,,854,,,,,,38,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-07-01,00:00,SO,,461,,,,,,17,https://corona.so.ch/index.php?id=27979,,
