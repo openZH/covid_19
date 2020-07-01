@@ -34,13 +34,15 @@ for i, row in enumerate(rows):
     dd = sc.DayData(canton='GE', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas COVID-19']
-    dd.hospitalized = row['Total hospitalisations COVID-19']
-    dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
-    dd.icu = row['Patients COVID-19 \naux soins intensifs total']
-    dd.icf = row['Patients COVID-19 \naux soins intermédiaires']
-    dd.vent = row['Patients COVID-19\naux soins intensifs intubés']
+    dd.hospitalized = row['Total hospitalisations COVID-19 actifs ']
+    dd.icu = row['Patients COVID-19 aux soins intensifs total']
+    dd.icf = row['Patients COVID-19 aux soins intermédiaires']
+    dd.vent = row['Patients COVID-19 aux soins intensifs intubés']
     dd.deaths = row['Cumul décès COVID-19 ']
-    dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
+
+    # Since 01.07.2020 new_hosp and recovered are no longer provided
+    #dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
+    #dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
 
     # TODO: check if Nombre tests is added again
     # on 2020-06-09 GE removed the `Nombre tests` column
