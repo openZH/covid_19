@@ -20,7 +20,7 @@ jobs:
           - BL
           # - BS # disable BS, data is updated manually for now
           - FR
-          - GE
+          # - GE # disable GE, until time series of deceased is fixed
           - GL
           - GR
           - JU
