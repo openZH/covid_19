@@ -103,7 +103,7 @@ jobs:
       run: echo "::set-output name=ts::$(date +'%s')"
 
     - name: Notify slack validation error
-      if: ${{ env.validate_status == 'failed' }}
+      if: ${{ env.validate_status == 'failed' && 1 == 2 }} # temporary disable CSV validation msg
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
