@@ -21,7 +21,7 @@ date_time_info = sc.find('Stand (.+) Uhr', d)
 if date_time_info is None:
     date_time_info = sc.find('Situation im Kanton Zürich\s*(?:am\s*)?(?:[A-Za-z]*[,:\.]*)?\(?([^)<]+)\)?', d)
 dd_iso_q.datetime = date_time_info
-dd_iso_q.isolated = sc.find(r'(\d+)\s+Personen\s+in\s+Isolation', d)
+dd_iso_q.isolated = sc.find(r'(\d+)\s+Personen\s+(?:befinden\s+sich\s+)?in\s+Isolation', d)
 dd_iso_q.quarantined = sc.find(r'(\d+)\s+in\s+Quarantäne', d)
 
 print(dd_iso_q)
