@@ -22,6 +22,10 @@ for i, row in enumerate(rows):
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
 
+    if row['Nombre cas COVID-19'] is None:
+        print(f"WARNING: 'Nombre cas COVID-19' is empty on {row['Date']}, skipping.", file=sys.stderr)
+        continue
+
     if not is_first:
         print('-' * 10)
     is_first = False
