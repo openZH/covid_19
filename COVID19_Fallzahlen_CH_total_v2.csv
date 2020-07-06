@@ -2969,6 +2969,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-03,,BL,,865,,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,11,49
 2020-07-03,,FL,,83,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-03,,FR,,1243,,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200706_statistiques_situation_FR_canton.xlsx,,
+2020-07-03,,GR,,837,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,6,66
 2020-07-03,,JU,,235,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34779.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees-WEB.xlsx?download=1,,
 2020-07-03,,LU,,767,,9,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
 2020-07-03,,NE,,751,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -2989,6 +2990,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-03,16:45,OW,,83,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,,
 2020-07-04,,FL,,83,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-04,,FR,,1246,,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200706_statistiques_situation_FR_canton.xlsx,,
+2020-07-04,,GR,,838,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7,67
 2020-07-04,,JU,,238,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34779.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees-WEB.xlsx?download=1,,
 2020-07-04,,NE,,,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-04,08:00,BE,,1953,,4,1,1,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -3008,6 +3010,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-06,,FR,,1253,,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200706_statistiques_situation_FR_canton.xlsx,,
 2020-07-06,,NE,,,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-06,,SG,,881,,,,,,39,https://www.sg.ch/tools/informationen-coronavirus.html,,
+2020-07-06,08:00,AG,,1338,,,,,,47,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp,73,220
 2020-07-06,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
+2020-07-06,08:15,BS,,990,,3,,,935,50,https://www.gesundheit.bs.ch,5,10
 2020-07-06,09:30,SH,,85,,2,0,,,7,https://sh.ch/CMS/get/file/8b248bda-55a9-4f23-a8e4-4b1ece10b186,,
 2020-07-06,10:00,SZ,,342,,,,,293,23,https://www.sz.ch/public/upload/assets/47598/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
