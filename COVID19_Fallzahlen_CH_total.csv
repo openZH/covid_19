@@ -2944,7 +2944,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-01,16:00,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-01,17:00,UR,,103,0,,,86,7,https://www.ur.ch/themen/2962
 2020-07-02,,BL,,861,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2020-07-02,,FL,,83,,,,,1,https://www.regierung.li/media/attachments/370-corona-situationsbericht-0702.pdf
+2020-07-02,,FL,,83,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-07-02,,FR,,1238,3,0,,152,85,https://www.fr.ch/sites/default/files/2020-07/200706_statistiques_situation_FR_canton.xlsx
 2020-07-02,,GR,,837,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-07-02,,JU,,227,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34779.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees-WEB.xlsx?download=1
@@ -3007,6 +3007,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-05,10:00,SZ,,342,,,,293,23,https://www.sz.ch/public/upload/assets/47598/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-05,14:30,ZH,,3954,11,,1,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-07-05,16:30,UR,,105,0,,,86,7,https://www.ur.ch/themen/2962
+2020-07-06,,FL,,84,,,,,1,https://www.regierung.li/media/attachments/375-corona-situationsbericht-0706.pdf
 2020-07-06,,FR,,1253,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200706_statistiques_situation_FR_canton.xlsx
 2020-07-06,,NE,,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-07-06,,SG,,881,,,,,39,https://www.sg.ch/tools/informationen-coronavirus.html
