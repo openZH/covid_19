@@ -142,7 +142,7 @@ for t in soup.find_all('table'):
                 value = cell.string
                 if value:
                     value = value.replace("'", "")
-                if '*' in value:
+                if value and '*' in value:
                     # the asteriks (*) indicates a not-current value
                     continue
 
