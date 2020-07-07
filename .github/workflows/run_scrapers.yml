@@ -33,7 +33,7 @@ jobs:
           - SO
           - SZ
           - TG
-          # - TI # disable until outlier from 2020-07-07 is fixed
+          - TI # disable until outlier from 2020-07-07 is fixed
           - UR
           - VD
           - VS
