@@ -76,20 +76,29 @@ dd = sc.DayData(canton='LU', url=url)
 
 include_hosp = True
 include_cases = True
+include_isolated = True
 
 case_date_str = sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d)
 hosp_date_str = sc.find(r'Hospitalisierungen.*\(Stand:\s*(.+?)\,', d)
+isolated_date_str = sc.find(r'Isolation.*\(Stand:\s*(.+?)\,', d)
 
 case_date = sc.date_from_text(case_date_str)
 hosp_date = sc.date_from_text(hosp_date_str)
-if case_date > hosp_date:
+isolated_date = sc.date_from_text(isolated_date_str)
+
+max_date = max(hosp_date, case_date, isolated_date)
+if max_date > hosp_date:
     include_hosp = False
-    dd.datetime = case_date_str
-elif hosp_date > case_date:
-    include_cases = False 
+else:
     dd.datetime = hosp_date_str
+if max_date > case_date:
+    include_cases = False
 else:
     dd.datetime = case_date_str
+if max_date > isolated_date:
+    include_isolated = False
+else:
+    dd.datetime = isolated_date_str
 
 soup = BeautifulSoup(d, 'html.parser')
 rows = []
@@ -111,5 +120,9 @@ for row in rows:
         dd.hospitalized = value
     if re.search('Intensivpflege', header_str) and include_hosp:
         dd.icu = value
+    if re.search('Personen in Isolation', header_str) and include_isolated:
+        dd.isolated = value
+    if re.search('Personen in Quarantäne', header_str) and include_isolated:
+        dd.quarantined = value
 
 print(dd)
