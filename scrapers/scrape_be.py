@@ -138,12 +138,13 @@ for t in soup.find_all('table'):
             sc.timestamp()
             print('Downloading:', html_url)
 
-            col_num = 0
-            for cell in row.find_all(['td']):
+            for col_num, cell in enumerate(row.find_all(['td'])):
                 value = cell.string
                 if value:
                     value = value.replace("'", "")
-                    value = value.replace("*", "")
+                if '*' in value:
+                    # the asteriks (*) indicates a not-current value
+                    continue
 
                 if headers[col_num] == 'Datum':
                     print('Date and time:', " ".join(cell.stripped_strings))
@@ -157,4 +158,3 @@ for t in soup.find_all('table'):
                     print('Vent:', value)
                 elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
                     print('ICU:', value)
-                col_num += 1
