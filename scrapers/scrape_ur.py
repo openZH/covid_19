@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 url = 'https://www.ur.ch/themen/2962'
-d = sc.download(url)
+d = sc.download(url, silent=True)
 
 # 2020-03-26 (and possibly earlier) from https://www.ur.ch/themen/2962
 # 2020-07-07 they changed the title, so we're using the table header to find the table
