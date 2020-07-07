@@ -86,7 +86,7 @@ case_date = sc.date_from_text(case_date_str)
 hosp_date = sc.date_from_text(hosp_date_str)
 isolated_date = sc.date_from_text(isolated_date_str)
 
-max_date = max(isolated_date, case_date, isolated_date)
+max_date = max(hosp_date, case_date, isolated_date)
 if max_date > hosp_date:
     include_hosp = False
 else:
