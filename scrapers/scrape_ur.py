@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 
 import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
-print('UR')
-d = sc.download('https://www.ur.ch/themen/2962')
-sc.timestamp()
+url = 'https://www.ur.ch/themen/2962'
+d = sc.download(url)
 
 # 2020-03-26 (and possibly earlier) from https://www.ur.ch/themen/2962
+# 2020-07-07 they changed the title, so we're using the table header to find the table
 """
-<h2 class="icmsH2Content">Aktuelle Situation im Kanton Uri</h2>
-
-<p class="icmsPContent">&nbsp;</p>
-
 <table cellpadding="1" cellspacing="1" class="icms-wysiwyg-table" icms="CLEAN" style="width:600px">
 	<caption>Stand: 26.03.2020, 12.00 Uhr</caption>
 	<thead>
@@ -35,25 +32,27 @@ sc.timestamp()
 """
 
 
-m = re.search(r'>Aktuelle Situation im Kanton Uri</h2>.*?<table[^>]*>(.+?)</table>', d, flags=re.MULTILINE | re.DOTALL)
-assert m, "Can't find data table"
-d = m[1]
+soup = BeautifulSoup(d, 'html.parser')
+data_table = soup.find(string=re.compile(r'Positiv\s+getestete\s+Erkrankungsfälle')).find_parent('table')
 
-print('Date and time:', sc.find(r'Stand[A-Za-z ]*[:,]? ([^<)]+ Uhr)<', d))
+assert data_table, "Can't find data table"
 
-rows = re.findall('<tr>(.*?)</tr>', d, flags=re.DOTALL)
+dd = sc.DayData(canton='UR', url=url)
+dd.datetime = sc.find(r'Stand[A-Za-z ]*[:,]? ([^<)]+ Uhr)<', d)
 
-headers = re.findall('<th[^>]*>(.*?)</th>', rows[0])
-assert headers[0] == "Positiv getestete Erkrankungsfälle"
-assert headers[1] == "Hospitalisiert"
-assert headers[2] == "Verstorben"
-assert headers[3] == "Genesen"
+headers = data_table.find_all('th')
+assert len(headers) == 4, f"Number of header columns changed, {len(headers)} != 4"
+assert headers[0].text == "Positiv getestete Erkrankungsfälle"
+assert headers[1].text == "Hospitalisiert"
+assert headers[2].text == "Verstorben"
+assert headers[3].text == "Genesen"
 
-first_row = rows[1].strip()
+cells = data_table.find_all('td')
+assert len(cells) == 4, f"Number of columns changed, {len(cells)} != 4"
 
-columns = re.findall('<td[^>]*>(.*?)</td>', first_row)
+dd.cases = cells[0].text
+dd.hospitalized = cells[1].text
+dd.deaths = cells[2].text
+dd.recovered = cells[3].text
 
-print('Confirmed cases:', columns[0])
-print('Hospitalized:', columns[1])
-print('Deaths:', columns[2])
-print('Recovered:', columns[3])
+print(dd)
