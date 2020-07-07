@@ -90,15 +90,15 @@ max_date = max(isolated_date, case_date, isolated_date)
 if max_date > hosp_date:
     include_hosp = False
 else:
-    dd.datetime = case_date_str
+    dd.datetime = hosp_date_str
 if max_date > case_date:
     include_cases = False
 else:
-    dd.datetime = hosp_date_str
+    dd.datetime = case_date_str
 if max_date > isolated_date:
     include_isolated = False
 else:
-    dd.datetime = case_date_str
+    dd.datetime = isolated_date_str
 
 soup = BeautifulSoup(d, 'html.parser')
 rows = []
