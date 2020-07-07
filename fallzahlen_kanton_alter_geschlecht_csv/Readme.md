@@ -1,3 +1,6 @@
+<img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="180"/>
+<img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/>
+
 ## Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
 
 Selected Cantons publish more detailed datasets, which are available in this __directory__.
