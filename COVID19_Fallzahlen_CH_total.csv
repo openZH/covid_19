@@ -41,7 +41,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-27,,GR,,2,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-02-27,,JU,,1,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/34813.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_07_07.xlsx?download=1
 2020-02-27,,TI,,1,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
-2020-02-27,14:30,ZH,,2,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-02-27,14:30,ZH,,2,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-02-27,19:17,BS,,1,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html
 2020-02-28,,BE,,1,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.archiv.meldungNeu.html/portal/de/meldungen/mm/2020/02/20200229_0936_corona.html
 2020-02-28,,BL,,1,,,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -52,7 +52,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-28,,VD,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-28,,VS,,1,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-02-28,10:15,BS,,1,,,,,,https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20
-2020-02-28,14:30,ZH,,2,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-02-28,14:30,ZH,,2,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-02-28,15:00,AG,,1,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/20200228_KFS_20200106_Coronavirus_Lagebulletin_AG_Unterschrieben.pdf
 2020-02-29,,BL,,2,1,0,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-02-29,,GE,981,9,3,0,0,,0,https://www.ge.ch/document/20094/annexe/0
@@ -62,7 +62,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-02-29,,VD,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-02-29,,VS,,1,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-02-29,08:00,ZG,,0,0,0,,,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-02-29,14:30,ZH,,6,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-02-29,14:30,ZH,,6,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-02-29,15:23,BS,,1,,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1233759578241863681?s=20
 2020-03-01,,BE,,2,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200302_1522_zweiter_bestaetigtercorona-fallinbiel
 2020-03-01,,BL,,2,1,0,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -76,7 +76,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-01,,VD,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-01,,VS,,2,7,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-03-01,08:00,ZG,,0,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-01,14:30,ZH,,7,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-01,14:30,ZH,,7,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-01,17:29,BS,,1,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-anzahl-der-getesteten-faelle-und-zwischenstand-kita-riehen-gd.html
 2020-03-02,,BE,,4,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200303_1333_mann_in_spital_interlakenpositivgetestet
 2020-03-02,,BL,,2,1,0,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -91,7 +91,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-02,,VD,,,6,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-02,,VS,,3,10,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-03-02,08:00,ZG,,0,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-02,14:30,ZH,,10,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-02,14:30,ZH,,10,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-02,17:15,BS,235,1,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-zwei-neue-positive-faelle-in-basel-stadt-gd.html
 2020-03-02,18:00,AG,,2,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/200302_KFS_Coronavirus_Lagebulletin_2.pdf
 2020-03-03,,BL,,2,1,0,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -105,7 +105,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-03,,VD,,,8,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-03,,VS,,3,12,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-03-03,08:00,ZG,,1,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-03,14:30,ZH,,13,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-03,14:30,ZH,,13,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-03,15:00,AG,,6,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200303_KFS_Coronavirus_Lagebulletin_3.pdf
 2020-03-03,17:30,BS,,3,,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1234880556095213569?s=20
 2020-03-04,,BE,,6,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200304_1443_corona-4-3-2020
@@ -122,7 +122,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-04,,VS,,4,13,0,0,0,0,https://www.vs.ch/de/web/coronavirus
 2020-03-04,06:35,SG,,1,,,,,,https://www.sg.ch/news/sgch_allgemein/2020/03/erster-bestaetigter-corona-fall-im-kanton-.html
 2020-03-04,08:00,ZG,,1,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-04,14:30,ZH,,15,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-04,14:30,ZH,,15,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-04,15:00,AG,,7,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200304_KFS_Coronavirus_Lagebulletin_4.pdf
 2020-03-04,17:20,BS,,3,,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1235240377134862336?s=20
 2020-03-04,18:00,LU,,0,,,,,,https://web.archive.org/web/20200304173939/https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -138,7 +138,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-05,,VD,,,14,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-05,,VS,,5,11,0,0,2,0,https://www.vs.ch/de/web/coronavirus
 2020-03-05,08:00,ZG,,2,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-05,14:30,ZH,,23,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-05,14:30,ZH,,23,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-05,15:00,AG,,9,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200305_KFS_Coronavirus_Lagebulletin_5.pdf
 2020-03-05,17:15,BS,,8,1,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-fuenf-neue-positive-faelle-in-basel-stadt-gd.html
 2020-03-06,,AR,,1,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
@@ -157,7 +157,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-06,08:00,ZG,,3,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-06,12:00,SO,,1,,,,,,https://so.ch/startseite/aktuell/news/erster-laborbestaetigter-covid-19-fall-im-kanton-solothurn/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3074bbdc8f0fcdcb9f1e11a21fc05e73
 2020-03-06,14:00,BS,,15,1,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1235934884167852035?s=20
-2020-03-06,14:30,ZH,,29,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-06,14:30,ZH,,29,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-06,15:00,AG,,12,,,,1,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200305_KFS_Coronavirus_Lagebulletin_6.pdf
 2020-03-06,15:38,SG,,2,,,,,,https://www.sg.ch/news/sgch_allgemein/2020/03/zweiter-bestaetigter-fall-einer-corona-patientin.html
 2020-03-07,,AR,,1,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
@@ -173,7 +173,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-07,,VS,,7,12,0,0,2,0,https://www.vs.ch/de/web/coronavirus
 2020-03-07,08:00,ZG,,3,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-07,12:00,BS,,21,1,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236249864473894914?s=20
-2020-03-07,14:30,ZH,,34,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-07,14:30,ZH,,34,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-08,,AR,,1,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
 2020-03-08,,BL,,19,4,2,2,,1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-08,,FL,,1,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -188,7 +188,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-08,,VS,,12,16,1,1,2,0,https://www.vs.ch/de/web/coronavirus
 2020-03-08,08:00,ZG,,3,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-08,12:00,BS,,24,1,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236609191831384064?s=20
-2020-03-08,14:30,ZH,,40,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-08,14:30,ZH,,40,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-09,,AR,,2,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/zweiter-coronafall-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=de7ec38198b5e60b6dce8fccc7735501
 2020-03-09,,BE,,34,,,,,,https://www.be.ch/portal/de/index/mediencenter/medienmitteilungen/suche.meldungNeu.html/portal/de/meldungen/mm/2020/03/20200309_1545_corona-9-3
 2020-03-09,,BL,,20,4,4,4,1,1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -204,7 +204,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-09,,VS,,17,17,1,1,2,0,https://www.vs.ch/de/web/coronavirus
 2020-03-09,08:00,ZG,,10,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-09,12:00,BS,,28,1,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236973685602426881?s=20
-2020-03-09,14:30,ZH,,49,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-09,14:30,ZH,,49,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-09,15:00,AG,,14,,,,2,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200309_KFS_Coronavirus_Lagebulletin_7.pdf
 2020-03-10,,BL,,22,5,1,1,2,1,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-10,,FL,37,1,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -219,7 +219,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-10,,VS,,22,20,1,1,2,0,https://www.vs.ch/de/web/coronavirus
 2020-03-10,08:00,ZG,,10,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-10,12:00,BS,,33,1,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1237336196772175873?s=20
-2020-03-10,14:30,ZH,,62,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-10,14:30,ZH,,62,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-10,15:00,AG,,17,,,,2,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200310_KFS_Coronavirus_Lagebulletin_8.pdf
 2020-03-11,,BL,,26,3,1,1,2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-11,,FL,50,3,,,,1,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -237,7 +237,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-11,,VS,,30,21,1,1,3,0,https://www.vs.ch/de/web/coronavirus
 2020-03-11,08:00,ZG,,11,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-11,12:00,BS,,49,13,2,,4,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-ende-der-quarantaenemassnahmen-im-fall-kita-riehen-gd.html
-2020-03-11,14:30,ZH,,101,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-11,14:30,ZH,,101,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-11,15:00,AG,,18,,,,2,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200311_KFS_Coronavirus_Lagebulletin_9.pdf
 2020-03-12,,AR,,5,,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-drei-neue-faelle-in-appenzell-ausserrhoden/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=272411484066c8fb971dcc838aa96ef9
 2020-03-12,,BL,,26,9,3,3,2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -258,7 +258,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-12,,VS,,53,28,1,1,3,0,https://www.vs.ch/de/web/coronavirus
 2020-03-12,08:00,ZG,,11,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-12,12:00,BS,,73,13,,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238073089902235648?s=20 https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-todesfall-im-kanton-basel-stadt-gd.html
-2020-03-12,14:30,ZH,,140,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-12,14:30,ZH,,140,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-12,15:00,AG,,27,1,,,3,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200312_KFS_Coronavirus_Lagebulletin_10.pdf
 2020-03-13,,BL,,42,12,3,3,2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-13,,FL,,5,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -279,7 +279,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-13,12:00,SZ,10,9,,,,,,https://www.sz.ch/public/upload/assets/45585/MM_Coronavirus_13_03_2020.pdf
 2020-03-13,12:30,BS,,92,13,,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238430659762364417?s=20
 2020-03-13,13:00,AG,,32,,,,3,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200313_KFS_Coronavirus_Lagebulletin_11.pdf
-2020-03-13,14:30,ZH,,163,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-13,14:30,ZH,,163,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-14,,AI,,2,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/aktuelles/erste-bestaetigte-coronavirus-faelle-auch-in-innerrhoden
 2020-03-14,,BL,,47,8,2,2,2,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-14,,FL,99,7,,,,1,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -297,7 +297,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-14,,VS,,98,34,1,1,6,1,https://www.vs.ch/de/web/coronavirus
 2020-03-14,08:00,ZG,,13,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-14,11:27,BS,,100,13,,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238773726423941127?s=20
-2020-03-14,14:30,ZH,,218,,,,,,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-14,14:30,ZH,,218,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-15,,BL,,54,12,2,2,5,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-15,,FL,,7,,,,1,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-03-15,,FR,,40,,,,,0,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -314,7 +314,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-15,,VD,,566,91,10,,,6,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-15,,VS,,115,36,1,1,6,2,https://www.vs.ch/de/web/coronavirus
 2020-03-15,08:00,ZG,,13,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
-2020-03-15,14:30,ZH,,250,,,,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-15,14:30,ZH,,250,,,,,1,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-16,,AI,,4,,,,,0,Kantonaler Führungsstab Appenzell Innerrhoden
 2020-03-16,,BE,,123,,,,,1,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-16,,BL,,76,17,4,4,5,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -333,7 +333,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-16,,VS,,172,42,2,1,8,3,https://www.vs.ch/de/web/coronavirus
 2020-03-16,08:00,ZG,,20,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-16,12:00,BS,,143,13,,,4,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-144-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-03-16,14:30,ZH,,326,,,,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-16,14:30,ZH,,326,,,,,1,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-16,15:00,AG,,52,2,,,4,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200316_KFS_Coronavirus_Lagebulletin_12.pdf
 2020-03-17,,AI,,5,,,,,0,Kantonaler Führungsstab Appenzell Innerrhoden
 2020-03-17,,BL,,89,26,5,5,13,2,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -353,7 +353,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-17,,VS,,225,47,2,2,11,3,https://www.vs.ch/de/web/coronavirus
 2020-03-17,08:00,ZG,,29,0,0,,1,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-17,12:00,BS,,164,30,,,25,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-165-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-03-17,14:30,ZH,,429,,,,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-17,14:30,ZH,,429,,,,,1,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-17,16:00,AG,,67,2,,,4,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200317_KFS_Coronavirus_Lagebulletin_13.pdf
 2020-03-18,,AR,,11,3,,,,,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-bevoelkerung-und-alle-spitaeler-machen-bei-der-gesundheitsversorgung-mit/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3d2a0733446b5fc7cdad0f48f61c28fd
 2020-03-18,,BE,,193,,,,,1,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
@@ -375,7 +375,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-18,,VS,,312,59,2,2,11,4,https://www.vs.ch/de/web/coronavirus
 2020-03-18,08:00,ZG,,33,0,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-18,11:15,BS,,181,40,,,36,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-182-bestaetigte-faelle-im-kanton-basel-stadt-treffen-mit-allen-spitaelern-gd.html
-2020-03-18,14:30,ZH,,568,,,,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-18,14:30,ZH,,568,,,,,2,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-18,16:00,AG,,101,6,,,4,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200318_KFS_Coronavirus_Lagebulletin_14.pdf
 2020-03-18,16:00,LU,,65,,,,,,https://web.archive.org/web/20200318191404/https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-19,,AI,,6,1,,,,0,Kantonaler Führungsstab Appenzell Innerrhoden
@@ -398,7 +398,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-19,,VS,,349,64,5,5,12,6,https://www.vs.ch/de/web/coronavirus
 2020-03-19,08:00,ZG,,37,1,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-19,11:00,BS,,220,40,,,44,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-222-bestaetigte-faelle-basel-stadt-trifft-gemeinsam-mit-den-spitaelern-vorkehrungen-fuer-intensiv--und-beatmungskapazitaeten-gd.html
-2020-03-19,14:30,ZH,,679,60,,12,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-19,14:30,ZH,,679,60,,12,,3,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-19,15:00,AG,,118,17,6,3,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200319_KFS_Coronavirus_Lagebulletin_15.pdf
 2020-03-20,,BE,,377,,,,,2,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-20,,BL,,184,27,2,2,18,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -420,7 +420,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-20,09:40,LU,,92,,,,,,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-20,10:00,BS,,270,45,,,46,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-272-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-20,12:00,UR,,7,,,,,,https://www.ur.ch/themen/2920
-2020-03-20,14:30,ZH,,711,78,,15,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-20,14:30,ZH,,711,78,,15,,4,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-20,15:00,AG,,168,25,4,2,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200320_KFS_Coronavirus_Lagebulletin_16.pdf
 2020-03-20,17:37,SO,,66,,,,,,https://twitter.com/KantonSolothurn/status/1241041303024041989?p=p
 2020-03-21,,AR,,,,,,,1,https://www.ar.ch/schnellzugriff/medienmitteilungen-der-kantonalen-verwaltung/detail/news/coronavirus-erster-todesfall-in-appenzell-ausserrhoden/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=a88f209df29c38474f9c5f9e1c5dd53f
@@ -443,7 +443,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-21,08:00,ZG,,53,3,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-21,10:00,BS,,297,46,,,57,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-299-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-21,11:00,LU,,109,,,,,1,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus;https://newsletter.lu.ch/inxmail/html_mail.jsp?params=7UGt4J1Fx6OIONHlV9upAAuOzkQ6ZmQA%2FxRrLjJkeDWZdweUdKfwhAE94i2Apium%2F6rIvcF2Z5MaTtV52A77W2jrwVmrkZ8UhFPVmHC4iuI%3D
-2020-03-21,14:30,ZH,,925,83,,23,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-21,14:30,ZH,,925,83,,23,,5,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-22,,BL,,289,40,7,7,21,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-22,,FL,,46,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-03-22,,FR,,202,32,8,,,3,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -462,7 +462,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-22,10:30,BS,,356,50,,,73,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-358-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-22,11:00,LU,,131,,,,,1,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-22,12:00,AG,,232,,,,,1,https://www.ag.ch/de/aktuelles/medienportal/medienmitteilung/medienmitteilungen/mediendetails_139237.jsp
-2020-03-22,14:30,ZH,,984,110,,22,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-22,14:30,ZH,,984,110,,22,,6,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-23,,BE,,470,,,,,5,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-23,,BL,,302,51,10,10,35,3,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-23,,FR,,226,35,7,,,4,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -485,7 +485,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-23,10:00,BS,,374,56,,,78,5,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-23,11:00,LU,,156,,,,,1,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-23,12:00,SO,,95,,,,,1,https://corona.so.ch/
-2020-03-23,14:30,ZH,,1073,127,,27,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-23,14:30,ZH,,1073,127,,27,,6,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-23,15:00,AG,,241,10,3,2,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200323_KFS_Coronavirus_Lagebulletin_17.pdf
 2020-03-23,18:00,FL,,51,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-03-24,,BE,,532,,,,,6,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
@@ -512,7 +512,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-24,10:00,AR,,33,6,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-24,11:00,LU,,205,,,,,2,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-24,12:00,UR,,25,1,,,1,,https://www.ur.ch/themen/2920
-2020-03-24,14:30,ZH,,1221,138,,26,,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-24,14:30,ZH,,1221,138,,26,,8,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-24,15:00,AG,,266,24,2,2,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200324_KFS_Coronavirus_Lagebulletin_18.pdf
 2020-03-24,17:00,AI,,8,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-03-25,,BE,,624,,,,,6,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
@@ -538,7 +538,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-25,08:00,ZG,,80,9,1,,18,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-25,10:00,BS,,462,58,,,128,8,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-466-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-25,11:00,LU,,228,,,,,2,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-25,14:30,ZH,,1368,146,,28,,10,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-25,14:30,ZH,,1368,146,,28,,10,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-25,15:00,AG,,319,16,5,5,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200325_KFS_Coronavirus_Lagebulletin_19.pdf
 2020-03-25,17:00,AI,,9,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-03-26,,BE,,660,,,,,7,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
@@ -564,7 +564,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-26,08:00,ZG,,87,10,1,,18,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-26,10:30,BS,,501,74,8,,155,12,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-505-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-26,11:00,LU,,253,,,,,3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-26,14:30,ZH,,1500,156,,35,,13,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-26,14:30,ZH,,1500,156,,35,,13,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-26,15:00,AG,,349,38,10,9,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200326_KFS_Coronavirus_Lagebulletin_20.pdf
 2020-03-26,16:00,AR,,42,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-26,18:00,AI,,11,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -592,7 +592,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-27,10:00,BS,,530,76,8,,191,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-534-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-27,11:00,LU,,287,,,,,3,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-27,13:00,AR,,44,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-03-27,14:30,ZH,,1627,171,,38,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-27,14:30,ZH,,1627,171,,38,,15,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-27,15:00,AG,,364,50,12,10,,3,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200327_KFS_Coronavirus_Lagebulletin_21.pdf
 2020-03-27,18:00,AI,,12,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-03-28,,BE,,767,,,,,9,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
@@ -618,7 +618,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-28,08:00,ZG,,101,12,5,,21,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-28,10:00,BS,,569,79,11,,211,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-573-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-28,11:00,LU,,317,,,,,4,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-28,14:30,ZH,,1701,187,,42,,19,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-28,14:30,ZH,,1701,187,,42,,19,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-28,18:00,AI,,13,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-03-29,,BE,,798,,,,,10,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2020-03-29,,BL,,511,99,15,14,115,6,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -643,7 +643,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-29,08:00,ZG,,101,12,5,,21,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-03-29,10:00,BS,,605,87,12,,228,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-609-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-29,11:00,LU,,339,,,,,5,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-03-29,14:30,ZH,,1733,194,,46,,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-29,14:30,ZH,,1733,194,,46,,22,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-30,,BL,,539,86,17,16,158,7,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-03-30,,FL,,64,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-03-30,,FR,,477,77,16,,,17,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -667,7 +667,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-30,10:00,BS,,617,90,12,,263,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-621-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-30,11:00,LU,,351,,,,,6,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-30,12:00,AI,,14,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-03-30,14:30,ZH,,1859,197,,46,,24,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-30,14:30,ZH,,1859,197,,46,,24,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-30,15:00,AG,,481,94,25,23,,8,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200330_KFS_Coronavirus_Lagebulletin_22.pdf
 2020-03-30,18:00,AR,,50,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-03-31,,BL,,561,88,18,16,242,10,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -694,7 +694,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-31,10:00,BS,,653,105,15,,292,16,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-628-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-03-31,11:00,LU,,375,,,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-03-31,12:00,AI,,14,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-03-31,14:30,ZH,,1947,196,,50,,27,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-03-31,14:30,ZH,,1947,196,,50,,27,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-03-31,15:00,AG,,499,85,25,25,,11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200331_KFS_Coronavirus_Lagebulletin_23.pdf
 2020-03-31,16:00,AR,,58,,,,,2,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-01,,BL,,588,86,17,17,249,11,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -720,7 +720,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-01,08:00,ZG,,125,13,5,,40,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-01,10:00,BS,,687,108,16,,323,18,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-01,11:00,LU,,401,57,12,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-01,14:30,ZH,,2136,203,,54,,36,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-01,14:30,ZH,,2136,203,,54,,36,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-01,15:00,AG,,549,94,27,27,,11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200401_KFS_Coronavirus_Lagebulletin_24.pdf
 2020-04-01,17:00,AR,,61,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-02,,BL,,610,81,18,18,262,12,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -747,7 +747,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,11:00,LU,,422,66,11,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-02,12:00,AR,,64,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-02,14:00,UR,,60,4,,,13,1,https://www.ur.ch/themen/2920
-2020-04-02,14:30,ZH,,2300,200,,53,,39,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-02,14:30,ZH,,2300,200,,53,,39,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-02,15:00,AG,,592,94,27,27,,12,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200402_KFS_Coronavirus_Lagebulletin_25.pdf
 2020-04-02,17:00,AI,,20,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-03,,BL,,625,82,18,18,266,14,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -775,7 +775,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-03,11:00,AI,,20,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-03,11:00,LU,,449,49,12,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-03,14:00,UR,,62,6,,,26,1,https://www.ur.ch/themen/2920
-2020-04-03,14:30,ZH,,2428,207,,57,,41,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-03,14:30,ZH,,2428,207,,57,,41,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-03,15:00,AG,,626,100,27,26,,12,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200403_KFS_Coronavirus_Lagebulletin_26.pdf
 2020-04-04,,BL,,656,73,19,17,298,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-04,,FL,,77,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -800,7 +800,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-04,11:00,AI,,21,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-04,11:00,LU,,469,49,12,,,7,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-04,13:00,AR,,66,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-04-04,14:30,ZH,,2461,194,,59,,48,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-04,14:30,ZH,,2461,194,,59,,48,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-04,17:00,UR,,66,6,,,26,1,https://www.ur.ch/themen/2920
 2020-04-05,,BL,,670,73,19,17,369,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-05,,FL,,77,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -824,7 +824,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-05,10:15,BS,,789,106,15,,460,26,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-794-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-05,11:00,LU,,478,49,12,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-05,13:00,AR,,67,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-04-05,14:30,ZH,,2491,194,,59,,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-05,14:30,ZH,,2491,194,,59,,52,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-05,17:00,UR,,67,5,,,26,2,https://www.ur.ch/themen/2920
 2020-04-06,,BL,,682,67,17,17,412,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-06,,FL,,77,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -850,7 +850,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-06,11:00,AI,,21,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-06,11:00,LU,,497,61,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-06,14:00,UR,,67,9,,,34,2,https://www.ur.ch/themen/2920
-2020-04-06,14:30,ZH,,2605,198,,58,,54,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-06,14:30,ZH,,2605,198,,58,,54,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-06,15:00,AG,,727,82,25,24,,13,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200406_KFS_Coronavirus_Lagebulletin_27.pdf
 2020-04-06,15:00,OW,,60,,,,1,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-07,,BL,,690,66,18,17,452,19,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -878,7 +878,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-07,11:00,LU,,509,57,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-07,14:00,UR,,68,7,,,42,2,https://www.ur.ch/themen/2920
 2020-04-07,14:30,OW,,60,2,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-04-07,14:30,ZH,,2688,181,,60,,56,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-07,14:30,ZH,,2688,181,,60,,56,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-07,14:45,AG,,760,84,25,25,170,16,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200407_KFS_Coronavirus_Lagebulletin_28.pdf
 2020-04-08,,BL,,694,65,18,17,461,21,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-08,,FL,,78,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -904,7 +904,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-08,11:00,AI,,23,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-08,11:00,LU,,527,,,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-08,14:00,UR,,72,5,,,42,4,https://www.ur.ch/themen/2962
-2020-04-08,14:30,ZH,,2782,170,,56,,64,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-08,14:30,ZH,,2782,170,,56,,64,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-08,14:45,AG,,788,79,23,23,220,16,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200408_KFS_Coronavirus_Lagebulletin_29.pdf
 2020-04-08,15:00,OW,,61,2,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-09,,BL,,711,62,18,16,485,21,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -931,7 +931,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-09,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-09,13:00,LU,,542,62,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-09,14:00,UR,,72,4,,,45,4,https://www.ur.ch/themen/2962
-2020-04-09,14:30,ZH,,2879,165,,55,,66,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-09,14:30,ZH,,2879,165,,55,,66,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-09,14:45,AG,,822,87,22,21,250,17,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200409_KFS_Coronavirus_Lagebulletin_30.pdf
 2020-04-09,15:00,OW,,62,1,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-10,,BL,,722,54,17,15,502,22,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -956,7 +956,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-10,10:00,BS,,854,87,13,,593,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-859-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-10,10:00,TG,,265,29,13,,25,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-10,13:00,LU,,560,69,6,,,9,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-10,14:30,ZH,,2919,152,,50,,71,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-10,14:30,ZH,,2919,152,,50,,71,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-10,14:45,AG,,850,,,,,18,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200411_KFS_Coronavirus_Lagebulletin_31.pdf
 2020-04-10,16:00,UR,,74,4,,,49,4,https://www.ur.ch/themen/2962
 2020-04-11,,BL,,736,50,16,15,527,22,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -982,7 +982,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-11,10:00,TG,,275,29,14,,25,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-11,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-11,11:00,LU,,568,,,,,10,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-11,14:30,ZH,,2977,149,,50,,77,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-11,14:30,ZH,,2977,149,,50,,77,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-11,16:00,UR,,75,8,,,50,4,https://www.ur.ch/themen/2962
 2020-04-11,17:00,AG,,878,76,23,21,300,18,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200411_KFS_Coronavirus_Lagebulletin_31.pdf
 2020-04-12,,BL,,740,48,17,14,554,23,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1006,7 +1006,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-12,10:00,BS,,877,86,12,,629,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-882-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-12,10:00,TG,,286,29,14,,25,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-12,11:00,LU,,576,60,5,,,10,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-12,14:30,ZH,,2994,153,,49,,79,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-12,14:30,ZH,,2994,153,,49,,79,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-12,14:45,AG,,899,,,,,18,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200414_KFS_Coronavirus_Lagebulletin_32.pdf
 2020-04-12,15:00,UR,,77,5,,,52,4,https://www.ur.ch/themen/2962
 2020-04-13,,BL,,749,48,16,12,570,24,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1033,7 +1033,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-13,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-13,11:00,LU,,580,40,5,,,10,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-13,14:00,UR,,78,4,,,52,4,https://www.ur.ch/themen/2962
-2020-04-13,14:30,ZH,,3011,154,,50,,83,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-13,14:30,ZH,,3011,154,,50,,83,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-13,14:45,AG,,906,,,,,19,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200414_KFS_Coronavirus_Lagebulletin_32.pdf
 2020-04-14,,BL,,755,48,14,8,597,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-14,,FL,,80,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1059,7 +1059,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-14,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-14,11:00,LU,,589,47,4,,,11,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-14,14:00,UR,,78,3,,,56,4,https://www.ur.ch/themen/2962
-2020-04-14,14:30,ZH,,3058,149,,52,,87,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-14,14:30,ZH,,3058,149,,52,,87,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-14,14:45,AG,,912,78,22,22,400,19,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200414_KFS_Coronavirus_Lagebulletin_32.pdf
 2020-04-14,15:45,OW,,64,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-15,,BL,,768,45,9,7,610,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1085,7 +1085,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-15,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-15,11:00,LU,,596,46,4,,,12,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-15,12:00,TG,,303,25,14,,35,11,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-04-15,14:30,ZH,,3105,136,,50,,91,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-15,14:30,ZH,,3105,136,,50,,91,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-15,14:45,AG,,929,69,20,20,450,22,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200415_KFS_Coronavirus_Lagebulletin_33.pdf
 2020-04-15,15:25,OW,,64,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-15,16:00,UR,,78,3,,,62,4,https://www.ur.ch/themen/2962
@@ -1112,7 +1112,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-16,10:30,TG,,309,24,14,,38,11,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-16,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-16,12:30,LU,,599,40,3,,,13,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
-2020-04-16,14:30,ZH,,3140,135,,51,,95,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-16,14:30,ZH,,3140,135,,51,,95,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-16,14:45,AG,,943,61,20,20,500,23,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200416_KFS_Coronavirus_Lagebulletin_34.pdf
 2020-04-16,15:00,UR,,78,2,,,62,5,https://www.ur.ch/themen/2962
 2020-04-16,15:30,OW,,65,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
@@ -1140,7 +1140,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-17,12:00,AR,,82,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-17,13:00,GL,,108,4,,,,3,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-17,14:00,UR,,78,2,,,66,5,https://www.ur.ch/themen/2962
-2020-04-17,14:30,ZH,,3163,123,,45,,100,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-17,14:30,ZH,,3163,123,,45,,100,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-17,14:45,AG,,960,58,20,20,540,24,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200417_KFS_Coronavirus_Lagebulletin_35.pdf
 2020-04-17,16:00,OW,,66,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-18,,BL,,798,44,7,5,636,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1164,7 +1164,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-18,10:30,TG,,333,18,12,,43,13,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-18,12:30,LU,,623,26,4,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-18,13:00,GL,,111,4,,,,3,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-18,14:30,ZH,,3202,114,,44,,105,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-18,14:30,ZH,,3202,114,,44,,105,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-18,14:45,AG,,987,,,,,25,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200420_KFS_Coronavirus_Lagebulletin_36.pdf
 2020-04-18,15:00,UR,,78,2,,,69,5,https://www.ur.ch/themen/2962
 2020-04-19,,BL,,803,40,7,5,653,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1190,7 +1190,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-19,11:00,LU,,626,26,4,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-19,13:00,GL,,111,4,,,,3,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-19,13:00,UR,,78,2,,,69,5,https://www.ur.ch/themen/2962
-2020-04-19,14:30,ZH,,3229,116,,43,,105,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-19,14:30,ZH,,3229,116,,43,,105,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-19,14:45,AG,,1003,,,,,25,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200420_KFS_Coronavirus_Lagebulletin_36.pdf
 2020-04-20,,BL,,806,40,6,3,664,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-20,,FL,,81,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1216,7 +1216,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-20,13:00,AR,,86,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-20,13:00,GL,,114,5,,,,5,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-20,14:00,UR,,78,2,,,69,5,https://www.ur.ch/themen/2962
-2020-04-20,14:30,ZH,,3245,121,,43,,107,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-20,14:30,ZH,,3245,121,,43,,107,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-20,14:45,AG,,1012,45,16,16,640,28,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200420_KFS_Coronavirus_Lagebulletin_36.pdf
 2020-04-20,15:00,OW,,67,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-21,,BL,,809,33,3,3,679,26,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1243,7 +1243,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-21,12:00,LU,,643,35,5,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-21,13:00,AR,,86,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-21,13:30,GL,,115,3,,,,6,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-21,14:30,ZH,,3270,110,,41,,109,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-21,14:30,ZH,,3270,110,,41,,109,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-21,14:45,AG,,1017,43,18,18,680,29,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200421_KFS_Coronavirus_Lagebulletin_37.pdf
 2020-04-21,17:00,UR,,78,2,,,69,5,https://www.ur.ch/themen/2962
 2020-04-22,,BL,,811,33,3,3,683,26,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1268,7 +1268,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-22,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-22,11:00,LU,,648,,,,,15,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-22,13:30,GL,,117,3,,,,6,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-22,14:30,ZH,,3310,110,,44,,110,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-22,14:30,ZH,,3310,110,,44,,110,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-22,14:45,AG,,1026,37,15,15,710,31,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200422_KFS_Coronavirus_Lagebulletin_38.pdf
 2020-04-22,15:00,UR,,78,3,,,69,5,https://www.ur.ch/themen/2962
 2020-04-22,16:00,OW,,67,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
@@ -1297,7 +1297,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-23,13:00,OW,,68,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-23,13:30,GL,,117,3,,,,6,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-23,14:00,AR,,88,5,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-04-23,14:30,ZH,,3327,96,,44,,113,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-23,14:30,ZH,,3327,96,,44,,113,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-23,14:45,AG,,1037,35,14,14,750,31,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200423_KFS_Coronavirus_Lagebulletin_39.pdf
 2020-04-23,15:00,UR,,78,4,,,69,5,https://www.ur.ch/themen/2962
 2020-04-24,,BL,,813,24,2,1,698,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1324,7 +1324,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-24,11:00,LU,,660,,,,,16,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-24,13:00,GL,,117,3,,,,7,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-24,14:00,UR,,78,3,,,69,5,https://www.ur.ch/themen/2962
-2020-04-24,14:30,ZH,,3356,83,,42,,114,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-24,14:30,ZH,,3356,83,,42,,114,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-24,14:45,AG,,1052,40,14,14,780,31,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200424_KFS_Coronavirus_Lagebulletin_40.pdf
 2020-04-24,17:00,OW,,71,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-25,,BL,,816,23,1,0,710,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1350,7 +1350,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-25,12:00,LU,,667,32,8,,,16,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-25,12:00,UR,,78,3,,,69,5,https://www.ur.ch/themen/2962
 2020-04-25,13:00,GL,,120,3,,,,7,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-25,14:30,ZH,,3387,77,,38,,115,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-25,14:30,ZH,,3387,77,,38,,115,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-26,,BL,,816,21,0,0,724,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-26,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-04-26,,FR,,1033,54,5,,120,77,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -1373,7 +1373,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-26,12:00,LU,,670,26,7,,,16,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-26,12:00,UR,,80,3,,,69,5,https://www.ur.ch/themen/2962
 2020-04-26,13:00,GL,,120,3,,,,7,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-26,14:30,ZH,,3390,75,,26,,115,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-26,14:30,ZH,,3390,75,,26,,115,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-27,,BL,,816,17,1,0,738,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-04-27,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-04-27,,FR,,1040,55,5,,120,78,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -1398,7 +1398,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-27,12:00,LU,,674,32,7,,,16,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-04-27,13:30,GL,,121,3,,,,7,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-27,14:00,UR,,83,4,,,69,5,https://www.ur.ch/themen/2962
-2020-04-27,14:30,ZH,,3408,73,,24,,119,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-27,14:30,ZH,,3408,73,,24,,119,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-27,14:45,AG,,1088,42,15,14,830,33,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200427_KFS_Coronavirus_Lagebulletin_41.pdf
 2020-04-27,15:30,OW,,75,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-28,,BL,,818,15,1,0,747,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1425,7 +1425,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-28,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-28,12:00,UR,,85,5,,,71,5,https://www.ur.ch/themen/2962
 2020-04-28,13:30,GL,,121,3,,,,8,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-04-28,14:30,ZH,,3423,84,,19,,119,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-28,14:30,ZH,,3423,84,,19,,119,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-28,14:45,AG,,1093,39,12,11,840,33,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200428_KFS_Coronavirus_Lagebulletin_42.pdf
 2020-04-28,15:15,OW,,78,1,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-29,,BL,,822,12,1,1,752,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1452,7 +1452,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-29,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-29,13:30,GL,,122,3,,,,9,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-29,14:00,UR,,85,5,,,71,5,https://www.ur.ch/themen/2962
-2020-04-29,14:30,ZH,,3452,82,,19,,121,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-29,14:30,ZH,,3452,82,,19,,121,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-29,14:45,AG,,1099,38,10,9,850,33,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200429_KFS_Coronavirus_Lagebulletin_43.pdf
 2020-04-29,15:15,OW,,78,2,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-30,,BL,,824,9,1,1,756,30,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1478,7 +1478,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-30,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-30,13:00,GL,,122,2,,,,10,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-04-30,13:30,AR,,95,2,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-04-30,14:30,ZH,,3463,61,,15,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-04-30,14:30,ZH,,3463,61,,15,,123,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-30,14:45,AG,,1108,33,9,8,870,33,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200430_KFS_Coronavirus_Lagebulletin_44.pdf
 2020-04-30,16:00,OW,,78,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-04-30,16:00,UR,,86,4,,,71,5,https://www.ur.ch/themen/2962
@@ -1505,7 +1505,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-01,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-01,12:30,AR,,96,6,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-05-01,13:00,GL,,122,2,,,,11,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-01,14:30,ZH,,3476,43,,14,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-01,14:30,ZH,,3476,43,,14,,123,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-01,14:45,AG,,1112,34,11,8,890,34,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200501_KFS_Coronavirus_Lagebulletin_45.pdf
 2020-05-01,15:00,OW,,78,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-01,15:30,UR,,87,3,,,72,6,https://www.ur.ch/themen/2962
@@ -1531,7 +1531,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-02,10:00,TG,,368,9,5,,57,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-02,12:30,AR,,96,3,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-05-02,13:00,GL,,122,2,,,,11,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-02,14:30,ZH,,3479,41,,13,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-02,14:30,ZH,,3479,41,,13,,123,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-02,15:00,UR,,89,0,,,72,6,https://www.ur.ch/themen/2962
 2020-05-03,,AG,,1129,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200504_KFS_Coronavirus_Lagebulletin_46.pdf
 2020-05-03,,BL,,828,10,1,1,767,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1556,7 +1556,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-03,13:00,GL,,122,2,,,,11,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-03,13:00,UR,,90,0,,,72,6,https://www.ur.ch/themen/2962
 2020-05-03,13:30,AR,,97,3,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-05-03,14:30,ZH,,3483,42,,12,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-03,14:30,ZH,,3483,42,,12,,123,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-04,,BL,,828,9,1,1,769,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-04,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-05-04,,FR,,1102,36,4,,130,79,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -1581,7 +1581,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-04,10:00,TG,,372,9,5,,57,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-04,13:00,GL,,122,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-04,14:00,UR,,91,2,,,72,6,https://www.ur.ch/themen/2962
-2020-05-04,14:30,ZH,,3485,43,,11,,123,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-04,14:30,ZH,,3485,43,,11,,123,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-04,14:45,AG,,1133,38,5,4,940,36,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200508_KFS_Coronavirus_Lagebulletin_50.pdf
 2020-05-04,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-05,,BL,,829,8,1,1,773,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1607,7 +1607,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-05,10:00,TG,,373,11,6,,57,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-05,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-05,13:30,GL,,122,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-05,14:30,ZH,,3501,54,,9,,124,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-05,14:30,ZH,,3501,54,,9,,124,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-05,14:45,AG,,1135,23,5,4,940,36,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200508_KFS_Coronavirus_Lagebulletin_50.pdf
 2020-05-05,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-05,15:30,UR,,91,2,,,74,7,https://www.ur.ch/themen/2962
@@ -1635,7 +1635,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-06,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-06,13:00,GL,,125,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-06,14:00,UR,,91,3,,,74,7,https://www.ur.ch/themen/2962
-2020-05-06,14:30,ZH,,3516,53,,7,,125,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-06,14:30,ZH,,3516,53,,7,,125,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-06,14:45,AG,,1141,24,5,5,960,36,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200508_KFS_Coronavirus_Lagebulletin_50.pdf
 2020-05-06,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-07,,BL,,833,6,1,1,775,33,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1662,7 +1662,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-07,13:00,GL,,125,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-07,13:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-07,13:00,UR,,92,2,,,75,7,https://www.ur.ch/themen/2962
-2020-05-07,14:30,ZH,,3526,50,,7,,125,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-07,14:30,ZH,,3526,50,,7,,125,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-07,14:45,AG,,1145,19,4,4,970,37,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200508_KFS_Coronavirus_Lagebulletin_50.pdf
 2020-05-08,,BL,,834,5,1,1,778,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-08,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1687,7 +1687,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-08,10:00,TG,,374,9,5,,59,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-08,13:30,GL,,125,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-08,14:00,UR,,92,3,,,75,7,https://www.ur.ch/themen/2962
-2020-05-08,14:30,ZH,,3536,47,,5,,125,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-08,14:30,ZH,,3536,47,,5,,125,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-08,14:45,AG,,1149,16,3,3,990,37,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200508_KFS_Coronavirus_Lagebulletin_50.pdf
 2020-05-08,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-09,,AG,,1153,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200511_KFS_Coronavirus_Lagebulletin_51.pdf
@@ -1712,7 +1712,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-09,10:00,TG,,376,8,5,,60,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-09,13:00,GL,,126,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-09,14:00,UR,,92,3,,,75,7,https://www.ur.ch/themen/2962
-2020-05-09,14:30,ZH,,3541,37,,5,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-09,14:30,ZH,,3541,37,,5,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-10,,AG,,1156,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200511_KFS_Coronavirus_Lagebulletin_51.pdf
 2020-05-10,,BL,,836,2,1,1,785,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-10,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1733,7 +1733,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-10,10:00,TG,,376,8,5,,60,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-10,13:00,GL,,126,3,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-10,14:00,UR,,92,3,,,75,7,https://www.ur.ch/themen/2962
-2020-05-10,14:30,ZH,,3544,40,,5,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-10,14:30,ZH,,3544,40,,5,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-11,,BL,,836,3,1,1,785,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-11,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-05-11,,FR,,1129,26,5,,137,83,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -1758,7 +1758,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-11,13:00,GL,,127,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-11,14:00,UR,,92,1,,,75,7,https://www.ur.ch/themen/2962
 2020-05-11,14:30,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-11,14:30,ZH,,3549,44,,5,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-11,14:30,ZH,,3549,44,,5,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-11,14:45,AG,,1163,14,2,2,1030,38,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200515_KFS_Coronavirus_Lagebulletin_55_aussordentliche_Ergaenzung.pdf
 2020-05-11,17:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-12,,BL,,837,3,1,1,789,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1784,7 +1784,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-12,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-12,12:00,AR,,98,5,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-05-12,13:30,GL,,127,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-12,14:30,ZH,,3551,44,,7,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-12,14:30,ZH,,3551,44,,7,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-12,14:45,AG,,1167,9,2,2,1040,42,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200515_KFS_Coronavirus_Lagebulletin_55_aussordentliche_Ergaenzung.pdf
 2020-05-12,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-12,16:30,UR,,92,3,,,75,7,https://www.ur.ch/themen/2962
@@ -1809,7 +1809,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-13,10:00,SZ,,306,,,,277,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-05-13,10:00,TG,,376,7,4,,62,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-13,12:00,GL,,127,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-13,14:30,ZH,,3557,38,,8,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-13,14:30,ZH,,3557,38,,8,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-13,14:45,AG,,1169,8,1,1,1045,42,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200515_KFS_Coronavirus_Lagebulletin_55_aussordentliche_Ergaenzung.pdf
 2020-05-13,15:00,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-13,15:15,UR,,92,3,,,78,7,https://www.ur.ch/themen/2962
@@ -1836,7 +1836,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-14,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-14,13:30,GL,,128,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-14,14:15,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-14,14:30,ZH,,3562,36,,7,,126,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-14,14:30,ZH,,3562,36,,7,,126,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-14,14:45,AG,,1174,10,1,1,1060,43,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200515_KFS_Coronavirus_Lagebulletin_55_aussordentliche_Ergaenzung.pdf
 2020-05-14,16:15,UR,,92,3,,,78,7,https://www.ur.ch/themen/2962
 2020-05-15,,BL,,837,1,0,0,791,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1862,7 +1862,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-15,11:00,AR,,99,4,1,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-05-15,12:30,GL,,128,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-15,14:30,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-15,14:30,ZH,,3564,33,,7,,127,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-15,14:30,ZH,,3564,33,,7,,127,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-15,17:45,AG,,1177,12,1,1,1060,43,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200515_KFS_Coronavirus_Lagebulletin_55_aussordentliche_Ergaenzung.pdf
 2020-05-16,,BL,,838,1,1,0,791,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-16,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1884,7 +1884,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-16,10:00,TG,,379,7,4,,62,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-16,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-16,14:00,UR,,93,4,,,79,7,https://www.ur.ch/themen/2962
-2020-05-16,14:30,ZH,,3569,32,,8,,127,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-16,14:30,ZH,,3569,32,,8,,127,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-17,,BL,,838,3,1,0,795,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-17,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-05-17,,FR,,1147,17,4,,144,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -1903,7 +1903,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-17,08:00,ZG,,199,0,0,,168,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-05-17,08:30,BS,,974,11,3,,904,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-974-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-05-17,10:00,TG,,379,7,4,,62,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-05-17,14:30,ZH,,3571,33,,8,,127,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-17,14:30,ZH,,3571,33,,8,,127,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-17,15:30,UR,,93,5,,,79,7,https://www.ur.ch/themen/2962
 2020-05-18,,BL,,838,3,0,0,795,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-18,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -1928,7 +1928,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-18,10:00,TG,,379,6,4,,63,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-18,13:00,GL,,128,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-18,14:30,OW,,79,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-18,14:30,ZH,,3575,33,,8,,127,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-18,14:30,ZH,,3575,33,,8,,127,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-18,14:45,AG,,1185,7,1,1,1075,44,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200525_KFS_Coronavirus_Lagebulletin_59.pdf
 2020-05-18,15:30,UR,,93,5,,,79,7,https://www.ur.ch/themen/2962
 2020-05-19,,BL,,838,3,0,0,797,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1952,7 +1952,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-19,10:00,SZ,,307,,,,281,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-05-19,10:00,TG,,379,6,4,,63,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-19,12:00,GL,,128,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-19,14:30,ZH,,3579,30,,6,,128,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-19,14:30,ZH,,3579,30,,6,,128,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-19,14:45,AG,,1187,10,4,2,1085,44,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200525_KFS_Coronavirus_Lagebulletin_59.pdf
 2020-05-19,15:00,UR,,93,3,,,79,7,https://www.ur.ch/themen/2962
 2020-05-19,15:30,OW,,80,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
@@ -1979,7 +1979,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-20,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-20,12:00,GL,,128,2,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-20,14:00,AR,,99,1,1,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-05-20,14:30,ZH,,3582,29,,4,,128,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-20,14:30,ZH,,3582,29,,4,,128,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-20,14:45,AG,,1194,11,2,2,1090,44,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200525_KFS_Coronavirus_Lagebulletin_59.pdf
 2020-05-20,15:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-20,15:30,UR,,93,0,,,82,7,https://www.ur.ch/themen/2962
@@ -2003,7 +2003,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-21,10:00,SZ,,307,,,,283,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-05-21,10:00,TG,,379,6,4,,63,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-21,12:00,GL,,128,1,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-21,14:30,ZH,,3583,25,,3,,129,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-21,14:30,ZH,,3583,25,,3,,129,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-21,17:30,UR,,93,0,,,82,7,https://www.ur.ch/themen/2962
 2020-05-22,,AG,,1195,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200525_KFS_Coronavirus_Lagebulletin_59.pdf
 2020-05-22,,BL,,838,2,0,0,799,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2026,7 +2026,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-22,10:00,TG,,379,6,4,,63,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-22,12:00,GL,,128,1,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-22,14:00,AR,,99,1,1,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-05-22,14:30,ZH,,3585,31,,4,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-22,14:30,ZH,,3585,31,,4,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-22,17:30,UR,,93,0,,,84,7,https://www.ur.ch/themen/2962
 2020-05-23,,BL,,838,2,0,0,800,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-23,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2045,7 +2045,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-23,08:00,ZG,,201,0,0,,174,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-05-23,09:00,BS,,976,6,3,,916,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-976-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html
 2020-05-23,10:00,TG,,380,6,3,,63,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-05-23,14:30,ZH,,3587,26,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-23,14:30,ZH,,3587,26,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-23,17:30,UR,,93,1,,,84,7,https://www.ur.ch/themen/2962
 2020-05-24,,BL,,838,2,0,0,801,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-24,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2065,7 +2065,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-24,09:00,BS,,976,5,2,,916,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-976-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html
 2020-05-24,10:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-24,10:00,TG,,380,5,2,,64,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-05-24,14:30,ZH,,3588,28,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-24,14:30,ZH,,3588,28,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-24,17:30,UR,,93,1,,,84,7,https://www.ur.ch/themen/2962
 2020-05-25,,BL,,838,2,0,0,801,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-25,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2089,7 +2089,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-25,10:00,TG,,380,5,2,,64,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-25,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-25,12:30,GL,,128,1,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-25,14:30,ZH,,3590,23,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-25,14:30,ZH,,3590,23,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-25,14:45,AG,,1198,6,1,1,1110,45,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200528_KFS_Coronavirus_Lagebulletin_60.pdf
 2020-05-25,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-25,17:00,UR,,93,1,,,84,7,https://www.ur.ch/themen/2962
@@ -2116,7 +2116,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-26,10:00,SZ,,307,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-05-26,10:00,TG,,380,5,2,,64,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-26,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-05-26,14:30,ZH,,3596,19,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-26,14:30,ZH,,3596,19,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-26,16:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-05-26,20:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
 2020-05-27,,AG,,1201,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200528_KFS_Coronavirus_Lagebulletin_60.pdf
@@ -2144,7 +2144,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-27,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-05-27,13:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-27,14:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-27,14:30,ZH,,3599,18,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-27,14:30,ZH,,3599,18,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-27,17:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
 2020-05-28,,BL,,840,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-28,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2170,7 +2170,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-28,14:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-28,14:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
 2020-05-28,14:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-28,14:30,ZH,,3604,20,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-28,14:30,ZH,,3604,20,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-28,14:45,AG,,1201,6,1,1,1120,46,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200528_KFS_Coronavirus_Lagebulletin_60.pdf
 2020-05-29,,BL,,840,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-29,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2197,7 +2197,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-29,13:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-05-29,14:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
 2020-05-29,14:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-05-29,14:30,ZH,,3610,15,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-29,14:30,ZH,,3610,15,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-30,,BL,,841,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-30,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-05-30,,FR,,1159,5,3,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2216,7 +2216,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-30,10:00,BS,,978,5,3,,923,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-978-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-05-30,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-30,14:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
-2020-05-30,14:30,ZH,,3616,12,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-30,14:30,ZH,,3616,12,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-31,,BL,,842,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-05-31,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-05-31,,FR,,1159,5,3,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2235,7 +2235,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-31,10:00,BS,,978,5,3,,923,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-978-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-05-31,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-31,14:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
-2020-05-31,14:30,ZH,,3616,11,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-05-31,14:30,ZH,,3616,11,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-01,,AG,,1210,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200604_KFS_Coronavirus_Lagebulletin_62.pdf
 2020-06-01,,BL,,843,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-01,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2255,7 +2255,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-01,10:00,SZ,,307,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-01,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-01,11:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
-2020-06-01,14:30,ZH,,3616,11,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-01,14:30,ZH,,3616,11,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-02,,BL,,843,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-02,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-02,,FR,,1161,5,3,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2277,7 +2277,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-02,10:30,AR,,100,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-06-02,12:00,GE,36769,5341,8,1,0,807,294,https://www.ge.ch/document/20094/annexe/0
 2020-06-02,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-02,14:30,ZH,,3618,11,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-02,14:30,ZH,,3618,11,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-02,14:45,AG,,1213,4,1,1,1140,46,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200604_KFS_Coronavirus_Lagebulletin_62.pdf
 2020-06-02,15:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-02,17:00,UR,,93,0,,,86,7,https://www.ur.ch/themen/2962
@@ -2305,7 +2305,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-03,10:30,BS,,979,6,3,,923,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-979-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-06-03,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-06-03,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-03,14:30,ZH,,3621,9,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-03,14:30,ZH,,3621,9,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-03,16:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-04,,BL,,844,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-04,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2329,7 +2329,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-04,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-04,12:30,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-04,13:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-06-04,14:30,ZH,,3629,9,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-04,14:30,ZH,,3629,9,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-04,14:45,AG,,1216,3,2,2,1145,46,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200604_KFS_Coronavirus_Lagebulletin_62.pdf
 2020-06-05,,BL,,845,0,0,0,802,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-05,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2354,7 +2354,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-05,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-05,12:30,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-05,14:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-06-05,14:30,ZH,,3635,8,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-05,14:30,ZH,,3635,8,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-06,,BL,,845,0,0,0,803,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-06,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-06,,FR,,1166,5,2,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2372,7 +2372,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-06,10:00,BS,,982,5,3,,926,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-982-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-06-06,10:00,SZ,,307,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-06,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-06,14:30,ZH,,3639,7,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-06,14:30,ZH,,3639,7,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-07,,BL,,845,0,0,0,804,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-07,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-07,,FR,,1168,5,2,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2391,7 +2391,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-07,10:00,BS,,982,4,3,,926,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-982-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-06-07,10:00,SZ,,307,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-07,10:00,TG,,383,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-07,14:30,ZH,,3639,7,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-07,14:30,ZH,,3639,7,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-08,,BL,,845,0,0,0,804,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-08,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-08,,FR,,1172,5,2,,150,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2415,7 +2415,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-08,11:30,AR,,100,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-06-08,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-08,14:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-06-08,14:30,ZH,,3639,7,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-08,14:30,ZH,,3639,7,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-08,14:45,AG,,1218,4,1,1,1150,46,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200611_KFS_Coronavirus_Lagebulletin_64.pdf
 2020-06-09,,AG,,1220,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200611_KFS_Coronavirus_Lagebulletin_64.pdf
 2020-06-09,,BL,,845,0,0,0,805,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2439,7 +2439,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-09,10:00,SZ,,307,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-09,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-09,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-09,14:30,ZH,,3639,6,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-09,14:30,ZH,,3639,6,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-09,15:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-10,,AG,,1220,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200611_KFS_Coronavirus_Lagebulletin_64.pdf
 2020-06-10,,BL,,846,0,0,0,806,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2463,7 +2463,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-10,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-10,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-06-10,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-10,14:30,ZH,,3642,7,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-10,14:30,ZH,,3642,7,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-10,16:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-11,,BL,,846,0,0,0,807,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-11,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2483,7 +2483,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-11,09:30,SH,,79,1,0,,,7,https://sh.ch/CMS/get/file/81d4de9f-f56d-4274-8c40-6e788423791a
 2020-06-11,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-11,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-11,14:30,ZH,,3644,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-11,14:30,ZH,,3644,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-11,14:45,AG,,1222,2,1,1,1155,46,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200611_KFS_Coronavirus_Lagebulletin_64.pdf
 2020-06-11,15:30,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-12,,BL,,846,0,0,0,807,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2506,7 +2506,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-12,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-12,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-06-12,12:30,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-12,14:30,ZH,,3646,9,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-12,14:30,ZH,,3646,9,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-13,,AG,,1226,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200618_KFS_Coronavirus_Lagebulletin_65.pdf
 2020-06-13,,BL,,846,0,0,0,808,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-13,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2525,7 +2525,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-13,09:30,BS,,983,3,2,,931,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-06-13,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-13,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-13,14:30,ZH,,3649,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-13,14:30,ZH,,3649,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-14,,AG,,1227,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200618_KFS_Coronavirus_Lagebulletin_65.pdf
 2020-06-14,,BL,,846,0,0,0,808,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-14,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2546,7 +2546,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-14,09:30,BS,,983,3,2,,932,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-06-14,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-14,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-14,14:30,ZH,,3654,9,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-14,14:30,ZH,,3654,9,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-15,,AG,,1229,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200618_KFS_Coronavirus_Lagebulletin_65.pdf
 2020-06-15,,BL,,846,0,0,0,809,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-15,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2569,7 +2569,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-15,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-15,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-15,14:00,AR,,100,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-06-15,14:30,ZH,,3661,9,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-15,14:30,ZH,,3661,9,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-15,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-16,,AG,,1230,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200618_KFS_Coronavirus_Lagebulletin_65.pdf
 2020-06-16,,BL,,847,0,0,0,809,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2593,7 +2593,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-16,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-16,10:00,TG,,384,1,0,,68,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-16,12:00,GL,,128,0,,,,12,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-16,14:30,ZH,,3668,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-16,14:30,ZH,,3668,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-16,17:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-17,,AG,,1231,,,,,,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/lagebulletins/200618_KFS_Coronavirus_Lagebulletin_65.pdf
 2020-06-17,,BL,,847,0,0,0,809,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2618,7 +2618,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-17,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-17,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-17,12:00,GL,,128,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-17,14:30,ZH,,3678,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-17,14:30,ZH,,3678,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-17,15:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-18,,BL,,847,0,0,0,809,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-18,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2641,7 +2641,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-18,10:00,SZ,,308,,,,284,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-18,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-18,11:30,GL,,128,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-18,14:30,ZH,,3683,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-18,14:30,ZH,,3683,10,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-18,15:30,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-19,,BL,,847,0,0,0,810,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-19,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2666,7 +2666,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-19,10:00,SZ,,309,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-19,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-19,13:00,GL,,128,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-19,14:30,ZH,,3684,9,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-19,14:30,ZH,,3684,9,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-19,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-20,,BL,,848,0,0,0,810,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-20,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2686,7 +2686,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-20,09:30,SH,,,,,,,,https://sh.ch/CMS/get/file/81d4de9f-f56d-4274-8c40-6e788423791a
 2020-06-20,10:00,SZ,,309,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-20,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-20,14:30,ZH,,3691,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-20,14:30,ZH,,3691,10,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-21,,BL,,849,0,0,0,810,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-21,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-21,,FR,,1191,3,0,,151,84,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2705,7 +2705,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-21,09:30,SH,,,,,,,,https://sh.ch/CMS/get/file/81d4de9f-f56d-4274-8c40-6e788423791a
 2020-06-21,10:00,SZ,,309,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-21,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-21,14:30,ZH,,3696,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-21,14:30,ZH,,3696,10,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-22,,BL,,849,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-22,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-22,,FR,,1191,3,0,,151,,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2730,7 +2730,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-22,10:00,TG,,385,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-22,12:00,GL,,128,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-22,14:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-06-22,14:30,ZH,,3699,11,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-22,14:30,ZH,,3699,11,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-23,,BL,,849,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-23,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-23,,FR,,1195,2,0,,152,85,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2755,7 +2755,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-23,10:00,TG,,386,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-23,11:30,GL,,128,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-23,14:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
-2020-06-23,14:30,ZH,,3703,10,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-23,14:30,ZH,,3703,10,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-24,,BL,,851,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-24,,FL,,82,,,,,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-24,,FR,,1203,2,0,,152,85,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2779,7 +2779,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-24,10:00,SZ,,316,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-24,10:00,TG,,387,0,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-24,11:30,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-24,14:30,ZH,,3719,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-24,14:30,ZH,,3719,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-24,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-25,,BL,,852,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-25,,FL,,82,,,,81,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2804,7 +2804,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-25,10:00,TG,,389,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-25,11:30,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-25,13:30,AR,,101,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-06-25,14:30,ZH,,3726,7,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-25,14:30,ZH,,3726,7,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-25,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-26,,BL,,854,0,0,0,811,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-26,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2831,7 +2831,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-26,10:00,TG,,391,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-26,11:30,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-06-26,11:30,UR,,94,0,,,86,7,https://www.ur.ch/themen/2962
-2020-06-26,14:30,ZH,,3745,7,,1,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-26,14:30,ZH,,3745,7,,1,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-26,15:00,OW,,82,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-27,,BL,,856,0,0,0,812,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-27,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2851,7 +2851,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-27,09:20,BS,,985,1,1,,934,50,https://www.gesundheit.bs.ch
 2020-06-27,10:00,SZ,,323,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-27,10:00,TG,,393,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-06-27,14:30,ZH,,3757,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-27,14:30,ZH,,3757,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-28,,BL,,858,0,0,0,812,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-28,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-28,,FR,,1220,,,,152,85,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2870,7 +2870,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-28,10:00,SZ,,323,,,,285,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-28,10:00,TG,,393,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-28,13:00,BS,,985,1,1,,934,50,https://www.gesundheit.bs.ch
-2020-06-28,14:30,ZH,,3768,8,,0,,130,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-28,14:30,ZH,,3768,8,,0,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-29,,BL,,859,0,0,0,812,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-29,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-06-29,,FR,,1220,4,0,,152,85,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -2895,7 +2895,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-29,10:00,SZ,,328,,,,286,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-29,10:00,TG,,394,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-29,12:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-29,14:30,ZH,,3777,10,,1,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-29,14:30,ZH,,3777,10,,1,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-29,16:00,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-06-30,,BL,,859,0,0,0,812,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-06-30,,FL,,82,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -2920,7 +2920,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-06-30,10:00,SZ,,328,,,,288,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-06-30,10:00,TG,,395,2,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-06-30,13:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-06-30,14:30,ZH,,3805,12,,0,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-06-30,14:30,ZH,,3805,12,,0,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-06-30,15:00,UR,,97,0,,,86,7,https://www.ur.ch/themen/2962
 2020-06-30,16:00,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-01,,BL,,860,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2947,7 +2947,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-01,10:00,SZ,,332,,,,290,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-01,10:00,TG,,398,3,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-01,12:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-07-01,14:30,ZH,,3853,13,,0,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-01,14:30,ZH,,3853,13,,0,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-01,16:00,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-01,17:00,UR,,103,0,,,86,7,https://www.ur.ch/themen/2962
 2020-07-02,,BL,,861,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2973,7 +2973,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-02,10:00,TG,,402,3,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-02,12:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-07-02,13:30,AR,,104,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
-2020-07-02,14:30,ZH,,3910,10,,0,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-02,14:30,ZH,,3910,10,,0,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-02,16:00,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-02,16:30,UR,,104,0,,,86,7,https://www.ur.ch/themen/2962
 2020-07-03,,BL,,865,0,0,0,813,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -2999,7 +2999,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-03,10:00,SZ,,339,,,,293,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-03,10:00,TG,,402,3,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-03,13:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-07-03,14:30,ZH,,3933,8,,0,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-03,14:30,ZH,,3933,8,,0,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-03,16:45,OW,,83,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-04,,BL,,869,0,0,0,815,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-07-04,,FL,,83,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -3017,7 +3017,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-04,09:15,BS,,989,2,,,935,50,https://www.gesundheit.bs.ch
 2020-07-04,10:00,SZ,,342,,,,293,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-04,10:00,TG,,402,3,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-07-04,14:30,ZH,,3946,9,,0,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-04,14:30,ZH,,3946,9,,0,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-05,,BL,,869,0,0,0,816,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-07-05,,FL,,84,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-07-05,,FR,,1251,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200802_statistiques_situation_COVID_FR.xlsx
@@ -3036,7 +3036,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-05,09:00,BS,,990,3,,,935,50,https://www.gesundheit.bs.ch
 2020-07-05,10:00,SZ,,342,,,,293,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-05,10:00,TG,,404,3,0,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-07-05,14:30,ZH,,3954,11,,1,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-05,14:30,ZH,,3954,11,,1,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-05,16:30,UR,,105,0,,,86,7,https://www.ur.ch/themen/2962
 2020-07-06,,BL,,871,1,0,0,818,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-07-06,,FL,,84,,,,,1,https://www.regierung.li/media/attachments/375-corona-situationsbericht-0706.pdf
@@ -3062,7 +3062,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-06,10:00,TG,,404,3,1,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-06,10:50,AR,,104,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-07-06,12:00,GL,,129,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-07-06,14:30,ZH,,3973,12,,2,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-06,14:30,ZH,,3973,12,,2,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-06,16:45,OW,,84,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-07,,BL,,874,1,0,0,820,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-07-07,,FL,,84,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
@@ -3085,7 +3085,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-07,10:00,TG,,404,3,1,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-07,10:20,AR,,104,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-07-07,13:30,GL,,130,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-07-07,14:30,ZH,,3999,13,,2,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-07,14:30,ZH,,3999,13,,2,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-07,16:00,UR,,107,0,,,87,7,https://www.ur.ch/themen/2962
 2020-07-07,16:45,OW,,84,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
 2020-07-08,,BL,,877,1,0,0,821,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -3106,5 +3106,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-08,10:00,SZ,,353,,,,301,23,https://www.sz.ch/public/upload/assets/47644/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-07-08,10:00,TG,,407,4,1,,69,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10553
 2020-07-08,12:00,GL,,130,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-07-08,14:30,ZH,,4022,11,,3,,131,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-07-08,14:30,ZH,,4022,11,,3,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-08,16:45,OW,,84,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
