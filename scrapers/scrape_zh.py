@@ -4,25 +4,22 @@ import csv
 from io import StringIO
 import scrape_common as sc
 
-url = "https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html"
+url = "https://www.zh.ch/de/gesundheit/coronavirus.html#-1310230111"
 
 # get quarantined and isolated from website
 dd_iso_q = sc.DayData(canton='ZH', url=url)
 d = sc.download(url, silent=True)
-d = d.replace('&nbsp;', ' ')
-d = d.replace('<strong>', ' ').replace('</strong>', ' ')
 
 # 2020-04-07
 """
 <h3>Die Situation im Kanton Zürich am Dienstag, 7. April 2020, 15.00 Uhr</h3>
 """
 
-date_time_info = sc.find('Stand (.+) Uhr', d)
-if date_time_info is None:
-    date_time_info = sc.find('Situation im Kanton Zürich\s*(?:am\s*)?(?:[A-Za-z]*[,:\.]*)?\(?([^)<]+)\)?', d)
+date_time_info = sc.find('publiziert am (.+) Uhr', d)
+date_time_info = date_time_info.replace(' um', ',') + ' Uhr'
 dd_iso_q.datetime = date_time_info
-dd_iso_q.isolated = sc.find(r'(\d+)\s+Personen\s+(?:befinden\s+sich\s+)?in\s+Isolation', d)
-dd_iso_q.quarantined = sc.find(r'(\d+)\s+in\s+Quarantäne', d)
+dd_iso_q.isolated = sc.find(r'"-790711785">(\d+)</h4>', d)
+dd_iso_q.quarantined = sc.find(r'-790704311">(\d+)</h4>', d)
 
 print(dd_iso_q)
 
