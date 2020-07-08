@@ -7,7 +7,6 @@ import scrape_common as sc
 
 url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus'
 d = sc.download(url, silent=True)
-dd = sc.DayData(canton='LU', url=url)
 
 # 2020-04-01
 """
@@ -74,55 +73,43 @@ dd = sc.DayData(canton='LU', url=url)
         </tr>
 """
 
-include_hosp = True
-include_cases = True
-include_isolated = True
-
 case_date_str = sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d)
 hosp_date_str = sc.find(r'Hospitalisierungen.*\(Stand:\s*(.+?)\,', d)
 isolated_date_str = sc.find(r'Isolation.*\(Stand:\s*(.+?)\,', d)
 
-case_date = sc.date_from_text(case_date_str)
-hosp_date = sc.date_from_text(hosp_date_str)
-isolated_date = sc.date_from_text(isolated_date_str)
-
-max_date = max(hosp_date, case_date, isolated_date)
-if max_date > hosp_date:
-    include_hosp = False
-else:
-    dd.datetime = hosp_date_str
-if max_date > case_date:
-    include_cases = False
-else:
-    dd.datetime = case_date_str
-if max_date > isolated_date:
-    include_isolated = False
-else:
-    dd.datetime = isolated_date_str
-
 soup = BeautifulSoup(d, 'html.parser')
-rows = []
+is_first = True
 for table in soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find_parent('li').find_all('table'):
-    rows += table.find_all('tr')
-for row in rows:
-    cells = row.find_all('td')
-    assert len(cells) == 2, "Number of columns changed, not 2"
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
-    header_str = "".join([str(x) for x in cells[0].contents])
+    dd = sc.DayData(canton='LU', url=url)
+    for row in table.find_all('tr'):
+        cells = row.find_all('td')
+        assert len(cells) == 2, "Number of columns changed, not 2"
 
-    value_str = cells[1].find('p') or cells[1]
-    value = int(value_str.string)
-    if re.search('Bestätigte Fälle|Positiv getestet', header_str) and include_cases:
-        dd.cases = value
-    if re.search('Todesfälle', header_str) and include_cases:
-        dd.deaths = value
-    if re.search('Hospitalisiert', header_str) and include_hosp:
-        dd.hospitalized = value
-    if re.search('Intensivpflege', header_str) and include_hosp:
-        dd.icu = value
-    if re.search('Personen in Isolation', header_str) and include_isolated:
-        dd.isolated = value
-    if re.search('Personen in Quarantäne', header_str) and include_isolated:
-        dd.quarantined = value
+        header_str = "".join([str(x) for x in cells[0].contents])
 
-print(dd)
+        value_str = cells[1].find('p') or cells[1]
+        value = int(value_str.string)
+        if re.search('Bestätigte Fälle|Positiv getestet', header_str):
+            dd.datetime = case_date_str
+            dd.cases = value
+        if re.search('Todesfälle', header_str):
+            dd.datetime = case_date_str
+            dd.deaths = value
+        if re.search('Hospitalisiert', header_str):
+            dd.datetime = hosp_date_str
+            dd.hospitalized = value
+        if re.search('Intensivpflege', header_str):
+            dd.datetime = hosp_date_str
+            dd.icu = value
+        if re.search('Personen in Isolation', header_str):
+            dd.datetime = isolated_date_str
+            dd.isolated = value
+        if re.search('Personen in Quarantäne', header_str):
+            dd.datetime = isolated_date_str
+            dd.quarantined = value
+
+    print(dd)
