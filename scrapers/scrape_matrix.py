@@ -14,7 +14,7 @@ matrix = {
     'AG': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AI': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
     'FR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
