@@ -12,6 +12,8 @@ https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlech
 | __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
 | __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
 | __Area__               | Kanton |   Abbreviation of the reporting canton   | Text|
+| __AgeYearCat__ | 10-Jahres Altersklassen     | Age categories (10 year steps)   | Text |
+| __Gender__     |Geschlecht  | Gender    |  Text|
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 
