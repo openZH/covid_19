@@ -15,7 +15,7 @@ Die Gesundheitsdirektion des Kantons Zürich aktualisiert ab 08.07.2020 einmal t
 
 ## Bemerkungen
 
-*Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 Einwohnern aufweisen, werden aus Datenschutzgründen in der Kategorie __'PLZ_uebrige'__ zusammengefasst.
+*Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 Einwohner aufweisen, werden aus Datenschutzgründen in der Kategorie __'PLZ_uebrige'__ zusammengefasst.
 
 ## (EN)
 
