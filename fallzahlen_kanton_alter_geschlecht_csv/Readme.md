@@ -22,9 +22,13 @@ Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gib
 **These datasets are not updated anymore:**
 
 COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv
+
 COVID19_Fallzahlen_Kanton_AI_alter_geschlecht.csv
+
 COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv
+
 COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv
+
 COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv
 
 Selected Cantons have published more detailed datasets, which are available in this __directory__. 
