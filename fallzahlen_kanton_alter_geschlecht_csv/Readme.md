@@ -1,7 +1,7 @@
 <img src="https://github.com/openZH/covid_19/blob/master/statistisches_amt_kt_zh.png" alt="OpenZH-logo" width="180"/>
 <img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/>
 
-# Sars-CoV-2 - Bestätige Fälle und Todesfälle nach Geschlecht, Alterskategorien und Kalenderwoche im Kanton Zürich
+# Sars-CoV-2 - Bestätige Fälle und Todesfälle nach Geschlecht, Alterskategorien und Kalenderwoche im Kanton Zürich (*NEU*)
 
 Dieser Datensatz enthält Zahlen zu den bestätigten Sars-CoV-2-Fällen und Todesfällen nach Kalenderwoche im Kanton Zürich. Die Daten werden arbeitstags täglich aktualisiert.
 
@@ -17,11 +17,9 @@ https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlech
 
 Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gibt es auf [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
-##  Sars-CoV-2 - Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions (deprecated)
+## Sars-CoV-2 - Bestätige Fälle und Todesfälle nach Geschlecht, Alter und Datum (*ALT*)
 
-Selected Cantons have published more detailed datasets, which are available in this __directory__. 
-
-**These datasets are not updated anymore:**
+**Diese Datensätze werden nicht mehr aktualisiert:**
 
 - COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv
 
