@@ -15,11 +15,17 @@ https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlech
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 
-Comparable data for the Canton Thurgau in a slightly different format is available on [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
+Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gibt es auf [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
 ## Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions (deprecated)
 
-**These datasets are not updated anymore**
+**These datasets are not updated anymore:**
+
+COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv
+COVID19_Fallzahlen_Kanton_AI_alter_geschlecht.csv
+COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv
+COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv
+COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv
 
 Selected Cantons have published more detailed datasets, which are available in this __directory__. 
 
