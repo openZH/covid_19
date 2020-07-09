@@ -1,6 +1,6 @@
 <img src="https://github.com/openZH/covid_19/blob/master/gd.png" alt="GD-logo" width="200"/>
 
-# Sars-CoV-2 - Verteilung der Fälle im Kanton Zuerich nach Postleitzahl
+# Sars-CoV-2 - Verteilung der Fälle im Kanton Zürich nach Postleitzahl
 
 Die Gesundheitsdirektion des Kantons Zürich aktualisiert ab 08.07.2020 einmal täglich die Verteilung der neu bestätigt infizierten Fälle sowie der neuen Todesfälle der jeweils letzten sieben Tage nach Postleitzahl. Bei den Werten handelt es sich nicht um Einzelfallzahlen, sondern um Fallzahlklassen.
 
