@@ -3116,7 +3116,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-09,,BL,,880,,1,0,0,822,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,19,77
 2020-07-09,,FL,,84,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-09,,FR,,1259,,4,1,,152,85,https://www.fr.ch/sites/default/files/2020-07/200710_statistiques_situation_COVID_FR_4.xlsx,,
-2020-07-09,,GR,,844,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7,89
+2020-07-09,,GR,,845,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,8,89
 2020-07-09,,JU,,252,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34847.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees-internet_11.07.xlsx?download=1,,
 2020-07-09,,LU,,778,,,,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,19,51
 2020-07-09,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -3140,7 +3140,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-10,,BL,,883,,2,1,0,822,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,24,96
 2020-07-10,,FL,,84,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-10,,FR,,1262,,3,1,,153,85,https://www.fr.ch/sites/default/files/2020-07/200710_statistiques_situation_COVID_FR_4.xlsx,,
-2020-07-10,,GR,,844,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,6,125
+2020-07-10,,GR,,845,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7,125
 2020-07-10,,JU,,253,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34847.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees-internet_11.07.xlsx?download=1,,
 2020-07-10,,LU,,784,,5,2,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,23,34
 2020-07-10,,NW,,126,,0,0,,,3,http://www.nw.ch/coronastatistik,,
@@ -3160,6 +3160,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-10,14:30,ZH,,4060,,12,,3,,133,https://www.zh.ch/de/gesundheit/coronavirus.html,184,444
 2020-07-10,16:15,OW,,87,,0,,,,0,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,,
 2020-07-11,,FL,,84,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
+2020-07-11,,GR,,846,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,8,130
 2020-07-11,,JU,,256,,,,,,7,https://www.jura.ch/Htdocs/Files/v/34847.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees-internet_11.07.xlsx?download=1,,
 2020-07-11,08:00,BE,,1982,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-11,09:00,BS,,1005,,4,,,937,50,https://www.gesundheit.bs.ch,18,84
