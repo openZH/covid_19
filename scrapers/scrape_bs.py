@@ -15,8 +15,12 @@ URL = sc.filter(r'Tagesbulletin.*Corona.*\d+\s*bestätigte\s*(Fälle|Infektionen
     <a href="/nm/2020-tagesbulletin-coronavirus-414-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 414 bestätigte Fälle im Kanton Basel-Stadt</a>
     <a href="/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 376 bestätigte Fälle im Kanton Basel-Stadt</a>
 """
+try:
+    url = 'https://www.gd.bs.ch/' + sc.filter(r'href', URL).split('"')[1]
+except IndexError:
+    print("Could not find Tagesbulletin URL", file=sys.stderr)
+    sys.exit(0) # since this scraper is currently inactive, this is not considered an error
 
-url = 'https://www.gd.bs.ch/' + sc.filter(r'href', URL).split('"')[1]
 dd = sc.DayData(canton='BS', url=url)
 d = sc.download(url, silent=True)
 
