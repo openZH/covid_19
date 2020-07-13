@@ -1,0 +1,38 @@
+name: Deactivate a scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      canton:
+        description: 'Abbreviation of Canton'
+        required: true
+
+jobs:
+  deactivate_scraper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deactivate scraper
+      env:
+        CANTON: ${{ github.event.inputs.canton }}
+      run: |
+        sed -e "/- $CANTON/I s/^#*/#/" -i ./.github/workflows/run_scrapers.yml
+
+    - name: Check if there are changes in the repo
+      id: changes
+      uses: UnicornGlobal/has-changes-action@v1.0.11
+
+    - name: Commit and push to repo
+      if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        name: GitHub Action Scraper
+        email: scraper@open.zh.ch
+        commit-message: Deactivate Scraper ${{ github.event.inputs.canton }}
+        rebase: 'true'
+
