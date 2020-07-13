@@ -30,7 +30,7 @@ jobs:
           git add .
           git config --local user.email "scraper@open.zh.ch"
           git config --local user.name "GitHub Action Scraper"
-          git commit -a -m "Deactivate Scraper $CANTON"
+          git commit -a -m "Deactivate $CANTON scraper"
           git remote set-url origin "$(git config --get remote.origin.url | sed 's#http.*com/#git@github.com:#g')"
           eval `ssh-agent -t 60 -s`
           echo "$GHA_DEPLOY_KEY" | ssh-add -
