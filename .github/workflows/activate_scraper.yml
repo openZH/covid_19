@@ -38,4 +38,6 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git push
           ssh-agent -k
+         else
+          echo "Nothing to commit."
         fi
