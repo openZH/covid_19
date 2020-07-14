@@ -19,7 +19,7 @@ Die Gesundheitsdirektion des Kantons Zürich aktualisiert ab dem 09.07.2020 einm
 
 ## (EN)
 
-From the 09.07.2020 on, the Health Department of the Canton of Zurich will update the distribution of newly confirmed infected cases and new deaths in the last seven days by postal code regions once a day. The values are not individual case numbers, but case number categories.
+From 09.07.2020 on, the Department of Health of the Canton of Zurich is publishing once a day the distribution of newly confirmed infected and deceased cases - in the last seven days - by postal code regions. The values are not individual case numbers, but case number categories.
 
 ## Notes
 
