@@ -1,9 +1,9 @@
 name: Validate CSV
 
 on:
-  workflow_dispatch:
   schedule:
     - cron:  '15 */4 * * *'
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
