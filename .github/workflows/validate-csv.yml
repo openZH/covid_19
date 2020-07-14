@@ -1,6 +1,7 @@
 name: Validate CSV
 
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '15 */4 * * *'
   push:
@@ -11,8 +12,7 @@ on:
     branches: [ master ]
     paths:
     - '**.csv'
-  workflow_dispatch:
-
+  
 jobs:
   validate:
     runs-on: ubuntu-latest
