@@ -21,7 +21,7 @@ matrix = {
     'GE': [], # GE does not always provide the same numbers
     'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    'JU': ['Confirmed cases', 'Deaths'],
+    'JU': ['Confirmed cases'],
     'LU': [], # LU does not always provide the same numbers 
     'NE': [], # NE does not always provide the same numbers
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
