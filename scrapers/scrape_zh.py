@@ -43,6 +43,15 @@ dd_iso_q.quarantined = soup.find(string=re.compile(r'in Quarantäne')).find_prev
 
 print(dd_iso_q)
 
+dd_tested = sc.DayData(canton='ZH', url=url)
+date_time_info = sc.find(r'liessen sich vom \d+\. bis (\d+\. .* 20\d{2}) testen,', d)
+dd_tested.datetime = date_time_info
+dd_tested.tested = soup.find(string=re.compile(r'liessen sich vom')).find_previous('h4').text.replace('\'', '')
+
+print('-' * 10)
+print(dd_tested)
+
+
 csv_url = 'https://raw.githubusercontent.com/openzh/covid_19/master/fallzahlen_kanton_zh/COVID19_Fallzahlen_Kanton_ZH_total.csv'
 d_csv = sc.download(csv_url, silent=True)
 reader = csv.DictReader(StringIO(d_csv), delimiter=',')
