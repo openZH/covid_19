@@ -38,7 +38,7 @@ jobs:
           - VD
           - VS
           - ZG
-#          - ZH
+          - ZH
           - FL
 
     steps:
