@@ -81,6 +81,8 @@ class DayData(object):
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,
+    'einem': 1,
+    'ein': 1,
     'zwei': 2,
     'drei': 3,
     'vier': 4,

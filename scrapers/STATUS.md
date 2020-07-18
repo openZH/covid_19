@@ -23,14 +23,14 @@
 | SH     | 2      | 4              | yes         | Okish. Hacky, relays on a lot of JavaScript dynamic content!                    |
 | SO     | 2      | 3              | yes         | Ok. Easy to extract.                                                            |
 | SZ     | 1      | 4              | yes         | Okish.                                                                          |
-| TG     | 2      | 3              | no          | Okish. Could be better.                                                         |
+| TG     | 3      | 4              | yes         | Okish. Could be better.                                                         |
 | TI     | 2      | 4              | yes         | Okish. Burried in a nest of tags.                                               |
 | UR     | 3      | 4              | no          | Okish.                                                                          |
 | VD     | 4      | 4.5            | yes         | Easy extraction of all metadata, including history                              |
 | VS     | 2      | 4              | yes         | Okish.                                                                          |
 | ZG     | 3      | 4              | yes         | Ok. Very easy to extract. Robust                                                |
 | ZH     | 2      | 4              | yes         | Okish.                                                                          |
-| FL     | 0      | 0              | no          | No reliable data of any kind                                                    |
+| FL     | 1      | 2              | no          | Only press releases with free text.                                             |
 
 ## Table legend
 
@@ -47,5 +47,3 @@ Source quality:
   * 3 - daily data available, with specified hour, and relatively easy to extract.
   * 4 - semi-machine readable, including full history.
   * 5 - human and machine readable, including full history, robust extraction.
-
-For the ones that has Status or Source quality 0, check [TODO.md](TODO.md)

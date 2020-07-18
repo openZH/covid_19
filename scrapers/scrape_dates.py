@@ -68,7 +68,7 @@ def parse_date(d):
     # This could be done more nice, using assignment expression. But that
     # requires Python 3.8 (October 14th, 2019), and many distros still defaults
     # to Python 3.7 or earlier.
-    mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)\s*(?:,?\s+|,\s*)(\d\d?)(?:[:\.](\d\d))? +Uhr$', d)
+    mo = re.search(r'^(\d+)\. ([^\W\d_]+) (20\d\d)\s*(?:,?\s+|,\s*|,?\s*um\s+)(\d\d?)(?:[:\.](\d\d))? +Uhr$', d)
     if mo:
         # 20. März 2020 15.00 Uhr
         # 21. März 2020, 10 Uhr
@@ -80,6 +80,7 @@ def parse_date(d):
         # 21. März 2020, 14.00 Uhr
         # 23. M&auml;rz 2020, 15 Uhr
         # 18. April 2020,16.00 Uhr
+        # 8. Juli 2020 um 14:30 Uhr
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
     mo = re.search(r'^(\d+)\.\s*([^\W\d_]+)\s*(20\d\d)$', d)
     if mo:
@@ -92,7 +93,7 @@ def parse_date(d):
         assert 20 <= int(mo[3]) <= 21
         assert 1 <= int(mo[2]) <= 12
         return f"20{int(mo[3]):02d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
-    mo = re.search(r'^(\d+)[\.-](\d+)[\.-](20\d\d)[,:]?\s*(\d\d?)[h:;\.](\d\d)(?:h| Uhr)?', d)
+    mo = re.search(r'^(\d+)[\.-](\d+)[\.-](20\d\d)(?:,|:| um|, um)?\s*(\d\d?)(?:[h:;\.](\d\d))?(?:h| Uhr)?', d)
     if mo:
         # 20.3.2020, 16.30
         # 21.03.2020, 15h30
@@ -103,12 +104,15 @@ def parse_date(d):
         # 30.04.2020,13.30 Uhr
         # 05-05-2020 00:00
         # 07.05.2020, 00;00 Uhr
+        # 17.06.2020 um 8 Uhr
+        # 08.07.2020, um 8 Uhr
         assert 2020 <= int(mo[3]) <= 2021
         assert 1 <= int(mo[2]) <= 12
-        return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
-    mo = re.search(r'^(\d+)\.(\d+)\.(\d\d),?\s*(\d\d?)[h:\.](\d\d) ?h', d)
+        return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
+    mo = re.search(r'^(\d+)\.(\d+)\.(\d\d),?\s*(\d\d?)[h:\.](\d\d) ?h?', d)
     if mo:
         # 31.03.20, 08.00 h
+        # 17.07.20 08:00
         assert 1 <= int(mo[1]) <= 31
         assert 1 <= int(mo[2]) <= 12
         assert 20 <= int(mo[3]) <= 21

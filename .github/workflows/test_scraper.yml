@@ -5,10 +5,13 @@ on:
     branches: [ master ]
     paths:
     - 'scrapers/**'
+    - '.github/workflows/**'
   pull_request:
     branches: [ master ]
     paths:
     - 'scrapers/**'
+    - '.github/workflows/**'
+  workflow_dispatch: ~
 
 jobs:
   validate:

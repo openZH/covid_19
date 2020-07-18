@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
 
 html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
@@ -127,6 +128,8 @@ for t in soup.find_all('table'):
         for row in [r for r in t.find_all('tr') if r.find_all('td')]:
             if "Nachmeldung" in row.text:
                 continue
+            if re.search(r'Daten.*bereini.*gung', row.text.replace("\n", " ")):
+                continue
             if not is_first:
                 print('-' * 10)
             is_first = False
@@ -135,12 +138,13 @@ for t in soup.find_all('table'):
             sc.timestamp()
             print('Downloading:', html_url)
 
-            col_num = 0
-            for cell in row.find_all(['td']):
+            for col_num, cell in enumerate(row.find_all(['td'])):
                 value = cell.string
                 if value:
                     value = value.replace("'", "")
-                    value = value.replace("*", "")
+                if value and '*' in value:
+                    # the asteriks (*) indicates a not-current value
+                    continue
 
                 if headers[col_num] == 'Datum':
                     print('Date and time:', " ".join(cell.stripped_strings))
@@ -154,4 +158,3 @@ for t in soup.find_all('table'):
                     print('Vent:', value)
                 elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
                     print('ICU:', value)
-                col_num += 1

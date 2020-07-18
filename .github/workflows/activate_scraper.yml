@@ -1,0 +1,43 @@
+name: Activate a scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      canton:
+        description: 'Abbreviation of Canton'
+        required: true
+
+jobs:
+  activate_scraper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Activate scraper
+      env:
+        CANTON: ${{ github.event.inputs.canton }}
+      run: |
+        sed -e "/- $CANTON/I s/^#*//" -i ./.github/workflows/run_scrapers.yml
+  
+    - name: Commit and push to repo
+      env:
+        GHA_DEPLOY_KEY: ${{ secrets.GHA_DEPLOY_KEY }}
+        CANTON: ${{ github.event.inputs.canton }}
+      run: |
+        if ! git diff --no-ext-diff --quiet --exit-code; then
+          git add .
+          git config --local user.email "scraper@open.zh.ch"
+          git config --local user.name "GitHub Action Scraper"
+          git commit -a -m "Activate $CANTON scraper"
+          git remote set-url origin "$(git config --get remote.origin.url | sed 's#http.*com/#git@github.com:#g')"
+          eval `ssh-agent -t 60 -s`
+          echo "$GHA_DEPLOY_KEY" | ssh-add -
+          mkdir -p ~/.ssh/
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git push
+          ssh-agent -k
+         else
+          echo "Nothing to commit."
+        fi

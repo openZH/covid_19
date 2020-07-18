@@ -60,12 +60,9 @@ def parse_xlsx():
     xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
     assert xls_url, "URL is empty"
     xls = sc.xlsdownload(xls_url, silent=True)
-    rows = sc.parse_xls(xls, header_row=2)
+    rows = [row for row in sc.parse_xls(xls, header_row=2) if isinstance(row['Date'], datetime.datetime)]
     is_first = True
-    for row in rows:
-        if not isinstance(row['Date'], datetime.datetime):
-            continue
-
+    for row in sorted(rows, key=lambda row: row['Date'].date().isoformat()):
         if not is_first:
             print('-' * 10)
         is_first = False

@@ -15,8 +15,12 @@ URL = sc.filter(r'Tagesbulletin.*Corona.*\d+\s*bestätigte\s*(Fälle|Infektionen
     <a href="/nm/2020-tagesbulletin-coronavirus-414-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 414 bestätigte Fälle im Kanton Basel-Stadt</a>
     <a href="/nm/2020-tagesbulletin-coronavirus-376-bestaetigte-faelle-im-kanton-basel-stadt-gd.html" target="_self">Tagesbulletin Coronavirus: 376 bestätigte Fälle im Kanton Basel-Stadt</a>
 """
+try:
+    url = 'https://www.gd.bs.ch/' + sc.filter(r'href', URL).split('"')[1]
+except IndexError:
+    print("Could not find Tagesbulletin URL", file=sys.stderr)
+    sys.exit(0) # since this scraper is currently inactive, this is not considered an error
 
-url = 'https://www.gd.bs.ch/' + sc.filter(r'href', URL).split('"')[1]
 dd = sc.DayData(canton='BS', url=url)
 d = sc.download(url, silent=True)
 
@@ -126,15 +130,20 @@ dd.recovered = sc.find(r'\b([0-9]+)\s*Personen\s*der\s*[0-9]+\s*positiv\s*Getest
     sc.find('(\d+) genesenen Personen', d)
 
 dd.icu = sc.int_or_word(sc.find(r'Insgesamt\s*(\S+)\s*Personen benötigen\s*Intensivpflege', d))
+if not dd.icu and re.search('Seit\s+.+\s+befindet\s+sich\s+niemand\s+mehr\s+mit\s+Wohnsitz\s+Basel-Stadt\s+in\s+Akut-\s+oder\s+Intensivspitalpflege', d):
+    dd.icu = 0
 dd.deaths = sc.find(r'Basel-Stadt\s*verzeichnet\s*unverändert\s*([0-9]+)\s*Todesfälle', d) or \
     sc.find(r'Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt(?:\s*\S+)?\s*insgesamt\s*([0-9]+)\b', d) or \
     sc.find(r'Die\s*Zahl\s*der\s*Todesfälle\s*im\s*Kanton\s*Basel-Stadt\s*beträgt\s*.*unverändert\s*([0-9]+)\b', d)
 
-isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+Fällen', d))
+isolated = sc.int_or_word(sc.find(r'\s+(\S+)\s+aktiven\s+(?:Fällen|Fall)', d))
 if dd.hospitalized is not None and isolated is not None:
     isolated = int(isolated) - int(dd.hospitalized)
 dd.isolated = isolated
-dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:aktuell\s+)?(\S+)\s+Personen', d))
+if re.search(r'In\s+Quarantäne\s+befindet\s+sich[^.]*\s+niemand', d):
+    dd.quarantined = 0
+else:
+    dd.quarantined = sc.int_or_word(sc.find(r'In\s+Quarantäne\s+befinden\s+sich\s+(?:.*?)?(\S+)\s+(?:neue\s+)?Personen', d))
 
 m = re.search(r'Tests\s+von\s+Verdachtsfällen.*?anderen\s+Schweizer\s+Kantonen.*?grenznahen Ausland.*?Bisher\s+sind\s+die\s+Tests\s+von\s+(\d+)\s+Personen\s+.*?positiv ausgefallen.*?inklusive\s+der\s+(\d+)\s+Basler\s+Fälle', d, flags=re.I)
 if m:

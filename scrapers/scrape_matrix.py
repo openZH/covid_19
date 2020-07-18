@@ -11,33 +11,33 @@ import sys
 # A per-canton list of extra fields that are expected to be present.
 matrix = {
     # Note: Please keep the order of cantons and entries.
-    'AG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
+    'AG': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AI': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'BE': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
     'FR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'GE': [], # GE does not always provide the same numbers
     'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    'JU': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'JU': ['Confirmed cases'],
     'LU': [], # LU does not always provide the same numbers 
     'NE': [], # NE does not always provide the same numbers
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'SG': [], # SG does not always provides the same numbers 
     'SH': ['Confirmed cases', 'Deaths'],
-    'SO': ['Confirmed cases', 'Deaths'],
+    'SO': ['Confirmed cases'],
     'SZ': ['Confirmed cases', 'Deaths', 'Released'],
-    'TG': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'TG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'TI': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'UR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized'],
     'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'VS': ['Deaths', 'Hospitalized', 'ICU', 'Vent'],
+    'VS': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU', 'Vent', 'Released'],
     'ZG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    # 'FL': [],  # No scraper.
+    'FL': ['Confirmed cases'],
 }
 
 allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent', 'Isolated', 'Quarantined']
@@ -63,14 +63,14 @@ matrix_time = [
     'SH',
     'SO',
     'SZ',
-    # 'TG',  # Not available.
+    'TG',
     'TI',
     'UR',
     # 'VD',  # Not available.
     # 'VS',  # Not available
     'ZG',
     'ZH',
-    # 'FL',  # No scraper.
+    # 'FL',  # Not available
 ]
 
 
@@ -106,11 +106,11 @@ def check_expected(abbr, date, data):
             violated_expectations.append(f'Expected {k} to be present for {abbr}')
 
     # Check for new fields, that are there, but we didn't expect them
-    for k, v in cross.items():
-        if v is not None and k not in expected_extras:
-            text = f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.'
-            print(f'WARNING: {text}', file=sys.stderr)
-            warnings.append(text)
+    # for k, v in cross.items():
+    #     if v is not None and k not in expected_extras:
+    #         text = f'Not expected {k} to be present for {abbr}. Update scrape_matrix.py file.'
+    #         print(f'WARNING: {text}', file=sys.stderr)
+    #         warnings.append(text)
 
     assert date and "T" in date, f'Date is invalid: {date}'
     date_time = date.split("T", 1)
