@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 d = sc.download('https://www.ow.ch/de/kanton/publired/publikationen/?action=info&pubid=20318',
-                encoding='windows-1252')
+                encoding='windows-1252', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 xls_url = soup.find(href=re.compile("\.XLSX$")).get('href')
 assert xls_url, "URL is empty"
