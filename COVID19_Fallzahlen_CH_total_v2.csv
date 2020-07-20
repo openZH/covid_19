@@ -3285,7 +3285,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-16,,GR,,852,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,10,47
 2020-07-16,,JU,,259,,1,0,,,,https://www.jura.ch/Htdocs/Files/v/34884.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees_18_07.xlsx?download=1,,
 2020-07-16,,LU,,807,,5,4,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,30,115
-2020-07-16,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-07-16,,NE,,761,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-16,,NW,,127,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-07-16,,SG,,932,,,,,,39,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-07-16,,VS,,2101,0,7,1,0,307,153,https://www.vs.ch/de/web/coronavirus,,
@@ -3309,7 +3309,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-17,,GR,,853,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,11,42
 2020-07-17,,JU,,259,,1,0,,,,https://www.jura.ch/Htdocs/Files/v/34884.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees_18_07.xlsx?download=1,,
 2020-07-17,,LU,,813,,6,4,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,36,86
-2020-07-17,,NE,,,,2,1,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-07-17,,NE,,765,,2,1,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-17,,NW,,127,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-07-17,,VS,,2101,0,7,1,0,307,153,https://www.vs.ch/de/web/coronavirus,,
 2020-07-17,01:00,SO,,500,,,,,,17,https://corona.so.ch/index.php?id=27979,,
@@ -3331,6 +3331,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-18,,GR,,853,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,11,37
 2020-07-18,,JU,,259,,1,0,,,,https://www.jura.ch/Htdocs/Files/v/34884.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees_18_07.xlsx?download=1,,
 2020-07-18,,LU,,,,7,4,,,,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,41,72
+2020-07-18,,NE,,765,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-07-18,,NW,,128,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-07-18,,SH,,,,,,,,,https://sh.ch/CMS/get/file/f28dda30-2dd0-4e35-a866-64d491d277c8,,
 2020-07-18,08:00,BE,,2031,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
