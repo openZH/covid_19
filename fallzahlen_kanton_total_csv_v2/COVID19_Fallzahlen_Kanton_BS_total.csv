@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,ncumul_confirmed_non_resident,current_hosp_non_resident
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,ncumul_confirmed_non_resident,current_hosp_non_resident,current_quarantined_riskareatravel
 2020-02-27,19:17,BS,,1,,,,,,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-positiver-fall-in-basel-stadt-zweiter-positiv-getesteter-ausserkantonaler-fall-gd.html,,,1,
 2020-02-28,10:15,BS,,1,,,,,,,https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20,,,1,
 2020-02-29,15:23,BS,,1,,,,,,,https://twitter.com/BAG_OFSP_UFSP/status/1233759578241863681?s=20,,,1,
@@ -136,11 +136,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-11,09:00,BS,,1006,,4,1,,937,50,https://www.gesundheit.bs.ch,18,84,510,0
 2020-07-12,08:45,BS,,1008,,3,1,,937,50,https://www.gesundheit.bs.ch,21,108,510,0
 2020-07-13,10:00,BS,,1009,,5,1,,940,50,https://www.gesundheit.bs.ch,19,138,510,1
-2020-07-14,08:35,BS,,1014,,5,1,,940,50,https://www.gesundheit.bs.ch,24,169,510,1
-2020-07-15,08:45,BS,,1016,,5,2,,943,50,https://www.gesundheit.bs.ch,23,200,510,1
-2020-07-16,08:25,BS,,1018,,5,2,,943,50,https://www.gesundheit.bs.ch,25,210,510,1
-2020-07-17,08:15,BS,,1022,,5,2,,949,50,https://www.gesundheit.bs.ch,23,236,510,1
-2020-07-18,10:00,BS,,1024,,,,,956,50,https://www.gesundheit.bs.ch,18,250,510,
-2020-07-19,14:44,BS,,1025,,,,,958,50,https://www.gesundheit.bs.ch,17,279,510,
-2020-07-20,08:45,BS,,1026,,,,,958,50,https://www.gesundheit.bs.ch,18,278,510,
-2020-07-21,08:45,BS,,1031,,,,,963,50,https://www.gesundheit.bs.ch,18,326,511,
+2020-07-14,08:35,BS,,1014,,5,1,,940,50,https://www.gesundheit.bs.ch,24,169,510,1,130
+2020-07-15,08:45,BS,,1016,,5,2,,943,50,https://www.gesundheit.bs.ch,23,200,510,1,161
+2020-07-16,08:25,BS,,1018,,5,2,,943,50,https://www.gesundheit.bs.ch,25,210,510,1,168
+2020-07-17,08:15,BS,,1022,,5,2,,949,50,https://www.gesundheit.bs.ch,23,236,510,1,188
+2020-07-18,10:00,BS,,1024,,6,2,,956,50,https://www.gesundheit.bs.ch,18,250,510,1,206
+2020-07-19,14:44,BS,,1025,,6,2,,958,50,https://www.gesundheit.bs.ch,17,279,510,1,247
+2020-07-20,08:45,BS,,1026,,7,3,,958,50,https://www.gesundheit.bs.ch,18,278,510,1,246
+2020-07-21,08:45,BS,,1032,,7,3,,963,50,https://www.gesundheit.bs.ch,18,326,510,1,294
+2020-07-22,07:50,BS,,1033,,,,,964,50,https://www.gesundheit.bs.ch,19,348,510,,309
