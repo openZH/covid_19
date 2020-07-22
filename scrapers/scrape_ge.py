@@ -59,8 +59,8 @@ soup = BeautifulSoup(d, 'html.parser')
 pdf_url = soup.find(title=re.compile("\.pdf$")).get('href')
 assert pdf_url, "pdf URL is empty"
 if not pdf_url.startswith('http'):
-    xls_url = f'https://www.ge.ch{pdf_url}'
-pdf = sc.pdfdownload(xls_url, silent=True)
+    pdf_url = f'https://www.ge.ch{pdf_url}'
+pdf = sc.pdfdownload(pdf_url, silent=True)
 
 week_number = sc.find(r'Situation semaine (\d+)', pdf)
 week_end_date = datetime.datetime.strptime('2020-W' + week_number + '-7', '%G-W%V-%u')
