@@ -3189,7 +3189,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-12,,BL,,889,,3,0,0,824,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,27,126
 2020-07-12,,FL,,84,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-07-12,,FR,,1271,,1,1,,155,85,https://www.fr.ch/sites/default/files/2020-07/200722_statistiques_situation_COVID.xlsx,,
-2020-07-12,,GE,,5454,,,,,,295,https://www.ge.ch/document/20094/annexe/0,,
 2020-07-12,,GR,,848,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,10,136
 2020-07-12,,JU,,256,,0,0,,,7,https://www.jura.ch/Htdocs/Files/v/34899.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_22_07.xlsx?download=1,,
 2020-07-12,,LU,,790,,,,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
@@ -3197,6 +3196,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-12,,NW,,126,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-07-12,,VD,,5722,,13,3,,,424,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
 2020-07-12,,VS,,2092,0,8,2,0,306,153,https://www.vs.ch/de/web/coronavirus,,
+2020-07-12,00:00,GE,47928,5454,,,,,,295,https://www.ge.ch/document/20094/annexe/0,,
 2020-07-12,08:00,BE,,1991,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-12,08:00,TI,,3370,,4,1,1,916,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-07-12,08:00,ZG,,250,,3,0,,211,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,14,91
