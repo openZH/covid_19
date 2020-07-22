@@ -3370,6 +3370,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-19,14:44,BS,,1025,,6,2,,958,50,https://www.gesundheit.bs.ch,17,279
 2020-07-20,,BL,,901,,0,0,0,836,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,19,304
 2020-07-20,,FR,,1304,,3,1,,155,85,https://www.fr.ch/sites/default/files/2020-07/200721_statistiques_situation_COVID.xlsx,,
+2020-07-20,,GE,,5532,,6,1,,,295,https://www.ge.ch/document/20094/annexe/0,,
 2020-07-20,,GR,,855,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,10,14
 2020-07-20,,JU,,259,,1,0,,,,https://www.jura.ch/Htdocs/Files/v/34894.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_21_07.xlsx?download=1,,
 2020-07-20,,LU,,819,,7,4,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,37,60
@@ -3407,7 +3408,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-21,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
 2020-07-21,08:00,BE,,2049,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-21,08:00,TI,,3413,,5,1,1,917,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-07-21,08:00,ZG,,265,,2,1,,231,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-07-21,08:00,ZG,,265,,2,1,,231,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,16,186
 2020-07-21,08:45,BS,,1032,,7,3,,963,50,https://www.gesundheit.bs.ch,18,326
 2020-07-21,09:30,SH,,102,,6,0,,,7,https://sh.ch/CMS/get/file/257a659e-1d21-477b-ba93-46debaf35e60,,
 2020-07-21,10:00,SZ,,378,,,,,332,25,https://www.sz.ch/public/upload/assets/47873/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
