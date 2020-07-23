@@ -50,7 +50,7 @@ for day in days:
     print('Downloading:', main_url)
     print('Date and time:', day)
     print('Isolated:', data[day]['Isolation'])
-    print('Quarantined:', data[day]['Quarantäne Total'])
+    print('Quarantined:', data[day]['Quarantäne aus Contact Tracing'])
 
 cases_csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-01-e1.csv'
 d_csv = sc.download(cases_csv_url, silent=True)
