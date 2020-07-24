@@ -3441,7 +3441,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-22,10:00,TG,,439,0,2,1,,74,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
 2020-07-22,12:30,GL,,138,,0,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
 2020-07-22,14:30,ZH,,4317,,24,,3,,136,https://www.zh.ch/de/gesundheit/coronavirus.html,175,402
-2020-07-22,16:00,UR,,116,,0,,,104,7,https://www.ur.ch/themen/2962,,
+2020-07-22,16:00,UR,,,,0,,,104,7,https://www.ur.ch/themen/2962,,
 2020-07-23,,BL,,908,,0,0,0,853,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,15,305
 2020-07-23,,FR,,1312,,2,1,,156,85,https://www.fr.ch/sites/default/files/2020-07/200724_statistiques_situation_COVID.xlsx,,
 2020-07-23,,GR,,884,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,34,235
@@ -3464,6 +3464,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-23,12:00,GL,,138,,1,,,,13,https://www.gl.ch/public/upload/assets/29702/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
 2020-07-23,14:30,ZH,,4341,,24,,3,,136,https://www.zh.ch/de/gesundheit/coronavirus.html,198,438
 2020-07-23,16:30,UR,,115,,1,,,104,7,https://www.ur.ch/themen/2962,,
+2020-07-24,,BL,,910,,0,0,0,856,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,15,344
 2020-07-24,,FR,,1315,,2,1,,156,85,https://www.fr.ch/sites/default/files/2020-07/200724_statistiques_situation_COVID.xlsx,,
 2020-07-24,,LU,,839,,6,3,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,38,84
 2020-07-24,,SG,,974,,,,,,40,https://www.sg.ch/tools/informationen-coronavirus.html,,
