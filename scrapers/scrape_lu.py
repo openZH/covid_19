@@ -92,7 +92,10 @@ for table in soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find
         header_str = "".join([str(x) for x in cells[0].contents])
 
         value_str = cells[1].find('p') or cells[1]
-        value = int(value_str.string)
+        if value_str is None:
+            continue
+        value_str = value_str.string.replace('*', '')
+        value = int(value_str)
         if re.search('Bestätigte Fälle|Positiv getestet', header_str):
             dd.datetime = case_date_str
             dd.cases = value
