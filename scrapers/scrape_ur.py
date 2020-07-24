@@ -9,23 +9,21 @@ d = sc.download(url, silent=True)
 
 # 2020-03-26 (and possibly earlier) from https://www.ur.ch/themen/2962
 # 2020-07-07 they changed the title, so we're using the table header to find the table
+# 2020-07-24 column "Genesen" was removed
 """
-<table cellpadding="1" cellspacing="1" class="icms-wysiwyg-table" icms="CLEAN" style="width:600px">
-	<caption>Stand: 26.03.2020, 12.00 Uhr</caption>
-	<thead>
-		<tr>
-			<th scope="col">Positiv getestete Erkrankungsfälle</th>
-			<th scope="col">Hospitalisiert</th>
-			<th scope="col">Verstorben</th>
-			<th scope="col">Genesen</th>
-		</tr>
-	</thead>
+<table cellpadding="1" cellspacing="1" class="icms-wysiwyg-table" icms="CLEAN" style="width:100%">
+	<caption><br>
+	Stand: 24.07.2020, 11.00 Uhr</caption>
 	<tbody>
 		<tr>
-			<td icms="" style="text-align:center">38</td>
-			<td icms="" style="text-align:center">4</td>
-			<td icms="" style="text-align:center">0</td>
-			<td icms="" style="text-align:center">2</td>
+			<td icms=""><strong>Positiv getestete Erkrankungsfälle</strong></td>
+			<td icms=""><strong>Hospitalisiert</strong></td>
+			<td icms=""><strong>Verstorben</strong></td>
+		</tr>
+		<tr>
+			<td icms="">115</td>
+			<td icms="">1</td>
+			<td icms="">7</td>
 		</tr>
 	</tbody>
 </table>
@@ -40,19 +38,20 @@ assert data_table, "Can't find data table"
 dd = sc.DayData(canton='UR', url=url)
 dd.datetime = sc.find(r'Stand[A-Za-z ]*[:,]? ([^<)]+ Uhr)<', d)
 
-headers = data_table.find_all('th')
-assert len(headers) == 4, f"Number of header columns changed, {len(headers)} != 4"
+rows = data_table.find_all('tr')
+assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
+
+headers = rows[0].find_all('td') or rows[0].find_all('th')
+assert len(headers) == 3, f"Number of header columns changed, {len(headers)} != 3"
 assert headers[0].text == "Positiv getestete Erkrankungsfälle"
 assert headers[1].text == "Hospitalisiert"
 assert headers[2].text == "Verstorben"
-assert headers[3].text == "Genesen"
 
-cells = data_table.find_all('td')
-assert len(cells) == 4, f"Number of columns changed, {len(cells)} != 4"
+cells = rows[1].find_all('td')
+assert len(cells) == 3, f"Number of columns changed, {len(cells)} != 3"
 
 dd.cases = cells[0].text
 dd.hospitalized = cells[1].text
 dd.deaths = cells[2].text
-dd.recovered = cells[3].text
 
 print(dd)
