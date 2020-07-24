@@ -39,12 +39,13 @@ dd = sc.DayData(canton='UR', url=url)
 dd.datetime = sc.find(r'Stand[A-Za-z ]*[:,]? ([^<)]+ Uhr)<', d)
 
 rows = data_table.find_all('tr')
-headers = rows[0].find_all('td')
+assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
+
+headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 3, f"Number of header columns changed, {len(headers)} != 3"
 assert headers[0].text == "Positiv getestete Erkrankungsfälle"
 assert headers[1].text == "Hospitalisiert"
 assert headers[2].text == "Verstorben"
-# assert headers[3].text == "Genesen"
 
 cells = rows[1].find_all('td')
 assert len(cells) == 3, f"Number of columns changed, {len(cells)} != 3"
@@ -52,6 +53,5 @@ assert len(cells) == 3, f"Number of columns changed, {len(cells)} != 3"
 dd.cases = cells[0].text
 dd.hospitalized = cells[1].text
 dd.deaths = cells[2].text
-# dd.recovered = cells[3].text
 
 print(dd)
