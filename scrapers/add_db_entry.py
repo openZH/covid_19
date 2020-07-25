@@ -145,6 +145,8 @@ try:
                         'ncumul_ICF', # GE only
                         'ncumul_confirmed_non_resident', # BS only
                         'hosp_non_resident', # BS only
+                        'current_quarantined_riskareatravel', # ZG/BS only
+                        'current_quarantined_total', # ZG/BS only
                     ]
                     for key in update_keys:
                         # only update for non-empty values

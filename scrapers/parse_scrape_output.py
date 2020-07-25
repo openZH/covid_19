@@ -24,6 +24,8 @@ quarantined = None
 icf = None
 confirmed_non_resident = None
 hosp_non_resident = None
+quarantine_riskareatravel = None
+quarantine_total = None
 
 
 errs = []
@@ -65,6 +67,8 @@ def finalize_record(check_expectations=False):
         'ncumul_ICF': icf, # GE only
         'ncumul_confirmed_non_resident': confirmed_non_resident, # BS only
         'current_hosp_non_resident': hosp_non_resident, # BS only
+        'current_quarantined_riskareatravel': quarantine_riskareatravel, # ZG/BS only
+        'current_quarantined_total': quarantine_total, # ZG/BS only
     }
     # Remove Nones
     extras = {k: v for (k, v) in data.items() if not v is None}
@@ -130,6 +134,8 @@ try:
             icf = None
             confirmed_non_resident = None
             hosp_non_resident = None
+            quarantine_riskareatravel = None
+            quarantine_total = None
             url_sources = []
             errs = []
             warns = []
@@ -218,6 +224,12 @@ try:
             continue
         if k == "Hospitalized non-resident":
             hosp_non_resident = maybe_new_int("Hospitalized non-resident", v, hosp_non_resident)
+            continue
+        if k == "Quarantined risk area travel":
+            quarantine_riskareatravel = maybe_new_int("Quarantined risk area travel", v, quarantine_riskareatravel)
+            continue
+        if k == "Quarantined total":
+            quarantine_total = maybe_new_int("Quarantined total", v, quarantine_total)
             continue
         assert False, f"Unknown data on line {i}: {l}"
     # only run the checks on the last record

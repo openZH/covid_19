@@ -45,12 +45,15 @@ for day in days:
         print('-' * 10)
     is_first = False
 
-    print('ZG')
-    sc.timestamp()
-    print('Downloading:', main_url)
-    print('Date and time:', day)
-    print('Isolated:', data[day]['Isolation'])
-    print('Quarantined:', data[day]['Quarantäne aus Contact Tracing'])
+    dd = sc.DayData(canton='ZG', url=main_url)
+    dd.datetime = day
+    dd.isolated = data[day]['Isolation']
+    dd.quarantined = data[day]['Quarantäne aus Contact Tracing']
+    dd.quarantine_riskareatravel = data[day].get('Quarantäne nach Rückkehr aus Risikoland')
+    dd.quarantine_total = data[day].get('Quarantäne Total')
+
+    print(dd)
+
 
 cases_csv_url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-01-e1.csv'
 d_csv = sc.download(cases_csv_url, silent=True)
@@ -81,12 +84,12 @@ for row in reader:
 days = list(data.keys())
 for day in days:
     print('-' * 10)
-    print('ZG')
-    sc.timestamp()
-    print('Downloading:', main_url)
-    print('Date and time:', day)
-    print('Confirmed cases:', data[day]['Fallzahl'])
-    print('Hospitalized:', data[day]['Hospitalisierte'])
-    print('ICU:', data[day]['Hospitalisierte in Intensivpflege'])
-    print('Recovered:', data[day]['Genesene'])
-    print('Deaths:', data[day]['Todesfälle'])
+    dd = sc.DayData(canton='ZG', url=main_url)
+    dd.datetime = day
+    dd.cases = data[day]['Fallzahl']
+    dd.hospitalized = data[day]['Hospitalisierte']
+    dd.icu = data[day]['Hospitalisierte in Intensivpflege']
+    dd.recovered = data[day]['Genesene']
+    dd.deaths = data[day]['Todesfälle']
+
+    print(dd)

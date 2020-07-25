@@ -32,6 +32,8 @@ class DayData(object):
         self.icf = None
         self.confirmed_non_resident = None
         self.hosp_non_resident = None
+        self.quarantine_riskareatravel = None
+        self.quarantine_total = None
 
         # freeze class, so that no new attributes can be created
         self.__isfrozen = True
@@ -75,6 +77,10 @@ class DayData(object):
             str_rep += [f'Confirmed non-resident: {self.confirmed_non_resident}']
         if self.hosp_non_resident is not None and self.hosp_non_resident != '':
             str_rep += [f'Hospitalized non-resident: {self.hosp_non_resident}']
+        if self.quarantine_riskareatravel is not None and self.quarantine_riskareatravel != '':
+            str_rep += [f'Quarantined risk area travel: {self.quarantine_riskareatravel}']
+        if self.quarantine_total is not None and self.quarantine_total != '':
+            str_rep += [f'Quarantined total: {self.quarantine_total}']
         return "\n".join(str_rep)
 
 
