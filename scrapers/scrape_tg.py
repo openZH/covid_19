@@ -20,6 +20,8 @@ d_csv = sc.download(resource['download_url'], silent=True)
 reader = csv.DictReader(StringIO(d_csv), delimiter=';')
 is_first = True
 for row in reader:
+    if row['date'] is None:
+        continue
     if not is_first:
         print('-' * 10)
     is_first = False
