@@ -3553,6 +3553,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-28,,BL,,917,,2,0,0,862,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,12,482
 2020-07-28,,FL,,87,,,,,,1,https://www.regierung.li/media/attachments/410-corona-situationsbericht-0728.pdf,,
 2020-07-28,,FR,,1325,,1,1,,157,85,https://www.fr.ch/sites/default/files/2020-07/200728_statistiques_situation_COVID_site%20fr.ch_.xlsx,,
+2020-07-28,,GR,,913,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,61,350
 2020-07-28,,JU,,260,,0,0,,,,https://www.jura.ch/Htdocs/Files/v/34922.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_28_07.xlsx?download=1,,
 2020-07-28,,LU,,848,,6,4,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,32,53
 2020-07-28,,SG,,991,,,,,,40,https://www.sg.ch/tools/informationen-coronavirus.html,,
