@@ -45,7 +45,7 @@ for csv_file in args:
     upper_limit = q3 + (iqr * FACTOR)
 
     upper_limit = max(upper_limit, MIN_VALUE)
-    lower_limit = max(lower_limit, 0)
+    lower_limit = 0 # always use 0 as lower limit
     df_conf['q1'] = q1
     df_conf['q3'] = q3
     df_conf['iqr'] = iqr
