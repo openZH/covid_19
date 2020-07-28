@@ -27,6 +27,6 @@ for i, row in enumerate(rows):
     dd.cases = row['Cumul des cas confimés']
     dd.hospitalized = row.get('Nb cas actuellement hospitalisés')
     dd.icu = row.get('Nb cas actuellement en SI')
-    if row.get('Nombre de nouveaux décès'):
+    if sc.represents_int(row.get('Nombre de nouveaux décès')):
         dd.deaths = sum(r['Nombre de nouveaux décès'] for r in rows[:i+1])
     print(dd)
