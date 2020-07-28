@@ -28,8 +28,10 @@ try:
               'ncumul_released': r['ncumul_released'],
               'ncumul_deceased': r['ncumul_deceased'],
               'source': r['source'],
-              'current_isolated': r.get('current_isolated', ''),     # new field
-              'current_quarantined': r.get('current_quarantined', ''),  # new field
+              'current_isolated': r.get('current_isolated', ''),
+              'current_quarantined': r.get('current_quarantined', ''),
+              'current_quarantined_riskareatravel': r.get('current_quarantined_riskareatravel', ''),  # new field
+              'current_quarantined_total': r.get('current_quarantined_total', ''),  # new field
             }
             # re-add extra columns
             for col in dr.fieldnames[12:]:
