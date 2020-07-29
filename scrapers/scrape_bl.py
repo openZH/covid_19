@@ -114,6 +114,13 @@ for iframe in soup.find_all('iframe'):
     ...
     </pre>
     """
+    
+    # 2020-07-29
+    """
+    <pre id="data_1" style="display:none; margin-top: 20px;">
+    Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne (Tracing)&quot;,&quot;Personen in Quarantäne (Rückreise Risikoländer)&quot;
+    11-05-2020,0.0,0.0,
+    """
 
     
 
@@ -174,15 +181,16 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # contact tracing data
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne (Tracing)&quot;,&quot;Personen in Quarantäne (Rückreise Risikoländer)&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            if len(c) == 3:
+            if len(c) == 4:
                 key, row_date = get_row_date(c[0])
                 rows[key]['date'] = row_date
                 rows[key]['isolated'] = sc.safeint(c[1] or 0) 
                 rows[key]['quarantined'] = sc.safeint(c[2] or 0)
+                rows[key]['quarantined_riskareatravel'] = sc.safeint(c[3] or 0)
         continue
 
     # we should never reach here unless there is an unknown iframe
@@ -205,5 +213,6 @@ for row_date, row in ordered_rows.items():
     dd.deaths = sc.safeint(row.get('deaths'))
     dd.recovered = sc.safeint(row.get('recovered'))
     dd.quarantined = sc.safeint(row.get('quarantined'))
+    dd.quarantined_riskareatravel = sc.safeint(row.get('quarantined_riskareatravel'))
     dd.isolated = sc.safeint(row.get('isolated'))
     print(dd)
