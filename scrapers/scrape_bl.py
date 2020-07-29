@@ -214,5 +214,7 @@ for row_date, row in ordered_rows.items():
     dd.recovered = sc.safeint(row.get('recovered'))
     dd.quarantined = sc.safeint(row.get('quarantined'))
     dd.quarantine_riskareatravel = sc.safeint(row.get('quarantine_riskareatravel'))
+    if sc.represents_int(dd.quarantined) and sc.represents_int(dd.quarantine_riskareatravel):
+        dd.quarantine_total = dd.quarantined + dd.quarantine_riskareatravel
     dd.isolated = sc.safeint(row.get('isolated'))
     print(dd)
