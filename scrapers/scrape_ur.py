@@ -54,4 +54,11 @@ dd.cases = cells[0].text
 dd.hospitalized = cells[1].text
 dd.deaths = cells[2].text
 
+active_cases = sc.int_or_word(
+    sc.find(
+        r'Zurzeit\s+gibt\s+es\s+(.+)\s+aktive\s+Fälle\s+im\s+Kanton\s+Uri',
+        d.replace('&nbsp;', ' '))
+)
+dd.recovered = int(dd.cases) - int(dd.deaths) - active_cases
+
 print(dd)
