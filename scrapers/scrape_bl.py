@@ -181,7 +181,7 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # contact tracing data
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne (Tracing)&quot;,&quot;Personen in Quarantäne (Rückreise Risikoländer)&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne \(Tracing\)&quot;,&quot;Personen in Quarantäne \(Rückreise Risikoländer\)&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
@@ -190,7 +190,7 @@ for iframe in soup.find_all('iframe'):
                 rows[key]['date'] = row_date
                 rows[key]['isolated'] = sc.safeint(c[1] or 0) 
                 rows[key]['quarantined'] = sc.safeint(c[2] or 0)
-                rows[key]['quarantined_riskareatravel'] = sc.safeint(c[3] or 0)
+                rows[key]['quarantine_riskareatravel'] = sc.safeint(c[3] or 0)
         continue
 
     # we should never reach here unless there is an unknown iframe
@@ -213,6 +213,6 @@ for row_date, row in ordered_rows.items():
     dd.deaths = sc.safeint(row.get('deaths'))
     dd.recovered = sc.safeint(row.get('recovered'))
     dd.quarantined = sc.safeint(row.get('quarantined'))
-    dd.quarantined_riskareatravel = sc.safeint(row.get('quarantined_riskareatravel'))
+    dd.quarantine_riskareatravel = sc.safeint(row.get('quarantine_riskareatravel'))
     dd.isolated = sc.safeint(row.get('isolated'))
     print(dd)
