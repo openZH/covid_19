@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 # parse tested from PDF
-d = sc.download('https://www.ge.ch/document/covid-19-point-situation-epidemiologique-hebdomadaire', silent=True)
+d = sc.download('https://www.ge.ch/document/covid-19-bilan-epidemiologique-hebdomadaire', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 pdf_url = soup.find(title=re.compile("\.pdf$")).get('href')
 assert pdf_url, "pdf URL is empty"
@@ -27,8 +27,7 @@ dd_test.tested = number_of_tests
 print(dd_test)
 
 # xls
-d = sc.download('https://www.ge.ch/document/covid-19-situation-epidemiologique-geneve', silent=True)
-
+d = sc.download('https://www.ge.ch/document/covid-19-donnees-completes-debut-pandemie', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 xls_url = soup.find(title=re.compile("\.xlsx$")).get('href')
 assert xls_url, "xls URL is empty"
@@ -62,6 +61,8 @@ for i, row in enumerate(rows):
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires']
     dd.deaths = row['Cumul décès COVID-19 ']
     dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
+    dd.isolated = row['Nombre de personnes en isolement ce jour']
+    dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
 
     # Since 2020-07-01 new_hosp is no longer provided
     #dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
