@@ -61,6 +61,8 @@ for i, row in enumerate(rows):
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires']
     dd.deaths = row['Cumul décès COVID-19 ']
     dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
+    dd.isolated = row['Nombre de personnes en isolement ce jour']
+    dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
 
     # Since 2020-07-01 new_hosp is no longer provided
     #dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
