@@ -105,6 +105,16 @@ spelledOutNumbersMap = {
 }
 
 
+class StripKeyDict(dict):
+    def __getitem__(self, key):
+        key = key.strip()
+        return dict.__getitem__(self, key)
+
+    def __setitem__(self, key, val):
+        key = key.strip()
+        dict.__setitem__(self, key, val)
+
+
 def download(url, encoding='utf-8', silent=False):
     """curl like"""
     if not silent:
@@ -134,7 +144,7 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1):
     # if a header cell is empty, the name of the column (e.g. "A") is used instead
     headers = {c: sheet.cell_value(header_row, c) or xlrd.formula.colname(c) for c in range(sheet.ncols)} 
     for r in range(header_row + skip_rows, sheet.nrows):
-        entry = {}
+        entry = StripKeyDict()
         for c, h in headers.items():
             cell_type = sheet.cell_type(r, c)
             value = sheet.cell_value(r, c)
