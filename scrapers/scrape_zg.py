@@ -78,7 +78,7 @@ NA,NA,NA,NA,"1","source","Kanton Zug, Amt für Gesundheit"
 reader = csv.DictReader(StringIO(d_csv), delimiter=',')
 data = collections.defaultdict(dict)
 for row in reader:
-    if row['Typ'] == 'NA' or row['Datum'] == 'NA':
+    if row['Typ'] == 'NA' or row['Datum'] == 'NA' or row['Anzahl'] == 'NA':
         continue
     data[row['Stand']][row['Typ']] = row['Anzahl']
 days = list(data.keys())
@@ -86,10 +86,10 @@ for day in days:
     print('-' * 10)
     dd = sc.DayData(canton='ZG', url=main_url)
     dd.datetime = day
-    dd.cases = data[day]['Fallzahl']
-    dd.hospitalized = data[day]['Hospitalisierte']
-    dd.icu = data[day]['Hospitalisierte in Intensivpflege']
-    dd.recovered = data[day]['Genesene']
-    dd.deaths = data[day]['Todesfälle']
+    dd.cases = data[day].get('Fallzahl')
+    dd.hospitalized = data[day].get('Hospitalisierte')
+    dd.icu = data[day].get('Hospitalisierte in Intensivpflege')
+    dd.recovered = data[day].get('Genesene')
+    dd.deaths = data[day].get('Todesfälle')
 
     print(dd)
