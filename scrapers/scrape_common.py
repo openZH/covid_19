@@ -107,12 +107,10 @@ spelledOutNumbersMap = {
 
 class StripKeyDict(dict):
     def __getitem__(self, key):
-        key = key.strip()
-        return dict.__getitem__(self, key)
+        return dict.__getitem__(self, key.strip())
 
     def __setitem__(self, key, val):
-        key = key.strip()
-        dict.__setitem__(self, key, val)
+        dict.__setitem__(self, key.strip(), val)
 
 
 def download(url, encoding='utf-8', silent=False):
