@@ -86,15 +86,10 @@ for day in days:
     print('-' * 10)
     dd = sc.DayData(canton='ZG', url=main_url)
     dd.datetime = day
-    if 'Fallzahl' in data[day]:
-        dd.cases = data[day]['Fallzahl']
-    if 'Hospitalisierte' in data[day]:
-        dd.hospitalized = data[day]['Hospitalisierte']
-    if 'Hospitalisierte in Intensivpflege' in data[day]:
-        dd.icu = data[day]['Hospitalisierte in Intensivpflege']
-    if 'Genesene' in data[day]:
-        dd.recovered = data[day]['Genesene']
-    if 'Todesfälle' in data[day]:
-        dd.deaths = data[day]['Todesfälle']
+    dd.cases = data[day].get('Fallzahl')
+    dd.hospitalized = data[day].get('Hospitalisierte')
+    dd.icu = data[day].get('Hospitalisierte in Intensivpflege')
+    dd.recovered = data[day].get('Genesene')
+    dd.deaths = data[day].get('Todesfälle')
 
     print(dd)
