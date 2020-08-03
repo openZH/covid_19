@@ -3597,7 +3597,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-29,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,2
 2020-07-29,08:00,BE,,2094,,12,2,0,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-29,08:00,TI,,3428,,2,0,0,921,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-07-29,08:00,ZG,,279,,0,0,,,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,18,47
+2020-07-29,08:00,ZG,,279,,0,0,,242,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,18,47
 2020-07-29,09:30,SH,,115,,4,1,,,7,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-07-29,10:00,SZ,,394,,,,,350,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-07-29,10:00,TG,,458,0,0,0,,77,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
@@ -3622,7 +3622,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-30,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
 2020-07-30,08:00,BE,,2098,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-30,08:00,TI,,3431,,3,1,1,921,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-07-30,08:00,ZG,,284,,0,0,,,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-07-30,08:00,ZG,,284,,0,0,,246,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,20,62
 2020-07-30,09:15,BS,,1052,,4,3,,972,52,https://www.gesundheit.bs.ch,28,30
 2020-07-30,09:30,SH,,116,,7,1,,,7,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-07-30,10:00,SZ,,401,,,,,352,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
@@ -3645,6 +3645,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-31,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
 2020-07-31,08:00,BE,,2111,,12,1,1,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-31,08:00,TI,,3435,,3,1,1,921,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
+2020-07-31,08:00,ZG,,288,,2,0,,,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-07-31,09:30,SH,,117,,7,2,,,7,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-07-31,09:35,BS,,1054,,3,0,,973,52,https://www.gesundheit.bs.ch,29,30
 2020-07-31,10:00,SZ,,403,,,,,354,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
@@ -3657,12 +3658,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-01,,LU,,878,,13,8,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,48,131
 2020-08-01,,SH,,,,,,,,,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-08-01,08:00,BE,,2125,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
+2020-08-01,08:00,ZG,,288,,2,0,,,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-08-01,10:00,SZ,,405,,,,,354,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-08-01,10:00,TG,,467,0,2,0,,77,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
 2020-08-01,10:10,BS,,1064,,,,,973,52,https://www.gesundheit.bs.ch,39,33
 2020-08-01,14:30,ZH,,4558,,36,,5,,137,https://www.zh.ch/de/gesundheit/coronavirus.html,267,536
 2020-08-02,,SH,,,,,,,,,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-08-02,08:00,BE,,2143,,,,,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
+2020-08-02,08:00,ZG,,288,,2,0,,,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-08-02,10:00,BS,,1068,,,,,974,52,https://www.gesundheit.bs.ch,42,41
 2020-08-02,10:00,SZ,,405,,,,,356,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-08-02,10:00,TG,,468,0,2,0,,77,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
@@ -3670,6 +3673,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-03,,SG,,1022,,,,,,40,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-08-03,08:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
 2020-08-03,08:00,TI,,3442,,2,0,0,922,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
+2020-08-03,08:00,ZG,,293,,2,0,,246,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-08-03,09:30,BS,,1069,,,,,975,52,https://www.gesundheit.bs.ch,42,44
 2020-08-03,09:30,SH,,121,,9,2,,,7,https://sh.ch/CMS/get/file/c6ab54f4-fc8d-433f-b9e8-26e13765df8f,,
 2020-08-03,10:00,SZ,,405,,,,,358,25,https://www.sz.ch/public/upload/assets/48000/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
