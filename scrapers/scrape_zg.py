@@ -92,8 +92,8 @@ for day in days:
     dd.deaths = data[day].get('Todesfälle')
     
     # TODO: remove when source is fixed
-    # handle wrong value on 2020-07-28
-    if day == '28.07.2020':
+    # handle wrong value on 2020-07-29
+    if row['Stand'] == '2020-07-29 08:00:00':
         dd.recovered = None
 
     print(dd)
