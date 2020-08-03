@@ -29,6 +29,31 @@ d = sc.download(url, silent=True)
 </table>
 """
 
+# 2020-08-03 new table layout with 6 columns
+"""
+<table cellpadding="1" cellspacing="1" class="icms-wysiwyg-table" icms="CLEAN" style="width:100%">
+	<caption><br>
+	Stand: 03.08.2020, 16.00 Uhr</caption>
+	<tbody>
+		<tr>
+			<td icms=""><strong>Aktive Fälle&nbsp;</strong></td>
+			<td icms=""><strong>Positiv getestete Erkrankungsfälle</strong></td>
+			<td icms=""><strong>Hospitalisiert</strong></td>
+			<td icms=""><strong>Quarantäne</strong></td>
+			<td icms=""><strong>Verstorben</strong></td>
+			<td icms="">&nbsp;</td>
+		</tr>
+		<tr>
+			<td icms="">4</td>
+			<td icms="">117</td>
+			<td icms="">0</td>
+			<td icms="">47</td>
+			<td icms="">7</td>
+			<td icms="">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+"""
 
 soup = BeautifulSoup(d, 'html.parser')
 data_table = soup.find(string=re.compile(r'Positiv\s+getestete\s+Erkrankungsfälle')).find_parent('table')
