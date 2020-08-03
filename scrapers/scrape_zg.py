@@ -88,8 +88,12 @@ for day in days:
     dd.datetime = day
     dd.cases = data[day].get('Fallzahl')
     dd.hospitalized = data[day].get('Hospitalisierte')
-    dd.icu = data[day].get('Hospitalisierte in Intensivpflege')
     dd.recovered = data[day].get('Genesene')
     dd.deaths = data[day].get('Todesfälle')
+    
+    # TODO: remove when source is fixed
+    # handle wrong value on 2020-07-28
+    if day == '28.07.2020':
+        dd.recovered = None
 
     print(dd)
