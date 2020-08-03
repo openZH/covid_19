@@ -42,23 +42,22 @@ rows = data_table.find_all('tr')
 assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 
 headers = rows[0].find_all('td') or rows[0].find_all('th')
-assert len(headers) == 3, f"Number of header columns changed, {len(headers)} != 3"
-assert headers[0].text == "Positiv getestete Erkrankungsfälle"
-assert headers[1].text == "Hospitalisiert"
-assert headers[2].text == "Verstorben"
+assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
+assert headers[0].text.strip() == "Aktive Fälle"
+assert headers[1].text == "Positiv getestete Erkrankungsfälle"
+assert headers[2].text == "Hospitalisiert"
+assert headers[3].text == "Quarantäne"
+assert headers[4].text == "Verstorben"
 
 cells = rows[1].find_all('td')
-assert len(cells) == 3, f"Number of columns changed, {len(cells)} != 3"
+assert len(cells) == 6, f"Number of columns changed, {len(cells)} != 6"
 
-dd.cases = cells[0].text
-dd.hospitalized = cells[1].text
-dd.deaths = cells[2].text
+active_cases = cells[0].text
+dd.cases = cells[1].text
+dd.hospitalized = cells[2].text
+dd.quarantined = cells[3].text
+dd.deaths = cells[4].text
 
-active_cases = sc.int_or_word(
-    sc.find(
-        r'Zurzeit\s+gibt\s+es\s+(.+)\s+aktive\s+Fälle\s+im\s+Kanton\s+Uri',
-        d.replace('&nbsp;', ' '))
-)
-dd.recovered = int(dd.cases) - int(dd.deaths) - active_cases
+dd.recovered = int(dd.cases) - int(dd.deaths) - int(active_cases)
 
 print(dd)
