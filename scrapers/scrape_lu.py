@@ -7,6 +7,7 @@ import scrape_common as sc
 
 url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus'
 d = sc.download(url, silent=True)
+d = d.replace('&nbsp;', ' ')
 
 # 2020-04-01
 """
