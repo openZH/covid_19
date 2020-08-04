@@ -65,6 +65,8 @@ is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
+    if not (row['Positiv'] or row['Hospitalisiert_Iso'] or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
+        continue
 
     if not is_first:
         print('-' * 10)
