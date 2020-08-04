@@ -76,6 +76,31 @@ def parse_xlsx():
         print('ICU:', row['Dont soins intensifs'])
         print('Deaths:', row['Décès'])
 
+def parse_weekly_pdf():
+    base_url = 'https://www.infosan.vd.ch'
+    d = sc.download(base_url, silent=True)
+    soup = BeautifulSoup(d, 'html.parser')
+    html_url = base_url + soup.find(href=re.compile("/publications/covid-19-point-epidemiologique")).get('href')
+    d = sc.download(html_url, silent=True)
+    soup = BeautifulSoup(d, 'html.parser')
+    pdf_url = base_url + soup.find(href=re.compile("\.pdf$")).get('href')
+    pdf = sc.pdfdownload(pdf_url)
+    #print(pdf)
+
+    """
+    29.07.2020
+    Concernant le traçage des contacts de cas positifs, le 27 juillet, 83 personnes étaient en isolement, 633 en quarantaine de contacts étroits et 901 en quarantaine de retour de voyage.
+    """
+
+    dd = sc.DayData(canton='VD', url=pdf_url)
+    dd.datetime = sc.find('Situation au (\d+.*20\d{2})', pdf)
+    dd.isolated = sc.find('(\d+)\spersonnes\sétaient\sen\sisolement', pdf)
+    dd.quarantined = sc.find(' (\d+)\sen\squarantaine\sde\scontacts\sétroits', pdf)
+    dd.quarantine_riskareatravel = sc.find('(\d+)\sen\squarantaine\sde\sretour\sde\svoyage', pdf)
+    print('-' * 10)
+    print(dd)
+
 
 if __name__ == '__main__':
     parse_xlsx()
+    parse_weekly_pdf()
