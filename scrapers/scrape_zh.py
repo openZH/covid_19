@@ -43,6 +43,27 @@ dd_iso_q.quarantined = soup.find(string=re.compile(r'in Quarantäne')).find_prev
 
 print(dd_iso_q)
 
+# get quarantined from travelling from the website above
+# 2020-08-03
+"""
+<h3 class="atm-heading" id="-1537446751">Lage Einreisequarantäne</h3>
+<h4 class="atm-heading" id="-1962423023">(Aktualisiert jeweils donnerstags, zuletzt am 30.7.2020)</h4>
+<h4 class="atm-heading" id="-251026445"> </h4>
+<h4 class="atm-heading" id="1257826065">4651</h4>
+<p class="atm-paragraph">Anzahl gemeldeter Einreisen aus Risikoländern<br /> </p>
+<h4 class="atm-heading" id="1257767479">2765<br /> </h4>
+<p class="atm-paragraph">davon derzeit in Quarantäne</p>
+"""
+
+dd_travel_q = sc.DayData(canton='ZH', url=url)
+txt = soup.find(string=re.compile(r'Lage Einreisequarantäne')).find_next('h4').text
+dd_travel_q.datetime = sc.find('zuletzt am (.*)\)', txt)
+dd_travel_q.quarantine_riskareatravel = soup.find(string=re.compile(r'davon derzeit in Quarantäne')).find_previous('h4').text
+
+print('-' * 10)
+print(dd_travel_q)
+
+
 csv_url = 'https://raw.githubusercontent.com/openzh/covid_19/master/fallzahlen_kanton_zh/COVID19_Fallzahlen_Kanton_ZH_total.csv'
 d_csv = sc.download(csv_url, silent=True)
 reader = csv.DictReader(StringIO(d_csv), delimiter=',')
