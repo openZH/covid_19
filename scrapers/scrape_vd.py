@@ -77,6 +77,7 @@ def parse_xlsx():
         print('Deaths:', row['Décès'])
 
 def parse_weekly_pdf():
+    sc.add_cert_to_bundle()
     base_url = 'https://www.infosan.vd.ch'
     d = sc.download(base_url, silent=True)
     soup = BeautifulSoup(d, 'html.parser')
@@ -84,8 +85,7 @@ def parse_weekly_pdf():
     d = sc.download(html_url, silent=True)
     soup = BeautifulSoup(d, 'html.parser')
     pdf_url = base_url + soup.find(href=re.compile("\.pdf$")).get('href')
-    pdf = sc.pdfdownload(pdf_url)
-    #print(pdf)
+    pdf = sc.pdfdownload(pdf_url, silent=True)
 
     """
     29.07.2020
@@ -102,5 +102,5 @@ def parse_weekly_pdf():
 
 
 if __name__ == '__main__':
-    parse_xlsx()
     parse_weekly_pdf()
+    parse_xlsx()

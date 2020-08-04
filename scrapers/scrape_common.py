@@ -6,9 +6,19 @@ import datetime
 import os
 import subprocess
 import re
+import sys
 import requests
+import certifi
 import xlrd
 from scrape_dates import parse_date
+
+
+__location__ = os.path.realpath(
+    os.path.join(
+        os.getcwd(),
+        os.path.dirname(__file__)
+    )
+)
 
 
 class DayData(object):
@@ -112,12 +122,22 @@ class StripKeyDict(dict):
     def __setitem__(self, key, val):
         dict.__setitem__(self, key.strip(), val)
 
+def add_cert_to_bundle():
+    try:
+        test = requests.get('https://www.infosan.vd.ch')
+    except requests.exceptions.SSLError as err:
+        print('SSL Error. Adding custom certs to Certifi store...', file=sys.stderr)
+        cafile = certifi.where()
+        with open(os.path.join(__location__, 'certificate.pem'), 'rb') as infile:
+            customca = infile.read()
+        with open(cafile, 'ab') as outfile:
+            outfile.write(customca)
 
 def download(url, encoding=None, silent=False):
     if not silent:
         print("Downloading:", url)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, verify=certifi.where())
     r.raise_for_status()
     if encoding:
         r.encoding = encoding
@@ -127,14 +147,14 @@ def download(url, encoding=None, silent=False):
 def jsondownload(url, silent=False):
     if not silent:
         print("Downloading:", url)
-    r = requests.get(url)
+    r = requests.get(url, verify=certifi.where())
     r.raise_for_status()
     return r.json()
 
 def xlsdownload(url, silent=False):
     if not silent:
         print("Downloading:", url)
-    r = requests.get(url) 
+    r = requests.get(url, verify=certifi.where()) 
     r.raise_for_status()
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
