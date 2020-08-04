@@ -12,6 +12,8 @@ d = d.replace("'", "")
 dd = sc.DayData(canton='AG', url=url)
 
 date = sc.find(r'Stand: (?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag), (.+? Uhr)', d)
+if date is None:
+    date = sc.find(r'Daten\s+von\s+.+\s+-\s+(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+)\s+\(nach Angaben BAG\)', d)
 dd.datetime = date
 
 soup = BeautifulSoup(d, 'html.parser')

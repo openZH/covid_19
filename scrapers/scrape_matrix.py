@@ -44,7 +44,6 @@ allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'
 
 # List of cantons that are expected to have date AND time.
 matrix_time = [
-    'AG',
     'AI',
     'AR',
     'BE',
