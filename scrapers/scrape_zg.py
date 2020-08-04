@@ -47,8 +47,8 @@ for day in days:
 
     dd = sc.DayData(canton='ZG', url=main_url)
     dd.datetime = day
-    dd.isolated = data[day]['Isolation']
-    dd.quarantined = data[day]['Quarantäne aus Contact Tracing']
+    dd.isolated = data[day].get('Isolation')
+    dd.quarantined = data[day].get('Quarantäne aus Contact Tracing')
     dd.quarantine_riskareatravel = data[day].get('Quarantäne nach Rückkehr aus Risikoland')
     dd.quarantine_total = data[day].get('Quarantäne Total')
 
