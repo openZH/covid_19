@@ -113,23 +113,29 @@ class StripKeyDict(dict):
         dict.__setitem__(self, key.strip(), val)
 
 
-def download(url, encoding='utf-8', silent=False):
-    """curl like"""
+def download(url, encoding=None, silent=False):
     if not silent:
         print("Downloading:", url)
-    downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
-    return subprocess.run([downloader, url], capture_output=True, check=True).stdout.decode(encoding)
+    headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
+    r = requests.get(url, headers=headers)
+    r.raise_for_status()
+    if encoding:
+        r.encoding = encoding
+    return r.text
+
 
 def jsondownload(url, silent=False):
     if not silent:
         print("Downloading:", url)
     r = requests.get(url)
+    r.raise_for_status()
     return r.json()
 
 def xlsdownload(url, silent=False):
     if not silent:
         print("Downloading:", url)
     r = requests.get(url) 
+    r.raise_for_status()
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
