@@ -97,8 +97,8 @@ def parse_weekly_pdf():
     dd.isolated = sc.find('(\d+)\spersonnes\sétaient\sen\sisolement', pdf)
     dd.quarantined = sc.find(' (\d+)\sen\squarantaine\sde\scontacts\sétroits', pdf)
     dd.quarantine_riskareatravel = sc.find('(\d+)\sen\squarantaine\sde\sretour\sde\svoyage', pdf)
-    print('-' * 10)
     print(dd)
+    print('-' * 10)
 
 
 if __name__ == '__main__':
