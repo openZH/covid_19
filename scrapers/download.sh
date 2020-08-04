@@ -21,7 +21,7 @@ fi
 if which curl >/dev/null; then
   # Few sites, like GL, JU, SZ don't like curl, and return 403, or block site completly per-IP.
   # --output -, because curl, doesn't like to pipe binary files sometimes.
-  exec curl --silent --output - --user-agent "Mozilla Firefox Mozilla/5.0; openZH covid_19 at github" "$@"
+  exec curl -k --silent --output - --user-agent "Mozilla Firefox Mozilla/5.0; openZH covid_19 at github" "$@"
   exit 1
 fi
 
