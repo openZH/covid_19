@@ -4,13 +4,9 @@ from bs4 import BeautifulSoup
 import re
 import scrape_common as sc
 
-# get historical data from https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
-data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
-d = sc.download(data_url, silent=True)
 
-soup = BeautifulSoup(d, 'html.parser')
-
-def parse_table(table, data_url, column_count, parse_fn):
+def parse_table(title_pattern, data_url, column_count, parse_fn):
+    table = soup.find(string=re.compile(title_pattern)).find_parent('h2').find_next('div').find('table')
     headers = [" ".join(cell.stripped_strings) for cell in table.find('tr').find_all('th')]
     for row in table.find_all('tr')[1:]:
         dd = sc.DayData(canton='AG', url=data_url)
@@ -30,9 +26,13 @@ def parse_table(table, data_url, column_count, parse_fn):
         print('-' * 10)
         print(dd)
 
-# cases
-cases_table = soup.find(string=re.compile(r'Verlauf\s+laborbest.*?tigte\s+F.*?lle')).find_parent('div').find('table')
+# get historical data from https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
+data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
+d = sc.download(data_url, silent=True)
 
+soup = BeautifulSoup(d, 'html.parser')
+
+# cases
 def parse_cases(dd, value, header):
     if header == 'Datum':
         dd.datetime = sc.find(r'\w+,\s+(.*)$', value)
@@ -41,12 +41,10 @@ def parse_cases(dd, value, header):
 
     return dd
 
-parse_table(cases_table, data_url, 3, parse_cases)
+parse_table(r'Verlauf\s+laborbest.*?tigte\s+F.*?lle', data_url, 3, parse_cases)
 
 
 # deaths
-deaths_table = soup.find(string=re.compile(r'Verlauf Todesf.*?lle')).find_parent('div').find('table')
-
 def parse_deaths(dd, value, header):
     if header == 'Datum':
         dd.datetime = sc.find(r'\w+,\s+(.*)$', value)
@@ -55,11 +53,9 @@ def parse_deaths(dd, value, header):
 
     return dd
 
-parse_table(deaths_table, data_url, 3, parse_deaths)
+parse_table(r'Verlauf Todesf.*?lle', data_url, 3, parse_deaths)
 
 # isolation
-iso_table = soup.find(string=re.compile(r'Verlauf infizierte Personen in Isolation')).find_parent('div').find('table')
-
 def parse_isolation(dd, value, header):
     if header == 'Datum':
         dd.datetime = sc.find(r'\w+,\s+(.*)$', value)
@@ -68,11 +64,9 @@ def parse_isolation(dd, value, header):
 
     return dd
 
-parse_table(iso_table, data_url, 4, parse_isolation)
+parse_table(r'Verlauf infizierte Personen in Isolation', data_url, 4, parse_isolation)
 
 # quarantined 
-q_table = soup.find(string=re.compile(r'Verlauf Kontaktpersonen in Quarant.*?ne')).find_parent('div').find('table')
-
 def parse_quarantined(dd, value, header):
     if header == 'Datum':
         dd.datetime = sc.find(r'\w+,\s+(.*)$', value)
@@ -81,11 +75,10 @@ def parse_quarantined(dd, value, header):
 
     return dd
 
-parse_table(q_table, data_url, 4, parse_quarantined)
+parse_table(r'Verlauf Kontaktpersonen in Quarant.*?ne', data_url, 4, parse_quarantined)
 
 # quarantined risk area travel
-q_rat_table = soup.find(string=re.compile(r'Quarant.*?ne nach Einreise')).find_parent('div').find('table')
-
+q_rat_table = soup.find(string=re.compile(r'Quarant.*?ne nach Einreise')).find_parent('h2').find_next('div').find('table')
 q_rat_date= sc.find(r'Daten\s+von\s+(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+)', q_rat_table.find('caption').text)
 
 def parse_quarantined_travel(dd, value, header):
@@ -95,7 +88,7 @@ def parse_quarantined_travel(dd, value, header):
 
     return dd
 
-parse_table(q_rat_table, data_url, 4, parse_quarantined_travel)
+parse_table(r'Quarant.*?ne nach Einreise', data_url, 4, parse_quarantined_travel)
 
 # fetch latest data from HTML table
 url = 'https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp'
