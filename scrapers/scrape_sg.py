@@ -94,7 +94,7 @@ else:
     print("Error: Date not found.", file=sys.stderr)
 
 if include_cases:
-    dd.cases = sc.find(r'laborbestätigte\s*Fälle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", ""))
+    dd.cases = sc.find(r'Laborbest.+?tigte\s*F.+?lle\s*\(kumuliert\)<\/t[hd]>\s*<t[hd][^>]*>([0-9]+)<\/t[hd]>', d.replace("\n", ""))
     dd.deaths = sc.find(r'>Verstorbene\s*\(kumuliert\)<\/td>\s*<td[^>]*>([0-9]+)[ <]', d.replace("\n", ""))
 
 if include_hosp:
