@@ -35,11 +35,13 @@ else:
 history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
 d = sc.pdfdownload(history_url, layout=True, silent=True)
 for row in d.splitlines():
-    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)$', row)
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)$', row)
     if m:
         dd_full_list = sc.DayData(canton='FL', url=history_url)
         dd_full_list.datetime = m[1]
         dd_full_list.cases = m[2]
+        dd_full_list.recovered = m[3]
+        dd_full_list.deaths = m[4]
         print('-' * 10)
         print(dd_full_list)
 
