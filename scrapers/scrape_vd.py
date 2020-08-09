@@ -93,13 +93,21 @@ def parse_weekly_pdf():
     """
 
     dd = sc.DayData(canton='VD', url=pdf_url)
-    dd.datetime = sc.find('Situation au (\d+.*20\d{2})', pdf)
-    dd.isolated = sc.find('(\d+)\spersonnes\sétaient\sen\sisolement', pdf)
-    dd.quarantined = sc.find(' (\d+)\sen\squarantaine\sde\scontacts\sétroits', pdf)
-    dd.quarantine_riskareatravel = sc.find('(\d+)\sen\squarantaine\sde\sretour\sde\svoyage', pdf)
+    year= sc.find('Situation au \d+.*(20\d{2})', pdf)
+    date = sc.find('Concernant le traçage des contacts de cas positifs, le (\d+.*),', pdf)
+    dd.datetime = date + ' ' + year
+    dd.isolated = sc.find('(\d+)\s(personnes|cas\spositifs)\sétaient\sen\sisolement', pdf)
+    dd.quarantined = sc.find('(\d.\d+|\d+)\scontacts\sétroits\sen\squarantaine\.', pdf)
+    dd.quarantined = re.sub('[^0-9]', '', dd.quarantined)
     print(dd)
     print('-' * 10)
 
+    dd = sc.DayData(canton='VD', url=pdf_url)
+    date = sc.find('quarantaine. Le (\d+ .*),', pdf)
+    dd.datetime = date + ' ' + year
+    dd.quarantine_riskareatravel = sc.find(', (\d+)\spersonnes\sétaient\sen\squarantaines\ssuite\sà\sun\sretour\sde\svoyage.', pdf)
+    print(dd)
+    print('-' * 10)
 
 if __name__ == '__main__':
     parse_weekly_pdf()
