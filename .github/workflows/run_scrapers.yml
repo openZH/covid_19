@@ -179,7 +179,7 @@ jobs:
     - name: Screenshot Dashboard
       uses: swinton/screenshot-website@v1.x
       with:
-        source: https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
+        source: http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
         destination: dashboard.png
         full-page: true
         delay: 5
