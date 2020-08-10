@@ -133,7 +133,7 @@ def add_cert_to_bundle():
         with open(cafile, 'ab') as outfile:
             outfile.write(customca)
 
-def download(url, encoding=None, silent=False):
+def download(url, encoding='utf-8', silent=False):
     if not silent:
         print("Downloading:", url)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
