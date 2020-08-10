@@ -31,13 +31,11 @@ for row in rows:
     if row['Datum'].date().isoformat() == '2020-03-25':
         row['Bestätigte Fälle (kumuliert)'] = ''
 
-    print('SZ')
-    sc.timestamp()
-    print('Downloading:', xls_url)
+    dd = sc.DayData(canton='SZ', url=xls_url)
+    dd.datetime = row['Datum'].date().isoformat()
     if row['Zeit']:
-        print('Date and time:', row['Datum'].date().isoformat(), row['Zeit'].time().isoformat())
-    else:
-        print('Date and time:', row['Datum'].date().isoformat())
-    print('Confirmed cases:', row['Bestätigte Fälle (kumuliert)'])
-    print('Deaths:', row['Todesfälle (kumuliert)'])
-    print('Recovered:', row['Genesene (kumuliert)'])
+        dd.datetime += ' ' + row['Zeit'].time().isoformat()
+    dd.cases = row['Bestätigte Fälle (kumuliert)']
+    dd.deaths = row['Todesfälle (kumuliert)']
+    dd.recovered = row['Genesene (kumuliert)']
+    print(dd)
