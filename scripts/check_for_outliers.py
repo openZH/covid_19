@@ -5,6 +5,13 @@ import sys
 import os
 import pandas as pd
 
+__location__ = os.path.realpath(
+    os.path.join(
+        os.getcwd(),
+        os.path.dirname(__file__)
+    )
+)
+
 # only values above this MIN_VALUE are considered outliers
 # this is to prevent a failing scraper run if the absolute value is not very high
 # this outlier detection is mostly to prevent human error (wrong data added)
@@ -14,7 +21,7 @@ MIN_VALUE = 20
 LAG_PERIODS = 30
 
 # periods considered "recent"
-RECENT_PERIODS = 1
+RECENT_PERIODS = 5
 
 # IQR factor, determines how many times the IQR is the limit for an outlier
 FACTOR = 1.5
@@ -28,9 +35,11 @@ for csv_file in args:
 
     # load canton file from covid_19 repo
     df = pd.read_csv(csv_file, parse_dates=[0])
+    df_ignore = pd.read_csv(os.path.join(__location__, '..', 'outlier_status.csv'), parse_dates=[0])
+    df = pd.merge(df, df_ignore, left_on=['date', 'abbreviation_canton_and_fl'], right_on=['date', 'abbreviation_canton_and_fl'], how='left')
 
     # create new column for current cases
-    df_conf = df[['date', 'ncumul_conf']].reset_index(drop=True)
+    df_conf = df[['date', 'ncumul_conf', 'ncumul_conf_outlier']].reset_index(drop=True)
     df_conf['current_conf'] = df['ncumul_conf'] - df['ncumul_conf'].shift(1)
 
     # only use the last 30 rows
@@ -55,7 +64,7 @@ for csv_file in args:
 
     # use IQR*factor to get outliers
     outliers = df_conf.query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
-    recent_outliers = df_conf.tail(RECENT_PERIODS).query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
+    recent_outliers = df_conf.tail(RECENT_PERIODS).query("((current_conf < @lower_limit) or (current_conf > @upper_limit)) and (ncumul_conf_outlier != 'ignore')")
     if outliers.empty:
         print(f"✓ {csv_file} has no outliers.");
     else:
@@ -63,8 +72,8 @@ for csv_file in args:
             fail = True
             print(f"× {csv_file} has recent outliers, please check if this is an error.");
         else:
-            print(f"⚠️ {csv_file} has outliers, but nothing recent.");
-        print(outliers)
+            print(f"⚠️ {csv_file} has older or ignored outliers.");
+        print(outliers[['date', 'ncumul_conf', 'current_conf', 'iqr', 'factor', 'upper_limit', 'ncumul_conf_outlier']])
         print('')
 
 if fail:
