@@ -76,6 +76,11 @@ def parse_xlsx():
         print('ICU:', row['Dont soins intensifs'])
         print('Deaths:', row['Décès'])
 
+
+def text_to_int(text):
+    return int(re.sub('[^0-9]', '', text))
+
+
 def parse_weekly_pdf():
     sc.add_cert_to_bundle()
     base_url = 'https://www.infosan.vd.ch'
@@ -97,15 +102,14 @@ def parse_weekly_pdf():
     date = sc.find('Concernant le traçage des contacts de cas positifs, le (\d+.*),', pdf)
     dd.datetime = date + ' ' + year
     dd.isolated = sc.find('(\d+)\s(personnes|cas\spositifs)\sétaient\sen\sisolement', pdf)
-    dd.quarantined = sc.find('(\d.\d+|\d+)\scontacts\sétroits\sen\squarantaine\.', pdf)
-    dd.quarantined = re.sub('[^0-9]', '', dd.quarantined)
+    dd.quarantined = text_to_int(sc.find('(\d.\d+|\d+)\scontacts\sétroits\sen\squarantaine\.', pdf))
     print(dd)
     print('-' * 10)
 
     dd = sc.DayData(canton='VD', url=pdf_url)
     date = sc.find('quarantaine. Le (\d+ .*),', pdf)
     dd.datetime = date + ' ' + year
-    dd.quarantine_riskareatravel = sc.find(', (\d+)\spersonnes\sétaient\sen\squarantaines\ssuite\sà\sun\sretour\sde\svoyage.', pdf)
+    dd.quarantine_riskareatravel = text_to_int(sc.find(', (\d.\d+|\d+)\spersonnes\sétaient\sen\squarantaines\ssuite\sà\sun\sretour\sde\svoyage.', pdf))
     print(dd)
     print('-' * 10)
 
