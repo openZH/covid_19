@@ -73,7 +73,7 @@ for csv_file in args:
             print(f"× {csv_file} has recent outliers, please check if this is an error.");
         else:
             print(f"⚠️ {csv_file} has older or ignored outliers.");
-        print(outliers[['date', 'ncumul_conf', 'current_conf', 'iqr', 'factor', 'upper_limit', 'ncumul_conf_outlier']])
+        print(outliers[['date', 'ncumul_conf', 'current_conf', 'iqr', 'factor', 'upper_limit']])
         print('')
 
 if fail:
