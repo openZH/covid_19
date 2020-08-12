@@ -43,6 +43,7 @@ def test_dates():
         ('08.07.2020, um 8 Uhr',                '2020-07-08T08:00'),
         ('8. Juli 2020 um 14:30 Uhr',           '2020-07-08T14:30'),
         ('17.07.20 08:00',                      '2020-07-17T08:00'),
+        ('12. 8. 2020',                         '2020-08-12T'),
     ]
     for text, date in date_tests:
         assert parse_date(text) == date, f"parse_date('{text}') = '{parse_date(text)}', but expected '{date}'"
