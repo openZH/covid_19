@@ -5,7 +5,7 @@ Hier sind Daten zu Sars-CoV-2 - Bestätige Fälle und Todesfälle nach Geschlech
 
 # Daten die weitergeführt werden 
 
-**[COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv)**
+-  **[COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv)**
 
 Die Gesundheitsdirektion des Kantons Zürich veröffentlicht ab dem 09.07.2020 einmal wöchentlich die bestätigt positiven Fälle sowie die Todesfälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht. Bis 08.07.2020 wurden täglich Einzelfallzahlen mit Alter und Geschlecht veröffentlicht (siehe Ressource "COVID_19 Fallzahlen Kanton Zuerich nach Alter und Geschlecht"). Spaltenüberschriften: 'AgeYearCat' = 10-Jahres-Altersklasse (0-9 Jahre, 10-19 Jahre, 20-29 Jahre, usw.); 'NewConfCases' = Neue bestätigte Fälle; 'NewDeaths' = Neue Todesfälle.
 
