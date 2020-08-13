@@ -15,7 +15,7 @@ for row in rows:
     dd = sc.DayData(canton='NW', url=xls_url)
     dd.datetime = row['A'].date().isoformat()
     dd.cases = row['Positiv getestete Personen (kumuliert)']
-    dd.hospitalized = row['Aktuell hospitalisierte Personen']
+    dd.hospitalized = row['Hospitalisierte Personen']
     dd.icu = row['Davon auf der Intensivstation']
-    dd.deaths = row['Personen verstorben']
+    dd.deaths = row['Verstorbene Personen']
     print(dd)
