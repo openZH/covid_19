@@ -34,13 +34,13 @@ This data is generated and validated daily at 6pm using manual and automated pro
 **Data** <br>
 
 >**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
->*Description:* Case numbers are here published for each spatial unit separately.  <br>
+>*Description:* Case numbers for each spatial unit separately.  <br>
 >*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 >*Format:* csv <br>
 >??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ 
 
 >**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
->*Description:* Case numbers of different spatial units are here published in one single file.  <br>
+>*Description:* Case numbers for all spatial units in one single file.  <br>
 >*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 >*Format:* csv <br>
 >??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv ... 
