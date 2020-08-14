@@ -22,16 +22,17 @@ mailto:info@open.zh.ch <br>
 
 ##   Unified datase
 
+**General description**
 We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. 
 
 Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if a Swiss Cantons or the Principality of Liechtenstein did not report data for a specific date. For this reason   
 
-**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
+**Dataset 1: https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
 Case numbers are here published for each spatial unit separately.  <br>
 *spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
 
-**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
+**Dataset 2:https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
 Case numbers of different spatial units are here published in one single file.  <br>
 *spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
