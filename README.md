@@ -17,13 +17,13 @@ mailto:info@open.zh.ch <br>
 ## List of open government datasets published in this repository
 
 **Swiss Cantons and Principality of Liechtenstein** <br>
-- Unified dataset <br>
-- More detailed dataset <br>
+- [Unified dataset]() <br>
+- [More detailed dataset]() <br>
 
 **Conton Zürich** <br>
-- More detailed dataset <br>
-- Postal codes (Postleitzahl)
-- Districts (Bezirk)
+- [More detailed dataset]()<br>
+- [Postal codes (Postleitzahl)]()<br>
+- [Districts (Bezirk)]()<br>
 
 ## Swiss Cantons and Principality of Liechtenstein: Unified datase
 
@@ -36,14 +36,14 @@ Note that we only publish data that are reported by the Swiss Cantons and the Pr
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2 <br>
 *Description:* Case numbers are here published for each spatial unit separately.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
-*Format:* csv
+*Format:* csv <br>
 ??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ ... 
 
-**Dataset 2:** <br>
+**Dataset 2** <br>
 *Link:* https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv <br>
 *Description:* Case numbers of different spatial units are here published in one single file.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
-*Format:* csv
+*Format:* csv <br>
 ??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv ... 
 
 **Metadata**
@@ -65,7 +65,7 @@ Note that we only publish data that are reported by the Swiss Cantons and the Pr
 | __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
 | __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
 
-Empty values vs. 0
+**Empty values vs. 0**
 
 | Value    | Meaning |
 |----------| --------|
@@ -106,8 +106,8 @@ This list provides an overview of how the data for each spatial unit are collect
 |[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|scraping|yes|
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|scraping|yes|
 
-**Latest updates**
-The latest updates are visualized in [this dashboard](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/): <br>
+**Latest updates** <br>
+The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/). <br>
 Note: Image is updated every 20 minutes.
 
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
@@ -117,7 +117,7 @@ Note: Image is updated every 20 minutes.
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv <br>
 *Description:* CSelected cantons publish more detailed datasets.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
-*Format:* csv
+*Format:* csv <br>
 *Additional remark*: **These datasets are no longer maintained.**
 
 **Unmaintained datasets**
@@ -150,7 +150,7 @@ Note: Image is updated every 20 minutes.
 *Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv <br>
 *Description:* ...  <br>
 *Spatial unit:* Conton Zürich <br>
-*Format:* csv
+*Format:* csv <br>
 *Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
 **Metadata**
@@ -169,7 +169,7 @@ Note: Image is updated every 20 minutes.
 *Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv <br>
 *Description:* ...  <br>
 *Spatial unit:* Conton Zürich <br>
-*Format:* csv
+*Format:* csv <br>
 
 **Metadata**
 
