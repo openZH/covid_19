@@ -113,7 +113,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
-## Data
+**Data** <br>
 ***
 **https://github.com/kalakaru/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv** <br>
 *Description:* Selected cantons publish more detailed datasets.  <br>
