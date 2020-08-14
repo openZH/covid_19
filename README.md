@@ -14,9 +14,9 @@ https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message,
 mailto:info@open.zh.ch
 ## List of open government datasets published in this repository
 
-**Swiss Cantons and Principality of Liechtenstein**
-Unified dataset
-More detailed dataset 
+**Swiss Cantons and Principality of Liechtenstein** <br>
+Unified dataset <br>
+More detailed dataset <br>
 
 
 ##   Unified dataset
