@@ -6,4 +6,4 @@ All CSV files in this directory will be **updated automatically** every 15min ba
 All manual changes to these files will be overwritten.
 
 # Metadata
-Siehe: ... 
+See: https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset.
