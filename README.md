@@ -29,7 +29,7 @@ mailto:info@open.zh.ch <br>
 ## Swiss Cantons and Principality of Liechtenstein: Unified dataset
 
 **General description** <br>
-We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for a specific date. 
+This data is generated using manual and automated procedures and validated daily at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for a specific date. 
 
 **Data** <br>
 
