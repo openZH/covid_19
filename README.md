@@ -116,8 +116,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 *Description:* Selected cantons publish more detailed datasets.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv <br>
-*Additional remark*:
-
+*Additional remark*: Not all datasets are maintained. 
 
 **Maintained datasets**
 
