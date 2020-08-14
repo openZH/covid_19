@@ -145,13 +145,13 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 ## Conton Zürich:  Unified dataset
 
-See: ...
+See: ... and [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
 
 ## Conton Zürich: More detailed dataset 
 
 **Dataset 1** <br>
 *Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv <br>
-*Description:* ...  <br>
+*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/fbf8fab6-1a9b-496d-9272-f398fb3a74ba) <br>
 *Spatial unit:* Conton Zürich <br>
 *Format:* csv <br>
 *Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
@@ -188,7 +188,7 @@ See: ...
 
 **Dataset** <br>
 *Link:* https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv <br>
-*Description:* ...  <br>
+*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
 *Spatial unit:* Conton Zürich <br>
 *Format:* csv <br>
 *Additional remark*: <br>
@@ -210,12 +210,10 @@ See: ...
 
 **Dataset** <br>
 *Link:* https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv <br>
-*Description:* ...  <br>
+*Description:* [opendata.swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl(]https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/6129ae60-bd22-4809-a18b-55875352ee76) <br>
 *Spatial unit:* Conton Zürich <br>
 *Format:* csv <br>
-*Additional remark*: <br>
-- **EN**: Cases are assigned to districts via postal codes. A minority of postal codes cannot be unambigously matched to a district. Postal codes are assigned to its main district based on where the majority of its population lives. Until 26.05.2020, 1.3% of Sars-CoV-2 cases have occured in postal codes that fall in several districts. In order to be coherent the population figure of the districts in this dataset is based on the same principle. For this reason, the population data for the districts differ slightly from figures published elsewhere. Around 200 cases cannot be assigned to postal codes because the submission of addresses of tested subjects was not mandatory until the beginning of April. <br>
-- **DE**: Die Fälle werden den Bezirken via Postleitzahl zugeordnet. Eine Minderheit der Postleitzahlen kann nicht eindeutig einem Bezirk zugeordnet werden. 1,3 % der bestätigten Sars-CoV-2 Fälle traten bis zum 26.05.2020 in Postleitzahlen auf, die in mehreren Bezirken liegen. Postleitzahlgebiete werden daher als Ganzes dem Bezirk zugeordnet, in dem die überwiegende Mehrheit der Bevölkerung lebt. Die Bevölkerungszahl der Bezirke in diesem Datensatz kommt der Kohärenz halber nach dem selben Prinzip zu Stande. Daher weichen die Bevölkerungsdaten der Bezirke in dem Datensatz geringfügig von an anderen Stellen publizierten Zahlen ab.Rund 200 Sars-CoV-2 Fälle können keiner Postleitzahl zugeordnert werden, da bis Anfang April die Übermittlung des Wohnortes der positiv Getesteten bei Labormeldungen noch nicht zwingend war.
+
 
 **Metadata**
 
