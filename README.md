@@ -28,9 +28,7 @@ mailto:info@open.zh.ch <br>
 ## Swiss Cantons and Principality of Liechtenstein: Unified datase
 
 **General description** <br>
-We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. 
-
-Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if a Swiss Cantons or the Principality of Liechtenstein did not report data for a specific date. For this reason   
+We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if a Swiss Cantons or the Principality of Liechtenstein did not report data for a specific date. For this reason   
 
 **Dataset 1** <br>
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2 <br>
