@@ -158,7 +158,7 @@ See:
 
 **Data** <br>
 
->https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv** <br>
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv** <br>
 >*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://opendata.swiss/de/dataset>/covid_19-fallzahlen-kanton-zuerich/resource/fbf8fab6-1a9b-496d-9272-f398fb3a74ba) <br>
 >*Spatial unit:* Conton Zürich <br>
 >*Format:* csv <br>
@@ -197,13 +197,12 @@ See:
 ## Conton Zürich: Postal codes (Postleitzahl)
 
 **Data** <br>
-***
-**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv** <br>
-*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
-*Spatial unit:* Conton Zürich <br>
-*Format:* csv <br>
-*Additional remark*: <br>
-***
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
+>*Spatial unit:* Conton Zürich <br>
+>*Format:* csv <br>
+>*Additional remark*: <br>
 
 **Metadata**
 
@@ -216,9 +215,9 @@ See:
 
 **Geodata** <br>
 
->https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg4326_F_KTZH_2020.json** <br>
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg4326_F_KTZH_2020.json** <br>
 
->https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json**
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json**
 
 
 ## Conton Zürich: Districts (Bezirk)
@@ -247,7 +246,7 @@ See:
 
 **Geodata**
 
->https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg4326_F_KTZH_2020.json** <br>
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg4326_F_KTZH_2020.json** <br>
 
->https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json**
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json**
 
