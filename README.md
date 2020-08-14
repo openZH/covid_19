@@ -8,7 +8,7 @@
 
 ## Aim
 
-The aim of this repository is to provide structured open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
+The aim of this repository is to provide open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
 
 Wlease don't hestitate to contact us if you have any questions regarding the published open goverment datasets. 
 https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!) <br>
