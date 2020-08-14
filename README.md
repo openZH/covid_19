@@ -26,6 +26,8 @@ mailto:info@open.zh.ch <br>
 - [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
 - [Districts (Bezirk)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
 
+Don't forget to take a look at the [community contributions](https://github.com/kalakaru/covid_19/blob/master/README.md#community-contributions).
+
 ## Swiss Cantons and Principality of Liechtenstein: Unified dataset
 
 **General description** <br>
