@@ -32,7 +32,7 @@ Case numbers are here published for each spatial unit separately.  <br>
 *spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
 
-**Dataset 2:https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
+**Dataset 2: https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
 Case numbers of different spatial units are here published in one single file.  <br>
 *spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
