@@ -122,7 +122,7 @@ Selected cantons publish more detailed datasets.  <br>
 
 -  **[COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv)**
 
-Die Gesundheitsdirektion des Kantons Zürich veröffentlicht ab dem 09.07.2020 einmal wöchentlich die bestätigt positiven Fälle sowie die Todesfälle pro Kalenderwoche als 10-Jahres-Altersklassen je Geschlecht. Bis 08.07.2020 wurden täglich Einzelfallzahlen mit Alter und Geschlecht veröffentlicht (siehe Ressource "COVID_19 Fallzahlen Kanton Zuerich nach Alter und Geschlecht"). Spaltenüberschriften: 'AgeYearCat' = 10-Jahres-Altersklasse (0-9 Jahre, 10-19 Jahre, 20-29 Jahre, usw.); 'NewConfCases' = Neue bestätigte Fälle; 'NewDeaths' = Neue Todesfälle.
+Comparable data for the canton of Thurgau is published here: [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
 | Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
 |---------------------|--------------------------------------------|------------|------|
@@ -133,8 +133,6 @@ Die Gesundheitsdirektion des Kantons Zürich veröffentlicht ab dem 09.07.2020 e
 | __Gender__     |Geschlecht  | Gender    |  Text|
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
-
-Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gibt es auf [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
 
 - **[COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv)**
@@ -147,7 +145,6 @@ Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gib
 | __Gender__  |Geschlecht  | Gender    |  Text|
 | __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
 
-Aktuelle vergleichbare Daten für den Kanton Thurgau in einem anderen Format gibt es auf [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
 **Unmaintained datasets**
 
