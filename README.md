@@ -17,7 +17,7 @@ mailto:info@open.zh.ch <br>
 ## List of open government datasets published in this repository
 
 **Swiss Cantons and Principality of Liechtenstein** <br>
-- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-datase) <br>
+- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
 - [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
 
 **Conton Zürich** <br>
@@ -26,7 +26,7 @@ mailto:info@open.zh.ch <br>
 - [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
 - [Districts (Bezirk)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
 
-## Swiss Cantons and Principality of Liechtenstein: Unified datase
+## Swiss Cantons and Principality of Liechtenstein: Unified dataset
 
 **General description** <br>
 We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for a specific date. 
@@ -151,7 +151,7 @@ See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCri
 ## Conton Zürich:  Unified dataset
 
 See: 
-- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-datase 
+- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset 
 - [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
 
 ## Conton Zürich: More detailed dataset 
