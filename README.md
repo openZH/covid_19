@@ -72,9 +72,9 @@ Empty values vs. 0
 | 0        | Zero cases are reported.
 |empty     | No value is reported.
 
-**Data collection**
+**Data collection** <br>
 
-This list provides an overview of how the data for each spatial unit are collected: 
+This list provides an overview of how the data for each spatial unit are collected: <br>
 
  Canton / FL | updated by | data historized |
 |-------------|------------|-----------------|
