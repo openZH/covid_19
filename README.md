@@ -18,12 +18,13 @@ mailto:info@open.zh.ch
 - Unified dataset <br>
 - More detailed dataset <br>
 
-
-##   Unified dataset
+##   Unified datase
 
 We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. 
 
-Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date. It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
+Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if a Swiss Cantons or the Principality of Liechtenstein did not report data for a specific date. For this reason   
+
+it is possible that there are gaps, when a canton did not provide a certain number on a date. It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
 
 This list provides an overview of how the data for each spatial unit are collected: 
 
