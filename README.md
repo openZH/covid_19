@@ -115,7 +115,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 ## Data
 ***
-**htts://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv** <br>
+**https://github.com/kalakaru/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv** <br>
 *Description:* Selected cantons publish more detailed datasets.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv <br>
