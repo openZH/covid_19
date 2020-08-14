@@ -4,7 +4,7 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-# SARS-CoV-2 case numbers reported by the Swiss Cantons and the Principality of Liechtenstein
+# SARS-CoV-2 open government datasets 
 
 ## Aim
 The aim of this repository is to provide structured open government datasets for SARS-CoV-2 case numbers reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
