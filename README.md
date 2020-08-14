@@ -250,3 +250,39 @@ See:
 
 >**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json**
 
+# Community Contributions
+
+### Visualization of Swiss and Cantonal Case Numbers over Time
+- https://rsalzer.github.io/COVID_19_CH/
+- https://rsalzer.github.io/COVID_19_KT_ZH/ 
+<br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
+
+### ArcGIS Dashboard
+- https://covid19.ddrobotec.com/ 
+[github-repo](https://github.com/zdavatz/covid19_ch) 
+<br>Zeno Davatz on Twitter: https://twitter.com/zdavatz
+
+### corona-data.ch
+- https://www.corona-data.ch/ 
+[github-repo](https://github.com/daenuprobst/covid19-cases-switzerland) 
+<br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
+
+### Interactive Small Multiples of Case Numbers by Canton
+- https://sars-cov-2-switzerland.netlify.com/
+
+### REST-API
+- [https://covid19-rest.herokuapp.com](https://covid19-rest.herokuapp.com)
+- [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
+
+### Estimated reproduction number by Canton
+- https://amkuhn.shinyapps.io/restimate/
+ <br>Alexandre Kuhn
+
+### Data for Basel-Stadt
+- https://data.bs.ch/pages/covid-19-dashboard/<br>Open Government Data Basel-Stadt on Twitter: https://twitter.com/OpenDataBS
+
+### COVID-19 Data Hub
+- https://covid19datahub.io
+- https://github.com/covid19datahub/COVID19/
+
+Many thanks for the great work!
