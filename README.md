@@ -122,7 +122,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 >*Additional remark*: Not all datasets are maintained. 
 
 **Maintained datasets** <br>
-See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset
+- See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset
 
 **Unmaintained datasets** <br>
 - [COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv)
