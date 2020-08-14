@@ -170,7 +170,7 @@ See: ... and [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https:/
 
 **Dataset 2** <br>
 *Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv <br>
-*Description:* ...  <br>
+*Description:* Inhabitants per age category and gender. <br>
 *Spatial unit:* Conton Zürich <br>
 *Format:* csv <br>
 
@@ -204,7 +204,10 @@ See: ... and [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https:/
 | __Population__| Einwohner mit Hauptwohnsitz | Inhabitants with main residency| Zahl   |  
 | __NewConfCases_7days__ | Neue bestätigte Fälle in den letzten sieben Tagen (Kategorien) | Newly confirmed cases (Categories)| Text     | 
 
-
+**Geodaten**
+*Link:* 
+- https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg4326_F_KTZH_2020.json <br>
+- https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json
 
 ## Conton Zürich: Districts (Bezirk)
 
@@ -229,5 +232,8 @@ See: ... and [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https:/
 | __TotalConfCases__ |Total der bestätigten Fälle (kumuliert) | Total of confirmed cases (cumulated) | Zahl|  
 | __TotalDeaths__|Total der Todesfälle (kumuliert) | Total of confirmed deaths (cumulated) | Zahl| 
 
-
+**Geodaten**
+*Link:* 
+- https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg4326_F_KTZH_2020.json <br>
+- https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json
 
