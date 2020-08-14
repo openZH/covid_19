@@ -38,7 +38,7 @@ We generate this data using manual and automated procedures and check it on a da
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv <br>
 ??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ 
-
+***
 **https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
 *Description:* Case numbers of different spatial units are here published in one single file.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
