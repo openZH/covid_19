@@ -101,7 +101,7 @@ This list provides an overview of how the data for each spatial unit are collect
 
 **Latest updates**
 The latest updates are visualized in [this dashboard](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/): <br>
-Note: Image below is updated every 20 minutes.
+Note: Image is updated every 20 minutes.
 
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
 
