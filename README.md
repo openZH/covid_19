@@ -177,7 +177,7 @@ See:
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 
-**Dataset** <br>
+**Data** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv** <br>
 >*Description:* Inhabitants per age category and gender. <br>
