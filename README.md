@@ -17,14 +17,14 @@ mailto:info@open.zh.ch <br>
 ## List of open government datasets published in this repository
 
 **Swiss Cantons and Principality of Liechtenstein** <br>
-- [Unified dataset]() <br>
-- [More detailed dataset]() <br>
+- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-datase) <br>
+- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
 
 **Conton Zürich** <br>
-- [Unified dataset]() <br>
-- [More detailed dataset]()<br>
-- [Postal codes (Postleitzahl)]()<br>
-- [Districts (Bezirk)]()<br>
+- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich--unified-dataset) <br>
+- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset)<br>
+- [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
+- [Districts (Bezirk)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
 
 ## Swiss Cantons and Principality of Liechtenstein: Unified datase
 
