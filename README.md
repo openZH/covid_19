@@ -10,7 +10,7 @@
 
 The aim of this repository is to provide open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
 
-Wlease don't hestitate to contact us if you have any questions regarding the published open goverment datasets. 
+If you have any questions, please don't hestitate to contact us: 
 https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!) <br>
 mailto:info@open.zh.ch <br>
 
@@ -21,6 +21,7 @@ mailto:info@open.zh.ch <br>
 - [More detailed dataset]() <br>
 
 **Conton Zürich** <br>
+- [Unified dataset]() <br>
 - [More detailed dataset]()<br>
 - [Postal codes (Postleitzahl)]()<br>
 - [Districts (Bezirk)]()<br>
@@ -28,7 +29,7 @@ mailto:info@open.zh.ch <br>
 ## Swiss Cantons and Principality of Liechtenstein: Unified datase
 
 **General description** <br>
-We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if a Swiss Cantons or the Principality of Liechtenstein did not report data for a specific date. For this reason   
+We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for a specific date. For this reason   
 
 **Dataset 1** <br>
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2 <br>
@@ -72,7 +73,7 @@ We generate this data using manual and automated procedures and check it on a da
 
 **Data collection** <br>
 
-This list provides an overview of how the data for each spatial unit are collected: <br>
+This list provides an overview of how the data is collected: <br>
 
  Canton / FL | updated by | data historized |
 |-------------|------------|-----------------|
@@ -105,15 +106,14 @@ This list provides an overview of how the data for each spatial unit are collect
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|scraping|yes|
 
 **Latest updates** <br>
-The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/). <br>
-Note: Image is updated every 20 minutes.
+The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/). Note that this images is updated every 20 minutes.
 
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv <br>
-*Description:* CSelected cantons publish more detailed datasets.  <br>
+*Description:* Selected cantons publish more detailed datasets.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv <br>
 *Additional remark*: **These datasets are no longer maintained.**
@@ -142,6 +142,11 @@ Note: Image is updated every 20 minutes.
 | __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
 
+
+## Conton Zürich:  Unified dataset
+
+See: ...
+
 ## Conton Zürich: More detailed dataset 
 
 **Dataset 1** <br>
@@ -163,7 +168,7 @@ Note: Image is updated every 20 minutes.
 | __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
 | __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
 
-**Dataset 1** <br>
+**Dataset 2** <br>
 *Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv <br>
 *Description:* ...  <br>
 *Spatial unit:* Conton Zürich <br>
@@ -187,8 +192,8 @@ Note: Image is updated every 20 minutes.
 *Spatial unit:* Conton Zürich <br>
 *Format:* csv <br>
 *Additional remark*: <br>
-- **EN**: Postalcodes with less than 100 inhabitants within the territory of the Canton of Zurich are grouped together in the category 'PLZ_ueebrige' for data protection reasons. <br>
-- **DE**: Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 Einwohner aufweisen, werden aus Datenschutzgründen in der Kategorie 'PLZ_uebrige' zusammengefasst.
+- **EN**: Postalcodes with less than 100 inhabitants are grouped together in the category 'PLZ_ueebrige' for data protection reasons. <br>
+- **DE**: Postleitzahlen, die weniger als 100 Einwohner aufweisen, werden aus Datenschutzgründen in der Kategorie 'PLZ_uebrige' zusammengefasst.
 
 **Metadata**
 
