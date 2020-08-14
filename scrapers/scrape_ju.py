@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
@@ -18,6 +19,9 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 is_first = True
 for i, row in enumerate(rows):
+    if not isinstance(row['Date'], datetime.datetime):
+        continue
+
     if not is_first:
         print('-' * 10)
     is_first = False
