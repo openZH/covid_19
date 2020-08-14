@@ -3958,7 +3958,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-13,,BL,,959,1,1,0,890,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-08-13,,FL,,90,,,,87,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-08-13,,FR,,1405,2,1,,158,85,https://www.fr.ch/sites/default/files/2020-08/200814_statistiques_situation_COVID_site.xlsx
-2020-08-13,,GE,,,17,2,,951,,https://www.ge.ch/document/21502/telecharger
+2020-08-13,,GE,,6444,17,2,,951,296,https://www.ge.ch/document/21502/telecharger
 2020-08-13,,GR,,946,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-08-13,,JU,,261,0,0,,,,https://www.jura.ch/Htdocs/Files/v/35028.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_13_08.xlsx?download=1
 2020-08-13,,LU,,957,10,4,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -3980,6 +3980,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-13,14:30,ZH,,4979,27,,6,,140,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-13,16:00,UR,,121,0,,,110,7,https://www.ur.ch/themen/2962
 2020-08-14,,FR,,1408,2,1,,158,85,https://www.fr.ch/sites/default/files/2020-08/200814_statistiques_situation_COVID_site.xlsx
+2020-08-14,,GE,,,,,,,,https://www.ge.ch/document/21502/telecharger
 2020-08-14,,SG,,1124,12,5,4,,40,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-08-14,08:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-08-14,08:00,TI,,3466,1,0,0,924,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx
@@ -3987,3 +3988,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-14,08:55,AR,,118,2,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-08-14,09:00,SZ,,432,,,,390,25,https://www.sz.ch/public/upload/assets/48137/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-08-14,09:30,SH,,151,4,2,,,7,https://sh.ch/CMS/get/file/eec9255e-df9e-4000-a527-315e41903dd8
+2020-08-14,10:00,TG,,519,4,2,,77,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
