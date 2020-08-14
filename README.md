@@ -36,7 +36,7 @@ We generate this data using manual and automated procedures and check it on a da
 *Description:* Case numbers are here published for each spatial unit separately.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv <br>
-??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ ... 
+??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ 
 
 **Dataset 2** <br>
 *Link:* https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv <br>
@@ -147,7 +147,9 @@ See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCri
 
 ## Conton Zürich:  Unified dataset
 
-See: ... and [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
+See: 
+- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-datase 
+- [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
 
 ## Conton Zürich: More detailed dataset 
 
