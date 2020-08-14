@@ -20,7 +20,12 @@ mailto:info@open.zh.ch <br>
 - Unified dataset <br>
 - More detailed dataset <br>
 
-##   Unified datase
+**Conton Zürich** <br>
+- More detailed dataset <br>
+- Postal codes (Postleitzahl)
+- Districts (Bezirk)
+
+## Swiss Cantons and Principality of Liechtenstein: Unified datase
 
 **General description** <br>
 We generate this data using manual and automated procedures and check it on a daily basis at 6pm CET. 
@@ -40,8 +45,6 @@ Note that we only publish data that are reported by the Swiss Cantons and the Pr
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv
 ??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv ... 
-
-
 
 **Metadata**
 
@@ -109,42 +112,13 @@ Note: Image is updated every 20 minutes.
 
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
 
-## More detailed dataset 
+## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
-Selected cantons publish more detailed datasets.  <br>
 *Link:* https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv <br>
-*Description:* Case numbers are here published for each spatial unit separately.  <br>
+*Description:* CSelected cantons publish more detailed datasets.  <br>
 *Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 *Format:* csv
-*Additional remark*: Some datasets are no longer maintained.
-
-**Maintained datasets**
-
--  **[COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv)**
-
-Comparable data for the canton of Thurgau is published here: [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
-
-| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
-|---------------------|--------------------------------------------|------------|------|
-| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
-| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
-| __Area__               | Kanton |   Abbreviation of the reporting canton   | Text|
-| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps)   | Text |
-| __Gender__     |Geschlecht  | Gender    |  Text|
-| __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
-| __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
-
-
-- **[COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv)**
-
-| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
-|---------------------|--------------------------------------------|------------|------|
-| __Year__  | Stichtag ist jeweils der 31.12 des angegebenen  Jahres| The reporting date is the 31.12 of the indicated year |Zahl|
-| __Area__               | Kanton |   Abbreviation of the reporting canton  | Text|
-| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps) | Text |
-| __Gender__  |Geschlecht  | Gender    |  Text|
-| __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
-
+*Additional remark*: **These datasets are no longer maintained.**
 
 **Unmaintained datasets**
 
@@ -158,6 +132,7 @@ Comparable data for the canton of Thurgau is published here: [opendata.swiss](ht
 
 - [COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv)
 
+**Metadata**
 
 | __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
@@ -168,5 +143,90 @@ Comparable data for the canton of Thurgau is published here: [opendata.swiss](ht
 | __NewConfCases__       | Number of Confirmed Cases | Number     | ZH  |
 | __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
+
+## Conton Zürich: More detailed dataset 
+
+**Dataset 1** <br>
+*Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv <br>
+*Description:* ...  <br>
+*Spatial unit:* Conton Zürich <br>
+*Format:* csv
+*Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
+
+**Metadata**
+
+| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Area__               | Kanton |   Abbreviation of the reporting canton   | Text|
+| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps)   | Text |
+| __Gender__     |Geschlecht  | Gender    |  Text|
+| __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
+| __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
+
+**Dataset 1** <br>
+*Link:* https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv <br>
+*Description:* ...  <br>
+*Spatial unit:* Conton Zürich <br>
+*Format:* csv
+
+**Metadata**
+
+| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Year__  | Stichtag ist jeweils der 31.12 des angegebenen  Jahres| The reporting date is the 31.12 of the indicated year |Zahl|
+| __Area__               | Kanton |   Abbreviation of the reporting canton  | Text|
+| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps) | Text |
+| __Gender__  |Geschlecht  | Gender    |  Text|
+| __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
+
+## Conton Zürich: Postal codes (Postleitzahl)
+
+**Dataset** <br>
+*Link:* https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv <br>
+*Description:* ...  <br>
+*Spatial unit:* Conton Zürich <br>
+*Format:* csv <br>
+*Additional remark*: <br>
+- **EN**: Postalcodes with less than 100 inhabitants within the territory of the Canton of Zurich are grouped together in the category 'PLZ_ueebrige' for data protection reasons. <br>
+- **DE**: Postleitzahlen, die auf dem Gebiet des Kantons Zürich weniger als 100 Einwohner aufweisen, werden aus Datenschutzgründen in der Kategorie 'PLZ_uebrige' zusammengefasst.
+
+**Metadata**
+
+| Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __PLZ__ | Postleitzahl* |Postalcode* |Zahl|
+| __Date__  | Datum des Befundes | Date of test result (NewConfCases)  |Zahl|
+| __Population__| Einwohner mit Hauptwohnsitz | Inhabitants with main residency| Zahl   |  
+| __NewConfCases_7days__ | Neue bestätigte Fälle in den letzten sieben Tagen (Kategorien) | Newly confirmed cases (Categories)| Text     | 
+
+
+
+## Conton Zürich: Districts (Bezirk)
+
+**Dataset** <br>
+*Link:* https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv <br>
+*Description:* ...  <br>
+*Spatial unit:* Conton Zürich <br>
+*Format:* csv <br>
+*Additional remark*: <br>
+- **EN**: Cases are assigned to districts via postal codes. A minority of postal codes cannot be unambigously matched to a district. Postal codes are assigned to its main district based on where the majority of its population lives. Until 26.05.2020, 1.3% of Sars-CoV-2 cases have occured in postal codes that fall in several districts. In order to be coherent the population figure of the districts in this dataset is based on the same principle. For this reason, the population data for the districts differ slightly from figures published elsewhere. Around 200 cases cannot be assigned to postal codes because the submission of addresses of tested subjects was not mandatory until the beginning of April. <br>
+- **DE**: Die Fälle werden den Bezirken via Postleitzahl zugeordnet. Eine Minderheit der Postleitzahlen kann nicht eindeutig einem Bezirk zugeordnet werden. 1,3 % der bestätigten Sars-CoV-2 Fälle traten bis zum 26.05.2020 in Postleitzahlen auf, die in mehreren Bezirken liegen. Postleitzahlgebiete werden daher als Ganzes dem Bezirk zugeordnet, in dem die überwiegende Mehrheit der Bevölkerung lebt. Die Bevölkerungszahl der Bezirke in diesem Datensatz kommt der Kohärenz halber nach dem selben Prinzip zu Stande. Daher weichen die Bevölkerungsdaten der Bezirke in dem Datensatz geringfügig von an anderen Stellen publizierten Zahlen ab.Rund 200 Sars-CoV-2 Fälle können keiner Postleitzahl zugeordnert werden, da bis Anfang April die Übermittlung des Wohnortes der positiv Getesteten bei Labormeldungen noch nicht zwingend war.
+
+**Metadata**
+
+| Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __DistrictId__ |Bezirks-ID (BFS-Nummer)* |District (BFS-Id)* |Zahl|
+| __District__ | Bezirksname*|  District name*   | Text |
+| __Population__ | Wohnbevölkerung | Population |Zahl|
+| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __NewConfCases__ |Neue bestätigte Fälle | Newly confirmed number of cases| Zahl|  
+| __NewDeaths__| Neue Todesfälle | Newly confirmed number of deaths| Zahl| 
+| __TotalConfCases__ |Total der bestätigten Fälle (kumuliert) | Total of confirmed cases (cumulated) | Zahl|  
+| __TotalDeaths__|Total der Todesfälle (kumuliert) | Total of confirmed deaths (cumulated) | Zahl| 
+
 
 
