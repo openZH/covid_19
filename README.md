@@ -15,8 +15,8 @@ mailto:info@open.zh.ch
 ## List of open government datasets published in this repository
 
 **Swiss Cantons and Principality of Liechtenstein** <br>
-Unified dataset <br>
-More detailed dataset <br>
+- Unified dataset <br>
+- More detailed dataset <br>
 
 
 ##   Unified dataset
@@ -58,20 +58,18 @@ This list provides an overview of how the data for each spatial unit are collect
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|scraping|yes|
 
 The latest updates are visualized in [this dashboard](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/):
-
 Note: Image below is updated every 20 minutes.
+
 [![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
 
-
-
-**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2**
-Case numbers are here published for each spatial unit separately. See ‘Attribute 
-*spatial unit:” Swiss cantons and Principality of Liechtenstein
+**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
+Case numbers are here published for each spatial unit separately.  <br>
+*spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
 
-**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv**
-Case numbers of different spatial units are here published in one single file. 
-*spatial unit:” Swiss cantons and Principality of Liechtenstein
+**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
+Case numbers of different spatial units are here published in one single file.  <br>
+*spatial unit:” Swiss cantons and Principality of Liechtenstein <br>
 *format:* csv
 
 **Metadata**
@@ -102,7 +100,10 @@ Empty values vs. 0
 
 ## More detailed dataset 
 
-Selected cantons publish more detailed datasets
+Selected cantons publish more detailed datasets.  <br>
+
+**Metadata**
+
 https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
 | __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
