@@ -23,8 +23,9 @@ def parse_table(title_pattern, data_url, column_count, parse_fn):
             dd = parse_fn(dd, value, header)
             col_num += 1
 
-        print('-' * 10)
-        print(dd)
+        if dd.datetime:
+            print('-' * 10)
+            print(dd)
 
 # get historical data from https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
 data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
@@ -35,7 +36,7 @@ soup = BeautifulSoup(d, 'html.parser')
 # cases
 def parse_cases(dd, value, header):
     if header == 'Datum':
-        dd.datetime = sc.find(r'\w+,\s+(.*)$', value)
+        dd.datetime = sc.find(r'\w+,\s+(.*20\d{2}).*$', value)
     if header == 'Gesamtzahl':
         dd.cases = value
 
