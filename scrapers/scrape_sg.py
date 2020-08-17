@@ -46,7 +46,7 @@ print('-' * 10)
 dd_cases = sc.DayData(canton='SG', url=url)
 cases_table = soup.find(string=re.compile(r"Aktuelle\s+Lage\s+im\s+Kanton\s+St\.\s*Gallen")).find_next('table')
 table_text = " ".join(cases_table.stripped_strings)
-dd_cases.datetime = sc.find(r'Stand ([0-9]+\.\s*[A-Za-z]*\s*[0-9]{4})', table_text)
+dd_cases.datetime = sc.find(r'Datenstand:\s+([0-9]+\.\s*[0-9]{2}\.\s*[0-9]{4})', table_text)
 
 rows = cases_table.find_all('tr')
 assert len(rows) == 3, f"Number of rows changed, {len(rows)} != 3"
