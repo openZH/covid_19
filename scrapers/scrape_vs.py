@@ -12,7 +12,7 @@ is_first = True
 for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
-    if row['Cumul cas positifs'] is None:
+    if not sc.represents_int(row['Cumul cas positifs']):
         continue
 
     if not is_first:
