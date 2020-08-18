@@ -37,14 +37,15 @@ d = sc.pdfdownload(history_url, layout=True, silent=True)
 assert d, f"No content in history PDF found ({history_url})"
 data_in_history_found = False
 for row in d.splitlines():
-    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)$', row)
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)$', row)
     if m:
         data_in_history_found = True
         dd_full_list = sc.DayData(canton='FL', url=history_url)
         dd_full_list.datetime = m[1]
         dd_full_list.cases = m[2]
         dd_full_list.recovered = m[3]
-        dd_full_list.deaths = m[4]
+        dd_full_list.hospitalized = m[4]
+        dd_full_list.deaths = m[5]
         print('-' * 10)
         print(dd_full_list)
 
