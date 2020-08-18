@@ -34,6 +34,7 @@ else:
 # get the data from PDF file containing full history
 history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
 d = sc.pdfdownload(history_url, layout=True, silent=True)
+assert d, f"No content in history PDF found ({history_url})"
 data_in_history_found = False
 for row in d.splitlines():
     m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)$', row)
