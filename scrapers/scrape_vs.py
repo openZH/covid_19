@@ -12,6 +12,8 @@ is_first = True
 for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
+    if row['Cumul cas positifs'] is None:
+        continue
 
     if not is_first:
         print('-' * 10)
