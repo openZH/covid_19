@@ -12,6 +12,8 @@ is_first = True
 for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
+    if not sc.represents_int(row['Cumul cas positifs']):
+        continue
 
     if not is_first:
         print('-' * 10)
@@ -25,6 +27,7 @@ for i, row in enumerate(rows):
     dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
     dd.deaths = row['Cumul décès COVID-19']
-    dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
+    if row['Nb de nouvelles sorties'] is not None:
+        dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
     print(dd)
 
