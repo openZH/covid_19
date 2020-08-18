@@ -15,11 +15,8 @@ t = sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([^\)]+)(Uhr)?.*?\)?', d) or 
 dd_ct.datetime = t
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
-quarantined_total = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Kontaktpersonen\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
-dd_ct.quarantine_total = quarantined_total
-quarantined_travel = sc.find(r'davon\s+Anzahl\s+Personen<em>,\s+</em>die\s+aus\s+einem\s+<strong>Risikogebiet</strong>\s+in\s+die\s+Schweiz\s+eingereist\s+sind\s+und\s+aufgrund\s+dessen\s+aktuell\s+im\s+Kanton\s+in\s+Quarantäne\s+sind:\s+<strong>\s+(\d+)</strong>', d)
-dd_ct.quarantine_riskareatravel = quarantined_travel
-dd_ct.quarantined = int(quarantined_total) - int(quarantined_travel)
+dd_ct.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Kontaktpersonen\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
+dd_ct.quarantine_riskareatravel = sc.find(r'davon\s+Anzahl\s+Personen<em>,\s+</em>die\s+aus\s+einem\s+<strong>Risikogebiet</strong>\s+in\s+die\s+Schweiz\s+eingereist\s+sind\s+und\s+aufgrund\s+dessen\s+aktuell\s+im\s+Kanton\s+in\s+Quarantäne\s+sind:\s+<strong>\s+(\d+)</strong>', d)
 print(dd_ct)
 print('-' * 10)
 
