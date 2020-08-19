@@ -36,7 +36,10 @@ history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
 d = sc.pdfdownload(history_url, layout=True, silent=True)
 assert d, f"No content in history PDF found ({history_url})"
 data_in_history_found = False
-for row in d.splitlines():
+rows = d.splitlines()
+header = rows[2]
+assert re.search(r'^Tag,\s+Datum\s+Summe\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
+for row in rows:
     m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)$', row)
     if m:
         data_in_history_found = True
