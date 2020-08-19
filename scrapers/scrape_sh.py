@@ -86,4 +86,5 @@ for row in rows:
     if sc.represents_int(row['Hospitalisiert_Iso']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
         print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
-    print('Deaths:', row['Verstorben'])
+    if row['Verstorben'] is not None:
+        print('Deaths:', str(row['Verstorben']).split()[0])
