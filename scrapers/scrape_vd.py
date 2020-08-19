@@ -109,7 +109,7 @@ def parse_weekly_pdf():
     dd = sc.DayData(canton='VD', url=pdf_url)
     date = sc.find('quarantaine. Le (\d+ .*),', pdf)
     dd.datetime = date + ' ' + year
-    dd.quarantine_riskareatravel = text_to_int(sc.find(', (\d.\d+|\d+)\spersonnes\sétaient\sen\squarantaines\ssuite\sà\sun\sretour\sde\svoyage.', pdf))
+    dd.quarantine_riskareatravel = text_to_int(sc.find(', (\d.\d+|\d+)\spersonnes\sétaient\sen\squarantaines?\ssuite\sà\sun\sretour\sde\svoyage.', pdf))
     print(dd)
     print('-' * 10)
 
