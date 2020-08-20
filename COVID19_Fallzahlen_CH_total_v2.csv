@@ -4130,6 +4130,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-20,,FL,,99,,1,,,88,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-08-20,,FR,,1464,,2,1,,160,85,https://www.fr.ch/sites/default/files/2020-08/200820_statistiques_situation_COVID_site.xlsx,,
 2020-08-20,,GE,,,,14,0,,965,,https://www.ge.ch/document/21502/telecharger,,
+2020-08-20,,GR,,971,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,24,139
 2020-08-20,,JU,,263,,0,0,,,,https://www.jura.ch/Htdocs/Files/v/35072.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_internet_20_08.xlsx?download=1,,
 2020-08-20,,LU,,998,,7,4,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,49,178
 2020-08-20,,NW,,131,,0,0,,,3,http://www.nw.ch/coronastatistik,,
