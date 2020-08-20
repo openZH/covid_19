@@ -87,4 +87,4 @@ for row in rows:
         print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     if row['Verstorben'] is not None:
-        print('Deaths:', str(row['Verstorben']).split()[0])
+        print('Deaths:', row['Verstorben'])
