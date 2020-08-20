@@ -14,6 +14,8 @@ for i, row in enumerate(rows):
         continue
     if not sc.represents_int(row['Cumul cas positifs']):
         continue
+    if row['Nb nouveaux cas positifs'] is None and row["Nb nouvelles admissions à l'hôpital"] is None:
+        continue
 
     if not is_first:
         print('-' * 10)
