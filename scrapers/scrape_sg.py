@@ -66,4 +66,15 @@ assert death_cells[0].text == 'Verstorbene (kumuliert)'
 dd_cases.deaths = death_cells[1].string
 
 print(dd_cases)
+print('-' * 10)
 
+# isolated / quarantined cases
+
+isolation_table = soup.find(string=re.compile(r"Contact Tracing: Anzahl der betreuten Personen")).find_next('table')
+
+dd_isolation = sc.DayData(canton='SG', url=url)
+dd_isolation.datetime = sc.find('Stand ([0-9]{2}.[0-9]{2}.[0-9]{4} [0-9]{2}:[0-9]{2})h', isolation_table.text)
+dd_isolation.isolated = isolation_table.find(string=re.compile(r'Indexf.lle im Tracing / in Isolation')).find_next('td').find_next('td').text
+dd_isolation.quarantined = isolation_table.find(string=re.compile(r'Kontaktpersonen im Tracing / in Quarant.ne')).find_next('td').find_next('td').text
+
+print(dd_isolation)
