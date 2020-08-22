@@ -4174,6 +4174,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-21,15:40,AR,,127,,2,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,9,19
 2020-08-21,16:00,UR,,129,,0,,,115,7,https://www.ur.ch/themen/2962,,55
 2020-08-22,,FL,,99,,1,,,88,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
+2020-08-22,,GR,,979,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,178
 2020-08-22,08:00,BE,,2382,,,,,,98,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-08-22,09:00,BS,,1179,,,,,1049,53,https://www.gesundheit.bs.ch,77,118
 2020-08-22,14:30,ZH,,5507,,23,,7,,140,https://www.zh.ch/de/gesundheit/coronavirus.html,514,934
