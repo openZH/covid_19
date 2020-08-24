@@ -40,6 +40,8 @@ for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
+    if row['Cumul cas COVID-19'] is None:
+        continue
 
     print('-' * 10)
     is_first = False
@@ -52,7 +54,7 @@ for i, row in enumerate(rows):
     dd = sc.DayData(canton='GE', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas COVID-19']
-    dd.hospitalized = row['Total hospitalisations COVID-19 actifs ']
+    dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours)']
     dd.icu = row['Patients COVID-19 actifs aux soins intensifs ']
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires']
     dd.deaths = row['Cumul décès COVID-19 ']
