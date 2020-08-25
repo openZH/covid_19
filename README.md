@@ -17,14 +17,14 @@ If you have any questions, please don't hestitate to contact us: <br>
 ## List of open government datasets published in this repository
 
 **Swiss Cantons and Principality of Liechtenstein** <br>
-- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
-- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
+- [Unified dataset](https://github.com/openZH/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
+- [More detailed dataset](https://github.com/openZH/covid_19#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
 
 **Canton Zürich** <br>
-- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich--unified-dataset) <br>
-- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset)<br>
-- [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
-- [Districts (Bezirk)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
+- [Unified dataset](https://github.com/openZH/covid_19/blob/master/README.md#conton-z%C3%BCrich--unified-dataset) <br>
+- [More detailed dataset](https://github.com/openZH/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset)<br>
+- [Postal codes (Postleitzahl)](https://github.com/openZH/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
+- [Districts (Bezirk)](https://github.com/openZH/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/kalakaru/covid_19/blob/master/README.md#community-contributions).
 
@@ -124,7 +124,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 >*Additional remark*: Not all datasets are maintained. 
 
 **Maintained datasets** <br>
-- See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset
+- See: https://github.com/openZH/covid_19/blob/master/README.md#canton-z%C3%BCrich-more-detailed-dataset
 
 **Unmaintained datasets** <br>
 - [COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv)
@@ -150,19 +150,19 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
 
 
-## Conton Zürich:  Unified dataset
+## Canton Zürich: Unified dataset
 
 **Data** <br>
 > **https://github.com/openZH/covid_19#swiss-cantons-and-principality-of-liechtenstein-unified-dataset** <br>
 > *Description:* [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/dataset/covid_19-fallzahlen-kanton-zuerich/resource/4d56ce1f-dad4-4487-98a3-2f33039f025f)
 
-## Conton Zürich: More detailed dataset 
+## Canton Zürich: More detailed dataset 
 
 **Data** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv** <br>
 >*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://opendata.swiss/de/dataset>/covid_19-fallzahlen-kanton-zuerich/resource/fbf8fab6-1a9b-496d-9272-f398fb3a74ba) <br>
->*Spatial unit:* Conton Zürich <br>
+>*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 >*Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
 
@@ -183,7 +183,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv** <br>
 >*Description:* Inhabitants per age category and gender. <br>
->*Spatial unit:* Conton Zürich <br>
+>*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 
 **Metadata**
@@ -196,13 +196,13 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 | __Gender__  |Geschlecht  | Gender    |  Text|
 | __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
 
-## Conton Zürich: Postal codes (Postleitzahl)
+## Canton Zürich: Postal codes (Postleitzahl)
 
 **Data** <br>
 
 >**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv** <br>
 >*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
->*Spatial unit:* Conton Zürich <br>
+>*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 >*Additional remark*: <br>
 
@@ -222,13 +222,13 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 >**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json**
 
 
-## Conton Zürich: Districts (Bezirk)
+## Canton Zürich: Districts (Bezirk)
 
 **Data** <br>
 
 >**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv** <br>
 >*Description:* [opendata.swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/6129ae60-bd22-4809-a18b-55875352ee76) <br>
->*Spatial unit:* Conton Zürich <br>
+>*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 
 
