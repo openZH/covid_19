@@ -222,7 +222,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 >**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json**
 
 
-## Canton Zürich: Districts (Bezirk)
+## Canton Zurich: Districts (Bezirk)
 
 **Data** <br>
 
