@@ -152,9 +152,9 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 ## Conton Zürich:  Unified dataset
 
-See: 
-- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset 
-- [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
+**Data** <br>
+> **https://github.com/openZH/covid_19#swiss-cantons-and-principality-of-liechtenstein-unified-dataset** <br>
+> *Description:* [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/dataset/covid_19-fallzahlen-kanton-zuerich/resource/4d56ce1f-dad4-4487-98a3-2f33039f025f)
 
 ## Conton Zürich: More detailed dataset 
 
