@@ -1,3 +1,3 @@
 # Metadata
 
-See https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk. 
+See https://github.com/openZH/covid_19/blob/master/README.md#canton-z%C3%BCrich-districts-bezirk. 
