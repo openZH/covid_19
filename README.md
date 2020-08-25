@@ -272,6 +272,9 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 ### Interactive Small Multiples of Case Numbers by Canton
 - https://sars-cov-2-switzerland.netlify.com/
 
+### shellyBits Interactive Dashboard
+- https://covid19.shellybits.com/
+
 ### REST-API
 - [https://covid19-rest.herokuapp.com](https://covid19-rest.herokuapp.com)
 - [github-repo](https://github.com/apfeuti/covid19-rest) <br>Andreas Pfeuti
