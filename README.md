@@ -20,7 +20,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
 - [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
 
-**Conton Zürich** <br>
+**Canton Zürich** <br>
 - [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich--unified-dataset) <br>
 - [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset)<br>
 - [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
