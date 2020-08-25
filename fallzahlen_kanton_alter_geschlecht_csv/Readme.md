@@ -1,5 +1,5 @@
 # Metadata
 
 See:
-- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset
-- https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset
+- https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset
+- https://github.com/openZH/covid_19/tree/master#canton-zurich-more-detailed-dataset
