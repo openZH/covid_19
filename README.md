@@ -4,7 +4,7 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-# SARS-CoV-2 open government datasets 
+# SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
 ## Aim
 
