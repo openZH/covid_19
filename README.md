@@ -4,49 +4,81 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-# SARS-CoV-2 Cases communicated by Swiss Cantons and Principality of Liechtenstein (FL)
+# SARS-CoV-2 open government datasets 
 
-**Since 8 June 2020 most cantons are not communicating cantonal case numbers more often than once or twice per week, and neither  over weekends. The data in our repository is kept up-to-date with the [latest communicated data by Swiss cantons and FL](https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/).**
+## Aim
 
-**The Federal Office of Public Health FOPH is issueing daily case number updates (incl. on weekends) on its website: ["Confirmed coronavirus infections, deaths, epidemiological situation"](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/situation-schweiz-und-international.html#-1199962081)**
+The aim of this repository is to provide open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
 
-*Due to different sources, definitions and methodologies the values communicated by cantons may differ from those communicated by the FOPH.*
+If you have any questions, please don't hestitate to contact us: <br>
+https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!) <br>
+mailto:info@open.zh.ch <br>
 
----
+## List of open government datasets published in this repository
 
-We are providing a common official OGD dataset of SARS-CoV-2 case numbers, which are communicated by official Swiss canton's (26 cantons, abbreviations see below) and Principality of Liechtenstein's (abbreviation: FL) sources.
+**Swiss Cantons and Principality of Liechtenstein** <br>
+- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
+- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
 
-The infection rates refer to the infection with
-[SARS-CoV-2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2),
-whereas the disease caused by the virus is called [Covid-19](https://en.wikipedia.org/wiki/Coronavirus_disease_2019).
+**Conton Zürich** <br>
+- [Unified dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich--unified-dataset) <br>
+- [More detailed dataset](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset)<br>
+- [Postal codes (Postleitzahl)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl)<br>
+- [Districts (Bezirk)](https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-districts-bezirk)<br>
 
-We are providing SARS-CoV-2 case numbers *in machine-readable form (CSV)* as OGD resources (Open Government Data), that *have been published  by official sources (Cantons and FL) online*. Sources are specified with the respective URL(s).
+Don't forget to take a look at the [community contributions](https://github.com/kalakaru/covid_19/blob/master/README.md#community-contributions).
 
-Case numbers include persons tested and treated in the respective Canton resp. Principality of Liechtenstein. *Important:* Since 09.03.2020, only persons who meet certain test criteria are tested (see e.g. with the Canton of Zurich "Testkriterien" at www.gd.zh.ch/coronavirus).
+## Swiss Cantons and Principality of Liechtenstein: Unified dataset
 
-The data is updated regularly - if available daily. Times of collection and update of the data may vary. We are specifying the date of the last reporting, and - if available - a time-stamp, too.
+**General description** <br>
+This data is generated and validated daily at 6pm using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for the specific date. 
 
-The data is both automatically and manually updated, and regularly checked. We are performing a complete manual update and verification once a day; this "roundtrip" starts at 6pm CET. It is usually completed within 120 minutes.
+**Data** <br>
 
-There is a [merged file](
-https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv) of all Cantons and FL that is automatically updated for use in data analysis.
+>**https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2** <br>
+>*Description:* Case numbers for each spatial unit separately.  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv/ 
 
-You can get started exploring the data with `visualise.ipynb` ([run it in your browser](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)).
+>**https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv** <br>
+>*Description:* Case numbers for all spatial units in one single file.  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>??? *Additional remark*: In contrast to https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv ... 
 
-We are available to advise and support interested authorities, how to easily complete both historized data, and missing columns. You can reach us:
-- https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!)
-- mailto:info@open.zh.ch
 
-# Data Updates
+**Metadata**
 
---> **[Check our status dashboard with the latest data updates](http://www.web.statistik.zh.ch/covid19_dashboard/index.html)**
+| Field Name          | Description                                | Format     | Note |
+|---------------------|--------------------------------------------|------------|------|
+| __date__              | Date of notification                       | YYYY-MM-DD | |
+| __time__                 | Time of notification                       | HH:MM      | |
+| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
+| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
+| __ncumul_conf__          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
+| __new_hosp__        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
+| __current_hosp__       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
+| __current_icu__       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
+| __current_vent__        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
+| __ncumul_released__     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
+| __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
+| __source__              | Source of the information                  | href       | |
+| __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
+| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
 
-Note: Image below is updated every 20 minutes.
-[![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html)
+**Empty values vs. 0**
 
-## Cantonal / FL data resources
+| Value    | Meaning |
+|----------| --------|
+| 0        | Zero cases are reported.
+|empty     | No value is reported.
 
-| Canton / FL | updated by | data historized |
+**Data collection** <br>
+
+This list provides an overview of how the data is collected: <br>
+
+ Canton / FL | updated by | data historized |
 |-------------|------------|-----------------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|scraping|yes|
 |[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|scraping|yes|
@@ -76,52 +108,37 @@ Note: Image below is updated every 20 minutes.
 |[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|scraping|yes|
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|scraping|yes|
 
-# Data structure
+**Latest updates** <br>
+The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_dashboard/index.html#/). Note that this images is updated every 20 minutes.
 
-## Data on Cantonal Case Numbers
+[![Dashboard of data updates](https://github.com/openZH/covid_19/raw/master/dashboard/dashboard.png "Dashboard of data updates")](http://www.web.statistik.zh.ch/covid19_dashboard/index.html) 
 
-### Single Cantonal Files
+## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
-https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_total_csv_v2
+**Data** <br>
 
-### Merged File for all Cantons
+>**https://github.com/kalakaru/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv** <br>
+>*Description:* Selected cantons publish more detailed datasets.  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>*Additional remark*: Not all datasets are maintained. 
 
-https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv
+**Maintained datasets** <br>
+- See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-more-detailed-dataset
 
-The dataset containing the cantonal case numbers is structured as follows:
+**Unmaintained datasets** <br>
+- [COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AG_alter_geschlecht.csv)
 
-[example-file](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_Beispiel.csv)
+- [COVID19_Fallzahlen_Kanton_AI_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AI_alter_geschlecht.csv)
 
-| Field Name          | Description                                | Format     | Note |
-|---------------------|--------------------------------------------|------------|------|
-| __date__              | Date of notification                       | YYYY-MM-DD | |
-| __time__                 | Time of notification                       | HH:MM      | |
-| __abbreviation_canton_and_fl__  | Abbreviation of the reporting canton       | Text       | |
-| __ncumul_tested__      | Reported number of tests performed as of date| Number     | Irrespective of canton of residence |
-| __ncumul_conf__          | Reported number of confirmed cases as of date| Number     | Only cases that reside in the current canton |
-| __new_hosp__        | new hospitalisations since last date | Number     | Irrespective of canton of residence |
-| __current_hosp__       | Reported number of hospitalised patients on date | Number     | Irrespective of canton of residence |
-| __current_icu__       | Reported number of hospitalised patients in ICUs on date| Number     | Irrespective of canton of residence |
-| __current_vent__        | Reported number of patients requiring invasive ventilation on date | Number     | Irrespective of canton of residence |
-| __ncumul_released__     |Reported number of patients released from hospitals or reported recovered as of date| Number     | Irrespective of canton of residence |
-| __ncumul_deceased__     |Reported number of deceased as of date| Number     | Only cases that reside in the current canton |
-| __source__              | Source of the information                  | href       | |
-| __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
-| __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
+- [COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv)
 
-Note that only numbers communicated by the cantons are published in the files, i.e. it's possible that there are gaps, when a canton did not provide a certain number on a date.
-It's on purpose that the cumulative numbers are not carried forward if no new number is communicated.
+- [COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv)
 
-### Note about empty values vs. `0`:
+- [COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv)
 
-| Value    | Meaning |
-|----------| --------|
-| 0        | canton communicated `0` for this variable on that date|
-|empty     | canton communicated nothing/did not provide a value for this variable on that date|
+**Metadata for unmaintained datasets** <br>
 
-## Confirmed Cases and Fatalities by Age, Gender and Pre-existing Conditions
-Selected Cantons publish more detailed datasets, which are available in this __directory__:
-https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlecht_csv
 | __Field Name__          | __Description__                                | __Format__     |__Reporting Cantons__|
 |---------------------|--------------------------------------------|------------|--|
 | __Date__              | __ZH__ = Date of test result (NewConfCases) / Date of death (NewDeaths) </br> __BL__ = Date of death </br> __BS__ = Date of notification | YYYY-MM-DD | |
@@ -132,15 +149,117 @@ https://github.com/openZH/covid_19/tree/master/fallzahlen_kanton_alter_geschlech
 | __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
 
-Comparable data for the Canton Thurgau in a slightly different format is available on [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
+
+## Conton Zürich:  Unified dataset
+
+See: 
+- https://github.com/kalakaru/covid_19/blob/master/README.md#swiss-cantons-and-principality-of-liechtenstein-unified-dataset 
+- [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/3cc22355-dedd-461a-99dc-bb6de26db5a4)
+
+## Conton Zürich: More detailed dataset 
+
+**Data** <br>
+
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv** <br>
+>*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://opendata.swiss/de/dataset>/covid_19-fallzahlen-kanton-zuerich/resource/fbf8fab6-1a9b-496d-9272-f398fb3a74ba) <br>
+>*Spatial unit:* Conton Zürich <br>
+>*Format:* csv <br>
+>*Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
+
+
+**Metadata**
+
+| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Area__               | Kanton |   Abbreviation of the reporting canton   | Text|
+| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps)   | Text |
+| __Gender__     |Geschlecht  | Gender    |  Text|
+| __NewConfCases__      | Neue bestätigte Fälle | Newly confirmed number of cases| Zahl   |  
+| __NewDeaths__          | Neue Todesfälle | Newly confirmed number of deaths| Zahl     | 
+
+**Data** <br>
+
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Einwohner_Kanton_ZH_altersklassen_geschlecht.csv** <br>
+>*Description:* Inhabitants per age category and gender. <br>
+>*Spatial unit:* Conton Zürich <br>
+>*Format:* csv <br>
+
+**Metadata**
+
+| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Year__  | Stichtag ist jeweils der 31.12 des angegebenen  Jahres| The reporting date is the 31.12 of the indicated year |Zahl|
+| __Area__               | Kanton |   Abbreviation of the reporting canton  | Text|
+| __AgeYearCat__ | 10-Jahres Altersklassen     | Age groups (10 year steps) | Text |
+| __Gender__  |Geschlecht  | Gender    |  Text|
+| __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
+
+## Conton Zürich: Postal codes (Postleitzahl)
+
+**Data** <br>
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
+>*Spatial unit:* Conton Zürich <br>
+>*Format:* csv <br>
+>*Additional remark*: <br>
+
+**Metadata**
+
+| Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __PLZ__ | Postleitzahl* |Postalcode* |Zahl|
+| __Date__  | Datum des Befundes | Date of test result (NewConfCases)  |Zahl|
+| __Population__| Einwohner mit Hauptwohnsitz | Inhabitants with main residency| Zahl   |  
+| __NewConfCases_7days__ | Neue bestätigte Fälle in den letzten sieben Tagen (Kategorien) | Newly confirmed cases (Categories)| Text     | 
+
+**Geodata** <br>
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg4326_F_KTZH_2020.json** <br>
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_plz/PLZ_gen_epsg2056_F_KTZH_2020.json**
+
+
+## Conton Zürich: Districts (Bezirk)
+
+**Data** <br>
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/6129ae60-bd22-4809-a18b-55875352ee76) <br>
+>*Spatial unit:* Conton Zürich <br>
+>*Format:* csv <br>
+
+
+**Metadata**
+
+| Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __DistrictId__ |Bezirks-ID (BFS-Nummer)* |District (BFS-Id)* |Zahl|
+| __District__ | Bezirksname*|  District name*   | Text |
+| __Population__ | Wohnbevölkerung | Population |Zahl|
+| __Week__  | Kalenderwoche des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Calendar week of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __Year__  | Jahr des Befundes (NewConfCases) / Todesdatums (NewDeaths) | Year of test result (NewConfCases) / Date of death (NewDeaths) |Zahl|
+| __NewConfCases__ |Neue bestätigte Fälle | Newly confirmed number of cases| Zahl|  
+| __NewDeaths__| Neue Todesfälle | Newly confirmed number of deaths| Zahl| 
+| __TotalConfCases__ |Total der bestätigten Fälle (kumuliert) | Total of confirmed cases (cumulated) | Zahl|  
+| __TotalDeaths__|Total der Todesfälle (kumuliert) | Total of confirmed deaths (cumulated) | Zahl| 
+
+**Geodata**
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg4326_F_KTZH_2020.json** <br>
+
+>**https://github.com/kalakaru/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json**
 
 # Community Contributions
+
 ### Visualization of Swiss and Cantonal Case Numbers over Time
 - https://rsalzer.github.io/COVID_19_CH/
 - https://rsalzer.github.io/COVID_19_KT_ZH/ 
 <br>Robert Salzer on Twitter: https://twitter.com/rob_salzer
 
-### Operations Dashboard
+### ArcGIS Dashboard
 - https://covid19.ddrobotec.com/ 
 [github-repo](https://github.com/zdavatz/covid19_ch) 
 <br>Zeno Davatz on Twitter: https://twitter.com/zdavatz
