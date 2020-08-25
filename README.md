@@ -12,7 +12,7 @@ The aim of this repository is to provide open government datasets for SARS-CoV-2
 
 If you have any questions, please don't hestitate to contact us: <br>
 - https://twitter.com/OpenDataZH (follow us, we send you a private Direct Message, thanks!) <br>
-- mailto:info@open.zh.ch <br>
+- [info@open.zh.ch](mailto:info@open.zh.ch) <br>
 
 ## List of open government datasets published in this repository
 
