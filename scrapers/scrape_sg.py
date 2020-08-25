@@ -33,10 +33,12 @@ for i in range(1, len(rows)):
     if cells[0].text.strip() == 'Total Covid-19 Patienten':
         dd_hosp.hospitalized = cells[1].text
     elif cells[0].text.strip() == 'davon auf Intensivstation ohne Beatmung':
-        dd_hosp.icu = cells[1].text
+        dd_hosp.icu = int(cells[1].text)
     elif cells[0].text.strip() == 'davon auf Intensivstation mit Beatmung':
-        dd_hosp.vent = cells[1].text
+        dd_hosp.vent = int(cells[1].text)
 
+if dd_hosp.vent:
+    dd_hosp.icu += dd_hosp.vent
 print(dd_hosp)
 
 print('-' * 10)
