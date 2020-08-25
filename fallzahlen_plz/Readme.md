@@ -1,2 +1,2 @@
 # Metadata
-See: https://github.com/kalakaru/covid_19/blob/master/README.md#conton-z%C3%BCrich-postal-codes-postleitzahl. 
+See: https://github.com/openZH/covid_19/tree/master#canton-zurich-postal-codes-postleitzahl. 
