@@ -4269,6 +4269,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-26,,FL,,104,,1,,,96,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-08-26,,FR,,1595,,2,0,,160,85,https://www.fr.ch/sites/default/files/2020-08/200826_statistiques_situation_COVID_site.xlsx,,
 2020-08-26,,GE,,,,19,0,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-08-26,,GR,,991,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,32,147
 2020-08-26,,JU,,266,,1,0,,,,https://www.jura.ch/Htdocs/Files/v/35133.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees-internet_26.08.xlsx?download=1,,
 2020-08-26,,LU,,1027,,9,3,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,39,123
 2020-08-26,,NW,,133,,0,0,,,3,http://www.nw.ch/coronastatistik,,
