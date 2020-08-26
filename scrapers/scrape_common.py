@@ -122,6 +122,16 @@ class StripKeyDict(dict):
     def __setitem__(self, key, val):
         dict.__setitem__(self, key.strip(), val)
 
+    # method to search for keys with regex
+    def search(self, key):
+        reg = re.compile(key, flags=re.I)
+        for k, v in self.items():
+            if reg.match(k):
+                print((k, v))
+                return v
+        raise KeyError
+
+
 def add_cert_to_bundle():
     try:
         test = requests.get('https://www.infosan.vd.ch')

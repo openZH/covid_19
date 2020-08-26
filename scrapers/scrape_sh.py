@@ -84,16 +84,17 @@ for row in rows:
 
     print('Confirmed cases:', row['Positiv'])
     if sc.represents_int(row['Hospitalisation isoliert\nbestätigt']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
-        print('Hospitalized:', (row['Hospitalisation isoliert\nbestätigt'] + row['Hospitalisiert_Intensiv']))
+        print('Hospitalized:', (row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     if row['Verstorben'] is not None:
         print('Deaths:', row['Verstorben'])
-    if row['Anzahl Personen\nin Isolation'] is not None:
-        print('Isolated:', row['Anzahl Personen\nin Isolation'])
-    quarantined_risk = 0
-    if row['Anzahl Personen\nin Quarantäne\nRückkehr aus Risikoland'] is not None:
-        quarantined_risk = int(row['Anzahl Personen\nin Quarantäne\nRückkehr aus Risikoland'])
-        print('Quarantined risk area travel:', row['Anzahl Personen\nin Quarantäne\nRückkehr aus Risikoland'])
-    if row['Anzahl Personen\nin Quarantäne\nKontaktperson zu Indexfall'] is not None:
-        print('Quarantined total:',
-              int(row['Anzahl Personen\nin Quarantäne\nKontaktperson zu Indexfall']) + quarantined_risk)
+
+    isolated = row.search(r'Anzahl Personen\s+in Isolation.*')
+    if isolated is not None:
+        print('Isolated:', isolated)
+    quarantined = row.search(r'Anzahl Personen\s+in Quarantäne\s+.*Kontaktpersonen.*')
+    if quarantined is not None:
+        print('Quarantined:', quarantined)
+    quarantined_risk = row.search(r'Anzahl Personen\s+in Quarantäne\s+.*Rückkehr.*Risikoländer.*')
+    if quarantined_risk is not None:
+        print('Quarantined risk area travel:', quarantined_risk)
