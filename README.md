@@ -22,7 +22,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 
 **Canton Zurich** <br>
 - [Unified dataset](https://github.com/openZH/covid_19/tree/master#canton-zurich-unified-dataset) <br>
-- [More detailed dataset](https://github.com/openZH/covid_19/tree/master#canton-zurich-more-detailed-dataset)<br>
+- [More detailed dataset](https://github.com/openZH/covid_19/tree/master#canton-z%C3%BCrich-more-detailed-dataset)<br>
 - [Postal codes (Postleitzahl)](https://github.com/openZH/covid_19/tree/master#canton-zurich-postal-codes-postleitzahl)<br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 
