@@ -127,7 +127,6 @@ class StripKeyDict(dict):
         reg = re.compile(key, flags=re.I)
         for k, v in self.items():
             if reg.match(k):
-                print((k, v))
                 return v
         raise KeyError
 
