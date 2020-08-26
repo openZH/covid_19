@@ -45,7 +45,7 @@ This data is generated and validated daily at 6pm using manual and automated pro
 >*Description:* Case numbers for all spatial units in one single file.  <br>
 >*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
 >*Format:* csv <br>
->*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv) ... 
+>*Additional remark*: [Link to deprecated dataset (data structure has changed)](https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total.csv)
 
 
 **Metadata**
