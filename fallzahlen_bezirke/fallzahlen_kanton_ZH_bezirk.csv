@@ -24,6 +24,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 101,Bezirk Affoltern,55111,31,2020,6,0,125,4
 101,Bezirk Affoltern,55111,32,2020,8,0,133,4
 101,Bezirk Affoltern,55111,33,2020,3,0,136,4
+101,Bezirk Affoltern,55111,34,2020,15,0,151,4
 102,Bezirk Andelfingen,31490,9,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,10,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,11,2020,1,0,1,0
@@ -49,6 +50,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 102,Bezirk Andelfingen,31490,31,2020,7,0,89,4
 102,Bezirk Andelfingen,31490,32,2020,2,0,91,4
 102,Bezirk Andelfingen,31490,33,2020,1,0,92,4
+102,Bezirk Andelfingen,31490,34,2020,3,0,95,4
 103,Bezirk Bülach,154731,9,2020,0,0,0,0
 103,Bezirk Bülach,154731,10,2020,4,0,4,0
 103,Bezirk Bülach,154731,11,2020,16,0,20,0
@@ -74,6 +76,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,31,2020,17,0,399,6
 103,Bezirk Bülach,154731,32,2020,30,0,429,6
 103,Bezirk Bülach,154731,33,2020,51,0,480,6
+103,Bezirk Bülach,154731,34,2020,51,0,531,6
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -99,6 +102,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 104,Bezirk Dielsdorf,91112,31,2020,10,0,235,4
 104,Bezirk Dielsdorf,91112,32,2020,13,0,248,4
 104,Bezirk Dielsdorf,91112,33,2020,29,0,277,4
+104,Bezirk Dielsdorf,91112,34,2020,8,0,285,4
 105,Bezirk Hinwil,96595,9,2020,0,0,0,0
 105,Bezirk Hinwil,96595,10,2020,2,0,2,0
 105,Bezirk Hinwil,96595,11,2020,7,0,9,0
@@ -124,6 +128,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,31,2020,19,0,262,0
 105,Bezirk Hinwil,96595,32,2020,17,0,279,0
 105,Bezirk Hinwil,96595,33,2020,7,0,286,0
+105,Bezirk Hinwil,96595,34,2020,11,0,297,0
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -149,6 +154,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,31,2020,6,0,316,9
 106,Bezirk Horgen,125834,32,2020,7,0,323,9
 106,Bezirk Horgen,125834,33,2020,22,0,345,9
+106,Bezirk Horgen,125834,34,2020,28,0,373,9
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -174,6 +180,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,31,2020,5,0,277,8
 107,Bezirk Meilen,104274,32,2020,13,0,290,8
 107,Bezirk Meilen,104274,33,2020,24,0,314,8
+107,Bezirk Meilen,104274,34,2020,25,0,339,8
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -199,6 +206,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 108,Bezirk Pfäffikon,60703,31,2020,17,0,157,7
 108,Bezirk Pfäffikon,60703,32,2020,4,1,161,8
 108,Bezirk Pfäffikon,60703,33,2020,8,0,169,8
+108,Bezirk Pfäffikon,60703,34,2020,4,0,173,8
 109,Bezirk Uster,131422,9,2020,0,0,0,0
 109,Bezirk Uster,131422,10,2020,1,0,1,0
 109,Bezirk Uster,131422,11,2020,11,0,12,0
@@ -224,6 +232,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,31,2020,19,0,332,7
 109,Bezirk Uster,131422,32,2020,16,0,348,7
 109,Bezirk Uster,131422,33,2020,26,0,374,7
+109,Bezirk Uster,131422,34,2020,29,0,403,7
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -249,6 +258,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,31,2020,25,0,491,8
 110,Bezirk Winterthur,171101,32,2020,24,0,515,8
 110,Bezirk Winterthur,171101,33,2020,31,0,546,8
+110,Bezirk Winterthur,171101,34,2020,44,1,590,9
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -274,6 +284,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,31,2020,7,0,291,7
 111,Bezirk Dietikon,92275,32,2020,17,0,308,7
 111,Bezirk Dietikon,92275,33,2020,30,0,338,7
+111,Bezirk Dietikon,92275,34,2020,49,0,387,7
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -299,3 +310,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,31,2020,47,0,1360,70
 112,Bezirk Zürich,422870,32,2020,50,1,1410,71
 112,Bezirk Zürich,422870,33,2020,124,1,1534,72
+112,Bezirk Zürich,422870,34,2020,150,0,1684,72

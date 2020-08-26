@@ -65,7 +65,7 @@ is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
-    if not (row['Positiv'] or row['Hospitalisiert_Iso'] or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
+    if not (row['Positiv'] or row['Hospitalisation isoliert\nbestätigt'] or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
         continue
 
     if not is_first:
@@ -83,8 +83,18 @@ for row in rows:
         print('Date and time:', row['Datum'].date().isoformat())
 
     print('Confirmed cases:', row['Positiv'])
-    if sc.represents_int(row['Hospitalisiert_Iso']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
-        print('Hospitalized:', (row['Hospitalisiert_Iso'] + row['Hospitalisiert_Intensiv']))
+    if sc.represents_int(row['Hospitalisation isoliert\nbestätigt']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
+        print('Hospitalized:', (row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     if row['Verstorben'] is not None:
         print('Deaths:', row['Verstorben'])
+
+    isolated = row.search(r'Anzahl Personen\s+in Isolation.*')
+    if isolated is not None:
+        print('Isolated:', isolated)
+    quarantined = row.search(r'Anzahl Personen\s+in Quarantäne\s+.*Kontaktpersonen.*')
+    if quarantined is not None:
+        print('Quarantined:', quarantined)
+    quarantined_risk = row.search(r'Anzahl Personen\s+in Quarantäne\s+.*Rückkehr.*Risikoländer.*')
+    if quarantined_risk is not None:
+        print('Quarantined risk area travel:', quarantined_risk)

@@ -40,8 +40,6 @@ for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
-    if row['Cumul cas COVID-19'] is None:
-        continue
 
     print('-' * 10)
     is_first = False
