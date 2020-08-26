@@ -59,7 +59,7 @@ matrix_time = [
     # 'NE',  # Not easily available.
     'OW',
     # 'SG',  # Not available.
-    'SH',
+    # 'SH',  # Sometimes available
     'SO',
     'SZ',
     'TG',
