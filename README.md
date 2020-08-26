@@ -154,14 +154,14 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 **Data** <br>
 > **https://github.com/openZH/covid_19#swiss-cantons-and-principality-of-liechtenstein-unified-dataset** <br>
-> *Description:* [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://opendata.swiss/dataset/covid_19-fallzahlen-kanton-zuerich/resource/4d56ce1f-dad4-4487-98a3-2f33039f025f)
+> *Description:* [open data swiss: COVID_19 Fallzahlen Kanton Zürich Total](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich)
 
 ## Canton Zürich: More detailed dataset 
 
 **Data** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_altersklassen_geschlecht.csv** <br>
->*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://opendata.swiss/de/dataset>/covid_19-fallzahlen-kanton-zuerich/resource/fbf8fab6-1a9b-496d-9272-f398fb3a74ba) <br>
+>*Description:* [open data swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Altersklasse, Geschlecht und Kalenderwoche](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
 >*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 >*Additional remark*: Comparable data for the canton of Thurgau is published at [opendata.swiss](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau).
@@ -196,12 +196,33 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 | __Gender__  |Geschlecht  | Gender    |  Text|
 | __Inhabitants__  | Anzahl Einwohner  |Number of inhabitants | Zahl |  
 
+
+**Data** <br>
+
+>**https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Anteil der positiven SARS-CoV-2 Tests im Kanton Zürich nach Kalenderwoche](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
+>*Spatial unit:* Canton Zürich <br>
+>*Format:* csv <br>
+>*Additional remark*: <br>
+
+**Metadata**
+
+| Spaltenname / Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Woche_von__  | Beginn der Kalenderwoche (Datum) | Start of the calendar week (Date) | YYYY-MM-DD |
+| __Woche_bis__  | Ende der Kalenderwoche (Datum) | End of the calendar week (Date) |YYYY-MM-DD|
+| __Kalenderwoche__               | Kalenderwoche |   Abbreviation of the reporting canton   | Zahl |
+| __Anzahl_positiv__ | Anzahl positiver Tests    | Number of positive tests | Text |
+| __Anzahl_negativ__     |Anzahl negativer Tests  | Number of negative tests   |  Text|
+| __Anteil_positiv__      | Anteil der positiven Tests an allen Tests | Share of positive tests | Zahl   |  
+
+
 ## Canton Zürich: Postal codes (Postleitzahl)
 
 **Data** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_plz/fallzahlen_kanton_ZH_plz.csv** <br>
->*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/624eb0eb-d439-488b-bbde-1ca58ee62df4) <br>
+>*Description:* [opendata.swiss: COVID_19 Fallzahlen Kanton Zürich nach Bezirk und Kalenderwoche](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
 >*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 >*Additional remark*: <br>
@@ -227,7 +248,7 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 **Data** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_bezirke/fallzahlen_kanton_ZH_bezirk.csv** <br>
->*Description:* [opendata.swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl](https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-zuerich/resource/6129ae60-bd22-4809-a18b-55875352ee76) <br>
+>*Description:* [opendata.swiss: COVID_19 Verteilung der Fälle im Kanton Zürich nach Postleitzahl](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
 >*Spatial unit:* Canton Zürich <br>
 >*Format:* csv <br>
 
