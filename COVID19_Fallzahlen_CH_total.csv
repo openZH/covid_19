@@ -4296,6 +4296,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-27,,FL,,105,,,,,1,https://www.regierung.li/media/attachments/450-corona-situationsbericht-0827.pdf
 2020-08-27,,FR,,1613,2,0,,160,85,https://www.fr.ch/sites/default/files/2020-08/200827_statistiques_situation_COVID_site.xlsx
 2020-08-27,,GE,,,19,0,,,,https://www.ge.ch/document/21502/telecharger
+2020-08-27,,GR,,994,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-08-27,,JU,,266,1,0,,,7,https://www.jura.ch/Htdocs/Files/v/35171.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_internet_27_08.xlsx?download=1
 2020-08-27,,LU,,1034,10,3,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-08-27,,NW,,133,0,0,,,3,http://www.nw.ch/coronastatistik
