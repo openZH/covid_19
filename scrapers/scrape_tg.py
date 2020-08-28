@@ -33,4 +33,5 @@ for row in reader:
     dd.new_hosp = row['new_hosp']
     dd.recovered = row['ncumul_released']
     dd.icu = row['current_ICU']
+    dd.isolated = row['num_isolated']
     print(dd)
