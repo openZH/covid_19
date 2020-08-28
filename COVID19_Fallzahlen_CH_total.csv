@@ -4293,7 +4293,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-26,14:30,ZH,,5748,19,,6,,141,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-26,16:00,UR,,136,0,,,120,7,https://www.ur.ch/themen/2962
 2020-08-27,,BL,,1024,3,1,1,936,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2020-08-27,,FL,,105,,,,,1,https://www.regierung.li/media/attachments/450-corona-situationsbericht-0827.pdf
+2020-08-27,,FL,,105,1,,,96,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-08-27,,FR,,1613,2,0,,160,85,https://www.fr.ch/sites/default/files/2020-08/200827_statistiques_situation_COVID_site.xlsx
 2020-08-27,,GE,,,19,0,,,,https://www.ge.ch/document/21502/telecharger
 2020-08-27,,GR,,994,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
@@ -4316,4 +4316,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-27,14:15,AR,,131,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-08-27,14:30,ZH,,5844,18,,5,,141,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-27,16:00,UR,,136,0,,,123,7,https://www.ur.ch/themen/2962
+2020-08-28,08:00,ZG,,344,3,,,301,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-08-28,09:00,SZ,,484,,,,423,25,https://www.sz.ch/public/upload/assets/48320/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
