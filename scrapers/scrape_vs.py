@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import datetime
+import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20%20COVID-19%20Valais.xlsx'
@@ -33,3 +35,19 @@ for i, row in enumerate(rows):
         dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
     print(dd)
 
+# parse weekly data for isolated and quarantined numbers
+base_url = 'https://www.vs.ch'
+stat_url = base_url + '/de/web/coronavirus/statistiques'
+content = sc.download(stat_url, silent=True)
+soup = BeautifulSoup(content, 'html.parser')
+res = soup.find(string=re.compile(r'Synthese COVID19 VS Woche\d+')).find_previous('a')
+weekly_pdf_url = base_url + res.attrs['href']
+content = sc.pdfdownload(weekly_pdf_url.replace(' ', '%20'), silent=True)
+
+dd = sc.DayData(canton='VS', url=weekly_pdf_url)
+dd.datetime = sc.find(r'vom (\d+)\. bis (\d+\.\d+\.20\d{2})', content, group=2)
+dd.isolated = sc.find(r'befanden\ssich\s(\d+)\spositive\sF.lle\snoch\simmer\sin\sIsolation', content)
+dd.quarantined = sc.find(r'Isolation\sund\s(\d+)\sKontakte\sin\sQuarant.ne', content)
+dd.quarantine_riskareatravel = sc.find(r'\s(\d+)\sReisende\sin\sQuarant.ne', content)
+print('-' * 10)
+print(dd)
