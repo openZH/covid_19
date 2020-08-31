@@ -31,7 +31,7 @@ Don't forget to take a look at the [community contributions](https://github.com/
 ## Swiss Cantons and Principality of Liechtenstein: Unified dataset
 
 **General description** <br>
-This data is generated and validated daily at 6pm using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for the specific date. 
+This data is generated and validated daily using manual and automated procedures. Note that we only publish data that are reported by the Swiss Cantons and the Principality of Liechtenstein. Thus, gaps result if Swiss Cantons or the Principality of Liechtenstein do not report data for the specific date. 
 
 **Data** <br>
 
