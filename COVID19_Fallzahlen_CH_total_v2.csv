@@ -4225,7 +4225,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-24,,NW,,131,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-08-24,,SG,,1218,,9,1,4,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-08-24,,VD,,6758,,21,6,,,430,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,458,1917
-2020-08-24,,VS,,2319,0,6,1,1,318,154,https://www.vs.ch/de/web/coronavirus,,
+2020-08-24,,VS,,2320,0,6,1,1,318,154,https://www.vs.ch/de/web/coronavirus,,
 2020-08-24,00:00,OW,,101,,1,,,,0,https://www.ow.ch/dl.php/de/5f4e4de585059/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-08-24,01:00,SO,,651,,3,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-08-24,08:00,BE,,2409,,4,1,1,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -4373,7 +4373,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-30,,NE,,875,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-08-30,,NW,,133,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-08-30,,VD,,7149,,16,5,,,432,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
-2020-08-30,,VS,,2369,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
+2020-08-30,,VS,,2368,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-08-30,08:00,BE,,2529,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-08-30,08:00,ZG,,344,,3,,,301,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,19,43
 2020-08-30,09:00,SZ,,485,,,,,423,25,https://www.sz.ch/public/upload/assets/48382/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
@@ -4392,7 +4392,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-31,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-08-31,,NW,,133,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-08-31,,VD,,7180,,16,5,,,432,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
-2020-08-31,,VS,,2369,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
+2020-08-31,,VS,,2371,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-08-31,00:00,OW,,107,,1,,,,0,https://www.ow.ch/dl.php/de/5f4e4de585059/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-08-31,01:00,SO,,702,,1,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-08-31,08:00,BE,,2536,,7,2,2,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -4412,6 +4412,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-01,,FR,,1703,,5,0,,163,85,https://www.fr.ch/sites/default/files/2020-09/2008901_statistiques_situation_COVID_site.xlsx,,
 2020-09-01,,GE,,,,11,0,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-09-01,,LU,,1064,,10,3,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,45,152
+2020-09-01,,VS,,2371,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-09-01,00:00,OW,,107,,1,,,,0,https://www.ow.ch/dl.php/de/5f4e4de585059/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-09-01,01:00,SO,,702,,0,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-09-01,08:00,BE,,2552,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -4425,3 +4426,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-01,12:00,SG,,,,5,3,2,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-09-01,13:00,TG,,580,0,2,1,,81,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10555,25,
 2020-09-01,14:30,ZH,,6134,,26,,6,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,,
+2020-09-01,16:30,UR,,137,,0,,,126,7,https://www.ur.ch/themen/2962,,15
