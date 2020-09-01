@@ -13,7 +13,8 @@ content = sc.download(stat_url, silent=True)
 soup = BeautifulSoup(content, 'html.parser')
 res = soup.find(string=re.compile(r'Synthese COVID19 VS Woche\d+')).find_previous('a')
 weekly_pdf_url = base_url + res.attrs['href']
-content = sc.pdfdownload(weekly_pdf_url.replace(' ', '%20'), silent=True)
+weekly_pdf_url = weekly_pdf_url.replace(' ', '%20')
+content = sc.pdfdownload(weekly_pdf_url, silent=True)
 
 
 # add isolated/quarantined to the existing DayData item
