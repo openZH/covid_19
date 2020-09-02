@@ -3,6 +3,7 @@
 
 import datetime
 import re
+import sys
 import requests
 from bs4 import BeautifulSoup
 import scrape_common as sc
@@ -100,6 +101,9 @@ def parse_weekly_pdf():
     dd = sc.DayData(canton='VD', url=pdf_url)
     year= sc.find('Situation au \d+.*(20\d{2})', pdf)
     date = sc.find('Concernant le traçage des contacts de cas positifs, le (\d+.*),', pdf)
+    if not date:
+        print("isolated/quarantined numbers missing in weekly PDF of VD", file=sys.stderr)
+        return
     dd.datetime = date + ' ' + year
     dd.isolated = sc.find('(\d+)\s(personnes|cas\spositifs)\sétaient\sen\sisolement', pdf)
     dd.quarantined = text_to_int(sc.find('(\d.\d+|\d+)\scontacts\sétroits\sen\squarantaine\.', pdf))
