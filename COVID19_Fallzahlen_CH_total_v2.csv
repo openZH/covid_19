@@ -4370,7 +4370,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-30,,GE,,6944,,18,0,,,297,https://www.ge.ch/document/21502/telecharger,267,589
 2020-08-30,,GR,,1001,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,26,60
 2020-08-30,,JU,,268,,2,0,,,7,https://www.jura.ch/Htdocs/Files/v/35199.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-1er-septembre-2020.xlsx?download=1,,
-2020-08-30,,NE,,875,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-08-30,,NE,,879,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-08-30,,NW,,133,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-08-30,,VD,,7149,,16,5,,,432,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
 2020-08-30,,VS,,2368,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
@@ -4389,7 +4389,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-08-31,,GR,,1001,,0,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,24,53
 2020-08-31,,JU,,268,,2,0,,,7,https://www.jura.ch/Htdocs/Files/v/35199.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-1er-septembre-2020.xlsx?download=1,,
 2020-08-31,,LU,,1060,,10,4,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,46,142
-2020-08-31,,NE,,,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-08-31,,NE,,880,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-08-31,,NW,,133,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-08-31,,VD,,7180,,16,5,,,432,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
 2020-08-31,,VS,,2371,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
@@ -4415,6 +4415,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-01,,GR,,1003,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,23,51
 2020-09-01,,JU,,269,,2,0,,,,https://www.jura.ch/Htdocs/Files/v/35199.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-1er-septembre-2020.xlsx?download=1,,
 2020-09-01,,LU,,1064,,10,3,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,45,152
+2020-09-01,,NE,,881,,0,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-09-01,,NW,,134,,0,0,,,3,http://www.nw.ch/coronastatistik,,
 2020-09-01,,VS,,2371,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-09-01,00:00,OW,,107,,1,,,,0,https://www.ow.ch/dl.php/de/5f4e4de585059/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
