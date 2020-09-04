@@ -56,7 +56,7 @@ print(dd_iso_q)
 """
 
 dd_travel_q = sc.DayData(canton='ZH', url=url)
-txt = soup.find(string=re.compile(r'Lage Einreisequarantäne')).find_next('h4').text
+txt = soup.find(string=re.compile(r'Lage Einreisequarantäne')).find_next('p').text
 dd_travel_q.datetime = sc.find('zuletzt am (.*)\)', txt)
 dd_travel_q.quarantine_riskareatravel = soup.find(string=re.compile(r'davon derzeit in Quarantäne')).find_previous('h4').text
 
