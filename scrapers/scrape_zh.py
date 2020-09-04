@@ -39,7 +39,7 @@ soup = BeautifulSoup(d, 'html.parser')
 date_time_info = sc.find('publiziert am (.+Uhr)', d)
 dd_iso_q.datetime = date_time_info
 dd_iso_q.isolated = soup.find(string=re.compile(r'in Isolation')).find_previous('h4').text
-dd_iso_q.quarantined = soup.find(string=re.compile(r'in Quarantäne')).find_previous('h4').text
+dd_iso_q.quarantined = soup.find(string=re.compile(r'in Quarantäne \(exkl. Einreise-Quarantäne Risikoland\)')).find_previous('h4').text
 
 print(dd_iso_q)
 
