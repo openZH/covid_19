@@ -4487,6 +4487,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-04,,FL,,107,,0,,,104,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-04,,FR,,1799,,6,1,,163,85,https://www.fr.ch/sites/default/files/2020-09/200904_statistiques_situation_COVID_site.xlsx,,
 2020-09-04,,GE,,,,16,0,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-09-04,,GR,,1009,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,18,75
 2020-09-04,,JU,,274,,3,0,,,7,https://www.jura.ch/Htdocs/Files/v/35228.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-4-septembre-2020.xlsx?download=1,,
 2020-09-04,,LU,,1083,,8,1,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,57,142
 2020-09-04,00:00,OW,,107,,0,,,,0,https://www.ow.ch/dl.php/de/5f52337da4b73/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
