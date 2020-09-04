@@ -76,7 +76,7 @@ isolation_table = soup.find(string=re.compile(r"Contact Tracing: Anzahl der betr
 
 dd_isolation = sc.DayData(canton='SG', url=url)
 dd_isolation.datetime = sc.find('Stand ([0-9]{2}.[0-9]{2}.[0-9]{4} [0-9]{2}:[0-9]{2})h', isolation_table.text)
-dd_isolation.isolated = isolation_table.find(string=re.compile(r'(Indexf.lle|Positiv Getestete) im Tracing / in Isolation')).find_next('td').find_next('td').text
-dd_isolation.quarantined = isolation_table.find(string=re.compile(r'Kontaktpersonen im Tracing / in Quarant.ne')).find_next('td').find_next('td').text
+dd_isolation.isolated = sc.find(r'^(\d+)', isolation_table.find(string=re.compile(r'(Indexf.lle|Positiv Getestete) im Tracing / in Isolation')).find_next('td').find_next('td').text)
+dd_isolation.quarantined = sc.find(r'^(\d+)', isolation_table.find(string=re.compile(r'Kontaktpersonen im Tracing / in Quarant.ne')).find_next('td').find_next('td').text)
 
 print(dd_isolation)
