@@ -3,47 +3,7 @@
 import datetime
 import requests
 
-
-class DistrictData:
-    __initialized = False
-    SEPARATOR = ','
-
-    def __init__(self, canton='', district=''):
-        self.date = None
-        self.week = None
-        self.canton = canton
-        self.district = district
-        self.population = None
-        self.total_cases = None
-        self.new_cases = None
-        self.total_deceased = None
-        self.new_deceased = None
-        self.url = None
-        self.__initialized = True
-
-    def __setattr__(self, key, value):
-        if self.__initialized and not hasattr(self, key):
-            raise TypeError('unknown key: {0}'.format(key))
-        object.__setattr__(self, key, value)
-
-    def __str__(self):
-        res = []
-        res.append(self.date or '')
-        res.append(self.week or '')
-        res.append(self.canton)
-        res.append(self.district)
-        res.append(str(self.population) or '')
-        res.append(str(self.total_cases) or '')
-        res.append(str(self.new_cases) or '')
-        res.append(str(self.total_deceased) or '')
-        res.append(str(self.new_deceased) or '')
-        res.append(self.url)
-        return DistrictData.SEPARATOR.join(res)
-
-    @staticmethod
-    def header():
-        return 'Date,Week,Canton,District,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
-
+import scrape_common as sc
 
 inhabitants = {
     'Albula': 8054,
@@ -67,12 +27,12 @@ url = 'https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallza
 resp = requests.get(url=url)
 json_data = resp.json()
 
-print(DistrictData.header())
+print(sc.DistrictData.header())
 
 for attributes in json_data['features']:
     element = attributes['attributes']
 
-    dd = DistrictData(canton='GR', district=element['Region'])
+    dd = sc.DistrictData(canton='GR', district=element['Region'])
     dd.url = url
     date = datetime.datetime.utcfromtimestamp(element['Datum'] / 1000)
     dd.date = date.date().isoformat()
