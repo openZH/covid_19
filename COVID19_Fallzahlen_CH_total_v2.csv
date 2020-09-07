@@ -4506,6 +4506,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-04,14:30,ZH,,6394,,28,,7,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
 2020-09-04,16:00,UR,,137,,0,,,127,7,https://www.ur.ch/themen/2962,,15
 2020-09-05,,AG,,2220,,,,,,,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp,,
+2020-09-05,,BL,,1063,,0,0,0,977,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,49,191
 2020-09-05,,FL,,107,,0,,,104,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-05,,FR,,1820,,5,1,,164,85,https://www.fr.ch/sites/default/files/2020-09/200907_statistiques_situation_COVID_site.xlsx,,
 2020-09-05,,GR,,1022,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,28,114
@@ -4515,8 +4516,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-05,09:00,SZ,,500,,,,,456,25,https://www.sz.ch/public/upload/assets/48463/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-05,09:15,BS,,1237,,6,2,,1137,54,https://www.gesundheit.bs.ch,46,79
 2020-09-05,10:00,TG,,592,0,4,2,,82,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
-2020-09-05,14:30,ZH,,6471,,30,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
+2020-09-05,14:30,ZH,,6472,,30,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
 2020-09-06,,AG,,2225,,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp,,
+2020-09-06,,BL,,1067,,0,0,0,981,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,46,151
 2020-09-06,,FL,,107,,0,,,105,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-06,,FR,,1874,,5,1,,164,87,https://www.fr.ch/sites/default/files/2020-09/200907_statistiques_situation_COVID_site.xlsx,,
 2020-09-06,,GR,,1022,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,28,114
@@ -4528,8 +4530,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-06,10:00,TG,,592,0,4,2,,82,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
 2020-09-06,12:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,1
 2020-09-06,12:00,SG,,1310,,8,1,0,,41,https://www.sg.ch/tools/informationen-coronavirus.html,87,561
-2020-09-06,14:30,ZH,,6513,,31,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
+2020-09-06,14:30,ZH,,6514,,31,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
 2020-09-06,19:00,UR,,137,,0,,,127,7,https://www.ur.ch/themen/2962,,14
+2020-09-07,,BL,,1067,,0,0,0,987,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,37,107
 2020-09-07,,FR,,1898,,5,1,,164,87,https://www.fr.ch/sites/default/files/2020-09/200907_statistiques_situation_COVID_site.xlsx,,
 2020-09-07,,LU,,1092,,8,2,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,43,119
 2020-09-07,01:00,SO,,731,,1,,,,18,https://corona.so.ch/index.php?id=27979,,
@@ -4544,3 +4547,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-07,11:30,GL,,166,,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
 2020-09-07,12:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0
 2020-09-07,13:35,AR,,139,,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,8,16
+2020-09-07,14:30,ZH,,6558,,34,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,,
