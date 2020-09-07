@@ -4315,7 +4315,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-27,10:00,TG,,569,2,1,,80,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-08-27,11:30,GL,,163,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-08-27,12:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-08-27,12:00,SG,,1249,4,3,2,,42,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-08-27,12:00,SG,,1249,4,3,2,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-08-27,14:15,AR,,131,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-08-27,14:30,ZH,,5843,18,,5,,141,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-27,16:00,UR,,136,0,,,123,7,https://www.ur.ch/themen/2962
@@ -4379,7 +4379,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-30,09:00,SZ,,485,,,,423,25,https://www.sz.ch/public/upload/assets/48463/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx
 2020-08-30,09:40,BS,,1213,3,1,,1113,54,https://www.gesundheit.bs.ch
 2020-08-30,10:00,TG,,579,4,1,,80,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
-2020-08-30,12:00,SG,,1260,6,3,2,,42,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-08-30,12:00,SG,,1260,6,3,2,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-08-30,14:30,ZH,,6047,21,,5,,142,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-31,,AG,,2108,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
 2020-08-31,,BL,,1040,2,1,1,958,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -4405,7 +4405,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-08-31,10:30,AR,,133,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-08-31,11:00,GL,,164,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-08-31,12:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-08-31,12:00,SG,,1262,4,2,2,,42,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-08-31,12:00,SG,,1262,4,2,2,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-08-31,14:30,ZH,,6067,22,,6,,142,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-08-31,16:00,UR,,137,0,,,126,7,https://www.ur.ch/themen/2962
 2020-09-01,,AG,,2126,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
@@ -4431,7 +4431,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-01,10:00,TG,,580,3,1,,81,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-09-01,11:30,GL,,166,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-09-01,12:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-09-01,12:00,SG,,1270,5,3,2,,42,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-09-01,12:00,SG,,1270,5,3,2,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-09-01,14:30,ZH,,6135,26,,6,,142,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-09-01,16:30,UR,,137,0,,,126,7,https://www.ur.ch/themen/2962
 2020-09-02,,AG,,2146,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp
@@ -4456,7 +4456,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-02,10:00,TG,,583,3,1,,81,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-09-02,11:30,GL,,166,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
 2020-09-02,12:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2020-09-02,12:00,SG,,1280,7,1,0,,43,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-09-02,12:00,SG,,1280,7,1,0,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-09-02,14:30,ZH,,6226,27,,7,,142,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-09-02,16:00,UR,,137,0,,,127,7,https://www.ur.ch/themen/2962
 2020-09-03,,AG,,2173,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp
@@ -4479,7 +4479,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-03,10:00,TG,,584,5,2,,81,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-09-03,12:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-09-03,12:00,GL,,166,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx
-2020-09-03,12:00,SG,,1294,7,1,0,,43,https://www.sg.ch/tools/informationen-coronavirus.html
+2020-09-03,12:00,SG,,1294,7,1,0,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-09-03,13:30,AR,,135,3,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-09-03,14:30,ZH,,6298,28,,7,,142,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-09-03,16:00,UR,,137,0,,,127,7,https://www.ur.ch/themen/2962
