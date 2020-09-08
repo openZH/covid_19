@@ -4499,7 +4499,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-04,01:00,SO,,721,,0,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-09-04,08:00,BE,,2610,,4,2,2,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-04,08:00,TI,,3556,,1,0,0,928,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-09-04,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-09-04,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,12,23
 2020-09-04,09:00,BS,,1233,,5,2,,1130,54,https://www.gesundheit.bs.ch,49,101
 2020-09-04,09:00,SZ,,496,,,,,454,25,https://www.sz.ch/public/upload/assets/48480/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-04,09:30,SH,,167,,0,0,,,8,https://sh.ch/CMS/get/file/cf9e9aba-e895-4f97-b3db-1fd7c80710ad,5,46
@@ -4518,7 +4518,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-05,,SG,,1306,,,,,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-09-05,,VS,,2437,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-09-05,08:00,BE,,2650,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
-2020-09-05,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-09-05,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,12,23
 2020-09-05,09:00,SZ,,500,,,,,456,25,https://www.sz.ch/public/upload/assets/48480/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-05,09:15,BS,,1237,,6,2,,1137,54,https://www.gesundheit.bs.ch,46,79
 2020-09-05,10:00,TG,,592,0,4,2,,82,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
@@ -4532,7 +4532,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-06,,NE,,914,,1,0,0,,85,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-09-06,,VS,,2439,0,3,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-09-06,08:00,BE,,2673,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
-2020-09-06,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-09-06,08:00,ZG,,371,,2,,,317,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,28,36
 2020-09-06,09:00,SZ,,500,,,,,456,25,https://www.sz.ch/public/upload/assets/48480/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-06,09:45,BS,,1241,,5,2,,1148,54,https://www.gesundheit.bs.ch,39,75
 2020-09-06,10:00,TG,,592,0,4,2,,82,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
@@ -4552,7 +4552,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-07,01:00,SO,,731,,1,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-09-07,08:00,BE,,2681,,3,2,1,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-07,08:00,TI,,3561,,0,0,0,929,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-09-07,08:00,ZG,,377,,1,,,318,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-09-07,08:00,ZG,,377,,1,,,318,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,34,42
 2020-09-07,09:00,BS,,1247,,4,1,,1151,54,https://www.gesundheit.bs.ch,42,63
 2020-09-07,09:00,SH,,168,,0,0,,,8,https://sh.ch/CMS/get/file/cf9e9aba-e895-4f97-b3db-1fd7c80710ad,6,57
 2020-09-07,09:00,SZ,,508,,,,,460,25,https://www.sz.ch/public/upload/assets/48480/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
@@ -4569,3 +4569,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-08,09:00,BS,,1254,,4,1,,1154,54,https://www.gesundheit.bs.ch,46,67
 2020-09-08,09:00,SZ,,511,,,,,464,25,https://www.sz.ch/public/upload/assets/48480/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-08,09:30,SH,,171,,0,0,,,8,https://sh.ch/CMS/get/file/cf9e9aba-e895-4f97-b3db-1fd7c80710ad,8,57
+2020-09-08,11:00,GL,,166,,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
