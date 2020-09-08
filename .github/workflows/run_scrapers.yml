@@ -84,25 +84,12 @@ jobs:
         else
           echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv from scraper
         fi
-
+        
+    - name: Sleep randomly
+      run: sleep $[ ( $RANDOM % 30 )  + 1 ]s
+      
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
-      continue-on-error: true
-      uses: github-actions-x/commit@v2.6
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: master
-        name: GitHub Action Scraper
-        email: scraper@open.zh.ch
-        commit-message: ${{ env.commit_msg }}
-        rebase: 'true'
-
-    - name: Sleep randomly
-      if:  ${{ failure() }}
-      run: sleep $[ ( $RANDOM % 10 )  + 1 ]s
-
-    - name: Commit and push to repo (2nd try)
-      if:  ${{ failure() && steps.changes.outputs.changed == 1 }}
       uses: github-actions-x/commit@v2.6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
