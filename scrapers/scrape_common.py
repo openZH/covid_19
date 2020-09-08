@@ -101,8 +101,10 @@ class DistrictData:
     def __init__(self, canton='', district=''):
         self.date = None
         self.week = None
+        self.year = None
         self.canton = canton
         self.district = district
+        self.district_id = None
         self.population = None
         self.total_cases = None
         self.new_cases = None
@@ -118,10 +120,12 @@ class DistrictData:
 
     def __str__(self):
         res = []
-        res.append(self.date or '')
-        res.append(self.week or '')
-        res.append(self.canton)
+        res.append('' if self.district_id is None else str(self.district_id))
         res.append(self.district)
+        res.append(self.canton)
+        res.append(self.date or '')
+        res.append('' if self.week is None else str(self.week))
+        res.append('' if self.year is None else str(self.year))
         res.append('' if self.population is None else str(self.population))
         res.append('' if self.total_cases is None else str(self.total_cases))
         res.append('' if self.new_cases is None else str(self.new_cases))
@@ -132,7 +136,7 @@ class DistrictData:
 
     @staticmethod
     def header():
-        return 'Date,Week,Canton,District,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
+        return 'DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
 
 
 spelledOutNumbersMap = {
