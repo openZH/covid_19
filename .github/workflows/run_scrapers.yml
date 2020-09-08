@@ -85,7 +85,8 @@ jobs:
           echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv from scraper
         fi
         
-    - name: Sleep randomly
+    - name: Sleep randomly # sleep here to prevent two workers to commit at the same time
+      if: steps.changes.outputs.changed == 1 # only sleep, if we will try to commit
       run: sleep $[ ( $RANDOM % 30 )  + 1 ]s
       
     - name: Commit and push to repo
