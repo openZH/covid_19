@@ -20,18 +20,23 @@ rows = sc.parse_xls(xls, header_row=0, sheet_name='Données sites internet')
 is_first = True
 
 col_info = (
-    ('Total cas avérés', 'Confirmed cases'),
-    ('Personnes hospitalisées', 'Hospitalized'),
-    ('dont soins intensifs', 'ICU'),
-    ('Total décès', 'Deaths'),
-    ('Total Sortis de l\'hôpital', 'Recovered')
+    (r'.*Total cas avérés.*', 'Confirmed cases'),
+    (r'.*Personnes hospitalisées.*', 'Hospitalized'),
+    (r'.*dont soins intensifs.*', 'ICU'),
+    (r'.*Total décès.*', 'Deaths'),
+    (r'.*Total Sortis de l\'hôpital.*', 'Recovered')
 )
 
 for row in rows:
-    if row['Date'] is None:
+    try:
+        row_date = row.search(r'.*Date.*')
+    except KeyError:
+        row_date = None
+
+    if row_date is None:
         continue
-    if not isinstance(row['Date'], datetime.datetime):
-        print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
+    if not isinstance(row_date, datetime.datetime):
+        print(f"WARNING: {row_date} is not a valid date, skipping.", file=sys.stderr)
         continue
 
     if not is_first:
@@ -41,7 +46,8 @@ for row in rows:
     print('FR')
     sc.timestamp()
     print('Downloading:', xls_url)
-    print('Date and time:', row['Date'].date().isoformat())
+    print('Date and time:', row_date.date().isoformat())
     for col in col_info:
-        if row[col[0]] is not None:
-            print(f'{col[1]}:', row[col[0]])
+        value = row.search(col[0])
+        if value is not None:
+            print(f'{col[1]}:', value)
