@@ -4554,7 +4554,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-07,,BL,,1067,0,0,0,987,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-09-07,,FL,,107,0,,,105,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-09-07,,FR,,1898,5,1,,164,87,https://www.fr.ch/sites/default/files/2020-09/200909_statistiques_situation_COVID_site.xlsx
-2020-09-07,,GE,,7268,14,1,,,300,https://www.ge.ch/document/21502/telecharger
+2020-09-07,,GE,,7272,14,1,,,300,https://www.ge.ch/document/21502/telecharger
 2020-09-07,,GR,,1023,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-09-07,,JU,,280,4,0,,,7,https://www.jura.ch/Htdocs/Files/v/35261.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-8-septembre-2020.xlsx?download=1
 2020-09-07,,LU,,1092,8,2,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -4581,7 +4581,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-08,,BL,,1075,0,0,0,995,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-09-08,,FL,,107,0,,,105,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2020-09-08,,FR,,1920,6,0,,164,88,https://www.fr.ch/sites/default/files/2020-09/200909_statistiques_situation_COVID_site.xlsx
-2020-09-08,,GE,,,20,1,,,,https://www.ge.ch/document/21502/telecharger
+2020-09-08,,GE,,7310,20,1,,,300,https://www.ge.ch/document/21502/telecharger
 2020-09-08,,GR,,1028,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-09-08,,JU,,280,5,0,,,,https://www.jura.ch/Htdocs/Files/v/35261.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-8-septembre-2020.xlsx?download=1
 2020-09-08,,LU,,1093,6,1,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
@@ -4605,6 +4605,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-09-09,,BL,,1079,0,0,0,996,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2020-09-09,,FL,,108,,,,,1,https://www.regierung.li/media/attachments/472-corona-situationsbericht-0909.pdf
 2020-09-09,,FR,,1975,6,0,,164,88,https://www.fr.ch/sites/default/files/2020-09/200909_statistiques_situation_COVID_site.xlsx
+2020-09-09,,GE,,,20,1,,,,https://www.ge.ch/document/21502/telecharger
 2020-09-09,,LU,,1097,6,1,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus
 2020-09-09,01:00,SO,,737,1,,,,18,https://corona.so.ch/index.php?id=27979
 2020-09-09,08:00,BE,,2722,6,2,1,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
