@@ -27,9 +27,10 @@ district_ids = {
 
 url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton'
 d = sc.download(url, silent=True)
+d = d.replace('&nbsp;', ' ')
 
 soup = BeautifulSoup(d, 'html.parser')
-table = soup.find(string=re.compile(r'Anzahl der positiven Fälle nach Bezirk')).find_next('table')
+table = soup.find(string=re.compile(r'Anzahl positive F.lle nach Bezirk')).find_next('table')
 
 weeks = []
 week_regex = re.compile(r'Woche \d+')
