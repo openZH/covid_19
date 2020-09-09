@@ -31,6 +31,9 @@ d = d.replace('&nbsp;', ' ')
 
 soup = BeautifulSoup(d, 'html.parser')
 table = soup.find(string=re.compile(r'Anzahl positive F.lle nach Bezirk')).find_next('table')
+year_re = r'\(\d+\.\d+\.(\d+) bis'
+year = soup.find(string=re.compile(year_re))
+year = sc.find(year_re, year)
 
 weeks = []
 week_regex = re.compile(r'Woche \d+')
@@ -48,6 +51,7 @@ for tr in table.tbody.find_all('tr'):
         dd = sc.DistrictData(canton='FR', district=district)
         dd.url = url
         dd.week = weeks[i]
+        dd.year = '20' + year
         dd.new_cases = tds[i + 1].string
         if district in inhabitants:
             dd.population = inhabitants[district]
