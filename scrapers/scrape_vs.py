@@ -18,7 +18,7 @@ content = sc.pdfdownload(weekly_pdf_url, silent=True)
 
 
 # add isolated/quarantined to the existing DayData item
-week_end_date = sc.find(r'vom (\d+)\. bis (\d+\.\d+\.20\d{2})', content, group=2)
+week_end_date = sc.find(r'vom ([\d\.]+) bis (\d+\.\d+\.20\d{2})', content, group=2)
 week_end_date = sc.date_from_text(week_end_date).isoformat()
 
 dd = sc.DayData(canton='VS', url=weekly_pdf_url)
