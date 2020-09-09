@@ -13,6 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         canton:
+          - FR
           - GR
 
     steps:
