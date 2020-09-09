@@ -1,0 +1,75 @@
+name: Run district scrapers
+
+on:
+  schedule:
+  - cron:  '10 * * * *' # run every hour at xx:10
+
+jobs:
+  run_scraper:
+    runs-on: ubuntu-latest
+    continue-on-error: false
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        canton:
+          - GR
+
+    steps:
+    - uses: actions/checkout@v2
+ 
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - run: npm ci
+    - name: Remove broken apt repos
+      run: |
+        for apt_file in `grep -lr microsoft /etc/apt/sources.list.d/`; do sudo rm $apt_file; done
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        sudo apt update || true # do not fail if update does not work
+        sudo apt-get install sqlite3
+
+    - name: Scrape new data
+      env:
+        SCRAPER_KEY: ${{ matrix.canton }}
+      run: |
+        ./scrapers/run_district_scraper.sh
+        
+    - name: Check if there are changes in the repo
+      id: changes
+      uses: UnicornGlobal/has-changes-action@v1.0.11
+  
+    - name: Set commit message
+      env:
+        SCRAPER_KEY: ${{ matrix.canton }}
+      run: |
+        echo ::set-env name=commit_msg::Update fallzahlen_kanton_${SCRAPER_KEY}_bezirk.csv from scraper
+        
+    - name: Commit and push to repo
+      if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        name: GitHub Action Scraper
+        email: scraper@open.zh.ch
+        commit-message: ${{ env.commit_msg }}
+        rebase: 'true'
+        
+    - name: Get current unix timestamp
+      if: always()
+      id: date
+      run: echo "::set-output name=ts::$(date +'%s')"
+
+    - name: Notify slack failure
+      if: ${{ failure()  || cancelled() }}
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: pullreminders/slack-action@master
+      with:
+        args: '{\"channel\":\"C013C0UUQ4S\", \"attachments\": [{\"fallback\": \"Job failed.\", \"color\": \"danger\", \"title\": \"Run district scrapers ${{ matrix.canton }}\", \"title_link\": \"https://github.com/openZH/covid_19/actions/runs/${{ github.run_id }}?check_suite_focus=true\", \"text\": \":x: District scraper failed\", \"footer\": \"<https://github.com/openZH/covid_19|openZH/covid_19>\", \"footer_icon\": \"https://github.com/abinoda/slack-action/raw/master/docs/app-icons/github-icon.png\", \"ts\": \"${{steps.date.outputs.ts}}\"}]}'
+
