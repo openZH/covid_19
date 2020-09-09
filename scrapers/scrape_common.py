@@ -94,6 +94,51 @@ class DayData(object):
         return "\n".join(str_rep)
 
 
+class DistrictData:
+    __initialized = False
+    SEPARATOR = ','
+
+    def __init__(self, canton='', district=''):
+        self.date = None
+        self.week = None
+        self.year = None
+        self.canton = canton
+        self.district = district
+        self.district_id = None
+        self.population = None
+        self.total_cases = None
+        self.new_cases = None
+        self.total_deceased = None
+        self.new_deceased = None
+        self.url = None
+        self.__initialized = True
+
+    def __setattr__(self, key, value):
+        if self.__initialized and not hasattr(self, key):
+            raise TypeError('unknown key: {0}'.format(key))
+        object.__setattr__(self, key, value)
+
+    def __str__(self):
+        res = []
+        res.append('' if self.district_id is None else str(self.district_id))
+        res.append(self.district)
+        res.append(self.canton)
+        res.append(self.date or '')
+        res.append('' if self.week is None else str(self.week))
+        res.append('' if self.year is None else str(self.year))
+        res.append('' if self.population is None else str(self.population))
+        res.append('' if self.total_cases is None else str(self.total_cases))
+        res.append('' if self.new_cases is None else str(self.new_cases))
+        res.append('' if self.total_deceased is None else str(self.total_deceased))
+        res.append('' if self.new_deceased is None else str(self.new_deceased))
+        res.append(self.url)
+        return DistrictData.SEPARATOR.join(res)
+
+    @staticmethod
+    def header():
+        return 'DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
+
+
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,
