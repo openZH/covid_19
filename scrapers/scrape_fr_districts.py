@@ -15,6 +15,16 @@ inhabitants = {
     'Vivisbach': 18831,
 }
 
+district_ids = {
+    'Broye': 1001,
+    'Glane': 1002,
+    'Greyerz': 1003,
+    'Saane': 1004,
+    'See': 1005,
+    'Sense': 1006,
+    'Vivisbach': 1007,
+}
+
 url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton'
 d = sc.download(url, silent=True)
 
@@ -40,4 +50,6 @@ for tr in table.tbody.find_all('tr'):
         dd.new_cases = tds[i + 1].string
         if district in inhabitants:
             dd.population = inhabitants[district]
+        if district in district_ids:
+            dd.district_id = district_ids[district]
         print(dd)
