@@ -81,7 +81,6 @@ def parse_xlsx():
             print('Deaths:', row['Décès'])
 
 
-
 def text_to_int(text):
     return int(re.sub('[^0-9]', '', text))
 
