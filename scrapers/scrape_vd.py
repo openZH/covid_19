@@ -75,7 +75,8 @@ def parse_xlsx():
         print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
         print('Hospitalized:', row['Hospitalisation en cours'])
         print('ICU:', row['Dont soins intensifs'])
-        print('Deaths:', row['Décès'])
+        if 'Décès' in row:
+            print('Deaths:', row['Décès'])
 
 
 def text_to_int(text):
