@@ -4610,12 +4610,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-09,,JU,,282,,6,0,,,,https://www.jura.ch/Htdocs/Files/v/35274.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees---Situation-au-9-septembre-2020.xlsx?download=1,,
 2020-09-09,,LU,,1097,,6,1,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,39,101
 2020-09-09,,NW,,138,,1,1,,,3,http://www.nw.ch/coronastatistik,,
+2020-09-09,,SG,,,,9,2,1,,,https://stada.sg.ch/covid/C19_Faelle_hospitalisiert.html,,
 2020-09-09,,VS,,2452,0,4,0,0,320,155,https://www.vs.ch/de/web/coronavirus,,
 2020-09-09,00:00,OW,,107,,0,,,,0,https://www.ow.ch/dl.php/de/5f58db579242a/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-09-09,01:00,SO,,737,,1,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-09-09,08:00,BE,,2722,,6,2,1,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-09,08:00,TI,,3567,,0,0,0,929,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
-2020-09-09,08:00,ZG,,386,,0,,,335,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
+2020-09-09,08:00,ZG,,386,,0,,,335,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,32,43
 2020-09-09,09:00,BS,,1258,,,,,1158,54,https://www.gesundheit.bs.ch,46,83
 2020-09-09,09:00,SZ,,512,,,,,466,25,https://www.sz.ch/public/upload/assets/48550/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-09,10:00,TG,,600,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,18,
@@ -4624,7 +4625,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-09,14:30,ZH,,6713,,29,,8,,143,https://www.zh.ch/de/gesundheit/coronavirus.html,506,1043
 2020-09-09,16:00,UR,,138,,0,,,128,7,https://www.ur.ch/themen/2962,,18
 2020-09-10,,FR,,2017,,11,0,,164,88,https://www.fr.ch/sites/default/files/2020-09/200910_statistiques_situation_COVID_site.xlsx,,
+2020-09-10,,LU,,1107,,6,1,,,21,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,48,100
+2020-09-10,,SG,,,,,,,,,https://stada.sg.ch/covid/ContactTracing.html,108,549
+2020-09-10,01:00,SO,,739,,1,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-09-10,08:00,TI,,3571,,0,0,0,929,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
+2020-09-10,08:00,ZG,,388,,0,,,335,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-09-10,09:00,BS,,1263,,,,,1163,54,https://www.gesundheit.bs.ch,46,93
 2020-09-10,09:00,SZ,,518,,,,,470,25,https://www.sz.ch/public/upload/assets/48550/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-10,09:30,SH,,176,,0,0,,,8,https://sh.ch/CMS/get/file/52601958-9e2d-44ea-afdc-bf86ee1a963e,10,37
