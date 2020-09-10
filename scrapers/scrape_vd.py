@@ -75,7 +75,8 @@ def parse_xlsx():
         print('Confirmed cases:', row['Nombre total de cas confirmés positifs'])
         print('Hospitalized:', row['Hospitalisation en cours'])
         print('ICU:', row['Dont soins intensifs'])
-        print('Deaths:', row['Décès'])
+        # since 2020-09-10 deaths are missing in the xls
+        #print('Deaths:', row['Décès'])
 
 
 def text_to_int(text):
