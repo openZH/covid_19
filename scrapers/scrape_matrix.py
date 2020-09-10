@@ -33,7 +33,7 @@ matrix = {
     'TG': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'TI': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU', 'Vent'],
     'UR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    'VD': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'VD': ['Confirmed cases', 'Hospitalized', 'ICU'],
     'VS': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'ZG': ['Confirmed cases', 'Hospitalized'],
     'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
