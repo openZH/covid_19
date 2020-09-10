@@ -9,7 +9,9 @@ xls_url = 'https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccin
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls)
 is_first = True
-for row in rows:
+for row in rows[:3000]:
+    if row['A'] is None:
+        continue
     if not isinstance(row['A'], datetime.datetime):
         print(f"WARNING: {row['A']} is not a valid date, skipping.", file=sys.stderr)
         continue
