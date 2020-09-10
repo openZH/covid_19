@@ -4577,7 +4577,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-07,13:35,AR,,139,,0,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,8,16
 2020-09-07,14:30,ZH,,6557,,34,,8,,142,https://www.zh.ch/de/gesundheit/coronavirus.html,593,1378
 2020-09-07,16:00,UR,,138,,0,,,128,7,https://www.ur.ch/themen/2962,,11
-2020-09-08,,AG,,2260,,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp,136,292
+2020-09-08,,AG,,2260,,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp,136,292
 2020-09-08,,BL,,1075,,0,0,0,995,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,44,94
 2020-09-08,,FL,,107,,0,,,105,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-08,,FR,,1920,,6,0,,164,88,https://www.fr.ch/sites/default/files/2020-09/200910_statistiques_situation_COVID_site.xlsx,,
@@ -4602,6 +4602,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-08,12:00,SG,,1341,,7,1,0,,41,https://www.sg.ch/tools/informationen-coronavirus.html,97,589
 2020-09-08,14:30,ZH,,6652,,31,,9,,143,https://www.zh.ch/de/gesundheit/coronavirus.html,506,1043
 2020-09-08,16:00,UR,,138,,0,,,128,7,https://www.ur.ch/themen/2962,,14
+2020-09-09,,AG,,2279,,,,,,52,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp,155,430
 2020-09-09,,BL,,1079,,0,0,0,996,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,44,93
 2020-09-09,,FL,,108,,0,,,105,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-09,,FR,,1975,,6,0,,164,88,https://www.fr.ch/sites/default/files/2020-09/200910_statistiques_situation_COVID_site.xlsx,,
@@ -4617,7 +4618,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-09,08:00,BE,,2722,,6,2,1,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-09,08:00,TI,,3567,,0,0,0,929,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-09-09,08:00,ZG,,386,,0,,,335,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,32,43
-2020-09-09,09:00,BS,,1258,,,,,1158,54,https://www.gesundheit.bs.ch,46,83
+2020-09-09,09:00,BS,,1258,,3,1,,1158,54,https://www.gesundheit.bs.ch,46,83
 2020-09-09,09:00,SZ,,512,,,,,466,25,https://www.sz.ch/public/upload/assets/48550/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-09,10:00,TG,,600,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,18,
 2020-09-09,11:00,SH,,175,,0,0,,,8,https://sh.ch/CMS/get/file/52601958-9e2d-44ea-afdc-bf86ee1a963e,11,39
@@ -4631,7 +4632,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-10,08:00,BE,,2750,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-10,08:00,TI,,3571,,0,0,0,929,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-09-10,08:00,ZG,,388,,0,,,335,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
-2020-09-10,09:00,BS,,1263,,,,,1163,54,https://www.gesundheit.bs.ch,46,93
+2020-09-10,09:00,BS,,1263,,2,1,,1163,54,https://www.gesundheit.bs.ch,46,93
 2020-09-10,09:00,SZ,,518,,,,,470,25,https://www.sz.ch/public/upload/assets/48550/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-10,09:30,SH,,176,,0,0,,,8,https://sh.ch/CMS/get/file/52601958-9e2d-44ea-afdc-bf86ee1a963e,10,37
 2020-09-10,10:00,TG,,609,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,26,
