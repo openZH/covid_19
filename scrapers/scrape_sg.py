@@ -4,12 +4,6 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = 'https://www.sg.ch/ueber-den-kanton-st-gallen/statistik/covid-19.html'
-d = sc.download(url, silent=True)
-d = d.replace('&nbsp;', ' ')
-
-soup = BeautifulSoup(d, 'html.parser')
-
 # cases
 url_cases = 'https://stada.sg.ch/covid/BAG_uebersicht.html'
 soup = BeautifulSoup(sc.download(url_cases, silent=True), 'html.parser')
