@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys
+import datetime
 import scrape_common as sc
 
 xls_url = 'https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx'
@@ -8,6 +10,10 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls)
 is_first = True
 for row in rows:
+    if not isinstance(row['A'], datetime.datetime):
+        print(f"WARNING: {row['A']} is not a valid date, skipping.", file=sys.stderr)
+        continue
+
     if not is_first:
         print('-' * 10)
     is_first = False
