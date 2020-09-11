@@ -4,32 +4,6 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-# cases
-url_cases = 'https://stada.sg.ch/covid/BAG_uebersicht.html'
-soup = BeautifulSoup(sc.download(url_cases, silent=True), 'html.parser')
-dd_cases = sc.DayData(canton='SG', url=url_cases)
-cases_table = soup.find('table')
-
-hosp_date = cases_table.find_next(string=re.compile("Stand")).string
-dd_cases.datetime = sc.find(r'Stand:?\s*(.+[0-9]{4})', hosp_date)
-
-rows = cases_table.find_all('tr')
-
-headers = rows[0].find_all('td') or rows[0].find_all('th')
-assert len(headers) == 2, f"Number of header columns changed, {len(headers)} != 2"
-assert headers[1].text.strip() == "Anzahl"
-
-for row in rows:
-    cells = row.find_all('td')
-    if len(cells) == 2:
-        if cells[0].text.strip() == 'Laborbestätigte Fälle kumuliert':
-            dd_cases.cases = cells[1].string
-        elif cells[0].text.strip() == 'Todesfälle kumuliert':
-            dd_cases.deaths = cells[1].string
-
-print(dd_cases)
-print('-' * 10)
-
 # hospitalized
 url_hospitalized = 'https://stada.sg.ch/covid/C19_Faelle_hospitalisiert.html'
 soup = BeautifulSoup(sc.download(url_hospitalized, silent=True), 'html.parser')
@@ -83,3 +57,30 @@ for i in range(1, len(rows)):
         dd_isolated.quarantined = int(cells[1].text)
 
 print(dd_isolated)
+
+print('-' * 10)
+
+# cases
+url_cases = 'https://stada.sg.ch/covid/BAG_uebersicht.html'
+soup = BeautifulSoup(sc.download(url_cases, silent=True), 'html.parser')
+dd_cases = sc.DayData(canton='SG', url=url_cases)
+cases_table = soup.find('table')
+
+hosp_date = cases_table.find_next(string=re.compile("Stand")).string
+dd_cases.datetime = sc.find(r'Stand:?\s*(.+[0-9]{4})', hosp_date)
+
+rows = cases_table.find_all('tr')
+
+headers = rows[0].find_all('td') or rows[0].find_all('th')
+assert len(headers) == 2, f"Number of header columns changed, {len(headers)} != 2"
+assert headers[1].text.strip() == "Anzahl"
+
+for row in rows:
+    cells = row.find_all('td')
+    if len(cells) == 2:
+        if cells[0].text.strip() == 'Laborbestätigte Fälle kumuliert (seit März 2020)':
+            dd_cases.cases = cells[1].string
+        elif cells[0].text.strip() == 'Todesfälle kumuliert (seit März 2020)':
+            dd_cases.deaths = cells[1].string
+
+print(dd_cases)
