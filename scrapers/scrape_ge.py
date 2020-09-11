@@ -7,6 +7,8 @@ import sys
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
+is_first = True
+
 # parse tested from PDF
 d = sc.download('https://www.ge.ch/document/covid-19-bilan-epidemiologique-hebdomadaire', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
@@ -19,12 +21,15 @@ pdf = sc.pdfdownload(pdf_url, silent=True)
 week_number = sc.find(r'Situation semaine (\d+)', pdf)
 week_end_date = datetime.datetime.strptime('2020-W' + week_number + '-7', '%G-W%V-%u').date()
 number_of_tests = sc.find(r'N total tests : (\d+\'\d+)', pdf)
-number_of_tests = number_of_tests.replace('\'', '')
 
-dd_test = sc.DayData(canton='GE', url=pdf_url)
-dd_test.datetime = week_end_date.isoformat()
-dd_test.tested = number_of_tests
-print(dd_test)
+if number_of_tests is not None:
+    number_of_tests = number_of_tests.replace('\'', '')
+
+    dd_test = sc.DayData(canton='GE', url=pdf_url)
+    dd_test.datetime = week_end_date.isoformat()
+    dd_test.tested = number_of_tests
+    print(dd_test)
+    is_first = False
 
 # xls
 d = sc.download('https://www.ge.ch/document/covid-19-donnees-completes-debut-pandemie', silent=True)
@@ -40,8 +45,8 @@ for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
         continue
-
-    print('-' * 10)
+    if not is_first:
+        print('-' * 10)
     is_first = False
     
     # TODO: remove when source is fixed
