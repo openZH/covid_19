@@ -26,7 +26,7 @@ matrix = {
     'NE': [], # NE does not always provide the same numbers
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
-    'SG': [], # SG does not always provides the same numbers 
+    'SG': ['Confirmed cases', 'Deaths'],
     'SH': ['Confirmed cases', 'Deaths'],
     'SO': ['Confirmed cases'],
     'SZ': ['Confirmed cases', 'Deaths', 'Released'],
