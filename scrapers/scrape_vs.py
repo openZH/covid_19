@@ -6,32 +6,12 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-# parse weekly data for isolated and quarantined numbers
-base_url = 'https://www.vs.ch'
-stat_url = base_url + '/de/web/coronavirus/statistiques'
-content = sc.download(stat_url, silent=True)
-soup = BeautifulSoup(content, 'html.parser')
-res = soup.find(string=re.compile(r'Synthese COVID19 VS Woche\d+')).find_previous('a')
-weekly_pdf_url = base_url + res.attrs['href']
-weekly_pdf_url = weekly_pdf_url.replace(' ', '%20')
-content = sc.pdfdownload(weekly_pdf_url, silent=True)
-
-
-# add isolated/quarantined to the existing DayData item
-week_end_date = sc.find(r'vom ([\d\.]+) bis (\d+\.\d+\.20\d{2})', content, group=2)
-week_end_date = sc.date_from_text(week_end_date).isoformat()
-
-dd = sc.DayData(canton='VS', url=weekly_pdf_url)
-dd.datetime = week_end_date
-dd.isolated = sc.find(r'befanden\ssich\s(\d+)\spositive\sF.lle\snoch\simmer\sin\sIsolation', content)
-dd.quarantined = sc.find(r'Isolation\sund\s(\d+)\sKontakte\sin\sQuarant.ne', content)
-dd.quarantine_riskareatravel = sc.find(r'\s(\d+)\sReisende\sin\sQuarant.ne', content)
-print(dd)
 
 xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20%20COVID-19%20Valais.xlsx'
 main_url = 'https://www.vs.ch/de/web/coronavirus'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=1)
+is_first = True
 for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
@@ -48,8 +28,13 @@ for i, row in enumerate(rows):
     dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
     dd.deaths = row['Cumul décès COVID-19']
+    dd.isolated = row['Nombre de cas en cours d\'isolement']
+    dd.quarantined = row['Nombre de contacts en cours de quarantaine']
+    dd.quarantine_riskareatravel = row['Nombre de voyageurs en cours de quarantaine']
+
     if row['Nb de nouvelles sorties'] is not None:
         dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
-
-    print('-' * 10)
+    if not is_first:
+        print('-' * 10)
+    is_first = False
     print(dd)
