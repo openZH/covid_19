@@ -220,7 +220,7 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1):
     else:
         sheet = book.sheet_by_index(sheet_index)
     # if a header cell is empty, the name of the column (e.g. "A") is used instead
-    headers = {c: sheet.cell_value(header_row, c) or xlrd.formula.colname(c) for c in range(sheet.ncols)} 
+    headers = {c: str(sheet.cell_value(header_row, c) or xlrd.formula.colname(c)) for c in range(sheet.ncols)} 
     for r in range(header_row + skip_rows, sheet.nrows):
         entry = StripKeyDict()
         for c, h in headers.items():
