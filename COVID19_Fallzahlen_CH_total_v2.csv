@@ -4679,8 +4679,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-12,,GR,,1049,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,36,108
 2020-09-12,08:00,BE,,2810,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-12,09:00,BS,,1265,,,,,1165,54,https://www.gesundheit.bs.ch,46,94
+2020-09-12,10:00,TG,,635,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
 2020-09-12,14:30,ZH,,6962,,22,,8,,144,https://www.zh.ch/de/gesundheit/coronavirus.html,569,1066
 2020-09-13,,GR,,1049,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,36,108
 2020-09-13,08:00,BE,,2852,,,,,,99,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-09-13,09:40,BS,,1272,,,,,1171,54,https://www.gesundheit.bs.ch,47,104
+2020-09-13,10:00,TG,,639,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
 2020-09-13,14:30,ZH,,7009,,23,,8,,144,https://www.zh.ch/de/gesundheit/coronavirus.html,569,1066
+2020-09-14,10:00,TG,,640,0,3,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,55,
