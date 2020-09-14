@@ -4714,6 +4714,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-14,,BL,,1100,,2,0,0,1016,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,43,133
 2020-09-14,,FR,,2125,,22,2,,164,88,https://www.fr.ch/sites/default/files/2020-09/200914_statistiques_situation_COVID_site.xlsx,,
 2020-09-14,,GE,,,,21,0,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-09-14,,GR,,1052,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,32,124
 2020-09-14,,JU,,289,,3,0,,,7,https://www.jura.ch/Htdocs/Files/v/35299.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/Donnees_14_09.xlsx?download=1,,
 2020-09-14,,LU,,1124,,7,0,,,23,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,36,111
 2020-09-14,,NW,,139,,1,1,,,3,http://www.nw.ch/coronastatistik,,
