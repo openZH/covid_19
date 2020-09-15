@@ -53,6 +53,26 @@ class DayData(object):
             raise TypeError( "%r is a frozen class" % self )
         object.__setattr__(self, key, value)
 
+    def __bool__(self):
+        attributes = [
+            self.tested,
+            self.cases,
+            self.hospitalized,
+            self.new_hosp,
+            self.icu,
+            self.vent,
+            self.deaths,
+            self.recovered,
+            self.isolated,
+            self.quarantined,
+            self.icf,
+            self.confirmed_non_resident,
+            self.hosp_non_resident,
+            self.quarantine_riskareatravel,
+            self.quarantine_total
+        ]
+        return any(v is not None for v in attributes)
+
     def __str__(self):
         str_rep = [
             self.canton,
