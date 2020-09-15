@@ -58,7 +58,7 @@ def parse_xlsx():
     html_url = 'https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/'
     d = sc.download(html_url, silent=True)
     soup = BeautifulSoup(d, 'html.parser')
-    xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
+    xls_url = soup.find(href=re.compile("\.xlsx$", flags=re.I)).get('href')
     assert xls_url, "URL is empty"
     xls = sc.xlsdownload(xls_url, silent=True)
     rows = [row for row in sc.parse_xls(xls, header_row=2) if isinstance(row['Date'], datetime.datetime)]
