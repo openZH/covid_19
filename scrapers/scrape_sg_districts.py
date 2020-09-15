@@ -1,39 +1,37 @@
 #!/usr/bin/env python3
 
-import re
-import datetime
-from bs4 import BeautifulSoup
+import csv
+from io import StringIO
 import scrape_common as sc
 
 inhabitants = {
     'St.Gallen': 127198,
-    'Rohrschach': 44110,
+    'Rorschach': 44110,
     'Rheintal': 74580,
     'Werdenberg': 40239,
     'Sarganserland': 41736,
-    'See Gaster': 76913,
+    'See-Gaster': 76913,
     'Toggenburg': 47272,
     'Wil': 77018,
 }
 
-url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
+url = 'https://www.sg.ch/ueber-den-kanton-st-gallen/statistik/covid-19/_jcr_content/Par/sgch_downloadlist/DownloadListPar/sgch_download.ocFile/KantonSG_C19-Faelle_download.csv'
 d = sc.download(url, silent=True)
-soup = BeautifulSoup(d, 'html.parser')
 
-table = soup.find(string=re.compile(r'Fallzahlen Regionen des Kantons St.Gallen')).find_next('table')
-header = table.find_next('th').text
-date = sc.find(r'gemeldete F.lle Stand (\d+\.\d+\.20\d{2})', header)
-date = sc.date_from_text(date)
+# strip the "header" / description lines
+d = "\n".join(d.split("\n")[5:])
 
-for row in table.find_all('tr'):
-    columns = row.find_all('td')
-    if len(columns) > 0:
-        district = sc.find(r'Wahlkreis (.*)$', columns[0].text)
-        if district is not None:
-            dd = sc.DistrictData(canton='SG', district=district)
-            dd.url = url
-            dd.date = date.isoformat()
-            dd.new_cases = columns[1].text
-            if district in inhabitants:
-                dd.population = inhabitants[district]
-            print(dd)
+print(sc.DistrictData.header())
+
+reader = csv.DictReader(StringIO(d), delimiter=';')
+for row in reader:
+    week = sc.find(r'W(\d+)', row['Kalenderwoche'])
+
+    for key, value in inhabitants.items():
+        dd = sc.DistrictData(canton='SG', district=key)
+        dd.url = url
+        dd.week = week
+        dd.new_cases = row['Wahlkreis ' + key]
+        dd.total_cases = row['Wahlkreis ' + key + ' (kumuliert)']
+        dd.population = value
+        print(dd)
