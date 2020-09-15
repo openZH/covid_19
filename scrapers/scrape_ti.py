@@ -24,13 +24,13 @@ for row in rows:
     is_first = False
 
     dd = sc.DayData(canton='TI', url=xls_url)
-    dd.datetime = f"{row['date'].date().isoformat()}"
+    dd.datetime = f"{row['Data'].date().isoformat()}"
     if row['time']:
-        dd.datetime += f"T{row['time'].time().isoformat()}"
-    dd.cases = row['ncumul_conf']
-    dd.hospitalized = row['current_hosp']
-    dd.icu = row['current_icu']
-    dd.vent = row['current_vent']
-    dd.recovered = row['ncumul_released']
-    dd.deaths = row['ncumul_deceased']
+        dd.datetime += f"T{row['Ora'].time().isoformat()}"
+    dd.cases = row['Totale casi confermati']
+    dd.hospitalized = row['Pazienti ricoverati attualmente']
+    dd.icu = row['Pazienti in cure intense']
+    dd.vent = row['Pazienti ventilati']
+    dd.recovered = row['Totale pazienti dimessi da ospedali']
+    dd.deaths = row['Totale decessi']
     print(dd)
