@@ -25,7 +25,7 @@ for row in rows:
 
     dd = sc.DayData(canton='TI', url=xls_url)
     dd.datetime = f"{row['Data'].date().isoformat()}"
-    if row['time']:
+    if row['Ora']:
         dd.datetime += f"T{row['Ora'].time().isoformat()}"
     dd.cases = row['Totale casi confermati']
     dd.hospitalized = row['Pazienti ricoverati attualmente']
