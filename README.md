@@ -25,6 +25,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [More detailed dataset](https://github.com/openZH/covid_19/tree/master#canton-z%C3%BCrich-more-detailed-dataset)<br>
 - [Postal codes (Postleitzahl)](https://github.com/openZH/covid_19/tree/master#canton-z%C3%BCrich-postal-codes-postleitzahl)<br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
+- [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
 
@@ -272,6 +273,23 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg4326_F_KTZH_2020.json** <br>
 
 >**https://github.com/openZH/covid_19/blob/master/fallzahlen_bezirke/BezirkeAlleSee_gen_epsg2056_F_KTZH_2020.json**
+
+## Canton Zurich: Travel self quarantine
+
+**Data** <br>
+
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_zh/COVID19_Einreisequarantaene_pro_KW.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Einreisequarantäne im Kanton Zürich](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
+>*Spatial unit:* Canton Zürich <br>
+>*Format:* csv <br>
+
+**Metadata**
+
+| Fieldname      | Beschreibung (DE)                               | Description (EN)   | Format |
+|---------------------|--------------------------------------------|------------|------|
+| __Kalenderwoche__  | Kalenderwoche  | Calendar week |Zahl|
+| __Einreiseland__ | Aufenthaltsland vor der Einreise (Risikogebiete gemäss BAG-Liste) | Country of stay before entry (risk areas) |Text|
+| __Anzahl_Einreisende__  | Anzahl Einreisende aus Risikogebiet  | Number of people returning from risk area  |Zahl|
 
 # Community Contributions
 
