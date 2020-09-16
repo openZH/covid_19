@@ -50,4 +50,5 @@ for row in rows:
     for col in col_info:
         value = row.search(col[0])
         if value is not None:
+            value = str(value).replace('*', '')
             print(f'{col[1]}:', value)
