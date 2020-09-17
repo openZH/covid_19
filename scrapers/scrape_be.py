@@ -26,7 +26,7 @@ for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den
             if value and '*' in value:
                 # the asteriks (*) indicates a not-current value
                 continue
-            if '(' in value:
+            if value and '(' in value:
                 value = sc.find(r'(\d+)(\s*\(.*\))?', value)
 
             if headers[col_num] == 'Datum':
