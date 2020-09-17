@@ -20,12 +20,14 @@ for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den
         dd = sc.DayData(canton='BE', url=html_url)
 
         for col_num, cell in enumerate(row.find_all(['td'])):
-            value = cell.string
+            value = " ".join(cell.stripped_strings)
             if value:
                 value = value.replace("'", "")
             if value and '*' in value:
                 # the asteriks (*) indicates a not-current value
                 continue
+            if value and '(' in value:
+                value = sc.find(r'(\d+)([\s<>br\w]*\(.*\))?', value)
 
             if headers[col_num] == 'Datum':
                 date_string = "".join(list(cell.stripped_strings)[0:-1])
