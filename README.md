@@ -134,8 +134,6 @@ The latest updates are visualized [here](http://www.web.statistik.zh.ch/covid19_
 
 - [COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_AR_alter_geschlecht.csv)
 
-- [COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_BS_alter_geschlecht.csv)
-
 - [COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_alter_geschlecht_csv/COVID19_Fallzahlen_Kanton_ZH_alter_geschlecht.csv)
 
 **Metadata for unmaintained datasets** <br>
