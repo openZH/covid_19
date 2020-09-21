@@ -18,6 +18,7 @@ jobs:
           - GR
           - SG
           - SO
+          - VS
 
     steps:
     - uses: actions/checkout@v2
