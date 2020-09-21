@@ -65,7 +65,7 @@ is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
-    if not (row['Positiv'] or row['Hospitalisation isoliert\nbestätigt'] or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
+    if not (row['Positiv'] or row.search(r'Hospitalisation isoliert\s+bestätigt.*$') or row.search(r'Hospitalisiert.*Intensiv.*$') or row['Verstorben']):
         continue
 
     if not is_first:
@@ -83,9 +83,9 @@ for row in rows:
         print('Date and time:', row['Datum'].date().isoformat())
 
     print('Confirmed cases:', row['Positiv'])
-    if sc.represents_int(row.search(r'Hospitalisation isoliert\s+bestätigt.*$')) and sc.represents_int(row['Hospitalisiert_Intensiv']):
-        print('Hospitalized:', (row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row['Hospitalisiert_Intensiv']))
-        print('ICU:', row['Hospitalisiert_Intensiv'])
+    if sc.represents_int(row.search(r'Hospitalisation isoliert\s+bestätigt.*$')) and sc.represents_int(row.search(r'Hospitalisiert.*Intensiv.*$')):
+        print('Hospitalized:', (row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row.search(r'Hospitalisiert.*Intensiv.*$')))
+        print('ICU:', row.search(r'Hospitalisiert.*Intensiv.*$'))
     if row['Verstorben'] is not None:
         print('Deaths:', row['Verstorben'])
 
