@@ -189,7 +189,7 @@ class StripKeyDict(dict):
 
     # method to search for keys with regex
     def search(self, key):
-        reg = re.compile(key, flags=re.I)
+        reg = re.compile(key, flags=re.I|re.DOTALL)
         for k, v in self.items():
             if reg.match(k):
                 return v
