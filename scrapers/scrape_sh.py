@@ -83,7 +83,7 @@ for row in rows:
         print('Date and time:', row['Datum'].date().isoformat())
 
     print('Confirmed cases:', row['Positiv'])
-    if sc.represents_int(row['Hospitalisation isoliert\nbestätigt']) and sc.represents_int(row['Hospitalisiert_Intensiv']):
+    if sc.represents_int(row.search(r'Hospitalisation isoliert\s+bestätigt.*$')) and sc.represents_int(row['Hospitalisiert_Intensiv']):
         print('Hospitalized:', (row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row['Hospitalisiert_Intensiv']))
         print('ICU:', row['Hospitalisiert_Intensiv'])
     if row['Verstorben'] is not None:
