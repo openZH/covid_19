@@ -4793,7 +4793,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-16,12:00,AI,,28,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,3,10
 2020-09-16,14:30,ZH,,7143,,25,,9,,145,https://www.zh.ch/de/gesundheit/coronavirus.html,548,1030
 2020-09-16,16:00,UR,,139,,0,,,130,7,https://www.ur.ch/themen/2962,,20
-2020-09-17,,AG,,2457,,,,,,53,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp,167,554
+2020-09-17,,AG,,2457,,,,,,53,https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp,167,554
 2020-09-17,,BL,,1115,,3,0,0,1024,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,44,74
 2020-09-17,,FL,,112,,0,,,108,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-17,,FR,,2197,,15,1,,166,97,https://www.fr.ch/sites/default/files/2020-09/200921_statistiques_situation_COVID_site.xlsx,,
@@ -4849,6 +4849,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-19,08:30,BS,,1291,,,,,1192,54,https://www.gesundheit.bs.ch,45,109
 2020-09-19,09:00,SZ,,544,,,,,492,25,https://www.sz.ch/public/upload/assets/48721/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-09-19,10:00,TG,,688,0,4,2,,83,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,
+2020-09-20,,AG,,2511,,,,,,54,https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp,151,506
 2020-09-20,,FL,,113,,1,,,110,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-20,,FR,,2276,,9,2,,171,101,https://www.fr.ch/sites/default/files/2020-09/200921_statistiques_situation_COVID_site.xlsx,,
 2020-09-20,,GR,,1064,,4,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,84
