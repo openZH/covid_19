@@ -285,7 +285,7 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, c
         rows.append(entry)
     return rows
 
-def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False):
+def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False, page=None, rect=None):
     """Download a PDF and convert it to text"""
     if not silent:
         print("Downloading:", url)
@@ -296,6 +296,10 @@ def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False):
             pdf_command += ['-raw']
         if layout:
             pdf_command += ['-layout']
+        if page:
+            pdf_command += ['-f', str(page), '-l', str(page)]
+        if rect:
+            pdf_command += ['-x', str(rect[0]), '-y', str(rect[1]), '-W', str(rect[2]), '-H', str(rect[3])]
         pdf_command += ['-', '-']
         with subprocess.Popen(pdf_command, stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
             t = text.stdout.read()
