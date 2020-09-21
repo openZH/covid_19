@@ -65,7 +65,7 @@ is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
-    if not (row['Positiv'] or row['Hospitalisation isoliert\nbestätigt'] or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
+    if not (row['Positiv'] or row.search(r'Hospitalisation isoliert\s+bestätigt.*$') or row['Hospitalisiert_Intensiv'] or row['Verstorben']):
         continue
 
     if not is_first:
