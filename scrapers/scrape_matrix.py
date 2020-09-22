@@ -36,7 +36,7 @@ matrix = {
     'VD': ['Confirmed cases', 'Hospitalized', 'ICU'],
     'VS': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'ZG': ['Confirmed cases', 'Hospitalized'],
-    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'ZH': ['Confirmed cases', 'Hospitalized'],
     'FL': ['Confirmed cases'],
 }
 
