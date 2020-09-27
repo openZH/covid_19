@@ -41,8 +41,6 @@ url = 'https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallza
 resp = requests.get(url=url)
 json_data = resp.json()
 
-print(sc.DistrictData.header())
-
 for attributes in json_data['features']:
     element = attributes['attributes']
 
