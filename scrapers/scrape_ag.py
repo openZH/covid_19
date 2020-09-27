@@ -91,6 +91,19 @@ def parse_quarantined_travel(dd, value, header):
 
 parse_table(r'Quarant.*?ne nach Einreise', data_url, 4, parse_quarantined_travel)
 
+# hospitalizations
+def parse_hospitalizations(dd, value, header):
+    if header == 'Datum':
+        dd.datetime = sc.find(r'\w+,\s+(.*20\d{2}).*$', value)
+    if header == 'Hospitalisierte Personen ohne Intensivstation oder Intermediate Care':
+        dd.hospitalized = value
+    if header == 'Hospitalisierte Personen auf Intensivstation oder Intermediate Care':
+        dd.icu = value
+
+    return dd
+
+parse_table(r'Hospitalisationen \(Bettenbelegung\) letzte 4 Wochen', data_url, 4, parse_hospitalizations)
+
 # fetch latest data from HTML table
 url = 'https://www.ag.ch/de/themen_1/coronavirus_2/coronavirus.jsp'
 d = sc.download(url, silent=True)
