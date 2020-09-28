@@ -8,7 +8,7 @@ import scrape_common as sc
 d = sc.download('https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html', silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
-box = soup.find('li', class_="ico-xlsx")
+box = soup.find(class_="ico-xlsx")
 xls_url = box.find('a').get('href')
 assert xls_url, "URL is empty"
 if not xls_url.startswith('http'):
