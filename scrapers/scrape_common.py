@@ -244,6 +244,8 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1):
     for r in range(header_row + skip_rows, sheet.nrows):
         entry = StripKeyDict()
         for c, h in headers.items():
+            if h.strip() in entry:
+                h = f"{h.strip()}{str(c)}"
             cell_type = sheet.cell_type(r, c)
             value = sheet.cell_value(r, c)
             if cell_type == xlrd.XL_CELL_DATE:
