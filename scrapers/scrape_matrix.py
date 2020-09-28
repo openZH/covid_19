@@ -11,7 +11,7 @@ import sys
 # A per-canton list of extra fields that are expected to be present.
 matrix = {
     # Note: Please keep the order of cantons and entries.
-    'AG': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
+    'AG': ['Confirmed cases', 'Deaths'],
     'AI': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
     'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'BE': ['Confirmed cases', 'Deaths'],
@@ -36,7 +36,7 @@ matrix = {
     'VD': ['Confirmed cases', 'Hospitalized', 'ICU'],
     'VS': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'ZG': ['Confirmed cases', 'Hospitalized'],
-    'ZH': ['Confirmed cases', 'Hospitalized'],
+    'ZH': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'FL': ['Confirmed cases'],
 }
 
@@ -45,6 +45,7 @@ allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'
 # List of cantons that are expected to have date AND time.
 matrix_time = [
     'AI',
+    'AG',
     'AR',
     'BE',
     # 'BL',  # Not available.
