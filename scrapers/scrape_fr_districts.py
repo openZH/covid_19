@@ -42,8 +42,6 @@ for i in range(3):
     weeks.append(sc.find(r'Woche (\d+)', week))
     week = week.find_next(string=week_regex)
 
-print(sc.DistrictData.header())
-
 for tr in table.tbody.find_all('tr'):
     tds = tr.find_all('td')
 
