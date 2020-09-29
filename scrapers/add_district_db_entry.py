@@ -46,19 +46,10 @@ try:
                     )
                     VALUES
                     (?,?,?,?,?,?,?,?,?,?,?,?)
-                    ON CONFLICT (DistrictId, District, Canton, Date, Week, Year)
-                    DO UPDATE SET
-                      Population = ?,
-                      TotalConfCases = ?,
-                      NewConfCases = ?,
-                      TotalDeaths = ?,
-                      NewDeaths = ?,
-                      SourceUrl = ?
                       ;
 
                     ''',
                     [
-                        # insert
                         dd.district_id,
                         dd.district,
                         dd.canton,
@@ -71,22 +62,50 @@ try:
                         dd.total_deceased,
                         dd.new_deceased,
                         dd.url,
-
-                        # update
-                        dd.population,
-                        dd.total_cases,
-                        dd.new_cases,
-                        dd.total_deceased,
-                        dd.new_deceased,
-                        dd.url
                     ]
                 )
 
-                print("Successfully added/updated entry.")
+                print("Successfully added new entry.")
             except sqlite3.IntegrityError as e:
-                print("Error: an error occured in sqlite3: ", e.args[0], file=sys.stderr)
-                conn.rollback()
-                input_failures += 1
+                # try UPDATE if INSERT didn't work (i.e. constraint violation)
+                try:
+                    c.execute(
+                        '''
+                        UPDATE data SET 
+                          Population = ?,
+                          TotalConfCases = ?,
+                          NewConfCases = ?,
+                          TotalDeaths = ?,
+                          NewDeaths = ?,
+                          SourceUrl = ?
+                        WHERE DistrictId = ?
+                        AND   District = ?
+                        AND   Canton = ? 
+                        AND   Date = ?
+                        AND   Week = ?
+                        AND   Year = ?
+                        ;
+                        ''',
+                        [
+                            dd.population,
+                            dd.total_cases,
+                            dd.new_cases,
+                            dd.total_deceased,
+                            dd.new_deceased,
+                            dd.url,
+                            dd.district_id,
+                            dd.district,
+                            dd.canton,
+                            dd.date or '',
+                            dd.week or '',
+                            dd.year or '',
+                        ]
+                    )
+                    print("Successfully updated entry.")
+                except sqlite3.Error as e:
+                    print("Error: an error occured in sqlite3: ", e.args[0], file=sys.stderr)
+                    conn.rollback()
+                    input_failures += 1
             finally:
                 conn.commit()
 except Exception as e:
