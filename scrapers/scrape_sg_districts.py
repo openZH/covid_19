@@ -32,8 +32,6 @@ d = sc.download(url, silent=True)
 # strip the "header" / description lines
 d = "\n".join(d.split("\n")[5:])
 
-print(sc.DistrictData.header())
-
 reader = csv.DictReader(StringIO(d), delimiter=';')
 for row in reader:
     week = sc.find(r'W(\d+)', row['Kalenderwoche'])
