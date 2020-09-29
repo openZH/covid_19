@@ -65,7 +65,7 @@ try:
                     ]
                 )
 
-                print("Successfully added/updated entry.")
+                print("Successfully added new entry.")
             except sqlite3.IntegrityError as e:
                 # try UPDATE if INSERT didn't work (i.e. constraint violation)
                 try:
@@ -101,6 +101,7 @@ try:
                             dd.year or '',
                         ]
                     )
+                    print("Successfully updated entry.")
                 except sqlite3.Error as e:
                     print("Error: an error occured in sqlite3: ", e.args[0], file=sys.stderr)
                     conn.rollback()
