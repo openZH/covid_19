@@ -41,21 +41,18 @@ url = 'https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallza
 resp = requests.get(url=url)
 json_data = resp.json()
 
-print(sc.DistrictData.header())
-
 for attributes in json_data['features']:
     element = attributes['attributes']
 
-    dd = sc.DistrictData(canton='GR', district=element['Region'])
-    dd.url = url
-    date = datetime.datetime.utcfromtimestamp(element['Datum'] / 1000)
-    dd.date = date.date().isoformat()
-    dd.total_cases = element['Faelle__kumuliert_']
-    dd.new_cases = element['Neue_Faelle']
-    dd.total_deceased = element['Verstorbene__kumuliert_']
-    dd.new_deceased = element['Verstorbene']
-    if dd.district in inhabitants:
+    if element['Region'] in district_ids:
+        dd = sc.DistrictData(canton='GR', district=element['Region'])
+        dd.url = url
+        date = datetime.datetime.utcfromtimestamp(element['Datum'] / 1000)
+        dd.date = date.date().isoformat()
+        dd.total_cases = element['Faelle__kumuliert_']
+        dd.new_cases = element['Neue_Faelle']
+        dd.total_deceased = element['Verstorbene__kumuliert_']
+        dd.new_deceased = element['Verstorbene']
         dd.population = inhabitants[dd.district]
-    if dd.district in district_ids:
         dd.district_id = district_ids[dd.district]
-    print(dd)
+        print(dd)

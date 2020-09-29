@@ -155,6 +155,28 @@ class DistrictData:
         return DistrictData.SEPARATOR.join(res)
 
     @staticmethod
+    def __get_int_item(item):
+        return None if item is None or item == '' else int(item)
+
+    def parse(self, data):
+        items = data.split(DistrictData.SEPARATOR)
+        if len(items) == 12:
+            self.district_id = self.__get_int_item(items[0])
+            self.district = items[1]
+            self.canton = items[2]
+            self.date = items[3]
+            self.week = self.__get_int_item(items[4])
+            self.year = self.__get_int_item(items[5])
+            self.population = self.__get_int_item(items[6])
+            self.total_cases = self.__get_int_item(items[7])
+            self.new_cases = self.__get_int_item(items[8])
+            self.total_deceased = self.__get_int_item(items[9])
+            self.new_deceased = self.__get_int_item(items[10])
+            self.url = items[11]
+            return True
+        return False
+
+    @staticmethod
     def header():
         return 'DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
 
