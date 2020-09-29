@@ -41,8 +41,6 @@ district_ids = {
     'Wasseramt': 1106,
 }
 
-print(sc.DistrictData.header())
-
 for row in tbody.find_all('tr'):
     columns = row.find_all('td')
     if len(columns) == 3:
