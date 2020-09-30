@@ -98,13 +98,10 @@ const validateSequentially = async csvFiles => {
             }
         });
         if (errors.length > 0) {
-            throw new Error(errors);
+            throw new Error(errors.join("\n"));
         }
     } catch (e) {
       failedChecks++;
-      if (Array.isArray(e)) {
-          e = e.join('\n');
-      }
       console.log(`× ${csvFile} failed the following checks:\n${e}`);
       continue;
 	}
