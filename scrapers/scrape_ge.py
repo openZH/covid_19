@@ -56,7 +56,10 @@ for i, row in enumerate(rows):
 
     dd = sc.DayData(canton='GE', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
-    dd.cases = row['Cumul cas COVID-19']
+    # GE switched the columns `Nombre cas COVID-19` and `Cumul cas COVID-19` on 2020-09-30
+    # temporary change this until the XLSX is fixed
+    #dd.cases = row['Cumul cas COVID-19']
+    dd.cases = row['Nombre cas COVID-19']
     dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours)']
     dd.icu = row['Patients COVID-19 actifs aux soins intensifs ']
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires']
