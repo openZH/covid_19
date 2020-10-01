@@ -144,17 +144,15 @@ population = [
 ]
 
 
-if len(district_values) == 13:
-    i = 0
-    for value in district_values:
-        dd = sc.DistrictData(canton='VS', district=districts[i])
-        dd.url = url
-        dd.district_id = district_ids[i]
-        dd.population = population[i]
-        dd.week = week
-        dd.year = year
-        dd.new_cases = value
-        print(dd)
-        i += 1
-else:
-    print(f'expected 13 district values, but got {len(district_values)} for {url}', file=sys.stderr)
+assert len(district_values) == 13, f'expected 13 district values, but got {len(district_values)} for {url}'
+i = 0
+for value in district_values:
+    dd = sc.DistrictData(canton='VS', district=districts[i])
+    dd.url = url
+    dd.district_id = district_ids[i]
+    dd.population = population[i]
+    dd.week = week
+    dd.year = year
+    dd.new_cases = value
+    print(dd)
+    i += 1
