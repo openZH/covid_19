@@ -20,39 +20,79 @@ content = sc.pdfdownload(url, silent=True, page=1)
 week = sc.find(r'Epidemiologische Situation Woche (\d+)', content)
 year = sc.find(r'\d+\.\d+\.(\d{4})', content)
 
-content = sc.pdfdownload(url, silent=True, page=11, layout=True, rect=[0, 403, 450, 50])
+content = sc.pdfdownload(url, silent=True, page=12, layout=True, rect=[0, 403, 450, 50], fixed=2)
 
-# kill the left most values
-content = re.sub(r'^\d+\s', ' ', content)
-content = re.sub(r'\n\d+ ', '\n ', content)
+# strip everything including the "Anzahl Faelle" column + values
+def strip_left_number(content):
+    lines = content.split('\n')
+    pos = None
+    for line in lines:
+        res = re.search(r'\s+(\d+)', line)
+        if res is not None:
+            if pos is None:
+                pos = res.end()
+            else:
+                pos = min(pos, res.end())
+    new_content = []
+    for line in lines:
+        new_content.append(line[pos:])
+    return '\n'.join(new_content)
 
-# remove right axis description
-content = re.sub(r'([a-z|A-Z])', '', content)
 
-# remove right axis and other percentage values
-content = re.sub(r'(\d+\.\d)', '', content)
+# strip from the right the "Inzidenz pro 100k Einwohner" column / description
+def strip_right_items(content):
+    lines = content.split('\n')
+    pos = None
+    for line in lines:
+        res = re.search(r'(\d+\.\d+)\s?$', line)
+        if res is not None:
+            if pos is None:
+                pos = res.start()
+            else:
+                pos = max(pos, res.start())
+    new_content = []
+    for line in lines:
+        new_content.append(line[:pos])
+    return '\n'.join(new_content)
+
+# kill the left and right axis
+content = strip_left_number(content)
+content = strip_right_items(content)
 
 # remove strange characters at the end of the string
-content = content.rstrip()
+#content = content.rstrip()
 
 """
 this results in something like this (13 columns expected for the districts)
 
-    0   1       3   1   7   3   8   2   22   2   4   10
-           1
+                                                                                                                              6.6
+
+                                  9          6                       7          2           5           8         15           1           6          16
 """
 
-lines = []
+# approximate the width of each "column" in the table
+# get the maxima and divide it by the 13 expected districts
+length=None
 for line in content.split('\n'):
-    res = re.search(r'\s?(\d+)\s?', line)
-    if res is not None:
-        lines.append(line)
+    llenght = len(line)
+    if length is None:
+        length = llenght
+    else:
+        length = max(llenght, length)
+length = round(length / 13)
 
-cases = {}
-for line in lines:
-    for res in re.finditer(r'(\d+)', line):
-        cases[res.start()] = int(res[1])
-cases_sorted = dict(sorted(cases.items(), key=lambda item: item[0]))
+# split up all lines by the length and use the "lowest line" value
+district_values = []
+for i in range(0, 13):
+    value = ''
+    for line in content.split('\n'):
+        val = line[i * length:(i + 1) * length].strip()
+        if val != '':
+            value = val
+    if value == '':
+        value = 0
+    district_values.append(int(value))
+
 
 # this is the order in the PDF
 districts = [
@@ -104,10 +144,9 @@ population = [
 ]
 
 
-if len(cases_sorted) == 13:
-    # for i in range(13):
+if len(district_values) == 13:
     i = 0
-    for key, value in cases_sorted.items():
+    for value in district_values:
         dd = sc.DistrictData(canton='VS', district=districts[i])
         dd.url = url
         dd.district_id = district_ids[i]
@@ -118,4 +157,4 @@ if len(cases_sorted) == 13:
         print(dd)
         i += 1
 else:
-    print(f'expected 13 district values, but got {len(cases_sorted)} for {url}', file=sys.stderr)
+    print(f'expected 13 district values, but got {len(district_values)} for {url}', file=sys.stderr)
