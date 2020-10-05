@@ -66,6 +66,11 @@ for row in rows:
         dd.icu = icu
     dd.deaths = row['Gesamtzahl14']
     dd.recovered = row['Gesamtzahl17']
+
+    # TODO: remove if source is fixed
+    if row['A'].date().isoformat() == '2020-06-04':
+        dd.recovered = ''
+
     if dd:
         if not is_first:
             print('-' * 10)
