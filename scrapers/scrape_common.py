@@ -315,6 +315,14 @@ def pdftotext(pdf, encoding='utf-8', raw=False, layout=False, page=None, rect=No
     return out.decode(encoding)
 
 
+def pdfinfo(pdf, attribute='Pages', encoding='utf-8'):
+    pdf_command = ['pdfinfo', '-']
+    p = subprocess.Popen(pdf_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    out = p.communicate(input=pdf)[0]
+    out = out.decode(encoding)
+    return find(r'(\n|^)' + attribute + r':\s+(.*)(\n|$)', out, group=2)
+
+
 def filter(pattern, d, flags=re.I):
     """grep like"""
     return "\n".join(l for l in d.split('\n') if re.search(pattern, l, flags=flags))
