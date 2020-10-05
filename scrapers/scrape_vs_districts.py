@@ -16,11 +16,14 @@ link = soup.find(href=re.compile(r'Synthese.*Woche'))
 
 # fetch the PDF
 url = base_url + link['href'].replace(' ', '%20')
-content = sc.pdfdownload(url, silent=True, page=1)
+pdf = sc.download_content(url, silent=True)
+content = sc.pdftotext(pdf, page=1)
 week = sc.find(r'Epidemiologische Situation Woche (\d+)', content)
 year = sc.find(r'\d+\.\d+\.(\d{4})', content)
 
-content = sc.pdfdownload(url, silent=True, page=12, layout=True, rect=[0, 403, 450, 50], fixed=2)
+# last page contains the district data
+page = int(sc.pdfinfo(pdf))
+content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 403, 450, 50], fixed=2)
 
 # strip everything including the "Anzahl Faelle" column + values
 def strip_left_number(content):
