@@ -80,9 +80,9 @@ jobs:
         SCRAPER_KEY: ${{ matrix.canton }}
       run: |
         if [ "$SCRAPER_KEY" = "FL" ] ; then
-          echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_${SCRAPER_KEY}_total.csv from scraper
+          echo "commit_msg=Update COVID19_Fallzahlen_${SCRAPER_KEY}_total.csv from scraper" >> $GITHUB_ENV
         else
-          echo ::set-env name=commit_msg::Update COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv from scraper
+          echo "commit_msg=Update COVID19_Fallzahlen_Kanton_${SCRAPER_KEY}_total.csv from scraper" >> $GITHUB_ENV
         fi
         
     - name: Sleep randomly # sleep here to prevent two workers to commit at the same time
