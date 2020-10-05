@@ -99,10 +99,10 @@ for row in tbody.find_all('tr'):
             pass
         else:
             # handle kleinstgemeinde stuff
-            district = sc.find(r'.*Verwaltungskreis (.*)', item)
+            district = sc.find(r'Kleinst.* im( Verwaltungskreis)? (.*)', item, group=2)
             if district == 'Berner Jura':
                 district = 'Jura bernois'
-            assert district in dds, f'Unknown / unexpected district {district}'
+            assert district in dds, f'Unknown / unexpected district {district} for city {city}'
             dds[district].new_cases += new_cases
 
     for district, dd in dds.items():
