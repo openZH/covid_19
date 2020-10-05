@@ -34,12 +34,12 @@ d = "\n".join(d.split("\n")[5:])
 
 reader = csv.DictReader(StringIO(d), delimiter=';')
 for row in reader:
-    week = sc.find(r'W(\d+)', row['Kalenderwoche'])
+    date = row['Falldatum']
 
     for key, value in inhabitants.items():
         dd = sc.DistrictData(canton='SG', district=key)
         dd.url = url
-        dd.week = week
+        dd.date = date
         dd.district_id = district_ids[key]
         dd.new_cases = row['Wahlkreis ' + key]
         dd.total_cases = row['Wahlkreis ' + key + ' (kumuliert)']
