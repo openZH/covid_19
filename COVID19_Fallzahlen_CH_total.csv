@@ -5199,7 +5199,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-10-03,,NW,,156,1,1,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-03,08:00,BE,,3656,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-10-03,09:40,BS,,1339,,,,1240,54,https://www.gesundheit.bs.ch,,
-2020-10-04,,FL,,126,,,,,1,https://www.regierung.li/media/attachments/533-corona-situationsbericht-1004.pdf,,
+2020-10-04,,FL,,126,0,,,116,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-04,,GR,,1122,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,,
 2020-10-04,,NW,,159,1,1,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-04,,SG,,1772,7,2,2,,41,https://stada.sg.ch/covid/BAG_uebersicht.html,,
