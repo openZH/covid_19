@@ -255,14 +255,17 @@ def xlsdownload(url, silent=False):
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
-def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1):
+def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
     rows = []
     if sheet_name:
         sheet = book.sheet_by_name(sheet_name)
     else:
         sheet = book.sheet_by_index(sheet_index)
+    ncols = sheet.ncols
+    if columns_to_parse:
+        ncols = columns_to_parse
     # if a header cell is empty, the name of the column (e.g. "A") is used instead
-    headers = {c: str(sheet.cell_value(header_row, c) or xlrd.formula.colname(c)) for c in range(sheet.ncols)} 
+    headers = {c: str(sheet.cell_value(header_row, c) or xlrd.formula.colname(c)) for c in range(ncols)}
     for r in range(header_row + skip_rows, sheet.nrows):
         entry = StripKeyDict()
         for c, h in headers.items():
