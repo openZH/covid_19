@@ -9,6 +9,7 @@ d = sc.download('https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evol
 
 soup = BeautifulSoup(d, 'html.parser')
 box = soup.find(class_="ico-xlsx")
+assert box, "URL is empty"
 xls_url = box.find('a').get('href')
 assert xls_url, "URL is empty"
 if not xls_url.startswith('http'):
