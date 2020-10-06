@@ -229,31 +229,37 @@ def add_cert_to_bundle():
         with open(cafile, 'ab') as outfile:
             outfile.write(customca)
 
-def download(url, encoding='utf-8', silent=False):
+def _download_request(url, silent):
     if not silent:
         print("Downloading:", url)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
     r = requests.get(url, headers=headers, verify=certifi.where())
     r.raise_for_status()
+    return r
+
+
+def download(url, encoding='utf-8', silent=False):
+    r = _download_request(url, silent)
     if encoding:
         r.encoding = encoding
     return r.text
 
 
+def download_content(url, silent=False):
+    r = _download_request(url, silent)
+    return r.content
+
+
 def jsondownload(url, silent=False):
-    if not silent:
-        print("Downloading:", url)
-    r = requests.get(url, verify=certifi.where())
-    r.raise_for_status()
+    r = _download_request(url, silent)
     return r.json()
 
+
 def xlsdownload(url, silent=False):
-    if not silent:
-        print("Downloading:", url)
-    r = requests.get(url, verify=certifi.where()) 
-    r.raise_for_status()
+    r = _download_request(url, silent)
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
+
 
 def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
     rows = []
@@ -285,22 +291,36 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, c
         rows.append(entry)
     return rows
 
-def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False):
+def pdfdownload(url, encoding='utf-8', raw=False, layout=False, silent=False, page=None, rect=None, fixed=None):
     """Download a PDF and convert it to text"""
-    if not silent:
-        print("Downloading:", url)
-    downloader = os.path.join(os.path.dirname(__file__), 'download.sh')
-    with subprocess.Popen([downloader, url], stdout=subprocess.PIPE) as pdf:
-        pdf_command = ['pdftotext']
-        if raw:
-            pdf_command += ['-raw']
-        if layout:
-            pdf_command += ['-layout']
-        pdf_command += ['-', '-']
-        with subprocess.Popen(pdf_command, stdin=pdf.stdout, stdout=subprocess.PIPE) as text:
-            t = text.stdout.read()
-            text.wait()
-            return t.decode(encoding)
+    pdf = download_content(url, silent=silent)
+    return pdftotext(pdf, encoding=encoding, raw=raw, layout=layout, page=page, rect=rect, fixed=fixed)
+
+
+def pdftotext(pdf, encoding='utf-8', raw=False, layout=False, page=None, rect=None, fixed=None):
+    pdf_command = ['pdftotext']
+    if raw:
+        pdf_command += ['-raw']
+    if layout:
+        pdf_command += ['-layout']
+    if page:
+        pdf_command += ['-f', str(page), '-l', str(page)]
+    if rect:
+        pdf_command += ['-x', str(rect[0]), '-y', str(rect[1]), '-W', str(rect[2]), '-H', str(rect[3])]
+    if fixed:
+        pdf_command += ['-fixed', str(fixed)]
+    pdf_command += ['-', '-']
+    p = subprocess.Popen(pdf_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    out = p.communicate(input=pdf)[0]
+    return out.decode(encoding)
+
+
+def pdfinfo(pdf, attribute='Pages', encoding='utf-8'):
+    pdf_command = ['pdfinfo', '-']
+    p = subprocess.Popen(pdf_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    out = p.communicate(input=pdf)[0]
+    out = out.decode(encoding)
+    return find(r'(\n|^)' + attribute + r':\s+(.*)(\n|$)', out, group=2)
 
 
 def filter(pattern, d, flags=re.I):
