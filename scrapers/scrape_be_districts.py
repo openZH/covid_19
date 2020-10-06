@@ -8,7 +8,7 @@ import scrape_common as sc
 def fix_city(city):
     cities = {
         'Biel': 'Biel / Bienne',
-        'Wohlen b. B.': 'Wohlen bei Bern'
+        'Wohlen b. B.': 'Wohlen bei Bern',
         'Muri-Gümligen': 'Muri bei Bern',
         'St-Imier': 'Saint-Imier',
         'Büren a.A.': 'Büren an der Aare',
