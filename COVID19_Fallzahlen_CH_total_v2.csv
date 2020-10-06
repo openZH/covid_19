@@ -5282,6 +5282,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-06,,FL,,130,,,,,,1,https://www.regierung.li/media/attachments/537-corona-situationsbericht-1006.pdf,,
 2020-10-06,,FR,,2569,,10,1,,177,102,https://www.fr.ch/sites/default/files/2020-10/201006_statistiques_situation_COVID_site.xlsx,,
 2020-10-06,,GE,,,,41,5,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-10-06,,GR,,1153,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,72,213
 2020-10-06,,LU,,1293,,6,1,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,74,177
 2020-10-06,,NW,,171,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-06,,SG,,,,,,,,,https://stada.sg.ch/covid/ContactTracing.html,193,729
