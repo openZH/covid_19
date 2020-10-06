@@ -7,6 +7,7 @@ import scrape_common as sc
 
 url = "https://corona.so.ch/index.php?id=27979"
 d = sc.download(url, silent=True)
+d = d.replace("&nbsp;", " ")
 
 rows = []
 soup = BeautifulSoup(d, 'html.parser')
@@ -20,9 +21,9 @@ if data_table:
         tmp_time = None
         for cell in row.find_all(['td']):
             if headers[col_num] == 'Datum':
-                tmp_date = cell.string
+                tmp_date = cell.string.strip()
             elif headers[col_num] == 'Zeit':
-                tmp_time = cell.string
+                tmp_time = cell.string.strip()
             elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
                 data.cases = cell.string.strip()
             elif headers[col_num] == 'Todesfälle (kumuliert)':
@@ -30,8 +31,7 @@ if data_table:
             elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
                 data.hospitalized = cell.string.strip()
             col_num += 1
-        if data and tmp_date is not None and \
-                not tmp_date.startswith('bis ') and not (tmp_date is None and tmp_time is None):
+        if data and tmp_date and tmp_time and not tmp_date.startswith('bis '):
             data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
 else:
