@@ -51,7 +51,7 @@ assert headers[1].text.strip() == "Anzahl"
 
 for i in range(1, len(rows)):
     cells = rows[i].find_all('td')
-    if cells[0].text.strip() == 'Positiv Getestete im Tracing / in Quarantäne':
+    if cells[0].text.strip() == 'Positiv Getestete im Tracing / in Isolation':
         value = cells[1].text.strip()
         if sc.represents_int(value):
             dd_isolated.isolated = int(value)
