@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = "https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/"
+url = 'https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/'
 d = sc.download(url, silent=True)
 
-soup = BeautifulSoup(d, 'html.parser')
-first_column = soup.find(text=re.compile(r'Stand: \d+\.'))
-date = sc.find(r'Stand: (\d+\. .* 20\d{2})', first_column)
+date = sc.find(r'Stand (\d+\.\d+\.20\d{2})', d)
 date = sc.date_from_text(date)
-
-tbody = first_column.find_previous('tbody')
 
 population = {
     'Solothurn': 16933,
@@ -41,16 +36,17 @@ district_ids = {
     'Wasseramt': 1106,
 }
 
-for row in tbody.find_all('tr'):
-    columns = row.find_all('td')
-    if len(columns) == 3:
-        district = columns[0].text
-        if district in district_ids:
-            dd = sc.DistrictData(canton='SO', district=district)
-            dd.url = url
-            dd.date = date.isoformat()
-            dd.population = population[district]
-            dd.district_id = district_ids[district]
-            dd.total_cases = columns[1].text
-            dd.new_cases = columns[2].text
-            print(dd)
+soup = BeautifulSoup(d, 'html.parser')
+for district, d_id in district_ids.items():
+    table = soup.find(text=district).find_next('table')
+    trs = table.find_all('tr')
+    tds = trs[-1].find_all('td')
+    assert tds[0].text == 'Total', f'Expected "Total" row, got {tds[0].text}'
+    dd = sc.DistrictData(canton='SO', district=district)
+    dd.url = url
+    dd.date = date.isoformat()
+    dd.population = int(tds[1].text.replace('\'', ''))
+    dd.district_id = d_id
+    dd.total_cases = int(tds[2].text)
+    dd.new_cases = int(tds[3].text)
+    print(dd)
