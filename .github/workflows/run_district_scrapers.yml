@@ -36,7 +36,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         sudo apt update || true # do not fail if update does not work
-        sudo apt-get install sqlite3
+        sudo apt-get install sqlite3 poppler-utils
 
     - name: Scrape new data
       env:
