@@ -105,9 +105,9 @@ jobs:
       env:
         SCRAPER_KEY: ${{ matrix.canton }}
       run: |
-        echo "::set-env name=validate_status::failed"
+        echo "validate_status=failed" >> $GITHUB_ENV
         ./scrapers/validate_scraper_output.sh
-        echo "::set-env name=validate_status::success"
+        echo "validate_status=success" >> $GITHUB_ENV
 
     - name: Get current unix timestamp
       if: always()
