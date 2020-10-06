@@ -6,15 +6,14 @@ import scrape_common as sc
 
 
 def fix_city(city):
-    if city == 'Biel':
-        return 'Biel / Bienne'
-    elif city == 'Wohlen b. B.':
-        return 'Wohlen bei Bern'
-    elif city == 'Muri-Gümligen':
-        return 'Muri bei Bern'
-    elif city == 'St-Imier':
-        return 'Saint-Imier'
-    return city
+    cities = {
+        'Biel': 'Biel / Bienne',
+        'Wohlen b. B.': 'Wohlen bei Bern',
+        'Muri-Gümligen': 'Muri bei Bern',
+        'St-Imier': 'Saint-Imier',
+        'Büren a.A.': 'Büren an der Aare',
+    }
+    return cities.get(city, city)
 
 
 # https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/karten.assetdetail.5688189.html
