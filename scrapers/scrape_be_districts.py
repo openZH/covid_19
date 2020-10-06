@@ -12,6 +12,8 @@ def fix_city(city):
         'Muri-Gümligen': 'Muri bei Bern',
         'St-Imier': 'Saint-Imier',
         'Büren a.A.': 'Büren an der Aare',
+        'Langnau i.E.': 'Langnau im Emmental',
+        'Oberhofen': 'Oberhofen am Thunersee',
     }
     return cities.get(city, city)
 
