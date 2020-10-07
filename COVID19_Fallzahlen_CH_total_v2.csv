@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,ncumul_confirmed_non_resident,current_hosp_non_resident,current_quarantined_riskareatravel,current_quarantined_total,current_hosp_resident
 2020-01-24,,GE,4,,,,,,,,https://www.ge.ch/document/20094/annexe/0,,
 2020-01-25,,GE,8,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-01-26,,GE,11,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,
@@ -5301,4 +5301,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-06,14:30,ZH,,8729,,26,,5,,148,https://www.zh.ch/de/gesundheit/coronavirus.html,825,2485
 2020-10-06,16:00,UR,,151,,0,,,134,7,https://www.ur.ch/themen/2962,,104
 2020-10-07,,FL,,130,,0,,,116,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
+2020-10-07,08:00,TI,,3738,,4,0,0,933,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-10-07,09:00,SZ,,714,,,,,544,25,https://www.sz.ch/public/upload/assets/48920/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
