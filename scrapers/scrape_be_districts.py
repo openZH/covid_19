@@ -98,7 +98,7 @@ for row in tbody.find_all('tr'):
         elif city.replace('-', '') in communes:
             district = communes[city.replace('-', '')]
             dds[district].new_cases += new_cases
-        elif city == 'unbekannt':
+        elif city.lower() == 'unbekannt':
             pass
         else:
             # handle kleinstgemeinde stuff
