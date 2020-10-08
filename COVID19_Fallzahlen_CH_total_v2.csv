@@ -5306,6 +5306,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-07,,FL,,130,,0,,,116,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-07,,FR,,2616,,11,1,,177,102,https://www.fr.ch/sites/default/files/2020-10/201007_statistiques_situation_COVID_site.xlsx,,
 2020-10-07,,GE,,,,48,6,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-10-07,,GR,,1169,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,80,293
 2020-10-07,,LU,,1314,,5,1,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,88,235
 2020-10-07,,NW,,177,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-07,,SG,,1934,,11,3,2,,41,https://stada.sg.ch/covid/BAG_uebersicht.html,263,824
