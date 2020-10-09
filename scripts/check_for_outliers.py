@@ -18,7 +18,7 @@ __location__ = os.path.realpath(
 MIN_VALUE = 20
 
 # only check the last x days
-LAG_PERIODS = 30
+LAG_PERIODS = 10
 
 # periods considered "recent"
 RECENT_PERIODS = 5
@@ -66,11 +66,11 @@ for csv_file in args:
     outliers = df_conf.query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
     recent_outliers = df_conf.tail(RECENT_PERIODS).query("((current_conf < @lower_limit) or (current_conf > @upper_limit)) and (ncumul_conf_outlier != 'ignore')")
     if outliers.empty:
-        print(f"✓ {csv_file} has no outliers.");
+        print(f"✅ {csv_file} has no outliers.");
     else:
         if not recent_outliers.empty:
             fail = True
-            print(f"× {csv_file} has recent outliers, please check if this is an error.");
+            print(f"❌ {csv_file} has recent outliers, please check if this is an error.");
         else:
             print(f"⚠️ {csv_file} has older or ignored outliers.");
         print(outliers[['date', 'ncumul_conf', 'current_conf', 'iqr', 'factor', 'upper_limit']])
