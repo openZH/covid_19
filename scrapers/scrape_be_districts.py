@@ -15,6 +15,7 @@ def fix_city(city):
         'Langnau i.E.': 'Langnau im Emmental',
         'Oberhofen': 'Oberhofen am Thunersee',
         'Erlenbach': 'Erlenbach im Simmental',
+        'Thörishaus': 'Köniz',
     }
     return cities.get(city, city)
 
