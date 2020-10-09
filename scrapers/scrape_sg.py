@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import csv
+from io import StringIO
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
@@ -64,7 +66,24 @@ if dd_isolated:
     print(dd_isolated)
     print('-' * 10)
 
-# cases
+
+# historized cases
+csv_url = 'https://www.sg.ch/ueber-den-kanton-st-gallen/statistik/covid-19/_jcr_content/Par/sgch_downloadlist/DownloadListPar/sgch_download.ocFile/KantonSG_C19-Faelle_download.csv'
+d = sc.download(csv_url, silent=True)
+
+# strip the "header" / description lines
+d = "\n".join(d.split("\n")[5:])
+
+reader = csv.DictReader(StringIO(d), delimiter=';')
+for row in reader:
+    dd = sc.DayData(canton='SG', url=csv_url)
+    dd.datetime = row['Falldatum']
+    dd.cases = row['Total Kanton SG (kumuliert)']
+    print(dd)
+    print('-' * 10)
+
+
+# latest cases
 url_cases = 'https://stada.sg.ch/covid/BAG_uebersicht.html'
 soup = BeautifulSoup(sc.download(url_cases, silent=True), 'html.parser')
 dd_cases = sc.DayData(canton='SG', url=url_cases)
