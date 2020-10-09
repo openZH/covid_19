@@ -14,6 +14,8 @@ def fix_city(city):
         'Büren a.A.': 'Büren an der Aare',
         'Langnau i.E.': 'Langnau im Emmental',
         'Oberhofen': 'Oberhofen am Thunersee',
+        'Erlenbach': 'Erlenbach im Simmental',
+        'Thörishaus': 'Köniz',
     }
     return cities.get(city, city)
 
