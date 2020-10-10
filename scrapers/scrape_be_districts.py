@@ -13,6 +13,7 @@ def fix_city(city):
 
     # and handle a few special cases
     cities = {
+        'Muri-Gümligen': 'Muri bei Bern',
         'St-Imier': 'Saint-Imier',
         'Thörishaus': 'Köniz',
     }
