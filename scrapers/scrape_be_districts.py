@@ -26,6 +26,7 @@ def parse_kleinstgemeinde(item, dds):
     # handle kleinstgemeinde stuff
     district = sc.find(r'Kleinst.* im( Verwaltungskreis)? (.*)', item, group=2)
     if district is not None:
+        district = district.strip()
         if district == 'Berner Jura':
             district = 'Jura bernois'
         dds[district].new_cases += new_cases
