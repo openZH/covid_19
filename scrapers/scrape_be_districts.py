@@ -6,18 +6,28 @@ import scrape_common as sc
 
 
 def fix_city(city):
+    # fix common abbreviations
+    city = re.sub(r' b\.\s?B\.', ' bei Bern', city)
+    city = re.sub(r' a\.\s?A\.', ' an der Aare', city)
+    city = re.sub(r' i\.\s?E\.', ' im Emmental', city)
+
+    # and handle a few special cases
     cities = {
-        'Biel': 'Biel / Bienne',
-        'Wohlen b. B.': 'Wohlen bei Bern',
-        'Muri-Gümligen': 'Muri bei Bern',
         'St-Imier': 'Saint-Imier',
-        'Büren a.A.': 'Büren an der Aare',
-        'Langnau i.E.': 'Langnau im Emmental',
-        'Oberhofen': 'Oberhofen am Thunersee',
-        'Erlenbach': 'Erlenbach im Simmental',
         'Thörishaus': 'Köniz',
     }
     return cities.get(city, city)
+
+
+def parse_kleinstgemeinde(item, dds):
+    # handle kleinstgemeinde stuff
+    district = sc.find(r'Kleinst.* im( Verwaltungskreis)? (.*)', item, group=2)
+    if district is not None:
+        if district == 'Berner Jura':
+            district = 'Jura bernois'
+        dds[district].new_cases += new_cases
+        return True
+    return False
 
 
 # https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/karten.assetdetail.5688189.html
@@ -102,12 +112,16 @@ for row in tbody.find_all('tr'):
             dds[district].new_cases += new_cases
         elif city.lower() == 'unbekannt':
             pass
+        elif parse_kleinstgemeinde(item, dds):
+            pass
         else:
-            # handle kleinstgemeinde stuff
-            district = sc.find(r'Kleinst.* im( Verwaltungskreis)? (.*)', item, group=2)
-            if district == 'Berner Jura':
-                district = 'Jura bernois'
-            assert district in dds, f'Unknown / unexpected district {district} for city {city}'
+            # try to find the city name in the list of known city names
+            res = []
+            for commune in communes:
+                if commune.find(city) >= 0:
+                    res.append(commune)
+            assert len(res) == 1, f'Failed to detect district for city {city} (potential matches: {res})'
+            district = communes[res[0]]
             dds[district].new_cases += new_cases
 
     for district, dd in dds.items():
