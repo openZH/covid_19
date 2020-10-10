@@ -10,6 +10,8 @@ def fix_city(city):
     city = re.sub(r' b\.\s?B\.', ' bei Bern', city)
     city = re.sub(r' a\.\s?A\.', ' an der Aare', city)
     city = re.sub(r' i\.\s?E\.', ' im Emmental', city)
+    city = re.sub(r' i\.\s?S\.', ' im Simmental', city)
+    city = re.sub(r' b\. ', ' bei ', city)
 
     # and handle a few special cases
     cities = {
