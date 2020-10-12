@@ -62,7 +62,7 @@ if data_table:
 
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
-            if row.get('Date') and not re.match(f'{current_year}', row.get('Date')):
+            if row.get('Date') and not re.search(f'{current_year}', row.get('Date')):
                 dd.datetime = f"{row.get('Date')} {current_year}"
             else:
                 dd.datetime = row.get('Date')
