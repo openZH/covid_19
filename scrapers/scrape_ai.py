@@ -75,8 +75,10 @@ print("Confirmed cases:", sc.find('<li>.*?([0-9]+)\s*(infizierte Person(en)?|(la
 print("Deaths:", sc.find('<li>.*?([0-9]+)\s*Todesf.+?lle.*<\/li>', d))
 print("Isolated:", sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d))
 quarantined_close_contact = sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Quarant.+ne.*enger\s+Kontakt.*<\/li>', d)
+quarantined_close_contact = quarantined_close_contact.replace('+', '')
 print("Quarantined:", quarantined_close_contact)
 quarantined_travel = sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Quarant.+ne.*Einreise\s+Risikoland.*<\/li>', d)
+quarantined_travel = quarantined_travel.replace('+', '')
 print("Quarantined risk area travel:", quarantined_travel)
 print("Quarantined total:", int(quarantined_close_contact) + int(quarantined_travel))
 
