@@ -5461,6 +5461,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-10,,GR,,1244,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,130,943
 2020-10-10,,JU,,466,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-10,,NE,,1455,,10,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-10,,NW,,199,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-10,,SG,,2185,,,,,,,https://www.sg.ch/ueber-den-kanton-st-gallen/statistik/covid-19/_jcr_content/Par/sgch_downloadlist/DownloadListPar/sgch_download.ocFile/KantonSG_C19-Faelle_download.csv,,
 2020-10-10,08:00,AG,,2995,,,,,2520,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
 2020-10-10,08:00,BE,,4218,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -5475,6 +5476,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-11,,GR,,1259,,2,1,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,139,953
 2020-10-11,,JU,,479,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-11,,NE,,1459,,11,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-11,,NW,,204,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-11,,SG,,2201,,10,3,2,,42,https://stada.sg.ch/covid/BAG_uebersicht.html,,
 2020-10-11,08:00,AG,,3019,,,,,2525,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
 2020-10-11,08:00,BE,,4352,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -5486,6 +5488,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,,BL,,1316,,3,0,0,1148,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,107,253
 2020-10-12,,FL,,148,,,,,,1,https://www.regierung.li/media/attachments/563-corona-situationsbericht-1012.pdf,,
 2020-10-12,,LU,,1526,,12,2,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,290,365
+2020-10-12,,NW,,211,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-12,,SG,,,,,,,,,https://stada.sg.ch/covid/ContactTracing.html,441,736
 2020-10-12,01:00,SO,,1029,,6,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-10-12,08:00,BE,,4413,,44,7,5,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -5496,4 +5499,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,09:45,SH,,245,,2,0,,,8,https://sh.ch/CMS/get/file/997dc257-10ca-477b-83fc-49deb642c72c,34,84
 2020-10-12,10:00,TG,,917,1,7,2,,91,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,154,
 2020-10-12,11:30,GL,,210,,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
+2020-10-12,12:00,AI,,73,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,27,22
 2020-10-12,14:30,ZH,,9950,,51,,7,,149,https://www.zh.ch/de/gesundheit/coronavirus.html,1081,2967
+2020-10-12,16:00,UR,,182,,0,,,150,7,https://www.ur.ch/themen/2962,,169
