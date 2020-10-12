@@ -61,7 +61,11 @@ if data_table:
                 continue
 
             dd = sc.DayData(canton='JU', url=url)
-            dd.datetime = row.get('Date')
+            current_year = datetime.datetime.now().year
+            if row.get('Date') and not re.search(f'{current_year}', row.get('Date')):
+                dd.datetime = f"{row.get('Date')} {current_year}"
+            else:
+                dd.datetime = row.get('Date')
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
