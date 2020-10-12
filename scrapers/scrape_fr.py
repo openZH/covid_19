@@ -16,15 +16,15 @@ if not xls_url.startswith('http'):
     xls_url = f'https://www.fr.ch{xls_url}'
 
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=0, sheet_name='Données sites internet')
+rows = sc.parse_xls(xls, header_row=4)
 is_first = True
 
 col_info = (
     (r'.*Total cas avérés.*', 'Confirmed cases'),
     (r'.*Personnes hospitalisées.*', 'Hospitalized'),
-    (r'.*dont soins intensifs.*', 'ICU'),
+    (r'.*aux soins intensifs.*', 'ICU'),
     (r'.*Total décès.*', 'Deaths'),
-    (r'.*Total Sortis de l\'hôpital.*', 'Recovered')
+    (r'.*Total Sorties de l\'hôpital.*', 'Recovered')
 )
 
 for row in rows:
