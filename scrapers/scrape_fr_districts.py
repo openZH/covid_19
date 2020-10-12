@@ -49,13 +49,12 @@ for tr in table.tbody.find_all('tr'):
 
     for i in range(len(weeks)):
         district = tds[0].string
-        dd = sc.DistrictData(canton='FR', district=district)
-        dd.url = url
-        dd.week = weeks[i]
-        dd.year = '20' + year
-        dd.new_cases = tds[i + 1].string
         if district in inhabitants:
+            dd = sc.DistrictData(canton='FR', district=district)
+            dd.url = url
+            dd.week = weeks[i]
+            dd.year = '20' + year
+            dd.new_cases = tds[i + 1].string
             dd.population = inhabitants[district]
-        if district in district_ids:
             dd.district_id = district_ids[district]
-        print(dd)
+            print(dd)
