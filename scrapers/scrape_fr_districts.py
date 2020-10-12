@@ -37,15 +37,17 @@ year = sc.find(year_re, year)
 
 weeks = []
 week_regex = re.compile(r'Woche \d+')
-week = table.find(string=week_regex)
-for i in range(3):
-    weeks.append(sc.find(r'Woche (\d+)', week))
-    week = week.find_next(string=week_regex)
+head = table.find_all('thead')[0]
+headers = table.find_all('th')
+for header in headers:
+    week = sc.find(r'Woche (\d+)', header.text)
+    if week is not None:
+        weeks.append(week)
 
 for tr in table.tbody.find_all('tr'):
     tds = tr.find_all('td')
 
-    for i in range(3):
+    for i in range(len(weeks)):
         district = tds[0].string
         dd = sc.DistrictData(canton='FR', district=district)
         dd.url = url
