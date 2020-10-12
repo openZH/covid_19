@@ -5435,6 +5435,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-09,,FR,,2743,,12,2,,177,102,https://www.fr.ch/sites/default/files/2020-10/201011_statistiques_situation_COVID_site.xlsx,,
 2020-10-09,,GE,,,,48,7,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-10-09,,GR,,1217,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,116,756
+2020-10-09,,JU,,439,,9,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-09,,LU,,1400,,7,2,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,183,259
 2020-10-09,,NE,,1426,,12,2,1,,92,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-09,,NW,,195,,0,0,,,4,http://www.nw.ch/coronastatistik,,
@@ -5458,6 +5459,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-10,,FL,,144,,3,,,121,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-10,,FR,,2889,,14,1,,177,102,https://www.fr.ch/sites/default/files/2020-10/201011_statistiques_situation_COVID_site.xlsx,,
 2020-10-10,,GR,,1244,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,130,943
+2020-10-10,,JU,,466,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-10,,NE,,1455,,10,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-10,,SG,,2185,,,,,,,https://www.sg.ch/ueber-den-kanton-st-gallen/statistik/covid-19/_jcr_content/Par/sgch_downloadlist/DownloadListPar/sgch_download.ocFile/KantonSG_C19-Faelle_download.csv,,
 2020-10-10,08:00,AG,,2995,,,,,2520,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
@@ -5470,6 +5472,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-11,,FL,,148,,3,,,124,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-11,,FR,,2956,,13,1,,179,103,https://www.fr.ch/sites/default/files/2020-10/201011_statistiques_situation_COVID_site.xlsx,,
 2020-10-11,,GR,,1259,,2,1,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,139,953
+2020-10-11,,JU,,479,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-11,,NE,,1459,,11,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-11,,SG,,2201,,10,3,2,,42,https://stada.sg.ch/covid/BAG_uebersicht.html,,
 2020-10-11,08:00,AG,,3019,,,,,2525,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
