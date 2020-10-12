@@ -156,7 +156,7 @@ class DistrictData:
 
     @staticmethod
     def __get_int_item(item):
-        return None if item is None or item == '' else int(item)
+        return int(item) if represents_int(item) else None
 
     def parse(self, data):
         items = data.split(DistrictData.SEPARATOR)
