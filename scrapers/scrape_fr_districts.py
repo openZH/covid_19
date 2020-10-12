@@ -25,6 +25,17 @@ district_ids = {
     'Vivisbach': 1007,
 }
 
+district_xls = {
+    'Broye': 'Broye',
+    'Glane': 'Glâne',
+    'Greyerz': 'Gruyère',
+    'Saane': 'Sarine',
+    'See': 'Lac',
+    'Sense': 'Singine',
+    'Vivisbach': 'Veveyse',
+}
+
+# weekly data
 url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
@@ -58,3 +69,23 @@ for tr in table.tbody.find_all('tr'):
             dd.population = inhabitants[district]
             dd.district_id = district_ids[district]
             print(dd)
+
+
+# daily data from xls
+xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
+assert xls_url, "URL is empty"
+if not xls_url.startswith('http'):
+    xls_url = f'https://www.fr.ch{xls_url}'
+
+xls = sc.xlsdownload(xls_url, silent=True)
+rows = sc.parse_xls(xls, header_row=4)
+for row in rows:
+    for district, d_id in district_ids.items():
+        assert district_xls[district] in row
+        dd = sc.DistrictData(canton='FR', district=district)
+        dd.url = url
+        dd.week = row['Date']
+        dd.new_cases = row[district_xls[district]]
+        dd.population = inhabitants[district]
+        dd.district_id = d_id
+        print(dd)
