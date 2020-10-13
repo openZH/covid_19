@@ -68,7 +68,7 @@ for row in rows:
     dd.recovered = row['Gesamtzahl17']
 
     # TODO: remove if source is fixed
-    if row['A'].date().isoformat() == '2020-06-04':
+    if row['A'].date().isoformat() in ['2020-06-04', '2020-10-12']:
         dd.recovered = ''
 
     if dd:
