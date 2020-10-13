@@ -5499,6 +5499,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,,FR,,3048,,13,1,,180,103,https://www.fr.ch/sites/default/files/2020-10/201012_statistiques_situation_COVID_site_V2_0.xlsx,,
 2020-10-12,,GE,,,,63,5,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-10-12,,GR,,1281,,3,1,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,154,613
+2020-10-12,,JU,,500,,8,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-12,,LU,,1526,,12,2,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,290,365
 2020-10-12,,NW,,211,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-12,,SG,,2268,,20,3,2,,43,https://stada.sg.ch/covid/BAG_uebersicht.html,441,736
@@ -5516,6 +5517,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,12:00,AI,,73,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,27,22
 2020-10-12,14:30,ZH,,9950,,51,,7,,149,https://www.zh.ch/de/gesundheit/coronavirus.html,1081,2967
 2020-10-12,16:00,UR,,182,,0,,,150,7,https://www.ur.ch/themen/2962,,169
+2020-10-13,08:00,TI,,3952,,11,1,1,934,351,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-10-13,08:00,ZG,,700,,9,,,433,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-10-13,09:15,BS,,1483,,5,3,,1288,54,https://www.gesundheit.bs.ch,141,288
 2020-10-13,09:30,SH,,252,,2,0,,,8,https://sh.ch/CMS/get/file/71d58a8e-8696-49c6-b1a0-bc5316b07be4,35,94
