@@ -12,12 +12,17 @@ def fix_city(city):
     city = re.sub(r' i\.\s?E\.', ' im Emmental', city)
     city = re.sub(r' i\.\s?S\.', ' im Simmental', city)
     city = re.sub(r' b\. ', ' bei ', city)
+    city = re.sub(r' BE', '', city)
 
     # and handle a few special cases
     cities = {
         'Muri-Gümligen': 'Muri bei Bern',
         'St-Imier': 'Saint-Imier',
+        'Saint Imier': 'Saint-Imier',
         'Thörishaus': 'Köniz',
+        'Bönigen bei Interlaken': 'Bönigen',
+        'Landswil': 'Landiswil',
+        'Prêles': 'Plateau de Diesse',
     }
     return cities.get(city, city)
 
