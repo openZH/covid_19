@@ -3,6 +3,7 @@ on:
   pull_request:
   push:
     branches: [master]
+  workflow_dispatch: ~
 jobs:
   lint_python:
     runs-on: ubuntu-latest
