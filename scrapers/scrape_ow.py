@@ -24,14 +24,14 @@ for row in rows:
         dd = sc.DayData(canton='OW', url=xls_url)
         dd.datetime = row['A']
         data_found = False
-        if isinstance(row['Infizierte Personen'], int):
-            dd.cases = row['Infizierte Personen']
+        if isinstance(row['Infizierte Personen (kumuliert)'], int):
+            dd.cases = row['Infizierte Personen (kumuliert)']
             data_found = True
         if isinstance(row['Hospitalisierte Personen'], int):
             dd.hospitalized = row['Hospitalisierte Personen']
             data_found = True
-        if isinstance(row['Gestorbene Personen'], int):
-            dd.deaths = row['Gestorbene Personen']
+        if isinstance(row['Gestorbene Personen (kumuliert)'], int):
+            dd.deaths = row['Gestorbene Personen (kumuliert)']
             data_found = True
         if data_found:
             if not is_first:
