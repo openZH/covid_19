@@ -8,6 +8,8 @@ import scrape_common as sc
 
 
 def split_whitespace(text):
+    if not text:
+        return []
     text = re.sub(r'\s\s+', ' ', text)
     return text.split(' ')
 
