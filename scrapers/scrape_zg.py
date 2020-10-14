@@ -88,6 +88,7 @@ for day in days:
     dd.datetime = day
     dd.cases = data[day].get('Fallzahl')
     dd.hospitalized = data[day].get('Hospitalisierte')
+    dd.icu = data[day].get('Hospitalisierte in Intensivpflege')
     dd.recovered = data[day].get('Genesene')
     dd.deaths = data[day].get('Todesfälle')
     
