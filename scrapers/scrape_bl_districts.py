@@ -110,6 +110,7 @@ for row_date, row in rows.items():
     for district, district_id in district_ids.items():
         dd = sc.DistrictData(canton='BL', district=district)
         dd.district_id = district_id
+        dd.population = population[district]
         dd.url = main_url
         dd.date = row['date']
         dd.new_cases = round(row[district] / 100e3 * population[district])
