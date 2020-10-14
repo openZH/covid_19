@@ -5525,7 +5525,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,14:30,ZH,,9950,,51,,7,,149,https://www.zh.ch/de/gesundheit/coronavirus.html,1081,2967
 2020-10-12,16:00,UR,,182,,0,,,150,7,https://www.ur.ch/themen/2962,,169
 2020-10-13,,BL,,1367,,4,0,0,1157,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,120,289
-2020-10-13,,FL,,163,,,,,,1,https://www.regierung.li/media/attachments/567-corona-situationsbericht-1013.pdf,,
+2020-10-13,,FL,,170,,2,,,131,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-13,,FR,,3156,,13,2,,182,104,https://www.fr.ch/sites/default/files/2020-10/201013_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-13,,GE,,,,67,4,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-10-13,,GR,,1318,,3,1,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,178,561
@@ -5555,3 +5555,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-14,09:30,SH,,263,,3,0,,,8,https://sh.ch/CMS/get/file/e7dfa6c7-66bf-4c39-aa14-d632d5f5763d,46,100
 2020-10-14,10:00,TG,,973,0,10,2,,92,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,155,
 2020-10-14,11:00,GL,,230,,0,,,,13,https://www.gl.ch/public/upload/assets/30317/COVID-19_Fallzahlen_Kanton_Glarus.xlsx,,
+2020-10-14,12:00,AI,,92,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,37,40
