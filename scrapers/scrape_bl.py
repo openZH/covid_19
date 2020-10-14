@@ -193,6 +193,18 @@ for iframe in soup.find_all('iframe'):
                 rows[key]['quarantine_riskareatravel'] = sc.safeint(c[3] or 0)
         continue
 
+    # 14-Tage-Inzindenz Region
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz BS/BL/Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
+    if data:
+        # nothing to do here
+        continue
+
+    # 14-Tage-Inzindenz Bezirke BL
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Bezirk Arlesheim&quot;,&quot;Bezirk Laufen&quot;,&quot;Bezirk Liestal&quot;,&quot;Bezirk Sissach&quot;,&quot;Bezirk Waldenburg&quot;\s*([^<]+)</pre>', d)
+    if data:
+        # nothing to do here
+        continue
+
     # we should never reach here unless there is an unknown iframe
     raise Exception(f"issue parsing data in iframe {iframe_url}")
 
