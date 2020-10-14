@@ -16,12 +16,11 @@ main_site = sc.download(main_url, silent=True)
 """
 
 
-def get_row_date(s):
+def parse_row_date(s):
     row_date = s.replace('-', '.')
     parts = row_date.split('.')
     s_date = datetime(day=int(parts[0]), month=int(parts[1]), year=int(parts[2]))
-    key = s_date.date().isoformat()
-    return (key, row_date)
+    return s_date.date().isoformat()
 
 
 rows = defaultdict(dict)
@@ -77,13 +76,13 @@ for iframe in soup.find_all('iframe'):
         for row in data.split(" "):
             c = row.split(',')
             if len(c) == 6:
-                key, row_date = get_row_date(c[0])
-                rows[key]['date'] = row_date
-                rows[key]['Arlesheim'] = float(c[1])
-                rows[key]['Laufen'] = float(c[2])
-                rows[key]['Liestal'] = float(c[3])
-                rows[key]['Sissach'] = float(c[4])
-                rows[key]['Waldenburg'] = float(c[5])
+                row_date = parse_row_date(c[0])
+                rows[row_date]['date'] = row_date
+                rows[row_date]['Arlesheim'] = float(c[1])
+                rows[row_date]['Laufen'] = float(c[2])
+                rows[row_date]['Liestal'] = float(c[3])
+                rows[row_date]['Sissach'] = float(c[4])
+                rows[row_date]['Waldenburg'] = float(c[5])
         continue
 
     # we should never reach here unless there is an unknown iframe
