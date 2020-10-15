@@ -19,11 +19,14 @@ soup = BeautifulSoup(d, 'html.parser')
 
 # weekly pdf
 pdf_url = soup.find('a', string=re.compile(r'Grafik zur.*')).get('href')
-content = sc.pdfdownload(pdf_url, page=1, layout=True, silent=True)
-pdf_date = sc.find(r'(\d{2}\.\d{2}.\d{4})', content)
+pdf = sc.download_content(pdf_url, silent=True)
+content = sc.pdftotext(pdf, page=1)
+pdf_date = sc.find(r'Stand: (\d{2}\.\d{2}.\d{4})', content)
 pdf_date = sc.date_from_text(pdf_date)
+print(pdf_date)
 
-dates = split_whitespace(sc.find(r'\n\s+(\d+\.\d+ \d+\.\d+ .*)\n', content))
+content = sc.pdftotext(pdf, page=2, layout=True)
+dates = split_whitespace(sc.find(r'\n\s+(\d+\.\d+\s+\d+\.\d+\s+.*)\n\s+Massenquarant.ne', content))
 travel_q = split_whitespace(sc.find(r'\n\s+Einreisequarant.ne\s+(\d.*)\n', content))
 isolation = split_whitespace(sc.find(r'\n\s+Isolation\s+(\d.*)\n', content))
 quarantined = split_whitespace(sc.find(r'\n\s+KP Quarant.ne\s+(\d.*)\n', content))
