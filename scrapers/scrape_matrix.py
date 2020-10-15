@@ -12,7 +12,7 @@ import sys
 matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases'],
-    'AI': ['Confirmed cases', 'Deaths', 'Isolated', 'Quarantined'],
+    'AI': ['Confirmed cases', 'Deaths', 'Isolated'],
     'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
     'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
