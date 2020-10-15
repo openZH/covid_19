@@ -23,7 +23,6 @@ pdf = sc.download_content(pdf_url, silent=True)
 content = sc.pdftotext(pdf, page=1)
 pdf_date = sc.find(r'Stand: (\d{2}\.\d{2}.\d{4})', content)
 pdf_date = sc.date_from_text(pdf_date)
-print(pdf_date)
 
 content = sc.pdftotext(pdf, page=2, layout=True)
 dates = split_whitespace(sc.find(r'\n\s+(\d+\.\d+\s+\d+\.\d+\s+.*)\n\s+Massenquarant.ne', content))
