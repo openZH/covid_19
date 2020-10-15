@@ -68,7 +68,13 @@ for row in rows:
     dd.recovered = row['Gesamtzahl17']
 
     # TODO: remove if source is fixed
-    ignore_dates = ['2020-06-04', '2020-06-19', '2020-10-12']
+    ignore_dates = [
+        '2020-06-04',
+        '2020-06-08',
+        '2020-06-19',
+        '2020-07-07',
+        '2020-10-12',
+    ]
     if row['A'].date().isoformat() in ignore_dates:
         dd.recovered = ''
 
