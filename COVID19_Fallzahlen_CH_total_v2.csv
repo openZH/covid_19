@@ -2468,7 +2468,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-08,,VS,,1964,0,15,3,2,287,152,https://www.vs.ch/de/web/coronavirus,17,95
 2020-06-08,00:00,OW,,82,,0,,,,0,https://www.ow.ch/dl.php/de/5f884ddd0602a/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-06-08,00:00,SO,,446,,,,,,17,https://corona.so.ch/index.php?id=27979,,
-2020-06-08,08:00,AG,,1217,,4,1,1,1135,47,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,19,44
+2020-06-08,08:00,AG,,1217,,4,1,1,,47,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,19,44
 2020-06-08,08:00,BE,,1918,,3,0,0,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-06-08,08:00,TI,,3316,,13,2,0,905,349,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-06-08,08:00,ZG,,203,,0,0,,185,9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1,28
@@ -3163,7 +3163,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-07-07,,VS,,2079,1,7,1,0,305,153,https://www.vs.ch/de/web/coronavirus,33,93
 2020-07-07,00:00,OW,,84,,0,,,,0,https://www.ow.ch/dl.php/de/5f884ddd0602a/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-07-07,00:00,SO,,475,,,,,,17,https://corona.so.ch/index.php?id=27979,,
-2020-07-07,08:00,AG,,1352,,5,1,,1175,48,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,76,249
+2020-07-07,08:00,AG,,1352,,5,1,,,48,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,76,249
 2020-07-07,08:00,BE,,1963,,3,1,1,,97,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-07-07,08:00,BS,,993,,4,1,,935,50,https://www.gesundheit.bs.ch,8,
 2020-07-07,08:00,TI,,3355,,0,0,0,915,350,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
