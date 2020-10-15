@@ -48,8 +48,7 @@ else:
 
 
 # excel sheet
-box = soup.find('div', class_="box--error")
-xls_url = box.find('a', string=re.compile(r'.*Dokument.*')).get('href')
+xls_url = soup.find('a', string=re.compile(r'.*Dokument\s*\[xlsx.*')).get('href')
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls)
