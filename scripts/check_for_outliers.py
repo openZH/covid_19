@@ -24,7 +24,7 @@ LAG_PERIODS = 10
 RECENT_PERIODS = 5
 
 # IQR factor, determines how many times the IQR is the limit for an outlier
-FACTOR = 1.5
+FACTOR = 2.0
 
 assert len(sys.argv) >= 2, "Error: Call this script with the path(s) to CSV file(s)"
 
