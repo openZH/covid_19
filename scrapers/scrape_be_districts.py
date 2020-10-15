@@ -108,10 +108,11 @@ for row in tbody.find_all('tr'):
     content = re.sub(r'-\n(\w)', r'-\1', content)
     # fix <br /> without - from above, but no number on the next line...
     content = re.sub(r'\n([A-Z|a-z])', r' \1', content)
-    for item in content.split('\n'):
-        if item.lower() == 'Aufgrund der hohen Anzahl Fälle werden keine Ortschaften genannt.'.lower():
-            continue
 
+    if content.lower() == 'Aufgrund der hohen Anzahl Fälle werden keine Ortschaften genannt.'.lower():
+        continue
+
+    for item in content.split('\n'):
         res = re.match(r'(\d+) (.*)', item)
         assert res is not None, f'Unexpected item {item} for number / city'
         new_cases = int(res[1])
