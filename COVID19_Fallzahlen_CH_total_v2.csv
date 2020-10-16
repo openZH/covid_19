@@ -5606,6 +5606,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-16,,BL,,1506,,4,0,0,1175,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,210,355
 2020-10-16,,FL,,192,,,,,,1,https://www.regierung.li/media/attachments/571-corona-situationsbericht-1016.pdf,,
 2020-10-16,,GE,,,,94,6,,,,https://www.ge.ch/document/21502/telecharger,,
+2020-10-16,,GR,,1416,,7,3,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,222,609
 2020-10-16,,LU,,1892,,13,1,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,631,802
 2020-10-16,,NW,,248,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-16,,SG,,,,,,,,,https://stada.sg.ch/covid/ContactTracing.html,623,
