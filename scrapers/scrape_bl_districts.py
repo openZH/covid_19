@@ -3,7 +3,7 @@
 
 from bs4 import BeautifulSoup
 import scrape_common as sc
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from datetime import datetime
 
 main_url = "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft"
@@ -65,7 +65,7 @@ for iframe in soup.find_all('iframe'):
     if data:
         continue
 
-    # 14-Tage-Inzindenz Region
+    # 14-Tage-Inzidenz Region
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz BS/BL/Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
     if data:
         continue
@@ -73,16 +73,18 @@ for iframe in soup.find_all('iframe'):
     # district data!
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Bezirk Arlesheim&quot;,&quot;Bezirk Laufen&quot;,&quot;Bezirk Liestal&quot;,&quot;Bezirk Sissach&quot;,&quot;Bezirk Waldenburg&quot;\s*([^<]+)</pre>', d)
     if data:
-        for row in data.split(" "):
-            c = row.split(',')
-            if len(c) == 6:
-                row_date = parse_row_date(c[0])
-                rows[row_date]['date'] = row_date
-                rows[row_date]['Arlesheim'] = float(c[1])
-                rows[row_date]['Laufen'] = float(c[2])
-                rows[row_date]['Liestal'] = float(c[3])
-                rows[row_date]['Sissach'] = float(c[4])
-                rows[row_date]['Waldenburg'] = float(c[5])
+        # take "Fallzahlen Bezirke BL ab Juni 2020", but not the 14d averaged one
+        if iframe_url.find('/dbw/123') > 0:
+            for row in data.split(" "):
+                c = row.split(',')
+                if len(c) == 6:
+                    row_date = parse_row_date(c[0])
+                    rows[row_date]['date'] = row_date
+                    rows[row_date]['Arlesheim'] = int(c[1])
+                    rows[row_date]['Laufen'] = int(c[2])
+                    rows[row_date]['Liestal'] = int(c[3])
+                    rows[row_date]['Sissach'] = int(c[4])
+                    rows[row_date]['Waldenburg'] = int(c[5])
         continue
 
     # we should never reach here unless there is an unknown iframe
@@ -99,19 +101,41 @@ district_ids = {
 
 # https://www.statistik.bl.ch/web_portal/1
 population = {
-    'Arlesheim': 157425,
-    'Laufen': 20161,
-    'Liestal': 61301,
-    'Sissach': 36166,
-    'Waldenburg': 16135,
+    'Arlesheim': 157253,
+    'Laufen': 20141,
+    'Liestal': 61201,
+    'Sissach': 36051,
+    'Waldenburg': 16119,
 }
 
-for row_date, row in rows.items():
-    for district, district_id in district_ids.items():
+# based on https://github.com/openZH/covid_19/issues/1185#issuecomment-709952315
+initial_cases = {
+    'Arlesheim': 528,
+    'Laufen': 65,
+    'Liestal': 177,
+    'Sissach': 81,
+    'Waldenburg': 15,
+}
+
+# order dict by key to ensure the most recent entry is last
+ordered_rows = OrderedDict(sorted(rows.items()))
+
+#for row_date, row in ordered_rows.items():
+#    for district, district_id in district_ids.items():
+
+for district, district_id in district_ids.items():
+    last_total_cases_val = initial_cases[district]
+    if district == 'Arlesheim':
+        # 2020-05-31 is 527
+        last_total_cases_val = 527
+
+    for row_date, row in ordered_rows.items():
         dd = sc.DistrictData(canton='BL', district=district)
         dd.district_id = district_id
         dd.population = population[district]
         dd.url = main_url
         dd.date = row['date']
-        dd.new_cases = round(row[district] / 100e3 * population[district])
+        dd.total_cases = row[district] + initial_cases[district]
+        dd.new_cases = dd.total_cases - last_total_cases_val
+        last_total_cases_val = dd.total_cases
         print(dd)
