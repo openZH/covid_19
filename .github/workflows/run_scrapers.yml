@@ -61,7 +61,7 @@ jobs:
         pip install -r requirements.txt
         sudo apt update || true # do not fail if update does not work
         sudo apt-get install sqlite3
-        if [ "$SCRAPER_KEY" = "FL" ] || [ "$SCRAPER_KEY" = "GE" ] || [ "$SCRAPER_KEY" = "VD" ] || [ "$SCRAPER_KEY" = "GL" ] ; then
+        if [ "$SCRAPER_KEY" = "FL" ] || [ "$SCRAPER_KEY" = "GE" ] || [ "$SCRAPER_KEY" = "VD" ] || [ "$SCRAPER_KEY" = "GL" ] || [ "$SCRAPER_KEY" = "SZ" ] ; then
           sudo apt-get install poppler-utils
         fi
 
