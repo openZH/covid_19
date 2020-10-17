@@ -101,11 +101,11 @@ district_ids = {
 
 # https://www.statistik.bl.ch/web_portal/1
 population = {
-    'Arlesheim': 157425,
-    'Laufen': 20161,
-    'Liestal': 61301,
-    'Sissach': 36166,
-    'Waldenburg': 16135,
+    'Arlesheim': 157253,
+    'Laufen': 20141,
+    'Liestal': 61201,
+    'Sissach': 36051,
+    'Waldenburg': 16119,
 }
 
 for row_date, row in rows.items():
