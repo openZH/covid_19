@@ -9,6 +9,22 @@ import scrape_common as sc
 
 d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
+
+pdf_url = soup.find('a', string=re.compile(r'Medienmitteilung vom'))['href']
+pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
+date = sc.find(r'Stand: (\d+\. .* 20\d{2})', pdf_content)
+res = re.search(r'.*\s+\d+\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
+is_first = True
+if res is not None:
+    dd = sc.DayData(canton='SZ', url=pdf_url)
+    dd.datetime = date
+    dd.hospitalized = res[1]
+    dd.quarantined = res[2]
+    dd.quarantine_riskareatravel = res[3]
+    print(dd)
+    is_first = False
+
+
 try:
     xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'))['href']
 except TypeError:
@@ -17,7 +33,6 @@ except TypeError:
 xls = sc.xlsdownload(xls_url, silent=True)
 
 rows = sc.parse_xls(xls)
-is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
