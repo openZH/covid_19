@@ -3,7 +3,7 @@
 
 from bs4 import BeautifulSoup
 import scrape_common as sc
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from datetime import datetime
 
 main_url = "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft"
@@ -108,12 +108,34 @@ population = {
     'Waldenburg': 16119,
 }
 
-for row_date, row in rows.items():
-    for district, district_id in district_ids.items():
+# based on https://github.com/openZH/covid_19/issues/1185#issuecomment-709952315
+initial_cases = {
+    'Arlesheim': 528,
+    'Laufen': 65,
+    'Liestal': 177,
+    'Sissach': 81,
+    'Waldenburg': 15,
+}
+
+# order dict by key to ensure the most recent entry is last
+ordered_rows = OrderedDict(sorted(rows.items()))
+
+#for row_date, row in ordered_rows.items():
+#    for district, district_id in district_ids.items():
+
+for district, district_id in district_ids.items():
+    last_total_cases_val = initial_cases[district]
+    if district == 'Arlesheim':
+        # 2020-05-31 is 527
+        last_total_cases_val = 527
+
+    for row_date, row in ordered_rows.items():
         dd = sc.DistrictData(canton='BL', district=district)
         dd.district_id = district_id
         dd.population = population[district]
         dd.url = main_url
         dd.date = row['date']
-        dd.new_cases = round(row[district] / 100e3 * population[district])
+        dd.total_cases = row[district] + initial_cases[district]
+        dd.new_cases = dd.total_cases - last_total_cases_val
+        last_total_cases_val = dd.total_cases
         print(dd)
