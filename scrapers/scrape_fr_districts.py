@@ -81,7 +81,7 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=14)
 for row in rows:
     for district, d_id in district_ids.items():
-        assert district_xls[district] in row
+        assert district_xls[district] in row, f"District '{district}' / {district_xls[district]} not found in row {row}"
         dd = sc.DistrictData(canton='FR', district=district)
         dd.url = url
         dd.week = row['Date']
