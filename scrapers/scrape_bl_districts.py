@@ -73,16 +73,18 @@ for iframe in soup.find_all('iframe'):
     # district data!
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Bezirk Arlesheim&quot;,&quot;Bezirk Laufen&quot;,&quot;Bezirk Liestal&quot;,&quot;Bezirk Sissach&quot;,&quot;Bezirk Waldenburg&quot;\s*([^<]+)</pre>', d)
     if data:
-        for row in data.split(" "):
-            c = row.split(',')
-            if len(c) == 6:
-                row_date = parse_row_date(c[0])
-                rows[row_date]['date'] = row_date
-                rows[row_date]['Arlesheim'] = float(c[1])
-                rows[row_date]['Laufen'] = float(c[2])
-                rows[row_date]['Liestal'] = float(c[3])
-                rows[row_date]['Sissach'] = float(c[4])
-                rows[row_date]['Waldenburg'] = float(c[5])
+        # take "Fallzahlen Bezirke BL ab Juni 2020", but not the 14d averaged one
+        if iframe_url.find('/dbw/123') > 0:
+            for row in data.split(" "):
+                c = row.split(',')
+                if len(c) == 6:
+                    row_date = parse_row_date(c[0])
+                    rows[row_date]['date'] = row_date
+                    rows[row_date]['Arlesheim'] = int(c[1])
+                    rows[row_date]['Laufen'] = int(c[2])
+                    rows[row_date]['Liestal'] = int(c[3])
+                    rows[row_date]['Sissach'] = int(c[4])
+                    rows[row_date]['Waldenburg'] = int(c[5])
         continue
 
     # we should never reach here unless there is an unknown iframe
