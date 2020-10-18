@@ -84,7 +84,7 @@ for row in rows:
         assert district_xls[district] in row, f"District '{district}' / {district_xls[district]} not found in row {row}"
         dd = sc.DistrictData(canton='FR', district=district)
         dd.url = url
-        dd.week = row['Date']
+        dd.date = row['Date'].date().isoformat()
         dd.new_cases = row[district_xls[district]]
         dd.population = inhabitants[district]
         dd.district_id = d_id
