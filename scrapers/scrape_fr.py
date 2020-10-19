@@ -28,13 +28,8 @@ col_info = (
 )
 
 for row in rows:
-    try:
-        row_date = row.search(r'.*Date.*')
-    except KeyError:
-        row_date = None
+    row_date = row.search(r'.*Date.*')
 
-    if row_date is None:
-        continue
     if not isinstance(row_date, datetime.datetime):
         print(f"WARNING: {row_date} is not a valid date, skipping.", file=sys.stderr)
         continue
