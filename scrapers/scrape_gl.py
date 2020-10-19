@@ -4,15 +4,15 @@
 import re
 import sys
 from bs4 import BeautifulSoup
+import csv
+from io import StringIO
 import scrape_common as sc
-
 
 def split_whitespace(text):
     if not text:
         return []
     text = re.sub(r'\s\s+', ' ', text)
     return text.split(' ')
-
 
 d = sc.download('https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
@@ -49,21 +49,19 @@ else:
     print(f'dates: {len(dates)}, travel quarantined: {len(travel_q)},  isolation: {len(isolation)},  quarantined: {len(quarantined)}, IPS: {len(ips)}', file=sys.stderr)
 
 
-# excel sheet
-xls_url = soup.find('a', string=re.compile(r'.*Dokument\s*\[xlsx.*')).get('href')
+# CSV from Google Spreadsheets
+main_url = 'https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit#gid=0'
+csv_url = 'https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/export?format=csv&id=1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k&gid=0'
+d_csv = sc.download(csv_url, silent=True)
 
-xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls)
-for row in rows:
+reader = csv.DictReader(StringIO(d_csv), delimiter=',')
+for row in reader:
     if not is_first:
         print('-' * 10)
     is_first = False
-
-    dd = sc.DayData(canton='GL', url=xls_url)
-    dd.datetime = row['Datum'].date().isoformat()
-    if row['Zeit']:
-        dd.datetime = dd.datetime + ' ' + row['Zeit'].time().isoformat()
-    dd.cases = row['Bestätigte Fälle (kumuliert)']
+    dd = sc.DayData(canton='GL', url=main_url)
+    dd.datetime = row['Datum']
+    dd.cases = row['Fallzahlen Total']
     dd.hospitalized = row['Personen in Spitalpflege']
     dd.deaths = row['Todesfälle (kumuliert)']
     print(dd)
