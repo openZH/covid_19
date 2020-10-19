@@ -25,7 +25,7 @@
 29,"Spanien",17
 29,"USA",176
 30,"andere",27
-30,"Bosnien und Herzegowina",541
+30,"Bosnien und Herzegowina",545
 30,"Brasilien",35
 30,"Chile",22
 30,"Dominikanische Republik",12
@@ -81,7 +81,7 @@
 32,"Spanien",1065
 32,"USA",411
 32,"Vereinigte Arabische Emirate",29
-33,"andere",84
+33,"andere",85
 33,"Argentinien",11
 33,"Bosnien und Herzegowina",156
 33,"Brasilien",87
@@ -93,7 +93,7 @@
 33,"Nordmazedonien",274
 33,"Rumänien",175
 33,"Serbien",275
-33,"Spanien",2228
+33,"Spanien",2229
 33,"USA",218
 34,"Albanien",66
 34,"andere",69
@@ -109,7 +109,7 @@
 34,"Luxemburg",13
 34,"Malta",62
 34,"Mexiko",17
-34,"Montenegro",19
+34,"Montenegro",20
 34,"Nordmazedonien",166
 34,"Peru",12
 34,"Rumänien",173
@@ -163,22 +163,22 @@
 37,"Indien",54
 37,"Israel",23
 37,"Kosovo",169
-37,"Kroatien",310
+37,"Kroatien",311
 37,"Libanon",13
 37,"Malta",28
 37,"Montenegro",25
 37,"Nordmazedonien",122
 37,"Österreich",12
-37,"Rumänien",114
+37,"Rumänien",112
 37,"Spanien",651
 37,"Tschechien",11
 37,"Ukraine",42
 37,"USA",143
 37,"Vereinigte Arabische Emirate",22
-38,"andere",72
+38,"andere",80
 38,"Bosnien und Herzegowina",59
 38,"Brasilien",48
-38,"Frankreich",541
+38,"Frankreich",543
 38,"Indien",44
 38,"Israel",59
 38,"Kolumbien",12
@@ -196,75 +196,112 @@
 38,"USA",129
 38,"Vereinigte Arabische Emirate",19
 39,"",13
-39,"andere",76
+39,"andere",78
 39,"Bosnien und Herzegowina",47
 39,"Brasilien",46
 39,"Dominikanische Republik",12
-39,"Frankreich",376
+39,"Frankreich",378
 39,"Indien",43
 39,"Israel",46
-39,"Italien",15
+39,"Italien",17
 39,"Kolumbien",14
 39,"Kosovo",93
 39,"Kroatien",174
 39,"Montenegro",14
 39,"Nordmazedonien",114
-39,"Österreich",67
-39,"Portugal",50
+39,"Österreich",68
+39,"Portugal",51
 39,"Rumänien",89
 39,"Spanien",526
 39,"Tschechien",96
 39,"Ukraine",19
 39,"USA",99
 39,"Vereinigte Arabische Emirate",33
-40,"andere",103
+40,"andere",112
 40,"Belgien",53
 40,"Bosnien und Herzegowina",55
 40,"Brasilien",54
-40,"Dänemark",55
+40,"Dänemark",56
 40,"Frankreich",355
 40,"Indien",45
-40,"Irland",47
-40,"Island",12
-40,"Italien",73
-40,"Kroatien",137
+40,"Irland",48
+40,"Island",14
+40,"Italien",115
+40,"Kroatien",138
 40,"Luxemburg",22
 40,"Montenegro",22
-40,"Niederlande",157
-40,"Nordmazedonien",137
+40,"Niederlande",160
+40,"Nordmazedonien",138
 40,"Österreich",81
-40,"Portugal",683
-40,"Rumänien",93
+40,"Portugal",693
+40,"Rumänien",97
 40,"Slowenien",11
-40,"Spanien",426
+40,"Spanien",438
 40,"Tschechien",57
-40,"Ukraine",30
-40,"Ungarn",75
-40,"USA",110
+40,"Ukraine",31
+40,"Ungarn",77
+40,"USA",111
 40,"Vereinigte Arabische Emirate",27
-40,"Vereinigtes Königreich",175
-41,"andere",64
-41,"Belgien",25
-41,"Bosnien und Herzegowina",82
-41,"Brasilien",44
-41,"Dänemark",28
-41,"Frankreich",201
-41,"Indien",24
-41,"Irland",15
-41,"Italien",46
-41,"Kroatien",91
-41,"Libanon",17
+40,"Vereinigtes Königreich",178
+41,"andere",67
+41,"Belgien",43
+41,"Bosnien und Herzegowina",101
+41,"Brasilien",61
+41,"Dänemark",34
+41,"Deutschland",20
+41,"Frankreich",242
+41,"Indien",52
+41,"Irland",19
+41,"Italien",125
+41,"Kroatien",120
+41,"Libanon",18
+41,"Malta",11
 41,"Marokko",11
-41,"Niederlande",93
-41,"Nordmazedonien",168
-41,"Österreich",43
-41,"Portugal",463
-41,"Rumänien",105
-41,"Slowenien",17
-41,"Spanien",320
-41,"Tschechien",64
-41,"Ukraine",36
-41,"Ungarn",53
-41,"USA",128
+41,"Montenegro",13
+41,"Niederlande",127
+41,"Nordmazedonien",205
+41,"Österreich",49
+41,"Portugal",604
+41,"Rumänien",124
+41,"Slowenien",24
+41,"Spanien",406
+41,"Tschechien",79
+41,"Ukraine",58
+41,"Ungarn",60
+41,"USA",144
 41,"Vereinigte Arabische Emirate",24
-41,"Vereinigtes Königreich",141
+41,"Vereinigtes Königreich",163
+42,"andere",87
+42,"Belgien",51
+42,"Bosnien und Herzegowina",61
+42,"Brasilien",25
+42,"Costa Rica",11
+42,"Dänemark",26
+42,"Deutschland",217
+42,"Frankreich",185
+42,"Indien",16
+42,"Irland",12
+42,"Israel",28
+42,"Italien",1012
+42,"Kanada",17
+42,"Kolumbien",12
+42,"Kroatien",100
+42,"Libanon",21
+42,"Malediven",13
+42,"Malta",11
+42,"Niederlande",131
+42,"Nordmazedonien",178
+42,"Österreich",86
+42,"Portugal",324
+42,"Rumänien",75
+42,"Russland",231
+42,"Slowakei",85
+42,"Slowenien",21
+42,"Spanien",334
+42,"Tschechien",58
+42,"Tunesien",24
+42,"Ukraine",27
+42,"Ungarn",71
+42,"USA",105
+42,"Vereinigte Arabische Emirate",14
+42,"Vereinigtes Königreich",104
