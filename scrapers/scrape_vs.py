@@ -28,9 +28,10 @@ for i, row in enumerate(rows):
     dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
     dd.deaths = row['Cumul décès COVID-19']
-    dd.isolated = row['Nombre de cas en cours d\'isolement']
-    dd.quarantined = row['Nombre de contacts en cours de quarantaine']
-    dd.quarantine_riskareatravel = row['Nombre de voyageurs en cours de quarantaine']
+    # Since 2020-10-19 VS does no longer publish data about isolation/quarantined
+    #dd.isolated = row['Nombre de cas en cours d\'isolement']
+    #dd.quarantined = row['Nombre de contacts en cours de quarantaine']
+    #dd.quarantine_riskareatravel = row['Nombre de voyageurs en cours de quarantaine']
 
     if row['Nb de nouvelles sorties'] is not None:
         dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
