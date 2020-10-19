@@ -16,7 +16,7 @@ if not xls_url.startswith('http'):
     xls_url = f'https://www.fr.ch{xls_url}'
 
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=4)
+rows = sc.parse_xls(xls, header_row=8)
 is_first = True
 
 col_info = (
@@ -28,13 +28,8 @@ col_info = (
 )
 
 for row in rows:
-    try:
-        row_date = row.search(r'.*Date.*')
-    except KeyError:
-        row_date = None
+    row_date = row.search(r'.*Date.*')
 
-    if row_date is None:
-        continue
     if not isinstance(row_date, datetime.datetime):
         print(f"WARNING: {row_date} is not a valid date, skipping.", file=sys.stderr)
         continue
