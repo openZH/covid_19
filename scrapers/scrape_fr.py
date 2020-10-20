@@ -16,7 +16,7 @@ if not xls_url.startswith('http'):
     xls_url = f'https://www.fr.ch{xls_url}'
 
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=8)
+rows = sc.parse_xls(xls, header_row=4)
 is_first = True
 
 col_info = (
