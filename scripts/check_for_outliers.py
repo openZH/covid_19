@@ -4,6 +4,7 @@
 import sys
 import os
 import pandas as pd
+import math
 
 __location__ = os.path.realpath(
     os.path.join(
@@ -51,7 +52,7 @@ for csv_file in args:
     iqr = q3 - q1
 
     lower_limit = q1 - (iqr * FACTOR)
-    upper_limit = q3 + (iqr * FACTOR)
+    upper_limit = math.ceil(q3 + (iqr * FACTOR))
 
     upper_limit = max(upper_limit, MIN_VALUE)
     lower_limit = 0 # always use 0 as lower limit
