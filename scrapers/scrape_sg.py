@@ -6,10 +6,12 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
+main_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
+
 # hospitalized
 url_hospitalized = 'https://stada.sg.ch/covid/C19_Faelle_hospitalisiert.html'
 soup = BeautifulSoup(sc.download(url_hospitalized, silent=True), 'html.parser')
-dd_hosp = sc.DayData(canton='SG', url=url_hospitalized)
+dd_hosp = sc.DayData(canton='SG', url=main_url)
 hosp_table = soup.find('table')
 
 hosp_date = hosp_table.find_next(string=re.compile("Stand")).string
@@ -39,7 +41,7 @@ print('-' * 10)
 # isolated / quarantined cases
 url_isolated = 'https://stada.sg.ch/covid/ContactTracing.html'
 soup = BeautifulSoup(sc.download(url_isolated, silent=True), 'html.parser')
-dd_isolated = sc.DayData(canton='SG', url=url_isolated)
+dd_isolated = sc.DayData(canton='SG', url=main_url)
 isolated_table = soup.find('table')
 
 isolated_date = isolated_table.find_next(string=re.compile("Stand")).string
@@ -76,7 +78,7 @@ d = "\n".join(d.split("\n")[5:])
 
 reader = csv.DictReader(StringIO(d), delimiter=';')
 for row in reader:
-    dd = sc.DayData(canton='SG', url=csv_url)
+    dd = sc.DayData(canton='SG', url=main_url)
     dd.datetime = row['Falldatum']
     dd.cases = row['Total Kanton SG (kumuliert)']
     print(dd)
@@ -86,7 +88,7 @@ for row in reader:
 # latest cases
 url_cases = 'https://stada.sg.ch/covid/BAG_uebersicht.html'
 soup = BeautifulSoup(sc.download(url_cases, silent=True), 'html.parser')
-dd_cases = sc.DayData(canton='SG', url=url_cases)
+dd_cases = sc.DayData(canton='SG', url=main_url)
 cases_table = soup.find('table')
 
 hosp_date = cases_table.find_next(string=re.compile("Stand")).string
