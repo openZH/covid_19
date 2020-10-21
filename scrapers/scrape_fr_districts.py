@@ -78,14 +78,15 @@ if not xls_url.startswith('http'):
     xls_url = f'https://www.fr.ch{xls_url}'
 
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=4)
+rows = sc.parse_xls(xls, header_row=3)
 for row in rows:
+    row_date = row.search(r'.*Date.*')
     for district, d_id in district_ids.items():
-        assert district_xls[district] in row, f"District '{district}' / {district_xls[district]} not found in row {row}"
+        district_cell = row.search(r'.*' + district + '.*')
         dd = sc.DistrictData(canton='FR', district=district)
         dd.url = url
-        dd.date = row['Date'].date().isoformat()
-        dd.new_cases = row[district_xls[district]]
+        dd.date = row_date.date().isoformat()
+        dd.new_cases = district_cell
         dd.population = inhabitants[district]
         dd.district_id = d_id
         print(dd)
