@@ -30,7 +30,7 @@ def strip_left_number(content):
     lines = content.split('\n')
     pos = None
     for line in lines:
-        res = re.search(r'\s+(\d+)', line)
+        res = re.search(r'\s+(\d+)   ', line)
         if res is not None:
             if pos is None:
                 pos = res.end()
