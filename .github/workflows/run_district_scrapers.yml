@@ -19,6 +19,7 @@ jobs:
           - GR
           - SG
           - SO
+          - SZ
           - VS
 
     steps:
