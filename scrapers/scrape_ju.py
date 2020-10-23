@@ -53,12 +53,12 @@ if data_table:
 
     if rows:
         for i, row in enumerate(rows[1:]):
+            if not row.get('Date'):
+                continue
+
             if not is_first:
                 print('-' * 10)
             is_first = False
-
-            if not row.get('Date'):
-                continue
 
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
@@ -69,5 +69,5 @@ if data_table:
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
-            dd.deaths = sum(int(r.get('Nombre de nouveaux décès', 0)) for r in rows[:i+1] if r.get('Nombre de nouveaux décès'))
+            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[:i+1] if r.get('Nombre de nouveaux décès'))
             print(dd)
