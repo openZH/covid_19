@@ -40,7 +40,7 @@ jobs:
           - VS
           - ZG
           - ZH
-#          - FL
+          - FL
 
     steps:
     - uses: actions/checkout@v2
