@@ -39,37 +39,6 @@ for iframe in soup.find_all('iframe'):
 
     d = d.replace('\n', ' ')
 
-    # cases data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle)\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
-    # hospitalization data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum, Normale Station, Intensivstation\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
-    # death and recovered data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle\s*([^<]+)</pre>', d) or \
-        sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Geheilte \(kalkuliert\)&quot;,&quot;Aktive Fälle \(kalkuliert\)&quot;,&quot;Todesfälle&quot;\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
-    # hospitalization data
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Normale Station&quot;,&quot;Intensivstation \(nicht beatmet\)&quot;,&quot;Intensivstation \(beatmet\)&quot;\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
-    # contact tracing data
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Personen in Isolation&quot;,&quot;Personen in Quarantäne \(Tracing\)&quot;,&quot;Personen in Quarantäne \(Rückreise Risikoländer\)&quot;\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
-    # 14-Tage-Inzidenz Region
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz BS/BL/Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
-    if data:
-        continue
-
     # district data!
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Bezirk Arlesheim&quot;,&quot;Bezirk Laufen&quot;,&quot;Bezirk Liestal&quot;,&quot;Bezirk Sissach&quot;,&quot;Bezirk Waldenburg&quot;\s*([^<]+)</pre>', d)
     if data:
@@ -85,10 +54,9 @@ for iframe in soup.find_all('iframe'):
                     rows[row_date]['Liestal'] = int(c[3])
                     rows[row_date]['Sissach'] = int(c[4])
                     rows[row_date]['Waldenburg'] = int(c[5])
-        continue
+        break
 
-    # we should never reach here unless there is an unknown iframe
-    raise Exception(f"issue parsing data in iframe {iframe_url}")
+assert rows, "Couldn't find district data in iframes"
 
 # https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/karten.assetdetail.5688189.html
 district_ids = {
