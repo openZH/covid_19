@@ -28,6 +28,9 @@ soup = BeautifulSoup(main_site, 'html.parser')
 for iframe in soup.find_all('iframe'):
     iframe_url = (iframe['src'])
 
+    if iframe_url.find('/dbw/123') <= 0:
+        continue
+
     d = sc.download(iframe_url, silent=True)
 
     # 2020-07-29
@@ -43,17 +46,16 @@ for iframe in soup.find_all('iframe'):
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Bezirk Arlesheim&quot;,&quot;Bezirk Laufen&quot;,&quot;Bezirk Liestal&quot;,&quot;Bezirk Sissach&quot;,&quot;Bezirk Waldenburg&quot;\s*([^<]+)</pre>', d)
     if data:
         # take "Fallzahlen Bezirke BL ab Juni 2020", but not the 14d averaged one
-        if iframe_url.find('/dbw/123') > 0:
-            for row in data.split(" "):
-                c = row.split(',')
-                if len(c) == 6:
-                    row_date = parse_row_date(c[0])
-                    rows[row_date]['date'] = row_date
-                    rows[row_date]['Arlesheim'] = int(c[1])
-                    rows[row_date]['Laufen'] = int(c[2])
-                    rows[row_date]['Liestal'] = int(c[3])
-                    rows[row_date]['Sissach'] = int(c[4])
-                    rows[row_date]['Waldenburg'] = int(c[5])
+        for row in data.split(" "):
+            c = row.split(',')
+            assert len(c) == 6, f"Number of fields changed, {len(c)} != 6"
+            row_date = parse_row_date(c[0])
+            rows[row_date]['date'] = row_date
+            rows[row_date]['Arlesheim'] = sc.safeint(c[1])
+            rows[row_date]['Laufen'] = sc.safeint(c[2])
+            rows[row_date]['Liestal'] = sc.safeint(c[3])
+            rows[row_date]['Sissach'] = sc.safeint(c[4])
+            rows[row_date]['Waldenburg'] = sc.safeint(c[5])
         break
 
 assert rows, "Couldn't find district data in iframes"
