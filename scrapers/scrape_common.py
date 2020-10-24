@@ -260,6 +260,11 @@ def xlsdownload(url, silent=False):
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
+def download_file(url, path):
+    r = _download_request(url, False)
+    with open(path, 'wb') as f:
+        for chunk in r.iter_content(1024):
+            f.write(chunk)
 
 def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
     rows = []
