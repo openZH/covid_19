@@ -73,7 +73,7 @@ sc.timestamp()
 print("Date and time:", sc.find('>.*Stand (.+ Uhr).*</div>', d))
 print("Confirmed cases:", sc.find('<li>.*?([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle).*<\/li>', d))
 print("Deaths:", sc.find('<li>.*?([0-9]+)\s*Todesf.+?lle.*<\/li>', d))
-print("Isolated:", sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d))
+print("Isolated:", sc.find('<li>.*?([0-9]+)\*?\s*Personen\s+in\s*Isolation.*<\/li>', d))
 # Since 2020-10-15 AI does not publish reliable quarantine/close contact numbers
 #quarantined_close_contact = sc.find('<li>.*?([0-9]+)\+?\s*Personen\s+in\s*Quarant.+ne.*enger\s+Kontakt.*<\/li>', d)
 #print("Quarantined:", quarantined_close_contact)
