@@ -5,11 +5,37 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = "https://corona.so.ch/index.php?id=27979"
+base_url = 'https://corona.so.ch'
+url = f'{base_url}/bevoelkerung/daten/woechentlicher-situationsbericht/'
+d = sc.download(url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+pdf_url = soup.find(href=re.compile(r'\.pdf$')).get('href')
+pdf_url = f'{base_url}{pdf_url}'
+
+content = sc.pdfdownload(pdf_url, layout=True, silent=True)
+
+"""
+Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Quarantäne  Anzahl zusätzlicher Personen in Quarantäne nach Rückkehr aus Risikoland  Re- Wert***
+6 (6)                        120 (71)                      280 (189)                     388 (280)                                                                1.46 (1.1)
+"""
+
+rows = []
+
+date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
+res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+\d\.\d+ \(\d\.\d+\)', content, re.DOTALL)
+if res is not None:
+    data = sc.DayData(canton='SO', url=pdf_url)
+    data.datetime = date
+    data.isolated = res[1]
+    data.quarantined = res[2]
+    data.quarantine_riskareatravel = res[3]
+    rows.append(data)
+
+
+url = f"{base_url}/index.php?id=27979"
 d = sc.download(url, silent=True)
 d = d.replace("&nbsp;", " ")
 
-rows = []
 soup = BeautifulSoup(d, 'html.parser')
 data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find_next("table")
 if data_table:
