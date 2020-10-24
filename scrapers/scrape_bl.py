@@ -205,6 +205,12 @@ for iframe in soup.find_all('iframe'):
         # nothing to do here
         continue
 
+    # Täglich gemeldete Neuinfektionen
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Gemeldete Neuinfektionen&quot;\s*([^<]+)</pre>', d)
+    if data:
+        # nothing to do here
+        continue
+
     # we should never reach here unless there is an unknown iframe
     raise Exception(f"issue parsing data in iframe {iframe_url}")
 
