@@ -12,7 +12,7 @@ soup = BeautifulSoup(d, 'html.parser')
 
 pdf_url = soup.find('a', string=re.compile(r'Medienmitteilung vom'))['href']
 pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
-date = sc.find(r'Stand: (\d+\. .* 20\d{2})', pdf_content)
+date = sc.find(r'Stand:\s(\d+\.\s.*\s20\d{2})', pdf_content).replace('\n', ' ')
 res = re.search(r'.*\s+\d+\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
 is_first = True
 if res is not None:
