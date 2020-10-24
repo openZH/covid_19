@@ -194,7 +194,7 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # 14-Tage-Inzidenz Region
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz BS/BL/Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
     if data:
         # nothing to do here
         continue
