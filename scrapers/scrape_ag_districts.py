@@ -19,6 +19,7 @@ img_caption = soup.find(string=re.compile(r".*Inzidenz pro 100'000 Einwohner nac
 img_date = sc.find(r'\(Stand:?\s+(.*\d{4})', img_caption.string)
 img_date = datetime.datetime.fromisoformat(parse_date(img_date).split('T', 1)[0])
 img_url = img_caption.find_previous('img')['src']
+img_url = 'https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/bilder_11/daten/Inzidenz_pro_100K_Einwohner_content_large.jpg'
 
 if not img_url.startswith('http'):
     img_url = f'https://www.ag.ch{img_url}'
