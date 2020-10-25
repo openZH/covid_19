@@ -64,9 +64,6 @@ jobs:
         if [ "$SCRAPER_KEY" = "FL" ] || [ "$SCRAPER_KEY" = "GE" ] || [ "$SCRAPER_KEY" = "VD" ] || [ "$SCRAPER_KEY" = "GL" ] || [ "$SCRAPER_KEY" = "SZ" ] || [ "$SCRAPER_KEY" = "TI" ] || [ "$SCRAPER_KEY" = "SO" ] ; then
           sudo apt-get install poppler-utils
         fi
-        if [ "$SCRAPER_KEY" = "AG" ] ; then
-          sudo apt-get install tesseract-ocr
-        fi
 
     - name: Scrape new data
       env:
