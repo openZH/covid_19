@@ -111,5 +111,5 @@ for name, config in districts.items():
             dd.population = population
             dd.total_cases = total_cases
             break
-    assert dd, f"No data found for district {name}"
+    assert dd, f"No data found for district {name}, Text: {text_in_img}"
     print(dd)
