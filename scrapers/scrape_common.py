@@ -154,6 +154,15 @@ class DistrictData:
         res.append(self.url)
         return DistrictData.SEPARATOR.join(res)
 
+    def __bool__(self):
+        attributes = [
+            self.total_cases,
+            self.new_cases,
+            self.total_deceased,
+            self.new_deceased,
+        ]
+        return any(v is not None for v in attributes)
+
     @staticmethod
     def __get_int_item(item):
         return int(item) if represents_int(item) else None
@@ -260,6 +269,11 @@ def xlsdownload(url, silent=False):
     xls = xlrd.open_workbook(file_contents=r.content)
     return xls
 
+def download_file(url, path):
+    r = _download_request(url, True)
+    with open(path, 'wb') as f:
+        for chunk in r.iter_content(1024):
+            f.write(chunk)
 
 def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
     rows = []
