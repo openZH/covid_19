@@ -10,14 +10,21 @@ import scrape_common as sc
 d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
-pdf_url = soup.find('a', string=re.compile(r'Medienmitteilung vom'))['href']
-pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
-date = sc.find(r'Stand:\s(\d+\.\s.*\s20\d{2})', pdf_content).replace('\n', ' ')
-res = re.search(r'.*\s+\d+\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
+pdfs = soup.find_all('a', string=re.compile(r'Medienmitteilung vom'))
 is_first = True
-if res is not None:
+for pdf in pdfs:
+    pdf_url = pdf['href']
+    pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
+    date = sc.find(r'Stand:\s(\d+\.\s.*\s20\d{2})', pdf_content)
+    res = re.search(r'.*\s+\d+\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
+    if not date or not res:
+        continue
+
+    if not is_first:
+        print('-' * 10)
+    is_first = False
     dd = sc.DayData(canton='SZ', url=pdf_url)
-    dd.datetime = date
+    dd.datetime = date.replace('\n', ' ')
     dd.hospitalized = res[1]
     dd.quarantined = res[2]
     dd.quarantine_riskareatravel = res[3]
