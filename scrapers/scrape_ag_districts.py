@@ -82,8 +82,8 @@ gray = cv2.bitwise_not(img_bin)
 
 # improve image and extract text
 kernel = np.ones((2, 1), np.uint8)
-img = cv2.erode(gray, kernel, iterations=2)
-img = cv2.dilate(img, kernel, iterations=2)
+img = cv2.erode(gray, kernel, iterations=1)
+img = cv2.dilate(img, kernel, iterations=1)
 #cv2.imshow('img', img)
 #cv2.waitKey(0)
 custom_config = '--oem 3 --psm 6'
@@ -96,7 +96,7 @@ def parse_line(line):
     in_str = "OBFT"
     out_str = "0877"
     tab = str.maketrans(in_str, out_str)
-    match = re.match(r'^(.*)\s+[_-]\s+(\S+)\s+(\S+)\s+(\S+)$', line)
+    match = re.match(r'^(.*)\s+(?:[_-]\s+)?(\S+)\s+(\S+)\s+(\S+)$', line)
     if match:
         return (match[3].replace("'", "").translate(tab), match[4].translate(tab))
     return (None, None)
