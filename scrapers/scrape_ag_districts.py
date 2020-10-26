@@ -12,37 +12,6 @@ import tempfile
 import os
 
 
-data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
-d = sc.download(data_url, silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-img_caption = soup.find(string=re.compile(r".*Inzidenz pro 100'000 Einwohner nach Bezirke.*"))
-img_date = sc.find(r'\(Stand:?\s+(.*\d{4})', img_caption.string)
-img_date = datetime.datetime.fromisoformat(parse_date(img_date).split('T', 1)[0])
-img_url = img_caption.find_previous('img')['src']
-img_url = 'https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/bilder_11/daten/Inzidenz_pro_100K_Einwohner_content_large.jpg'
-
-if not img_url.startswith('http'):
-    img_url = f'https://www.ag.ch{img_url}'
-
-# download the image to a temporary file
-_, path = tempfile.mkstemp(suffix='.jpg')
-sc.download_file(img_url, path)
-
-# convert to binary image
-img = cv2.imread(path)
-gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-gray, img_bin = cv2.threshold(gray,128,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-gray = cv2.bitwise_not(img_bin)
-
-# improve image and extract text
-kernel = np.ones((2, 1), np.uint8)
-img = cv2.erode(gray, kernel, iterations=1)
-img = cv2.dilate(img, kernel, iterations=1)
-text_in_img = pytesseract.image_to_string(img)
-
-# delete the temp img file
-os.remove(path)
-
 districts = {
     'Baden': {
         'pattern': r'^Baden.*',
@@ -85,12 +54,43 @@ districts = {
         'district_id': '1909'
     },
     'Zurzach': {
-        'pattern': r'^Zurzach.*',
+        'pattern': r'^Z.+zach.*',
         'district_id': '1911'
     },
 }
 
+data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
+d = sc.download(data_url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+img_caption = soup.find(string=re.compile(r".*Inzidenz pro 100'000 Einwohner nach Bezirke.*"))
+img_date = sc.find(r'\(Stand:?\s+(.*\d{4})', img_caption.string)
+img_date = datetime.datetime.fromisoformat(parse_date(img_date).split('T', 1)[0])
+img_url = img_caption.find_previous('img')['src']
+img_url = 'https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/bilder_11/daten/Inzidenz_pro_100K_Einwohner_content_large.jpg'
+if not img_url.startswith('http'):
+    img_url = f'https://www.ag.ch{img_url}'
 
+# download the image to a temporary file
+_, path = tempfile.mkstemp(suffix='.jpg')
+sc.download_file(img_url, path)
+
+# convert to binary image
+img = cv2.imread(path)
+gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+gray, img_bin = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+gray = cv2.bitwise_not(img_bin)
+
+# improve image and extract text
+kernel = np.ones((2, 1), np.uint8)
+img = cv2.erode(gray, kernel, iterations=2)
+img = cv2.dilate(img, kernel, iterations=2)
+#cv2.imshow('img', img)
+#cv2.waitKey(0)
+custom_config = '--oem 3 --psm 6'
+text_in_img = pytesseract.image_to_string(img, config=custom_config)
+
+# delete the temp img file
+os.remove(path)
 
 def parse_line(line):
     in_str = "OBFT"
