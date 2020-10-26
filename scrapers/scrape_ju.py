@@ -42,7 +42,7 @@ if box:
 data_table = soup.find('caption', string=re.compile(r'Evolution du nombre de cas.*Jura')).find_parent('table')
 if data_table:
     headers = [" ".join(cell.stripped_strings) for cell in data_table.find('tr').find_all(['td', 'th'])]
-    assert len(headers) == 5, f"Number of headers changed: {len(headers)} != 5"
+    assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
     rows = []
     for row in data_table.find_all('tr'):
         data = {}
@@ -66,6 +66,7 @@ if data_table:
                 dd.datetime = f"{row.get('Date')} {current_year}"
             else:
                 dd.datetime = row.get('Date')
+
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
