@@ -5810,7 +5810,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-24,,GR,,1869,,12,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,433,974
 2020-10-24,,JU,,,,57,2,,,14,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-24,,NE,,,,60,8,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
-2020-10-24,,NW,,357,,6,0,,,4,https://www.nw.ch/gesundheitsamtdienste/6044,87,188
+2020-10-24,,NW,,357,,6,0,,,4,http://www.nw.ch/coronastatistik,87,188
 2020-10-24,,SG,,5201,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-24,,VD,,18757,,170,28,,,329,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
 2020-10-24,08:00,AG,,5313,,,,,2935,59,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
@@ -5829,7 +5829,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-25,,GR,,1917,,17,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,442,1077
 2020-10-25,,JU,,,,68,3,,,15,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-25,,NE,,,,68,8,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
-2020-10-25,,NW,,361,,6,0,,,4,https://www.nw.ch/gesundheitsamtdienste/6044,93,200
+2020-10-25,,NW,,361,,6,0,,,4,http://www.nw.ch/coronastatistik,93,200
 2020-10-25,,SG,,5231,,110,12,6,,48,https://www.sg.ch/tools/informationen-coronavirus.html,1364,
 2020-10-25,08:00,AG,,5467,,,,,2985,59,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
 2020-10-25,08:00,BE,,9556,,,,,,110,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
@@ -5844,6 +5844,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-26,,GE,,,,331,12,,,,https://www.ge.ch/document/21502/telecharger,,
 2020-10-26,,GL,,367,,4,,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
 2020-10-26,,LU,,3420,,52,7,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1498,565
+2020-10-26,,NW,,375,,6,0,,,4,http://www.nw.ch/coronastatistik,92,200
 2020-10-26,,SG,,,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,1446,
 2020-10-26,00:00,OW,,340,,1,,,,5,https://www.ow.ch/dl.php/de/5f96ef2d3266a/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-10-26,08:00,BE,,10003,,217,20,13,,113,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
