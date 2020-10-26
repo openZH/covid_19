@@ -15,47 +15,58 @@ import os
 districts = {
     'Baden': {
         'pattern': r'^Baden.*',
-        'district_id': '1902'
+        'district_id': '1902',
+        'population': 145696,
     },
     'Muri': {
         'pattern': r'^Muri.*',
-        'district_id': '1908'
+        'district_id': '1908',
+        'population': 37170,
     },
     'Lenzburg': {
         'pattern': r'^Lenzburg.*',
-        'district_id': '1907'
+        'district_id': '1907',
+        'population': 64792,
     },
     'Zofingen': {
         'pattern': r'^Zo.+ngen.*',
-        'district_id': '1910'
+        'district_id': '1910',
+        'population': 73136,
     },
     'Aarau': {
         'pattern': r'^Aarau.*',
-        'district_id': '1901'
+        'district_id': '1901',
+        'population': 79702,
     },
     'Bremgarten': {
         'pattern': r'^Bremga.+en.*',
-        'district_id': '1903'
+        'district_id': '1903',
+        'population': 78745,
     },
     'Brugg': {
         'pattern': r'^Brugg.*',
-        'district_id': '1904'
+        'district_id': '1904',
+        'population': 51814,
     },
     'Kulm': {
         'pattern': r'^Kulm.*',
-        'district_id': '1905'
+        'district_id': '1905',
+        'population': 42412,
     },
     'Laufenburg': {
         'pattern': r'^Laufen.*burg.*',
-        'district_id': '1906'
+        'district_id': '1906',
+        'population': 33035,
     },
     'Rheinfelden': {
         'pattern': r'^Rheinfelden.*',
-        'district_id': '1909'
+        'district_id': '1909',
+        'population': 47926,
     },
     'Zurzach': {
         'pattern': r'^Z.+zach.*',
-        'district_id': '1911'
+        'district_id': '1911',
+        'population': 34650,
     },
 }
 
@@ -98,7 +109,7 @@ def parse_line(line):
     tab = str.maketrans(in_str, out_str)
     match = re.match(r'^(.*)\s+(?:[_-]\s+)?(\S+)\s+(\S+)\s+(\S+)$', line)
     if match:
-        return (match[3].replace("'", "").translate(tab), match[4].translate(tab))
+        return (int(match[3].replace("'", "").translate(tab)), int(match[4].translate(tab)))
     return (None, None)
 
 for name, config in districts.items():
@@ -108,6 +119,7 @@ for name, config in districts.items():
         dd.url = data_url
         if re.search(config['pattern'], line, flags=re.I):
             population, total_cases = parse_line(line)
+            assert population == config['population'], f"Population number for {name} does not match, {population} != {config['population']}"
             dd.date = img_date.date().isoformat()
             dd.population = population
             dd.total_cases = total_cases
