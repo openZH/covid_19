@@ -12,10 +12,10 @@ content = sc.download(url, silent=True)
 soup = BeautifulSoup(content, 'html.parser')
 pdf_url = soup.find('a', text=re.compile(r'Coronafälle pro Gemeinde')).get('href')
 
-content = sc.pdfdownload(pdf_url, layout=True)
-date = sc.find(r'Stand (\d+\.\d+\.20\d{2})', content)
+content = sc.pdfdownload(pdf_url, layout=True, silent=True)
+date = sc.find(r'Stand\W+(\d+\.\d+\.20\d{2})', content)
 date = sc.date_from_text(date).isoformat()
-district_data = re.findall(r'^Bezirk (\w+)\s+(\d+)', content, re.MULTILINE)
+district_data = re.findall(r'^Bezirk\W+(\w+)\s+(\d+)', content, re.MULTILINE)
 
 # https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/karten.assetdetail.5688189.html
 district_ids = {
