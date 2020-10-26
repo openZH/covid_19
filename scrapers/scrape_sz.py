@@ -16,7 +16,7 @@ for pdf in pdfs:
     pdf_url = pdf['href']
     pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
     date = sc.find(r'Stand:\s(\d+\.\s.*\s20\d{2})', pdf_content)
-    res = re.search(r'.*\s+\d+\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
+    res = re.search(r'.*\s+(\d+)\s+\d+\s+\d+\s+(\d+)\s+(\d+)\s+(\d+)\s+', pdf_content)
     if not date or not res:
         continue
 
@@ -25,8 +25,9 @@ for pdf in pdfs:
     is_first = False
     dd = sc.DayData(canton='SZ', url=pdf_url)
     dd.datetime = date.replace('\n', ' ')
-    dd.hospitalized = res[1]
-    dd.quarantined = res[2]
+    dd.isolated = res[1]
+    dd.hospitalized = res[2]
+    dd.quarantined = res[3]
     dd.quarantine_riskareatravel = res[3]
     print(dd)
     is_first = False
