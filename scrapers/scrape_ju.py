@@ -44,11 +44,12 @@ if data_table:
     headers = [" ".join(cell.stripped_strings) for cell in data_table.find('tr').find_all(['td', 'th'])]
     assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
     rows = []
-    for row in data_table.find_all('tr'):
+    for row in data_table.find_all('tr')[1:]:
         data = {}
         for col_num, cell in enumerate(row.find_all(['th', 'td'])):
-            if cell.string:
-                data[headers[col_num]] = cell.string.strip()
+            content = " ".join(cell.stripped_strings).strip()
+            if content:
+                data[headers[col_num]] = content
         rows.append(data)
 
     if rows:
@@ -63,9 +64,10 @@ if data_table:
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
             if row.get('Date') and not re.search(f'{current_year}', row.get('Date')):
-                dd.datetime = f"{row.get('Date')} {current_year}"
+                dd.datetime = f"{row.get('Date', '')} {current_year}"
             else:
-                dd.datetime = row.get('Date')
+                dd.datetime = row.get('Date', '')
+            dd.datetime = dd.datetime.replace('1 er', '1')
 
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
