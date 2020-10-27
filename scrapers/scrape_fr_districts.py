@@ -36,7 +36,7 @@ district_xls = {
 }
 
 # weekly data
-url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton'
+url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 
