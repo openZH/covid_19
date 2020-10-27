@@ -42,7 +42,7 @@ if dd:
 
 xls_url = 'http://www.nw.ch/coronastatistik'
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=3)
+rows = sc.parse_xls(xls, header_row=2)
 for row in rows:
     dd = sc.DayData(canton='NW', url=xls_url)
     dd.datetime = row['A'].date().isoformat()
