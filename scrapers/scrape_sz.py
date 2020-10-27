@@ -28,7 +28,7 @@ for pdf in pdfs:
     dd.isolated = res[1]
     dd.hospitalized = res[2]
     dd.quarantined = res[3]
-    dd.quarantine_riskareatravel = res[3]
+    dd.quarantine_riskareatravel = res[4]
     print(dd)
     is_first = False
 
