@@ -15,7 +15,7 @@ pdf_url = f'https://www4.ti.ch/{pdf_url}'
 pdf_content = sc.pdfdownload(pdf_url, silent=True, raw=True)
 
 dd = sc.DayData(canton='TI', url=pdf_url)
-dd.datetime = sc.find(r'(Stato )?(\d+\.\d+\.20\d{2})', pdf_content, group=2)
+dd.datetime = sc.find(r'(?:Stato )?(\d+\.\d+\.20\d{2})', pdf_content)
 dd.isolated = sc.find(r'(\d+)\sPersone\sin\sisolamento', pdf_content)
 dd.quarantined = sc.find(r'(\d+)\sPersone\sin\squarantena', pdf_content)
 is_first = True
