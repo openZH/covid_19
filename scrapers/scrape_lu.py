@@ -80,7 +80,7 @@ isolated_date_str = sc.find(r'Isolation.*\(Stand:\s*(.+?)\,', d)
 
 soup = BeautifulSoup(d, 'html.parser')
 is_first = True
-for table in soup.find(string=re.compile(r'Informationen\s*des\s*Kantons')).find_parent('li').find_all('table'):
+for table in soup.find(string=re.compile(r'Informationen.*?Kanton.*')).find_next('li').find_all('table'):
     if not is_first:
         print('-' * 10)
     is_first = False
