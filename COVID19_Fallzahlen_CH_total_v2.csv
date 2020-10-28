@@ -2199,7 +2199,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-28,,FR,,1158,,7,3,,149,84,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-05-28,,GE,36026,5340,3,1,0,0,792,291,https://www.ge.ch/document/21502/telecharger,7,46
 2020-05-28,,GR,,827,,2,1,1,,49,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2,9
-2020-05-28,,JU,,1200,,3,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
+2020-05-28,,JU,,200,,3,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-05-28,,LU,,735,,,,,,20,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,,
 2020-05-28,,NE,,725,,2,0,0,,83,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-05-28,,NW,,123,,0,0,,,3,http://www.nw.ch/coronastatistik,,
@@ -5127,7 +5127,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-26,,FL,,117,,1,,,112,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-26,,FR,,2367,,9,3,,173,102,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-09-26,,GE,,8268,,23,2,,,307,https://www.ge.ch/document/21502/telecharger,338,819
-2020-09-26,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,11,46
+2020-09-26,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,11,46
 2020-09-26,,GR,,1075,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,20,64
 2020-09-26,,JU,,310,,2,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-09-26,,NE,,1090,,1,0,0,,88,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5146,7 +5146,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-27,,FL,,117,,1,,,112,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-09-27,,FR,,2385,,10,3,,173,102,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-09-27,,GE,,8283,,25,2,,,307,https://www.ge.ch/document/21502/telecharger,310,764
-2020-09-27,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,9,43
+2020-09-27,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,9,43
 2020-09-27,,GR,,1075,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,20,64
 2020-09-27,,JU,,311,,3,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-09-27,,NE,,1091,,0,0,0,,88,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5297,7 +5297,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-03,,FL,,123,,0,,,116,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-03,,FR,,2492,,8,1,,176,102,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-03,,GE,,8638,,40,3,,,309,https://www.ge.ch/document/21502/telecharger,370,769
-2020-10-03,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,10,26
+2020-10-03,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,10,26
 2020-10-03,,GR,,1122,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,48,137
 2020-10-03,,JU,,334,,4,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-03,,NE,,1167,,1,0,0,,90,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5316,7 +5316,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-04,,FL,,126,,0,,,116,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-04,,FR,,2518,,9,1,,176,102,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-04,,GE,,8675,,42,3,,,309,https://www.ge.ch/document/21502/telecharger,402,798
-2020-10-04,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,11,25
+2020-10-04,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,11,25
 2020-10-04,,GR,,1122,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,48,137
 2020-10-04,,JU,,336,,4,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-04,,NE,,1182,,1,0,0,,90,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5466,7 +5466,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-10,,FL,,144,,3,,,121,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-10,,FR,,2884,,14,1,,177,102,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-10,,GE,,9506,,55,4,,,312,https://www.ge.ch/document/21502/telecharger,860,1901
-2020-10-10,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,13,32
+2020-10-10,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,13,32
 2020-10-10,,GR,,1244,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,130,943
 2020-10-10,,JU,,462,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-10,,NE,,1480,,10,0,0,,92,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5485,7 +5485,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-11,,FL,,148,,3,,,124,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-11,,FR,,2951,,13,1,,179,103,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-11,,GE,,9587,,57,4,,,312,https://www.ge.ch/document/21502/telecharger,997,2054
-2020-10-11,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,14,32
+2020-10-11,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,14,32
 2020-10-11,,GR,,1259,,3,1,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,139,953
 2020-10-11,,JU,,478,,12,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-11,,NE,,1517,,11,0,0,,93,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5634,7 +5634,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-17,,FL,,217,,,,,,,https://www.regierung.li/media/attachments/572-corona-situationsbericht-1017.pdf,,
 2020-10-17,,FR,,3784,,33,5,,190,106,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-17,,GE,,11306,,99,6,,,314,https://www.ge.ch/document/21502/telecharger,2114,3153
-2020-10-17,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,72,123
+2020-10-17,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,72,123
 2020-10-17,,GR,,1446,,6,2,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,227,646
 2020-10-17,,JU,,796,,16,1,,,8,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-17,,NE,,2024,,21,1,0,,95,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5654,7 +5654,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-18,,FL,,224,,6,,,142,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-18,,FR,,4007,,35,5,,191,107,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-18,,GE,,11461,,110,6,,,317,https://www.ge.ch/document/21502/telecharger,2289,3291
-2020-10-18,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,72,121
+2020-10-18,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,72,121
 2020-10-18,,GR,,1484,,7,2,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,243,628
 2020-10-18,,JU,,831,,20,1,,,9,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-18,,NE,,2077,,24,2,1,,95,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5692,7 +5692,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-19,10:00,SH,,311,,1,0,,,8,https://sh.ch/CMS/get/file/1b43e278-9470-4e25-90ce-2d755f1c3f7d,70,261
 2020-10-19,10:00,TG,,1306,5,24,6,,101,21,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,287,
 2020-10-19,10:43,AR,,343,,13,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,89,31
-2020-10-19,11:30,GL,,280,,1,,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-10-19,11:30,GL,,280,,1,0,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,68,134
 2020-10-19,12:00,AI,,148,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,64,
 2020-10-19,13:00,BS,,1667,,17,3,,1364,54,https://www.gesundheit.bs.ch,249,346
 2020-10-19,14:30,ZH,,12731,,84,,5,,156,https://www.zh.ch/de/gesundheit/coronavirus.html,1780,3822
@@ -5701,7 +5701,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-20,,FL,,252,,5,,,145,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-20,,FR,,4450,,43,5,,193,108,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-20,,GE,,12462,,169,7,,,317,https://www.ge.ch/document/21502/telecharger,2836,3202
-2020-10-20,,GL,,290,,1,,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-10-20,,GL,,290,,1,0,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,65,144
 2020-10-20,,GR,,1541,,8,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,254,739
 2020-10-20,,JU,,936,,27,1,,,10,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-20,,LU,,2324,,25,3,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,913,1337
@@ -5728,7 +5728,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-21,,FL,,282,,5,,,158,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-21,,FR,,4736,,46,6,,195,110,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-21,,GE,,13016,,200,7,,,317,https://www.ge.ch/document/21502/telecharger,3233,3096
-2020-10-21,,GL,,309,,1,,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-10-21,,GL,,309,,1,0,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,80,223
 2020-10-21,,GR,,1602,,9,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,282,653
 2020-10-21,,JU,,1017,,33,2,,,11,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-21,,LU,,2489,,26,4,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1023,1053
@@ -5755,7 +5755,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-22,,FL,,324,,8,,,170,1,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,
 2020-10-22,,FR,,5043,,60,5,,198,110,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-22,,GE,,13803,,207,10,,,318,https://www.ge.ch/document/21502/telecharger,3576,2962
-2020-10-22,,GL,,315,,0,,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-10-22,,GL,,315,,0,0,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,84,224
 2020-10-22,,GR,,1694,,13,3,3,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,329,757
 2020-10-22,,JU,,1082,,46,2,,,12,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-22,,LU,,2670,,31,4,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1146,995
@@ -5781,7 +5781,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-23,,FL,,324,,,,,,1,https://www.regierung.li/media/attachments/586-corona-situationsbericht-1023.pdf,,
 2020-10-23,,FR,,5539,,61,7,,205,112,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-23,,GE,,14652,,228,9,,,320,https://www.ge.ch/document/21502/telecharger,3736,2929
-2020-10-23,,GL,,329,,2,,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-10-23,,GL,,329,,2,0,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,85,232
 2020-10-23,,GR,,1779,,14,3,3,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,375,881
 2020-10-23,,JU,,1153,,53,2,,,14,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-23,,LU,,2854,,37,5,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1240,911
@@ -5808,6 +5808,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-24,,FL,,340,,,,,,,https://www.regierung.li/media/attachments/589-corona-situationsbericht-1024.pdf,,
 2020-10-24,,FR,,6016,,66,10,,213,116,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-24,,GE,,15251,,260,12,,,322,https://www.ge.ch/document/21502/telecharger,3762,2756
+2020-10-24,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,83,222
 2020-10-24,,GR,,1869,,12,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,433,974
 2020-10-24,,JU,,1252,,57,2,,,14,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-24,,NE,,3129,,60,8,4,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5828,6 +5829,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-25,,FL,,365,,,,,,,https://www.regierung.li/media/attachments/590-corona-situationsbericht-1025.pdf,,
 2020-10-25,,FR,,6316,,74,13,,217,118,https://www.fr.ch/sites/default/files/2020-10/201027_statistiques_situation_COVID_site_V2.xlsx,,
 2020-10-25,,GE,,15646,,296,12,,,323,https://www.ge.ch/document/21502/telecharger,,
+2020-10-25,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/27018/Sentinella%20Bericht%20KW43.pdf,86,175
 2020-10-25,,GR,,1917,,17,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,442,1077
 2020-10-25,,JU,,1387,,68,3,,,15,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-25,,NE,,3203,,68,8,4,,97,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
@@ -5894,6 +5896,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-27,14:30,ZH,,18287,,200,,19,,164,https://www.zh.ch/de/gesundheit/coronavirus.html,5907,
 2020-10-27,16:15,AR,,605,,24,3,,,7,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,125,75
 2020-10-27,16:30,UR,,344,,4,,,203,7,https://www.ur.ch/themen/2962,,329
+2020-10-28,,GL,,401,,7,,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
 2020-10-28,01:00,SO,,2104,,33,,,,18,https://corona.so.ch/index.php?id=27979,,
 2020-10-28,08:00,TI,,6530,,105,8,4,965,356,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,353,1139
 2020-10-28,08:00,ZG,,1544,,23,2,,1007,10,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
