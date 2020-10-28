@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup
-import re
 import datetime
 import scrape_common as sc
+import scrape_ag_common as sac
 
 
-data_url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
-d = sc.download(data_url, silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-xls_url = soup.find('a', href=re.compile(r'\.xlsx$'))['href']
-if not xls_url.startswith('http'):
-    xls_url = f'https://www.ag.ch{xls_url}'
-    
+xls_url = sac.get_ag_xls_url()
 xls = sc.xlsdownload(xls_url, silent=True)
 is_first = True
 
