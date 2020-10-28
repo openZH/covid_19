@@ -18,7 +18,7 @@ d = sc.download('https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit
 soup = BeautifulSoup(d, 'html.parser')
 
 # weekly pdf
-pdf_url = soup.find('a', string=re.compile(r'Grafische Darstellung.*')).get('href')
+pdf_url = soup.find(href=re.compile(r'Sentinella.*\.pdf$')).get('href')
 pdf = sc.download_content(pdf_url, silent=True)
 content = sc.pdftotext(pdf, page=1)
 pdf_date = sc.find(r'Stand: (\d{2}\.\d{2}.\d{4})', content)
