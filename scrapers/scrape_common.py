@@ -362,6 +362,13 @@ def represents_int(s):
     except (ValueError, TypeError):
         return False
 
+def represents_float(s):
+    try:
+        float(s)
+        return True
+    except (ValueError, TypeError):
+        return False
+
 def safeint(s):
     if not s:
         return s
