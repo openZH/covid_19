@@ -54,7 +54,7 @@ if data_table:
 
     if rows:
         for i, row in enumerate(rows[1:]):
-            if not row.get('Date'):
+            if not row.get('Date') or row.get('Date') == 'Date':
                 continue
 
             if not is_first:
