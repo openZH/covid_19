@@ -23,7 +23,8 @@ for i, row in enumerate(rows):
     dd = sc.DayData(canton='VS', url=main_url)
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas positifs']
-    dd.hospitalized = row['Total hospitalisations COVID-19']
+    if row['Patients COVID-19 aux SI total (y.c. intubés)'] is not None or row['Patients COVID-19 hospitalisés hors SI'] is not None:
+        dd.hospitalized = row['Total hospitalisations COVID-19']
     dd.new_hosp = row['Nb nouvelles admissions à l\'hôpital']
     dd.icu = row['Patients COVID-19 aux SI total (y.c. intubés)']
     dd.vent = row['Patients COVID-19 intubés']
