@@ -78,4 +78,9 @@ if data_table:
             # handle wrong value on 2020-05-28
             if row.get('Date', '').startswith('28 mai'):
                dd.cases = ''
+            if row.get('Date', '').startswith('24 juillet'):
+               dd.cases = ''
+            if row.get('Date', '').startswith('25 juillet'):
+               dd.cases = ''
+            
             print(dd)
