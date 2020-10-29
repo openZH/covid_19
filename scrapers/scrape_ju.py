@@ -73,4 +73,9 @@ if data_table:
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
             dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[:i+1] if r.get('Nombre de nouveaux décès'))
+
+            # TODO: remove when source is fixed
+            # handle wrong value on 2020-05-28
+            if row.get('Date', '').startswith('28 mai'):
+               dd.cases = ''
             print(dd)
