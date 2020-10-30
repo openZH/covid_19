@@ -5,7 +5,7 @@ import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20'
+url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20/'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 
