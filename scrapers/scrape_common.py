@@ -345,7 +345,7 @@ def download_file(url, path):
         for chunk in r.iter_content(1024):
             f.write(chunk)
 
-def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None, support_float=False):
+def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
     rows = []
     if sheet_name:
         sheet = book.sheet_by_name(sheet_name)
@@ -367,10 +367,10 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, c
                 entry[h] = xlrd.xldate.xldate_as_datetime(value, book.datemode)
             elif cell_type == xlrd.XL_CELL_EMPTY:
                 entry[h] = None
-            elif support_float and represents_float(value):
-                entry[h] = float(value)
-            elif represents_int(value):
+            elif represents_int(value) and int(value) == value:
                 entry[h] = int(value)
+            elif represents_float(value):
+                entry[h] = float(value)
             else:
                 entry[h] = value
 
