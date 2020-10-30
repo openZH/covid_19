@@ -72,7 +72,7 @@ assert headers[0].text.strip() == "Aktive Fälle"
 assert headers[1].text == "Positiv getestete Erkrankungsfälle total"
 assert headers[2].text == "Hospitalisiert"
 assert headers[3].text == "Quarantäne"
-assert headers[4].text == "total Verstorben"
+assert headers[4].text == "total Verstorbene"
 
 cells = rows[1].find_all('td')
 assert len(cells) == 6, f"Number of columns changed, {len(cells)} != 6"
