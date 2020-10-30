@@ -78,7 +78,7 @@ if not xls_url.startswith('http'):
     xls_url = f'https://www.fr.ch{xls_url}'
 
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=3)
+rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     row_date = row.search(r'.*Date.*')
     for district, d_id in district_ids.items():
