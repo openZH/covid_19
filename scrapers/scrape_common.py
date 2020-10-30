@@ -222,7 +222,7 @@ class TestData:
         res.append('' if self.negative_tests is None else str(self.negative_tests))
         res.append('' if self.positivity_rate is None else str(self.positivity_rate))
         res.append(self.url)
-        return DistrictData.SEPARATOR.join(res)
+        return TestData.SEPARATOR.join(res)
 
     def __bool__(self):
         attributes = [
@@ -241,7 +241,7 @@ class TestData:
         return float(item) if represents_float(item) else None
 
     def parse(self, data):
-        items = data.split(DistrictData.SEPARATOR)
+        items = data.split(TestData.SEPARATOR)
         if len(items) == 9:
             self.canton = items[0]
             self.start_date = items[1]
