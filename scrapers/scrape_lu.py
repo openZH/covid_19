@@ -5,74 +5,14 @@ import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus'
-d = sc.download(url, silent=True)
+start_url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus'
+d = sc.download(start_url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+cases_url = soup.find(string=re.compile(r'Aktuelle Zahlen.*Kanton\s+Luzern')).find_previous('a')['href']
+if not cases_url.startswith('http'):
+    cases_url = f"https://gesundheit.lu.ch{cases_url}"
+d = sc.download(cases_url, silent=True)
 d = d.replace('&nbsp;', ' ')
-
-# 2020-04-01
-"""
-<p><strong>Aktuelle Fallzahlen im Kanton Luzern&nbsp;</strong>(Stand: 1. April 2020, 11:00 Uhr)</p>
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td valign="top" style="width: 151px;">
-            <p><strong></strong>Bestätigte Fälle: </p>
-            </td>
-            <td valign="top" style="width: 47px;">
-            <p style="text-align: right;">401</p>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top" style="width: 151px;">
-            <p>Hospitalisiert:</p>
-            </td>
-            <td valign="top" style="width: 47px;">
-            <p style="text-align: right;">57</p>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top" style="width: 151px;">
-            <p>Intensivpflege:</p>
-            </td>
-            <td valign="top" style="width: 47px;">
-            <p style="text-align: right;">12</p>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top" style="width: 151px;">
-            <p>Todesfälle: </p>
-            </td>
-            <td valign="top" style="width: 47px;">
-            <p style="text-align: right;">7</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-"""
-
-# 2020-04-03
-"""
-...
-        <tr>
-            <td valign="top" style="width: 151px;">
-            <p><strong></strong>Positiv getestet (kumuliert): </p>
-            </td>
-            <td valign="top" style="width: 47px;">
-            <p style="text-align: right;">422</p>
-            </td>
-        </tr>
-...
-"""
-
-# 2020-05-13
-"""
-         <tr>
-            <td valign="top">
-            <p>Intensivpflege (aktuell):</p>
-            </td>
-            <td style="text-align: right; vertical-align: top;">4</td>
-        </tr>
-"""
 
 case_date_str = sc.find(r'Fallzahlen\s*im\s*Kanton\s*Luzern.*\(Stand:\s*(.+?)\,', d)
 hosp_date_str = sc.find(r'Hospitalisierungen.*\(Stand:\s*(.+?)\,', d)
@@ -80,12 +20,14 @@ isolated_date_str = sc.find(r'Isolation.*\(Stand:\s*(.+?)\,', d)
 
 soup = BeautifulSoup(d, 'html.parser')
 is_first = True
-for table in soup.find(string=re.compile(r'Informationen.*?Kanton.*')).find_next('li').find_all('table'):
+tables = soup.find_all('table')
+assert tables, f"Couldn't find tables on {cases_url}"
+for table in tables:
     if not is_first:
         print('-' * 10)
     is_first = False
 
-    dd = sc.DayData(canton='LU', url=url)
+    dd = sc.DayData(canton='LU', url=cases_url)
     for row in table.find_all('tr'):
         cells = row.find_all('td')
         assert len(cells) == 2, "Number of columns changed, not 2"
