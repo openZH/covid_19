@@ -5,7 +5,7 @@ import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus'
+url = 'https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 
@@ -80,7 +80,7 @@ isolated_date_str = sc.find(r'Isolation.*\(Stand:\s*(.+?)\,', d)
 
 soup = BeautifulSoup(d, 'html.parser')
 is_first = True
-for table in soup.find(string=re.compile(r'Informationen.*?Kanton.*')).find_next('li').find_all('table'):
+for table in soup.find(string=re.compile(r'Fallzahlen\s*Kanton\s*Luzern.*')).find_next('').find_all('table'):
     if not is_first:
         print('-' * 10)
     is_first = False
