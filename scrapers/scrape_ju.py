@@ -56,6 +56,8 @@ if data_table:
         for i, row in enumerate(rows[1:]):
             if not row.get('Date') or row.get('Date') == 'Date':
                 continue
+            if row.get('Date') == '20 octobre' and int(row.get('Cumul des cas confirmés', 0)) > 1000:
+                row['Date'] = '30 octobre'
 
             if not is_first:
                 print('-' * 10)
