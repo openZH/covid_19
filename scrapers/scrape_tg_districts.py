@@ -15,7 +15,7 @@ resource = next(r for r in dataset['resources'] if r['name']['de'] == 'COVID19 F
 
 assert resource['download_url'], "Download URL not found"
 
-d_csv = sc.download(resource['download_url'], silent=True)
+d_csv = sc.download(resource['download_url'], silent=True, encoding='latin1')
 
 reader = csv.DictReader(StringIO(d_csv), delimiter=';')
 for row in reader:
