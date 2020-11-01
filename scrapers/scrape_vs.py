@@ -23,6 +23,8 @@ pdf_url = f'{base_url}{pdf_url}'
 content = sc.pdfdownload(pdf_url, silent=True, layout=True, page=1)
 
 dd = sc.DayData(canton='VS', url=pdf_url)
+dd.datetime = sc.find(r'(\d{2}/\d{2}/20\d{2})', content)
+dd.datetime = re.sub(r'/', '.', dd.datetime)
 dd.cases = strip_value(sc.find(r'.*Cumul cas positifs.*\s+(\d+.\d+)\s+', content))
 dd.deaths = strip_value(sc.find(r'.*Cumul d.c.s.*\s+(\d+.\d+)\s+', content))
 dd.hospitalized = strip_value(sc.find(r'.*Hospitalisations en cours de cas COVID-19.*\s+(\d+)\s+', content))
@@ -64,5 +66,4 @@ for i, row in enumerate(rows):
         dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
     if not is_first:
         print('-' * 10)
-    is_first = False
     print(dd)
