@@ -7,11 +7,38 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
+def strip_value(value):
+    if value:
+        return re.sub(r'[^0-9]', '', value)
+    return None
+
+
+base_url = 'https://www.vs.ch'
+url = f'{base_url}/web/coronavirus/statistiques'
+content = sc.download(url, silent=True)
+soup = BeautifulSoup(content, 'html.parser')
+pdf_url = soup.find('a', string=re.compile(r'2020.*Sit Epid.*')).get('href')
+pdf_url = f'{base_url}{pdf_url}'
+
+content = sc.pdfdownload(pdf_url, silent=True, layout=True, page=1)
+
+dd = sc.DayData(canton='VS', url=pdf_url)
+dd.cases = strip_value(sc.find(r'.*Cumul cas positifs.*\s+(\d+.\d+)\s+', content))
+dd.deaths = strip_value(sc.find(r'.*Cumul d.c.s.*\s+(\d+.\d+)\s+', content))
+dd.hospitalized = strip_value(sc.find(r'.*Hospitalisations en cours de cas COVID-19.*\s+(\d+)\s+', content))
+dd.icu = strip_value(sc.find(r'.*SI en cours.*\s+(\d+)\s+', content))
+dd.vent = strip_value(sc.find(r'.*Intubation en cours.*\s+(\d+)\s+', content))
+
+is_first = True
+if dd:
+    is_first = False
+    print(dd)
+
+
 xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20%20COVID-19%20Valais.xlsx'
 main_url = 'https://www.vs.ch/de/web/coronavirus'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=1)
-is_first = True
 for i, row in enumerate(rows):
     if not isinstance(row['Date'], datetime.datetime):
         continue
