@@ -20,7 +20,7 @@ pdf = sc.pdfdownload(pdf_url, silent=True)
 
 week_number = sc.find(r'Situation semaine (\d+)', pdf)
 week_end_date = datetime.datetime.strptime('2020-W' + week_number + '-7', '%G-W%V-%u').date()
-number_of_tests = sc.find(r'N total tests : (\d+\'\d+)', pdf)
+number_of_tests = sc.find(r'Au total, (\d+\'\d+) tests PCR ont', pdf)
 
 if number_of_tests is not None:
     number_of_tests = number_of_tests.replace('\'', '')
