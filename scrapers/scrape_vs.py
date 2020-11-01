@@ -66,4 +66,5 @@ for i, row in enumerate(rows):
         dd.recovered = sum(r['Nb de nouvelles sorties'] for r in rows[:i+1])
     if not is_first:
         print('-' * 10)
+    is_first = False
     print(dd)
