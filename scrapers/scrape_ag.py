@@ -69,6 +69,7 @@ for row in rows:
 
     # TODO: remove if source is fixed
     ignore_dates = [
+        '2020-05-15',
         '2020-06-04',
         '2020-06-08',
         '2020-06-19',
