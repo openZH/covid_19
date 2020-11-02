@@ -29,7 +29,7 @@ jobs:
     - name: Install dependencies
       run: |
         npm ci
-        python -m pip install --upgrade pip
+        python -m pip install --upgrade pip setuptools wheel
         pip install -r requirements.txt
         pip install -r requirements-ocr.txt
         sudo apt-get install poppler-utils tesseract-ocr=3.04.01-4
