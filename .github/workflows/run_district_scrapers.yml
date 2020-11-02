@@ -44,6 +44,7 @@ jobs:
         sudo apt update || true # do not fail if update does not work
         sudo apt-get install sqlite3 poppler-utils
         if [ "$SCRAPER_KEY" = "AG" ] ; then
+          pip install -r requirements-ocr.txt
           sudo apt-get install tesseract-ocr=3.04.01-4
         fi
 
