@@ -2,33 +2,18 @@
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
-import json
 import scrape_common as sc
+from scrape_fr_common import get_fr_xls
 
-url = 'https://www.fr.ch/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton'
-d = sc.download(url, silent=True)
+xls_url, xls = get_fr_xls()
+rows = sc.parse_xls(xls, header_row=0, sheet_name='tests COVID19')
 
-soup = BeautifulSoup(d, 'html.parser')
-
-json_data = soup.find('script', type="application/json").string
-json_data = json.loads(json_data)
-easychart = json_data['easychart']
-content = easychart['338566-0-field_graphique_content']
-
-csv = content['csv']
-csv = json.loads(csv)
-
-config = content['config']
-config = json.loads(config)
-xaxis = config['xAxis']
-categories = xaxis[0]['categories']
-
-for (tot, pos), week in zip(csv[1:], categories):
-    tot = int(tot)
-    pos = int(pos)
-    td = sc.TestData(canton='FR', url=url)
-    td.week = week
+for row in rows:
+    td = sc.TestData(canton='FR', url=xls_url)
+    td.week = sc.find(r'S (\d+)', row['Semaine'])
     td.year = '2020'
+    tot = row['Total Testing Pop FR']
+    pos = row['Total POS Pop FR']
     td.positive_tests = pos
     td.negative_tests = tot - pos
     td.positivity_rate = float(pos / tot) * 100
