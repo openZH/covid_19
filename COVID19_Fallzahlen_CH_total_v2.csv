@@ -1891,7 +1891,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-15,,VS,,1897,0,26,8,4,271,150,https://www.vs.ch/de/web/coronavirus,33,35
 2020-05-15,00:00,OW,,79,,0,,,,0,https://www.ow.ch/dl.php/de/5f9be50f7be64/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-05-15,00:00,SO,,427,,6,,,,15,https://corona.so.ch/index.php?id=27979,,
-2020-05-15,08:00,AG,,1180,,12,1,1,1040,45,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
+2020-05-15,08:00,AG,,1180,,12,1,1,,45,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
 2020-05-15,08:00,BE,,1852,,27,5,4,,96,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-05-15,08:00,TI,,3279,,63,7,5,864,341,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_per_github.xlsx,,
 2020-05-15,08:00,ZG,,198,,0,0,,163,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,10,14
@@ -6022,3 +6022,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-02,10:00,TG,,3137,0,42,6,,134,31,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,1330,
 2020-11-02,10:30,SH,,768,,16,3,,,8,https://sh.ch/CMS/get/file/73ea1b3e-a103-4acf-9ad1-30e57ac93ce0,299,614
 2020-11-02,12:00,AI,,354,,10,,,,5,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,70,
+2020-11-02,16:00,UR,,486,,4,,,246,8,https://www.ur.ch/themen/2962,,368
