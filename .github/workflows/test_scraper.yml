@@ -16,7 +16,7 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-16.04
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
     - uses: actions/checkout@v2
@@ -29,8 +29,9 @@ jobs:
     - name: Install dependencies
       run: |
         npm ci
-        python -m pip install --upgrade pip
+        python -m pip install --upgrade pip setuptools wheel
         pip install -r requirements.txt
+        pip install -r requirements-ocr.txt
         sudo apt-get install poppler-utils tesseract-ocr=3.04.01-4
 
     - name: Test run of all scrapers
