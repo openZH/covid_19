@@ -10,15 +10,18 @@ main_url = 'https://www4.ti.ch/dss/dsp/covid19/home/'
 d = sc.download(main_url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
-pdf_url = soup.find('a', string=re.compile(r'Dati stato.*')).get('href')
-pdf_url = f'https://www4.ti.ch/{pdf_url}'
-pdf_content = sc.pdfdownload(pdf_url, silent=True, raw=True)
-
-dd = sc.DayData(canton='TI', url=pdf_url)
-dd.datetime = sc.find(r'(?:Stato )?(\d+\.\d+\.20\d{2})', pdf_content)
-dd.isolated = sc.find(r'(\d+)\sPersone\sin\sisolamento', pdf_content)
-dd.quarantined = sc.find(r'(\d+)\sPersone\sin\squarantena', pdf_content)
 is_first = True
+pdf_link = soup.find('a', string=re.compile(r'Dati stato.*'))
+dd = None
+if pdf_link:
+    pdf_url = pdf_link.get('href')
+    pdf_url = f'https://www4.ti.ch/{pdf_url}'
+    pdf_content = sc.pdfdownload(pdf_url, silent=True, raw=True)
+    dd = sc.DayData(canton='TI', url=pdf_url)
+    dd.datetime = sc.find(r'(?:Stato )?(\d+\.\d+\.20\d{2})', pdf_content)
+    dd.isolated = sc.find(r'(\d+)\sPersone\sin\sisolamento', pdf_content)
+    dd.quarantined = sc.find(r'(\d+)\sPersone\sin\squarantena', pdf_content)
+
 if dd:
     print(dd)
     is_first = False
