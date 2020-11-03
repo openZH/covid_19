@@ -70,7 +70,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 102,Bezirk Andelfingen,31490,41,2020,27,0,150,5
 102,Bezirk Andelfingen,31490,42,2020,52,0,202,5
 102,Bezirk Andelfingen,31490,43,2020,102,1,304,6
-102,Bezirk Andelfingen,31490,44,2020,121,1,425,7
+102,Bezirk Andelfingen,31490,44,2020,121,3,425,9
 103,Bezirk Bülach,154731,9,2020,0,0,0,0
 103,Bezirk Bülach,154731,10,2020,4,0,4,0
 103,Bezirk Bülach,154731,11,2020,16,0,20,0
@@ -178,7 +178,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,41,2020,42,0,448,1
 105,Bezirk Hinwil,96595,42,2020,136,0,584,1
 105,Bezirk Hinwil,96595,43,2020,215,0,799,1
-105,Bezirk Hinwil,96595,44,2020,386,4,1185,5
+105,Bezirk Hinwil,96595,44,2020,386,5,1185,6
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
