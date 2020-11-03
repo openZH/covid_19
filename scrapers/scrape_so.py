@@ -40,7 +40,8 @@ d = d.replace("&nbsp;", " ")
 
 soup = BeautifulSoup(d, 'html.parser')
 data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find_next("table")
-if data_table:
+# not updated anymore after 2020-10-30
+if data_table and False:
     headers = [cell.string for cell in data_table.find('tr').find_all('th')]
     for row in data_table.find_all('tr'):
         data = sc.DayData(canton='SO', url=url)
@@ -67,7 +68,7 @@ else:
     url = "https://corona.so.ch/"
     d = sc.download(url, silent=True)
     soup = BeautifulSoup(d, 'html.parser')
-    title = soup.find('strong', text=re.compile("Situation Kanton Solothurn"))
+    title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
     data_list = title.find_parent("div").find_all('li')
     date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
     data = sc.DayData(canton='SO', url=url)
@@ -75,14 +76,18 @@ else:
         content = "".join([str(s) for s in item.contents])
         if not item:
             continue
-        if 'Anzahl positiv getesteter Erkrankungsfälle' in content:
-            data.cases = sc.find('.*:.*?(\d+)\s*.*', content).strip()
+        value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
+        if 'Laborbestätigte Infektionen (kumuliert)' in content:
+            data.cases = value
             continue
         if 'Verstorbene Personen' in content:
-            data.deaths = sc.find('.*:.*?(\d+)\s*.*', content).strip()
+            data.deaths = value
             continue
         if 'hospitalisierte Personen' in content and not 'weniger als' in content:
-            data.hospitalized = sc.find('.*:.*?(\d+)\s*.*', content).strip()
+            data.hospitalized = value
+            continue
+        if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
+            data.icu = value
             continue
     rows.append(data)
 
