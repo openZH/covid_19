@@ -100,4 +100,3 @@ for row in rows:
         print('-' * 10)
     is_first = False
     print(row)
-
