@@ -45,5 +45,5 @@ if data_table:
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
-            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[:i+1] if r.get('Nombre de nouveaux décès'))
+            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[i+1:] if r.get('Nombre de nouveaux décès'))
             print(dd)
