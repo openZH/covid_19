@@ -70,8 +70,8 @@ d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
 data_list = title.find_parent("div").find_all('li')
-date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
 data = sc.DayData(canton='SO', url=url)
+data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
 for item in data_list:
     content = "".join([str(s) for s in item.contents])
     if not item:
