@@ -40,8 +40,7 @@ d = d.replace("&nbsp;", " ")
 
 soup = BeautifulSoup(d, 'html.parser')
 data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find_next("table")
-# not updated anymore after 2020-10-30
-if data_table and False:
+if data_table:
     headers = [cell.string for cell in data_table.find('tr').find_all('th')]
     for row in data_table.find_all('tr'):
         data = sc.DayData(canton='SO', url=url)
@@ -63,32 +62,34 @@ if data_table and False:
         if data and tmp_date and tmp_time and not tmp_date.startswith('bis '):
             data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
-else:
-    # if the table is not there (it vanished on 2020-05-20) fallback to main page
-    url = "https://corona.so.ch/"
-    d = sc.download(url, silent=True)
-    soup = BeautifulSoup(d, 'html.parser')
-    title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
-    data_list = title.find_parent("div").find_all('li')
-    date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
-    data = sc.DayData(canton='SO', url=url)
-    for item in data_list:
-        content = "".join([str(s) for s in item.contents])
-        if not item:
-            continue
-        value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
-        if 'Laborbestätigte Infektionen (kumuliert)' in content:
-            data.cases = value
-            continue
-        if 'Verstorbene Personen' in content:
-            data.deaths = value
-            continue
-        if 'hospitalisierte Personen' in content and not 'weniger als' in content:
-            data.hospitalized = value
-            continue
-        if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
-            data.icu = value
-            continue
+
+
+# and scrape the main page as well
+url = "https://corona.so.ch/"
+d = sc.download(url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
+data_list = title.find_parent("div").find_all('li')
+date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
+data = sc.DayData(canton='SO', url=url)
+for item in data_list:
+    content = "".join([str(s) for s in item.contents])
+    if not item:
+        continue
+    value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
+    if 'Laborbestätigte Infektionen (kumuliert)' in content:
+        data.cases = value
+        continue
+    if 'Verstorbene Personen' in content:
+        data.deaths = value
+        continue
+    if 'hospitalisierte Personen' in content and not 'weniger als' in content:
+        data.hospitalized = value
+        continue
+    if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
+        data.icu = value
+        continue
+if data:
     rows.append(data)
 
 
