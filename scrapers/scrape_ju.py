@@ -17,7 +17,7 @@ if data_table:
     headers = [" ".join(cell.stripped_strings) for cell in data_table.find('tr').find_all(['td', 'th'])]
     assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
     rows = []
-    for row in data_table.find_all('tr')[1:]:
+    for row in data_table.find_all('tr')[1:-1]:
         data = {}
         for col_num, cell in enumerate(row.find_all(['th', 'td'])):
             content = " ".join(cell.stripped_strings).strip()
@@ -26,7 +26,7 @@ if data_table:
         rows.append(data)
 
     if rows:
-        for i, row in enumerate(rows[1:]):
+        for i, row in enumerate(rows[:-1]):
             if not row.get('Date') or row.get('Date') == 'Date':
                 continue
 
@@ -45,5 +45,5 @@ if data_table:
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
             dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
-            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[i+1:] if r.get('Nombre de nouveaux décès'))
+            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[i:] if r.get('Nombre de nouveaux décès'))
             print(dd)
