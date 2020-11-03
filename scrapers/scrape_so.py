@@ -62,28 +62,34 @@ if data_table:
         if data and tmp_date and tmp_time and not tmp_date.startswith('bis '):
             data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
-else:
-    # if the table is not there (it vanished on 2020-05-20) fallback to main page
-    url = "https://corona.so.ch/"
-    d = sc.download(url, silent=True)
-    soup = BeautifulSoup(d, 'html.parser')
-    title = soup.find('strong', text=re.compile("Situation Kanton Solothurn"))
-    data_list = title.find_parent("div").find_all('li')
-    date_str = sc.find('Stand\s*(.+)\s*Uhr', title.string)
-    data = sc.DayData(canton='SO', url=url)
-    for item in data_list:
-        content = "".join([str(s) for s in item.contents])
-        if not item:
-            continue
-        if 'Anzahl positiv getesteter Erkrankungsfälle' in content:
-            data.cases = sc.find('.*:.*?(\d+)\s*.*', content).strip()
-            continue
-        if 'Verstorbene Personen' in content:
-            data.deaths = sc.find('.*:.*?(\d+)\s*.*', content).strip()
-            continue
-        if 'hospitalisierte Personen' in content and not 'weniger als' in content:
-            data.hospitalized = sc.find('.*:.*?(\d+)\s*.*', content).strip()
-            continue
+
+
+# and scrape the main page as well
+url = "https://corona.so.ch/"
+d = sc.download(url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
+data_list = title.find_parent("div").find_all('li')
+data = sc.DayData(canton='SO', url=url)
+data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
+for item in data_list:
+    content = "".join([str(s) for s in item.contents])
+    if not item:
+        continue
+    value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
+    if 'Laborbestätigte Infektionen (kumuliert)' in content:
+        data.cases = value
+        continue
+    if 'Verstorbene Personen' in content:
+        data.deaths = value
+        continue
+    if 'hospitalisierte Personen' in content and not 'weniger als' in content:
+        data.hospitalized = value
+        continue
+    if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
+        data.icu = value
+        continue
+if data:
     rows.append(data)
 
 
@@ -94,4 +100,3 @@ for row in rows:
         print('-' * 10)
     is_first = False
     print(row)
-
