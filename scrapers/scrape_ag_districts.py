@@ -109,7 +109,7 @@ def parse_line(line):
     tab = str.maketrans(in_str, out_str)
     match = re.match(r'^(.*)\s+(?:[_-]\s+)?(\S+)\s+(\S+)\s+(\S+)$', line)
     if match:
-        return (int(match[3].replace("'", "").translate(tab)), int(match[4].translate(tab)))
+        return (int(match[3].replace("'", "").translate(tab)), int(match[4].replace("'", "").translate(tab)))
     return (None, None)
 
 for name, config in districts.items():
