@@ -11,20 +11,22 @@ d = sc.download(main_url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-pdf_link = soup.find('a', string=re.compile(r'Dati stato.*'))
-dd = None
-if pdf_link:
-    pdf_url = pdf_link.get('href')
-    pdf_url = f'https://www4.ti.ch/{pdf_url}'
-    pdf_content = sc.pdfdownload(pdf_url, silent=True, raw=True)
-    dd = sc.DayData(canton='TI', url=pdf_url)
-    dd.datetime = sc.find(r'(?:Stato )?(\d+\.\d+\.20\d{2})', pdf_content)
-    dd.isolated = sc.find(r'(\d+)\sPersone\sin\sisolamento', pdf_content)
-    dd.quarantined = sc.find(r'(\d+)\sPersone\sin\squarantena', pdf_content)
 
-if dd:
-    print(dd)
-    is_first = False
+container = soup.find('h2', string=re.compile(r'Isolamento e quarantena')).find_next('div')
+for item in container.find_all('div'):
+    divs = item.find_all('div')
+    if len(divs) == 3:
+        dd = sc.DayData(canton='TI', url=main_url)
+        dd.datetime = sc.find(r'.*(\d+\.\d+\.\d{2})', divs[2].string)
+        if sc.find(r'.*(quarantena)', divs[1].string):
+            dd.quarantined = divs[0].string
+        if sc.find(r'.*(isolamento)', divs[1].string):
+            dd.isolated = divs[0].string
+        if dd:
+            if not is_first:
+                print('-' * 10)
+            is_first = False
+            print(dd)
 
 
 xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
