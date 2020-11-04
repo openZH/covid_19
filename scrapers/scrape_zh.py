@@ -76,6 +76,7 @@ for row in reader:
     dd.deaths = row['ncumul_deceased']
     dd.hospitalized = row['current_hosp']
     dd.vent = row['current_vent']
+    dd.icu = row['current_icu']
     print(dd)
     
 
