@@ -23,7 +23,7 @@ year = sc.find(r'\d+\.\d+\.(\d{4})', content)
 
 # last page contains the district data
 page = int(sc.pdfinfo(pdf))
-content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 403, 450, 50], fixed=2)
+content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 403, 420, 50], fixed=2)
 
 # strip everything including the "Anzahl Faelle" column + values
 def strip_left_number(content):
@@ -47,7 +47,7 @@ def strip_right_items(content):
     lines = content.split('\n')
     pos = None
     for line in lines:
-        res = re.search(r'(\d+\.\d+)\s?$', line)
+        res = re.search(r'(\d+|\d+\.\d+)\s?$', line)
         if res is not None:
             if pos is None:
                 pos = res.start()
