@@ -5,6 +5,11 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
+
+def strip_value(value):
+    return value.replace('\'', '')
+
+
 base_url = 'https://corona.so.ch'
 url = f'{base_url}/bevoelkerung/daten/woechentlicher-situationsbericht/'
 d = sc.download(url, silent=True)
@@ -12,7 +17,7 @@ soup = BeautifulSoup(d, 'html.parser')
 pdf_url = soup.find(href=re.compile(r'\.pdf$')).get('href')
 pdf_url = f'{base_url}{pdf_url}'
 
-content = sc.pdfdownload(pdf_url, layout=True, silent=True)
+content = sc.pdfdownload(pdf_url, layout=True, silent=True, page=1)
 
 """
 Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Quarantäne  Anzahl zusätzlicher Personen in Quarantäne nach Rückkehr aus Risikoland  Re- Wert***
@@ -23,14 +28,14 @@ rows = []
 
 date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
 number_of_tests = sc.find(r'PCR-Tes\s?ts\sTotal\s+(\d+\'?\d+)\s', content).replace('\'', '')
-res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+\d\.\d+ \(\d\.\d+\)', content, re.DOTALL)
+res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+\d\.\d+ \(\d\.\d+\)', content, re.DOTALL)
 if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
     data.datetime = date
     data.tested = number_of_tests
-    data.isolated = res[1]
-    data.quarantined = res[2]
-    data.quarantine_riskareatravel = res[3]
+    data.isolated = strip_value(res[1])
+    data.quarantined = strip_value(res[2])
+    data.quarantine_riskareatravel = strip_value(res[3])
     rows.append(data)
 
 
@@ -69,24 +74,23 @@ url = "https://corona.so.ch/"
 d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
-data_list = title.find_parent("div").find_all('li')
 data = sc.DayData(canton='SO', url=url)
 data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
-for item in data_list:
-    content = "".join([str(s) for s in item.contents])
-    if not item:
-        continue
-    value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
-    if 'Laborbestätigte Infektionen (kumuliert)' in content:
+table = title.find_next('table')
+for table_row in table.find_all('tr'):
+    items = table_row.find_all('td')
+    name = items[0].string
+    value = items[1].string
+    if name == 'Laborbestätigte Infektionen (kumuliert):':
         data.cases = value
         continue
-    if 'Verstorbene Personen' in content:
+    if name == 'Verstorbene Personen (kumuliert):':
         data.deaths = value
         continue
-    if 'hospitalisierte Personen' in content and not 'weniger als' in content:
+    if name == 'Aktuell im Kanton hospitalisierte Personen:':
         data.hospitalized = value
         continue
-    if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
+    if name == 'Davon intensivmedizinisch betreut:':
         data.icu = value
         continue
 if data:
