@@ -93,7 +93,6 @@ for table_row in table.find_all('tr'):
     if name == 'Davon intensivmedizinisch betreut:':
         data.icu = value
         continue
-print(data)
 if data:
     rows.append(data)
 
