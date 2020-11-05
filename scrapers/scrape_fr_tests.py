@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from bs4 import BeautifulSoup
 import scrape_common as sc
 from scrape_fr_common import get_fr_xls
 
