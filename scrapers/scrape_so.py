@@ -69,26 +69,26 @@ url = "https://corona.so.ch/"
 d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
-data_list = title.find_parent("div").find_all('li')
 data = sc.DayData(canton='SO', url=url)
 data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
-for item in data_list:
-    content = "".join([str(s) for s in item.contents])
-    if not item:
-        continue
-    value = sc.find(r'.*:.*?(\d+)\s*.*', content).strip()
-    if 'Laborbestätigte Infektionen (kumuliert)' in content:
+table = title.find_next('table')
+for table_row in table.find_all('tr'):
+    items = table_row.find_all('td')
+    name = items[0].string
+    value = items[1].string
+    if name == 'Laborbestätigte Infektionen (kumuliert):':
         data.cases = value
         continue
-    if 'Verstorbene Personen' in content:
+    if name == 'Verstorbene Personen (kumuliert):':
         data.deaths = value
         continue
-    if 'hospitalisierte Personen' in content and not 'weniger als' in content:
+    if name == 'Aktuell im Kanton hospitalisierte Personen:':
         data.hospitalized = value
         continue
-    if 'Davon befinden sich auf intensivmedizinischen Abteilungen' in content and not 'weniger als' in content:
+    if name == 'Davon intensivmedizinisch betreut:':
         data.icu = value
         continue
+print(data)
 if data:
     rows.append(data)
 
