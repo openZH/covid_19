@@ -6,6 +6,10 @@
 
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
+> __Kanton ZH - Korrektur Fallzahlen__ : Von einem Labor erfolgten aufgrund eines IT-Problems während neun Tagen keine Meldungen zu den positiv Getesteten. Die Fälle > wurden am 4.11.2020 rückwirkend erfasst. Auf die Fallzahlen vom 4.11. 2020 hat dies keinen Einfluss.
+
+> __Canton Zurich - Correction of case numbers__ : Due to an IT problem, one laboratory did not report any positive test results for nine days. The cases were recorded retroactively on 4.11.2020. This has no effect on the number of cases on 4.11.2020.
+
 ## Aim
 
 The aim of this repository is to provide open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers at least once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
