@@ -96,5 +96,6 @@ for i, row in enumerate(rows):
     # TODO: check if Nombre tests is added again
     # on 2020-06-09 GE removed the `Nombre tests` column
     #dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
-    print(dd)
+    if dd:
+        print(dd)
 
