@@ -1,31 +1,136 @@
 date,time,abbreviation_canton_and_fl,hospital_name,current_icu_service_certified,current_icu_target_covid,current_hosp_covid,current_icu_covid,current_vent_covid,current_icu_not_covid,source
-2020-11-04,14:30,ZH,USZ,64,18,,14,,47,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,GZO Spital Wetzikon,7,1,,1,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Hirslanden Klinik Hirslanden,22,3,,2,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Hirslanden Klinik im Park,6,1,,0,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Kantonsspital Winterthur,18,2,,3,,9,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Kinderspital Zürich,25,0,,0,,21,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,See-Spital Horgen und Kilchberg,6,1,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Spital Bülach,7,1,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Spital Limmattal,8,1,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Spital Männedorf,7,1,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Spital Uster,7,1,,1,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Spital Zollikerberg,6,1,,1,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Stadtspital Triemli,18,2,,4,,10,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Stadtspital Waid,8,1,,2,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,Universitätsklinik Balgrist,6,1,,0,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-29,14:30,ZH,UniversitätsSpital Zürich,64,9,,7,,55,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,GZO Spital Wetzikon,7,1,,2,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Hirslanden Klinik Hirslanden,22,4,,1,,13,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Hirslanden Klinik im Park,6,1,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Kantonsspital Winterthur,18,3,,4,,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Kinderspital Zürich,25,0,,0,,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,See-Spital Horgen und Kilchberg,6,1,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Spital Bülach,7,1,,1,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Spital Limmattal,8,1,,3,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Spital Männedorf,7,1,,1,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Spital Uster,7,1,,2,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Spital Zollikerberg,6,1,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Stadtspital Triemli,18,3,,2,,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Stadtspital Waid,8,1,,2,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,Universitätsklinik Balgrist,6,1,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-30,14:30,ZH,UniversitätsSpital Zürich,64,10,,11,,47,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,GZO Spital Wetzikon,7,1,,2,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Hirslanden Klinik Hirslanden,22,5,,3,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Hirslanden Klinik im Park,6,1,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Kantonsspital Winterthur,18,4,,4,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Kinderspital Zürich,25,0,,0,,18,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,See-Spital Horgen und Kilchberg,6,1,,3,,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Spital Bülach,7,1,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Spital Limmattal,8,2,,3,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Spital Männedorf,7,1,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Spital Uster,7,1,,2,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Spital Zollikerberg,6,1,,2,,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Stadtspital Triemli,18,4,,3,,10,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Stadtspital Waid,8,2,,2,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,Universitätsklinik Balgrist,6,1,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-10-31,14:30,ZH,UniversitätsSpital Zürich,64,13,,12,,46,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,GZO Spital Wetzikon,7,1,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Hirslanden Klinik Hirslanden,22,4,,6,,9,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Hirslanden Klinik im Park,6,1,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Kantonsspital Winterthur,18,4,,4,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Kinderspital Zürich,25,0,,0,,15,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,See-Spital Horgen und Kilchberg,6,1,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Spital Bülach,7,1,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Spital Limmattal,8,2,,3,,-1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Spital Männedorf,7,1,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Spital Uster,7,1,,2,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Spital Zollikerberg,6,1,,2,,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Stadtspital Triemli,18,4,,3,,9,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Stadtspital Waid,8,2,,2,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,Universitätsklinik Balgrist,6,1,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-01,14:30,ZH,UniversitätsSpital Zürich,64,13,,12,,44,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,GZO Spital Wetzikon,7,2,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Hirslanden Klinik Hirslanden,22,5,,6,,11,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Hirslanden Klinik im Park,6,1,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Kantonsspital Winterthur,18,4,,4,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Kinderspital Zürich,25,0,,0,,18,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,See-Spital Horgen und Kilchberg,6,1,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Spital Bülach,7,2,,2,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Spital Limmattal,8,2,,3,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Spital Männedorf,7,2,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Spital Uster,7,2,,2,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Spital Zollikerberg,6,1,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Stadtspital Triemli,18,4,,4,,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Stadtspital Waid,8,2,,1,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,Universitätsklinik Balgrist,6,1,,0,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-02,14:30,ZH,UniversitätsSpital Zürich,64,14,,14,,43,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,GZO Spital Wetzikon,7,2,,4,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Hirslanden Klinik Hirslanden,22,6,,7,,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Hirslanden Klinik im Park,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Kantonsspital Winterthur,18,5,,5,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Kinderspital Zürich,25,0,,0,,17,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,See-Spital Horgen und Kilchberg,6,2,,1,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Spital Bülach,7,2,,3,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Spital Limmattal,8,2,,3,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Spital Männedorf,7,2,,1,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Spital Uster,7,2,,3,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Spital Zollikerberg,6,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Stadtspital Triemli,18,5,,4,,9,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Stadtspital Waid,8,2,,2,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,Universitätsklinik Balgrist,6,2,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-03,14:30,ZH,UniversitätsSpital Zürich,64,16,,13,,48,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,GZO Spital Wetzikon,7,2,,4,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Hirslanden Klinik Hirslanden,22,6,,6,,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Hirslanden Klinik im Park,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Kantonsspital Winterthur,18,5,,6,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-04,14:30,ZH,Kinderspital Zürich,25,0,,0,,18,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Klinik Hirslanden,22,6,,6,,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,KSW,18,5,,6,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,See-Spital Horgen und Kilchberg,6,2,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Spital Bülach,7,2,,3,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Spital Limmattal,8,2,,3,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Spital Männedorf,7,2,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Spital Uster,7,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Spital Zollikerberg,6,2,,3,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-04,14:30,ZH,Stadtspital Triemli,18,5,,6,,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-04,14:30,ZH,Stadtspital Waid,8,2,,2,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Spital Limmattal,8,2,,3,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Spital Uster,7,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,GZO Spital Wetzikon,7,2,,4,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Spital Männedorf,7,2,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Spital Bülach,7,2,,3,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,See-Spital Horgen,6,2,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Spital Zollikerberg,6,2,,3,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Klinik im Park,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-04,14:30,ZH,Uniklinik Balgrist,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,USZ,64,18,,15,,41,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,Universitätsklinik Balgrist,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-04,14:30,ZH,UniversitätsSpital Zürich,64,18,,14,,47,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,GZO Spital Wetzikon,7,2,,0,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Hirslanden Klinik Hirslanden,22,6,,7,,11,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Hirslanden Klinik im Park,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Kantonsspital Winterthur,18,5,,6,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-05,14:30,ZH,Kinderspital Zürich,25,0,,0,,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Klinik Hirslanden,22,6,,7,,11,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,KSW,18,5,,6,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,See-Spital Horgen und Kilchberg,6,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Spital Bülach,7,2,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Spital Limmattal,8,2,,4,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Spital Männedorf,7,2,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Spital Uster,7,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Spital Zollikerberg,6,2,,3,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-05,14:30,ZH,Stadtspital Triemli,18,5,,8,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2020-11-05,14:30,ZH,Stadtspital Waid,8,2,,2,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Spital Limmattal,8,2,,4,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Spital Uster,7,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,GZO Spital Wetzikon,7,2,,0,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Spital Männedorf,7,2,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Spital Bülach,7,2,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,See-Spital Horgen,6,2,,2,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Spital Zollikerberg,6,2,,3,,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Klinik im Park,6,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2020-11-05,14:30,ZH,Uniklinik Balgrist,6,2,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,Universitätsklinik Balgrist,6,2,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-05,14:30,ZH,UniversitätsSpital Zürich,64,18,,15,,41,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,GZO Spital Wetzikon,7,2,,0,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Hirslanden Klinik Hirslanden,22,6,,7,,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Hirslanden Klinik im Park,6,2,,0,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Kantonsspital Winterthur,18,5,,5,,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Kinderspital Zürich,25,0,,0,,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,See-Spital Horgen und Kilchberg,6,2,,2,,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Spital Bülach,7,2,,4,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Spital Limmattal,8,2,,4,,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Spital Männedorf,7,2,,3,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Spital Uster,7,2,,1,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Spital Zollikerberg,6,2,,3,,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Stadtspital Triemli,18,5,,8,,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Stadtspital Waid,8,2,,1,,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,Universitätsklinik Balgrist,6,2,,0,,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2020-11-06,14:30,ZH,UniversitätsSpital Zürich,64,19,,17,,39,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
