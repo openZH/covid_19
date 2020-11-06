@@ -26,8 +26,9 @@ if sc.represents_int(quarantined_total):
 
 dd_ct.quarantine_riskareatravel = quarantined_travel
 
-print(dd_ct)
-print('-' * 10)
+if dd_ct:
+    print(dd_ct)
+    print('-' * 10)
 
 # cases
 
