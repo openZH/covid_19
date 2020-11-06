@@ -48,14 +48,13 @@ year = sc.find(year_re, year)
 
 weeks = []
 week_regex = re.compile(r'Woche \d+')
-head = table.find_all('thead')[0]
-headers = table.find_all('th')
-for header in headers:
-    week = sc.find(r'Woche (\d+)', header.text)
+trs = table.find_all('tr')
+for header in trs[0]:
+    week = sc.find(r'Woche (\d+)', header.string)
     if week is not None:
         weeks.append(week)
 
-for tr in table.tbody.find_all('tr'):
+for tr in trs[1:]:
     tds = tr.find_all('td')
 
     for i in range(len(weeks)):
