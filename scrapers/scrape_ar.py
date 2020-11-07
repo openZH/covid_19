@@ -14,7 +14,7 @@ t = sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([^\)]+)(Uhr)?.*?\)?', d) or 
     sc.find(r'Contact\s+tracing\s+\(?.*?Stand\:?\s+([0-9]+\.[0-9]+\.? \/ [0-9]+h).*?\)?', d)
 dd_ct.datetime = t
 
-dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>.*(\d+)</strong>', d)
+dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
 quarantined_total = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+(?:Kontaktpersonen|Personen)\s+in\s+Quarantäne:\s+<strong>(\d+)</strong>', d)
 quarantined_travel = sc.find(r'davon\s+Anzahl\s+Personen.*die\s+aus\s+einem\s+<strong>Risikogebiet</strong>\s+in\s+die\s+Schweiz\s+eingereist\s+sind\s+und\s+aufgrund\s+dessen\s+aktuell\s+im\s+Kanton\s+in\s+Quarantäne\s+sind:\s+<strong>\s*(\d+)</strong>', d)
 assert sc.represents_int(quarantined_travel), f"quarantined_travel is not an integer: {quarantined_travel}"
@@ -26,8 +26,9 @@ if sc.represents_int(quarantined_total):
 
 dd_ct.quarantine_riskareatravel = quarantined_travel
 
-print(dd_ct)
-print('-' * 10)
+if dd_ct:
+    print(dd_ct)
+    print('-' * 10)
 
 # cases
 
