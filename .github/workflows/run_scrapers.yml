@@ -17,7 +17,7 @@ jobs:
           - AG
           - AI
           - AR
-          - BE
+#          - BE
           - BL
 #          - BS # disable BS, data is updated manually for now
           - FR
