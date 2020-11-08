@@ -27,3 +27,12 @@ def load_csv(filename):
                 db_row.append(r[col])
             to_db.append(db_row)
     return columns, to_db
+
+
+def insert_db_query(columns):
+    query = 'INSERT INTO data (\n'
+    query += ",\n".join(columns)
+    query += ') VALUES ('
+    query += ",".join(['?'] * len(columns))
+    query += ');'
+    return query

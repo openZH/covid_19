@@ -43,11 +43,7 @@ try:
     )
 
     # add entries
-    query = 'INSERT INTO data (\n'
-    query += ",\n".join(columns)
-    query += ') VALUES ('
-    query += ",".join(['?'] * len(columns))
-    query += ');'
+    query = dc.insert_db_query(columns)
     c.executemany(query, to_db)
     conn.commit()
 except Exception as e:
