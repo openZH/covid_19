@@ -1,4 +1,4 @@
-name: Run district scrapers
+name: Run tests scrapers
 
 on:
   schedule:
