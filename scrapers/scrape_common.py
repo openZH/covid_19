@@ -190,6 +190,76 @@ class DistrictData:
         return 'DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases,TotalDeaths,NewDeaths,SourceUrl'
 
 
+class TestData:
+    __initialized = False
+    SEPARATOR = ','
+
+    def __init__(self, canton=None, url=None):
+        self.start_date = None
+        self.end_date = None
+        self.week = None
+        self.year = None
+        self.canton = canton
+        self.positive_tests = None
+        self.negative_tests = None
+        self.positivity_rate = None
+        self.url = url
+        self.__initialized = True
+
+    def __setattr__(self, key, value):
+        if self.__initialized and not hasattr(self, key):
+            raise TypeError(f'unknown key: {key}')
+        object.__setattr__(self, key, value)
+
+    def __str__(self):
+        res = []
+        res.append(self.canton)
+        res.append('' if self.start_date is None else str(self.start_date))
+        res.append('' if self.end_date is None else str(self.end_date))
+        res.append('' if self.week is None else str(self.week))
+        res.append('' if self.year is None else str(self.year))
+        res.append('' if self.positive_tests is None else str(self.positive_tests))
+        res.append('' if self.negative_tests is None else str(self.negative_tests))
+        res.append('' if self.positivity_rate is None else str(self.positivity_rate))
+        res.append(self.url)
+        return TestData.SEPARATOR.join(res)
+
+    def __bool__(self):
+        attributes = [
+            self.positive_tests,
+            self.negative_tests,
+            self.positivity_rate,
+        ]
+        return any(v is not None for v in attributes)
+
+    @staticmethod
+    def __get_int_item(item):
+        return int(item) if represents_int(item) else None
+
+    @staticmethod
+    def __get_float_item(item):
+        return float(item) if represents_float(item) else None
+
+    def parse(self, data):
+        items = data.split(TestData.SEPARATOR)
+        if len(items) == 9:
+            self.canton = items[0]
+            self.start_date = items[1]
+            self.end_date = items[2]
+            self.week = self.__get_int_item(items[3])
+            self.year = self.__get_int_item(items[4])
+            self.positive_tests = self.__get_int_item(items[5])
+            self.negative_tests = self.__get_int_item(items[6])
+            self.positivity_rate = self.__get_float_item(items[7])
+            self.url = items[8]
+            return True
+        return False
+
+    @staticmethod
+    def header():
+        return 'Kanton,Woche_von,Woche_bis,Kalenderwoche,Jahr,Anzahl_positiv,Anzahl_negativ,Anteil_positiv,Url'
+
+
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,
@@ -275,7 +345,7 @@ def download_file(url, path):
         for chunk in r.iter_content(1024):
             f.write(chunk)
 
-def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None):
+def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, columns_to_parse=None, enable_float=False):
     rows = []
     if sheet_name:
         sheet = book.sheet_by_name(sheet_name)
@@ -299,6 +369,8 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, c
                 entry[h] = None
             elif represents_int(value):
                 entry[h] = int(value)
+            elif enable_float and represents_float(value):
+                entry[h] = float(value)
             else:
                 entry[h] = value
 
@@ -358,6 +430,13 @@ def timestamp():
 def represents_int(s):
     try:
         int(s)
+        return True
+    except (ValueError, TypeError):
+        return False
+
+def represents_float(s):
+    try:
+        float(s)
         return True
     except (ValueError, TypeError):
         return False

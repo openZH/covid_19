@@ -4,6 +4,7 @@
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
+from scrape_fr_common import get_fr_xls
 
 inhabitants = {
     'Broye': 32894,
@@ -71,12 +72,7 @@ for tr in trs[1:]:
 
 
 # daily data from xls
-xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
-assert xls_url, "URL is empty"
-if not xls_url.startswith('http'):
-    xls_url = f'https://www.fr.ch{xls_url}'
-
-xls = sc.xlsdownload(xls_url, silent=True)
+xls_url, xls = get_fr_xls()
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     row_date = row.search(r'.*Date.*')
