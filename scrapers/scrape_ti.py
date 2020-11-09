@@ -3,6 +3,7 @@
 
 from bs4 import BeautifulSoup
 import re
+import datetime
 import scrape_common as sc
 
 # get pdf and xlsx URL from covid19 page of TI
@@ -43,13 +44,18 @@ for row in rows:
     is_first = False
 
     dd = sc.DayData(canton='TI', url=xls_url)
-    dd.datetime = f"{row['Data'].date().isoformat()}"
-    if row['Ora']:
+    if isinstance(row['Data'], datetime.datetime):
+        dd.datetime = f"{row['Data'].date().isoformat()}"
+    else:
+        if row['Data'] == '31.11.2020':
+            row['Data'] = '31.10.2020'
+        dd.datetime = row['Data']
+    if row.get('Ora'):
         dd.datetime += f"T{row['Ora'].time().isoformat()}"
     dd.cases = row['Totale casi confermati']
-    dd.hospitalized = row['Pazienti ricoverati attualmente']
-    dd.icu = row['Pazienti in cure intense']
-    dd.vent = row['Pazienti ventilati']
+    dd.hospitalized = row['Totale giornaliero pazienti ricoverati']
+    dd.icu = row['Totale giornaliero pazienti cure intense']
+    dd.vent = row['Totale giornaliero pazienti ventilati']
     dd.recovered = row['Totale pazienti dimessi da ospedali']
     dd.deaths = row['Totale decessi']
     print(dd)
