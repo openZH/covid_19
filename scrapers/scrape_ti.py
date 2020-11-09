@@ -44,12 +44,7 @@ for row in rows:
     is_first = False
 
     dd = sc.DayData(canton='TI', url=xls_url)
-    if isinstance(row['Data'], datetime.datetime):
-        dd.datetime = f"{row['Data'].date().isoformat()}"
-    else:
-        if row['Data'] == '31.11.2020':
-            row['Data'] = '31.10.2020'
-        dd.datetime = row['Data']
+    dd.datetime = f"{row['Data'].date().isoformat()}"
     if row.get('Ora'):
         dd.datetime += f"T{row['Ora'].time().isoformat()}"
     dd.cases = row['Totale casi confermati']
