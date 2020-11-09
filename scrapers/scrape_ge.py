@@ -78,11 +78,10 @@ for i, row in enumerate(rows):
     dd = sc.DayData(canton='GE', url=xls_url)
     dd.datetime = row['Date'].date().isoformat()
     dd.cases = row['Cumul cas COVID-19']
-    dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours)']
-    dd.icu = row['Patients COVID-19 actifs aux soins intensifs ']
-    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires']
+    dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']
+    dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
+    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
     dd.deaths = row['Cumul décès COVID-19 ']
-    dd.recovered = row['Cumul COVID-19 sorties d\'hospitalisation']
     dd.isolated = row['Nombre de personnes en isolement ce jour']
     dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
     dd.quarantine_riskareatravel = row['Nombre de personnes en quarantaine ce jour suite à un retour de voyage']
