@@ -18,7 +18,7 @@ for item in container.find_all('div'):
     divs = item.find_all('div')
     if len(divs) == 3:
         dd = sc.DayData(canton='TI', url=main_url)
-        dd.datetime = sc.find(r'.*(\d+\.\d+\.\d{2})', divs[2].string)
+        dd.datetime = sc.find(r'.*?(\d+\.\d+\.\d{2})', divs[2].string)
         if sc.find(r'.*(quarantena)', divs[1].string):
             dd.quarantined = divs[0].string
         if sc.find(r'.*(isolamento)', divs[1].string):
