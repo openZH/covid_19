@@ -25,19 +25,17 @@ try:
     c.execute(
         '''
         CREATE TABLE IF NOT EXISTS data (
-            DistrictId integer NOT NULL,
-            District text NOT NULL,
-            Canton text NOT NULL,
-            Date text NOT NULL,
-            Week text NOT NULL,
-            Year text NOT NULL,
-            Population integer,
-            TotalConfCases integer,
-            NewConfCases integer,
-            TotalDeaths integer,
-            NewDeaths integer,
-            SourceUrl text,
-            UNIQUE(DistrictId, District, Canton, Date, Week, Year)
+            canton text NOT NULL,
+            start_date text NOT NULL,
+            end_date text NOT NULL,
+            week text NOT NULL,
+            year text NOT NULL,
+            positive_tests integer,
+            negative_tests integer,
+            total_tests integer,
+            positivity_rate float,
+            source text,
+            UNIQUE(canton, start_date, end_date, week, year)
         )
         '''
     )

@@ -24,12 +24,11 @@ for t in soup.find_all('table', summary=re.compile(r'.*die Zahl der durchgef.hrt
                 td.week = value
                 td.year = '2020'
             elif sc.find(r'^(Durchge.*Tests)', headers[col_num]):
-                tot_tests = int(value)
+                td.total_tests = int(value)
             elif sc.find(r'^(davon.*positiv)', headers[col_num]):
                 td.positive_tests = int(value)
             elif sc.find(r'^(Positivit.ts.*)', headers[col_num]):
                 td.positivity_rate = value
 
-        if tot_tests:
-            td.negative_tests = tot_tests - td.positive_tests
+        if td:
             print(td)

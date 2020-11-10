@@ -202,6 +202,7 @@ class TestData:
         self.canton = canton
         self.positive_tests = None
         self.negative_tests = None
+        self.total_tests = None
         self.positivity_rate = None
         self.url = url
         self.__initialized = True
@@ -220,6 +221,7 @@ class TestData:
         res.append('' if self.year is None else str(self.year))
         res.append('' if self.positive_tests is None else str(self.positive_tests))
         res.append('' if self.negative_tests is None else str(self.negative_tests))
+        res.append('' if self.total_tests is None else str(self.total_tests))
         res.append('' if self.positivity_rate is None else str(self.positivity_rate))
         res.append(self.url)
         return TestData.SEPARATOR.join(res)
@@ -228,6 +230,7 @@ class TestData:
         attributes = [
             self.positive_tests,
             self.negative_tests,
+            self.total_tests,
             self.positivity_rate,
         ]
         return any(v is not None for v in attributes)
@@ -242,7 +245,7 @@ class TestData:
 
     def parse(self, data):
         items = data.split(TestData.SEPARATOR)
-        if len(items) == 9:
+        if len(items) == 10:
             self.canton = items[0]
             self.start_date = items[1]
             self.end_date = items[2]
@@ -250,14 +253,15 @@ class TestData:
             self.year = self.__get_int_item(items[4])
             self.positive_tests = self.__get_int_item(items[5])
             self.negative_tests = self.__get_int_item(items[6])
-            self.positivity_rate = self.__get_float_item(items[7])
-            self.url = items[8]
+            self.total_tests = self.__get_int_item(items[7])
+            self.positivity_rate = self.__get_float_item(items[8])
+            self.url = items[9]
             return True
         return False
 
     @staticmethod
     def header():
-        return 'Kanton,Woche_von,Woche_bis,Kalenderwoche,Jahr,Anzahl_positiv,Anzahl_negativ,Anteil_positiv,Url'
+        return 'canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source'
 
 
 spelledOutNumbersMap = {

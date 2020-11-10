@@ -4,34 +4,18 @@
 # The sqlite database is used as an intermediate step to merge new data in existing CSVs
 
 import sqlite3
-import csv
 import traceback
 import os
 import sys
+import db_common as dc
 
 
-__location__ = os.path.realpath(
-    os.path.join(
-        os.getcwd(),
-        os.path.dirname(__file__)
-    )
-)
+__location__ = dc.get_location()
 
 try:
     # load the csv to sqlite db
     assert len(sys.argv) == 2, "Call script with CSV file as parameter"
-    filename = sys.argv[1]
-    columns = []
-    with open(filename,'r') as f:
-        dr = csv.DictReader(f) 
-        if not columns:
-            columns = dr.fieldnames
-        to_db = []
-        for r in dr:
-            db_row = []
-            for col in columns:
-                db_row.append(r[col])
-            to_db.append(db_row)
+    columns, to_db = dc.load_csv(sys.argv[1])
 
     # create db
     DATABASE_NAME = os.path.join(__location__, 'data.sqlite')
@@ -64,11 +48,7 @@ try:
         c.execute(f'ALTER TABLE data ADD COLUMN {col} integer;')
 
     # add entries
-    query = 'INSERT INTO data (\n'
-    query += ",\n".join(columns)
-    query += ') VALUES ('
-    query += ",".join(['?'] * len(columns))
-    query += ');'
+    query = dc.insert_db_query(columns)
     c.executemany(query, to_db)
     conn.commit()
 except Exception as e:

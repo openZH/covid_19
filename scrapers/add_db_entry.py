@@ -5,13 +5,10 @@ import sys
 import sqlite3
 import traceback
 import os
+import db_common as dc
 
-__location__ = os.path.realpath(
-    os.path.join(
-        os.getcwd(),
-        os.path.dirname(__file__)
-    )
-)
+
+__location__ = dc.get_location()
 
 input_failures = 0
 

@@ -9,8 +9,9 @@ def test_test_data():
     dd.canton = '5'
     dd.positive_tests = 6
     dd.negative_tests = 7
-    dd.positivity_rate = 8
-    dd.url = '9'
+    dd.total_tests = 8
+    dd.positivity_rate = 9
+    dd.url = '10'
 
     string = str(dd)
 
