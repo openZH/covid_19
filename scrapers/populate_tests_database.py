@@ -34,7 +34,7 @@ try:
             negative_tests integer,
             total_tests integer,
             positivity_rate float,
-            url text,
+            source text,
             UNIQUE(canton, start_date, end_date, week, year)
         )
         '''

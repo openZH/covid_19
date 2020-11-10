@@ -36,7 +36,7 @@ try:
                       negative_tests,
                       total_tests,
                       positivity_rate,
-                      url
+                      source
                     )
                     VALUES
                     (?,?,?,?,?,?,?,?,?,?)
@@ -68,7 +68,7 @@ try:
                           negative_tests = ?,
                           total_tests = ?,
                           positivity_rate = ?,
-                          url = ?
+                          source = ?
                         WHERE canton = ?
                         AND   start_date = ?
                         AND   end_date = ?
