@@ -14,7 +14,5 @@ for row in rows:
     tot = int(row['Total Testing Pop FR'])
     pos = int(row['Total POS Pop FR'])
     td.positive_tests = pos
-    td.negative_tests = tot - pos
-    td.positivity_rate = float(pos / tot) * 100
-    td.positivity_rate = round(10 * td.positivity_rate) / 10
+    td.total_tests = tot
     print(td)
