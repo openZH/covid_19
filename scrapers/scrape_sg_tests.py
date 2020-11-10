@@ -18,7 +18,7 @@ for row in reader:
     td.end_date = row['Datum']
     td.positive_tests = int(row['Positiv'])
     td.negative_tests = int(row['Negativ'])
+    td.total_tests = int(row['Total'])
     td.positivity_rate = float(row['Positiv in % vom Total']) * 100
     td.positivity_rate = round(10 * td.positivity_rate) / 10
-    if td:
-        print(td)
+    print(td)
