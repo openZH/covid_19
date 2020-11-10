@@ -30,6 +30,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Postal codes (Postleitzahl)](https://github.com/openZH/covid_19/tree/master#canton-z%C3%BCrich-postal-codes-postleitzahl)<br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
+- [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
 
@@ -292,6 +293,31 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 | __Kalenderwoche__  | Kalenderwoche  | Calendar week |Zahl|
 | __Einreiseland__ | Aufenthaltsland vor der Einreise (Risikogebiete gemäss BAG-Liste) | Country of stay before entry (risk areas) |Text|
 | __Anzahl_Einreisende__  | Anzahl Einreisende aus Risikogebiet  | Number of people returning from risk area  |Zahl|
+
+## Canton Zurich: Intensive care occupancy
+
+**Data** <br>
+
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_zh/COVID19_Belegung_Intensivpflege.csv** <br>
+>*Description:* [opendata.swiss: COVID_19 Belegung Intensivpflege Kanton Zürich](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/706@gesundheitsdirektion-kanton-zuerich) <br>
+>*Spatial unit:* Canton Zürich <br>
+>*Format:* csv <br>
+
+**Metadata**
+
+| Fieldname           | Beschreibung (EN)                          | Format             |
+|---------------------|--------------------------------------------|--------------------|
+| __date__            | Date of notification                       | YYYY-MM-DD         |
+| __time__            | Time of notification                       | HH:MM              |
+| __abbreviation_canton_and_fl__ | Abbreviation of the reporting canton       | Text    |
+| __hospital_name__   | Full name of the hospital                  | Text               |
+| __current_icu_service_certified__ | Reported number of certified 'Intensive Care Unit' (ICU) beds on date and time  | Number      |
+| __current_icu_target_covid__ | Target number of Covid19 patients in whose treatment a hospital would currently have to participate. (Target values are defined by the Health Department Canton Zurich together with the hospitals.) | Number      |
+| __current_hosp_covid__ | Reported number of hospitalised Covid19 patients on date. (These data are communicated by the Health Department Canton Zurich on weekdays, and available here: https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) | Number      |
+| __current_icu_covid__ | Reported number of hospitalised Covid19 patients in ICU on date. | Number      |
+| __current_vent_covid__ | Reported number of hospitalised Covid19 patients requiring invasive ventilation on date. (These data are communicated by the Health Department Canton Zurich on weekdays, and available here: https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) | Number      |
+| __current_icu_not_covid__ | Reported number of hospitalised non-Covid19 patients in ICU on date. | Number      |
+| __source__ | Source URL of the data reported. | String      |
 
 # Community Contributions
 
