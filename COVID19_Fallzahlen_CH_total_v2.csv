@@ -5657,7 +5657,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-18,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,72,121
 2020-10-18,,GR,,1484,,7,2,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,243,628
 2020-10-18,,JU,,831,,39,1,,,12,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-10-18,,NE,,2077,,24,2,1,,95,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-18,,NE,,2077,,24,2,1,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-18,,NW,,267,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-18,,SG,,3263,,40,8,5,,44,https://www.sg.ch/tools/informationen-coronavirus.html,868,
 2020-10-18,,VD,,14489,,164,25,,,324,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5677,7 +5677,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-19,,GR,,1505,,8,2,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,239,710
 2020-10-19,,JU,,864,,46,0,,,13,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-19,,LU,,2160,,18,2,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,754,1281
-2020-10-19,,NE,,2269,,27,3,1,,95,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-19,,NE,,2269,,27,3,1,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-19,,NW,,276,,0,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-19,,SG,,3653,,59,7,4,,44,https://www.sg.ch/tools/informationen-coronavirus.html,949,
 2020-10-19,,VD,,15064,,178,23,,,324,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5705,7 +5705,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-20,,GR,,1541,,8,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,254,739
 2020-10-20,,JU,,932,,47,1,,,14,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-20,,LU,,2324,,25,3,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,913,1337
-2020-10-20,,NE,,2433,,37,4,0,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-20,,NE,,2433,,37,4,0,,97,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-20,,NW,,287,,3,1,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-20,,SG,,3998,,62,8,4,,44,https://www.sg.ch/tools/informationen-coronavirus.html,1026,
 2020-10-20,,VD,,15755,,190,24,,,326,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5732,7 +5732,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-21,,GR,,1602,,9,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,282,653
 2020-10-21,,JU,,1013,,51,2,,,15,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-21,,LU,,2489,,26,4,,,24,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1023,1053
-2020-10-21,,NE,,2643,,37,4,3,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-21,,NE,,2643,,37,4,3,,97,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-21,,NW,,303,,4,1,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-21,,SG,,4389,,71,11,4,,45,https://www.sg.ch/tools/informationen-coronavirus.html,1064,
 2020-10-21,,VD,,16538,,199,23,,,326,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5759,7 +5759,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-22,,GR,,1694,,13,3,3,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,329,757
 2020-10-22,,JU,,1078,,57,2,,,17,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-22,,LU,,2670,,31,4,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1146,995
-2020-10-22,,NE,,2833,,51,5,4,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-22,,NE,,2833,,51,5,4,,97,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-22,,NW,,319,,3,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-22,,SG,,4728,,90,11,6,,45,https://www.sg.ch/tools/informationen-coronavirus.html,1128,
 2020-10-22,,VD,,17360,,218,24,,,329,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5785,7 +5785,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-23,,GR,,1779,,14,3,3,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,375,881
 2020-10-23,,JU,,1149,,62,2,,,18,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-23,,LU,,2854,,37,5,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1240,911
-2020-10-23,,NE,,3052,,57,7,4,,96,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-23,,NE,,3052,,57,7,4,,97,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-23,,NW,,335,,6,0,,,4,http://www.nw.ch/coronastatistik,,
 2020-10-23,,SG,,5132,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,1227,
 2020-10-23,,VD,,18376,,231,23,,,331,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5811,7 +5811,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-24,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,83,222
 2020-10-24,,GR,,1869,,12,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,433,974
 2020-10-24,,JU,,1248,,66,2,,,19,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-10-24,,NE,,3174,,60,8,4,,98,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-24,,NE,,3174,,60,8,4,,99,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-24,,NW,,357,,6,0,,,4,http://www.nw.ch/coronastatistik,87,188
 2020-10-24,,SG,,5272,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-24,,VD,,18984,,238,28,,,335,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5832,7 +5832,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-25,,GL,4445,,,,0,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,86,175
 2020-10-25,,GR,,1917,,17,4,4,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,442,1077
 2020-10-25,,JU,,1382,,70,3,,,19,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-10-25,,NE,,3261,,68,8,4,,99,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-25,,NE,,3261,,68,8,4,,100,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-25,,NW,,361,,6,0,,,4,http://www.nw.ch/coronastatistik,93,200
 2020-10-25,,SG,,5334,,110,12,6,,48,https://www.sg.ch/tools/informationen-coronavirus.html,1364,
 2020-10-25,,VD,,19533,,259,30,,,338,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5853,7 +5853,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-26,,GR,,2006,,27,5,5,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,461,1043
 2020-10-26,,JU,,1477,,75,4,,,21,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-26,,LU,,3420,,52,7,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1498,565
-2020-10-26,,NE,,3541,,67,12,9,,99,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-26,,NE,,3545,,67,12,9,,100,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-26,,NW,,375,,6,0,,,4,http://www.nw.ch/coronastatistik,92,200
 2020-10-26,,SG,,6030,,114,15,8,,50,https://www.sg.ch/tools/informationen-coronavirus.html,1446,
 2020-10-26,,VD,,20789,,302,36,,,338,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5880,7 +5880,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-27,,GR,,2104,,32,6,6,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,521,986
 2020-10-27,,JU,,1530,,74,6,,,24,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-27,,LU,,3664,,59,7,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1650,457
-2020-10-27,,NE,,3956,,77,13,5,,101,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-27,,NE,,3960,,77,13,5,,102,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-27,,NW,,393,,6,1,,,4,http://www.nw.ch/coronastatistik,92,202
 2020-10-27,,SG,,6560,,129,16,13,,55,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-27,,VD,,22085,,323,41,,,341,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5906,7 +5906,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-28,,GR,,2204,,36,6,6,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,571,1136
 2020-10-28,,JU,,1614,,75,7,,,28,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-28,,LU,,3965,,65,7,,,25,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Coronavirus,1884,383
-2020-10-28,,NE,,4236,,86,14,7,,102,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-28,,NE,,4240,,86,14,7,,103,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-28,,NW,,405,,6,1,,,4,http://www.nw.ch/coronastatistik,101,251
 2020-10-28,,SG,,7006,,133,16,11,,59,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-28,,VD,,23373,,346,42,,,341,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5932,7 +5932,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-29,,GL,,428,,7,1,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,110,240
 2020-10-29,,GR,,2307,,38,6,6,,51,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,615,1329
 2020-10-29,,JU,,1747,,80,6,,,31,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-10-29,,NE,,4607,,74,12,5,,103,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-29,,NE,,4611,,74,12,5,,104,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-29,,NW,,429,,6,2,,,4,http://www.nw.ch/coronastatistik,101,251
 2020-10-29,,SG,,7473,,136,18,15,,63,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-29,,VD,,24652,,368,49,,,344,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5958,7 +5958,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-30,,GR,,2440,,33,5,4,,52,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,635,1087
 2020-10-30,,JU,,1863,,83,5,,,32,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-10-30,,LU,,4561,,65,11,,,33,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2324,181
-2020-10-30,,NE,,4883,,91,14,6,,104,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-30,,NE,,4889,,91,14,6,,105,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-30,,NW,,462,,7,2,,,4,http://www.nw.ch/coronastatistik,114,266
 2020-10-30,,SG,,7957,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-30,,VD,,25813,,386,50,,,348,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -5984,7 +5984,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-31,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,138,247
 2020-10-31,,GR,,2465,,34,6,5,,53,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,543,1147
 2020-10-31,,JU,,1986,,81,5,,,36,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-10-31,,NE,,5100,,97,14,7,,107,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-10-31,,NE,,5106,,97,14,7,,108,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-10-31,,NW,,473,,7,2,,,4,http://www.nw.ch/coronastatistik,105,274
 2020-10-31,,SG,,8125,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-10-31,,VD,,26678,,419,51,,,353,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6004,7 +6004,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-01,,GL,5034,,,,1,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,147,251
 2020-11-01,,GR,,2498,,33,6,5,,53,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,508,1150
 2020-11-01,,JU,,2130,,94,6,,,36,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-11-01,,NE,,5225,,102,16,9,,108,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-01,,NE,,5231,,102,16,9,,109,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-01,,NW,,504,,8,2,,,4,http://www.nw.ch/coronastatistik,119,276
 2020-11-01,,SG,,8218,,152,20,16,,73,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-01,,VD,,27498,,443,53,,,359,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6025,7 +6025,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-02,,GR,,2604,,38,9,8,,54,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,538,968
 2020-11-02,,JU,,2221,,95,6,,,37,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-02,,LU,,5355,,100,13,,,39,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2200,1059
-2020-11-02,,NE,,5554,,105,17,8,,111,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-02,,NE,,5561,,105,17,8,,112,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-02,,NW,,518,,11,2,,,4,http://www.nw.ch/coronastatistik,125,300
 2020-11-02,,SG,,8912,,184,24,20,,76,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-02,,SO,42009,,,,,,,,https://corona.so.ch/fileadmin/internet/staatskanzlei/stk-komm/Dokumente/2020/Corona/Neue_Webseite/Fallzahlen/2020_1102_Woechentlicher_Situationsbericht.pdf,1192,1177
@@ -6052,7 +6052,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-03,,GR,,2739,,37,9,8,,57,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,568,967
 2020-11-03,,JU,,2396,,95,6,,,37,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-03,,LU,,5669,,100,13,,,40,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2400,1068
-2020-11-03,,NE,,5836,,110,17,10,,113,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-03,,NE,,5843,,110,17,10,,114,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-03,,NW,,539,,11,3,,,4,http://www.nw.ch/coronastatistik,133,313
 2020-11-03,,SG,,9428,,194,23,17,,85,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-03,,VD,,30461,,469,67,,,366,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6079,7 +6079,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-04,,GR,,2867,,50,9,9,,57,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,609,918
 2020-11-04,,JU,,2604,,81,7,,,40,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-04,,LU,,5993,,94,15,,,42,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2600,1526
-2020-11-04,,NE,,6143,,120,18,11,,120,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-04,,NE,,6194,,120,18,11,,121,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-04,,NW,,585,,11,2,,,4,http://www.nw.ch/coronastatistik,140,335
 2020-11-04,,SG,,9880,,192,27,20,,91,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-04,,VD,,31835,,471,66,,,375,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6106,7 +6106,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-05,,GR,,2967,,45,10,8,,59,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,615,837
 2020-11-05,,JU,,2667,,83,7,,,41,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-05,,LU,,6270,,99,15,,,44,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2702,1520
-2020-11-05,,NE,,6458,,125,20,10,,123,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-05,,NE,,6509,,125,20,10,,124,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-05,,NW,,603,,12,3,,,5,http://www.nw.ch/coronastatistik,169,342
 2020-11-05,,SG,,10201,,195,26,22,,98,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-05,,VD,,33068,,484,74,,,380,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6132,7 +6132,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-06,,GL,,623,,15,,,,15,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
 2020-11-06,,GR,,3106,,47,10,8,,61,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,660,848
 2020-11-06,,JU,,2777,,74,7,,,41,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-11-06,,NE,,6723,,123,19,12,,126,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-06,,NE,,6781,,123,19,12,,127,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-06,,NW,,629,,11,3,,,6,http://www.nw.ch/coronastatistik,170,367
 2020-11-06,,SG,,10659,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-06,,VD,,33998,,483,72,,,387,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6157,7 +6157,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-07,,GE,,28210,,554,23,,,363,https://www.ge.ch/document/21502/telecharger,8896,8053
 2020-11-07,,GR,,3207,,49,8,8,,61,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,636,812
 2020-11-07,,JU,,2811,,73,7,,,41,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-11-07,,NE,,6829,,123,18,13,,128,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-07,,NE,,6964,,123,18,13,,129,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-07,,NW,,657,,11,3,,,6,http://www.nw.ch/coronastatistik,164,370
 2020-11-07,,SG,,10775,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-07,,VD,,34069,,488,76,,,389,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6176,7 +6176,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-08,,GR,,3287,,50,8,8,,62,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,609,835
 2020-11-08,,JU,,2900,,71,7,,,44,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-08,,LU,,6784,,98,14,,,49,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2319,1000
-2020-11-08,,NE,,6876,,136,19,14,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
+2020-11-08,,NE,,7055,,136,19,14,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-08,,NW,,668,,12,2,,,6,http://www.nw.ch/coronastatistik,163,369
 2020-11-08,,SG,,10827,,204,27,22,,117,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-11-08,,VD,,34718,,497,76,,,394,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,
@@ -6196,12 +6196,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-09,,GR,,3339,,54,8,8,,65,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,569,988
 2020-11-09,,JU,,2968,,72,8,,,45,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
 2020-11-09,,LU,,6945,,92,15,,,51,https://gesundheit.lu.ch/themen/Humanmedizin/Infektionskrankheiten/Informationen_Coronavirus/Zahlen_Kanton_Okt_20,2155,1100
+2020-11-09,,NE,,7137,,140,19,13,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-11-09,,NW,,680,,12,2,,,7,http://www.nw.ch/coronastatistik,168,379
 2020-11-09,,TI,,10389,,290,23,18,1088,401,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2020-11-09,,VS,,17817,,333,33,24,,299,https://www.vs.ch/documents/6756452/7008787/2020 11 09 - Sit Epid - État Stand,,
 2020-11-09,00:00,OW,,588,,11,,,,6,https://www.ow.ch/dl.php/de/5fa9012fcddd8/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,
 2020-11-09,00:00,SH,,1025,,16,2,,,13,https://sh.ch/CMS/get/file/15c8a091-85c5-45a4-8a6d-93f71b92dfb8,316,501
-2020-11-09,01:00,SO,,3813,,59,12,,,30,https://corona.so.ch/,,
+2020-11-09,01:00,SO,,3813,,59,12,,,30,https://corona.so.ch/index.php?id=27979,,
 2020-11-09,08:00,BE,,19581,,398,53,41,,177,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,
 2020-11-09,08:00,ZG,,2276,,31,5,,1787,13,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-11-09,09:00,SZ,,3958,,,,,2879,66,https://www.sz.ch/public/upload/assets/49564/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
@@ -6211,6 +6212,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-09,12:00,AI,,436,,9,,,,7,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,,
 2020-11-09,14:30,ZH,,30181,,359,69,46,,226,https://www.zh.ch/de/gesundheit/coronavirus.html,8473,
 2020-11-09,16:00,UR,,589,,6,,,387,9,https://www.ur.ch/themen/2962,,220
+2020-11-10,01:00,SO,,3902,,,11,,,35,https://corona.so.ch/,,
 2020-11-10,08:00,ZG,,2313,,29,5,,1821,14,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,
 2020-11-10,09:00,SZ,,3982,,,,,2995,68,https://www.sz.ch/public/upload/assets/49564/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,
 2020-11-10,09:30,SH,,1056,,17,2,,,13,https://sh.ch/CMS/get/file/c2ce66b0-7d42-4a7f-960f-c791d488eb47,317,484
