@@ -261,7 +261,7 @@ class TestData:
 
     @staticmethod
     def header():
-        return 'canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,url'
+        return 'canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source'
 
 
 spelledOutNumbersMap = {
