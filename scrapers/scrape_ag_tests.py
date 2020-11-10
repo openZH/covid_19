@@ -14,6 +14,7 @@ for row in rows:
     td.year = '2020'
     td.positive_tests = int(row['Positive Tests'])
     td.negative_tests = int(row['Negative Tests'])
+    td.total_tests = int(row['Anzahl Tests'])
     td.positivity_rate = float(row['Positivitätsrate'])
     if td:
         print(td)
