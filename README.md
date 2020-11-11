@@ -6,9 +6,10 @@
 
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
-> __Kanton ZH - Korrektur Fallzahlen__ : Von einem Labor erfolgten aufgrund eines IT-Problems während neun Tagen keine Meldungen zu den positiv Getesteten. Die Fälle wurden am 4.11.2020 rückwirkend erfasst. Auf die Fallzahlen vom 4.11. 2020 hat dies keinen Einfluss.
 
-> __Canton Zurich - Correction of case numbers__ : Due to an IT problem, one laboratory did not report any positive test results for nine days. The cases were recorded retroactively on the 4.11.2020. This has no effect on the number of cases on 4.11.2020.
+> __Kanton ZH - Korrektur Fallzahlen__ : Aufgrund eines technischen Fehlers wurden 331 Fälle im Zeitraum vom 25.10.-06.11.2020 nicht in den Daten erfasst. Die Daten wurden mittlerweile rückwirkend korrigiert.
+
+> __Canton Zurich - Correction of case numbers__ : Due to a technical error, 331 cases were not recorded in the data in the period from October 25 to November 6. The data have now been corrected retroactively.
 
 ## Aim
 
