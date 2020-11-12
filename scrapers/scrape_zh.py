@@ -54,14 +54,14 @@ print(dd_iso_q)
 <h4 class="atm-heading" id="1257767479">2765<br /> </h4>
 <p class="atm-paragraph">davon derzeit in Quarantäne</p>
 """
+# since 2020-11-12 the risk area travel information is missing
+#dd_travel_q = sc.DayData(canton='ZH', url=url)
+#txt = soup.find(string=re.compile(r'Lage Einreisequarantäne')).find_next('p').text
+#dd_travel_q.datetime = sc.find('zuletzt am (.*)\)', txt)
+#dd_travel_q.quarantine_riskareatravel = soup.find(string=re.compile(r'Aktuell in Quarantäne')).find_previous('h4').text
 
-dd_travel_q = sc.DayData(canton='ZH', url=url)
-txt = soup.find(string=re.compile(r'Lage Einreisequarantäne')).find_next('p').text
-dd_travel_q.datetime = sc.find('zuletzt am (.*)\)', txt)
-dd_travel_q.quarantine_riskareatravel = soup.find(string=re.compile(r'Aktuell in Quarantäne')).find_previous('h4').text
-
-print('-' * 10)
-print(dd_travel_q)
+#print('-' * 10)
+#print(dd_travel_q)
 
 
 csv_url = 'https://raw.githubusercontent.com/openzh/covid_19/master/fallzahlen_kanton_zh/COVID19_Fallzahlen_Kanton_ZH_total.csv'
