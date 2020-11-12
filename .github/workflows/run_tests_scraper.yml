@@ -18,6 +18,7 @@ jobs:
           - BS
           - FR
           - SG
+          - SO
           - ZH
 
     steps:
