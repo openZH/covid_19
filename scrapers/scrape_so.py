@@ -4,19 +4,11 @@
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
-
-
-def strip_value(value):
-    return value.replace('\'', '')
+import scrape_so_common as soc
 
 
 base_url = 'https://corona.so.ch'
-url = f'{base_url}/bevoelkerung/daten/woechentlicher-situationsbericht/'
-d = sc.download(url, silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-pdf_url = soup.find(href=re.compile(r'\.pdf$')).get('href')
-pdf_url = f'{base_url}{pdf_url}'
-
+pdf_url = soc.get_latest_weekly_pdf_url()
 content = sc.pdfdownload(pdf_url, layout=True, silent=True, page=1)
 
 """
@@ -33,9 +25,9 @@ if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
     data.datetime = date
     data.tested = number_of_tests
-    data.isolated = strip_value(res[1])
-    data.quarantined = strip_value(res[2])
-    data.quarantine_riskareatravel = strip_value(res[3])
+    data.isolated = soc.strip_value(res[1])
+    data.quarantined = soc.strip_value(res[2])
+    data.quarantine_riskareatravel = soc.strip_value(res[3])
     rows.append(data)
 
 
