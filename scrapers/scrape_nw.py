@@ -10,7 +10,8 @@ content = sc.download(url, silent=True)
 content = content.replace("&nbsp;", " ")
 soup = BeautifulSoup(content, 'html.parser')
 
-item = soup.find(text=re.compile('Anzahl F.lle')).find_parent('h3')
+item = soup.find(text=re.compile('Anzahl F.lle')).find_parent('h4')
+assert item, f"Could not find title item in {url}"
 
 dd = sc.DayData(canton='NW', url=url)
 dd.datetime = sc.find(r'Stand: (\d+\. .* 20\d{2})', item.text)
