@@ -7,7 +7,7 @@ import scrape_ag_common as sac
 xls_url = sac.get_ag_xls_url()
 xls = sc.xlsdownload(xls_url, silent=True)
 
-rows = sc.parse_xls(xls, sheet_name='1.3 Tests', header_row=1, enable_float=True)
+rows = sc.parse_xls(xls, sheet_name='1.3 Labortests', header_row=1, enable_float=True)
 for row in rows:
     td = sc.TestData(canton='AG', url=xls_url)
     td.week = int(row['Kalenderwoche'])
