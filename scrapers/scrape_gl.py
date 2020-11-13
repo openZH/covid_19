@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import csv
 from io import StringIO
 import scrape_common as sc
+import scrape_gl_common as sgc
 
 def split_whitespace(text):
     if not text:
@@ -14,11 +15,8 @@ def split_whitespace(text):
     text = re.sub(r'\s\s+', ' ', text)
     return text.split(' ')
 
-d = sc.download('https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817', silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-
 # weekly pdf
-pdf_url = soup.find(href=re.compile(r'Sentinella.*\.pdf$')).get('href')
+pdf_url = sgc.get_gl_pdf_url()
 pdf = sc.download_content(pdf_url, silent=True)
 content = sc.pdftotext(pdf, page=1)
 pdf_date = sc.find(r'Stand: (\d{2}\.\d{2}.\d{4})', content)
