@@ -55,6 +55,8 @@ if data_table:
                 data.deaths = cell.string.strip()
             elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
                 data.hospitalized = cell.string.strip()
+            elif headers[col_num] == 'Von Covid-19 Patienten belegte IPS-Betten':
+                data.icu = cell.string.strip()
             col_num += 1
         if data and tmp_date and tmp_time and not tmp_date.startswith('bis '):
             data.datetime = f"{tmp_date} {tmp_time}".strip()
