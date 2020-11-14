@@ -20,6 +20,7 @@ jobs:
           - GL
           - SG
           - SO
+          - TI
           - ZH
 
     steps:
