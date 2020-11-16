@@ -3,6 +3,7 @@
   "title": "SARS-CoV-2 data reported by the Swiss Cantons and the Principality of Liechtenstein",
   "format": "csv",
   "datapackage_version": "1.0.0",
+  "version": "2.0.0",
   "licenses": [{
     "name": "CC-BY-4.0",
     "path": "https://creativecommons.org/licenses/by/4.0/",
