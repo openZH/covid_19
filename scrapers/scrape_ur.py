@@ -69,7 +69,7 @@ assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
 assert headers[0].text.strip() == "Aktive Fälle"
-assert headers[1].text == "Positiv getestete Erkrankungsfälle total"
+assert headers[1].text == "Positiv getestete Erkrankungsfälle total seit März 2020"
 assert headers[2].text == "Hospitalisiert"
 assert headers[3].text == "Quarantäne"
 assert headers[4].text == "total Verstorbene"
