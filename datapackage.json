@@ -1,0 +1,210 @@
+{
+  "name": "covid-19-canton-data",
+  "title": "SARS-CoV-2 data reported by the Swiss Cantons and the Principality of Liechtenstein",
+  "format": "csv",
+  "datapackage_version": "1.0.0",
+  "licenses": [{
+    "name": "CC-BY-4.0",
+    "path": "https://creativecommons.org/licenses/by/4.0/",
+    "title": "Creative Commons Attribution 4.0"
+  }],
+  "homepage": "https://github.com/openZH/covid_19",
+  "sources": [
+    {
+      "name": "Kanton Aargau",
+      "web": "https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp"
+    },
+    {
+      "name": "Kanton Appenzell Innerrhoden",
+      "web": "https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus"
+    },
+    {
+      "name": "Kanton Appenzell Ausserrhoden",
+      "web": "https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/"
+    },
+    {
+      "name": "Kanton Bern",
+      "web": "https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html"
+    },
+    {
+      "name": "Kanton Basel-Landschaft",
+      "web": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft"
+    },
+    {
+      "name": "Kanton Basel-Stadt",
+      "web": "https://www.gesundheit.bs.ch"
+    },
+    {
+      "name": "Kanton Freiburg",
+      "web": "https://www.fr.ch/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton"
+    },
+    {
+      "name": "Kanton Genf",
+      "web": "https://www.ge.ch/document/covid-19-donnees-completes-debut-pandemie"
+    },
+    {
+      "name": "Kanton Glarus",
+      "web": "https://www.gl.ch/verwaltung/finanzen-und-gesundheit/gesundheit/coronavirus.html/4817#Fallzahlen"
+    },
+    {
+      "name": "Kanton Graubünden",
+      "web": "https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx"
+    },
+    {
+      "name": "Kanton Jura",
+      "web": "https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html"
+    },
+    {
+      "name": "Kanton Luzern",
+      "web": "https://www.lustat.ch/analysen/gesundheit/corona-reporting/hospitalisationen"
+    },
+    {
+      "name": "Kanton Neuenburg",
+      "web": "https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Pages/Covid-19-statistiques.aspx"
+    },
+    {
+      "name": "Kanton Nidwalden",
+      "web": "http://www.nw.ch/coronastatistik"
+    },
+    {
+      "name": "Kanton Obwalden",
+      "web": "http://www.ow.ch/coronavirus"
+    },
+    {
+      "name": "Kanton St. Gallen",
+      "web": "https://www.sg.ch/tools/informationen-coronavirus.html"
+    },
+    {
+      "name": "Kanton Schaffhausen",
+      "web": "https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html"
+    },
+    {
+      "name": "Kanton Solothurn",
+      "web": "https://corona.so.ch/"
+    },
+    {
+      "name": "Kanton Schwyz",
+      "web": "https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948"
+    },
+    {
+      "name": "Kanton Thurgau",
+      "web": "https://opendata.swiss/de/dataset/covid_19-fallzahlen-kanton-thurgau"
+    },
+    {
+      "name": "Kanton Tessin",
+      "web": "https://www4.ti.ch/dss/dsp/covid19/home/"
+    },
+    {
+      "name": "Kanton Uri",
+      "web": "https://www.ur.ch/themen/2962"
+    },
+    {
+      "name": "Kanton Waadt",
+      "web": "https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/"
+    },
+    {
+      "name": "Kanton Wallis",
+      "web": "https://www.vs.ch/de/web/coronavirus/statistiques"
+    },
+    {
+      "name": "Kanton Zug",
+      "web": "https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona"
+    },
+    {
+      "name": "Kanton Zürich",
+      "web": "https://www.zh.ch/de/gesundheit/coronavirus.html#-1310230111"
+    },
+    {
+      "name": "Fürstentum Liechtenstein",
+      "web": "https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "covid19_case_numbers",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "path": "COVID19_Fallzahlen_CH_total_v2.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "Date of notification"
+          },
+          {
+            "name": "time",
+            "type": "time",
+            "description": "Time of notification"
+          },
+          {
+            "name": "abbreviation_canton_and_fl",
+            "type": "string",
+            "description": "Abbreviation of the reporting canton"
+          },
+          {
+            "name": "ncumul_tested",
+            "type": "integer",
+            "description": "Reported number of tests performed as of date"
+          },
+          {
+            "name": "ncumul_conf",
+            "type": "integer",
+            "description": "Reported number of confirmed cases as of date"
+          },
+          {
+            "name": "new_hosp",
+            "type": "integer",
+            "description": "New hospitalisations since last date"
+          },
+          {
+            "name": "current_hosp",
+            "type": "integer",
+            "description": "Reported number of hospitalised patients on date"
+          },
+          {
+            "name": "current_icu",
+            "type": "integer",
+            "description": "Reported number of hospitalised patients in ICUs on date"
+          },
+          {
+            "name": "current_vent",
+            "type": "integer",
+            "description": "Reported number of patients requiring invasive ventilation on date"
+          },
+          {
+            "name": "ncumul_released",
+            "type": "integer",
+            "description": "Reported number of patients released from hospitals or reported recovered as of date"
+          },
+          {
+            "name": "ncumul_deceased",
+            "type": "integer",
+            "description": "Reported number of deceased as of date"
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Source of the information"
+          },
+          {
+            "name": "current_isolated",
+            "type": "integer",
+            "description": "Reported number of isolated persons on date; Infected persons, who are not hospitalised"
+          },
+          {
+            "name": "current_quarantined",
+            "type": "integer",
+            "description": "Reported number of quarantined persons on date; Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves"
+          },
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
