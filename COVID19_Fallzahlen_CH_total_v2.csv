@@ -41,7 +41,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-27,,GE,630,1,,1,0,0,,0,https://www.ge.ch/document/21502/telecharger,2,0
 2020-02-27,,GR,,2,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-02-27,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-02-27,,LU,,1,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-02-27,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2020-02-27,08:00,AG,,1,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,
 2020-02-27,14:30,ZH,,2,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,
@@ -51,7 +50,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-28,,GE,840,4,0,2,0,0,,0,https://www.ge.ch/document/21502/telecharger,2,0
 2020-02-28,,GR,,6,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-02-28,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-02-28,,LU,,1,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-02-28,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2020-02-28,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,
 2020-02-28,,VS,,1,6,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,
@@ -63,7 +61,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-29,,GE,981,8,2,3,0,0,,0,https://www.ge.ch/document/21502/telecharger,2,0
 2020-02-29,,GR,,6,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-02-29,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-02-29,,LU,,2,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-02-29,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2020-02-29,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,
 2020-02-29,,VS,,1,0,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,
@@ -78,7 +75,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-01,,GE,1083,9,0,3,0,0,,0,https://www.ge.ch/document/21502/telecharger,2,0
 2020-03-01,,GR,,6,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-03-01,,JU,,1,,1,0,,,0,https://www.jura.ch/Htdocs/Files/v/35458.xlsx/Departements/CHA/SIC/Carrousel/Coronavirus/Cornavirus/Chiffres/donnees_30_09.xlsx?download=1,,
-2020-03-01,,LU,,3,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-03-01,,NE,,1,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-03-01,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2020-03-01,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,
@@ -94,7 +90,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-02,,GE,1171,10,0,3,0,0,,0,https://www.ge.ch/document/21502/telecharger,2,1
 2020-03-02,,GR,,9,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-03-02,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-03-02,,LU,,4,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-03-02,,NE,,1,,1,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-03-02,,SG,,1,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-03-02,,TI,,4,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
@@ -110,7 +105,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-03,,GE,1278,13,0,4,0,0,,0,https://www.ge.ch/document/21502/telecharger,4,1
 2020-03-03,,GR,,9,,0,0,0,,0,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0
 2020-03-03,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,
-2020-03-03,,LU,,4,,,,,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/entwicklungen-seit-maerz-2020,,
 2020-03-03,,NE,,1,,1,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,
 2020-03-03,,SG,,1,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,
 2020-03-03,,SZ,1,1,,,,,,,https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf,,
