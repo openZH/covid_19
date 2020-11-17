@@ -57,22 +57,7 @@ for row in rows:
         dd.hospitalized = int(non_icu) + int(icu)
         dd.icu = icu
     dd.deaths = row['Gesamtzahl14']
-    dd.recovered = row['Gesamtzahl17']
-
-    # TODO: remove if source is fixed
-    ignore_dates = [
-        '2020-05-11',
-        '2020-05-12',
-        '2020-05-13',
-        '2020-05-15',
-        '2020-06-04',
-        '2020-06-08',
-        '2020-06-19',
-        '2020-07-07',
-        '2020-10-12',
-    ]
-    if row['A'].date().isoformat() in ignore_dates:
-        dd.recovered = ''
+    dd.recovered = row['Gesamtzahl18']
 
     if dd:
         if not is_first:
