@@ -78,9 +78,11 @@ for i, row in enumerate(rows):
     dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
     dd.deaths = row['Cumul décès COVID-19 ']
-    dd.isolated = row['Nombre de personnes en isolement ce jour']
-    dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
-    dd.quarantine_riskareatravel = row['Nombre de personnes en quarantaine ce jour suite à un retour de voyage']
+
+    # Since 2020-11-17 GE does no longer publish data about isolated and quarantined
+    #dd.isolated = row['Nombre de personnes en isolement ce jour']
+    #dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
+    #dd.quarantine_riskareatravel = row['Nombre de personnes en quarantaine ce jour suite à un retour de voyage']
 
     # Since 2020-07-01 new_hosp is no longer provided
     #dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
