@@ -23,6 +23,7 @@ jobs:
           - SG
           - SO
           - TI
+          - VS
           - ZH
 
     steps:

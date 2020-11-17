@@ -1,25 +1,16 @@
 #!/usr/bin/env python
 
 import re
-import sys
-
-from bs4 import BeautifulSoup
 
 import scrape_common as sc
+import scrape_vs_common as svc
 
 # get the latest weekly PDF
-base_url = 'https://www.vs.ch'
-url = base_url + '/de/web/coronavirus/statistiques'
-content = sc.download(url, silent=True)
-soup = BeautifulSoup(content, 'html.parser')
-link = soup.find(href=re.compile(r'Synthese.*Woche'))
+url = svc.get_vs_latest_weekly_pdf_url()
 
 # fetch the PDF
-url = base_url + link['href'].replace(' ', '%20')
 pdf = sc.download_content(url, silent=True)
-content = sc.pdftotext(pdf, page=1)
-week = sc.find(r'Epidemiologische Situation Woche (\d+)', content)
-year = sc.find(r'\d+\.\d+\.(\d{4})', content)
+week, year = svc.get_vs_weekly_general_data(pdf)
 
 # last page contains the district data
 page = int(sc.pdfinfo(pdf))
