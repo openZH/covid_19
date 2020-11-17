@@ -8,13 +8,20 @@ import scrape_common as sc
 
 
 def get_vs_latest_weekly_pdf_url():
+    return get_vs_weekly_pdf_urls()[0]
+
+
+def get_vs_weekly_pdf_urls():
     base_url = 'https://www.vs.ch'
     url = base_url + '/de/web/coronavirus/statistiques'
     content = sc.download(url, silent=True)
     soup = BeautifulSoup(content, 'html.parser')
-    link = soup.find(href=re.compile(r'Synthese.*Woche'))
-    url = base_url + link['href'].replace(' ', '%20')
-    return url
+    links = soup.find_all(href=re.compile(r'Synthese.*Woche'))
+    result = []
+    for link in links:
+        url = base_url + link['href'].replace(' ', '%20')
+        result.append(url)
+    return result
 
 
 def get_vs_weekly_general_data(pdf):
