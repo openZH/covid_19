@@ -61,7 +61,11 @@ jobs:
       env:
         SCRAPER_KEY: ${{ matrix.canton }}
       run: |
-        echo "commit_msg=Update fallzahlen_kanton_${SCRAPER_KEY}_tests.csv from scraper" >> $GITHUB_ENV
+        if [ "$SCRAPER_KEY" = "FL" ] ; then
+          echo "commit_msg=Update fallzahlen_${SCRAPER_KEY}_tests.csv from scraper" >> $GITHUB_ENV
+        else
+          echo "commit_msg=Update fallzahlen_kanton_${SCRAPER_KEY}_tests.csv from scraper" >> $GITHUB_ENV
+        fi
         
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
