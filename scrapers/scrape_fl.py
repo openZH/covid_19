@@ -28,6 +28,14 @@ if pdf_url:
     if re.search('Alle\s+weiteren\s+Erkrankten\s+sind\s+in\s+der\s+Zwischenzeit\s+genesen', d):
         dd.recovered = int(dd.cases) - int(dd.deaths)
 
+    m = re.search(r'(\S+)\s+Erkrankte\s+sind\s+derzeit\s+hospitalisiert', d)
+    if m:
+        dd.hospitalized = sc.int_or_word(m[1].lower())
+
+    m = re.search(r'Gegenwärtig\s+befinden\s+sich\s+(\d+)\s+enge\s+Kontaktpersonen\s+in\s+Quarantäne.', d)
+    if m:
+        dd.quarantined = m[1]
+
     if dd:
         print(dd)
         is_first = False
