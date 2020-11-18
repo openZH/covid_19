@@ -73,6 +73,7 @@ This data is generated and validated daily using manual and automated procedures
 | __source__              | Source of the information                  | href       | |
 | __current_isolated__       | Reported number of isolated persons on date          | Number       | Infected persons, who are not hospitalised |
 | __current_quarantined__    | Reported number of quarantined persons on date       | Number       | Persons, who were in 'close contact' with an infected person, while that person was infectious, and are not hospitalised themselves |
+| __current_quarantined_riskareatravel__    | Reported number of quarantined persons on date       | Number       | People arriving in Switzerland from [certain countries and areas](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende/quarantaene-einreisende.html), who are required to go into quarantine.  |
 
 **Empty values vs. 0**
 
