@@ -7,7 +7,7 @@ on:
 
 jobs:
   run_scraper:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     continue-on-error: false
     timeout-minutes: 10
     strategy:
@@ -133,7 +133,7 @@ jobs:
   merge_csvs:
     needs: run_scraper
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     timeout-minutes: 10
 
     steps:
@@ -172,7 +172,7 @@ jobs:
   update_screenshot:
     needs: merge_csvs
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     timeout-minutes: 10
 
     steps:
