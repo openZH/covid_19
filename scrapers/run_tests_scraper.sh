@@ -19,9 +19,14 @@ if [ -z $SCRAPER_KEY ] ; then
   exit 1
 fi
 
+area="kanton_${SCRAPER_KEY}"
+if [ "$SCRAPER_KEY" = "FL" ] ; then
+   area="${SCRAPER_KEY}"
+fi
+
 # 1. populate the database with the current CSV
-echo "Populating database from CSV fallzahlen_kanton_${SCRAPER_KEY}_tests..."
-$DIR/populate_tests_database.py $DIR/../fallzahlen_tests/fallzahlen_kanton_${SCRAPER_KEY}_tests.csv
+echo "Populating database from CSV fallzahlen_${area}_tests..."
+$DIR/populate_tests_database.py $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
 
 # 2. run the scraper, update the db
 echo "Run the tests scraper..."
@@ -30,5 +35,5 @@ $scrape_script | $DIR/add_tests_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, start_date, end_date, week, year asc;" > $DIR/../fallzahlen_tests/fallzahlen_kanton_${SCRAPER_KEY}_tests.csv
-sed -i 's/""//g' $DIR/../fallzahlen_tests/fallzahlen_kanton_${SCRAPER_KEY}_tests.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, start_date, end_date, week, year asc;" > $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
+sed -i 's/""//g' $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
