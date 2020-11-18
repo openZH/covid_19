@@ -8,6 +8,7 @@ import re
 # get latest from list with all press releases
 d = sc.download('https://www.regierung.li/coronavirus', silent=True)
 
+is_first = True
 pdf_url = sc.find(r'<a.*?href="([^"]+\.pdf)[^"]*"[^>]*?>[^<]+?Situationsbericht[^<]+?<\/a>', d)
 if pdf_url:
     # download latest PDF
@@ -27,7 +28,9 @@ if pdf_url:
     if re.search('Alle\s+weiteren\s+Erkrankten\s+sind\s+in\s+der\s+Zwischenzeit\s+genesen', d):
         dd.recovered = int(dd.cases) - int(dd.deaths)
 
-    print(dd)
+    if dd:
+        print(dd)
+        is_first = False
 else:
     print("WARNING: PDF URL not found (Situationsbericht)", file=sys.stderr)
 
@@ -49,7 +52,10 @@ for row in rows:
         dd_full_list.recovered = m[3]
         dd_full_list.hospitalized = m[4]
         dd_full_list.deaths = m[5]
-        print('-' * 10)
-        print(dd_full_list)
+        if dd_full_list:
+            if not is_first:
+                print('-' * 10)
+            is_first = False
+            print(dd_full_list)
 
 assert data_in_history_found, f"Unable to retrieve data from {history_url}"
