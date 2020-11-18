@@ -15,12 +15,13 @@ if pdf_url:
     d = sc.pdfdownload(pdf_url, raw=True, silent=True)
     # extract case numbers reported for previous days
     d = d.replace(u'\xa0', u' ')
+    d = d.replace("'", "")
 
     # data from the most recent press release
     dd = sc.DayData(canton='FL', url=pdf_url)
     dd.datetime = sc.find(r'Situationsbericht vom (.*? 20\d{2})', d)
 
-    dd.cases = sc.find(r'insgesamt\s+([0-9]+)\s+laborbestätigte\s+Fälle', d)
+    dd.cases = sc.find(r"insgesamt\s+([0-9]+)\s+laborbestätigte\s+Fälle", d)
     m = re.search(r'Bisher\s+trat(en)?\s+(\S+)\s+(Todesfall|Todesfälle)', d, flags=re.I)
     if m:
         dd.deaths = sc.int_or_word(m[2])
@@ -51,6 +52,7 @@ rows = d.splitlines()
 header = rows[2]
 assert re.search(r'^Tag,\s+Datum\s+Summe\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
 for row in rows:
+    row = row.replace("'", "")
     m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)$', row)
     if m:
         data_in_history_found = True
