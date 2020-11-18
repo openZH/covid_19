@@ -31,7 +31,6 @@ try:
               'current_isolated': r.get('current_isolated', ''),
               'current_quarantined': r.get('current_quarantined', ''),
               'current_quarantined_riskareatravel': r.get('current_quarantined_riskareatravel', ''),  # new field
-              'current_quarantined_total': r.get('current_quarantined_total', ''),  # new field
             }
             # re-add extra columns
             for col in dr.fieldnames[12:]:
