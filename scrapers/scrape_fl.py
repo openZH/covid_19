@@ -23,7 +23,7 @@ if pdf_url:
     dd.datetime = sc.find(r'Situationsbericht vom (.*? 20\d{2})', d)
 
     dd.cases = sc.find(r"insgesamt\s+([0-9]+)\s+laborbestätigte\s+Fälle", d)
-    m = re.search(r'(:?Bisher|Bislang)\s+trat(en)?\s+(\S+)\s+(Todesfall|Todesfälle)', d, flags=re.I)
+    m = re.search(r'(?:Bisher|Bislang)\s+trat(en)?\s+(\S+)\s+(Todesfall|Todesfälle)', d, flags=re.I)
     if m:
         dd.deaths = sc.int_or_word(m[2])
 
