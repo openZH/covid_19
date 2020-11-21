@@ -24,8 +24,8 @@ td.week = sc.find(r'Situation semaine épidémiologique (\d+)', content)
 td.year = sc.find(r'Du \d+.* (\d{4})', content)
 
 content = sc.pdftotext(pdf, page=2)
-td.total_tests = sc.find(r'Nombre de tests\s+(\d+)', content)
-res = re.match(r'.*Nombre de tests positifs .*\s+(\d+)\s+\((\d+\.?\d?)%\)', content, re.DOTALL | re.MULTILINE)
+td.total_tests = sc.find(r'Nombre de tests\d?\s+(\d+)', content)
+res = re.match(r'.*Nombre de tests positifs .*\s+(\d+)\s+\((\d+\.?\d?)%\s?\d?\)', content, re.DOTALL | re.MULTILINE)
 assert res, 'failed to find number of positive tests and positivity rate'
 td.positive_tests = res[1]
 td.positivity_rate = res[2]
