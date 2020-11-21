@@ -275,6 +275,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1001,Broye,FR,2020-11-18,,,32894,,58,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1001,Broye,FR,2020-11-19,,,32894,,73,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1001,Broye,FR,2020-11-20,,,32894,,8,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1001,Broye,FR,2020-11-21,,,32894,,9,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1002,Glane,FR,,37,2020,24337,,53,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1002,Glane,FR,,38,2020,24337,,30,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1002,Glane,FR,,39,2020,24337,,11,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -551,6 +552,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1002,Glane,FR,2020-11-18,,,24337,,14,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1002,Glane,FR,2020-11-19,,,24337,,20,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1002,Glane,FR,2020-11-20,,,24337,,15,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1002,Glane,FR,2020-11-21,,,24337,,7,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,,37,2020,55726,,71,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1003,Greyerz,FR,,38,2020,55726,,35,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1003,Greyerz,FR,,39,2020,55726,,14,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -560,7 +562,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1003,Greyerz,FR,,43,2020,55726,,507,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,,44,2020,55726,,870,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,,45,2020,55726,,997,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1003,Greyerz,FR,,46,2020,55726,,704,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1003,Greyerz,FR,,46,2020,55726,,703,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-02-29,,,55726,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-03-01,,,55726,,1,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-03-02,,,55726,,1,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -817,7 +819,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1003,Greyerz,FR,2020-11-08,,,55726,,66,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-09,,,55726,,78,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-10,,,55726,,143,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1003,Greyerz,FR,2020-11-11,,,55726,,133,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1003,Greyerz,FR,2020-11-11,,,55726,,132,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-12,,,55726,,142,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-13,,,55726,,108,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-14,,,55726,,74,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -826,7 +828,8 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1003,Greyerz,FR,2020-11-17,,,55726,,55,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-18,,,55726,,55,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1003,Greyerz,FR,2020-11-19,,,55726,,37,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1003,Greyerz,FR,2020-11-20,,,55726,,49,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1003,Greyerz,FR,2020-11-20,,,55726,,48,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1003,Greyerz,FR,2020-11-21,,,55726,,24,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,,37,2020,106136,,63,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1004,Saane,FR,,38,2020,106136,,59,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1004,Saane,FR,,39,2020,106136,,52,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -836,7 +839,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1004,Saane,FR,,43,2020,106136,,909,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,,44,2020,106136,,1599,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,,45,2020,106136,,1783,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1004,Saane,FR,,46,2020,106136,,1118,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1004,Saane,FR,,46,2020,106136,,1117,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-02-29,,,106136,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-03-01,,,106136,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-03-02,,,106136,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -1094,7 +1097,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1004,Saane,FR,2020-11-09,,,106136,,122,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-10,,,106136,,214,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-11,,,106136,,211,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1004,Saane,FR,2020-11-12,,,106136,,182,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1004,Saane,FR,2020-11-12,,,106136,,181,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-13,,,106136,,183,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-14,,,106136,,144,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-15,,,106136,,62,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -1102,7 +1105,8 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1004,Saane,FR,2020-11-17,,,106136,,88,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-18,,,106136,,113,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1004,Saane,FR,2020-11-19,,,106136,,105,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1004,Saane,FR,2020-11-20,,,106136,,66,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1004,Saane,FR,2020-11-20,,,106136,,65,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1004,Saane,FR,2020-11-21,,,106136,,56,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,,37,2020,36800,,10,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1005,See,FR,,38,2020,36800,,8,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1005,See,FR,,39,2020,36800,,6,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -1111,7 +1115,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1005,See,FR,,42,2020,36800,,67,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,,43,2020,36800,,149,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,,44,2020,36800,,253,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1005,See,FR,,45,2020,36800,,320,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1005,See,FR,,45,2020,36800,,319,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,,46,2020,36800,,203,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-02-29,,,36800,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-03-01,,,36800,,0,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -1360,7 +1364,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1005,See,FR,2020-10-30,,,36800,,50,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-10-31,,,36800,,38,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-01,,,36800,,29,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-1005,See,FR,2020-11-02,,,36800,,43,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1005,See,FR,2020-11-02,,,36800,,42,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-03,,,36800,,53,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-04,,,36800,,53,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-05,,,36800,,57,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -1379,6 +1383,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1005,See,FR,2020-11-18,,,36800,,34,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-19,,,36800,,24,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1005,See,FR,2020-11-20,,,36800,,14,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1005,See,FR,2020-11-21,,,36800,,12,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1006,Sense,FR,,37,2020,43990,,6,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1006,Sense,FR,,38,2020,43990,,10,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1006,Sense,FR,,39,2020,43990,,9,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -1655,6 +1660,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1006,Sense,FR,2020-11-18,,,43990,,24,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1006,Sense,FR,2020-11-19,,,43990,,26,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1006,Sense,FR,2020-11-20,,,43990,,13,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1006,Sense,FR,2020-11-21,,,43990,,12,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1007,Vivisbach,FR,,37,2020,18831,,12,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1007,Vivisbach,FR,,38,2020,18831,,9,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
 1007,Vivisbach,FR,,39,2020,18831,,7,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklungen-im-kanton
@@ -1931,3 +1937,4 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1007,Vivisbach,FR,2020-11-18,,,18831,,13,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1007,Vivisbach,FR,2020-11-19,,,18831,,11,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 1007,Vivisbach,FR,2020-11-20,,,18831,,10,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
+1007,Vivisbach,FR,2020-11-21,,,18831,,14,,,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
