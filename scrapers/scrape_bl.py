@@ -4,15 +4,12 @@
 from bs4 import BeautifulSoup
 import re
 import scrape_common as sc
+import scrape_bl_common as sbc
 from collections import OrderedDict, defaultdict
 from datetime import datetime
 
 
-news_url = 'https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/medienmitteilungen-1'
-news_content = sc.download(news_url, silent=True)
-soup = BeautifulSoup(news_content, 'html.parser')
-
-bulletin_url = soup.find('td', string=re.compile(r'Coronavirus: Wochenbulletin.*')).find_previous('a').get('href')
+bulletin_url = sbc.get_latest_bl_bulletin_url()
 bulletin_content = sc.download(bulletin_url, silent=True)
 soup = BeautifulSoup(bulletin_content, 'html.parser')
 content = soup.find('strong', string=re.compile(r'Per heute .*')).string
