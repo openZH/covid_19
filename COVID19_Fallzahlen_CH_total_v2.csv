@@ -6679,6 +6679,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-23,,FR,,19711,,155,22,,529,323,https://www.fr.ch/sites/default/files/2020-11/201123_statistiques_situation_COVID_site_V2.xlsx,,,
 2020-11-23,,GE,,,,460,28,,,,https://www.ge.ch/document/21502/telecharger,,,
 2020-11-23,,GL,,860,,9,,,,19,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2020-11-23,,GR,,4519,,54,8,7,,89,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,597,949,
 2020-11-23,,LU,,,,107,,12,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/hospitalisationen,,,
 2020-11-23,,NW,,858,,7,3,,,8,http://www.nw.ch/coronastatistik,104,117,1
 2020-11-23,,TI,,14269,,382,35,23,1368,496,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
