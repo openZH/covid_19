@@ -6546,7 +6546,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-20,00:00,OW,,810,,9,,,,13,https://www.ow.ch/dl.php/de/5fb787660b2f8/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-20,01:00,SO,,5165,,71,14,,,55,https://corona.so.ch/,,,
 2020-11-20,08:00,BE,,24861,,390,67,56,,301,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
-2020-11-20,08:00,ZG,,2883,,32,3,,2397,25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2020-11-20,08:00,ZG,,2883,,32,3,,2397,25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,435,553,8
 2020-11-20,09:00,SZ,,4559,,,,,3818,90,https://www.sz.ch/public/upload/assets/49784/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-11-20,09:30,BS,,4505,,148,26,,3424,63,https://www.gesundheit.bs.ch,1018,722,
 2020-11-20,10:00,SH,,1492,,18,3,,,22,https://sh.ch/CMS/get/file/0b15f219-747d-402f-9f4e-616aa2cde200,348,463,1
@@ -6566,7 +6566,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-21,,TI,,13902,,377,38,22,1337,483,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-21,,VD,,45601,,538,91,,,539,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2020-11-21,08:00,BE,,25327,,,,,,306,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
-2020-11-21,08:00,ZG,,2943,,27,4,,2483,25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2020-11-21,08:00,ZG,,2943,,27,4,,2483,25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,422,559,8
 2020-11-21,09:00,SZ,,4614,,,,,3854,91,https://www.sz.ch/public/upload/assets/49784/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-11-21,09:30,BS,,4600,,,,,3525,66,https://www.gesundheit.bs.ch,1009,714,
 2020-11-22,,BL,,5551,,81,7,2,4019,63,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -6575,10 +6575,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-22,,GR,,4449,,51,10,9,,86,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,666,1072,
 2020-11-22,,NW,,853,,7,3,,,8,http://www.nw.ch/coronastatistik,104,120,1
 2020-11-22,,SG,,15142,,161,34,25,,215,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2020-11-22,,TI,,14129,,375,35,20,1357,491,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2020-11-22,,TI,,14129,,374,35,20,1357,491,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-22,08:00,BE,,25671,,,,,,313,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
-2020-11-22,08:00,ZG,,2982,,23,5,,2533,27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2020-11-22,08:00,ZG,,2982,,23,5,,2533,27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,423,569,7
 2020-11-22,09:00,SZ,,4614,,,,,3854,91,https://www.sz.ch/public/upload/assets/49784/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-11-22,10:30,BS,,4707,,,,,3666,67,https://www.gesundheit.bs.ch,974,634,
+2020-11-23,,TI,,14269,,382,35,23,1368,496,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-23,08:00,ZG,,3025,,25,4,,2575,27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2020-11-23,09:00,SZ,,4709,,,,,3951,91,https://www.sz.ch/public/upload/assets/49784/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
