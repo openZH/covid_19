@@ -6571,6 +6571,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-22,,FR,,19477,,156,23,,528,311,https://www.fr.ch/sites/default/files/2020-11/201122_statistiques_situation_COVID_site_V2.xlsx,,,
 2020-11-22,,GR,,4449,,51,10,9,,86,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,666,1072,
 2020-11-22,,NW,,853,,7,3,,,8,https://www.nw.ch/gesundheitsamtdienste/6044,104,120,1
+2020-11-22,,SG,,15142,,161,34,25,,215,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-22,,TI,,14129,,375,35,20,1357,491,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-22,08:00,BE,,25671,,,,,,313,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-11-22,08:00,ZG,,2982,,23,5,,2535,27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
