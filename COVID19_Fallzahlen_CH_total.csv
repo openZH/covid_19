@@ -6537,7 +6537,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-11-20,,GR,,4265,49,10,9,,85,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-11-20,,JU,,3471,36,5,,,73,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-11-20,,LU,,,95,,17,,,https://www.lustat.ch/analysen/gesundheit/corona-reporting/hospitalisationen
-2020-11-20,,NE,,8966,137,14,13,,151,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
+2020-11-20,,NE,,8975,137,14,13,,151,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-11-20,,NW,,835,6,3,,,8,http://www.nw.ch/coronastatistik
 2020-11-20,,SG,,15014,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-11-20,,TI,,13623,371,34,22,1307,478,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
@@ -6560,7 +6560,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-11-21,,FR,,19383,158,23,,523,308,https://www.fr.ch/sites/default/files/2020-11/201122_statistiques_situation_COVID_site_V2.xlsx
 2020-11-21,,GR,,4385,54,10,9,,86,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-11-21,,JU,,3511,37,5,,,73,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
-2020-11-21,,NE,,9032,141,14,12,,154,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
+2020-11-21,,NE,,9043,141,14,12,,154,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-11-21,,NW,,842,7,3,,,8,http://www.nw.ch/coronastatistik
 2020-11-21,,SG,,15103,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-11-21,,TI,,13902,377,38,22,1337,483,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
@@ -6574,6 +6574,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-11-22,,FR,,19477,156,23,,528,311,https://www.fr.ch/sites/default/files/2020-11/201122_statistiques_situation_COVID_site_V2.xlsx
 2020-11-22,,GR,,4449,51,10,9,,86,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2020-11-22,,JU,,3529,36,5,,,77,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
+2020-11-22,,NE,,9063,145,17,14,,154,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-11-22,,NW,,853,7,3,,,8,http://www.nw.ch/coronastatistik
 2020-11-22,,SG,,15142,161,34,25,,215,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-11-22,,TI,,14129,374,35,20,1357,491,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
