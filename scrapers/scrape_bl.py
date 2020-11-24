@@ -2,9 +2,29 @@
 # -*- coding: utf-8 -*-
 
 from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
+import scrape_bl_common as sbc
 from collections import OrderedDict, defaultdict
 from datetime import datetime
+
+
+bulletin_url = sbc.get_latest_bl_bulletin_url()
+bulletin_content = sc.download(bulletin_url, silent=True)
+soup = BeautifulSoup(bulletin_content, 'html.parser')
+content = soup.find('strong', string=re.compile(r'Per heute .*')).string
+# strip unwanted characters
+content = content.encode("ascii", errors="ignore").decode()
+dd = sc.DayData(canton='BL', url=bulletin_url)
+dd.datetime = sc.find(r'Per heute \w+, (\d+\. \w+ 20\d{2})', content)
+dd.isolated = sc.find(r'Aktuell befinden sich.*(\d+\s?\d+) Personen in Isolation', content)
+dd.quarantined = sc.find(r'Aktuell befinden sich.*(\d+\s?\d+) Personen in Quarantäne', content)
+
+is_first = True
+if dd:
+    print(dd)
+    is_first = False
+
 
 main_url = "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft"
 main_site = sc.download(main_url, silent=True)
@@ -216,7 +236,6 @@ for iframe in soup.find_all('iframe'):
 
 # order dict by key to ensure the most recent entry is last
 ordered_rows = OrderedDict(sorted(rows.items()))
-is_first = True
 for row_date, row in ordered_rows.items():
     if not is_first:
         print('-' * 10)
