@@ -4,7 +4,7 @@ import scrape_common as sc
 
 url = 'https://www.llv.li/files/as/grafik_covid19_tests_pro_kw.xlsx'
 xls = sc.xlsdownload(url, silent=True)
-rows = sc.parse_xls(xls, header_row=52, sheet_name='gTests_AG')
+rows = sc.parse_xls(xls, header_row=51, sheet_name='gTests_AG')
 for row in rows:
     if row['B'] is None:
         # skip the footer line
