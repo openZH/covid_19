@@ -115,7 +115,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,44,2020,576,3,2138,11
 103,Bezirk Bülach,154731,45,2020,609,1,2747,12
 103,Bezirk Bülach,154731,46,2020,574,3,3321,15
-103,Bezirk Bülach,154731,47,2020,541,5,3862,20
+103,Bezirk Bülach,154731,47,2020,541,6,3862,21
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -154,7 +154,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 104,Bezirk Dielsdorf,91112,44,2020,339,0,1149,4
 104,Bezirk Dielsdorf,91112,45,2020,358,2,1507,6
 104,Bezirk Dielsdorf,91112,46,2020,335,4,1842,10
-104,Bezirk Dielsdorf,91112,47,2020,337,2,2179,12
+104,Bezirk Dielsdorf,91112,47,2020,336,2,2178,12
 105,Bezirk Hinwil,96595,9,2020,0,0,0,0
 105,Bezirk Hinwil,96595,10,2020,2,0,2,0
 105,Bezirk Hinwil,96595,11,2020,7,0,9,0
@@ -193,7 +193,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,44,2020,392,5,1193,6
 105,Bezirk Hinwil,96595,45,2020,400,6,1593,12
 105,Bezirk Hinwil,96595,46,2020,316,9,1909,21
-105,Bezirk Hinwil,96595,47,2020,351,5,2260,26
+105,Bezirk Hinwil,96595,47,2020,352,6,2261,27
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -466,4 +466,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,44,2020,2294,8,8451,88
 112,Bezirk Zürich,422870,45,2020,1886,9,10337,97
 112,Bezirk Zürich,422870,46,2020,1502,11,11839,108
-112,Bezirk Zürich,422870,47,2020,1245,15,13084,123
+112,Bezirk Zürich,422870,47,2020,1244,15,13083,123
