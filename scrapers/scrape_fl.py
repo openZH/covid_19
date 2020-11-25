@@ -62,7 +62,7 @@ for row in rows:
         dd_full_list.cases = m['cases']
         dd_full_list.recovered = m['recovered']
         dd_full_list.hospitalized = m['hosp']
-        dd_full_list.deaths = m['desths']
+        dd_full_list.deaths = m['deaths']
         if dd_full_list:
             if not is_first:
                 print('-' * 10)
