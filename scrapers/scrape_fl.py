@@ -51,18 +51,18 @@ assert d, f"No content in history PDF found ({history_url})"
 data_in_history_found = False
 rows = d.splitlines()
 header = rows[2]
-assert re.search(r'^Tag,\s+Datum\s+Summe\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
+assert re.search(r'^Situationsbericht\s+vom\s+Datenstand\s+Anzahl\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
 for row in rows:
     row = row.replace("'", "")
-    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(.+\d{4})\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)$', row)
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(?P<report_date>.+?\d{4})\s+(?P<date>.+?\s+Uhr)\s+(?P<cases>\d+)\s+(?P<recovered>\d+)\s+(?P<hosp>\d+)\s+(?P<deaths>\d+)$', row)
     if m:
         data_in_history_found = True
         dd_full_list = sc.DayData(canton='FL', url=history_url)
-        dd_full_list.datetime = m[1]
-        dd_full_list.cases = m[2]
-        dd_full_list.recovered = m[3]
-        dd_full_list.hospitalized = m[4]
-        dd_full_list.deaths = m[5]
+        dd_full_list.datetime = m['report_date']
+        dd_full_list.cases = m['cases']
+        dd_full_list.recovered = m['recovered']
+        dd_full_list.hospitalized = m['hosp']
+        dd_full_list.deaths = m['deaths']
         if dd_full_list:
             if not is_first:
                 print('-' * 10)
