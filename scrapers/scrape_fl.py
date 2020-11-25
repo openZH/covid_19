@@ -54,7 +54,7 @@ header = rows[2]
 assert re.search(r'^Situationsbericht\s+vom\s+Datenstand\s+Anzahl\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
 for row in rows:
     row = row.replace("'", "")
-    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(?P<report_date>.+\d{4})\s+(?P<date>.+\s+Uhr)\s+(?P<cases>\d+)\s+(?P<recovered>\d+)\s+(?P<hosp>\d+)\s+(?P<deaths>\d+)$', row)
+    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(?P<report_date>.+?\d{4})\s+(?P<date>.+?\s+Uhr)\s+(?P<cases>\d+)\s+(?P<recovered>\d+)\s+(?P<hosp>\d+)\s+(?P<deaths>\d+)$', row)
     if m:
         data_in_history_found = True
         dd_full_list = sc.DayData(canton='FL', url=history_url)
