@@ -81,6 +81,6 @@ dd.hospitalized = sc.find(r'hospitalisierte\s+COVID-19-Patienten\s+\(inkl\.\s+Ve
     sc.find(r'Aktuell\s+hospitalisierte\s+Patienten\s+\(inkl\.\s+Verdachtsfälle\):\s+<strong>(\d+)</strong>', d)
 dd.icu = sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfälle,\s+mit\s+und\s+ohne\s+Beatmung\):(?:<br\s*/>)?\s+<strong>(\d+)</strong>\s+Personen', d) or \
     sc.find(r'Davon\s+IPS-Patienten\s+\(mit\s+und\s+ohne\s+Beatmung\):\s+<strong>(\d+)</strong>', d)
-dd.deaths = sc.find(r'Todesfälle(?:\skumuliert)?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
+dd.deaths = sc.find(r'Todesfälle(?:\skumuliert)?.*:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
 
 print(dd)
