@@ -16,7 +16,7 @@ jobs:
         canton:
           - AG
           - AI
-#          - AR
+          - AR
           - BE
           - BL
 #          - BS # disable BS, data is updated manually for now
