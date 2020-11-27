@@ -6,7 +6,7 @@ on:
   workflow_dispatch: ~
 jobs:
   run_scraper:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-18.04
     continue-on-error: false
     timeout-minutes: 10
     strategy:
