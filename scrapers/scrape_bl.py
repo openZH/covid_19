@@ -12,7 +12,7 @@ from datetime import datetime
 bulletin_url = sbc.get_latest_bl_bulletin_url()
 bulletin_content = sc.download(bulletin_url, silent=True)
 soup = BeautifulSoup(bulletin_content, 'html.parser')
-content = soup.find('strong', string=re.compile(r'Per heute .*')).string
+content = soup.find(string=re.compile(r'Per heute .*')).string
 # strip unwanted characters
 content = content.encode("ascii", errors="ignore").decode()
 dd = sc.DayData(canton='BL', url=bulletin_url)
