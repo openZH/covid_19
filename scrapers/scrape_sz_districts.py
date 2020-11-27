@@ -15,7 +15,7 @@ pdf_url = soup.find('a', text=re.compile(r'Coronafälle pro Gemeinde')).get('hre
 content = sc.pdfdownload(pdf_url, layout=True, silent=True)
 date = sc.find(r'Stand\W+(\d+\.\d+\.20\d{2})', content)
 date = sc.date_from_text(date).isoformat()
-district_data = re.findall(r'^Bezirk\W+(\w+)\s+(\d+)', content, re.MULTILINE)
+district_data = re.findall(r'^Bezirk\W+(\w+)\s+(≤?\s?\d+)', content, re.MULTILINE)
 
 # https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/karten.assetdetail.5688189.html
 district_ids = {
@@ -47,5 +47,7 @@ for district, total_cases in district_data:
     dd.district_id = district_ids[district]
     dd.population = population[district]
     dd.date = date
-    dd.total_cases = total_cases
+    # skip total_cases for ≤ entries
+    if not sc.find(r'(≤)', total_cases):
+        dd.total_cases = total_cases
     print(dd)
