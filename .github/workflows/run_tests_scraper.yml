@@ -28,6 +28,7 @@ jobs:
           - TG
           - TI
           - VS
+          - ZG
           - ZH
 
     steps:
