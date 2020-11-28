@@ -5,6 +5,21 @@ import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
+
+url = 'https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962'
+d = sc.download(url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
+
+dd = sc.DayData(canton='OW', url=url)
+dd.isolated = soup.find(text=re.compile(r'In Isolation \(aktuell\)')).find_next('td').string
+dd.quarantined = soup.find(text=re.compile(r'In Quarant.ne \(aktuell\)')).find_next('td').string
+
+is_first = True
+if dd:
+    print(dd)
+    is_first = False
+
+
 d = sc.download('https://www.ow.ch/de/kanton/publired/publikationen/?action=info&pubid=20318',
                 encoding='windows-1252', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
@@ -18,7 +33,6 @@ for row in soup.find_all('tr'):
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=4)
-is_first = True
 for row in rows:
     if isinstance(row['A'], datetime.datetime):
         dd = sc.DayData(canton='OW', url=xls_url)
