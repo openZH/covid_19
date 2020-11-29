@@ -7,10 +7,10 @@ import scrape_common as sc
 
 
 def get_fr_xls():
-    d = sc.download('https://www.fr.ch/sante/covid-19/coronavirus-statistiques-evolution-de-la-situation-dans-le-canton', silent=True)
+    d = sc.download('https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton', silent=True)
 
     soup = BeautifulSoup(d, 'html.parser')
-    xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
+    xls_url = soup.find(href=re.compile(r"\.xlsx$")).get('href')
     assert xls_url, "URL is empty"
     if not xls_url.startswith('http'):
         xls_url = f'https://www.fr.ch{xls_url}'
