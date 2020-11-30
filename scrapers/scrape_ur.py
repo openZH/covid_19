@@ -78,11 +78,12 @@ assert headers[4].text == "total Verstorbene"
 cells = rows[1].find_all('td')
 assert len(cells) == 6, f"Number of columns changed, {len(cells)} != 6"
 
-active_cases = cells[0].text
-dd.cases = cells[1].text
-dd.hospitalized = cells[2].text
-dd.quarantined = cells[3].text
-dd.deaths = cells[4].text
+ur_number_regex = r'(\d+)\s*(\(.+?\))?'
+active_cases = sc.find(ur_number_regex, cells[0].text)
+dd.cases = sc.find(ur_number_regex, cells[1].text)
+dd.hospitalized = sc.find(ur_number_regex, cells[2].text)
+dd.quarantined = sc.find(ur_number_regex, cells[3].text)
+dd.deaths = sc.find(ur_number_regex, cells[4].text)
 
 dd.recovered = int(dd.cases) - int(dd.deaths) - int(active_cases)
 
