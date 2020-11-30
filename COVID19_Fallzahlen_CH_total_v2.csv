@@ -6790,7 +6790,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-27,,GE,,,,355,24,,,,https://www.ge.ch/document/21502/telecharger,,,
 2020-11-27,,GL,,927,,6,,,,20,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2020-11-27,,GR,,4898,,40,9,5,,95,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,777,1090,
-2020-11-27,,JU,,3703,,27,6,,,85,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2020-11-27,,JU,,3703,,27,6,,,84,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-11-27,,LU,,,,105,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1617,1452,14
 2020-11-27,,NE,,9577,,123,12,9,,179,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-11-27,,NW,,902,,8,3,,,9,http://www.nw.ch/coronastatistik,98,98,1
@@ -6815,7 +6815,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-28,,FR,,20375,,131,18,,580,342,https://www.fr.ch/sites/default/files/2020-11/201129_statistiques_situation_COVID_site_V2_0.xlsx,,,
 2020-11-28,,GE,,,,337,20,,,,https://www.hug.ch/coronavirus-maladie-covid-19/situation-aux-hug,,,
 2020-11-28,,GR,,5041,,42,9,5,,97,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,678,937,
-2020-11-28,,JU,,3732,,29,6,,,86,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2020-11-28,,JU,,3732,,29,6,,,85,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-11-28,,NE,,9625,,155,10,7,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-11-28,,NW,,918,,8,3,,,10,http://www.nw.ch/coronastatistik,92,94,1
 2020-11-28,,SG,,17128,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
