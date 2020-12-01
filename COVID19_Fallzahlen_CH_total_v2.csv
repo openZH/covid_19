@@ -6856,6 +6856,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-30,,FR,,20525,,126,20,,589,347,https://www.fr.ch/sites/default/files/2020-11/201130_statistiques_situation_COVID_site_V2_0.xlsx,,,
 2020-11-30,,GE,,,,344,18,,,,https://www.ge.ch/document/21502/telecharger,,,
 2020-11-30,,GL,,949,,8,,,,20,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2020-11-30,,GR,,5210,,42,9,6,,100,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,705,992,
 2020-11-30,,LU,,,,108,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1512,1268,14
 2020-11-30,,NE,,,,127,11,7,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-11-30,,NW,,934,,9,3,,,10,http://www.nw.ch/coronastatistik,82,82,1
