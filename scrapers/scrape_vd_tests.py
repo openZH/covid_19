@@ -17,19 +17,21 @@ for pdf_url in pdf_urls:
     year = sc.find(r'Situation au \d+.*(20\d{2})', pdf)
     res = re.search(r'Entre\s+le\s+(\d+\s+\w+)\s+et\s+le\s+(\d+\s+\w+),', pdf)
     if res:
-        td.start_date = sc.date_from_text(f'{res[1]} {year}').isoformat()
-        td.end_date = sc.date_from_text(f'{res[2]} {year}').isoformat()
+        start_date = sc.date_from_text(f'{res[1]} {year}')
+        end_date = sc.date_from_text(f'{res[2]} {year}')
     else:
         res = re.search(r'Entre\s+le\s+(\d+)\s+et\s+le\s+(\d+\s+\w+),', pdf)
         if res:
             end_date = sc.date_from_text(f'{res[2]} {year}')
-            td.end_date = end_date.isoformat()
-            td.start_date = sc.date_from_text(f'{res[1]}.{end_date.month}.{year}').isoformat()
-    assert td.start_date and td.end_date, f'failed to extract start and end dates from {pdf_url}'
+            start_date = sc.date_from_text(f'{res[1]}.{end_date.month}.{year}')
+    assert start_date and end_date, f'failed to extract start and end dates from {pdf_url}'
+    td.start_date = start_date
+    td.end_date = end_date
 
     res = re.search(r'une\s+moyenne\s+de\s+(\d+)\s+frottis\s+SARS-CoV(-)?2', pdf)
     assert res, f'failed to extract total number of tests from {pdf_url}'
-    td.total_tests = 7 * int(res[1])
+    days = (end_date - start_date).days
+    td.total_tests = days * int(res[1])
 
     res = re.search(r'dont\s+(\d+\.?\d?)%\s+étaient\s+positifs', pdf)
     assert res, f'failed to extract positivity rate from {pdf_url}'
