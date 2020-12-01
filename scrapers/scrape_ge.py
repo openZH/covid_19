@@ -36,7 +36,7 @@ soup = BeautifulSoup(d, 'html.parser')
 content = soup.find(string=re.compile("Comparatif entre le nombre de patients.*")).find_previous('p').text
 
 dd_hosp = sc.DayData(canton='GE', url=hosp_url)
-hosp_date = sc.find(r'^Au (\d+\s*(:?[a-z]+)?\s+[A-Za-z]+)\s+à\s+\d+h', content)
+hosp_date = sc.find(r'^Au (\d+\s*(:?\w+)?\s+\w+)\s+à\s+\d+h', content, flags=re.I|re.UNICODE)
 dd_hosp.datetime = f'{hosp_date} 2020'
 dd_hosp.hospitalized = sc.find(r'(\d+) malades Covid actif', content)
 dd_hosp.icu = sc.find(r'(\d+) aux soins intensifs', content)
