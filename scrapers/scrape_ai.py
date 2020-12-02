@@ -26,5 +26,6 @@ dd.isolated = sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d)
 #print("Quarantined:", quarantined_close_contact)
 dd.quarantine_riskareatravel = sc.find('<li>.*?([0-9]+)\+?\s*Personen\s+in\s*Quarant.+ne.*Einreise\s+Risikoland.*<\/li>', d)
 #print("Quarantined total:", int(quarantined_close_contact) + int(quarantined_travel))
-dd.hospitalized = sc.find('<li>.*?([0-9]+)\s*Hospitalisationen.*<\/li>', d)
+# Since 2020-11-19 AI does only communicate cumulative hospitalisation numbers
+#dd.hospitalized = sc.find('<li>.*?([0-9]+)\s*Hospitalisationen.*<\/li>', d)
 print(dd)
