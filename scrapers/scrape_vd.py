@@ -7,6 +7,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 import scrape_common as sc
+import scrape_vd_common as svc
 
 
 def parse_html():
@@ -83,14 +84,7 @@ def text_to_int(text):
 
 
 def parse_weekly_pdf():
-    sc.add_cert_to_bundle()
-    base_url = 'https://www.infosan.vd.ch'
-    d = sc.download(base_url, silent=True)
-    soup = BeautifulSoup(d, 'html.parser')
-    html_url = base_url + soup.find(href=re.compile("/publications/covid-19-point-epidemiologique")).get('href')
-    d = sc.download(html_url, silent=True)
-    soup = BeautifulSoup(d, 'html.parser')
-    pdf_url = base_url + soup.find(href=re.compile("\.pdf$")).get('href')
+    pdf_url = svc.get_weekly_pdf_url()
     pdf = sc.pdfdownload(pdf_url, silent=True)
 
     """
