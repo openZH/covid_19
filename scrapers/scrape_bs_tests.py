@@ -13,8 +13,8 @@ for row in reader:
     td = sc.TestData(canton='BS', url=url)
     td.start_date = row['Datum']
     td.end_date = row['Datum']
-    td.positive_tests = row['positive_tests'] or None
-    td.negative_tests = row['negative_tests'] or None
+    td.positive_tests = row['Positive Tests'] or None
+    td.negative_tests = row['Negative Tests'] or None
     td.total_tests = row['Total Tests'] or None
     td.positivity_rate = row['Anteil positive Tests in Prozent'] or None
     if td:
