@@ -62,35 +62,6 @@ if data_table:
             data.datetime = f"{tmp_date} {tmp_time}".strip()
             rows.append(data)
 
-
-# and scrape the main page as well
-url = "https://corona.so.ch/"
-d = sc.download(url, silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
-data = sc.DayData(canton='SO', url=url)
-data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
-table = title.find_next('table')
-for table_row in table.find_all('tr'):
-    items = table_row.find_all('td')
-    name = items[0].string
-    value = items[1].string
-    if name == 'Laborbestätigte Infektionen (kumuliert):':
-        data.cases = value
-        continue
-    if name == 'Verstorbene Personen (kumuliert):':
-        data.deaths = value
-        continue
-    if name == 'Aktuell im Kanton hospitalisierte Personen:':
-        data.hospitalized = value
-        continue
-    if name == 'Davon intensivmedizinisch betreut:':
-        data.icu = value
-        continue
-if data:
-    rows.append(data)
-
-
 is_first = True
 # skip first row
 for row in rows:
