@@ -24,7 +24,7 @@ for pdf_url in pdf_urls:
     total_tests2 = res[2]
 
     #res = re.match(r'.*Positivit.tsrate\s+\*?\s+\d.*%\s+(\d.*)%\s+(\d.*)%', content, re.DOTALL)
-    res = re.match(r'.*Positivit.tsrate\s+\*?\s+\d+\.?\d?%\s+(\d+\.?\d?)%\s+(\d+\.?\d?)%', content, re.DOTALL)
+    res = re.match(r'.*Positivit.tsrate\s+\*+?\s+\d+\.?\d?%\s+(\d+\.?\d?)%\s+(\d+\.?\d?)%', content, re.DOTALL)
     assert res, f'Positivity rate for week {week1} or {week2} could not be extracted!'
     pos_rate1 = res[1]
     pos_rate2 = res[2]
