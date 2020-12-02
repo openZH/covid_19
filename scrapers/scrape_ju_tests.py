@@ -14,6 +14,7 @@ soup = BeautifulSoup(d, 'html.parser')
 pdf_url = soup.find('a', title=re.compile(r'.*PDF.*')).get('href')
 if not pdf_url.startswith('http'):
     pdf_url = f'{base_url}{pdf_url}'
+pdf_url = pdf_url.replace('?download=1', '')
 
 pdf = sc.download_content(pdf_url, silent=True)
 
