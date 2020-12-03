@@ -75,13 +75,13 @@ for table_row in table.find_all('tr'):
     items = table_row.find_all('td')
     name = items[0].string
     value = items[1].string
-    if name == 'Laborbestätigte Infektionen (kumuliert):':
+    if name == 'Laborbestätigte Infektionen (kumuliert)*:':
         data.cases = value
         continue
-    if name == 'Verstorbene Personen (kumuliert):':
+    if name == 'Verstorbene Personen (kumuliert) inkl. Nachmeldung:':
         data.deaths = value
         continue
-    if name == 'Aktuell im Kanton hospitalisierte Personen:':
+    if name == 'Aktuell im Kanton hospitalisierte COVID-19 Patienten:':
         data.hospitalized = value
         continue
     if name == 'Davon intensivmedizinisch betreut:':
