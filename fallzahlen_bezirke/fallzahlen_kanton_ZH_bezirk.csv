@@ -237,8 +237,8 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,44,2020,518,0,1848,10
 106,Bezirk Horgen,125834,45,2020,451,5,2299,15
 106,Bezirk Horgen,125834,46,2020,438,7,2737,22
-106,Bezirk Horgen,125834,47,2020,389,5,3126,27
-106,Bezirk Horgen,125834,48,2020,461,9,3587,36
+106,Bezirk Horgen,125834,47,2020,389,6,3126,28
+106,Bezirk Horgen,125834,48,2020,461,9,3587,37
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -478,4 +478,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,45,2020,1885,9,10328,97
 112,Bezirk Zürich,422870,46,2020,1498,11,11826,108
 112,Bezirk Zürich,422870,47,2020,1240,16,13066,124
-112,Bezirk Zürich,422870,48,2020,1226,17,14292,141
+112,Bezirk Zürich,422870,48,2020,1226,19,14292,143
