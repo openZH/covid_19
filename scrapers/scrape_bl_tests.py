@@ -12,7 +12,7 @@ bulletin_urls = sbc.get_all_bl_bulletin_urls()
 for bulletin_url in bulletin_urls:
     bulletin_content = sc.download(bulletin_url, silent=True)
     soup = BeautifulSoup(bulletin_content, 'html.parser')
-    content = soup.find('p', string=re.compile(r'Per heute .*')).string
+    content = soup.find(string=re.compile(r'Per heute .*')).string
     # strip unwanted characters
     content = content.encode("ascii", errors="ignore").decode()
 
