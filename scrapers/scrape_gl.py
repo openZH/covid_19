@@ -63,6 +63,8 @@ d_csv = sc.download(csv_url, silent=True)
 
 reader = csv.DictReader(StringIO(d_csv), delimiter=',')
 for row in reader:
+    if row['Datum'] == '':
+        continue
     if not is_first:
         print('-' * 10)
     is_first = False
