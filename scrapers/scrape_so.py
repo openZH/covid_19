@@ -75,7 +75,7 @@ for table_row in table.find_all('tr'):
     items = table_row.find_all('td')
     name = items[0].string
     value = items[1].string
-    if name == 'Laborbestätigte Infektionen (kumuliert)*:':
+    if sc.find(r'(Laborbestätigte Infektionen) .*:', name):
         data.cases = value
         continue
     if name == 'Verstorbene Personen (kumuliert) inkl. Nachmeldung:':
