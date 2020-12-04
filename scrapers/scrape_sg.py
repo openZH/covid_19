@@ -104,8 +104,8 @@ for row in rows:
     cells = row.find_all('td')
     if len(cells) == 2:
         if cells[0].text.strip() == 'Laborbestätigte Fälle kumuliert (seit März 2020)':
-            dd_cases.cases = cells[1].string
+            dd_cases.cases = cells[1].text.strip()
         elif cells[0].text.strip() == 'Todesfälle kumuliert (seit März 2020)':
-            dd_cases.deaths = cells[1].string
+            dd_cases.deaths = cells[1].text.strip()
 
 print(dd_cases)
