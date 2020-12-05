@@ -48,6 +48,22 @@ if dd_hosp:
     print(dd_hosp)
 
 
+# isolated / quarantined
+iso_url = 'https://infocovid.smc.unige.ch/session/f44a42326896444ff5b80c63d65fca9c/download/download_table_cas?w='
+xls = sc.xlsdownload(iso_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0)
+for row in rows:
+    dd_iso = sc.DayData(canton='GE', url=iso_url)
+    dd_iso.datetime = row['date']
+    dd_iso.isolated = row['isolement déjà en cours']
+    dd_iso.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
+    dd_iso.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+    print(dd_iso)
+
+
 # xls
 d = sc.download('https://www.ge.ch/document/covid-19-donnees-completes-debut-pandemie', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
