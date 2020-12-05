@@ -6947,7 +6947,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-03,,NE,,9999,,120,7,2,,240,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-12-03,,NW,,970,,6,2,,,10,http://www.nw.ch/coronastatistik,82,108,0
 2020-12-03,,SG,,18786,,180,27,23,,287,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2020-12-03,,TI,,16492,,329,36,24,1626,568,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2020-12-03,,TI,,16492,,329,36,24,1626,568,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1787,3395,
 2020-12-03,,VD,,49733,,446,83,,,661,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2020-12-03,,VS,,22872,,138,21,19,,516,https://www.vs.ch/de/web/coronavirus,,,
 2020-12-03,00:00,OW,,1047,,3,,,,26,https://www.ow.ch/dl.php/de/5fc9ecf0c020c/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,141,135,
@@ -6969,7 +6969,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-04,,GR,,5647,,47,9,6,,105,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,765,1089,
 2020-12-04,,LU,,,,87,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1621,1539,7
 2020-12-04,,NW,,990,,6,2,,,10,http://www.nw.ch/coronastatistik,109,133,0
-2020-12-04,,TI,,16815,,334,36,23,1644,577,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2020-12-04,,TI,,16815,,333,36,23,1643,577,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-12-04,,VS,,22984,,139,20,20,,518,https://www.vs.ch/documents/6756452/7008787/2020 12 04 - Sit Epid - État Stand,,,
 2020-12-04,00:00,OW,,1065,,5,,,,26,https://www.ow.ch/dl.php/de/5fc9ecf0c020c/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,139,119,
 2020-12-04,00:00,UR,,982,,10,,,,24,https://www.ur.ch/themen/2962,,229,
@@ -6983,3 +6983,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-04,12:00,AI,,553,,,,,,14,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,,,
 2020-12-04,14:30,ZH,,48217,,393,85,64,,459,https://www.zh.ch/de/gesundheit/coronavirus.html,6112,,
 2020-12-04,14:55,AR,,1758,,25,2,,,29,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,,,0
+2020-12-05,,TI,,17034,,350,39,23,1658,580,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
