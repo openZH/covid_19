@@ -26,6 +26,18 @@ if data_table:
         rows.append(data)
 
     if rows:
+        # sanitize data:
+        # 2020-12-04 contains 'Non communiqué' entries, skip them for now
+        for row in rows:
+            if not row.get('Date') or row.get('Date') == 'Date':
+                continue
+            if not sc.int_or_word(row.get('Nombre de cas actuellement hospitalisés')):
+                row['Nombre de cas actuellement hospitalisés'] = ''
+            if not sc.int_or_word(row.get('Nombre de cas actuellement en soins intensifs')):
+                row['Nombre de cas actuellement en soins intensifs'] = ''
+            if not sc.int_or_word(row.get('Nombre de nouveaux décès')):
+                row['Nombre de nouveaux décès'] = ''
+
         for i, row in enumerate(rows[:-1]):
             if not row.get('Date') or row.get('Date') == 'Date':
                 continue
