@@ -16,6 +16,7 @@ def sanitize_row(row):
         row['Nombre de cas actuellement en soins intensifs'] = ''
     if not sc.represents_int(row.get('Nombre de nouveaux décès')):
         row['Nombre de nouveaux décès'] = ''
+    return row
 
 
 url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html'
@@ -46,7 +47,7 @@ if data_table:
                 print('-' * 10)
             is_first = False
 
-            sanitize_row(row)
+            row = sanitize_row(row)
 
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
