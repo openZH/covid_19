@@ -47,6 +47,7 @@ history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
 d = sc.pdfdownload(history_url, layout=True, silent=True)
 assert d, f"No content in history PDF found ({history_url})"
 data_in_history_found = False
+d = re.sub(r'(\d+)’(\d+)', r'\1\2', d)
 rows = d.splitlines()
 header = rows[2]
 assert re.search(r'^Situationsbericht\s+vom\s+Datenstand\s+Anzahl\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
