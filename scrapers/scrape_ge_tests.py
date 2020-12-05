@@ -1,33 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import re
 import scrape_common as sc
-import scrape_ge_common as sgc
 
 
-pdf_urls = sgc.get_ge_weekly_pdf_urls()
-for pdf_url in pdf_urls:
-    pdf = sc.download_content(pdf_url, silent=True)
+test_data = {}
 
-    content = sc.pdftotext(pdf, page=1)
-    week_number = sc.find(r'Situation semaine (\d+)', content)
-    year = sc.find(r'au \d+(\w+)? \w+ (\d{4})', content, group=2)
+# positive, negative and total values
+url = 'https://infocovid.smc.unige.ch/session/84651e11a4c40236825aff0a468f20b2/download/save_plot_nombre_tests_data?w='
+xls = sc.xlsdownload(url, silent=True)
+rows = sc.parse_xls(xls, header_row=0)
+for row in rows:
+    td = sc.TestData(canton='GE', url=url)
+    td.week = row['semaine']
+    td.year = '2020'
+    td.total_tests = row['total']
+    td.positive_tests = row['positifs']
+    td.negative_tests = row['négatifs']
+    test_data[td.week] = td
 
-    content = sc.pdftotext(pdf, page=4)
-    # remove ' separator to simplify pattern matching
-    content = re.sub(r'(\d)\'(\d)', r'\1\2', content)
+# positivity rate
+url = 'https://infocovid.smc.unige.ch/session/84651e11a4c40236825aff0a468f20b2/download/save_plot_positivity_data?w='
+xls = sc.xlsdownload(url, silent=True)
+rows = sc.parse_xls(xls, header_row=0, enable_float=True)
+for row in rows:
+    week = row['semaine']
+    assert week in test_data, f'week {week} was not found in {test_data}'
+    td = test_data[week]
+    td.positivity_rate = float(row['positivity'])
 
-    weekly_tests = sc.find(r'avec\s(\d+)\stests\s(effectués\s?)?(contre|\.)', content)
-    res = re.match(r'.*taux\sde\spositivité.*\s\(?(\d+\.?\d?)%\)?\s(en|durant).*\d+\.?\d?%', content, re.MULTILINE | re.DOTALL)
-    positivity_rate = None
-    if res:
-        positivity_rate = res[1]
-
-    if weekly_tests and positivity_rate:
-        td = sc.TestData(canton='GE', url=pdf_url)
-        td.week = week_number
-        td.year = year
-        td.total_tests = weekly_tests
-        td.positivity_rate = positivity_rate
-        print(td)
+for week, td in test_data.items():
+    print(td)
