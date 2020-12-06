@@ -6,6 +6,19 @@ import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
+
+def sanitize_row(row):
+    # sanitize data:
+    # 2020-12-04 contains 'Non communiqué' entries, skip them for now
+    if not sc.represents_int(row.get('Nombre de cas actuellement hospitalisés')):
+        row['Nombre de cas actuellement hospitalisés'] = ''
+    if not sc.represents_int(row.get('Nombre de cas actuellement en soins intensifs')):
+        row['Nombre de cas actuellement en soins intensifs'] = ''
+    if not sc.represents_int(row.get('Nombre de nouveaux décès')):
+        row['Nombre de nouveaux décès'] = ''
+    return row
+
+
 url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
@@ -33,6 +46,8 @@ if data_table:
             if not is_first:
                 print('-' * 10)
             is_first = False
+
+            row = sanitize_row(row)
 
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
