@@ -33,7 +33,7 @@ hosp_url = 'https://www.hug.ch/coronavirus-maladie-covid-19/situation-aux-hug'
 d = sc.download(hosp_url, silent=True)
 d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
-content = soup.find(string=re.compile("Comparatif entre le nombre de patients.*")).find_previous('p').text
+content = soup.find(string=re.compile("Evolution du nombre de patients.*")).find_previous('p').text
 
 dd_hosp = sc.DayData(canton='GE', url=hosp_url)
 hosp_date = sc.find(r'^Au (\d+\s*(:?\w+)?\s+\w+)\s+à\s+\d+h', content, flags=re.I|re.UNICODE)
