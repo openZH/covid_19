@@ -39,6 +39,9 @@ if data_table:
         rows.append(data)
 
     if rows:
+        for row in rows[:-1]:
+            row = sanitize_row(row)
+
         for i, row in enumerate(rows[:-1]):
             if not row.get('Date') or row.get('Date') == 'Date':
                 continue
@@ -46,8 +49,6 @@ if data_table:
             if not is_first:
                 print('-' * 10)
             is_first = False
-
-            row = sanitize_row(row)
 
             dd = sc.DayData(canton='JU', url=url)
             current_year = datetime.datetime.now().year
