@@ -98,7 +98,7 @@ rows = cases_table.find_all('tr')
 
 headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 2, f"Number of header columns changed, {len(headers)} != 2"
-assert headers[1].text.strip() == "Wert", f"Header text changed '{headers[1].text.strip()}' != 'Wert'"
+assert headers[1].text.strip() == "Anzahl", f"Header text changed '{headers[1].text.strip()}' != 'Anzahl'"
 
 for row in rows:
     cells = row.find_all('td')
