@@ -203,7 +203,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,46,2020,313,9,1905,21
 105,Bezirk Hinwil,96595,47,2020,351,7,2256,28
 105,Bezirk Hinwil,96595,48,2020,312,9,2568,37
-105,Bezirk Hinwil,96595,49,2020,388,13,2956,50
+105,Bezirk Hinwil,96595,49,2020,388,14,2956,51
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -244,7 +244,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,46,2020,438,8,2739,25
 106,Bezirk Horgen,125834,47,2020,389,6,3128,31
 106,Bezirk Horgen,125834,48,2020,461,9,3589,40
-106,Bezirk Horgen,125834,49,2020,398,14,3987,54
+106,Bezirk Horgen,125834,49,2020,398,15,3987,55
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -408,7 +408,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,46,2020,531,9,3016,29
 110,Bezirk Winterthur,171101,47,2020,593,9,3609,38
 110,Bezirk Winterthur,171101,48,2020,449,10,4058,48
-110,Bezirk Winterthur,171101,49,2020,636,6,4694,54
+110,Bezirk Winterthur,171101,49,2020,636,8,4694,56
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -490,4 +490,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,46,2020,1498,11,11826,109
 112,Bezirk Zürich,422870,47,2020,1240,17,13066,126
 112,Bezirk Zürich,422870,48,2020,1226,22,14292,148
-112,Bezirk Zürich,422870,49,2020,1379,25,15671,173
+112,Bezirk Zürich,422870,49,2020,1379,28,15671,176
