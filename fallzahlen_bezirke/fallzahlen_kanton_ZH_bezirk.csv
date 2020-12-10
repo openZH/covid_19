@@ -121,7 +121,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,46,2020,573,3,3318,15
 103,Bezirk Bülach,154731,47,2020,541,9,3859,24
 103,Bezirk Bülach,154731,48,2020,454,13,4313,37
-103,Bezirk Bülach,154731,49,2020,510,3,4823,40
+103,Bezirk Bülach,154731,49,2020,510,4,4823,41
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -244,7 +244,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,46,2020,438,8,2739,25
 106,Bezirk Horgen,125834,47,2020,389,6,3128,31
 106,Bezirk Horgen,125834,48,2020,461,9,3589,40
-106,Bezirk Horgen,125834,49,2020,398,15,3987,55
+106,Bezirk Horgen,125834,49,2020,398,16,3987,56
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -490,4 +490,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,46,2020,1498,11,11826,109
 112,Bezirk Zürich,422870,47,2020,1240,17,13066,126
 112,Bezirk Zürich,422870,48,2020,1226,22,14292,148
-112,Bezirk Zürich,422870,49,2020,1379,28,15671,176
+112,Bezirk Zürich,422870,49,2020,1380,28,15672,176
