@@ -7092,6 +7092,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-09,,GR,,6098,46,9,7,,110,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,
 2020-12-09,,LU,,,84,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,
 2020-12-09,,NW,,1073,8,1,,,10,http://www.nw.ch/coronastatistik,
+2020-12-09,,SG,,20865,182,31,28,,336,https://www.sg.ch/tools/informationen-coronavirus.html,
 2020-12-09,,TI,,17841,350,40,35,1732,608,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,
 2020-12-09,,VS,,23520,128,19,16,,540,https://www.vs.ch/de/web/coronavirus,
 2020-12-09,00:00,OW,,1135,4,,,,26,https://www.ow.ch/dl.php/de/5fd0de5449279/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,
@@ -7105,3 +7106,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-09,12:00,AI,,584,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,
 2020-12-09,13:50,AR,,1894,21,3,,,30,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,
 2020-12-09,14:30,ZH,,52051,478,84,65,,529,https://www.zh.ch/de/gesundheit/coronavirus.html,
+2020-12-10,00:00,UR,,1053,6,,,,30,https://www.ur.ch/themen/2962,
