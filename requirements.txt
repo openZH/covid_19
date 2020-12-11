@@ -1,6 +1,6 @@
 beautifulsoup4
 requests
 dateparser
-xlrd
+xlrd==1.2.0
 pytest
 pandas
