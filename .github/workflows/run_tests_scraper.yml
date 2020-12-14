@@ -18,7 +18,7 @@ jobs:
           - BL
           - BS
           - FL
-          - FR
+          #- FR # disable FR until #1476 is fixed
           - GE
           - GL
           - JU
