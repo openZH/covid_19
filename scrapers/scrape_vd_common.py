@@ -11,10 +11,9 @@ def get_weekly_pdf_url():
 
 def get_all_weekly_pdf_urls():
     base_url = 'https://www.infosan.vd.ch'
-    url = f'{base_url}/resultat-de-la-recherche/search/covid/?tx_solr[sort]=changed_asc asc'
-    d = sc.download(url, silent=True)
+    d = sc.download(base_url, silent=True)
 
-    urls = re.findall(r"window.open\('(.*\.pdf)'", d)
+    urls = re.findall(r"window.open\('(.*_epidemio\.pdf)'", d)
     result = []
     for url in urls:
         if not url.startswith('http'):
