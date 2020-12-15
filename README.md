@@ -4,6 +4,14 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
+Dear users/interested folks <br>
+of Covid19 data communicated by Cantons & FL available as #OGD, <br>
+
+we would like to learn from you, what data *in our repo* you are using, and if it isn't available elsewhere? <br>
+
+Thanks for answering our questions: https://github.com/openZH/covid_19/discussions?discussions_q=sort%3Atop <br>
+
+
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
 
