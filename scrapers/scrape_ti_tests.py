@@ -11,7 +11,7 @@ soup = BeautifulSoup(d, 'html.parser')
 
 td = sc.TestData(canton='TI', url=main_url)
 
-container = soup.find('h2', string=re.compile(r'Test PCR \(tampone\)')).find_next('div')
+container = soup.find('h2', string=re.compile(r'Test PCR')).find_next('div')
 for item in container.find_all('div'):
     divs = item.find_all('div')
     if len(divs) == 3:
