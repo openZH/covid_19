@@ -29,12 +29,13 @@ for pdf_url in pdf_urls:
     td.end_date = end_date
 
     res = re.search(r'une\s+moyenne\s+de\s+(\d+)\s+frottis\s+SARS-CoV(-)?2', pdf)
-    assert res, f'failed to extract total number of tests from {pdf_url}'
-    days = (end_date - start_date).days
-    td.total_tests = days * int(res[1])
+    if res:
+        days = (end_date - start_date).days
+        td.total_tests = days * int(res[1])
 
     res = re.search(r'dont\s+(\d+\.?\d?)%\s+étaient\s+positifs', pdf)
-    assert res, f'failed to extract positivity rate from {pdf_url}'
-    td.positivity_rate = res[1]
+    if res:
+        td.positivity_rate = res[1]
 
-    print(td)
+    if td:
+        print(td)
