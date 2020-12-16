@@ -52,10 +52,12 @@ for row in rows:
     dd.cases = row['Gesamtzahl']
 
     non_icu = row['Bestätigte Fälle ohne IPS/IMC']
-    icu = row['Bestätigte Fälle IPS/IMC']
-    if sc.represents_int(non_icu) and sc.represents_int(icu):
-        dd.hospitalized = int(non_icu) + int(icu)
+    icu = row['Bestätigte Fälle Intensivpflegestation (IPS)']
+    icf = row['Bestätigte Fälle Intermediate Care (IMC)']
+    if sc.represents_int(non_icu) and sc.represents_int(icu) and sc.represents_int(icf):
+        dd.hospitalized = int(non_icu) + int(icu) + int(icf)
         dd.icu = icu
+        dd.icf = icf
     dd.deaths = row['Gesamtzahl14']
     dd.recovered = row['Gesamtzahl18']
 
