@@ -21,11 +21,7 @@ dd.datetime = sc.find('>.*Stand (.+ Uhr).*</div>', d)
 dd.cases = sc.find('<li>.*?([0-9]+)\s*(infizierte Person(en)?|(labor)?bestätigte Fälle).*<\/li>', d)
 dd.deaths = sc.find('<li>.*?([0-9]+)\s*Todesf.+?lle.*<\/li>', d)
 dd.isolated = sc.find('<li>.*?([0-9]+)\s*Personen\s+in\s*Isolation.*<\/li>', d)
-# Since 2020-10-15 AI does not publish reliable quarantine/close contact numbers
-#quarantined_close_contact = sc.find('<li>.*?([0-9]+)\+?\s*Personen\s+in\s*Quarant.+ne.*enger\s+Kontakt.*<\/li>', d)
-#print("Quarantined:", quarantined_close_contact)
+dd.quarantined = sc.find('<li>.*?([0-9]+)\+?\s*enge\s+Kontaktpersonen\s+in\s+Quarant.ne.*<\/li>', d)
 dd.quarantine_riskareatravel = sc.find('<li>.*?([0-9]+)\+?\s*Personen\s+in\s*Quarant.+ne.*Einreise\s+Risikoland.*<\/li>', d)
-#print("Quarantined total:", int(quarantined_close_contact) + int(quarantined_travel))
-# Since 2020-11-19 AI does only communicate cumulative hospitalisation numbers
-#dd.hospitalized = sc.find('<li>.*?([0-9]+)\s*Hospitalisationen.*<\/li>', d)
+dd.hospitalized = sc.find(r'<li>.*?([0-9]+)\s*Personen\sim\sSpital.*<\/li>', d)
 print(dd)
