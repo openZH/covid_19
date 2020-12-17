@@ -10,8 +10,9 @@ d = d.replace('&nbsp;', ' ')
 
 dd_ct = sc.DayData(canton='AR', url=url)
 
-t = sc.find(r'Contact\s+tracing\s+\(?.*?(Stand|;)\:?\s+([^\)]+)(Uhr)?.*?\)?', d, group=2) or \
-    sc.find(r'Contact\s+tracing\s+\(?.*?(Stand|;)\:?\s+([0-9]+\.[0-9]+\.? \/ [0-9]+h).*?\)?', d, group=2)
+t = sc.find(r'Contact\s+tracing\s+\(.*?Stand\:?\s+(.+?Uhr).*?\)', d) or \
+    sc.find(r'Contact\s+tracing.*Stand\:? (.+? Uhr).*?\)', d) or \
+    sc.find(r'Contact\s+tracing.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
 dd_ct.datetime = t
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>(\d+)</strong>', d)
