@@ -1,4 +1,5 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,TotalPosTests1,ninst_ICU_intub
+,,,,,,,,,,,,,,
 2020-01-24,,GE,4,,,,,,,,https://www.ge.ch/document/20094/annexe/0,,,
 2020-01-25,,GE,8,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,,
 2020-01-26,,GE,11,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,,
@@ -7230,7 +7231,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-14,01:00,SO,,8383,,75,14,,,129,https://corona.so.ch/index.php?id=27979,,,
 2020-12-14,08:00,AG,,22363,,209,30,,16820,280,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2050,,23
 2020-12-14,08:00,BE,,35311,,339,57,53,,505,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
-2020-12-14,08:00,ZG,,4038,,24,4,,3668,48,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,318,604,2
+2020-12-14,08:00,ZG,,4038,,24,4,,3668,49,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,318,604,2
 2020-12-14,09:00,SZ,,6205,,,,,5098,116,https://www.sz.ch/public/upload/assets/50277/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-12-14,09:30,SH,,2418,,19,4,,,42,https://sh.ch/CMS/get/file/f511fdf3-ff74-4700-81a9-cd560a126311,365,501,0
 2020-12-14,10:00,TG,,9288,7,82,19,,463,144,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,1190,,
@@ -7281,7 +7282,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-16,00:00,OW,,1204,,7,,,,26,https://www.ow.ch/dl.php/de/5fdb23bf76afd/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,85,97,
 2020-12-16,00:00,UR,,1165,,12,,,,30,https://www.ur.ch/themen/2962,,317,
 2020-12-16,01:00,SO,,8743,,74,12,,,148,https://corona.so.ch/index.php?id=27979,,,
-2020-12-16,08:00,AG,,23466,,202,31,,17595,299,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2073,,
+2020-12-16,08:00,AG,,23466,,202,31,,17595,299,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2073,,36
 2020-12-16,08:00,BE,,36418,,337,58,51,,521,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-12-16,08:00,ZG,,4157,,23,4,,3782,54,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,291,598,3
 2020-12-16,09:00,SZ,,6366,,,,,5260,117,https://www.sz.ch/public/upload/assets/50277/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
@@ -7297,9 +7298,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-17,00:00,OW,,1218,,5,,,,26,https://www.ow.ch/dl.php/de/5fdb23bf76afd/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,90,142,
 2020-12-17,00:00,UR,,1177,,8,,,,32,https://www.ur.ch/themen/2962,,299,
 2020-12-17,01:00,SO,,8921,,72,12,,,152,https://corona.so.ch/,,,
+2020-12-17,08:00,BE,,37031,,326,56,46,,531,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-12-17,08:00,ZG,,4220,,24,4,,3875,54,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2020-12-17,09:00,SH,,2565,,17,4,,,44,https://sh.ch/CMS/get/file/f511fdf3-ff74-4700-81a9-cd560a126311,394,569,0
 2020-12-17,09:00,SZ,,6474,,,,,5335,120,https://www.sz.ch/public/upload/assets/50277/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-12-17,10:00,TG,,9643,0,82,17,,475,149,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10554,1359,,
-2020-12-17,10:30,BS,,7051,,150,18,,6041,121,https://www.gesundheit.bs.ch,889,883,
 2020-12-17,12:00,AI,,638,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,42,,
