@@ -7317,7 +7317,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-17,13:17,BS,,7092,,150,18,,6104,121,https://www.gesundheit.bs.ch,867,798,
 2020-12-17,14:30,ZH,,58986,,521,103,73,,666,https://www.zh.ch/de/gesundheit/coronavirus.html,7172,,
 2020-12-17,14:45,AR,,2116,,19,1,,,32,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,,,3
-2020-12-18,,FL,,1676,,16,,,,23,https://www.regierung.li/media/attachments/744-corona-situationsbericht-1218.pdf,,370,
+2020-12-18,,FL,,1676,,16,,,1424,23,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,370,
 2020-12-18,,TI,,20201,,339,41,35,1925,688,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-12-18,00:00,UR,,1187,,8,,,,32,https://www.ur.ch/themen/2962,,312,
 2020-12-18,01:00,SO,,9106,,73,10,,,154,https://corona.so.ch/,,,
@@ -7326,3 +7326,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-18,09:15,SH,,2610,,18,4,,,44,https://sh.ch/CMS/get/file/4094f666-9626-450d-a4af-e3eb45320ebb,381,547,1
 2020-12-18,09:30,BS,,7179,,147,15,,6140,123,https://www.gesundheit.bs.ch,916,927,
 2020-12-18,10:00,TG,,9913,0,89,19,,483,153,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10554,1368,,
+2020-12-18,12:00,AI,,640,,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,40,54,
