@@ -17,8 +17,8 @@ content = sbc.strip_bl_bulletin_numbers(content)
 
 dd = sc.DayData(canton='BL', url=bulletin_url)
 dd.datetime = sc.find(r'Per heute \w+, (\d+\. \w+ 20\d{2})', content)
-dd.isolated = sc.find(r'Aktuell befinden sich.*(\d+\s?\d+) Personen in Isolation', content)
-dd.quarantined = sc.find(r'Aktuell befinden sich.*(\d+\s?\d+) Personen in Quarantäne', content)
+dd.isolated = sc.find(r'Aktuell befinden sich.* (\d+) Personen in Isolation', content)
+dd.quarantined = sc.find(r'Aktuell befinden sich.* (\d+) Personen in Quarantäne', content)
 
 is_first = True
 if dd:
