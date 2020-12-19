@@ -20,3 +20,10 @@ def get_all_bl_bulletin_urls():
     for bulletin in bulletins:
         bulletin_urls.append(bulletin.get('href'))
     return bulletin_urls
+
+
+def strip_bl_bulletin_numbers(content):
+    content = content.encode("ascii", errors="ignore").decode()
+    content = re.sub(r'(\d+)’(\d+)', r'\1\2', content)
+    content = re.sub(r'(\d+)\'(\d+)', r'\1\2', content)
+    return content

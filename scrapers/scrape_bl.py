@@ -13,8 +13,8 @@ bulletin_url = sbc.get_latest_bl_bulletin_url()
 bulletin_content = sc.download(bulletin_url, silent=True)
 soup = BeautifulSoup(bulletin_content, 'html.parser')
 content = soup.find(string=re.compile(r'Per heute .*')).string
-# strip unwanted characters
-content = content.encode("ascii", errors="ignore").decode()
+content = sbc.strip_bl_bulletin_numbers(content)
+
 dd = sc.DayData(canton='BL', url=bulletin_url)
 dd.datetime = sc.find(r'Per heute \w+, (\d+\. \w+ 20\d{2})', content)
 dd.isolated = sc.find(r'Aktuell befinden sich.*(\d+\s?\d+) Personen in Isolation', content)
