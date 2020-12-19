@@ -7326,7 +7326,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-18,,GR,,7089,,39,6,5,,126,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,891,992,
 2020-12-18,,LU,,,,91,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,2368,2198,24
 2020-12-18,,NW,,1244,,6,3,,,12,http://www.nw.ch/coronastatistik,140,247,1
-2020-12-18,,TI,,20201,,339,41,35,1925,688,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2020-12-18,,TI,,20201,,339,41,35,1925,688,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1858,2957,
 2020-12-18,,VS,,24446,,92,19,13,,573,https://www.vs.ch/de/web/coronavirus,,,
 2020-12-18,00:00,OW,,1233,,5,,,,26,https://www.ow.ch/dl.php/de/5fdc85e540b23/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,97,156,
 2020-12-18,00:00,UR,,1187,,8,,,,32,https://www.ur.ch/themen/2962,,312,
@@ -7340,3 +7340,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-18,12:00,AI,,640,,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,40,54,
 2020-12-18,14:30,ZH,,59805,,488,99,73,,678,https://www.zh.ch/de/gesundheit/coronavirus.html,7172,,
 2020-12-18,14:45,AR,,2116,,15,1,,,33,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,,,4
+2020-12-19,,TI,,20511,,345,42,37,1951,691,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
