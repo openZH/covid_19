@@ -13,8 +13,7 @@ for bulletin_url in bulletin_urls:
     bulletin_content = sc.download(bulletin_url, silent=True)
     soup = BeautifulSoup(bulletin_content, 'html.parser')
     content = soup.find(string=re.compile(r'Per heute .*')).string
-    # strip unwanted characters
-    content = content.encode("ascii", errors="ignore").decode()
+    content = sbc.strip_bl_bulletin_numbers(content)
 
     date = sc.find(r'Per heute \w+, (\d+\. \w+ 20\d{2})', content)
     date = sc.date_from_text(date)
