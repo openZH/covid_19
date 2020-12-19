@@ -25,7 +25,10 @@ d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-data_table = soup.find('caption', string=re.compile(r'Evolution du nombre de cas.*Jura')).find_parent('table')
+data_table = None
+caption = soup.find('caption', string=re.compile(r'Evolution du nombre de cas.*Jura'))
+if caption:
+    data_table = caption.find_parent('table')
 if data_table:
     headers = [" ".join(cell.stripped_strings) for cell in data_table.find('tr').find_all(['td', 'th'])]
     assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
