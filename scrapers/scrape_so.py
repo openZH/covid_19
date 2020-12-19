@@ -10,6 +10,7 @@ import scrape_so_common as soc
 base_url = 'https://corona.so.ch'
 pdf_url = soc.get_latest_weekly_pdf_url()
 content = sc.pdfdownload(pdf_url, layout=True, silent=True, page=1)
+content = re.sub(r'(\d+)\'(\d+)', r'\1\2', content)
 
 """
 Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Quarantäne  Anzahl zusätzlicher Personen in Quarantäne nach Rückkehr aus Risikoland  Re- Wert***
@@ -19,8 +20,8 @@ Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Qua
 rows = []
 
 date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
-number_of_tests = sc.find(r'PCR-Tes\s?ts\sTotal\s+(\d+\'?\d+)\s', content).replace('\'', '')
-res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+(\d+\'?\d+) \(\d+\'?\d+\)\s+\d\.\d+ \(\d\.\d+\)', content, re.DOTALL)
+number_of_tests = sc.find(r'PCR-Tes\s?ts\sTotal\s+(\d+)\s', content)
+res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+\d+\.\d+ Tage', content, re.DOTALL)
 if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
     data.datetime = date
