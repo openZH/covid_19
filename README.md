@@ -4,7 +4,8 @@
 [![GitHub commit](https://img.shields.io/github/last-commit/openZH/covid_19)](https://github.com/openZH/covid_19/commits/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
-> **Dear users/interested folks** <br>
+> **Limited maintenance of data from Cantons & FL over the festive period (affects not: data from Canton of Zurich)**
+Dear users/interested folks <br>
 *Maintenance of our initiative* to make Covid19 public health data - communicated by cantons & FL - available as #OGD is going to be *limited over the festive period*. <br>
 We have got some advice for you here: https://github.com/openZH/covid_19/issues/1501
 
