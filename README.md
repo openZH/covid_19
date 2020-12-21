@@ -5,10 +5,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openZH/covid_19/master?filepath=visualise.ipynb)
 
 > **Dear users/interested folks** <br>
-of Covid19 data communicated by Cantons & FL available as #OGD, <br>
-we would like to learn from you, what data *in our repo* you are using, and if it isn't available elsewhere? <br>
-**Thanks for answering our questions:** <br>
-https://github.com/openZH/covid_19/discussions?discussions_q=sort%3Atop
+*Maintenance of our initiative* to make Covid19 public health data - communicated by cantons & FL - available as #OGD is going to be *limited over the festive period*. <br>
+We have got some advice for you here: https://github.com/openZH/covid_19/issues/1501
 
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
