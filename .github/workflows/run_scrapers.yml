@@ -19,7 +19,7 @@ jobs:
           - AR
           - BE
           - BL
-#          - BS # disable BS, data is updated manually for now
+          - BS
           - FR
           - GE
           - GL

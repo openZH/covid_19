@@ -73,7 +73,7 @@ try:
         url_match = re.search('# URLs: ([^#]+)', rest)
         try:
             url_source = url_match.group(1).strip().split(', ')[-1]
-        except (TypeError, IndexError):
+        except (TypeError, IndexError, AttributeError):
             url_source = ''
         if url_source:
             data['source'] = url_source
@@ -141,7 +141,8 @@ try:
                         'current_quarantined',
                         'ncumul_ICF', # GE only
                         'ncumul_confirmed_non_resident', # BS only
-                        'hosp_non_resident', # BS only
+                        'current_hosp_non_resident', # BS only
+                        'current_hosp_resident', # BS only
                         'current_quarantined_riskareatravel', # ZG/BS only
                         'current_quarantined_total', # ZG/BS only
                     ]
