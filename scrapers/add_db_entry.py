@@ -141,7 +141,8 @@ try:
                         'current_quarantined',
                         'ncumul_ICF', # GE only
                         'ncumul_confirmed_non_resident', # BS only
-                        'hosp_non_resident', # BS only
+                        'current_hosp_non_resident', # BS only
+                        'current_hosp_resident', # BS only
                         'current_quarantined_riskareatravel', # ZG/BS only
                         'current_quarantined_total', # ZG/BS only
                     ]
