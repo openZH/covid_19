@@ -13,7 +13,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-09,12:00,BS,,28,,19,1,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236973685602426881?s=20,,,3,6,,,13
 2020-03-10,12:00,BS,,33,,23,2,,,,https://twitter.com/BAG_OFSP_UFSP/status/1237336196772175873?s=20,,,3,7,,,16
 2020-03-11,12:00,BS,,49,,27,2,,4,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-ende-der-quarantaenemassnahmen-im-fall-kita-riehen-gd.html,36,,3,7,,,20
-2020-03-12,12:00,BS,,73,,30,2,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238073089902235648?s=20 https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-todesfall-im-kanton-basel-stadt-gd.html,,,3,8,,,22
+2020-03-12,12:00,BS,,73,,30,2,,4,1,"https://twitter.com/BAG_OFSP_UFSP/status/1238073089902235648?s=20 https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-todesfall-im-kanton-basel-stadt-gd.html",,,3,8,,,22
 2020-03-13,12:30,BS,,92,,31,4,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238430659762364417?s=20,,,3,8,,,23
 2020-03-14,11:27,BS,,100,,39,5,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238773726423941127?s=20,,,3,10,,,29
 2020-03-15,12:00,BS,,,,41,6,,,,,,,,11,,,30
@@ -32,10 +32,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-28,10:00,BS,,569,,86,12,,211,13,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-573-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,357,22,,,64
 2020-03-29,10:00,BS,,605,,89,12,,228,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-609-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,365,20,,,69
 2020-03-30,10:00,BS,,617,,104,15,,263,15,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-621-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,368,23,,,81
-2020-03-31,10:00,BS,,653,,107,16,,292,16,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-628-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,373,20,,,87
+2020-03-31,10:00,BS,,653,,107,16,,292,16,"https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-628-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html",,,373,20,,,87
 2020-04-01,10:00,BS,,687,,117,17,,323,18,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-691-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,395,24,,,93
 2020-04-02,10:00,BS,,714,,112,17,,350,19,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-718-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,400,22,,,90
-2020-04-03,08:30,BS,,754,,109,16,,397,21,https://www.gd.bs.ch/nm/2020-tagesbulletin-coronavirus-748-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-771-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,411,21,,,88
+2020-04-03,08:30,BS,,754,,109,16,,397,21,"https://www.gd.bs.ch/nm/2020-tagesbulletin-coronavirus-748-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-771-bestaetigte-faelle-im-kanton-basel-stadt-gd.html",,,411,21,,,88
 2020-04-04,10:15,BS,,767,,105,15,,434,24,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-771-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,414,23,,,82
 2020-04-05,10:15,BS,,789,,97,13,,460,26,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-794-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,425,21,,,76
 2020-04-06,09:45,BS,,798,,98,13,,481,26,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-803-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,427,18,,,80
@@ -107,70 +107,70 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-06-11,09:30,BS,,983,,3,2,,929,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-983-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html,4,5,509,3,,5,0
 2020-06-12,09:30,BS,,983,,3,2,,930,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-983-bestaetigte-faelle-im-kanton-basel-stadt-gd-4.html,3,5,509,3,,5,0
 2020-06-13,09:30,BS,,983,,3,2,,931,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,2,4,509,3,,4,0
-2020-06-14,09:30,BS,,983,,3,2,,932,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip,1,2,509,3,,2,0
+2020-06-14,09:30,BS,,983,,3,2,,932,50,"https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip",1,2,509,3,,2,0
 2020-06-15,09:30,BS,,983,,3,2,,932,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,1,0,509,3,,0,0
 2020-06-16,09:30,BS,,983,,3,2,,932,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-983-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html,1,0,509,3,,0,0
 2020-06-17,09:30,BS,,984,,3,2,,932,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-984-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,2,3,509,3,,3,0
 2020-06-18,09:30,BS,,984,,3,2,,933,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-984-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html,1,3,509,3,,3,0
 2020-06-19,09:30,BS,,985,,3,2,,933,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,2,3,509,3,,3,0
 2020-06-20,09:30,BS,,985,,2,1,,933,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,2,4,509,2,,4,0
-2020-06-21,09:30,BS,,985,,2,1,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip,1,4,509,2,,4,0
+2020-06-21,09:30,BS,,985,,2,1,,934,50,"https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip",1,4,509,2,,4,0
 2020-06-22,09:30,BS,,985,,2,1,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,1,6,509,2,,6,0
 2020-06-23,10:00,BS,,985,,2,1,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html,1,4,509,2,,4,0
 2020-06-24,09:30,BS,,985,,1,1,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html,1,5,509,1,,5,0
 2020-06-25,09:30,BS,,985,,1,1,,934,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-unveraendert-985-bestaetigte-faelle-im-kanton-basel-stadt-gd-4.html,1,6,509,1,,6,0
 2020-06-26,08:50,BS,,985,,1,1,,934,50,https://www.gesundheit.bs.ch,1,6,509,1,,6,0
 2020-06-27,09:20,BS,,985,,1,1,,934,50,https://www.gesundheit.bs.ch,1,5,509,1,,5,0
-2020-06-28,13:00,BS,,985,,1,1,,934,50,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip,1,5,510,1,,5,0
+2020-06-28,13:00,BS,,985,,1,1,,934,50,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip",1,5,510,1,,5,0
 2020-06-29,09:45,BS,,985,,1,1,,934,50,https://www.gesundheit.bs.ch,1,6,510,1,,6,0
 2020-06-30,08:30,BS,,985,,0,0,,935,50,https://www.gesundheit.bs.ch,0,7,510,0,,7,0
 2020-07-01,09:15,BS,,985,,0,0,,935,50,https://www.gesundheit.bs.ch,0,7,510,0,,7,0
 2020-07-02,09:00,BS,,986,,1,0,,935,50,https://www.gesundheit.bs.ch,1,7,510,0,,7,1
 2020-07-03,09:30,BS,,988,,3,0,,935,50,https://www.gesundheit.bs.ch,3,10,510,1,,10,2
 2020-07-04,09:15,BS,,989,,3,0,,935,50,https://www.gesundheit.bs.ch,4,12,510,1,,12,2
-2020-07-05,09:00,BS,,990,,4,1,,935,50,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip,5,10,510,1,,10,3
+2020-07-05,09:00,BS,,990,,4,1,,935,50,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/bisherige-lageberichte-zip.zip.download.zip/Epidemiologische_Lage_Schweiz.zip",5,10,510,1,,10,3
 2020-07-06,08:15,BS,,990,,4,1,,935,50,https://www.gesundheit.bs.ch,5,,510,1,,10,3
 2020-07-07,08:00,BS,,993,,5,1,,935,50,https://www.gesundheit.bs.ch,8,,510,1,,16,4
 2020-07-08,08:15,BS,,996,,5,1,,935,50,https://www.gesundheit.bs.ch,11,,510,1,,24,4
 2020-07-09,09:00,BS,,999,,5,1,,935,50,https://www.gesundheit.bs.ch,13,,510,1,,46,4
 2020-07-10,08:15,BS,,1004,,4,1,,935,50,https://www.gesundheit.bs.ch,18,,510,0,,57,4
 2020-07-11,09:00,BS,,1006,,3,1,,937,50,https://www.gesundheit.bs.ch,18,64,510,0,20,84,3
-2020-07-12,08:45,BS,,1008,,5,1,,937,50,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,21,90,510,1,18,108,4
+2020-07-12,08:45,BS,,1008,,5,1,,937,50,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",21,90,510,1,18,108,4
 2020-07-13,10:00,BS,,1009,,5,1,,940,50,https://www.gesundheit.bs.ch,19,,510,1,,138,4
 2020-07-14,08:35,BS,,1014,,5,2,,940,50,https://www.gesundheit.bs.ch,24,39,510,1,130,169,4
 2020-07-15,08:45,BS,,1016,,5,2,,943,50,https://www.gesundheit.bs.ch,23,39,510,1,161,200,4
 2020-07-16,08:25,BS,,1018,,6,3,,943,50,https://www.gesundheit.bs.ch,25,42,510,1,168,210,5
 2020-07-17,08:15,BS,,1022,,6,2,,949,50,https://www.gesundheit.bs.ch,23,48,510,1,188,236,5
 2020-07-18,10:00,BS,,1024,,6,2,,956,50,https://www.gesundheit.bs.ch,18,44,510,1,206,250,5
-2020-07-19,14:44,BS,,1025,,7,3,,958,50,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,17,32,510,1,247,279,6
+2020-07-19,14:44,BS,,1025,,7,3,,958,50,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",17,32,510,1,247,279,6
 2020-07-20,08:45,BS,,1026,,6,3,,958,50,https://www.gesundheit.bs.ch,18,32,510,1,246,278,5
 2020-07-21,08:45,BS,,1032,,5,3,,963,50,https://www.gesundheit.bs.ch,18,32,510,1,294,326,4
 2020-07-22,07:50,BS,,1032,,4,2,,964,50,https://www.gesundheit.bs.ch,19,39,511,1,309,348,3
 2020-07-23,09:00,BS,,1033,,4,2,,964,51,https://www.gesundheit.bs.ch,18,35,511,1,281,316,3
 2020-07-24,08:45,BS,,1034,,4,2,,968,51,https://www.gesundheit.bs.ch,15,31,511,0,327,358,4
 2020-07-25,09:00,BS,,1035,,3,2,,969,51,https://www.gesundheit.bs.ch,15,30,512,0,386,416,3
-2020-07-26,08:30,BS,,1036,,3,2,,969,52,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,16,26,512,0,444,470,3
+2020-07-26,08:30,BS,,1036,,3,2,,969,52,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",16,26,512,0,444,470,3
 2020-07-27,10:00,BS,,1038,,3,1,,969,52,https://www.gesundheit.bs.ch,17,27,512,0,426,453,3
 2020-07-28,09:00,BS,,1039,,4,0,,971,52,https://www.gesundheit.bs.ch,16,26,513,0,427,453,4
 2020-07-29,11:30,BS,,1043,,5,0,,971,52,https://www.gesundheit.bs.ch,20,21,513,0,462,483,5
 2020-07-30,09:15,BS,,1052,,5,0,,972,52,https://www.gesundheit.bs.ch,28,30,514,0,487,517,5
 2020-07-31,09:35,BS,,1054,,5,1,,973,52,https://www.gesundheit.bs.ch,29,30,514,0,555,585,5
 2020-08-01,10:10,BS,,1064,,7,1,,973,52,https://www.gesundheit.bs.ch,39,33,515,0,570,603,7
-2020-08-02,10:00,BS,,1068,,8,1,,974,52,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,42,41,515,0,546,587,8
+2020-08-02,10:00,BS,,1068,,8,1,,974,52,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",42,41,515,0,546,587,8
 2020-08-03,09:30,BS,,1069,,8,1,,975,52,https://www.gesundheit.bs.ch,42,44,515,0,467,511,8
 2020-08-04,09:00,BS,,1073,,8,1,,975,52,https://www.gesundheit.bs.ch,45,46,515,0,527,573,8
 2020-08-05,08:30,BS,,1079,,8,0,,981,52,https://www.gesundheit.bs.ch,43,52,515,0,498,550,8
 2020-08-06,09:30,BS,,1081,,8,0,,984,52,https://www.gesundheit.bs.ch,45,56,515,0,471,527,8
 2020-08-07,09:00,BS,,1082,,8,0,,988,52,https://www.gesundheit.bs.ch,42,53,516,0,428,481,8
 2020-08-08,09:30,BS,,1083,,7,0,,991,52,https://www.gesundheit.bs.ch,40,52,516,0,431,483,7
-2020-08-09,09:30,BS,,1085,,8,0,,995,52,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,38,44,516,0,370,414,8
+2020-08-09,09:30,BS,,1085,,8,0,,995,52,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",38,44,516,0,370,414,8
 2020-08-10,09:45,BS,,1087,,9,0,,996,52,https://www.gesundheit.bs.ch,39,43,516,1,395,438,8
 2020-08-11,08:45,BS,,1092,,6,0,,1006,53,https://www.gesundheit.bs.ch,33,41,518,1,466,507,5
 2020-08-12,08:00,BS,,1098,,5,0,,1013,53,https://www.gesundheit.bs.ch,32,43,520,1,497,540,4
 2020-08-13,09:50,BS,,1110,,5,0,,1015,53,https://www.gesundheit.bs.ch,41,42,520,1,474,516,4
 2020-08-14,09:00,BS,,1115,,9,0,,1022,53,https://www.gesundheit.bs.ch,40,49,520,2,406,455,7
 2020-08-15,09:40,BS,,1135,,8,0,,1022,53,https://www.gesundheit.bs.ch,60,76,521,2,428,504,6
-2020-08-16,10:50,BS,,1140,,8,0,,1028,53,https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf,59,97,521,2,451,548,6
+2020-08-16,10:50,BS,,1140,,8,0,,1028,53,"https://www.gesundheit.bs.ch https://www.bag.admin.ch/dam/bag/de/dokumente/mt/k-und-i/aktuelle-ausbrueche-pandemien/2019-nCoV/covid-19-woechentlicher-lagebericht.pdf.download.pdf/BAG_COVID-19_Woechentliche_Lage.pdf",59,97,521,2,451,548,6
 2020-08-17,10:30,BS,,1144,,8,0,,1028,53,https://www.gesundheit.bs.ch,64,35,521,2,519,554,6
 2020-08-18,08:00,BS,,1149,,10,0,,1031,53,https://www.gesundheit.bs.ch,65,132,526,2,462,594,8
 2020-08-19,09:00,BS,,1160,,8,0,,1035,53,https://www.gesundheit.bs.ch,72,133,526,1,460,593,7
