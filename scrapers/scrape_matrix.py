@@ -25,7 +25,7 @@ matrix = {
     'LU': [], # LU does not always provide the same numbers 
     'NE': [], # NE does not always provide the same numbers
     'NW': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
-    'OW': ['Confirmed cases', 'Deaths', 'Hospitalized'],
+    'OW': [], # TODO: on 2020-12-22 OW did only provide hospitalisations, check again later
     'SG': ['Confirmed cases', 'Deaths'],
     'SH': ['Confirmed cases', 'Deaths'],
     'SO': ['Confirmed cases'],
