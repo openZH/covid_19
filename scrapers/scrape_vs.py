@@ -37,7 +37,7 @@ if dd:
     print(dd)
 
 
-xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20%20COVID-19%20Valais.xlsx'
+xls_url = 'https://raw.githubusercontent.com/statistikZH/covid19_drop/master/Chiffres%20COVID-19%20Valais.xlsx'
 main_url = 'https://www.vs.ch/de/web/coronavirus'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=1)
