@@ -7422,6 +7422,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-22,,GR,,7467,,36,7,5,,132,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,764,928,
 2020-12-22,,LU,,,,107,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,2007,2054,98
 2020-12-22,,NW,,1300,,8,2,,,12,http://www.nw.ch/coronastatistik,120,179,9
+2020-12-22,,SG,,25373,,173,25,21,,458,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-12-22,,TI,,21157,,350,39,33,1992,710,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1520,2396,
 2020-12-22,,VS,,24745,,81,18,13,,581,https://www.vs.ch/de/web/coronavirus,,,
 2020-12-22,00:00,OW,,,,5,,,,,https://www.ow.ch/dl.php/de/5fe1c159d3224/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,97,138,
@@ -7436,4 +7437,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-22,11:30,BS,,7476,,153,18,,6587,130,https://www.gesundheit.bs.ch,759,739,
 2020-12-22,12:00,AI,,653,,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,28,36,
 2020-12-22,14:30,ZH,,62678,,508,101,72,,747,https://www.zh.ch/de/gesundheit/coronavirus.html,6446,,
-2020-12-23,00:00,UR,,1266,,7,,,,32,https://www.ur.ch/themen/2962,,250,
+2020-12-23,00:00,UR,,1266,,7,,,,32,https://www.ur.ch/themen/2962,,252,
