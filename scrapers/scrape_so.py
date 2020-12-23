@@ -21,14 +21,14 @@ rows = []
 
 date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
 number_of_tests = sc.find(r'PCR-Tes\s?ts\sTotal\s+(\d+)\s', content)
-res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+\d+\.\d+ Tage', content, re.DOTALL)
+res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+', content, re.DOTALL)
 if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
     data.datetime = date
     data.tested = number_of_tests
     data.isolated = soc.strip_value(res[1])
-    data.quarantined = soc.strip_value(res[2])
-    data.quarantine_riskareatravel = soc.strip_value(res[3])
+    data.quarantined = int(soc.strip_value(res[2])) + int(soc.strip_value(res[3]))
+    data.quarantine_riskareatravel = soc.strip_value(res[4])
     rows.append(data)
 
 
