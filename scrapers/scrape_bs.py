@@ -10,6 +10,8 @@ d_csv = sc.download('https://data.bs.ch/explore/dataset/100073/download/?format=
 reader = csv.DictReader(StringIO(d_csv), delimiter=',')
 is_first = True
 for row in reader:
+    if not row['time']:
+        continue
     if not is_first:
         print('-' * 10)
     is_first = False
