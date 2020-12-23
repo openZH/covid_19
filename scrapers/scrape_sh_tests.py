@@ -40,10 +40,15 @@ for content_id in content_ids:
     td.start_date = start_date.isoformat()
     td.end_date = date.isoformat()
 
-    content = sc.pdftotext(pdf, page=13)
+    content = sc.pdftotext(pdf, page=14)
     # remove ' separator to simplify pattern matching
     content = re.sub(r'(\d)\’(\d)', r'\1\2', content)
     td.total_tests = sc.find(r'In\s+der\s+letzten\s+Woche\s+wurden\s+(\d+)\s+(durchgef.hrte\s+)?Tests', content)
-    td.positivity_rate = sc.find(r'Die Positivitätsrate[\w+\s+]+\(\d+\.?\d?%\)?[\w+\s+]+\s+(\d+\.?\d?)%', content, flags=re.MULTILINE | re.DOTALL)
+    td.positivity_rate = sc.find(r'Die\sPositivitätsrate\sbetrug\s+(\d+\.?\d?)%\s', content)
+    if not td.positivity_rate:
+        td.positivity_rate = sc.find(r'Die\sPositivitätsrate.*Vorwoche\s\(\d+\.?\d?%\)\s[\w+\s+]+\s(\d+\.?\d?)%\s.*\.', content, flags=re.MULTILINE | re.DOTALL)
+
+    assert td.total_tests
+    assert td.positivity_rate
 
     print(td)
