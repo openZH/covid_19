@@ -22,10 +22,16 @@ for pdf_url in pdf_urls:
 
         if sc.find(r'(Dynamique et tendances épidémiologiques)', content):
             weekly_tests = sc.find(r'avec\s(\d+)\stests\s(effectués\s?)?(contre|\.)', content)
-            res = re.match(r'.*taux\sde\spositivité.*\s\(?(\d+\.?\d?)%\)?\s(en|durant).*\d+\.?\d?%', content, re.MULTILINE | re.DOTALL)
-            positivity_rate = None
-            if res:
-                positivity_rate = res[1]
+            if not weekly_tests:
+                weekly_tests = sc.find(r'(\d+)\stests\sont\sété\seffectué', content)
+            if not weekly_tests:
+                weekly_tests = sc.find(r'Durant\sla\ssemaine\s\d+,\s(\d+)\stests\scontre', content)
+
+            positivity_rate = sc.find(r'Il est de (\d+\.?\d?)%, contre \d+\.?\d?%', content)
+            if not positivity_rate:
+                res = re.match(r'.*taux\sde\spositivité.*\s\(?(\d+\.?\d?)%\)?\s(en|durant).*\d+\.?\d?%', content, re.MULTILINE | re.DOTALL)
+                if res:
+                    positivity_rate = res[1]
 
             if weekly_tests and positivity_rate:
                 td = sc.TestData(canton='GE', url=pdf_url)
