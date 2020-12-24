@@ -51,7 +51,7 @@ for row in rows:
     dd.datetime = f"{row['A'].date().isoformat()} {row['A'].time().isoformat()}"
     dd.cases = row['Gesamtzahl']
 
-    non_icu = row['Bestätigte Fälle ohne IPS/IMC']
+    non_icu = row['Bestätigte Fälle auf Abteilung (ohne IPS/IMC)']
     icu = row['Bestätigte Fälle Intensivpflegestation (IPS)']
     icf = row['Bestätigte Fälle Intermediate Care (IMC)']
     if sc.represents_int(non_icu) and sc.represents_int(icu) and sc.represents_int(icf):
