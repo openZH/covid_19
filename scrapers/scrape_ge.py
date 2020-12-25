@@ -6,6 +6,7 @@ import datetime
 import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import scrape_common as sc
 import scrape_ge_common as sgc
 
@@ -49,7 +50,9 @@ if dd_hosp:
     print(dd_hosp)
 
 
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
 driver.implicitly_wait(5)
 
 url = 'https://infocovid.smc.unige.ch/'
