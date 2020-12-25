@@ -72,6 +72,7 @@ xls = sc.xlsdownload(quarantine_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     dd = sc.DayData(canton='GE', url=url)
+    dd.datetime = row['date']
     dd.isolated = row['isolement déjà en cours']
     dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
     dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
