@@ -38,6 +38,7 @@ jobs:
         pip install -r requirements-ocr.txt
         sudo apt update || true # do not fail if update does not work
         sudo apt-get install poppler-utils
+        sudo apt-get install chromium-browser
 
     - name: Test run of all scrapers
       run: ./scrapers/test_scraper.sh

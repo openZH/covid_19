@@ -3,8 +3,10 @@
 
 import re
 import datetime
-import sys
+import time
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import scrape_common as sc
 import scrape_ge_common as sgc
 
@@ -48,51 +50,60 @@ if dd_hosp:
     print(dd_hosp)
 
 
-# xls
-d = sc.download('https://www.ge.ch/document/covid-19-donnees-completes-debut-pandemie', silent=True)
-soup = BeautifulSoup(d, 'html.parser')
-xls_url = soup.find(title=re.compile("\.xlsx$")).get('href')
-assert xls_url, "xls URL is empty"
-if not xls_url.startswith('http'):
-    xls_url = f'https://www.ge.ch{xls_url}'
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
+driver.implicitly_wait(5)
 
-xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=0, skip_rows=2)
-for i, row in enumerate(rows):
-    if not isinstance(row['Date'], datetime.datetime):
-        print(f"WARNING: {row['Date']} is not a valid date, skipping.", file=sys.stderr)
-        continue
-    if not is_first:
-        print('-' * 10)
-    is_first = False
-    
-    # TODO: remove when source is fixed
-    # handle wrong value on 2020-04-09, see issue #819
-    if row['Date'].date().isoformat() == '2020-04-09':
-        row['Cumul COVID-19 sorties d\'hospitalisation'] = ''
+url = 'https://infocovid.smc.unige.ch/'
+driver.get(url)
+elem = driver.find_element_by_link_text('Tables')
+elem.click()
 
-    dd = sc.DayData(canton='GE', url=xls_url)
-    dd.datetime = row['Date'].date().isoformat()
+# get quarantine xls
+elem = driver.find_element_by_partial_link_text('cas et quarantaines')
+elem.click()
+# needs delay, that the link is present
+time.sleep(1)
+elem = driver.find_element_by_id('download_table_cas')
+quarantine_xls_url = elem.get_attribute('href')
+
+xls = sc.xlsdownload(quarantine_xls_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0)
+for row in rows:
+    dd = sc.DayData(canton='GE', url=url)
+    dd.datetime = row['date']
+    dd.isolated = row['isolement déjà en cours']
+    dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
+    dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
+
+    if dd:
+        if not is_first:
+            print('-' * 10)
+        is_first = False
+        print(dd)
+
+
+# get cases xls
+elem = driver.find_element_by_partial_link_text('Indicateurs principaux')
+elem.click()
+# needs delay, that the link is present
+time.sleep(1)
+elem = driver.find_element_by_id('download_table_incidence')
+case_xls_url = elem.get_attribute('href')
+
+xls = sc.xlsdownload(case_xls_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0)
+for row in rows:
+    dd = sc.DayData(canton='GE', url=url)
+    dd.datetime = row['Date']
     dd.cases = row['Cumul cas COVID-19']
     dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']
     dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
     dd.deaths = row['Cumul décès COVID-19 ']
-
-    # Since 2020-11-17 GE does no longer publish data about isolated and quarantined
-    #dd.isolated = row['Nombre de personnes en isolement ce jour']
-    #dd.quarantined = row['Nombre de personnes en quarantaine ce jour ']
-    #dd.quarantine_riskareatravel = row['Nombre de personnes en quarantaine ce jour suite à un retour de voyage']
-
-    # Since 2020-07-01 new_hosp is no longer provided
-    #dd.new_hosp = row['Nb nouveaux patients COVID-19 hospitalisés']
-
-    ## Since 2020-07-27 vent is no longer provided 
-    #dd.vent = row['Patients COVID-19 aux soins intensifs intubés']
-
-    # TODO: check if Nombre tests is added again
-    # on 2020-06-09 GE removed the `Nombre tests` column
-    #dd.tested = sum(r['Nombre tests'] for r in rows[:i+1])
     if dd:
+        if not is_first:
+            print('-' * 10)
+        is_first = False
         print(dd)
-

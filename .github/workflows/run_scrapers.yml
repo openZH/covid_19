@@ -62,6 +62,9 @@ jobs:
         sudo apt update || true # do not fail if update does not work
         sudo apt-get install sqlite3
         sudo apt-get install poppler-utils
+        if [ "$SCRAPER_KEY" = "GE" ] ; then
+                sudo apt-get install chromium-browser
+        fi
 
     - name: Scrape new data
       env:
