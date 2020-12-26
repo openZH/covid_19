@@ -7471,6 +7471,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-24,,FL,,1920,,,,,,,https://www.regierung.li/media/attachments/765-corona-situationsbericht-1224.pdf,,,
 2020-12-24,,FR,,22858,,57,10,,678,402,https://www.fr.ch/sites/default/files/2020-12/201225_statistiques_situation_COVID_site_V2_0.xlsx,,,
 2020-12-24,,GE,,,,,12,,,,https://www.hug.ch/coronavirus-maladie-covid-19/situation-aux-hug,,,
+2020-12-24,,GR,,7653,,44,7,5,,133,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,773,948,
 2020-12-24,,JU,,4305,,,,,,106,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-24,,NE,,11226,,42,6,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-12-24,,NW,,1331,,4,1,,,12,http://www.nw.ch/coronastatistik,104,153,18
@@ -7490,6 +7491,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-25,,FL,,1980,,,,,,,https://www.regierung.li/media/attachments/766-corona-situationsbericht-1225.pdf,,,
 2020-12-25,,FR,,22907,,54,12,,680,402,https://www.fr.ch/sites/default/files/2020-12/201225_statistiques_situation_COVID_site_V2_0.xlsx,,,
 2020-12-25,,GE,,,,,13,,,,https://www.hug.ch/coronavirus-maladie-covid-19/situation-aux-hug,,,
+2020-12-25,,GR,,7714,,47,8,6,,134,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,721,852,
 2020-12-25,,NW,,1339,,5,1,,,12,http://www.nw.ch/coronastatistik,104,155,17
 2020-12-25,,TI,,22036,,343,38,33,2079,728,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-12-25,01:00,SO,,10067,,52,13,,,184,https://corona.so.ch/,,,
