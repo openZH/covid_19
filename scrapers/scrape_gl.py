@@ -32,12 +32,12 @@ if number_of_tests:
         print(dd)
 
 
-content = sc.pdftotext(pdf, page=2, layout=True)
-dates = split_whitespace(sc.find(r'\n\s+(\d+\.\d+\s+\d+\.\d+\s+.*)\n\s+Massenquarant.ne', content))
-travel_q = split_whitespace(sc.find(r'\n\s+Einreisequarant.ne\s+(\d.*)\n', content))
-isolation = split_whitespace(sc.find(r'\n\s+Isolation\s+(\d.*)\n', content))
-quarantined = split_whitespace(sc.find(r'\n\s+KP Quarant.ne\s+(\d.*)\n', content))
-ips = split_whitespace(sc.find(r'\n\s+Covid Patienten in IPS\s+(\d.*)\n', content))
+content = sc.pdftotext(pdf, page=2, raw=True)
+dates = split_whitespace(sc.find(r'\n(\d+\.\d+\s+\d+\.\d+\s+.*)\nMassenquarant.ne', content))
+travel_q = split_whitespace(sc.find(r'\nEinreisequarant.ne\s+(\d.*)\n', content))
+isolation = split_whitespace(sc.find(r'\nIsolation\s+(\d.*)\n', content))
+quarantined = split_whitespace(sc.find(r'\nQuarant.ne\s+(\d.*)\n', content))
+ips = split_whitespace(sc.find(r'\nCovid Patienten in IPS\s+(\d.*)\n', content))
 
 if len(dates) == len(travel_q) == len(isolation) == len(quarantined) == len(ips):
     for date, tq, iso, qua, ip in zip(dates, travel_q, isolation, quarantined, ips):
