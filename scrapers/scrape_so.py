@@ -46,6 +46,8 @@ if data_table:
         tmp_date = None
         tmp_time = None
         for cell in row.find_all(['td']):
+            if not cell.string:
+                continue
             if headers[col_num] == 'Datum':
                 tmp_date = cell.string.strip()
             elif headers[col_num] == 'Zeit':
