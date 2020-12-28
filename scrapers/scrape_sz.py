@@ -10,8 +10,12 @@ import scrape_common as sc
 d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
-pdfs = soup.find_all('a', string=re.compile(r'Medienmitteilung vom'))
 is_first = True
+
+"""
+Disabled for now, the PDFs from October 2020 contained hospitalized and quarntined data
+
+pdfs = soup.find_all('a', string=re.compile(r'Medienmitteilung vom'))
 for pdf in pdfs:
     pdf_url = pdf['href']
     pdf_content = sc.pdfdownload(pdf_url, layout=True, silent=True)
@@ -31,7 +35,7 @@ for pdf in pdfs:
     dd.quarantine_riskareatravel = res['qtravel']
     print(dd)
     is_first = False
-
+"""
 
 try:
     xls_url = soup.find('a', string=re.compile(r'Coronaf.lle\s*im\s*Kanton\s*Schwyz'))['href']
