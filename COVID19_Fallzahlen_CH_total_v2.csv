@@ -7351,7 +7351,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-19,,FL,,1711,,,,,,25,https://www.regierung.li/media/attachments/749-corona-situationsbericht-1219.pdf,,,
 2020-12-19,,FR,,22407,,59,10,,664,395,https://www.fr.ch/sites/default/files/2020-12/201228_statistiques_situation_COVID_site_V2_2.xlsx,,,
 2020-12-19,,GE,,39377,,153,16,,,625,https://infocovid.smc.unige.ch/,1651,1527,453
-2020-12-19,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,190,345,
+2020-12-19,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,190,345,0
 2020-12-19,,GR,,7213,,36,7,5,,128,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,882,974,
 2020-12-19,,JU,,4182,,23,1,,,105,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-19,,LU,,14628,,,,,,188,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -7373,7 +7373,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-20,,FL,,1758,,,,,,,https://www.regierung.li/media/attachments/750-corona-situationsbericht-1220.pdf,,,
 2020-12-20,,FR,,22475,,58,11,,666,396,https://www.fr.ch/sites/default/files/2020-12/201228_statistiques_situation_COVID_site_V2_2.xlsx,,,
 2020-12-20,,GE,,39466,,147,12,,,625,https://infocovid.smc.unige.ch/,1621,1527,610
-2020-12-20,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,181,327,
+2020-12-20,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,181,327,0
 2020-12-20,,GR,,7254,,39,5,4,,129,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,845,958,
 2020-12-20,,JU,,4205,,28,2,,,106,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-20,,LU,,14735,,,,,,194,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -7521,7 +7521,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-26,,FL,,2000,,,,,,31,https://www.regierung.li/media/attachments/767-corona-situationsbericht-1226.pdf,,,
 2020-12-26,,FR,,22948,,55,10,,683,402,https://www.fr.ch/sites/default/files/2020-12/201228_statistiques_situation_COVID_site_V2_2.xlsx,,,
 2020-12-26,,GE,,40237,,141,12,,,628,https://infocovid.smc.unige.ch/,1337,1276,843
-2020-12-26,,GL,,,,,3,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,123,192,
+2020-12-26,,GL,,,,,3,,,,https://www.gl.ch/public/upload/assets/33720/Sentinella%20Bericht%20KW52.pdf,123,192,26
 2020-12-26,,GR,,7756,,42,8,6,,134,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,675,762,
 2020-12-26,,JU,,4337,,,,,,106,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-26,,LU,,15923,,,,,,217,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -7587,7 +7587,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-29,00:00,OW,,1360,,5,,,,30,https://www.ow.ch/dl.php/de/5feaf96034730/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,100,143,
 2020-12-29,00:00,UR,,1338,,9,,,,32,https://www.ur.ch/themen/2962,,213,
 2020-12-29,01:00,SO,,10380,,71,15,,,198,https://corona.so.ch/,,,
+2020-12-29,08:00,BE,,41992,,309,53,35,,640,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-12-29,08:00,ZG,,4764,,15,4,,4479,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2020-12-29,09:00,SZ,,7480,,,,,6225,135,https://www.sz.ch/public/upload/assets/50612/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-12-29,09:30,SH,,2945,,22,2,,,52,https://sh.ch/CMS/get/file/63dc2268-d63b-4df6-a1e5-456ea5f259c8,268,348,27
 2020-12-29,10:00,TG,,11504,0,85,18,,583,199,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,857,,
+2020-12-29,11:15,BS,,7990,,141,22,,7243,144,https://www.gesundheit.bs.ch,603,514,
