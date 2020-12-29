@@ -7598,6 +7598,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-29,,FR,,23160,52,10,,689,408,https://www.fr.ch/sites/default/files/2020-12/201229_statistiques_situation_COVID_site_V2_0.xlsx,,
 2020-12-29,,GE,,,146,11,,,,https://infocovid.smc.unige.ch/,,
 2020-12-29,,GL,,1537,22,,,,35,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,
+2020-12-29,,GR,,7993,52,7,5,,137,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,,
 2020-12-29,,LU,,,129,,18,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,
 2020-12-29,,NW,,1398,7,2,,,12,http://www.nw.ch/coronastatistik,,
 2020-12-29,,TI,,22786,376,43,36,2127,759,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
