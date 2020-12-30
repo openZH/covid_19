@@ -91,10 +91,13 @@ for day in days:
     dd.icu = data[day].get('Hospitalisierte in Intensivpflege')
     dd.recovered = data[day].get('Genesene')
     dd.deaths = data[day].get('Todesfälle')
-    
+
     # TODO: remove when source is fixed
     # handle wrong value on 2020-07-29
     if day == '2020-07-29 08:00:00':
         dd.recovered = None
+    # handle wrong deaths value on 2020-12-29
+    if day == '2020-12-29 08:00:00':
+        dd.deaths = None
 
     print(dd)
