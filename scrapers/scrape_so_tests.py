@@ -18,10 +18,10 @@ for pdf_url in pdf_urls:
     week1 = res[1]
     week2 = res[2]
 
-    res = re.match(r'.*PCR-Tes\s?ts\sTotal\s+\d+\s+\d+\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
+    res = re.match(r'.*PCR-Tes\s?ts\s+(\d.*\n)?Total\s+\d+\s+\d+\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
     assert res, f'PCR tests for week {week1} or {week2} could not be extracted!'
-    total_tests1 = res[1]
-    total_tests2 = res[2]
+    total_tests1 = res[2]
+    total_tests2 = res[3]
 
     #res = re.match(r'.*Positivit.tsrate\s+\*?\s+\d.*%\s+(\d.*)%\s+(\d.*)%', content, re.DOTALL)
     res = re.match(r'.*Positivit.tsrate\s+\*+?\s+\d+\.?\d?%\s+(\d+\.?\d?)%\s+(\d+\.?\d?)%', content, re.DOTALL)
