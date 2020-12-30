@@ -7582,7 +7582,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-28,,VS,,25351,,68,16,10,,589,https://www.vs.ch/de/web/coronavirus,,,
 2020-12-28,00:00,OW,,1348,,5,,,,30,https://www.ow.ch/dl.php/de/5fec465e0f183/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,99,137,
 2020-12-28,00:00,UR,,1331,,9,,,,32,https://www.ur.ch/themen/2962,,167,
-2020-12-28,01:00,SO,,10288,,70,14,,,191,https://corona.so.ch/index.php?id=27979,,,
+2020-12-28,01:00,SO,,10288,,70,14,,,191,https://corona.so.ch/index.php?id=27979,1182,1834,62
 2020-12-28,08:00,AG,,27574,,179,36,,21755,433,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2134,,283
 2020-12-28,08:00,BE,,41596,,288,47,35,,620,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-12-28,08:00,ZG,,4710,,15,3,,4339,65,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,285,413,125
@@ -7617,10 +7617,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-29,11:15,BS,,7990,,141,22,,7243,144,https://www.gesundheit.bs.ch,603,514,
 2020-12-29,12:00,AI,,686,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,28,56,
 2020-12-29,14:30,ZH,,67741,,514,105,71,,862,https://www.zh.ch/de/gesundheit/coronavirus.html,5514,11430,
-2020-12-30,,FL,,2104,,16,,,,39,https://www.regierung.li/media/attachments/771-corona-situationsbericht-1230.pdf,,402,
+2020-12-30,,FL,,2104,,16,,,1810,39,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,402,
 2020-12-30,,GE,,,,,7,,,,https://infocovid.smc.unige.ch/,1108,930,409
 2020-12-30,,GL,,1565,,17,,,,36,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
-2020-12-30,,LU,,,,119,,15,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1821,2028,
+2020-12-30,,LU,,,,119,,15,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1821,2028,197
 2020-12-30,,TI,,23096,,373,43,34,2152,768,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1391,2327,
 2020-12-30,00:00,OW,,1369,,5,,,,30,https://www.ow.ch/dl.php/de/5fec465e0f183/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,91,158,
 2020-12-30,01:00,SO,,10526,,57,10,,,202,https://corona.so.ch/,,,
