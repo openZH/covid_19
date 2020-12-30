@@ -7,6 +7,8 @@ import scrape_so_common as soc
 
 
 pdf_urls = soc.get_all_weekly_pdf_urls()
+# start with the oldest PDF to have the most recent ones last
+pdf_urls.reverse()
 for pdf_url in pdf_urls:
     content = sc.pdfdownload(pdf_url, layout=True, silent=True, page=1)
     # remove ' separator to simplify pattern matching
