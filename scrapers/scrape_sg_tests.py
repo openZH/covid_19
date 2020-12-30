@@ -16,8 +16,8 @@ for row in reader:
     td = sc.TestData(canton='SG', url=url)
     td.start_date = row['Datum']
     td.end_date = row['Datum']
-    td.positive_tests = row['Positiv (PCR)']
-    td.negative_tests = row['Negativ (PCR)']
+    td.positive_tests = row['Total positive Tests']
+    td.negative_tests = row['Total negative Tests']
     td.total_tests = row['Total Tests']
     if row['Positiv in % vom Total']:
         td.positivity_rate = float(row['Positiv in % vom Total']) * 100
