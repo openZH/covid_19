@@ -23,8 +23,9 @@ for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den
             value = " ".join(cell.stripped_strings)
             if value:
                 value = value.replace("'", "")
-            if value and '*' in value:
+            if value and '*' in value and not '**' in value:
                 # the asteriks (*) indicates a not-current value
+                # ** means "Datenkorrektur"
                 continue
             if value and '(' in value:
                 value = sc.find(r'(\d+)([\s<>br\w]*\(.*\))?', value)
