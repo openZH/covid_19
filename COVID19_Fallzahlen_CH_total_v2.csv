@@ -7624,6 +7624,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-30,,GE,,40813,,138,7,,,628,https://infocovid.smc.unige.ch/,1204,1094,407
 2020-12-30,,GL,,1565,,17,,,,36,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2020-12-30,,GR,,8086,,53,8,7,,137,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,640,776,
+2020-12-30,,JU,,4466,,34,2,,,106,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-30,,LU,,,,119,,15,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1821,2028,197
 2020-12-30,,NW,,1427,,6,2,,,12,http://www.nw.ch/coronastatistik,124,165,12
 2020-12-30,,SG,,27465,,171,27,26,,508,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -7639,6 +7640,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-30,10:45,BS,,8043,,133,23,,7301,148,https://www.gesundheit.bs.ch,594,535,
 2020-12-30,12:00,AI,,694,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,27,49,
 2020-12-30,14:30,ZH,,68636,,492,97,69,,886,https://www.zh.ch/de/gesundheit/coronavirus.html,5514,11430,
-2020-12-31,,GE,,,,,,,,,https://infocovid.smc.unige.ch/,1156,941,
+2020-12-31,,GE,,,,,,,,,https://infocovid.smc.unige.ch/,1156,941,239
 2020-12-31,00:00,UR,,1381,,8,,,,32,https://www.ur.ch/themen/2962,,264,
 2020-12-31,09:00,SZ,,7683,,,,,6370,145,https://www.sz.ch/public/upload/assets/50678/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
