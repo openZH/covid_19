@@ -17,7 +17,9 @@ for url in svc.get_vs_weekly_pdf_urls():
     content = re.sub(r'(\d)\‘(\d)', r'\1\2', content)
 
     td.total_tests = sc.find(r'Anzahl durchgef.hrter Tests.*[\s|\(](\d+)[\s|\.]', content)
-    td.positivity_rate = sc.find(r'Die\s+Positivitätsrate.*\n?.*\s(\d+\.?\d?)%', content)
+    td.positivity_rate = sc.find(r'Die\s+Positivitätsrate.*\n?.*\s(\d+\.?\d?)%\s.*gegen.ber\s\d+\.?\d?%', content)
+    if not td.positivity_rate:
+        td.positivity_rate = sc.find(r'Die\s+Positivitätsrate.*\n?.*\s(\d+\.?\d?)%', content)
 
     # ignore PDFs not providing total count
     if not td.total_tests:
