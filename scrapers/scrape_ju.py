@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import datetime
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
@@ -51,11 +50,7 @@ if data_table:
             is_first = False
 
             dd = sc.DayData(canton='JU', url=url)
-            current_year = datetime.datetime.now().year
-            if row.get('Date') and not re.search(f'{current_year}', row.get('Date')):
-                dd.datetime = f"{row.get('Date', '')} {current_year}"
-            else:
-                dd.datetime = row.get('Date', '')
+            dd.datetime = row.get('Date', '')
             dd.datetime = dd.datetime.replace('1 er', '1')
 
             dd.cases = row.get('Cumul des cas confirmés')
