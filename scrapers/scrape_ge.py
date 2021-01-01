@@ -17,7 +17,7 @@ pdf_url = sgc.get_latest_ge_weekly_pdf_url()
 pdf = sc.pdfdownload(pdf_url, silent=True)
 
 week_number = sc.find(r'Situation semaine (\d+)', pdf)
-week_end_date = datetime.datetime.strptime('2020-W' + week_number + '-7', '%G-W%V-%u').date()
+week_end_date = datetime.datetime.strptime('2021-W' + week_number + '-7', '%G-W%V-%u').date()
 number_of_tests = sc.find(r'Au total, (\d+\'\d+) tests PCR ont', pdf)
 
 if number_of_tests is not None:
@@ -39,7 +39,7 @@ content = soup.find(string=re.compile("Evolution du nombre de malades.*")).find_
 
 dd_hosp = sc.DayData(canton='GE', url=hosp_url)
 hosp_date = sc.find(r'^Au (\d+\s*(:?\w+)?\s+\w+)\s+à\s+\d+h', content, flags=re.I|re.UNICODE)
-dd_hosp.datetime = f'{hosp_date} 2020'
+dd_hosp.datetime = f'{hosp_date} 2021'
 dd_hosp.hospitalized = sc.find(r'(\d+) malades Covid actif', content)
 dd_hosp.icu = sc.find(r'(\d+) aux soins intensifs', content)
 dd_hosp.icf = sc.find(r'(\d+) aux soins intermédiaires', content)
