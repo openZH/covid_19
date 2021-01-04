@@ -48,12 +48,17 @@ year = soup.find(string=re.compile(year_re))
 year = sc.find(year_re, year)
 
 weeks = []
+years = []
 week_regex = re.compile(r'Woche \d+')
 trs = table.find_all('tr')
 for header in trs[0]:
     week = sc.find(r'Woche (\d+)', header.string)
     if week is not None:
         weeks.append(week)
+        if int(week) > 50:
+            years.append('2020')
+        else:
+            years.append('2021')
 
 for tr in trs[1:]:
     tds = tr.find_all('td')
@@ -64,7 +69,9 @@ for tr in trs[1:]:
             dd = sc.DistrictData(canton='FR', district=district)
             dd.url = url
             dd.week = weeks[i]
-            dd.year = '20' + year
+            # TODO restore once all weeks are in 2021
+            # dd.year = '20' + year
+            dd.year = years[i]
             dd.new_cases = tds[i + 1].string
             dd.population = inhabitants[district]
             dd.district_id = district_ids[district]
