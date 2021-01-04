@@ -32,9 +32,6 @@ for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den
 
             if headers[col_num] == 'Datum':
                 date_string = "".join(list(cell.stripped_strings)[0:-1])
-                # TODO remove this, once the source is fixed
-                if date_string == '02.01.2020':
-                    date_string = '02.01.2021'
                 time_string = list(cell.stripped_strings)[-1]
                 dd.datetime = f'{date_string} {time_string}'
             elif headers[col_num] == 'Fälle positiv':
