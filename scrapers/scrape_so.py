@@ -50,6 +50,8 @@ if data_table:
                 continue
             if headers[col_num] == 'Datum':
                 tmp_date = cell.string.strip()
+                # temporary workaround
+                tmp_date = tmp_date.replace('.01.2020', '.01.2021')
             elif headers[col_num] == 'Zeit':
                 tmp_time = cell.string.strip()
             elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
