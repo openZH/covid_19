@@ -1,6 +1,4 @@
 date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,TotalPosTests1,ninst_ICU_intub
-2020-01-04,01:00,SO,,10992,,68,13,,,217,https://corona.so.ch/index.php?id=27979,,,
-2020-01-05,01:00,SO,,11104,,67,11,,,218,https://corona.so.ch/index.php?id=27979,,,
 2020-01-24,,GE,4,,,,,,,,https://www.ge.ch/document/20094/annexe/0,,,
 2020-01-25,,GE,8,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,,
 2020-01-26,,GE,11,0,,,,,,,https://www.ge.ch/document/21502/telecharger,,,
@@ -7765,3 +7763,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-05,08:00,ZG,,5137,,19,4,,4738,75,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-01-05,09:00,SH,,3086,,17,2,,,54,https://sh.ch/CMS/get/file/3e6370b5-6a06-494a-bff8-e9acce037596,192,255,20
 2021-01-05,09:00,SZ,,7946,,,,,6880,155,https://www.sz.ch/public/upload/assets/50764/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
+2021-01-05,10:10,AR,,2526,,16,1,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,,,
