@@ -14,6 +14,7 @@ dd = sc.DayData(canton='OW', url=url)
 dd.datetime = sc.find(r'Stand (\d+\. \w+ 20\d{2}.* Uhr)', d)
 dd.isolated = soup.find(text=re.compile(r'In Isolation \(aktuell\)')).find_next('td').string
 dd.quarantined = soup.find(text=re.compile(r'In Quarant.ne \(aktuell\)')).find_next('td').string
+dd.quarantine_riskareatravel = soup.find(text=re.compile(r'Reiser.ckkehrer in Quarant.ne')).find_next('td').string
 
 is_first = True
 if dd:
@@ -39,19 +40,22 @@ for row in rows:
         dd = sc.DayData(canton='OW', url=xls_url)
         dd.datetime = row['A']
         data_found = False
-        if isinstance(row['Infizierte Personen (kumuliert)'], int):
+        if isinstance(row['Infizierte Personen (kumuliert)'], int) and row['Infizierte Personen (kumuliert)'] > 0:
             dd.cases = row['Infizierte Personen (kumuliert)']
             data_found = True
-        if isinstance(row['Hospitalisierte Personen'], int):
-            dd.hospitalized = row['Hospitalisierte Personen']
-            data_found = True
+        if isinstance(row['Hospitalisierte Personen im KSOW'], int):
+            dd.hospitalized = row['Hospitalisierte Personen im KSOW']
         if isinstance(row['Gestorbene Personen (kumuliert)'], int):
             dd.deaths = row['Gestorbene Personen (kumuliert)']
-            data_found = True
+        if isinstance(row['Isolation'], int):
+            dd.isolated = row['Isolation']
+        if isinstance(row['Quarantäne'], int):
+            dd.quarantined = row['Quarantäne']
+        if isinstance(row['Quarantäne Reiserückkehrer'], int):
+            dd.quarantine_riskareatravel = row['Quarantäne Reiserückkehrer']
         if data_found:
             if not is_first:
                 print('-' * 10)
             else:
                 is_first = False
             print(dd)
-
