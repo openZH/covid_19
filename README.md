@@ -337,6 +337,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 [github-repo](https://github.com/daenuprobst/covid19-cases-switzerland) 
 <br>Daniel Probst on Twitter: https://twitter.com/skepteis?lang=de
 
+
 ### Interactive Small Multiples of Case Numbers by Canton
 - https://sars-cov-2-switzerland.netlify.com/
 
@@ -357,5 +358,10 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 ### COVID-19 Data Hub
 - https://covid19datahub.io
 - https://github.com/covid19datahub/COVID19/
+
+### Visualization of Covid-19 cases in Switzerland
+- https://www.covid19-data.ch/ 
+[github-repo](https://github.com/doerfli/covid-numbers) 
+<br>Marc Doerflinger on Twitter: https://twitter.com/doerfli
 
 Many thanks for the great work!
