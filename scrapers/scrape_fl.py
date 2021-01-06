@@ -3,44 +3,49 @@
 import scrape_common as sc
 import sys
 import re
+from bs4 import BeautifulSoup
 
 
-# get latest from list with all press releases
-d = sc.download('https://www.regierung.li/coronavirus', silent=True)
+# get the daily bulletins
+base_url = 'https://www.regierung.li'
+d = sc.download(f'{base_url}/ministerien/ministerium-fuer-gesellschaft/medienmitteilungen/', silent=True)
+soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-pdf_url = sc.find(r'<a.*?href="([^"]+\.pdf)[^"]*"[^>]*?>[^<]+?Situationsbericht[^<]+?<\/a>', d)
-if pdf_url:
-    # download latest PDF
-    d = sc.pdfdownload(pdf_url, raw=True, silent=True)
-    # extract case numbers reported for previous days
-    d = d.replace(u'\xa0', u' ')
-    d = d.replace("'", "")
-    d = d.replace("’", "")
+bulletins = soup.find_all('a', text=re.compile(r'.*Situationsbericht.*'))
+for bulletin in bulletins:
+    url = f"{base_url}{bulletin.get('href')}"
+    bulletin_d = sc.download(url, silent=True)
+    bulletin_soup = BeautifulSoup(bulletin_d, 'html.parser')
 
-    # data from the most recent press release
-    dd = sc.DayData(canton='FL', url=pdf_url)
-    dd.datetime = sc.find(r'Situationsbericht vom (.*? 20\d{2})', d)
+    dd = sc.DayData(canton='FL', url=url)
 
-    dd.cases = sc.find(r"insgesamt\s+([0-9]+)\s+laborbestätigte\s+Fälle", d)
-    dd.deaths= sc.find(r'(Damit\s+traten\s+)?(?:bisher|bislang)\s+(traten\s+)?(?P<death>\d+)\s+(Todesfall|Todesfälle)', d, flags=re.I, group='death')
+    title = bulletin_soup.find('h1', text=re.compile(r'.*Situationsbericht.*'))
+    dd.datetime = sc.find(r'Situationsbericht vom (.*? 20\d{2})', title.text)
 
-    if re.search('Alle\s+weiteren\s+Erkrankten\s+sind\s+in\s+der\s+Zwischenzeit\s+genesen', d):
+    content = title.find_next('div').text
+    content = re.sub(r'(\d+)’(\d+)', r'\1\2', content)
+
+    dd.cases = sc.find(r"insgesamt\s+([0-9]+)\s+laborbestätigte\s+Fälle", content)
+    dd.deaths = sc.find(r'(Damit\s+traten\s+)?(?:bisher|bislang)\s+(traten\s+)?(?P<death>\d+)\s+(Todesfall|Todesfälle)', content, flags=re.I, group='death')
+
+    if re.search(r'Alle\s+weiteren\s+Erkrankten\s+sind\s+in\s+der\s+Zwischenzeit\s+genesen', content):
         dd.recovered = int(dd.cases) - int(dd.deaths)
 
-    m = re.search(r'(\S+)\s+Erkrankte\s+sind\s+derzeit\s+hospitalisiert', d)
+    m = re.search(r'(\S+)\s+Erkrankte\s+sind\s+derzeit\s+hospitalisiert', content)
     if m:
         dd.hospitalized = sc.int_or_word(m[1].lower())
 
-    m = re.search(r'Gegenwärtig\s+befinden\s+sich\s+(\d+)\s+enge\s+Kontaktpersonen\s+in\s+Quarantäne.', d)
+    m = re.search(r'Gegenwärtig\s+befinden\s+sich\s+(\d+)\s+enge\s+Kontaktpersonen\s+in\s+Quarantäne.', content)
     if m:
         dd.quarantined = m[1]
 
     if dd:
+        if not is_first:
+            print('-' * 10)
         print(dd)
         is_first = False
-else:
-    print("WARNING: PDF URL not found (Situationsbericht)", file=sys.stderr)
+
 
 # get the data from PDF file containing full history
 history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
