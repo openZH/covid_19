@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import re
+import datetime
 
 from bs4 import BeautifulSoup
 
@@ -27,5 +28,8 @@ def get_vs_weekly_pdf_urls():
 def get_vs_weekly_general_data(pdf):
     content = sc.pdftotext(pdf, page=1)
     week = sc.find(r'Epidemiologische Situation Woche (\d+)', content)
-    year = sc.find(r'\d+\.\d+\.(\d{4})', content)
+    end_date = sc.find(r'(\d+\.\d+\.\d{4})', content)
+    end_date = sc.date_from_text(end_date)
+    start_date = end_date - datetime.timedelta(days=7)
+    year = start_date.year
     return week, year
