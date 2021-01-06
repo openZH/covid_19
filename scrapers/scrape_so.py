@@ -79,7 +79,7 @@ table = title.find_next('table')
 for table_row in table.find_all('tr'):
     items = table_row.find_all('td')
     name = items[0].string
-    value = items[1].string
+    value = items[1].string.replace("'", "")
     if sc.find(r'(Laborbestätigte Infektionen) .*:', name):
         data.cases = value
         continue
