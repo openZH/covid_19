@@ -90,6 +90,9 @@ for table_row in table.find_all('tr'):
     if name == 'Davon intensivmedizinisch betreut:':
         data.icu = value
         continue
+    if name == 'Verstorbene Personen (kumuliert):':
+        data.deaths = value
+        continue
 if data:
     rows.append(data)
 
