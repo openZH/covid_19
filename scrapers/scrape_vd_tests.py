@@ -15,15 +15,19 @@ for pdf_url in pdf_urls:
     td = sc.TestData(canton='VD', url=pdf_url)
 
     year = sc.find(r'Situation au \d+.*(20\d{2})', pdf)
-    res = re.search(r'Entre\s+le\s+(\d+\s+\w+)\s+et\s+le\s+(\d+\s+\w+),', pdf)
+    res = re.search(r'Entre\s+le\s+(?P<start>\d+\s+\w+)s+et\s+le\s+(?P<end>\d+\s+\w+),', pdf, flags=re.I|re.UNICODE) 
+    res_with_year = re.search(r'Entre\s+le\s+(?P<start>\d+\s+\w+\s+\d{4})\s+et\s+le\s+(?P<end>\d+\s+\w+\s+\d{4}),', pdf, flags=re.I|re.UNICODE)
+    res_no_month = re.search(r'Entre\s+le\s+(?P<start>\d+)\s+et\s+le\s+(?P<end>\d+\s+\w+),', pdf, flags=re.I|re.UNICODE)
+
     if res:
-        start_date = sc.date_from_text(f'{res[1]} {year}')
-        end_date = sc.date_from_text(f'{res[2]} {year}')
-    else:
-        res = re.search(r'Entre\s+le\s+(\d+)\s+et\s+le\s+(\d+\s+\w+),', pdf)
-        if res:
-            end_date = sc.date_from_text(f'{res[2]} {year}')
-            start_date = sc.date_from_text(f'{res[1]}.{end_date.month}.{year}')
+        start_date = sc.date_from_text(f"{res['start']} {year}")
+        end_date = sc.date_from_text(f"{res['end']} {year}")
+    elif res_with_year:
+        start_date = sc.date_from_text(res_with_year['start'])
+        end_date = sc.date_from_text(res_with_year['end'])
+    elif res_no_month:
+        end_date = sc.date_from_text(f"{res_no_month['end']} {year}")
+        start_date = sc.date_from_text(f"{res_no_month['start']}.{end_date.month}.{year}")
     assert start_date and end_date, f'failed to extract start and end dates from {pdf_url}'
     td.start_date = start_date
     td.end_date = end_date
