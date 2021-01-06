@@ -7785,6 +7785,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-05,,GE,,41438,,127,5,,,647,https://infocovid.smc.unige.ch/,1073,846,750
 2021-01-05,,GL,,1656,,22,,,,37,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-01-05,,GR,,8518,,42,7,6,,145,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,613,678,
+2021-01-05,,JU,,4662,,22,2,,,113,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-01-05,,LU,,,,118,,16,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1672,1878,240
 2021-01-05,,NW,,1533,,10,2,,,12,http://www.nw.ch/coronastatistik,127,146,26
 2021-01-05,,SG,,28781,,168,23,19,,548,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -7801,5 +7802,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-05,12:00,AI,,726,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,41,58,
 2021-01-05,12:00,BS,,8382,,108,19,,7688,163,https://www.gesundheit.bs.ch,531,385,
 2021-01-05,14:30,ZH,,72361,,491,104,69,,945,https://www.zh.ch/de/gesundheit/coronavirus.html,5204,10749,
-2021-01-06,09:00,SH,,3120,,18,4,,,54,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,190,268,
+2021-01-06,09:00,SH,,3120,,18,4,,,54,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,190,268,26
 2021-01-06,09:00,SZ,,8027,,,,,6990,156,https://www.sz.ch/public/upload/assets/50792/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
