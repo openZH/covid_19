@@ -2,6 +2,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-01-05,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
 2020-01-06,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
 2020-01-07,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
+2020-01-07,01:00,SO,,11336,,58,11,,,220,https://corona.so.ch/index.php?id=27979,,,
 2020-01-08,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
 2020-01-09,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
 2020-01-10,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
@@ -7685,7 +7686,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-31,08:00,ZG,,4888,,16,4,,4541,67,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,301,441,107
 2020-12-31,09:00,SZ,,7683,,,,,6370,145,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
 2020-12-31,09:30,SH,,2991,,18,1,,,52,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,260,335,12
-2020-12-31,10:00,TG,,12077,5,76,17,,632,213,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,967,,
+2020-12-31,10:00,TG,,12076,5,76,17,,632,213,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,967,,
 2020-12-31,11:00,BS,,8108,,136,21,,7370,149,https://www.gesundheit.bs.ch,589,499,
 2020-12-31,12:00,AI,,703,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,37,46,
 2020-12-31,13:15,AR,,2437,,13,1,,,38,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,181,206,4
@@ -7709,7 +7710,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-01,08:00,BE,,43520,,,,,,684,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-01,08:00,ZG,,4960,,17,4,,4592,67,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,320,474,160
 2021-01-01,09:00,SZ,,7773,,,,,6557,152,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-01,10:00,TG,,12106,8,75,16,,641,214,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-01,10:00,TG,,12105,8,75,16,,641,214,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-01,10:30,BS,,8182,,117,16,,7436,153,https://www.gesundheit.bs.ch,593,499,
 2021-01-01,14:30,ZH,,70064,,445,96,62,,943,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-01-02,,BL,,11015,,68,9,8,9644,169,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -7729,7 +7730,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-02,08:00,BE,,43701,,,,,,690,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-02,08:00,ZG,,4989,,19,4,,4601,68,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,337,521,160
 2021-01-02,09:00,SZ,,7845,,,,,6634,152,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-02,10:00,TG,,12189,14,86,16,,644,217,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-02,10:00,TG,,12188,14,86,16,,644,217,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-02,11:00,BS,,8203,,120,18,,7512,155,https://www.gesundheit.bs.ch,536,566,
 2021-01-02,14:30,ZH,,70442,,455,101,67,,953,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-01-03,,BL,,11081,,69,7,7,9777,170,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -7749,7 +7750,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-03,08:00,BE,,43888,,,,,,696,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-03,08:00,ZG,,5026,,18,4,,4619,70,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,306,507,204
 2021-01-03,09:00,SZ,,7886,,,,,6636,152,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-03,10:00,TG,,12271,9,91,15,,648,220,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-03,10:00,TG,,12270,9,91,15,,648,220,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-03,12:00,BS,,8259,,110,19,,7576,156,https://www.gesundheit.bs.ch,527,484,
 2021-01-03,14:30,ZH,,70930,,479,98,69,,962,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-01-04,,BL,,11160,,74,8,7,9883,178,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -7773,7 +7774,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-04,08:00,BE,,44187,,306,49,41,,703,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-04,08:00,ZG,,5066,,16,3,,4687,73,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,324,514,269
 2021-01-04,09:00,SZ,,7913,,,,,6718,152,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-04,10:00,TG,,12439,6,85,15,,660,224,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-04,10:00,TG,,12440,6,85,15,,660,224,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-04,10:30,SH,,3056,,14,2,,,53,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,191,281,14
 2021-01-04,11:05,AR,,2478,,16,1,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,181,185,25
 2021-01-04,11:15,BS,,8306,,107,17,,7611,160,https://www.gesundheit.bs.ch,535,458,
@@ -7801,7 +7802,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-05,08:00,ZG,,5137,,19,4,,4738,75,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,358,493,274
 2021-01-05,09:00,SH,,3086,,17,2,,,54,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,192,255,20
 2021-01-05,09:00,SZ,,7946,,,,,6880,155,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-05,10:00,TG,,12562,1,82,14,,664,228,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-05,10:00,TG,,12590,6,84,14,,667,229,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-05,10:10,AR,,2526,,16,1,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,173,148,25
 2021-01-05,12:00,AI,,726,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,41,58,
 2021-01-05,12:00,BS,,8382,,108,19,,7688,163,https://www.gesundheit.bs.ch,531,385,
@@ -7822,16 +7823,17 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-06,,VS,,26490,,85,10,7,,613,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-06,00:00,OW,,1455,,6,,,,30,https://www.ow.ch/dl.php/de/5ff6d27bd74f9/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,91,194,18
 2021-01-06,01:00,SO,,11222,,57,12,,,220,https://corona.so.ch/index.php?id=27979,,,
-2021-01-06,08:00,AG,,30365,,152,27,,25610,494,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2139,,
+2021-01-06,08:00,AG,,30365,,152,27,,25610,494,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2139,,447
 2021-01-06,08:00,BE,,45064,,309,53,43,,721,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-06,08:00,ZG,,5208,,23,4,,4773,77,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,358,481,375
 2021-01-06,09:00,SH,,3120,,18,4,,,54,https://sh.ch/CMS/get/file/4c757e61-9a5a-46bc-8d79-cd85adb59525,190,268,26
 2021-01-06,09:00,SZ,,8027,,,,,6990,156,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
-2021-01-06,10:00,TG,,12569,0,82,14,,664,228,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-01-06,10:00,TG,,12728,2,86,14,,667,230,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-06,11:15,BS,,8464,,109,21,,7764,163,https://www.gesundheit.bs.ch,537,411,
 2021-01-06,12:00,AI,,738,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,49,82,
 2021-01-06,13:20,AR,,2583,,17,2,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,227,176,14
 2021-01-06,14:30,ZH,,73210,,480,99,67,,971,https://www.zh.ch/de/gesundheit/coronavirus.html,5204,10749,
+2021-01-07,,BL,,11472,,69,9,6,10106,184,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-01-07,,FL,,2309,,18,,,2084,48,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,289,
 2021-01-07,,GL,,1733,,21,,,,38,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-01-07,,TI,,24843,,367,51,47,2325,825,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
@@ -7841,6 +7843,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-07,08:00,BE,,45458,,300,53,41,,734,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2021-01-07,08:00,ZG,,5260,,24,4,,4824,78,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-01-07,09:00,SZ,,8138,,,,,7084,156,https://www.sz.ch/public/upload/assets/50805/COVID-19_Fallzahlen_Kanton_Schwyz.xlsx,,,
+2021-01-07,10:00,TG,,12730,0,86,14,,667,230,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-01-07,10:15,BS,,8534,,102,21,,7815,163,https://www.gesundheit.bs.ch,556,395,
 2021-01-07,10:55,AR,,2615,,18,1,,,40,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,234,134,14
 2021-01-07,12:00,AI,,744,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,50,82,
