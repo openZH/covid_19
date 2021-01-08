@@ -17,17 +17,18 @@ pdf_url = sgc.get_latest_ge_weekly_pdf_url()
 pdf = sc.pdfdownload(pdf_url, silent=True)
 
 week_number = sc.find(r'Situation semaine (\d+)', pdf)
-week_end_date = datetime.datetime.strptime('2021-W' + week_number + '-7', '%G-W%V-%u').date()
-number_of_tests = sc.find(r'Au total, (\d+\'\d+) tests PCR ont', pdf)
+if week_number:
+    week_end_date = datetime.datetime.strptime('2021-W' + week_number + '-7', '%G-W%V-%u').date()
+    number_of_tests = sc.find(r'Au total, (\d+\'\d+) tests PCR ont', pdf)
 
-if number_of_tests is not None:
-    number_of_tests = number_of_tests.replace('\'', '')
+    if number_of_tests is not None:
+        number_of_tests = number_of_tests.replace('\'', '')
 
-    dd_test = sc.DayData(canton='GE', url=pdf_url)
-    dd_test.datetime = week_end_date.isoformat()
-    dd_test.tested = number_of_tests
-    print(dd_test)
-    is_first = False
+        dd_test = sc.DayData(canton='GE', url=pdf_url)
+        dd_test.datetime = week_end_date.isoformat()
+        dd_test.tested = number_of_tests
+        print(dd_test)
+        is_first = False
 
 
 # get hospitalized number
