@@ -375,10 +375,10 @@ def parse_xls(book, header_row=1, sheet_index=0, sheet_name=None, skip_rows=1, c
                 entry[h] = xlrd.xldate.xldate_as_datetime(value, book.datemode)
             elif cell_type == xlrd.XL_CELL_EMPTY:
                 entry[h] = None
-            elif represents_int(value):
-                entry[h] = int(value)
             elif enable_float and represents_float(value):
                 entry[h] = float(value)
+            elif represents_int(value):
+                entry[h] = int(value)
             else:
                 entry[h] = value
 
