@@ -18,7 +18,7 @@ for row in rows:
         year = '2021'
 
     td = sc.TestData(canton='FR', url=xls_url)
-    td.week = week
+    td.week = int(week)
     td.year = year
     tot_ag = int(row['Tests AG'])
     tot_pcr = int(row['Tests PCR'])
