@@ -17,8 +17,8 @@ for pdf_url in pdf_urls:
 
     date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
     date = sc.date_from_text(date)
-    year1 = date - datetime.timedelta(weeks=2)
-    year2 = date - datetime.timedelta(weeks=1)
+    year1 = (date - datetime.timedelta(weeks=2)).year
+    year2 = (date - datetime.timedelta(weeks=1)).year
     res = re.match(r'.*Woche (\d+)\s+Woche (\d+)', content, re.DOTALL)
     assert res, 'Weeks could not be extracted'
     week1 = res[1]
