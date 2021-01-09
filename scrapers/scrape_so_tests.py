@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import datetime
 import re
 import scrape_common as sc
 import scrape_so_common as soc
@@ -14,7 +15,10 @@ for pdf_url in pdf_urls:
     # remove ' separator to simplify pattern matching
     content = re.sub(r'(\d)\'(\d)', r'\1\2', content)
 
-    year = sc.find(r'S\s?tand: \d+\.\d+\.(20\d{2})', content)
+    date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
+    date = sc.date_from_text(date)
+    year1 = date - datetime.timedelta(weeks=2)
+    year2 = date - datetime.timedelta(weeks=1)
     res = re.match(r'.*Woche (\d+)\s+Woche (\d+)', content, re.DOTALL)
     assert res, 'Weeks could not be extracted'
     week1 = res[1]
@@ -33,14 +37,14 @@ for pdf_url in pdf_urls:
 
     data = sc.TestData(canton='SO', url=pdf_url)
     data.week = week1
-    data.year = year
+    data.year = year1
     data.total_tests = total_tests1
     data.positivity_rate = pos_rate1
     print(data)
 
     data = sc.TestData(canton='SO', url=pdf_url)
     data.week = week2
-    data.year = year
+    data.year = year2
     data.total_tests = total_tests2
     data.positivity_rate = pos_rate2
     print(data)
