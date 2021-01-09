@@ -2,42 +2,44 @@
 # -*- coding: utf-8 -*-
 
 import re
+import time
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 import scrape_common as sc
-import scrape_ge_common as sgc
 
 
-pdf_urls = sgc.get_ge_weekly_pdf_urls()
-for pdf_url in pdf_urls:
-    pdf = sc.download_content(pdf_url, silent=True)
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
+driver.implicitly_wait(5)
 
-    content = sc.pdftotext(pdf, page=1)
-    week_number = sc.find(r'Situation semaine (\d+)', content)
-    year = sc.find(r'au \d+(\w+)? \w+ (\d{4})', content, group=2)
+url = 'https://infocovid.smc.unige.ch/'
+driver.get(url)
+elem = driver.find_element_by_link_text('Graphiques')
+elem.click()
+elem = driver.find_element_by_partial_link_text('Tests')
+elem.click()
 
-    pages = int(sc.pdfinfo(pdf))
-    for page in range(3, pages):
-        content = sc.pdftotext(pdf, page=page)
-        # remove ' separator to simplify pattern matching
-        content = re.sub(r'(\d)\'(\d)', r'\1\2', content)
+# needs delay, that the link is present
+time.sleep(1)
+elem = driver.find_element_by_id('save_plot_nombre_tests_data')
+xls_url = elem.get_attribute('href')
 
-        if sc.find(r'(Dynamique et tendances épidémiologiques)', content):
-            weekly_tests = sc.find(r'avec\s(\d+)\stests\s(effectués\s?)?(contre|\.)', content)
-            if not weekly_tests:
-                weekly_tests = sc.find(r'(\d+)\stests\sont\sété\seffectué', content)
-            if not weekly_tests:
-                weekly_tests = sc.find(r'Durant\sla\ssemaine\s\d+,\s(\d+)\stests\scontre', content)
-
-            positivity_rate = sc.find(r'Il est de (\d+\.?\d?)%, contre \d+\.?\d?%', content)
-            if not positivity_rate:
-                res = re.match(r'.*taux\sde\spositivité.*\s\(?(\d+\.?\d?)%\)?\s(en|durant).*\d+\.?\d?%', content, re.MULTILINE | re.DOTALL)
-                if res:
-                    positivity_rate = res[1]
-
-            if weekly_tests and positivity_rate:
-                td = sc.TestData(canton='GE', url=pdf_url)
-                td.week = week_number
-                td.year = year
-                td.total_tests = weekly_tests
-                td.positivity_rate = positivity_rate
-                print(td)
-                break
+xls = sc.xlsdownload(xls_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0, enable_float=True)
+for row in rows:
+    td = sc.TestData(canton='GE', url=url)
+    res = re.search(r'(\d{2})-(\d{2})', row['week_res'])
+    assert res, f"failed to extract year and week from {row['week_res']}"
+    td.week = int(res[2])
+    td.year = f'20{res[1]}'
+    td.positive_tests = int(row['positifs'])
+    td.negative_tests = int(row['négatifs'])
+    td.total_tests = int(row['total'])
+    # 2020-02/03 values are empty
+    td.positivity_rate = 0
+    if row['ratio']:
+        td.positivity_rate = float(row['ratio'])
+    print(td)
