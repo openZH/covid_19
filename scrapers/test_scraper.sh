@@ -106,6 +106,33 @@ do
     fi
 done
 
+for scrape_script in $DIR/scrape_??_vaccinations.py
+do
+    if [ -f $scrape_script -a -x $scrape_script ]
+    then
+        name=`basename $scrape_script`
+        canton=${name:7:2}
+        export SCRAPER_KEY=${canton^^}
+        echo ""
+        echo "Running ${SCRAPER_KEY} vaccinations scraper..."
+        echo "=========================================="
+
+        set +e
+        $DIR/run_vaccinations_scraper.sh
+        ret=$?
+        if [ $ret -ne 0 ]
+        then
+            echo "ERROR: ${scrape_script} failed with exit code $ret. continue." >&2
+            errors=$"${errors}${NEWLINE}ERROR: ${scrape_script} failed with exit code $ret"
+            exit_code=1
+        fi
+        set -e
+
+        echo "=========================================="
+        echo ""
+    fi
+done
+
 
 echo "$errors"
 exit $exit_code
