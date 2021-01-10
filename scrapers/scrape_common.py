@@ -268,6 +268,55 @@ class TestData:
         return 'canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source'
 
 
+class VaccinationData:
+    __initialized = False
+    SEPARATOR = ','
+
+    def __init__(self, canton=None, url=None):
+        self.date = None
+        self.canton = canton
+        self.total_vaccinations = None
+        self.vaccinated_people = None
+        self.url = url
+        self.__initialized = True
+
+    def __setattr__(self, key, value):
+        if self.__initialized and not hasattr(self, key):
+            raise TypeError(f'unknown key: {key}')
+        object.__setattr__(self, key, value)
+
+    def __str__(self):
+        res = []
+        res.append(self.canton)
+        res.append(self.date)
+        res.append('' if self.total_vaccinations is None else str(self.total_vaccinations))
+        res.append('' if self.vaccinated_people is None else str(self.vaccinated_people))
+        res.append(self.url)
+        return VaccinationData.SEPARATOR.join(res)
+
+    def __bool__(self):
+        attributes = [
+            self.total_vaccinations,
+            self.vaccinated_people,
+        ]
+        return any(v is not None for v in attributes)
+
+    def parse(self, data):
+        items = data.split(VaccinationData.SEPARATOR)
+        if len(items) == 5:
+            self.canton = items[0]
+            self.date = items[1]
+            self.total_vaccinations = items[2]
+            self.vaccinated_people = items[3]
+            self.url = items[4]
+            return True
+        return False
+
+    @staticmethod
+    def header():
+        return 'canton,date,total_vaccinations,vaccinated_people,source'
+
+
 spelledOutNumbersMap = {
     'eins': 1,
     'einen': 1,
