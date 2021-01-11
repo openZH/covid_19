@@ -10,6 +10,7 @@ d = sc.download(html_url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
 # weekly tests
+year = '2021'
 for t in soup.find_all('table', summary=re.compile(r'.*die Zahl der durchgef.hrten Tests pro.*')):
     headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
 
@@ -23,7 +24,9 @@ for t in soup.find_all('table', summary=re.compile(r'.*die Zahl der durchgef.hrt
 
             if sc.find(r'^(Kalender.*)', headers[col_num]) is not None:
                 td.week = value
-                td.year = '2020'
+                if int(td.week) == 53:
+                    year = '2020'
+                td.year = year
             elif sc.find(r'^(Durchge.*Tests)', headers[col_num]):
                 td.total_tests = int(value)
             elif sc.find(r'^(davon.*positiv)', headers[col_num]):
