@@ -36,6 +36,11 @@ district_ids = {
     'Wasseramt': 1106,
 }
 
+
+def strip_so_number(value):
+    return int(value.replace('\'', ''))
+
+
 soup = BeautifulSoup(d, 'html.parser')
 for district, d_id in district_ids.items():
     table = soup.find(text=district).find_next('table')
@@ -45,8 +50,8 @@ for district, d_id in district_ids.items():
     dd = sc.DistrictData(canton='SO', district=district)
     dd.url = url
     dd.date = date.isoformat()
-    dd.population = int(tds[1].text.replace('\'', ''))
+    dd.population = strip_so_number(tds[1].text)
     dd.district_id = d_id
-    dd.total_cases = int(tds[2].text)
+    dd.total_cases = strip_so_number(tds[2].text)
     dd.new_cases = int(tds[3].text)
     print(dd)
