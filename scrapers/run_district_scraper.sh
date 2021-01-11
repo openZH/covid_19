@@ -30,5 +30,5 @@ $scrape_script | $DIR/add_district_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv $DIR/data.sqlite "select * from data order by DistrictId, District, Canton, Date, Week, Year asc;" > $DIR/../fallzahlen_bezirke/fallzahlen_kanton_${SCRAPER_KEY}_bezirk.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data order by DistrictId, District, Canton, Date, Year, Week+0 asc;" > $DIR/../fallzahlen_bezirke/fallzahlen_kanton_${SCRAPER_KEY}_bezirk.csv
 sed -i 's/""//g' $DIR/../fallzahlen_bezirke/fallzahlen_kanton_${SCRAPER_KEY}_bezirk.csv

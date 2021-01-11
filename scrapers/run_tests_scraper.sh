@@ -35,5 +35,5 @@ $scrape_script | $DIR/add_tests_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, start_date, end_date, year, week asc;" > $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, start_date, end_date, year, week+0 asc;" > $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
 sed -i 's/""//g' $DIR/../fallzahlen_tests/fallzahlen_${area}_tests.csv
