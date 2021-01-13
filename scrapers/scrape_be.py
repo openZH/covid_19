@@ -4,11 +4,14 @@ from bs4 import BeautifulSoup
 import re
 import scrape_common as sc
 
-html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
+html_url = 'https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html'
 d = sc.download(html_url, silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
-for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den Corona-Erkrankungen im Kanton Bern'}):
+for caption in soup.find_all('caption'):
+    if caption.get_text() == 'Corona-Erkrankungen im Kanton Bern':
+        table = caption.find_parents('table')
+for t in table:
     headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
 
     is_first = True
@@ -38,7 +41,7 @@ for t in soup.find_all('table', {'summary': 'Laufend aktualisierte Zahlen zu den
                 dd.cases = value
             elif 'Todes' in headers[col_num]:
                 dd.deaths = value
-            elif headers[col_num] == 'Im Spital gesamt':
+            elif headers[col_num] == 'Im Spital':
                 dd.hospitalized = value
             elif 'beatmet' in headers[col_num]:
                 dd.vent = value
