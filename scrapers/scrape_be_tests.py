@@ -31,7 +31,7 @@ for t in weeklytable:
 
             if sc.find(r'^(Kalender.*)', headers[col_num]) is not None:
                 td.week = value
-                if( int(td.week) == 53 ):
+                if int(td.week) == 53:
                     year = '2020'
                 td.year = year
             elif sc.find(r'^(Durchge.*Tests)', headers[col_num]):
