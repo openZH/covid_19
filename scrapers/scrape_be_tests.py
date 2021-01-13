@@ -9,16 +9,9 @@ d = sc.download(html_url, silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
 
-for caption in soup.find_all('caption'):
-    if caption.get_text() == 'Anzahl durchgeführte SARS-Cov-2 PCR-Tests':
-        weeklytable = caption.find_parents('table')
-    if caption.get_text() == 'Corona-Erkrankungen im Kanton Bern':
-        dailytable = caption.find_parents('table')
-
-
 # weekly tests
 year = '2021'
-for t in weeklytable:
+for t in soup.find('caption', string=re.compile('Anzahl durchgeführte SARS-Cov-2 PCR-Tests')).find_parents('table'):
     headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
 
     for row in [r for r in t.find_all('tr') if r.find_all('td')]:
@@ -45,7 +38,7 @@ for t in weeklytable:
             print(td)
 
 # daily tests
-for t in dailytable:
+for t in soup.find('caption', string=re.compile('Corona-Erkrankungen im Kanton Bern')).find_parents('table'):
     headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
 
     for row in [r for r in t.find_all('tr') if r.find_all('td')]:

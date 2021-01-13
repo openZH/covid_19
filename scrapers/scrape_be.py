@@ -8,10 +8,7 @@ html_url = 'https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 d = sc.download(html_url, silent=True)
 
 soup = BeautifulSoup(d, 'html.parser')
-for caption in soup.find_all('caption'):
-    if caption.get_text() == 'Corona-Erkrankungen im Kanton Bern':
-        table = caption.find_parents('table')
-for t in table:
+for t in soup.find('caption', string=re.compile('Corona-Erkrankungen im Kanton Bern')).find_parents('table'):
     headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
 
     is_first = True
