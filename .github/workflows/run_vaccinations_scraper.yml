@@ -13,6 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         canton:
+          - BE
           - BS
           - GE
           - SO
