@@ -62,7 +62,7 @@ elem = driver.find_element_by_link_text('Tables')
 elem.click()
 
 # get quarantine xls
-elem = driver.find_element_by_partial_link_text('cas et quarantaines')
+elem = driver.find_element_by_link_text('Cas et quarantaines')
 elem.click()
 # needs delay, that the link is present
 time.sleep(1)
@@ -86,11 +86,11 @@ for row in rows:
 
 
 # get cases xls
-elem = driver.find_element_by_partial_link_text('Indicateurs principaux')
+elem = driver.find_element_by_link_text('Indicateurs principaux')
 elem.click()
 # needs delay, that the link is present
 time.sleep(1)
-elem = driver.find_element_by_id('download_table_incidence')
+elem = driver.find_element_by_id('download_table_indicateurs')
 case_xls_url = elem.get_attribute('href')
 
 xls = sc.xlsdownload(case_xls_url, silent=True)
