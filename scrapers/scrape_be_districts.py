@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
@@ -35,27 +36,36 @@ inhabitants = {
 
 
 # start getting and parsing the data
-html_url = 'https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html'
+html_url = 'https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html'
 d = sc.download(html_url, silent=True)
 d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
-table = soup.find('table', {'summary': 'COVID-19 Fallzahlen nach Verwaltungskreis'})
-thead = table.find_next('thead')
+caption = soup.find('caption', string=re.compile('Fallzahlen nach Verwaltungskreisen'))
+table = caption.find_parent('table')
+trs = table.find_all('tr')
 weeks = []
 year = None
-for th in thead.find_all('th'):
-    week = sc.find(r'KW (\d+)', th.text)
+years = []
+for th in trs[0].find_all('th'):
+    week = sc.find(r'Kalenderwoche (\d+)', th.text)
     if week:
         weeks.append(week)
     year = sc.find(r'\d+\.\d+\.(\d+)', th.text)
-if len(year) == 2:
-    year = f'20{year}'
+    if year:
+        if len(year) == 2:
+            year = f'20{year}'
+        years.append(year)
+
+assert len(weeks) == len(years), f'expected weeks ({weeks}) to have the same size as the years ({years})'
 
 tbody = table.find_next('tbody')
-for tr in tbody.find_all('tr'):
+for tr in trs[1:]:
     tds = tr.find_all('td')
-    assert len(tds) == len(weeks) + 1, f'expected {len(weeks) + 1} items, but got {len(tds)}'
-    district = tds[0].text
+    assert len(tds) == len(weeks), f'expected {len(weeks) + 1} items, but got {len(tds)}'
+    ths = tr.find_all('th')
+    district = ths[0].text
+    if district == 'Unbekannt':
+        continue
     assert district in district_ids, f'district "{district}" not found in {district_ids}!'
 
     for i in range(len(week)):
@@ -64,6 +74,6 @@ for tr in tbody.find_all('tr'):
         dd.district_id = district_ids[district]
         dd.population = inhabitants[district]
         dd.week = weeks[i]
-        dd.year = year
-        dd.new_cases = tds[i + 1].text.replace("'", "")
+        dd.year = years[i]
+        dd.new_cases = tds[i].text.replace("'", "")
         print(dd)
