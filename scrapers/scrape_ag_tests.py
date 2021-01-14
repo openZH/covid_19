@@ -7,6 +7,7 @@ import scrape_ag_common as sac
 xls_url = sac.get_ag_xls_url()
 xls = sc.xlsdownload(xls_url, silent=True)
 
+year = '2020'
 rows = sc.parse_xls(xls, sheet_name='1.3 Labortests', header_row=1, enable_float=True)
 for row in rows:
     if not row['Anzahl Tests']:
@@ -14,7 +15,9 @@ for row in rows:
 
     td = sc.TestData(canton='AG', url=xls_url)
     td.week = int(row['Kalenderwoche'])
-    td.year = '2020'
+    if td.week == 1:
+        year = '2021'
+    td.year = year
     td.positive_tests = int(row['Positive Tests'])
     td.negative_tests = int(row['Negative Tests'])
     td.total_tests = int(row['Anzahl Tests'])
