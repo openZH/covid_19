@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import time
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
@@ -23,3 +24,15 @@ def get_ge_weekly_pdf_urls():
         if pdf_url not in result:
             result.append(pdf_url)
     return result
+
+
+def get_link_from_element(driver, element_id):
+    # the xls download links do not appear immediately for some reason
+    # add some delay to get it.
+    for _ in range(10):
+        elem = driver.find_element_by_id(element_id)
+        url = elem.get_attribute('href')
+        if url != '':
+            return url
+        time.sleep(1)
+    return ''

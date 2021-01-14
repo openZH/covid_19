@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import re
-import time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 import scrape_common as sc
+import scrape_ge_common as sgc
 
 
 chrome_options = Options()
@@ -21,11 +21,7 @@ elem = driver.find_element_by_link_text('Graphiques')
 elem.click()
 elem = driver.find_element_by_partial_link_text('Tests')
 elem.click()
-
-# needs delay, that the link is present
-time.sleep(1)
-elem = driver.find_element_by_id('save_plot_nombre_tests_data')
-xls_url = elem.get_attribute('href')
+xls_url = sgc.get_link_from_element(driver, 'save_plot_nombre_tests_data')
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0, enable_float=True)

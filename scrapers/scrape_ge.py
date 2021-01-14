@@ -3,7 +3,6 @@
 
 import re
 import datetime
-import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -64,10 +63,7 @@ elem.click()
 # get quarantine xls
 elem = driver.find_element_by_link_text('Cas et quarantaines')
 elem.click()
-# needs delay, that the link is present
-time.sleep(1)
-elem = driver.find_element_by_id('download_table_cas')
-quarantine_xls_url = elem.get_attribute('href')
+quarantine_xls_url = sgc.get_link_from_element(driver, 'download_table_cas')
 
 xls = sc.xlsdownload(quarantine_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
@@ -88,10 +84,7 @@ for row in rows:
 # get cases xls
 elem = driver.find_element_by_link_text('Indicateurs principaux')
 elem.click()
-# needs delay, that the link is present
-time.sleep(1)
-elem = driver.find_element_by_id('download_table_indicateurs')
-case_xls_url = elem.get_attribute('href')
+case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs')
 
 xls = sc.xlsdownload(case_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
