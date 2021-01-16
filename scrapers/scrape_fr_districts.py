@@ -79,7 +79,7 @@ for tr in trs[1:]:
 
 
 # daily data from xls
-xls_url, xls = get_fr_xls()
+xls_url, xls, main_url = get_fr_xls()
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     row_date = row.search(r'.*Date.*')

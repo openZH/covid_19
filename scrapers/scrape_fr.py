@@ -6,7 +6,7 @@ import sys
 import scrape_common as sc
 from scrape_fr_common import get_fr_xls
 
-xls_url, xls = get_fr_xls()
+xls_url, xls, main_url = get_fr_xls()
 rows = sc.parse_xls(xls, header_row=0)
 is_first = True
 
@@ -31,7 +31,7 @@ for row in rows:
 
     print('FR')
     sc.timestamp()
-    print('Downloading:', xls_url)
+    print('Downloading:', main_url)
     print('Date and time:', row_date.date().isoformat())
     for col in col_info:
         value = row.search(col[0])
