@@ -7,7 +7,8 @@ import datetime
 from bs4 import BeautifulSoup
 import scrape_common as sc
 
-d = sc.download('https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948', silent=True)
+url = 'https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948'
+d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
@@ -58,7 +59,7 @@ for row in rows:
     if row['Datum'].date().isoformat() == '2020-03-25':
         row['Bestätigte Fälle (kumuliert)'] = ''
 
-    dd = sc.DayData(canton='SZ', url=xls_url)
+    dd = sc.DayData(canton='SZ', url=url)
     dd.datetime = row['Datum'].date().isoformat()
     if row['Zeit']:
         dd.datetime += ' ' + row['Zeit'].time().isoformat()
