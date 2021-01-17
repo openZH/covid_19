@@ -17,6 +17,7 @@ jobs:
           - BL
           - BS
           - GE
+          - JU
           - SO
 
     steps:
