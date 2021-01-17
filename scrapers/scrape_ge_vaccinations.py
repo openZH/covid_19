@@ -12,9 +12,15 @@ soup = BeautifulSoup(d, 'html.parser')
 
 table = soup.find('strong', string=re.compile('VACCINATIONS CONTRE LA COVID-19 PAR SEMAINE')).find_next('table')
 trs = table.find_all('tr')
+total_vaccinations = 0
 for tr in trs[1:]:
     tds = tr.find_all('td')
-    assert len(tds) == 3, f'Expected 3 columns, but got: {tds}'
+    assert len(tds) == 2, f'Expected 2 columns, but got: {tds}'
+    weekly_vaccinations = int(sc.find(r'^(\d+)\s?', tds[1].text))
+    if sc.find(r'(Cumul des vaccinations)', tds[0].text):
+        assert weekly_vaccinations == total_vaccinations, f'expected {weekly_vaccinations}, but got {total_vaccinations}'
+        continue
+
     date = sc.find(r'(\d+\.\d+[\.-]\d{4})', tds[0].text)
     if not date and sc.find(r'(D.cembre 2020)', tds[0].text):
         # let's use the last day of the year (-6 days, see below)
@@ -27,6 +33,6 @@ for tr in trs[1:]:
 
     vd = sc.VaccinationData(canton='GE', url=url)
     vd.date = date.isoformat()
-    vd.total_vaccinations = sc.find(r'^(\d+)\s?', tds[2].text)
-    if vd:
-        print(vd)
+    vd.total_vaccinations = weekly_vaccinations + total_vaccinations
+    total_vaccinations = vd.total_vaccinations
+    print(vd)
