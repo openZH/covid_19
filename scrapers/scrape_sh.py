@@ -5,6 +5,7 @@ import datetime
 import scrape_common as sc
 import scrape_sh_common as shc
 
+main_url = 'https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html'
 # A JavaScript content loaded from https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 xls_url = shc.get_sh_url_from_json('https://sh.ch/CMS/content.jsp?contentid=3666465&language=DE')
 xls = sc.xlsdownload(xls_url, silent=True)
@@ -23,7 +24,7 @@ for row in rows:
 
     print('SH')
     sc.timestamp()
-    print('Downloading:', xls_url)
+    print('Downloading:', main_url)
     if isinstance(row['Uhrzeit'], datetime.datetime):
         print('Date and time:', row['Datum'].date().isoformat(), row['Uhrzeit'].time().isoformat())
     elif row['Uhrzeit']:

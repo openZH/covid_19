@@ -37,7 +37,7 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=4)
 for row in rows:
     if isinstance(row['A'], datetime.datetime):
-        dd = sc.DayData(canton='OW', url=xls_url)
+        dd = sc.DayData(canton='OW', url=url)
         dd.datetime = row['A']
         data_found = False
         if isinstance(row['Infizierte Personen (kumuliert)'], int) and row['Infizierte Personen (kumuliert)'] > 0:
