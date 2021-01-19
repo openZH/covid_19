@@ -8085,6 +8085,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-17,,FL,,2389,,,,,,,https://www.regierung.li/de/mitteilungen/224142/?typ=content&nid=11076,,,
 2021-01-17,,FR,,24677,,44,7,,728,428,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-01-17,,GE,,42881,,114,5,,,669,https://infocovid.smc.unige.ch/,1243,1321,653
+2021-01-17,,GL,13130,,,,,,,,https://www.gl.ch/public/upload/assets/34034/Sentinella%20Bericht%20KW2.pdf,,,
 2021-01-17,,GR,,9274,,39,8,8,,159,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,462,557,
 2021-01-17,,JU,,5007,,16,2,,,116,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-01-17,,LU,,19499,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -8134,6 +8135,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-19,,GE,,,,114,8,,,,https://infocovid.smc.unige.ch/,,,
 2021-01-19,,GL,,1936,,22,,,,48,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-01-19,,LU,,,,94,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1158,1390,160
+2021-01-19,,NW,,1733,,13,3,,,14,http://www.nw.ch/coronastatistik,111,112,
 2021-01-19,,TI,,26155,,254,35,30,2566,895,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,601,1009,
 2021-01-19,00:00,OW,,1627,,12,,,,32,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,89,150,22
 2021-01-19,00:00,UR,,1635,,10,,,,35,https://www.ur.ch/themen/2962,,275,
@@ -8146,3 +8148,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-19,10:50,BS,,8974,,69,12,,8507,170,https://www.gesundheit.bs.ch,297,398,
 2021-01-19,12:00,AI,,796,,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,36,32,
 2021-01-19,13:25,AR,,2807,,17,1,,,48,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,176,90,20
+2021-01-19,14:30,ZH,,,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,4249,7459,
