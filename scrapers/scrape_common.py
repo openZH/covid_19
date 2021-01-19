@@ -273,7 +273,10 @@ class VaccinationData:
     SEPARATOR = ','
 
     def __init__(self, canton=None, url=None):
-        self.date = None
+        self.start_date = None
+        self.end_date = None
+        self.week = None
+        self.year = None
         self.canton = canton
         self.total_vaccinations = None
         self.vaccinated_people = None
@@ -288,7 +291,10 @@ class VaccinationData:
     def __str__(self):
         res = []
         res.append(self.canton)
-        res.append(self.date)
+        res.append('' if self.start_date is None else str(self.start_date))
+        res.append('' if self.end_date is None else str(self.end_date))
+        res.append('' if self.week is None else str(self.week))
+        res.append('' if self.year is None else str(self.year))
         res.append('' if self.total_vaccinations is None else str(self.total_vaccinations))
         res.append('' if self.vaccinated_people is None else str(self.vaccinated_people))
         res.append(self.url)
@@ -303,12 +309,15 @@ class VaccinationData:
 
     def parse(self, data):
         items = data.split(VaccinationData.SEPARATOR)
-        if len(items) == 5:
+        if len(items) == 8:
             self.canton = items[0]
-            self.date = items[1]
-            self.total_vaccinations = items[2]
-            self.vaccinated_people = items[3]
-            self.url = items[4]
+            self.start_date = items[1]
+            self.end_date = items[2]
+            self.week = self.__get_int_item(items[3])
+            self.year = self.__get_int_item(items[4])
+            self.total_vaccinations = items[5]
+            self.vaccinated_people = items[6]
+            self.url = items[7]
             return True
         return False
 
