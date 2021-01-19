@@ -4,8 +4,8 @@ def test_vaccination_data():
     vd = VaccinationData()
     vd.start_date = '1'
     vd.end_date = '1'
-    vd.week = '3'
-    vd.year = '4'
+    vd.week = 3
+    vd.year = 4
     vd.canton = '5'
     vd.total_vaccinations = '6'
     vd.vaccinated_people = '7'
