@@ -16,7 +16,8 @@ element = soup.find('td', string=re.compile('Anzahl Impfungen \(kumuliert\)'))
 element = element.find_next('td')
 
 vd = sc.VaccinationData(canton='SO', url=url)
-vd.date = date.isoformat()
+vd.start_date = date.isoformat()
+vd.end_date = date.isoformat()
 vd.total_vaccinations = element.text.replace("'", "")
 if vd:
     print(vd)
