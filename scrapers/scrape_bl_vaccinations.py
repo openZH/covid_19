@@ -30,24 +30,18 @@ for iframe in soup.find_all('iframe'):
         continue
 
     d = sc.download(iframe_url, silent=True)
-
-    # 2021-01-15
-    """
-    Datum,&quot;1. Impfung Mobil&quot;,&quot;2. Impfung Mobil&quot;,&quot;1. Impfung Impfzentrum Mitte&quot;,&quot;2. Impfung Impfzentrum Mitte&quot;
-    28-12-2020,66.0,0.0,,
-    """
-
     d = d.replace('\n', ' ')
 
     data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;1. Impfung Mobil&quot;,&quot;2. Impfung Mobil&quot;,&quot;1. Impfung Impfzentrum Mitte&quot;,&quot;2. Impfung Impfzentrum Mitte&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Mobiles Team&quot;,&quot;Impfzentrum Ost&quot;,&quot;Impfzentrum Mitte&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            assert len(c) == 5, f"Number of fields changed, {len(c)} != 5"
+            assert len(c) == 4, f"Number of fields changed, {len(c)} != 4"
 
             vd = sc.VaccinationData('BL', url=main_url)
-            vd.date = parse_row_date(c[0])
-            vd.total_vaccinations = to_int(c[1]) + to_int(c[3])
-            vd.vaccinated_people = to_int(c[2]) + to_int(c[4])
+            vd.start_date = parse_row_date(c[0])
+            vd.end_date = vd.start_date
+            vd.total_vaccinations = to_int(c[1]) + to_int(c[2]) + to_int(c[3])
             print(vd)
         break
