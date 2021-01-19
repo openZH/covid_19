@@ -11,7 +11,8 @@ data = sc.download(url, silent=True)
 reader = csv.DictReader(StringIO(data), delimiter=';')
 for row in reader:
     vd = sc.VaccinationData(canton='BS', url=url)
-    vd.date = row['Datum']
+    vd.start_date = row['Datum']
+    vd.end_date = row['Datum']
     vd.total_vaccinations = row['Total geimpfte Personen ']
     if vd:
         print(vd)
