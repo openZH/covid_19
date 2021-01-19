@@ -46,6 +46,8 @@ for content_id in content_ids:
     td.total_tests = sc.find(r'in\s+der\s+letzten\s+Woche\s+wurden(\s+nur)?\s+(\d+)\s+(durchgef.hrte\s+)?Tests', content, group=2)
     if not td.total_tests:
         td.total_tests = sc.find(r'Es\s+wurden\s+in\s+der\s+letzten\s+Woche\s+(\d+)\s+Tests', content)
+    if not td.total_tests:
+        td.total_tests = sc.find(r'in\s+der\s+letzten\s+Woche[\s|\w]+\s+(\d+)[\s|\w]+\s+Tests', content)
     td.positivity_rate = sc.find(r'Die\sPositivitätsrate\sbetrug\s+(\d+\.?\d?)%\s', content)
     if not td.positivity_rate:
         td.positivity_rate = sc.find(r'Die\sPositivitätsrate.*Vorwoche\s\(\d+\.?\d?%\)\s[\w+\s+]+\s(\d+\.?\d?)%\s.*\.', content, flags=re.MULTILINE | re.DOTALL)
