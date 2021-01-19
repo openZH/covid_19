@@ -18,9 +18,10 @@ for tr in trs[1:]:
     assert len(tds) == 3, f'expected 3 rows, but got {len(tds)} ({tds})'
 
     vd = sc.VaccinationData(canton='BE', url=url)
-    date = sc.find(r'(\d+\.\d+\.\d{4})', tds[0].text)
+    date = sc.find(r'(\d+\.\d+\.\d+)', tds[0].text)
     date = sc.date_from_text(date)
-    vd.date = date.isoformat()
+    vd.start_date = date.isoformat()
+    vd.end_date = date.isoformat()
     vd.total_vaccinations = sc.find(r'(\d+)\s?', tds[1].text)
     vd.vaccinated_people = sc.find(r'(\d+)\s?', tds[2].text)
     if vd:
