@@ -321,9 +321,15 @@ class VaccinationData:
             return True
         return False
 
+
+    @staticmethod
+    def __get_int_item(item):
+        return int(item) if represents_int(item) else None
+
+
     @staticmethod
     def header():
-        return 'canton,date,total_vaccinations,vaccinated_people,source'
+        return 'canton,start_date,end_date,week,year,total_vaccinations,vaccinated_people,source'
 
 
 spelledOutNumbersMap = {
