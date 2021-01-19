@@ -8134,6 +8134,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-19,,FL,,2398,,7,,,2292,50,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,99,
 2021-01-19,,GE,,,,114,8,,,,https://infocovid.smc.unige.ch/,,,
 2021-01-19,,GL,,1936,,22,,,,48,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-01-19,,GR,,9399,,42,11,9,,159,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,447,546,
 2021-01-19,,LU,,,,94,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1158,1390,160
 2021-01-19,,NW,,1733,,13,3,,,14,http://www.nw.ch/coronastatistik,111,112,12
 2021-01-19,,TI,,26155,,254,35,30,2566,895,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,601,1009,
