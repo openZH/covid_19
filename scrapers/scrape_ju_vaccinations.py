@@ -28,7 +28,8 @@ content = sc.pdftotext(pdf, page=pages, layout=True)
 
 date = sc.find(r'Vaccination: .* au (\d+ \w+)', content)
 date = sc.date_from_text(f'{date} {year}')
-vd.date = date.isoformat()
+vd.start_date = date.isoformat()
+vd.end_date = date.isoformat()
 
 # TODO not sure if this is the total for the week only and need to sum up all vaccinations
 vd.total_vaccinations = sc.find(r'Total\s+\d+\s+\d+\s+(\d+)', content)
