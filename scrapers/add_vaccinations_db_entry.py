@@ -28,19 +28,25 @@ try:
                     '''
                     INSERT INTO data (
                       canton,
-                      date,
+                      start_date,
+                      end_date,
+                      week,
+                      year,
                       total_vaccinations,
                       vaccinated_people,
                       source
                     )
                     VALUES
-                    (?,?,?,?,?)
+                    (?,?,?,?,?,?,?,?)
                       ;
 
                     ''',
                     [
                         vd.canton,
-                        vd.date,
+                        vd.start_date or '',
+                        vd.end_date or '',
+                        vd.week or '',
+                        vd.year or '',
                         vd.total_vaccinations,
                         vd.vaccinated_people,
                         vd.url,
@@ -58,7 +64,10 @@ try:
                           vaccinated_people = ?,
                           source = ?
                         WHERE canton = ?
-                        AND   date = ?
+                        AND   start_date = ?
+                        AND   end_date = ?
+                        AND   week = ?
+                        AND   year = ?
                         ;
                         ''',
                         [
@@ -67,7 +76,10 @@ try:
                             vd.url,
 
                             vd.canton,
-                            vd.date or '',
+                            vd.start_date or '',
+                            vd.end_date or '',
+                            vd.week or '',
+                            vd.year or '',
                         ]
                     )
                     print("Successfully updated entry.")

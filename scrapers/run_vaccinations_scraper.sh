@@ -35,5 +35,5 @@ $scrape_script | $DIR/add_vaccinations_db_entry.py
 
 # 3. Export the database as csv
 echo "Export database to CSV..."
-sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, date asc;" > $DIR/../fallzahlen_impfungen/fallzahlen_${area}_impfungen.csv
+sqlite3 -header -csv $DIR/data.sqlite "select * from data order by canton, start_date, end_date, year, week+0 asc;" > $DIR/../fallzahlen_impfungen/fallzahlen_${area}_impfungen.csv
 sed -i 's/""//g' $DIR/../fallzahlen_impfungen/fallzahlen_${area}_impfungen.csv

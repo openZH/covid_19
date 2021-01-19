@@ -26,11 +26,14 @@ try:
         '''
         CREATE TABLE IF NOT EXISTS data (
             canton text NOT NULL,
-            date text NOT NULL,
+            start_date text NOT NULL,
+            end_date text NOT NULL,
+            week text NOT NULL,
+            year text NOT NULL,
             total_vaccinations integer,
             vaccinated_people integer,
             source text,
-            UNIQUE(canton, date)
+            UNIQUE(canton, start_date, end_date, week, year)
         )
         '''
     )
