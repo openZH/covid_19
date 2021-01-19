@@ -69,11 +69,11 @@ assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 
 headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
-assert headers[0].text.strip() == "Aktive Fälle"
-assert headers[1].text == "Positiv getestete Erkrankungsfälle total seit März 2020"
-assert headers[2].text == "Hospitalisiert"
-assert headers[3].text == "Quarantäne"
-assert headers[4].text == "total Verstorbene"
+assert headers[0].text.strip().lower() == "aktive fälle"
+assert headers[1].text.lower() == "positiv getestete erkrankungsfälle total seit märz 2020"
+assert headers[2].text.lower() == "hospitalisiert"
+assert headers[3].text.lower() == "quarantäne"
+assert headers[4].text.lower() == "total verstorbene"
 
 cells = rows[1].find_all('td')
 assert len(cells) == 6, f"Number of columns changed, {len(cells)} != 6"
