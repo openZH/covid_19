@@ -5,31 +5,20 @@ import datetime
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
+import scrape_vs_common as svc
 
 
-def strip_value(value):
-    if value:
-        return re.sub(r'[^0-9]', '', value)
-    return None
-
-
-base_url = 'https://www.vs.ch'
-url = f'{base_url}/web/coronavirus/statistiques'
-content = sc.download(url, silent=True)
-soup = BeautifulSoup(content, 'html.parser')
-pdf_url = soup.find('a', string=re.compile(r'2020.*Sit Epid.*')).get('href')
-pdf_url = f'{base_url}{pdf_url}'
-
+pdf_url = svc.get_vs_daily_pdf_url()
 content = sc.pdfdownload(pdf_url, silent=True, layout=True, page=1)
 
 dd = sc.DayData(canton='VS', url=pdf_url)
 dd.datetime = sc.find(r'(\d{2}/\d{2}/20\d{2})', content)
 dd.datetime = re.sub(r'/', '.', dd.datetime)
-dd.cases = strip_value(sc.find(r'.*Cumul cas positifs.*\s+(\d+.\d+)\s+', content))
-dd.deaths = strip_value(sc.find(r'.*Cumul d.c.s.*\s+(\d+.\d+)\s+', content))
-dd.hospitalized = strip_value(sc.find(r'.*Hospitalisations en cours de cas COVID-19.*\s+(\d+)\s+', content))
-dd.icu = strip_value(sc.find(r'.*SI en cours.*\s+(\d+)\s+', content))
-dd.vent = strip_value(sc.find(r'.*Intubation en cours.*\s+(\d+)\s+', content))
+dd.cases = svc.strip_value(sc.find(r'.*Cumul cas positifs.*\s+(\d+.\d+)\s+', content))
+dd.deaths = svc.strip_value(sc.find(r'.*Cumul d.c.s.*\s+(\d+.\d+)\s+', content))
+dd.hospitalized = svc.strip_value(sc.find(r'.*Hospitalisations en cours de cas COVID-19.*\s+(\d+)\s+', content))
+dd.icu = svc.strip_value(sc.find(r'.*SI en cours.*\s+(\d+)\s+', content))
+dd.vent = svc.strip_value(sc.find(r'.*Intubation en cours.*\s+(\d+)\s+', content))
 
 is_first = True
 if dd:
