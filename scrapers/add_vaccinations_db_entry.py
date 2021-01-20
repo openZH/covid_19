@@ -32,12 +32,14 @@ try:
                       end_date,
                       week,
                       year,
+                      doses_delivered,
+                      first_doses,
+                      second_doses,
                       total_vaccinations,
-                      vaccinated_people,
                       source
                     )
                     VALUES
-                    (?,?,?,?,?,?,?,?)
+                    (?,?,?,?,?,?,?,?,?,?)
                       ;
 
                     ''',
@@ -47,8 +49,10 @@ try:
                         vd.end_date or '',
                         vd.week or '',
                         vd.year or '',
+                        vd.doses_delivered,
+                        vd.first_doses,
+                        vd.second_doses,
                         vd.total_vaccinations,
-                        vd.vaccinated_people,
                         vd.url,
                     ]
                 )
@@ -60,8 +64,10 @@ try:
                     c.execute(
                         '''
                         UPDATE data SET
-                          total_vaccinations= ?,
-                          vaccinated_people = ?,
+                          doses_delivered = ?,
+                          first_doses = ?,
+                          second_doses = ?,
+                          total_vaccinations = ?,
                           source = ?
                         WHERE canton = ?
                         AND   start_date = ?
@@ -71,8 +77,10 @@ try:
                         ;
                         ''',
                         [
+                            vd.doses_delivered,
+                            vd.first_doses,
+                            vd.second_doses,
                             vd.total_vaccinations,
-                            vd.vaccinated_people,
                             vd.url,
 
                             vd.canton,

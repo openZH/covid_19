@@ -30,8 +30,10 @@ try:
             end_date text NOT NULL,
             week text NOT NULL,
             year text NOT NULL,
+            doses_delivered integer,
+            first_doses integer,
+            second_doses integer,
             total_vaccinations integer,
-            vaccinated_people integer,
             source text,
             UNIQUE(canton, start_date, end_date, week, year)
         )

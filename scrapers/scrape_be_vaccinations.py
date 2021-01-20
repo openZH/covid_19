@@ -23,6 +23,6 @@ for tr in trs[1:]:
     vd.start_date = date.isoformat()
     vd.end_date = date.isoformat()
     vd.total_vaccinations = sc.find(r'(\d+)\s?', tds[1].text)
-    vd.vaccinated_people = sc.find(r'(\d+)\s?', tds[2].text)
+    vd.second_doses = sc.find(r'(\d+)\s?', tds[2].text)
     if vd:
         print(vd)

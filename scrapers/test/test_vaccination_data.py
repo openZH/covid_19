@@ -3,13 +3,15 @@ from scrapers.scrape_common import VaccinationData
 def test_vaccination_data():
     vd = VaccinationData()
     vd.start_date = '1'
-    vd.end_date = '1'
+    vd.end_date = '2'
     vd.week = 3
     vd.year = 4
     vd.canton = '5'
-    vd.total_vaccinations = '6'
-    vd.vaccinated_people = '7'
-    vd.url = '8'
+    vd.doses_delivered = '6'
+    vd.first_doses = '7'
+    vd.second_doses = '8'
+    vd.total_vaccinations = '9'
+    vd.url = '10'
 
     string = str(vd)
 
@@ -20,8 +22,9 @@ def test_vaccination_data():
     assert vd.week == vd_parsed.week
     assert vd.year == vd_parsed.year
     assert vd.canton == vd_parsed.canton
+    assert vd.doses_delivered == vd_parsed.doses_delivered
+    assert vd.first_doses == vd_parsed.first_doses
     assert vd.total_vaccinations == vd_parsed.total_vaccinations
-    assert vd.vaccinated_people == vd_parsed.vaccinated_people
     assert vd.url == vd_parsed.url
 
 
