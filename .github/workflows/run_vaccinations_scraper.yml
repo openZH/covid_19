@@ -19,6 +19,7 @@ jobs:
           - GE
           - JU
           - SO
+          - ZG
 
     steps:
     - uses: actions/checkout@v2
