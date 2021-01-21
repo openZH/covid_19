@@ -11,7 +11,9 @@ def get_fr_xls():
     d = sc.download(main_url, silent=True)
 
     soup = BeautifulSoup(d, 'html.parser')
-    xls_url = soup.find(href=re.compile(r"\.xlsx$")).get('href')
+    item = soup.find('span', text=re.compile(r"Statistik .ber die Entwicklungen im Kanton.*"))
+    item = item.find_parent('a')
+    xls_url = item.get('href')
     assert xls_url, "URL is empty"
     if not xls_url.startswith('http'):
         xls_url = f'https://www.fr.ch{xls_url}'
