@@ -44,8 +44,8 @@ def strip_so_number(value):
 soup = BeautifulSoup(d, 'html.parser')
 for district, d_id in district_ids.items():
     table = soup.find(text=district).find_next('table')
-    trs = table.find_all('tr')
-    tds = trs[-1].find_all('td')
+    tr = table.find('strong', text='Total').find_parent('tr')
+    tds = tr.find_all('td')
     assert tds[0].text == 'Total', f'Expected "Total" row, got {tds[0].text}'
     dd = sc.DistrictData(canton='SO', district=district)
     dd.url = url
