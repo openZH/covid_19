@@ -19,6 +19,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 **Swiss Cantons and Principality of Liechtenstein** <br>
 - [Unified dataset](https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) <br>
 - [More detailed dataset](https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-more-detailed-dataset) <br>
+- [Vaccination dataset](...) <br>
 
 **Canton Zurich** <br>
 - [Unified dataset](https://github.com/openZH/covid_19/tree/master#canton-z%C3%BCrich-unified-dataset) <br>
@@ -149,6 +150,33 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 | __NewConfCases__       | Number of Confirmed Cases | Number     | ZH  |
 | __NewDeaths__       | Number of Deceased  | Number     | ZH,BS,BL  |
 | __PreExistingCond__       | Pre-Existing Conditions | Text    | BL,BS |
+
+## Swiss Cantons and Principality of Liechtenstein: Vaccination dataset
+
+**Data**<br>
+
+>**https://github.com/openZH/covid_19/tree/master/...** <br>
+>*Description:* Selected cantons publish vaccination data.  <br>
+>*Spatial unit:* Swiss cantons and Principality of Liechtenstein <br>
+>*Format:* csv <br>
+>*Additional remark*: This data source is a stop-gap measure. It will be deprecated after there is combined data source available by the FOPH in cooperation with its cantonal partner organistions. We will announce the transition in advance, to allow for a planned switch to the FOPH source.
+
+**Metadata for vaccination dataset** <br>
+
+This dataset contains standardized variables and respectives values communicated by Cantons and Principality of Liechtenstein about their Sars-Cov-2 vaccination campaigns. 
+
+| Spaltenname / Fieldname    | Beschreibung (DE)                | Description (EN)                | Format |
+|----------------------------|----------------------------------|---------------------------------|--------|
+| __abbreviation_canton_and_fl__  | Abürzung des meldenden Kantons     | Abbreviation of the reporting canton       | Text     | 
+| __start_date__             | Beginn der Kalenderwoche (Datum) | Start of the calendar week (Date) | YYYY-MM-DD |
+| __end_date__               | Ende der Kalenderwoche (Datum)   | End of the calendar week (Date) |YYYY-MM-DD|
+| __week__                   | Kalenderwoche                    | Calendar week                   | Number |
+| __year__                   | Jahr                             | Year                            | Number |
+| __doses_delivered__        | Anzahl Impfdosen, die an den Kanton ausgeliefert wurden/beim Kanton angekommen sind    | Number of vaccine doses delivered to/arrived at the canton | Number |
+| __total_vaccinations__     | Total der im Kanton verabreichten Dosen  | Total doses administered in the canton   |  Number |
+| __first_doses__            | Teilmenge von 'total_vaccinations'  | Subset of 'total_vaccinations'   |  Number |
+| __second_doses__           | Teilmenge von 'total_vaccinations'  | Subset of 'total_vaccinations'   |  Number |
+| __source__                 | Quelle der Information              | Source of the information        | href    | 
 
 
 ## Canton Zürich: Unified dataset
