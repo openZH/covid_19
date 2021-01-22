@@ -8113,7 +8113,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-18,,LU,,19609,,94,,17,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1285,1468,186
 2021-01-18,,NE,,12637,,29,7,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-01-18,,NW,,1713,,10,2,,,14,http://www.nw.ch/coronastatistik,103,120,9
-2021-01-18,,SG,,30977,,106,16,16,,609,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-01-18,,SG,,30978,,106,16,16,,609,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-18,,TI,,26069,,262,37,32,2543,888,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-18,,VD,,61067,,262,46,,,846,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2021-01-18,,VS,,28079,,122,11,9,,655,https://www.vs.ch/de/web/coronavirus,,,
@@ -8140,7 +8140,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-19,,LU,,19753,,94,,13,,265,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1158,1390,160
 2021-01-19,,NE,,12684,,30,5,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-01-19,,NW,,1733,,13,3,,,14,http://www.nw.ch/coronastatistik,111,112,12
-2021-01-19,,SG,,31154,,100,16,16,,613,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-01-19,,SG,,31158,,100,16,16,,613,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-19,,TI,,26155,,254,35,30,2566,895,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,601,1009,
 2021-01-19,,VD,,61285,,255,46,,,847,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2021-01-19,,VS,,28216,,137,12,11,,659,https://www.vs.ch/de/web/coronavirus,,,
@@ -8167,7 +8167,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-20,,LU,,19849,,88,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1246,1378,160
 2021-01-20,,NE,,12721,,25,6,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-01-20,,NW,,1745,,14,3,,,14,http://www.nw.ch/coronastatistik,119,101,11
-2021-01-20,,SG,,31251,,87,15,14,,614,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-01-20,,SG,,31309,,87,15,14,,614,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-20,,TI,,26269,,232,32,26,2593,899,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-20,,VD,,61485,,228,48,,,848,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2021-01-20,,VS,,28348,,122,11,8,,659,https://www.vs.ch/de/web/coronavirus,,,
@@ -8192,13 +8192,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-21,,GR,,9510,,29,9,8,,160,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,468,571,
 2021-01-21,,LU,,,,82,,14,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1246,1373,116
 2021-01-21,,NW,,1762,,9,3,,,15,http://www.nw.ch/coronastatistik,119,122,10
+2021-01-21,,SG,,31411,,72,16,15,,617,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-21,,TI,,26347,,223,33,26,2610,903,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,564,1010,
 2021-01-21,,VS,,28354,,124,12,8,,659,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-21,00:00,OW,,1658,,6,,,,33,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,112,202,18
 2021-01-21,00:00,UR,,1648,,6,,,,35,https://www.ur.ch/themen/2962,,253,
 2021-01-21,01:00,SO,,12253,,38,9,,,241,https://corona.so.ch/,,,
 2021-01-21,08:00,BE,,48865,,173,38,28,,847,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-01-21,08:00,ZG,,5758,,12,2,,5427,104,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-01-21,08:00,ZG,,5758,,12,2,,5426,105,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,222,361,99
 2021-01-21,09:00,SZ,,8786,,,,,8067,177,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-01-21,09:15,SH,,3378,,13,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,158,196,36
 2021-01-21,10:00,TG,,13728,0,43,14,,779,288,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
@@ -8207,4 +8208,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-21,13:45,AR,,2855,,22,1,,,48,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,181,94,23
 2021-01-21,14:30,ZH,,79374,,298,69,51,,1109,https://www.zh.ch/de/gesundheit/coronavirus.html,2986,5872,
 2021-01-22,00:00,UR,,1660,,5,,,,35,https://www.ur.ch/themen/2962,,254,
+2021-01-22,08:00,ZG,,5789,,9,2,,5460,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-01-22,09:00,SZ,,8828,,,,,8133,180,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
+2021-01-22,09:15,SH,,3391,,15,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,146,194,
