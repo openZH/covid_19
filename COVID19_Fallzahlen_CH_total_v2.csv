@@ -8216,9 +8216,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-22,,GE,,43587,,125,8,,,673,https://infocovid.smc.unige.ch/,1172,1264,290
 2021-01-22,,GL,,1983,,21,,,,50,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-01-22,,GR,,9560,,25,9,8,,161,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,454,555,
+2021-01-22,,JU,,5126,,13,0,,,119,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-01-22,,LU,,,,83,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1200,1323,116
 2021-01-22,,NW,,1779,,8,3,,,15,http://www.nw.ch/coronastatistik,122,133,11
-2021-01-22,,TI,,26421,,215,28,25,2626,907,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-01-22,,TI,,26421,,215,28,25,2626,907,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,551,963,
 2021-01-22,,VS,,28514,,127,14,8,,666,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-22,00:00,OW,,1664,,8,,,,33,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,112,204,16
 2021-01-22,00:00,UR,,1660,,5,,,,36,https://www.ur.ch/themen/2962,,254,
@@ -8228,10 +8229,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-22,09:00,SZ,,8828,,,,,8133,180,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-01-22,09:15,SH,,3391,,15,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,146,194,31
 2021-01-22,10:00,TG,,13778,0,41,15,,787,289,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
-2021-01-22,10:50,BS,,0,,61,12,,0,0,https://www.gesundheit.bs.ch,0,0,
 2021-01-22,12:00,AI,,806,,4,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,41,41,
 2021-01-22,13:25,AR,,2867,,18,1,,,50,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,180,134,22
 2021-01-22,14:30,ZH,,79821,,284,69,54,,1116,https://www.zh.ch/de/gesundheit/coronavirus.html,3115,6508,
+2021-01-23,,TI,,26473,,205,30,19,2644,910,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-23,08:00,BE,,49270,,,,,,867,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-01-23,08:00,BS,,0,,0,0,,0,0,https://www.gesundheit.bs.ch,3,34,
 2021-01-23,09:00,SZ,,8877,,,,,8174,185,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
