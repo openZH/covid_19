@@ -13,7 +13,7 @@ matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases'],
     'AI': ['Confirmed cases', 'Deaths'],
-    'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'AR': [], # TODO: AR removed the cases data on 2021-01-23
     'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
