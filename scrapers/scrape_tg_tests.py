@@ -10,11 +10,11 @@ res = re.search(r".*categories: \[('KW.*)\],", content)
 assert res, f'failed to extract weeks, got {res}'
 weeks = res[1].split(',')
 
-res = re.search(r".*name: 'Anzahl negativer Tests',\s+color: '.*',\s+data: \[(.*)\],", content)
+res = re.search(r".*name: 'Anzahl negativer Tests.?',\s+color: '.*',\s+data: \[(.*)\],", content)
 assert res, f'failed to extract negative tests, got {res}'
 negative_tests = res[1].split(',')
 
-res = re.search(r".*name: 'Anzahl positiv getesteter Personen.?',\s+color: '.*',\s+data: \[(.*)\],", content)
+res = re.search(r".*name: 'Anzahl positiver Tests.?',\s+color: '.*',\s+data: \[(.*)\],", content)
 assert res, f'failed to extract positive tests, got {res}'
 positive_tests = res[1].split(',')
 
