@@ -43,9 +43,10 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 101,Bezirk Affoltern,55111,50,2020,190,1,1671,16
 101,Bezirk Affoltern,55111,51,2020,201,7,1872,23
 101,Bezirk Affoltern,55111,52,2020,183,5,2055,28
-101,Bezirk Affoltern,55111,53,2020,153,6,2208,34
-101,Bezirk Affoltern,55111,1,2021,115,4,2323,38
-101,Bezirk Affoltern,55111,2,2021,85,1,2408,39
+101,Bezirk Affoltern,55111,53,2020,153,7,2208,35
+101,Bezirk Affoltern,55111,1,2021,115,4,2323,39
+101,Bezirk Affoltern,55111,2,2021,85,1,2408,40
+101,Bezirk Affoltern,55111,3,2021,70,2,2478,42
 102,Bezirk Andelfingen,31490,9,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,10,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,11,2020,1,0,1,0
@@ -92,7 +93,8 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 102,Bezirk Andelfingen,31490,52,2020,87,2,1154,22
 102,Bezirk Andelfingen,31490,53,2020,84,2,1238,24
 102,Bezirk Andelfingen,31490,1,2021,73,0,1311,24
-102,Bezirk Andelfingen,31490,2,2021,29,0,1340,24
+102,Bezirk Andelfingen,31490,2,2021,29,1,1340,25
+102,Bezirk Andelfingen,31490,3,2021,22,1,1362,26
 103,Bezirk Bülach,154731,9,2020,0,0,0,0
 103,Bezirk Bülach,154731,10,2020,4,0,4,0
 103,Bezirk Bülach,154731,11,2020,16,0,20,0
@@ -140,6 +142,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,53,2020,424,4,6799,85
 103,Bezirk Bülach,154731,1,2021,391,1,7190,86
 103,Bezirk Bülach,154731,2,2021,267,6,7457,92
+103,Bezirk Bülach,154731,3,2021,240,4,7697,96
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -187,6 +190,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 104,Bezirk Dielsdorf,91112,53,2020,290,2,3933,31
 104,Bezirk Dielsdorf,91112,1,2021,239,5,4172,36
 104,Bezirk Dielsdorf,91112,2,2021,158,0,4330,36
+104,Bezirk Dielsdorf,91112,3,2021,140,2,4470,38
 105,Bezirk Hinwil,96595,9,2020,0,0,0,0
 105,Bezirk Hinwil,96595,10,2020,2,0,2,0
 105,Bezirk Hinwil,96595,11,2020,7,0,9,0
@@ -234,6 +238,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,53,2020,378,4,4706,73
 105,Bezirk Hinwil,96595,1,2021,337,5,5043,78
 105,Bezirk Hinwil,96595,2,2021,205,4,5248,82
+105,Bezirk Hinwil,96595,3,2021,197,1,5445,83
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -278,9 +283,10 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,50,2020,456,10,4438,67
 106,Bezirk Horgen,125834,51,2020,417,9,4855,76
 106,Bezirk Horgen,125834,52,2020,345,7,5200,83
-106,Bezirk Horgen,125834,53,2020,305,6,5505,89
-106,Bezirk Horgen,125834,1,2021,303,2,5808,91
-106,Bezirk Horgen,125834,2,2021,207,4,6015,95
+106,Bezirk Horgen,125834,53,2020,305,7,5505,90
+106,Bezirk Horgen,125834,1,2021,303,2,5808,92
+106,Bezirk Horgen,125834,2,2021,207,5,6015,97
+106,Bezirk Horgen,125834,3,2021,197,6,6212,103
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -328,6 +334,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,53,2020,326,4,4047,40
 107,Bezirk Meilen,104274,1,2021,321,7,4368,47
 107,Bezirk Meilen,104274,2,2021,236,4,4604,51
+107,Bezirk Meilen,104274,3,2021,177,5,4781,56
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -375,6 +382,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 108,Bezirk Pfäffikon,60703,53,2020,174,4,2482,33
 108,Bezirk Pfäffikon,60703,1,2021,210,2,2692,35
 108,Bezirk Pfäffikon,60703,2,2021,151,3,2843,38
+108,Bezirk Pfäffikon,60703,3,2021,149,2,2992,40
 109,Bezirk Uster,131422,9,2020,0,0,0,0
 109,Bezirk Uster,131422,10,2020,1,0,1,0
 109,Bezirk Uster,131422,11,2020,11,0,12,0
@@ -422,6 +430,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,53,2020,497,7,5925,55
 109,Bezirk Uster,131422,1,2021,458,10,6383,65
 109,Bezirk Uster,131422,2,2021,292,7,6675,72
+109,Bezirk Uster,131422,3,2021,308,8,6983,80
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -469,6 +478,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,53,2020,445,7,7206,107
 110,Bezirk Winterthur,171101,1,2021,443,0,7649,107
 110,Bezirk Winterthur,171101,2,2021,233,2,7882,109
+110,Bezirk Winterthur,171101,3,2021,204,0,8086,109
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -511,11 +521,12 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,48,2020,324,4,3159,23
 111,Bezirk Dietikon,92275,49,2020,318,3,3477,26
 111,Bezirk Dietikon,92275,50,2020,479,7,3956,33
-111,Bezirk Dietikon,92275,51,2020,418,7,4374,40
-111,Bezirk Dietikon,92275,52,2020,353,9,4727,49
-111,Bezirk Dietikon,92275,53,2020,315,6,5042,55
-111,Bezirk Dietikon,92275,1,2021,254,5,5296,60
-111,Bezirk Dietikon,92275,2,2021,185,5,5481,65
+111,Bezirk Dietikon,92275,51,2020,418,8,4374,41
+111,Bezirk Dietikon,92275,52,2020,353,9,4727,50
+111,Bezirk Dietikon,92275,53,2020,315,6,5042,56
+111,Bezirk Dietikon,92275,1,2021,254,5,5296,61
+111,Bezirk Dietikon,92275,2,2021,185,5,5481,66
+111,Bezirk Dietikon,92275,3,2021,141,4,5622,70
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -563,3 +574,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,53,2020,1297,38,21282,332
 112,Bezirk Zürich,422870,1,2021,1113,17,22395,349
 112,Bezirk Zürich,422870,2,2021,692,24,23087,373
+112,Bezirk Zürich,422870,3,2021,563,14,23650,387
