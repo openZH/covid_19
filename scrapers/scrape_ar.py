@@ -12,7 +12,8 @@ dd_ct = sc.DayData(canton='AR', url=url)
 
 t = sc.find(r'Contact\s+tracing\s+\(.*?Stand\:?\s+(.+?Uhr).*?\)', d) or \
     sc.find(r'Contact\s+tracing.*Stand\:? (.+? Uhr).*?\)', d) or \
-    sc.find(r'Contact\s+tracing.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d)
+    sc.find(r'Contact\s+tracing.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d) or \
+    sc.find(r'Stand (\d+\.\d+\.\d{4})', d)
 dd_ct.datetime = t
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>\s?(\d+)\s?</strong>', d)
@@ -27,9 +28,10 @@ if sc.represents_int(quarantined_total):
 
 dd_ct.quarantine_riskareatravel = quarantined_travel
 
+is_first = False
 if dd_ct:
     print(dd_ct)
-    print('-' * 10)
+    is_first = True
 
 # cases
 
@@ -84,4 +86,8 @@ dd.icu = sc.find(r'IPS-COVID-19-(?:Patienten|Fälle)\s+\(inkl\.\s+Verdachtsfäll
     sc.find(r'Davon\s+IPS-Patienten\s+\(mit\s+und\s+ohne\s+Beatmung\):\s+<strong>(\d+)</strong>', d)
 dd.deaths = sc.find(r'Todesfälle(?:\skumuliert)?.*?:( |&nbsp;)*<strong>([0-9]+)[^<]*?<\/strong>', d, group=2)
 
-print(dd)
+if dd:
+    if not is_first:
+        print('-' * 10)
+    is_first = True
+    print(dd)
