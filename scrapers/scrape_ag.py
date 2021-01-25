@@ -58,8 +58,8 @@ for row in rows:
         dd.hospitalized = int(non_icu) + int(icu) + int(icf)
         dd.icu = icu
         dd.icf = icf
-    dd.deaths = row['Gesamtzahl18']
-    dd.recovered = row['Gesamtzahl22']
+    dd.deaths = row['Gesamtzahl20']
+    dd.recovered = row['Gesamtzahl24']
 
     if dd:
         if not is_first:
