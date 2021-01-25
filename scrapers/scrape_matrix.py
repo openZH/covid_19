@@ -46,7 +46,7 @@ allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'
 matrix_time = [
     'AI',
     'AG',
-    'AR',
+    # 'AR',  # Not available anymore.
     'BE',
     # 'BL',  # Not available.
     'BS',
