@@ -17,7 +17,7 @@ base_url = 'https://www.vs.ch'
 url = f'{base_url}/web/coronavirus/statistiques'
 content = sc.download(url, silent=True)
 soup = BeautifulSoup(content, 'html.parser')
-pdf_url = soup.find('a', string=re.compile(r'2020.*Sit Epid.*')).get('href')
+pdf_url = soup.find('a', string=re.compile(r'20\d{2}.*Sit Epid.*')).get('href')
 pdf_url = f'{base_url}{pdf_url}'
 
 content = sc.pdfdownload(pdf_url, silent=True, layout=True, page=1)
