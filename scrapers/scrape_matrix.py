@@ -13,7 +13,7 @@ matrix = {
     # Note: Please keep the order of cantons and entries.
     'AG': ['Confirmed cases'],
     'AI': ['Confirmed cases', 'Deaths'],
-    'AR': ['Confirmed cases', 'Deaths', 'Hospitalized', 'ICU'],
+    'AR': [], # TODO: AR removed the cases data on 2021-01-23
     'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
@@ -46,7 +46,7 @@ allowed_extras = ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'
 matrix_time = [
     'AI',
     'AG',
-    'AR',
+    # 'AR',  # Not available anymore.
     'BE',
     # 'BL',  # Not available.
     'BS',
