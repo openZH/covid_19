@@ -53,6 +53,8 @@ for content_id in content_ids:
         td.positivity_rate = sc.find(r'Die\sPositivitätsrate.*Vorwoche\s\(\d+\.?\d?%\)\s[\w+\s+]+\s(\d+\.?\d?)%\s.*\.', content, flags=re.MULTILINE | re.DOTALL)
     if not td.positivity_rate:
         td.positivity_rate = sc.find(r'Positivitätsrate\s+[\w\s]+\s+(\d+\.?\d?)%[\w\s]+?\(Vorwoche', content)
+    if not td.positivity_rate:
+        td.positivity_rate = sc.find(r'Positivitätsrate.*?(\d+\.?\d+?)% gegenüber (\d+\.?\d+?)%.*?Vorwoche', content, flags=re.MULTILINE | re.DOTALL)
 
     assert td.total_tests
     assert td.positivity_rate
