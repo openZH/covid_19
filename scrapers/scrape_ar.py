@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
+from bs4 import BeautifulSoup
+import re
 import scrape_common as sc
 
 url = 'https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/'
 d = sc.download(url, silent=True)
+soup = BeautifulSoup(d, 'html.parser')
 d = d.replace('&nbsp;', ' ')
 
 # Contact Tracing with its own timestamp
 
 dd_ct = sc.DayData(canton='AR', url=url)
 
-t = sc.find(r'Contact\s+tracing\s+\(.*?Stand\:?\s+(.+?Uhr).*?\)', d) or \
-    sc.find(r'Contact\s+tracing.*Stand\:? (.+? Uhr).*?\)', d) or \
-    sc.find(r'Contact\s+tracing.*Stand ([0-9]+\.[0-9]+\.? \/ [0-9]+h)', d) or \
-    sc.find(r'Stand (\d+\.\d+\.\d{4})', d)
-dd_ct.datetime = t
+elem = soup.find('h3', text=re.compile(r'Contact\s+tracing\s+\(Aktualisierung.*'))
+dd_ct.datetime = sc.find(r'Stand (\d+\.\d+\.\d{4})', elem.text)
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>\s?(\d+)\s?</strong>', d)
 quarantined_total = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+(?:Kontaktpersonen|Personen)\s+in\s+Quarantäne:\s?<strong>\s?(\d+)\s?</strong>', d)
