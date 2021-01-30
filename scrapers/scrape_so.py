@@ -20,7 +20,7 @@ Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Qua
 rows = []
 
 date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
-number_of_tests = sc.find(r'PCR-Tes\s?ts\sTotal\s+(\d+)\s', content)
+number_of_tests = sc.find(r'Labortes\s?ts \(PCR.*Total\s+(\d+)\s', content, flags=re.DOTALL)
 res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+', content, re.DOTALL)
 if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
