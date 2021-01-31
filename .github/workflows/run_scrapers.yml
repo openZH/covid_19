@@ -189,6 +189,7 @@ jobs:
         destination: dashboard.png
         full-page: true
         delay: 5
+        width: 600
     
     # download artifact
     - name: Download dashboard screenshot from last step
