@@ -172,7 +172,7 @@ jobs:
         commit-message: Update COVID19_Fallzahlen_CH_total.csv
         rebase: 'true'
 
-  update_screenshot:
+  update_readme:
     needs: merge_csvs
     if: always()
     runs-on: ubuntu-18.04
@@ -181,21 +181,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    # update screenshot of dashboard
-    - name: Screenshot Dashboard
-      uses: swinton/screenshot-website@v1.x
-      with:
-        source: https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/
-        destination: dashboard.png
-        full-page: true
-        delay: 5
-        width: 600
-    
-    # download artifact
-    - name: Download dashboard screenshot from last step
-      uses: actions/download-artifact@v1
-      with:
-        name: dashboard
+    - name: Update README with latest update dates from cantons
+      run: ./scripts/update_dates_in_readme.sh
 
     - name: Check if there are changes in the repo
       id: changes
@@ -210,5 +197,5 @@ jobs:
         push-branch: master
         name: GitHub Action Scraper
         email: scraper@open.zh.ch
-        commit-message: Update dashboard screenshot
+        commit-message: Update dates in README
         rebase: 'true'
