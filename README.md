@@ -81,7 +81,7 @@ This data is generated and validated daily using manual and automated procedures
 
 The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/).
 
- Canton / FL | Last update | Note |
+ Canton / FL | Last update (of any variable) | Important notes |
 |-------------|------------|------|
 |[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-02-01](https://placehold.it/200x50/4d9221/000000?text=2021-02-01 'Last update on 2021-02-01')||
 |[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-01-31](https://placehold.it/200x50/de77ae/000000?text=2021-01-31 'Last update on 2021-01-31')| |
