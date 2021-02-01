@@ -9,8 +9,6 @@ for area in $areas
 do
     update_date_str=`grep $area $DIR/../COVID19_Fallzahlen_CH_total_v2.csv | tail -n 1 | awk -F, '{print $1}'`
     update_date=$(date --date="$update_date_str" +%s)
-    echo $today
-    echo $update_date
     diff=$(($today-$update_date))
 
     if [ $diff -lt 84000 ]; then
@@ -20,6 +18,6 @@ do
     else
         color='de77ae'
     fi
-    echo "${area},${update_date_str},${diff},${color}"
     sed -i -e "/\[$area\]/s#update on [^|]*|#update on $update_date_str](https://placehold.it/200x50/$color/000000?text=$update_date_str 'Last update on $update_date_str')|#" $DIR/../README.md
+    echo "Update README for ${area} (date: ${update_date_str}, color: ${color})"
 done
