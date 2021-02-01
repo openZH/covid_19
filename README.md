@@ -77,7 +77,7 @@ This data is generated and validated daily using manual and automated procedures
 | 0        | Zero cases are reported.
 |empty     | No value is reported.
 
-**Latest updates** <br>
+### Latest updates
 
 The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19_dashboard/index.html#/).
 
