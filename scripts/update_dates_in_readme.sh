@@ -21,5 +21,5 @@ do
         color='de77ae'
     fi
     echo "${area},${update_date_str},${diff},${color}"
-    sed -i -e "/\[$area\]/s#update on [^|]*|#update on $update_date_str](https://placehold.it/130x50/$color/000000?text=$update_date_str 'Last update on $update_date_str')|#" $DIR/../README.md
+    sed -i -e "/\[$area\]/s#update on [^|]*|#update on $update_date_str](https://placehold.it/200x50/$color/000000?text=$update_date_str 'Last update on $update_date_str')|#" $DIR/../README.md
 done
