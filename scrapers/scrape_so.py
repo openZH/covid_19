@@ -50,8 +50,6 @@ if data_table:
                 continue
             if headers[col_num] == 'Datum':
                 tmp_date = cell.string.strip()
-                # temporary workaround
-                tmp_date = tmp_date.replace('.01.2020', '.01.2021')
             elif headers[col_num] == 'Zeit':
                 tmp_time = cell.string.strip()
             elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
@@ -80,7 +78,7 @@ for table_row in table.find_all('tr'):
     items = table_row.find_all('td')
     name = items[0].string
     value = items[1].string.replace("'", "")
-    if sc.find(r'(Laborbestätigte Infektionen) .*:', name):
+    if sc.find(r'(Laborbestätigte Infektionen).*?:', name):
         data.cases = value
         continue
     if name == 'Verstorbene Personen (kumuliert) inkl. Nachmeldung:':
