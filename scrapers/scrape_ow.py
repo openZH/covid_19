@@ -11,7 +11,7 @@ d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
 dd = sc.DayData(canton='OW', url=url)
-dd.datetime = sc.find(r'Stand (\d+\. \w+ 20\d{2}.* Uhr)', d)
+dd.datetime = sc.find(r'Stand (\d+\. \w+ 20\d{2}.*U?hr)', d)
 dd.isolated = soup.find(text=re.compile(r'In Isolation \(aktuell\)')).find_next('td').string
 dd.quarantined = soup.find(text=re.compile(r'In Quarant.ne \(aktuell\)')).find_next('td').string
 dd.quarantine_riskareatravel = soup.find(text=re.compile(r'Reiser.ckkehrer in Quarant.ne')).find_next('td').string
