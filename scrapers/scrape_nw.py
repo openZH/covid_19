@@ -8,6 +8,7 @@ import scrape_common as sc
 url = 'https://www.nw.ch/gesundheitsamtdienste/6044'
 content = sc.download(url, silent=True)
 content = content.replace("&nbsp;", " ")
+content = re.sub(r'(\d+)\'(\d+)', r'\1\2', content)
 soup = BeautifulSoup(content, 'html.parser')
 
 item = soup.find(text=re.compile('Anzahl F.lle')).find_parent('p')
