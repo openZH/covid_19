@@ -8521,7 +8521,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-03,,GL,,2102,,10,,,,65,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-03,,GR,,10095,,29,8,7,,170,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,400,681,
 2021-02-03,,JU,,5363,,17,3,,,126,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-02-03,,LU,,,,63,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,605,2200,110
+2021-02-03,,LU,,20853,,63,,12,,290,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,605,2200,110
 2021-02-03,,NE,,13160,,32,5,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-02-03,,NW,,1873,,6,3,,,16,http://www.nw.ch/coronastatistik,61,92,5
 2021-02-03,,SG,,32769,,71,22,19,,649,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -8539,8 +8539,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-03,10:30,BS,,9410,,47,14,,8990,180,https://www.gesundheit.bs.ch,240,841,
 2021-02-03,12:00,AI,,839,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,27,40,
 2021-02-03,14:30,ZH,,83126,,221,52,36,,1199,https://www.zh.ch/de/gesundheit/coronavirus.html,2157,4202,
+2021-02-04,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,152,68,
 2021-02-04,,FL,,2513,,8,,,2413,52,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,,
-2021-02-04,,TI,,26963,,132,23,14,2786,940,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-02-04,,LU,,,,55,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,685,2180,
+2021-02-04,,TI,,26963,,132,23,14,2786,940,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,310,480,
 2021-02-04,00:00,UR,,1718,,3,,,,37,https://www.ur.ch/themen/2962,,75,
 2021-02-04,01:00,SO,,12862,,26,8,,,245,https://corona.so.ch/,,,
 2021-02-04,08:00,BE,,51093,,114,19,15,,942,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
