@@ -24,7 +24,7 @@ for row in reader:
     dd.vent = row['current_vent']
     dd.icu = row['current_icu']
     dd.isolated = row['current_isolated']
-    dd_iso_q.quarantined = row['current_quarantined']
+    dd.quarantined = row['current_quarantined']
     print(dd)
     
 
