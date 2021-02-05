@@ -204,6 +204,14 @@ class TestData:
         self.week = None
         self.year = None
         self.canton = canton
+        self.pcr_positive_tests = None
+        self.pcr_negative_tests = None
+        self.pcr_total_tests = None
+        self.pcr_positivity_rate = None
+        self.ag_positive_tests = None
+        self.ag_negative_tests = None
+        self.ag_total_tests = None
+        self.ag_positivity_rate = None
         self.positive_tests = None
         self.negative_tests = None
         self.total_tests = None
@@ -228,10 +236,26 @@ class TestData:
         res.append('' if self.total_tests is None else str(self.total_tests))
         res.append('' if self.positivity_rate is None else str(self.positivity_rate))
         res.append(self.url)
+        res.append('' if self.pcr_positive_tests is None else str(self.pcr_positive_tests))
+        res.append('' if self.pcr_negative_tests is None else str(self.pcr_negative_tests))
+        res.append('' if self.pcr_total_tests is None else str(self.pcr_total_tests))
+        res.append('' if self.pcr_positivity_rate is None else str(self.pcr_positivity_rate))
+        res.append('' if self.ag_positive_tests is None else str(self.ag_positive_tests))
+        res.append('' if self.ag_negative_tests is None else str(self.ag_negative_tests))
+        res.append('' if self.ag_total_tests is None else str(self.ag_total_tests))
+        res.append('' if self.ag_positivity_rate is None else str(self.ag_positivity_rate))
         return TestData.SEPARATOR.join(res)
 
     def __bool__(self):
         attributes = [
+            self.pcr_positive_tests,
+            self.pcr_negative_tests,
+            self.pcr_total_tests,
+            self.pcr_positivity_rate,
+            self.ag_positive_tests,
+            self.ag_negative_tests,
+            self.ag_total_tests,
+            self.ag_positivity_rate,
             self.positive_tests,
             self.negative_tests,
             self.total_tests,
@@ -249,7 +273,8 @@ class TestData:
 
     def parse(self, data):
         items = data.split(TestData.SEPARATOR)
-        if len(items) == 10:
+        ok = False
+        if len(items) in [10,18]:
             self.canton = items[0]
             self.start_date = items[1]
             self.end_date = items[2]
@@ -260,8 +285,18 @@ class TestData:
             self.total_tests = self.__get_int_item(items[7])
             self.positivity_rate = self.__get_float_item(items[8])
             self.url = items[9]
-            return True
-        return False
+            ok = len(items) == 10
+        if len(items) == 18:
+            self.pcr_positive_tests = self.__get_int_item(items[10])
+            self.pcr_negative_tests = self.__get_int_item(items[11])
+            self.pcr_total_tests = self.__get_int_item(items[12])
+            self.pcr_positivity_rate = self.__get_float_item(items[13])
+            self.ag_positive_tests = self.__get_int_item(items[14])
+            self.ag_negative_tests = self.__get_int_item(items[15])
+            self.ag_total_tests = self.__get_int_item(items[16])
+            self.ag_positivity_rate = self.__get_float_item(items[17])
+            ok = True
+        return ok
 
     @staticmethod
     def header():
