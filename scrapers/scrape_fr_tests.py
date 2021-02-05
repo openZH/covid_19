@@ -20,7 +20,9 @@ for row in rows:
     td = sc.TestData(canton='FR', url=main_url)
     td.week = int(week)
     td.year = year
-    tot_ag = int(row['Tests AG'])
-    tot_pcr = int(row['Tests PCR'])
-    td.total_tests = tot_ag + tot_pcr
+    td.pcr_total_tests = int(row['Tests PCR'])
+    td.pcr_positivity_rate = round(row['Taux/Rate PCR'] * 100)
+    td.ag_total_tests = int(row['Tests AG'])
+    td.ag_positivity_rate = round(row['Taux/Rate AG'] * 100)
+    td.total_tests = td.pcr_total_tests + td.ag_total_tests
     print(td)

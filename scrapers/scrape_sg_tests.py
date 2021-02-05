@@ -16,6 +16,10 @@ for row in reader:
     td = sc.TestData(canton='SG', url=url)
     td.start_date = row['Datum']
     td.end_date = row['Datum']
+    td.pcr_positive_tests = row['Positiv (PCR)']
+    td.pcr_negative_tests = row['Negativ (PCR)']
+    td.ag_positive_tests = row['Positiv (Schnelltest)']
+    td.ag_negative_tests = row['Negativ (Schnelltest)']
     td.positive_tests = row['Total positive Tests']
     td.negative_tests = row['Total negative Tests']
     td.total_tests = row['Total Tests']

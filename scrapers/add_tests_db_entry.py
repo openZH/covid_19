@@ -32,6 +32,14 @@ try:
                       end_date,
                       week,
                       year,
+                      pcr_positive_tests,
+                      pcr_negative_tests,
+                      pcr_total_tests,
+                      pcr_positivity_rate,
+                      ag_positive_tests,
+                      ag_negative_tests,
+                      ag_total_tests,
+                      ag_positivity_rate,
                       positive_tests,
                       negative_tests,
                       total_tests,
@@ -39,7 +47,7 @@ try:
                       source
                     )
                     VALUES
-                    (?,?,?,?,?,?,?,?,?,?)
+                    (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
                       ;
 
                     ''',
@@ -49,6 +57,14 @@ try:
                         td.end_date or '',
                         td.week or '',
                         td.year or '',
+                        td.pcr_positive_tests,
+                        td.pcr_negative_tests,
+                        td.pcr_total_tests,
+                        td.pcr_positivity_rate,
+                        td.ag_positive_tests,
+                        td.ag_negative_tests,
+                        td.ag_total_tests,
+                        td.ag_positivity_rate,
                         td.positive_tests,
                         td.negative_tests,
                         td.total_tests,
@@ -64,6 +80,14 @@ try:
                     c.execute(
                         '''
                         UPDATE data SET
+                          pcr_positive_tests = ?,
+                          pcr_negative_tests = ?,
+                          pcr_total_tests = ?,
+                          pcr_positivity_rate = ?,
+                          ag_positive_tests = ?,
+                          ag_negative_tests = ?,
+                          ag_total_tests = ?,
+                          ag_positivity_rate = ?,
                           positive_tests = ?,
                           negative_tests = ?,
                           total_tests = ?,
@@ -77,6 +101,14 @@ try:
                         ;
                         ''',
                         [
+                            td.pcr_positive_tests,
+                            td.pcr_negative_tests,
+                            td.pcr_total_tests,
+                            td.pcr_positivity_rate,
+                            td.ag_positive_tests,
+                            td.ag_negative_tests,
+                            td.ag_total_tests,
+                            td.ag_positivity_rate,
                             td.positive_tests,
                             td.negative_tests,
                             td.total_tests,
