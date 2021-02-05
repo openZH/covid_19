@@ -35,6 +35,14 @@ try:
             total_tests integer,
             positivity_rate float,
             source text,
+            pcr_positive_tests integer,
+            pcr_negative_tests integer,
+            pcr_total_tests integer,
+            pcr_positivity_rate float,
+            ag_positive_tests integer,
+            ag_negative_tests integer,
+            ag_total_tests integer,
+            ag_positivity_rate float,
             UNIQUE(canton, start_date, end_date, week, year)
         )
         '''
