@@ -12,7 +12,7 @@ soup = BeautifulSoup(d, 'html.parser')
 
 dd = sc.DayData(canton='OW', url=url)
 date = sc.find(r'Stand (\d+\. \w+ 20\d{2})', d)
-time = sc.find(r'Stand .*,\s?(.*)U?hr', d)
+time = sc.find(r'Stand .*,\s?([\d\.:]+).*Uhr', d)
 dd.datetime = f'{date}, {time} Uhr'
 dd.isolated = soup.find(text=re.compile(r'In Isolation \(aktuell\)')).find_next('td').string
 dd.quarantined = soup.find(text=re.compile(r'In Quarant.ne \(aktuell\)')).find_next('td').string
