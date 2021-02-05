@@ -1,1 +1,2 @@
-canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source
+canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source,pcr_positive_tests,pcr_negative_tests,pcr_total_tests,pcr_positivity_rate,ag_positive_tests,ag_negative_tests,ag_total_tests,ag_positivity_rate
+NW,2021-02-04,2021-02-04,,,,,113,9.7,https://www.nw.ch/gesundheitsamtdienste/6044,,,,,,,,
