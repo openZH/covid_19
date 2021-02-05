@@ -8548,6 +8548,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-04,,GE,,45004,,110,12,,,689,https://infocovid.smc.unige.ch/,,,
 2021-02-04,,GL,,2106,,10,,,,66,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-04,,GR,,10136,,26,7,7,,170,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,370,675,
+2021-02-04,,JU,,5382,,21,3,,,126,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-02-04,,LU,,,,55,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,685,2180,122
 2021-02-04,,NW,,1884,,5,2,,,16,http://www.nw.ch/coronastatistik,62,86,8
 2021-02-04,,SG,,32893,,70,20,18,,651,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -8565,3 +8566,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-04,12:00,AI,,845,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,24,32,
 2021-02-04,14:30,ZH,,83371,,207,50,39,,1200,https://www.zh.ch/de/gesundheit/coronavirus.html,2296,5469,
 2021-02-05,00:00,UR,,1723,,3,,,,37,https://www.ur.ch/themen/2962,,84,
+2021-02-05,09:00,SZ,,9205,,,,,8686,204,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
