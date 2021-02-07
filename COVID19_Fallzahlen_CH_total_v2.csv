@@ -8609,6 +8609,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-07,,BL,,12943,,20,3,1,12257,205,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-02-07,,FL,,2523,,,,,,,https://www.regierung.li/de/mitteilungen/224271/?typ=content&nid=11076,,,
 2021-02-07,,FR,,26262,,24,5,,777,457,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
+2021-02-07,,GR,,10237,,23,5,5,,170,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,344,435,
 2021-02-07,,NW,,1903,,5,1,,,16,https://www.nw.ch/gesundheitsamtdienste/6044,52,68,9
 2021-02-07,,TI,,27114,,105,18,14,2821,947,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-02-07,08:00,BE,,51469,,,,,,950,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
