@@ -51,6 +51,10 @@ for csv_file in args:
     q3 = df_conf['current_conf'].quantile(0.75)
     iqr = q3 - q1
 
+    if pd.isna(q1) or pd.isna(q3) or pd.isna(iqr):
+        print(f"⚠️ {csv_file} has too many missing/NaN values (Q1: {q1}, Q3: {q3}, IQR: {iqr})  to calculate outliers, skipping.")
+        continue
+
     lower_limit = q1 - (iqr * FACTOR)
     upper_limit = math.ceil(q3 + (iqr * FACTOR))
 
@@ -67,13 +71,13 @@ for csv_file in args:
     outliers = df_conf.query('(current_conf < @lower_limit) or (current_conf > @upper_limit)')
     recent_outliers = df_conf.tail(RECENT_PERIODS).query("((current_conf < @lower_limit) or (current_conf > @upper_limit)) and (ncumul_conf_outlier != 'ignore')")
     if outliers.empty:
-        print(f"✅ {csv_file} has no outliers.");
+        print(f"✅ {csv_file} has no outliers.")
     else:
         if not recent_outliers.empty:
             fail = True
-            print(f"❌ {csv_file} has recent outliers, please check if this is an error.");
+            print(f"❌ {csv_file} has recent outliers, please check if this is an error.")
         else:
-            print(f"⚠️ {csv_file} has older or ignored outliers.");
+            print(f"⚠️ {csv_file} has older or ignored outliers.")
         print(outliers[['date', 'ncumul_conf', 'current_conf', 'iqr', 'factor', 'upper_limit']])
         print('')
 
