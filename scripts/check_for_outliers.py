@@ -51,8 +51,6 @@ for csv_file in args:
     q3 = df_conf['current_conf'].quantile(0.75)
     iqr = q3 - q1
 
-    print(f"⚠️ {csv_file} has Q1: {q1}, Q3: {q3}, IQR: {iqr}")
-        
     if pd.isna(q1) or pd.isna(q3) or pd.isna(iqr):
         print(f"⚠️ {csv_file} has too many missing/NaN values (Q1: {q1}, Q3: {q3}, IQR: {iqr})  to calculate outliers, skipping.")
         continue
