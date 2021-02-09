@@ -148,7 +148,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,2,2021,267,6,7457,92
 103,Bezirk Bülach,154731,3,2021,238,4,7695,96
 103,Bezirk Bülach,154731,4,2021,202,5,7897,101
-103,Bezirk Bülach,154731,5,2021,149,5,8046,106
+103,Bezirk Bülach,154731,5,2021,148,5,8045,106
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -198,7 +198,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 104,Bezirk Dielsdorf,91112,2,2021,158,0,4330,36
 104,Bezirk Dielsdorf,91112,3,2021,140,2,4470,38
 104,Bezirk Dielsdorf,91112,4,2021,91,1,4561,39
-104,Bezirk Dielsdorf,91112,5,2021,81,3,4642,42
+104,Bezirk Dielsdorf,91112,5,2021,81,4,4642,43
 105,Bezirk Hinwil,96595,9,2020,0,0,0,0
 105,Bezirk Hinwil,96595,10,2020,2,0,2,0
 105,Bezirk Hinwil,96595,11,2020,7,0,9,0
@@ -298,7 +298,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,2,2021,207,5,6014,97
 106,Bezirk Horgen,125834,3,2021,197,6,6211,103
 106,Bezirk Horgen,125834,4,2021,201,2,6412,105
-106,Bezirk Horgen,125834,5,2021,152,3,6564,108
+106,Bezirk Horgen,125834,5,2021,152,4,6564,109
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -448,7 +448,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,2,2021,292,7,6674,73
 109,Bezirk Uster,131422,3,2021,304,10,6978,83
 109,Bezirk Uster,131422,4,2021,213,9,7191,92
-109,Bezirk Uster,131422,5,2021,144,3,7335,95
+109,Bezirk Uster,131422,5,2021,144,4,7335,96
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -598,4 +598,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,2,2021,692,24,23087,373
 112,Bezirk Zürich,422870,3,2021,560,16,23647,389
 112,Bezirk Zürich,422870,4,2021,488,9,24135,398
-112,Bezirk Zürich,422870,5,2021,385,4,24520,402
+112,Bezirk Zürich,422870,5,2021,384,5,24519,403
