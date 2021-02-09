@@ -27,6 +27,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 - [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
+- [Variants of Concern - VOC](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
 
@@ -297,7 +298,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
 **Metadata**
 
-| Fieldname           | Beschreibung (EN)                          | Format             |
+| Fieldname           | Description (EN)                           | Format             |
 |---------------------|--------------------------------------------|--------------------|
 | __date__            | Date of notification                       | YYYY-MM-DD         |
 | __time__            | Time of notification                       | HH:MM              |
@@ -310,6 +311,26 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 | __current_vent_covid__ | Reported number of hospitalised Covid19 patients requiring invasive ventilation on date. (These data are communicated by the Health Department Canton Zurich on weekdays, and available here: https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) | Number      |
 | __current_icu_not_covid__ | Reported number of hospitalised non-Covid19 patients in ICU on date. | Number      |
 | __source__ | Source URL of the data reported. | String      |
+
+## Canton Zurich: Variants of Concern
+
+*Important note:* Variants of concern ('VOC') can *not* be detected by 'rapid' tests, but can be detected by PCR tests. Virus mutations are classified as being of concern because, among other things, they are more infectious than the wild type of the virus.
+
+**Data** <br>
+
+>**https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_zh/COVID19_VOC_Kanton_ZH.csv** <br>
+>*Description:* [Ressource: "COVID_19 PCR-Tests und besorgniserregende Virusmutationen im Kanton Zürich"](https://www.zh.ch/de/politik-staat/opendata.html?keyword=ogd#/details/671@gesundheitsdirektion-kanton-zuerich) <br>
+>*Spatial unit:* Canton Zürich <br>
+>*Format:* csv <br>
+
+**Metadata**
+
+| Fieldname           | Beschreibung (EN)                          | Format             |
+|---------------------|--------------------------------------------|--------------------|
+| __date__            | Date of notification                       | YYYY-MM-DD         |
+| __new_pcr_pos__     | Number of newly positive PCR tests         | Number             |
+| __new_voc__         | Number of newly detected variants of concern ('VOC') | Number             |	 
+
 
 # Community Contributions
 
