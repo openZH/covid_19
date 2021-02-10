@@ -8671,6 +8671,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-09,,GE,,45553,,104,10,,,690,https://infocovid.smc.unige.ch/,,,
 2021-02-09,,GL,,2130,,9,,,,66,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-09,,GR,,10290,,21,6,4,,170,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,324,435,
+2021-02-09,,JU,,5426,,20,3,,,129,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-02-09,,LU,,,,63,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,487,1054,188
 2021-02-09,,NW,,1921,,7,2,,,17,http://www.nw.ch/coronastatistik,54,93,9
 2021-02-09,,SG,,33248,,59,17,17,,658,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -8678,7 +8679,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-09,,VS,,30215,,107,12,10,,718,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-09,00:00,OW,,1786,,5,,,,37,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,33,88,12
 2021-02-09,00:00,UR,,1739,,4,,,,37,https://www.ur.ch/themen/2962,,98,
-2021-02-09,01:00,SO,,12999,,17,7,,,245,https://corona.so.ch/,,,
+2021-02-09,01:00,SO,,12999,,17,7,,,245,https://corona.so.ch/index.php?id=27979,,,
 2021-02-09,08:00,BE,,51635,,116,21,17,,953,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-02-09,08:00,ZG,,6234,,8,2,,5931,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,179,360,116
 2021-02-09,09:00,SH,,3519,,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,41,79,23
@@ -8688,4 +8689,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-09,12:00,AI,,849,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,22,33,
 2021-02-09,14:30,ZH,,84411,,203,45,36,,1226,https://www.zh.ch/de/gesundheit/coronavirus.html,1834,4550,
 2021-02-10,00:00,UR,,1743,,5,,,,37,https://www.ur.ch/themen/2962,,76,
+2021-02-10,01:00,SO,,13032,,19,7,,,245,https://corona.so.ch/,,,
 2021-02-10,08:00,ZG,,6269,,6,2,,5978,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-02-10,09:00,SH,,3522,,1,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,41,60,
