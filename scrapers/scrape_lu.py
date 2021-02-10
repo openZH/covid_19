@@ -29,11 +29,11 @@ for row in rows:
     if dd.deaths:
         total_deaths += dd.deaths
         dd.deaths = total_deaths
-    dd.hospitalized = sc.int_or_word(row['hospitalisiert'])
+    dd.hospitalized = sc.int_or_word(row['Total'])
     dd.vent = sc.int_or_word(row['davon beatmet'])
-    dd.isolated = sc.int_or_word(row['In\xa0Isolation'])
-    dd.quarantined = sc.int_or_word(row['In\xa0Quarantäne'])
-    dd.quarantine_riskareatravel = sc.int_or_word(row['Reiserückkehrer\xa0in\xa0Quarantäne'])
+    dd.isolated = sc.int_or_word(row['in\xa0Isolation'])
+    dd.quarantined = sc.int_or_word(row['in\xa0Quarantäne'])
+    dd.quarantine_riskareatravel = sc.int_or_word(row['Reiserückkehrer\nin\xa0Quarantäne'])
     if dd:
         if not is_first:
             print('-' * 10)
