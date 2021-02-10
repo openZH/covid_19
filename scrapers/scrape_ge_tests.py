@@ -24,12 +24,8 @@ elem = driver.find_element_by_link_text('Graphiques')
 elem.click()
 elem = driver.find_element_by_partial_link_text('Tests')
 elem.click()
-
-# wait for the element
-wait = WebDriverWait(driver, 10)
-elem = wait.until(EC.element_to_be_clickable((By.ID, 'save_plot_nombre_tests_data')))
-xls_url = elem.get_attribute('href')
-assert xls_url, "Couldn't find XLS url"
+xls_url = sgc.get_link_from_element(driver, 'save_plot_nombre_tests_data')
+assert xls_url, "Couldn't find tests XLS url"
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0, enable_float=True)
