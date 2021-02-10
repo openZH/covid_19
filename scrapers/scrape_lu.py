@@ -14,14 +14,14 @@ xls_url = soup.find('a', href=re.compile(r'.*\.xlsx')).get('href')
 if not xls_url.startswith('http'):
     xls_url = f'{base_url}{xls_url}'
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=3)
+rows = sc.parse_xls(xls, header_row=4)
 total_cases = 0
 total_deaths = 0
 is_first = True
 for row in rows:
     dd = sc.DayData(canton='LU', url=xls_url)
     dd.datetime = row['Datum']
-    dd.cases = sc.int_or_word(row['Neue\xa0Fälle'])
+    dd.cases = sc.int_or_word(row.search(r'Neue\s+Fälle'))
     if dd.cases:
         total_cases += dd.cases
         dd.cases = total_cases
@@ -29,11 +29,11 @@ for row in rows:
     if dd.deaths:
         total_deaths += dd.deaths
         dd.deaths = total_deaths
-    dd.hospitalized = sc.int_or_word(row['Hospitalisierte'])
-    dd.vent = sc.int_or_word(row['Beatmete'])
-    dd.isolated = sc.int_or_word(row['In\xa0Isolation'])
-    dd.quarantined = sc.int_or_word(row['In\xa0Quarantäne'])
-    dd.quarantine_riskareatravel = sc.int_or_word(row['Reiserückkehrer\xa0in\xa0Quarantäne'])
+    dd.hospitalized = sc.int_or_word(row['Total'])
+    dd.vent = sc.int_or_word(row.search(r'davon\s+beatmet'))
+    dd.isolated = sc.int_or_word(row.search(r'in\s+Isolation'))
+    dd.quarantined = sc.int_or_word(row.search(r'in\s+Quarantäne'))
+    dd.quarantine_riskareatravel = sc.int_or_word(row.search(r'Reiserückkehrer\s+in\s+Quarantäne'))
     if dd:
         if not is_first:
             print('-' * 10)
