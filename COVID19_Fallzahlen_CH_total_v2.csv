@@ -8644,7 +8644,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-08,,GE,,45553,,117,12,,,690,https://infocovid.smc.unige.ch/,1139,1405,473
 2021-02-08,,GL,,2118,,10,,,,66,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-08,,GR,,10252,,22,6,5,,170,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,311,430,
-2021-02-08,,JU,,5418,,19,3,,,129,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-02-08,,JU,,5417,,19,3,,,129,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-02-08,,LU,,21089,,62,,9,,292,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,535,1428,122
 2021-02-08,,NE,,13294,,31,5,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-02-08,,NW,,1911,,5,1,,,16,http://www.nw.ch/coronastatistik,50,100,9
@@ -8691,4 +8691,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-10,00:00,UR,,1743,,5,,,,37,https://www.ur.ch/themen/2962,,76,
 2021-02-10,01:00,SO,,13032,,19,7,,,245,https://corona.so.ch/,,,
 2021-02-10,08:00,ZG,,6269,,6,2,,5978,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
-2021-02-10,09:00,SH,,3522,,1,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,41,60,
+2021-02-10,09:00,SH,,3522,,1,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,41,60,27
+2021-02-10,09:00,SZ,,9293,,,,,8804,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
