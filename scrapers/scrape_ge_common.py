@@ -4,6 +4,9 @@
 import re
 import time
 from bs4 import BeautifulSoup
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import scrape_common as sc
 
 
@@ -29,10 +32,8 @@ def get_ge_weekly_pdf_urls():
 def get_link_from_element(driver, element_id):
     # the xls download links do not appear immediately for some reason
     # add some delay to get it.
-    for _ in range(10):
-        elem = driver.find_element_by_id(element_id)
-        url = elem.get_attribute('href')
-        if url != '':
-            return url
-        time.sleep(1)
-    return ''
+    wait = WebDriverWait(driver, 20)
+    elem = wait.until(EC.presence_of_element_located((By.ID, element_id)))
+    url = elem.get_attribute('href')
+    
+    return url

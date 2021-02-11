@@ -64,6 +64,7 @@ elem.click()
 elem = driver.find_element_by_link_text('Cas et quarantaines')
 elem.click()
 quarantine_xls_url = sgc.get_link_from_element(driver, 'download_table_cas')
+assert quarantine_xls_url, "Couldn't find quarantine XLS url"
 
 xls = sc.xlsdownload(quarantine_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
@@ -85,6 +86,7 @@ for row in rows:
 elem = driver.find_element_by_link_text('Indicateurs principaux')
 elem.click()
 case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs')
+assert case_xls_url, "Couldn't find cases XLS url"
 
 xls = sc.xlsdownload(case_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
