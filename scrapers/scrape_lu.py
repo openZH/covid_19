@@ -14,7 +14,7 @@ xls_url = soup.find('a', href=re.compile(r'.*\.xlsx')).get('href')
 if not xls_url.startswith('http'):
     xls_url = f'{base_url}{xls_url}'
 xls = sc.xlsdownload(xls_url, silent=True)
-rows = sc.parse_xls(xls, header_row=4)
+rows = sc.parse_xls(xls, header_row=5)
 total_cases = 0
 total_deaths = 0
 is_first = True
