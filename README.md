@@ -27,7 +27,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 - [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
-- [Variants of Concern - VOC](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern)<br>
+- [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
 
