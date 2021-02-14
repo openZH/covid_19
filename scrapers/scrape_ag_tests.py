@@ -8,7 +8,7 @@ xls_url = sac.get_ag_xls_url()
 xls = sc.xlsdownload(xls_url, silent=True)
 
 year = '2020'
-rows = sc.parse_xls(xls, sheet_name='1.3 Labortests', header_row=1, enable_float=True)
+rows = sc.parse_xls(xls, sheet_name='1.4 Labortests', header_row=1, enable_float=True)
 for row in rows:
     if not row['Anzahl Tests']:
         continue
