@@ -24,11 +24,11 @@ for row in rows:
     dd.cases = sc.int_or_word(row.search(r'Neue\s+Fälle'))
     if dd.cases:
         total_cases += dd.cases
-        dd.cases = total_cases
+    dd.cases = total_cases
     dd.deaths = sc.int_or_word(row['Verstorbene'])
     if dd.deaths:
         total_deaths += dd.deaths
-        dd.deaths = total_deaths
+    dd.deaths = total_deaths
     dd.hospitalized = sc.int_or_word(row['Total'])
     dd.vent = sc.int_or_word(row.search(r'davon\s+beatmet'))
     dd.isolated = sc.int_or_word(row.search(r'in\s+Isolation'))
