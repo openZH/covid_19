@@ -304,7 +304,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,3,2021,197,6,6211,103
 106,Bezirk Horgen,125834,4,2021,201,2,6412,105
 106,Bezirk Horgen,125834,5,2021,151,4,6563,109
-106,Bezirk Horgen,125834,6,2021,166,1,6729,110
+106,Bezirk Horgen,125834,6,2021,166,3,6729,112
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -355,7 +355,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,3,2021,176,9,4780,61
 107,Bezirk Meilen,104274,4,2021,129,4,4909,65
 107,Bezirk Meilen,104274,5,2021,133,3,5042,68
-107,Bezirk Meilen,104274,6,2021,97,1,5139,69
+107,Bezirk Meilen,104274,6,2021,96,1,5138,69
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -457,7 +457,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,3,2021,304,10,6978,84
 109,Bezirk Uster,131422,4,2021,213,9,7191,93
 109,Bezirk Uster,131422,5,2021,144,4,7335,97
-109,Bezirk Uster,131422,6,2021,123,3,7458,100
+109,Bezirk Uster,131422,6,2021,122,3,7457,100
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -610,4 +610,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,3,2021,560,16,23647,389
 112,Bezirk Zürich,422870,4,2021,488,9,24135,398
 112,Bezirk Zürich,422870,5,2021,384,5,24519,403
-112,Bezirk Zürich,422870,6,2021,328,4,24847,407
+112,Bezirk Zürich,422870,6,2021,328,5,24847,408
