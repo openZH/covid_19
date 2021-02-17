@@ -8835,7 +8835,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-16,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,129,,31
 2021-02-16,,BL,,13260,,21,1,0,12638,209,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-02-16,,FL,,2540,,,,,,,https://www.regierung.li/de/mitteilungen/224292/?typ=content&nid=11076,,,
-2021-02-16,,GE,,46338,,,,,,696,https://infocovid.smc.unige.ch/,931,1142,
+2021-02-16,,GE,,46338,,,,,,696,https://infocovid.smc.unige.ch/,931,1142,422
 2021-02-16,,GL,,2162,,7,,,,66,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-16,,GR,,10447,,18,5,3,,172,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,180,363,
 2021-02-16,,LU,,,,34,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,341,332,137
@@ -8846,7 +8846,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-16,00:00,UR,,1765,,4,,,,37,https://www.ur.ch/themen/2962,,57,
 2021-02-16,01:00,SO,,13188,,18,2,,,246,https://corona.so.ch/,,,
 2021-02-16,08:00,BE,,52399,,109,19,16,,974,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-02-16,08:00,ZG,,6358,,8,2,,6115,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-02-16,08:00,ZG,,6358,,8,2,,6115,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,125,195,114
 2021-02-16,09:00,SH,,3553,,4,1,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,30,60,37
 2021-02-16,09:00,SZ,,9386,,,,,8966,213,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-02-16,10:00,TG,,14632,0,27,11,,857,349,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
@@ -8854,3 +8854,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-16,12:00,AI,,858,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,16,10,
 2021-02-16,14:30,ZH,,85610,,151,40,29,,1250,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-02-17,00:00,UR,,1766,,3,,,,39,https://www.ur.ch/themen/2962,,68,
+2021-02-17,08:00,ZG,,6364,,5,2,,6127,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
