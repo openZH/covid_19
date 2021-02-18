@@ -94,7 +94,8 @@ for row in rows:
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = row['Date']
     dd.cases = row['Cumul cas COVID-19']
-    dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']
+    if int(row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']) >= 0:
+        dd.hospitalized = row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']
     dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
     dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
     dd.deaths = row['Cumul décès COVID-19 ']
