@@ -1,19 +1,31 @@
-name: Test run of scrapers
+name: Test run of district scrapers
 
 on:
   push:
     branches: [ master ]
     paths:
     - 'scrapers/**'
-    - '!scrapers/*districts*'
-    - '!scrapers/*tests*'
+    - 'scrapers/parse_scrape_output.py'
+    - 'scrapers/populate_district_database.py'
+    - 'scrapers/run_district_scraper.sh'
+    - 'scrapers/scrape_dates.py'
+    - 'scrapers/scrape_matrix.py'
+    - 'scrapers/validate_scraper*'
+    - 'scrapers/*_common.py'
+    - '!scrapers/*_tests.py'
     - '.github/workflows/**'
   pull_request:
     branches: [ master ]
     paths:
     - 'scrapers/**'
-    - '!scrapers/*districts*'
-    - '!scrapers/*tests*'
+    - 'scrapers/parse_scrape_output.py'
+    - 'scrapers/populate_district_database.py'
+    - 'scrapers/run_district_scraper.sh'
+    - 'scrapers/scrape_dates.py'
+    - 'scrapers/scrape_matrix.py'
+    - 'scrapers/validate_scraper*'
+    - 'scrapers/*_common.py'
+    - '!scrapers/*_tests.py'
     - '.github/workflows/**'
   workflow_dispatch: ~
 
@@ -39,10 +51,10 @@ jobs:
         npm ci
         python -m pip install --upgrade pip setuptools wheel
         pip install -r requirements.txt
+        pip install -r requirements-ocr.txt
         sudo apt update || true # do not fail if update does not work
         sudo apt-get install poppler-utils
-        sudo apt-get install chromium-browser
 
-    - name: Test run of all scrapers
-      run: ./scrapers/test_scraper.sh
+    - name: Test run of all district scrapers
+      run: ./scrapers/test_district_scraper.sh
 
