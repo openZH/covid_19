@@ -44,7 +44,7 @@ class element_has_link(object):
 def get_link_from_element(driver, element_id):
     # the xls download links do not appear immediately for some reason
     # add some delay to get it.
-    wait = WebDriverWait(driver, 20)
+    wait = WebDriverWait(driver, 30)
     elem = wait.until(element_has_link((By.ID, element_id)))
     url = elem.get_attribute('href')
 
