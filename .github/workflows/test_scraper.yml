@@ -5,18 +5,20 @@ on:
     branches: [ master ]
     paths:
     - 'scrapers/**'
-    - '!scrapers/*_districts.py'
-    - '!scrapers/*_tests.py'
+    - '!scrapers/*districts*'
+    - '!scrapers/*tests*'
     - '.github/workflows/**'
   pull_request:
     branches: [ master ]
     paths:
     - 'scrapers/**'
+    - '!scrapers/*districts*'
+    - '!scrapers/*tests*'
     - '.github/workflows/**'
   workflow_dispatch: ~
 
 jobs:
-  validate:
+  test_run:
     runs-on: ubuntu-18.04
     timeout-minutes: 10
 

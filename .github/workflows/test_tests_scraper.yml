@@ -5,18 +5,32 @@ on:
     branches: [ master ]
     paths:
     - 'scrapers/**'
-    - '!scrapers/scrape_??.py'
+    - 'scrapers/parse_scrape_output.py'
+    - 'scrapers/populate_tests_database.py'
+    - 'scrapers/run_tests_scraper.sh'
+    - 'scrapers/scrape_dates.py'
+    - 'scrapers/scrape_matrix.py'
+    - 'scrapers/validate_scraper*'
+    - 'scrapers/*_common.py'
     - '!scrapers/*_districts.py'
     - '.github/workflows/**'
   pull_request:
     branches: [ master ]
     paths:
     - 'scrapers/**'
+    - 'scrapers/parse_scrape_output.py'
+    - 'scrapers/populate_tests_database.py'
+    - 'scrapers/run_tests_scraper.sh'
+    - 'scrapers/scrape_dates.py'
+    - 'scrapers/scrape_matrix.py'
+    - 'scrapers/validate_scraper*'
+    - 'scrapers/*_common.py'
+    - '!scrapers/*_districts.py'
     - '.github/workflows/**'
   workflow_dispatch: ~
 
 jobs:
-  validate:
+  test_run:
     runs-on: ubuntu-18.04
     timeout-minutes: 10
 
