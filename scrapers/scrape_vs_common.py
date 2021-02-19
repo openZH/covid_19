@@ -9,7 +9,9 @@ import scrape_common as sc
 
 
 def get_vs_latest_weekly_pdf_url():
-    return get_vs_weekly_pdf_urls()[0]
+    pdfs = get_vs_weekly_pdf_urls()
+    assert pdfs, "Could not find weekly PDFs"
+    return pdfs[0]
 
 
 def get_vs_weekly_pdf_urls():
