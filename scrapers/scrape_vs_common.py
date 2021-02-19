@@ -14,7 +14,7 @@ def get_vs_latest_weekly_pdf_url():
 
 def get_vs_weekly_pdf_urls():
     base_url = 'https://www.vs.ch'
-    url = base_url + '/de/web/coronavirus/statistiques'
+    url = base_url + '/de/web/coronavirus/statistiques-hebdomadaires'
     content = sc.download(url, silent=True)
     soup = BeautifulSoup(content, 'html.parser')
     links = soup.find_all(href=re.compile(r'Synthese.*Woche'))
