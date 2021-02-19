@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-    - 'scrapers/**'
+    - 'scrapers/*tests*'
     - 'scrapers/parse_scrape_output.py'
     - 'scrapers/populate_tests_database.py'
     - 'scrapers/run_tests_scraper.sh'
@@ -17,7 +17,7 @@ on:
   pull_request:
     branches: [ master ]
     paths:
-    - 'scrapers/**'
+    - 'scrapers/*tests*'
     - 'scrapers/parse_scrape_output.py'
     - 'scrapers/populate_tests_database.py'
     - 'scrapers/run_tests_scraper.sh'
