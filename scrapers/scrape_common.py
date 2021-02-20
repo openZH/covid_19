@@ -8,6 +8,8 @@ import subprocess
 import re
 import sys
 import requests
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
 import certifi
 import xlrd
 from scrape_dates import parse_date
@@ -354,8 +356,18 @@ def add_cert_to_bundle():
 def _download_request(url, silent):
     if not silent:
         print("Downloading:", url)
+    
+    retry_strategy = Retry(
+        total=3,
+        status_forcelist=[429, 500, 502, 503, 504],
+        method_whitelist=["HEAD", "GET", "OPTIONS"]
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    http = requests.Session()
+    http.mount("https://", adapter)
+    http.mount("http://", adapter)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
-    r = requests.get(url, headers=headers, verify=certifi.where())
+    r = http.get(url, headers=headers, verify=certifi.where())
     r.raise_for_status()
     return r
 
