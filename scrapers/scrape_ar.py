@@ -17,16 +17,8 @@ elem = soup.find('h3', text=re.compile(r'Contact\s+tracing\s+\(Aktualisierung.*'
 dd_ct.datetime = sc.find(r'Stand (\d+\.\d+\.\d{4})', elem.text)
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>\s?(\d+)\s?</strong>', d)
-quarantined_total = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+(?:Kontaktpersonen|Personen)\s+in\s+Quarantäne:\s?<strong>\s?(\d+)\s?</strong>', d)
-quarantined_travel = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Personen\s+die\s+aus\s+einem\s+<strong>Risikogebiet</strong>\s+in\s+die\s+Schweiz\s+eingereist\s+sind\s+und\s+aufgrund\s+dessen\s+aktuell\s+im\s+Kanton\s+in\s+Quarantäne\s+sind:\s+<strong>\s*(\d+)</strong>', d)
-assert sc.represents_int(quarantined_travel), f"quarantined_travel is not an integer: {quarantined_travel}"
-if sc.represents_int(quarantined_total):
-    dd_ct.quarantine_total = quarantined_total
-    quarantined = int(quarantined_total) - int(quarantined_travel)
-    assert quarantined >= 0, f"Quarantined is negative: {quarantined}"
-    dd_ct.quarantined = quarantined
-
-dd_ct.quarantine_riskareatravel = quarantined_travel
+dd_ct.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+(?:Kontaktpersonen|Personen)\s+in\s+Quarantäne(\s+\(Kontaktpersonen\))?:\s?<strong>\s?(\d+)\s?</strong>', d, group=2)
+dd_ct.quarantine_riskareatravel = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+Personen\s+die\s+aus\s+einem\s+<strong>Risikogebiet</strong>\s+in\s+die\s+Schweiz\s+eingereist\s+sind\s+und\s+aufgrund\s+dessen\s+aktuell\s+im\s+Kanton\s+in\s+Quarantäne\s+sind:\s+<strong>\s*(\d+)</strong>', d)
 
 is_first = False
 if dd_ct:
