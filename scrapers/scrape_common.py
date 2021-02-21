@@ -368,7 +368,7 @@ def _download_request(url, silent):
     http.mount("https://", adapter)
     http.mount("http://", adapter)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
-    r = http.get(url, headers=headers, verify=certifi.where(), timeout=5)
+    r = http.get(url, headers=headers, verify=certifi.where(), timeout=10)
     r.raise_for_status()
     return r
 
