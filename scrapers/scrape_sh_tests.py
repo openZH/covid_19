@@ -58,6 +58,8 @@ for content_id in content_ids:
     if not td.positivity_rate:
         td.positivity_rate = sc.find(r'Positivitätsrate\s+[\w\s]+\s+\((\d+\.?\d?)%\s+gegen.ber', content)
 
+    td.ag_total_tests = sc.find(r'Der\s+Anteil\s+der\s+Antigen-Schnelltests\s+betrug\s+letzte\s+Woche\s+\d+%\s\((\d+)\s+Tests\)', content)
+
     assert td.total_tests
     assert td.positivity_rate
 
