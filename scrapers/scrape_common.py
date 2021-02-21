@@ -359,6 +359,7 @@ def _download_request(url, silent):
 
     retry_strategy = Retry(
         total=3,
+        backoff_factor=2,
         status_forcelist=[429, 500, 502, 503, 504],
         method_whitelist=["HEAD", "GET", "OPTIONS"]
     )
