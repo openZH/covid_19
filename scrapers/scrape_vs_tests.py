@@ -13,16 +13,19 @@ for url in svc.get_vs_weekly_pdf_urls():
     pdf = sc.download_content(url, silent=True)
     td.week, td.year = svc.get_vs_weekly_general_data(pdf)
 
-    content = sc.pdftotext(pdf, page=2, raw=True)
-    content = re.sub(r'(\d)\‘(\d)', r'\1\2', content)
+    for page in range(4, 5):
+        content = sc.pdftotext(pdf, page=page, raw=True)
+        content = re.sub(r'(\d)\‘(\d)', r'\1\2', content)
+        content = re.sub(r'(\d)\’(\d)', r'\1\2', content)
 
-    td.total_tests = sc.find(r'Anzahl durchgef.hrter Tests.*[\s|\(](\d+)[\s|\.]', content)
-    td.positivity_rate = sc.find(r'Die\s+Positivitätsrate.*\n?.*\s(\d+\.?\d?)%\s.*gegen.ber\s\d+\.?\d?%', content)
-    if not td.positivity_rate:
-        td.positivity_rate = sc.find(r'Die\s+Positivitätsrate.*\n?.*\s(\d+\.?\d?)%', content)
+        td.total_tests = sc.find(r'Alle\s+Arten\s+von\s+Tests\s+(\d+)', content)
+        td.positivity_rate = sc.find(r'Alle\s+Arten\s+von\s+Tests\s+\d+\s+(\d+\.\d+)%', content)
+        td.pcr_total_tests = sc.find(r'PCR\s+(\d+)', content)
+        td.pcr_positivity_rate = sc.find(r'PCR\s+\d+\s+(\d+\.\d+)%', content)
+        td.ag_total_tests = sc.find(r'Antigentests\s+(\d+)', content)
+        td.ag_positivity_rate = sc.find(r'Antigentests\s+\d+\s+(\d+\.\d+)%', content)
 
-    # ignore PDFs not providing total count
-    if not td.total_tests:
-        continue
+        if not td.total_tests:
+            continue
 
-    print(td)
+        print(td)
