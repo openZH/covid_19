@@ -356,7 +356,7 @@ def add_cert_to_bundle():
 def _download_request(url, silent):
     if not silent:
         print("Downloading:", url)
-    
+
     retry_strategy = Retry(
         total=3,
         status_forcelist=[429, 500, 502, 503, 504],
@@ -367,7 +367,7 @@ def _download_request(url, silent):
     http.mount("https://", adapter)
     http.mount("http://", adapter)
     headers = {'user-agent': 'Mozilla Firefox Mozilla/5.0; openZH covid_19 at github'}
-    r = http.get(url, headers=headers, verify=certifi.where())
+    r = http.get(url, headers=headers, verify=certifi.where(), timeout=5)
     r.raise_for_status()
     return r
 
