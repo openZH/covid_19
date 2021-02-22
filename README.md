@@ -27,7 +27,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 - [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
-- [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern) - Note: deprecated (2021-02-12)<br>
+- [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern) - Note: ZH data is deprecated (2021-02-12); since 2021-02-19 FOPH publishes data for all Cantons ("virusVariants", https://www.covid19.admin.ch/api/data/context)<br>
 - [Vaccination campaign](https://github.com/openZH/covid_19/tree/master#canton-zurich-vaccination-campaign)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
@@ -85,32 +85,32 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
  Canton / FL | Last update (of any variable) | Important notes |
 |-------------|------------|------|
-|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-02-18](https://placehold.it/200x50/de77ae/000000?text=2021-02-18 'Last update on 2021-02-18')| |
-|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AI_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AR_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')|Since 2020-01-22 AR is not publishing <br />updated case numbers on its website anymore,<br />but referencing to FOPH.<br />You find respective data via FOPH's API:<br />https://www.covid19.admin.ch/api/data/context|
-|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BE_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BL_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BS_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[FR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_FR_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[GE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GE_total.csv)|![Last update on 2021-02-20](https://placehold.it/200x50/de77ae/000000?text=2021-02-20 'Last update on 2021-02-20')||
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')| |
+|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AI_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AR_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')|Since 2020-01-22 AR is not publishing <br />updated case numbers on its website anymore,<br />but referencing to FOPH.<br />You find respective data via FOPH's API:<br />https://www.covid19.admin.ch/api/data/context|
+|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BE_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BL_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BS_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[FR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_FR_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[GE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GE_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
 |[GL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GL_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GR_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_JU_total.csv)|![Last update on 2021-02-20](https://placehold.it/200x50/de77ae/000000?text=2021-02-20 'Last update on 2021-02-20')||
-|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[NE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NE_total.csv)|![Last update on 2021-02-18](https://placehold.it/200x50/de77ae/000000?text=2021-02-18 'Last update on 2021-02-18')||
-|[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NW_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GR_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_JU_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[NE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NE_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NW_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
 |[OW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_OW_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SG_total.csv)|![Last update on 2021-02-18](https://placehold.it/200x50/de77ae/000000?text=2021-02-18 'Last update on 2021-02-18')||
-|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SH_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[SO](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SO_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[SZ](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SZ_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[TG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TG_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[TI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TI_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
-|[UR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_UR_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
+|[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SG_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/b8e186/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SH_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[SO](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SO_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[SZ](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SZ_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[TG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TG_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[TI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TI_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
+|[UR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_UR_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
 |[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VD_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
 |[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VS_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
-|[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2021-02-21](https://placehold.it/200x50/4d9221/000000?text=2021-02-21 'Last update on 2021-02-21')||
+|[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2021-02-22](https://placehold.it/200x50/4d9221/000000?text=2021-02-22 'Last update on 2021-02-22')||
 |[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2021-02-19](https://placehold.it/200x50/de77ae/000000?text=2021-02-19 'Last update on 2021-02-19')||
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
@@ -315,7 +315,8 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
 ## Canton Zurich: Variants of Concern
 
-*Note:* deprecated (2021-02-12) - This resource will not be updated further from 2021-02-12 as the week of 2021-02-15 will be used to analyse the completeness of the collection of available data and adjust the approach to which VOCs are tested. <br>
+*Note:* ZH data is deprecated (2021-02-12) - this resource will not be updated further from 2021-02-12 as the week of 2021-02-15 will be used to analyse the completeness of the collection of available data and adjust the approach to which VOCs are tested. <br>
+Since 2021-02-19 FOPH publishes data for all Cantons ("virusVariants", https://www.covid19.admin.ch/api/data/context). <br>
 Variants of concern ('VOC') can *not* be detected by 'rapid' tests, but can be detected by PCR tests. Virus mutations are classified as being of concern because, among other things, they are more infectious than the wild type of the virus.
 
 **Data** <br>
