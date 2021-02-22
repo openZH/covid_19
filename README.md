@@ -27,7 +27,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Districts (Bezirke)](https://github.com/openZH/covid_19/tree/master#canton-zurich-districts-bezirk)<br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 - [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
-- [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern) - Note: deprecated (2021-02-12)<br>
+- [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern) - Note: ZH data is deprecated (2021-02-12); since 2021-02-19 FOPH publishes data for all Cantons ("virusVariants", https://www.covid19.admin.ch/api/data/context)<br>
 - [Vaccination campaign](https://github.com/openZH/covid_19/tree/master#canton-zurich-vaccination-campaign)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
@@ -315,7 +315,8 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
 ## Canton Zurich: Variants of Concern
 
-*Note:* deprecated (2021-02-12) - This resource will not be updated further from 2021-02-12 as the week of 2021-02-15 will be used to analyse the completeness of the collection of available data and adjust the approach to which VOCs are tested. <br>
+*Note:* ZH data is deprecated (2021-02-12) - this resource will not be updated further from 2021-02-12 as the week of 2021-02-15 will be used to analyse the completeness of the collection of available data and adjust the approach to which VOCs are tested. <br>
+Since 2021-02-19 FOPH publishes data for all Cantons ("virusVariants", https://www.covid19.admin.ch/api/data/context). <br>
 Variants of concern ('VOC') can *not* be detected by 'rapid' tests, but can be detected by PCR tests. Virus mutations are classified as being of concern because, among other things, they are more infectious than the wild type of the virus.
 
 **Data** <br>
