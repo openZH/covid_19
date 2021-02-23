@@ -154,7 +154,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,4,2021,202,5,7897,101
 103,Bezirk Bülach,154731,5,2021,148,5,8045,106
 103,Bezirk Bülach,154731,6,2021,118,4,8163,110
-103,Bezirk Bülach,154731,7,2021,121,0,8284,110
+103,Bezirk Bülach,154731,7,2021,121,1,8284,111
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -466,7 +466,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,4,2021,213,9,7191,94
 109,Bezirk Uster,131422,5,2021,144,4,7335,98
 109,Bezirk Uster,131422,6,2021,122,3,7457,101
-109,Bezirk Uster,131422,7,2021,104,1,7561,102
+109,Bezirk Uster,131422,7,2021,104,2,7561,103
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -570,7 +570,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,4,2021,121,0,5742,70
 111,Bezirk Dietikon,92275,5,2021,116,3,5858,73
 111,Bezirk Dietikon,92275,6,2021,86,1,5944,74
-111,Bezirk Dietikon,92275,7,2021,81,2,6025,76
+111,Bezirk Dietikon,92275,7,2021,81,3,6025,77
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -622,4 +622,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,4,2021,487,9,24134,400
 112,Bezirk Zürich,422870,5,2021,384,5,24518,405
 112,Bezirk Zürich,422870,6,2021,328,5,24846,410
-112,Bezirk Zürich,422870,7,2021,345,4,25191,414
+112,Bezirk Zürich,422870,7,2021,344,4,25190,414
