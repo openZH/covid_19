@@ -14,7 +14,7 @@ soup = BeautifulSoup(sc.download(url_hospitalized, silent=True), 'html.parser')
 dd_hosp = sc.DayData(canton='SG', url=main_url)
 hosp_table = soup.find('table')
 
-hosp_date = hosp_table.find_next(string=re.compile("Stand")).string
+hosp_date = hosp_table.find_next(string=re.compile("Meldestand")).string
 dd_hosp.datetime = sc.find(r'Stand:?\s*(.+[0-9]{4})', hosp_date)
 
 rows = hosp_table.find_all('tr')
