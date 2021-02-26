@@ -72,7 +72,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-28,,JU,,1,,1,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-02-28,,TI,,1,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-02-28,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-02-28,,VS,,1,6,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-02-28,,VS,,1,6,7,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-02-28,08:00,AG,,1,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-02-28,10:15,BS,,1,,3,0,,,,https://twitter.com/BR_Sprecher/status/1233316679863631873?s=20,,,1
 2020-02-28,14:30,ZH,,2,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -84,7 +84,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-02-29,,LU,,2,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2020-02-29,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-02-29,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-02-29,,VS,,1,0,6,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-02-29,,VS,,1,0,7,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-02-29,08:00,AG,,3,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-02-29,08:00,ZG,,0,,0,0,,,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2020-02-29,14:30,ZH,,6,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -100,7 +100,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-01,,NE,,1,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-03-01,,TI,,2,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-01,,VD,,,,4,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-01,,VS,,2,1,7,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-01,,VS,,2,1,8,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-01,08:00,AG,,4,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-01,08:00,ZG,,0,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,0,0,
 2020-03-01,14:30,ZH,,7,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -117,7 +117,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-02,,SG,,1,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-03-02,,TI,,4,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-02,,VD,,,,6,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-02,,VS,,4,3,10,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-02,,VS,,4,3,11,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-02,08:00,AG,,7,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-02,08:00,ZG,,0,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2,2,
 2020-03-02,14:30,ZH,,10,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -133,7 +133,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-03,,SZ,1,1,,,,,,,https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf,,,
 2020-03-03,,TI,,8,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-03,,VD,,,,8,,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-03,,VS,,4,2,12,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-03,,VS,,4,2,13,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-03,08:00,AG,,7,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-03,08:00,ZG,,1,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2,2,
 2020-03-03,14:30,ZH,,13,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -149,7 +149,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-04,,SZ,3,3,,1,,,,,https://www.sz.ch/public/upload/assets/45351/MM_Coronavirus_4_3_2020.pdf,,,
 2020-03-04,,TI,,13,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-04,,VD,,,,11,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-04,,VS,,5,1,13,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-04,,VS,,5,1,14,0,0,0,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-04,06:35,SG,,1,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-03-04,08:00,AG,,10,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-04,08:00,ZG,,1,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2,2,
@@ -169,7 +169,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-05,,TG,,1,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-05,,TI,,25,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-05,,VD,,,,14,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-05,,VS,,6,0,11,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-05,,VS,,6,0,12,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-05,08:00,AG,,11,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-05,08:00,ZG,,2,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,3,3,
 2020-03-05,14:30,ZH,,23,,,,,,,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
@@ -188,7 +188,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-06,,TG,,1,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-06,,TI,,28,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-06,,VD,,23,,15,2,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-06,,VS,,6,1,12,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-06,,VS,,6,1,13,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-06,08:00,AG,,12,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-06,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,3,3,
 2020-03-06,12:00,SO,,1,,,,,,,https://so.ch/startseite/aktuell/news/erster-laborbestaetigter-covid-19-fall-im-kanton-solothurn/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3074bbdc8f0fcdcb9f1e11a21fc05e73,,,
@@ -208,7 +208,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-07,,TG,,1,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-07,,TI,,41,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-07,,VD,,30,,16,4,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-07,,VS,,7,0,12,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-07,,VS,,7,0,13,0,0,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-07,08:00,AG,,14,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-07,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,5,8,
 2020-03-07,12:00,BS,,21,,12,1,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236249864473894914?s=20,,,3
@@ -225,7 +225,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-08,,TG,,1,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-08,,TI,,49,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-08,,VD,,40,,22,3,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-08,,VS,,14,4,16,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-08,,VS,,14,4,17,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-08,08:00,AG,,14,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-08,08:00,ZG,,3,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,7,12,
 2020-03-08,12:00,BS,,24,,13,1,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236609191831384064?s=20,,,3
@@ -244,7 +244,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-09,,TG,,2,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-09,,TI,,61,,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-09,,VD,,51,,29,5,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/,,,
-2020-03-09,,VS,,18,1,17,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-09,,VS,,18,1,18,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-09,08:00,AG,,15,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-09,08:00,ZG,,10,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,7,12,
 2020-03-09,12:00,BS,,28,,19,1,,,,https://twitter.com/BAG_OFSP_UFSP/status/1236973685602426881?s=20,,,3
@@ -262,7 +262,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-10,,TG,,5,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-10,,TI,,75,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-10,,VD,,130,,71,9,,,2,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-10,,VS,,23,3,20,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-10,,VS,,23,3,21,1,1,2,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-10,08:00,AG,,18,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-10,08:00,ZG,,10,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,7,13,
 2020-03-10,12:00,BS,,33,,23,2,,,,https://twitter.com/BAG_OFSP_UFSP/status/1237336196772175873?s=20,,,3
@@ -282,7 +282,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-11,,TG,,5,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-11,,TI,,108,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-11,,VD,,203,,75,9,,,3,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-11,,VS,,30,2,21,1,1,3,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-11,,VS,,30,2,22,1,1,3,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-11,08:00,AG,,20,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-11,08:00,ZG,,11,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,6,12,
 2020-03-11,12:00,BS,,49,,27,2,,4,,https://www.coronavirus.bs.ch/nm/2020-coronavirus-ende-der-quarantaenemassnahmen-im-fall-kita-riehen-gd.html,36,,3
@@ -304,7 +304,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-12,,TI,,163,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-12,,UR,,2,,,,,,,,,,
 2020-03-12,,VD,,277,,84,10,,,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-12,,VS,,55,7,28,1,1,3,0,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-12,,VS,,55,7,29,1,1,3,0,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-12,08:00,AG,,27,,1,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-12,08:00,ZG,,11,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,6,12,
 2020-03-12,12:00,BS,,73,,30,2,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238073089902235648?s=20 https://www.coronavirus.bs.ch/nm/2020-coronavirus-erster-todesfall-im-kanton-basel-stadt-gd.html,,,3
@@ -324,7 +324,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-13,,TG,,8,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-13,,TI,,206,,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-13,,VD,,370,,89,11,,,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-13,,VS,,71,4,30,1,1,5,1,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-13,,VS,,71,4,31,1,1,5,1,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-13,08:00,AG,,30,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-13,08:00,ZG,,11,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,8,13,
 2020-03-13,12:00,OW,6,1,,,,,,,https://www.ow.ch/de/aktuelles/aktuellesinformationen/amtsmitteilungen/welcome.php?action=showinfo&info_id=63566&ls=0&sq=&kategorie_id=&date_from=&date_to=,,,
@@ -347,7 +347,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-14,,TG,,11,,,,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-14,,TI,,265,,77,13,0,61,3,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-14,,VD,,477,,98,13,,,5,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-14,,VS,,92,5,34,1,1,6,1,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-14,,VS,,92,5,35,1,1,6,1,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-14,08:00,AG,,33,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-14,08:00,ZG,,13,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,10,12,
 2020-03-14,11:27,BS,,100,,39,5,,4,1,https://twitter.com/BAG_OFSP_UFSP/status/1238773726423941127?s=20,,,3
@@ -368,7 +368,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-15,,TG,,13,1,1,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-15,,TI,,293,,92,16,0,61,6,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-15,,VD,,566,,116,13,,,6,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-15,,VS,,103,3,36,1,1,6,2,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-15,,VS,,103,3,37,1,1,6,2,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-15,08:00,AG,,43,,,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-15,08:00,ZG,,13,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,11,14,
 2020-03-15,12:00,BS,,,,41,6,,,,,,,
@@ -390,7 +390,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-16,,TG,246,20,0,1,,,0,1,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-16,,TI,,368,,112,18,0,61,8,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-16,,VD,,797,,154,20,,,8,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-16,,VS,,162,9,42,2,1,8,3,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-16,,VS,,162,9,43,2,1,8,3,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-16,08:00,AG,,56,,2,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-16,08:00,ZG,,20,,0,0,,0,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,19,19,
 2020-03-16,12:00,BS,,143,,46,6,,4,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-144-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,122
@@ -411,7 +411,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-17,,TG,276,27,3,4,,,0,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-17,,TI,,426,,137,23,0,62,10,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-17,,VD,,1041,,168,24,,,10,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-17,,VS,,215,8,47,2,2,11,3,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-17,,VS,,215,8,48,2,2,11,3,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-17,08:00,AG,,69,,2,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-17,08:00,ZG,,29,,0,0,,1,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,22,23,
 2020-03-17,12:00,BS,,164,,48,7,,25,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-165-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,141
@@ -433,7 +433,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-18,,TI,,511,,163,29,28,62,12,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-18,,UR,85,5,,,,,,,https://www.ur.ch/mmdirektionen/63802,,,
 2020-03-18,,VD,,1305,,183,23,,,13,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-18,,VS,,297,12,59,2,2,11,4,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-18,,VS,,297,12,60,2,2,11,4,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-18,08:00,AG,,96,,6,,,,0,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-18,08:00,ZG,,33,,0,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,26,27,
 2020-03-18,11:15,BS,,181,,52,7,,36,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-182-bestaetigte-faelle-im-kanton-basel-stadt-treffen-mit-allen-spitaelern-gd.html,,,160
@@ -457,7 +457,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-19,,TI,,638,,182,33,32,65,13,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-19,,UR,,7,,,,,,,https://www.ur.ch/mmdirektionen/63841,,,
 2020-03-19,,VD,,1516,,197,25,,,14,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-19,,VS,,335,8,64,5,5,12,6,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-19,,VS,,335,8,65,5,5,12,6,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-19,08:00,AG,,134,,17,6,3,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-19,08:00,ZG,,37,,1,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,34,40,
 2020-03-19,11:00,BS,,220,,50,6,,44,4,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-222-bestaetigte-faelle-basel-stadt-trifft-gemeinsam-mit-den-spitaelern-vorkehrungen-fuer-intensiv--und-beatmungskapazitaeten-gd.html,,,195
@@ -476,7 +476,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-20,,SH,,17,,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,,,
 2020-03-20,,TG,,57,1,8,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-20,,VD,,1756,,207,24,,,19,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-20,,VS,,430,12,73,6,5,15,7,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-20,,VS,,430,12,74,6,5,15,7,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-20,08:00,AG,,175,,25,4,2,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-20,08:00,TI,,849,,190,35,34,67,22,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-20,08:00,ZG,,48,,1,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,40,50,
@@ -500,7 +500,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-21,,SH,,28,,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,,,
 2020-03-21,,TG,,71,1,9,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-21,,VD,,1875,,239,28,,,22,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-21,,VS,,481,15,83,8,6,17,10,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-21,,VS,,481,15,84,8,6,17,10,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-21,08:00,AG,,223,,,,,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-21,08:00,TI,,916,,224,40,37,68,28,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-21,08:00,UR,,12,,,,,,,https://www.ur.ch/themen/2920,,,
@@ -521,7 +521,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-22,,SH,,30,,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,,,
 2020-03-22,,TG,,78,1,10,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-22,,VD,,1977,,262,36,,,24,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-22,,VS,,518,11,92,11,7,19,11,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-22,,VS,,518,11,93,11,7,19,11,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-22,08:00,AG,,235,,,,,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-22,08:00,TI,,945,,246,46,43,70,37,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-03-22,08:00,ZG,,53,,3,0,,5,0,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,43,65,
@@ -542,7 +542,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-23,,TG,,84,1,9,,,2,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-23,,UR,,22,,1,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-23,,VD,,2283,,284,44,,,28,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-23,,VS,,614,18,104,12,9,24,13,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-23,,VS,,614,18,105,12,9,24,13,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-23,00:00,OW,,24,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-23,08:00,AG,,245,,13,3,2,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-03-23,08:00,TI,,1162,,261,45,43,71,48,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
@@ -568,7 +568,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-24,,SZ,,97,,,,,10,0,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2020-03-24,,TG,,93,3,12,,,2,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-24,,VD,,2548,,325,48,,,30,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-24,,VS,,714,16,118,13,12,25,14,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-24,,VS,,714,16,119,13,12,25,14,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-24,00:00,OW,,25,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-24,00:00,SO,,104,,,,,,1,https://corona.so.ch/,,,
 2020-03-24,08:00,AG,,283,,15,2,2,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -595,7 +595,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-25,,SZ,,,,,,,10,0,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2020-03-25,,TG,,110,1,11,,,4,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-25,,VD,,2740,,353,56,,,38,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-25,,VS,,783,12,119,15,14,35,15,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-25,,VS,,783,12,120,15,14,35,15,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-25,00:00,OW,,27,,2,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-25,00:00,SO,,129,,,,,,1,https://corona.so.ch/,,,
 2020-03-25,08:00,AG,,318,,33,7,5,,2,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -622,7 +622,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-26,,TG,,115,3,14,,,4,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-26,,UR,,38,,4,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-26,,VD,,2945,,366,60,,,52,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-26,,VS,,859,18,129,19,17,41,17,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-26,,VS,,859,18,130,19,17,41,17,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-26,00:00,OW,,30,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-26,00:00,SO,,141,,,,,,1,https://corona.so.ch/,,,
 2020-03-26,08:00,AG,,367,,38,10,9,,3,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -649,7 +649,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-27,,TG,,129,2,15,,,5,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-27,,UR,,40,,7,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-27,,VD,,3179,,399,64,,,54,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-27,,VS,,951,20,138,20,16,50,21,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-27,,VS,,951,20,139,20,16,50,21,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-27,00:00,OW,,37,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-27,00:00,SO,,157,,,,,,1,https://corona.so.ch/,,,
 2020-03-27,08:00,AG,,407,,50,12,10,,5,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -676,7 +676,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-28,,TG,,138,3,18,,,5,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-28,,UR,,48,,7,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-28,,VD,,3310,,410,67,,,61,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-28,,VS,,997,10,143,21,19,53,25,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-28,,VS,,997,10,144,21,19,53,25,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-28,00:00,OW,,37,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-28,00:00,SO,,173,,,,,,1,https://corona.so.ch/,,,
 2020-03-28,08:00,AG,,444,,,,,,8,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -703,7 +703,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-29,,TG,,146,4,21,,,6,6,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-29,,UR,,50,,7,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-29,,VD,,3395,,412,69,,,69,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-29,,VS,,1031,13,153,22,21,54,31,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-29,,VS,,1031,13,154,22,21,54,31,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-29,00:00,OW,,37,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-29,00:00,SO,,190,,,,,,2,https://corona.so.ch/,,,
 2020-03-29,08:00,AG,,485,,,,,,9,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -728,7 +728,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-30,,TG,,156,5,22,,,10,6,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-30,,UR,,53,,7,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-30,,VD,,3607,,413,70,,,78,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-30,,VS,,1116,20,154,25,23,71,35,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-30,,VS,,1116,20,155,25,23,71,35,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-30,00:00,OW,,46,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-30,07:00,BE,,826,,112,21,17,,13,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
 2020-03-30,08:00,AG,,506,,50,12,23,,11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -754,7 +754,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-03-31,,TG,,167,2,23,,,11,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-03-31,,UR,,57,,9,,,,,https://www.ur.ch/themen/2920,,,
 2020-03-31,,VD,,3766,,422,73,,,85,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-03-31,,VS,,1184,11,153,24,23,81,37,https://www.vs.ch/de/web/coronavirus,,,
+2020-03-31,,VS,,1184,11,154,24,23,81,37,https://www.vs.ch/de/web/coronavirus,,,
 2020-03-31,00:00,OW,,47,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-03-31,00:00,SO,,196,,,,,,2,https://corona.so.ch/index.php?id=27979,,,
 2020-03-31,08:00,AG,,554,,85,22,25,,11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -781,7 +781,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-01,,TG,,183,1,22,,,13,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-04-01,,UR,,59,,10,,,,1,https://www.ur.ch/themen/2920,,,
 2020-04-01,,VD,,3918,,422,77,,,93,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-04-01,,VS,,1253,11,147,26,25,96,40,https://www.vs.ch/de/web/coronavirus,,,
+2020-04-01,,VS,,1253,11,148,26,25,96,40,https://www.vs.ch/de/web/coronavirus,,,
 2020-04-01,00:00,OW,,49,,6,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-01,00:00,SO,,216,,,,,,3,https://corona.so.ch/index.php?id=27979,,,
 2020-04-01,08:00,AG,,596,,94,27,27,,11,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -806,7 +806,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-02,,SZ,,155,,,,,65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2020-04-02,,TG,,195,4,25,,,14,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-04-02,,VD,,4052,,408,76,,,109,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-04-02,,VS,,1300,12,147,28,24,104,47,https://www.vs.ch/de/web/coronavirus,,,
+2020-04-02,,VS,,1300,12,148,28,24,104,47,https://www.vs.ch/de/web/coronavirus,,,
 2020-04-02,00:00,OW,,51,,6,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-02,00:00,SO,,227,,14,,,,3,https://corona.so.ch/index.php?id=27979,,,
 2020-04-02,08:00,AG,,631,,96,27,27,,14,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -833,7 +833,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-03,,SZ,,165,,,,,75,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2020-04-03,,TG,,207,5,26,,,18,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-04-03,,VD,,4187,,397,73,,,123,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-04-03,,VS,,1350,6,147,26,23,109,51,https://www.vs.ch/de/web/coronavirus,,,
+2020-04-03,,VS,,1350,6,148,26,23,109,51,https://www.vs.ch/de/web/coronavirus,,,
 2020-04-03,00:00,OW,,56,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-03,00:00,SO,,237,,17,,,,3,https://corona.so.ch/index.php?id=27979,,,
 2020-04-03,08:00,AG,,673,,100,27,26,,15,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -860,7 +860,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-04,,SZ,,168,,,,,92,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2020-04-04,,TG,,213,2,25,,,21,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2020-04-04,,VD,,4259,,395,77,,,128,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-04-04,,VS,,1383,6,150,28,23,112,53,https://www.vs.ch/de/web/coronavirus,,,
+2020-04-04,,VS,,1383,6,151,28,23,112,53,https://www.vs.ch/de/web/coronavirus,,,
 2020-04-04,00:00,OW,,56,,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-04,00:00,SO,,250,,,,,,3,https://corona.so.ch/index.php?id=27979,,,
 2020-04-04,08:00,AG,,702,,,,,,18,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -5067,7 +5067,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-19,,NW,,140,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-19,,SG,,1534,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-09-19,,VD,,9609,,57,7,,,312,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-19,,VS,,2550,1,20,0,0,325,157,https://www.vs.ch/de/web/coronavirus,112,430,428
+2020-09-19,,VS,,2550,1,21,0,0,325,157,https://www.vs.ch/de/web/coronavirus,112,430,428
 2020-09-19,00:00,OW,,110,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-19,08:00,AG,,2499,,,,,1580,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-09-19,08:00,BE,,3101,,,,,,100,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5088,7 +5088,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-20,,NW,,141,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-20,,SG,,1540,,11,3,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-09-20,,VD,,9673,,60,7,,,312,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-20,,VS,,2556,1,20,0,0,325,157,https://www.vs.ch/de/web/coronavirus,107,424,438
+2020-09-20,,VS,,2556,1,21,0,0,325,157,https://www.vs.ch/de/web/coronavirus,107,424,438
 2020-09-20,00:00,OW,,110,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-20,08:00,AG,,2513,,,,,1585,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,151,506,
 2020-09-20,08:00,BE,,3151,,,,,,100,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5108,7 +5108,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-21,,NW,,141,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-21,,SG,,1566,,10,5,4,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,685,
 2020-09-21,,VD,,9765,,57,8,,,313,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-21,,VS,,2572,0,22,0,0,325,157,https://www.vs.ch/de/web/coronavirus,115,389,461
+2020-09-21,,VS,,2572,0,23,0,0,325,157,https://www.vs.ch/de/web/coronavirus,115,389,461
 2020-09-21,00:00,OW,,114,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-21,01:00,SO,,810,,6,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-21,08:00,AG,,2523,,9,2,,1600,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,137,351,1100
@@ -5135,7 +5135,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-22,,NW,,142,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-22,,SG,,1582,,8,5,4,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,664,
 2020-09-22,,VD,,9901,,58,7,,,314,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-22,,VS,,2586,1,22,0,0,326,157,https://www.vs.ch/de/web/coronavirus,119,404,448
+2020-09-22,,VS,,2586,1,23,0,0,326,157,https://www.vs.ch/de/web/coronavirus,119,404,448
 2020-09-22,00:00,OW,,116,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-22,01:00,SO,,816,,5,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-22,08:00,AG,,2544,,11,2,,1615,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,144,431,1128
@@ -5161,7 +5161,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-23,,NW,,142,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-23,,SG,,1592,,8,4,3,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,656,
 2020-09-23,,VD,,10022,,53,7,,,314,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-23,,VS,,2604,0,23,0,0,326,157,https://www.vs.ch/de/web/coronavirus,117,409,439
+2020-09-23,,VS,,2604,0,24,0,0,326,157,https://www.vs.ch/de/web/coronavirus,117,409,439
 2020-09-23,00:00,OW,,117,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-23,01:00,SO,,821,,4,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-23,08:00,AG,,2559,,12,2,,1635,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,156,383,1112
@@ -5187,7 +5187,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-24,,NW,,143,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-24,,SG,,1604,,6,3,3,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,692,
 2020-09-24,,VD,,10103,,54,8,,,316,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-24,,VS,,2619,1,24,0,0,326,157,https://www.vs.ch/de/web/coronavirus,110,431,475
+2020-09-24,,VS,,2619,1,25,0,0,326,157,https://www.vs.ch/de/web/coronavirus,110,431,475
 2020-09-24,00:00,OW,,119,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-24,01:00,SO,,833,,4,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-24,08:00,AG,,2569,,10,2,,1665,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,157,386,1102
@@ -5213,7 +5213,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-25,,NW,,144,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-25,,SG,,1613,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,690,
 2020-09-25,,VD,,10187,,56,7,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-25,,VS,,2625,1,27,0,0,326,157,https://www.vs.ch/de/web/coronavirus,107,451,480
+2020-09-25,,VS,,2625,1,28,0,0,326,157,https://www.vs.ch/de/web/coronavirus,107,451,480
 2020-09-25,00:00,OW,,119,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-25,01:00,SO,,846,,3,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-25,08:00,AG,,2586,,14,2,,1680,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,153,381,1146
@@ -5241,7 +5241,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-26,,NW,,144,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-26,,SG,,1617,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-09-26,,VD,,10238,,62,6,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-26,,VS,,2630,0,28,1,0,326,157,https://www.vs.ch/de/web/coronavirus,93,398,519
+2020-09-26,,VS,,2630,0,29,1,0,326,157,https://www.vs.ch/de/web/coronavirus,93,398,519
 2020-09-26,00:00,OW,,119,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-26,08:00,AG,,2592,,,,,1705,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,105,244,
 2020-09-26,08:00,BE,,3373,,,,,,101,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5261,7 +5261,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-27,,NW,,145,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-27,,SG,,1618,,6,3,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,665,
 2020-09-27,,VD,,10267,,63,5,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-27,,VS,,2634,0,29,1,0,326,157,https://www.vs.ch/de/web/coronavirus,92,355,533
+2020-09-27,,VS,,2634,0,30,1,0,326,157,https://www.vs.ch/de/web/coronavirus,92,355,533
 2020-09-27,00:00,OW,,119,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-27,08:00,AG,,2597,,,,,1715,54,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-09-27,08:00,BE,,3408,,,,,,101,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5281,7 +5281,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-28,,NW,,145,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-28,,SG,,1635,,6,2,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,622,
 2020-09-28,,VD,,10340,,67,5,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-28,,VS,,2649,1,30,1,1,327,157,https://www.vs.ch/de/web/coronavirus,78,316,572
+2020-09-28,,VS,,2649,1,31,1,1,327,157,https://www.vs.ch/de/web/coronavirus,78,316,572
 2020-09-28,00:00,OW,,121,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-28,01:00,SO,,861,,6,,,,18,https://corona.so.ch/index.php?id=27979,51,134,219
 2020-09-28,08:00,AG,,2603,,15,2,,1725,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,105,244,1340
@@ -5308,7 +5308,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-29,,NW,,146,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-29,,SG,,1660,,6,2,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,574,
 2020-09-29,,VD,,10426,,63,5,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-29,,VS,,2663,3,36,1,1,328,157,https://www.vs.ch/de/web/coronavirus,95,311,581
+2020-09-29,,VS,,2663,3,37,1,1,328,157,https://www.vs.ch/de/web/coronavirus,95,311,581
 2020-09-29,00:00,OW,,122,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-29,01:00,SO,,866,,7,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-29,08:00,AG,,2613,,11,1,,1755,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,98,227,1340
@@ -5334,7 +5334,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-30,,NW,,148,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-09-30,,SG,,1683,,7,2,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,631,
 2020-09-30,,VD,,10505,,61,4,,,317,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-09-30,,VS,,2689,1,38,1,1,328,157,https://www.vs.ch/de/web/coronavirus,101,296,579
+2020-09-30,,VS,,2689,1,39,1,1,328,157,https://www.vs.ch/de/web/coronavirus,101,296,579
 2020-09-30,00:00,OW,,123,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-09-30,01:00,SO,,875,,4,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-09-30,08:00,AG,,2631,,9,1,,1795,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,84,234,1400
@@ -5361,7 +5361,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-01,,NW,,152,,1,1,,,3,http://www.nw.ch/coronastatistik,,,
 2020-10-01,,SG,,1720,,8,2,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,693,
 2020-10-01,,VD,,10610,,66,5,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-01,,VS,,2705,2,41,1,1,328,157,https://www.vs.ch/de/web/coronavirus,128,384,616
+2020-10-01,,VS,,2705,2,42,1,1,328,157,https://www.vs.ch/de/web/coronavirus,128,384,616
 2020-10-01,00:00,OW,,123,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-01,01:00,SO,,885,,4,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-10-01,08:00,AG,,2647,,12,1,,1815,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,98,257,1405
@@ -5387,7 +5387,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-02,,NW,,154,,1,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-02,,SG,,1753,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,724,
 2020-10-02,,VD,,10699,,64,5,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-02,,VS,,2736,1,42,1,1,328,157,https://www.vs.ch/de/web/coronavirus,132,409,691
+2020-10-02,,VS,,2736,1,43,1,1,328,157,https://www.vs.ch/de/web/coronavirus,132,409,691
 2020-10-02,00:00,OW,,124,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-02,01:00,SO,,893,,4,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-10-02,08:00,AG,,2663,,12,2,,1840,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,96,238,1508
@@ -5415,7 +5415,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-03,,NW,,156,,1,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-03,,SG,,1777,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-10-03,,VD,,10797,,68,8,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-03,,VS,,2753,1,43,1,1,328,157,https://www.vs.ch/de/web/coronavirus,134,416,779
+2020-10-03,,VS,,2753,1,44,1,1,328,157,https://www.vs.ch/de/web/coronavirus,134,416,779
 2020-10-03,00:00,OW,,124,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-03,08:00,AG,,2687,,,,,1855,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-10-03,08:00,BE,,3656,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5436,7 +5436,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-04,,NW,,159,,1,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-04,,SG,,1784,,7,2,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,,757,
 2020-10-04,,VD,,10885,,69,7,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-04,,VS,,2770,3,47,1,1,328,157,https://www.vs.ch/de/web/coronavirus,142,482,863
+2020-10-04,,VS,,2770,3,48,1,1,328,157,https://www.vs.ch/de/web/coronavirus,142,482,863
 2020-10-04,00:00,OW,,124,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-04,08:00,AG,,2697,,,,,1865,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-10-04,08:00,BE,,3721,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5456,7 +5456,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-05,,NW,,161,,1,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-05,,SG,,1859,,9,3,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,165,772,
 2020-10-05,,VD,,11017,,71,8,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-05,,VS,,2805,1,51,1,1,328,158,https://www.vs.ch/de/web/coronavirus,172,464,921
+2020-10-05,,VS,,2805,1,52,1,1,328,158,https://www.vs.ch/de/web/coronavirus,172,464,921
 2020-10-05,00:00,OW,,127,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-05,01:00,SO,,916,,4,,,,18,https://corona.so.ch/index.php?id=27979,71,189,280
 2020-10-05,08:00,AG,,2713,,10,2,,1880,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,108,264,1864
@@ -5483,7 +5483,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-06,,NW,,171,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-06,,SG,,1910,,12,5,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,193,729,
 2020-10-06,,VD,,11171,,78,11,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-06,,VS,,2866,3,51,2,1,331,158,https://www.vs.ch/de/web/coronavirus,225,525,905
+2020-10-06,,VS,,2866,3,52,2,1,331,158,https://www.vs.ch/de/web/coronavirus,225,525,905
 2020-10-06,00:00,OW,,132,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-06,01:00,SO,,921,,3,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-10-06,08:00,AG,,2756,,8,2,,1900,55,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,123,298,1902
@@ -5509,7 +5509,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-07,,NW,,177,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-07,,SG,,1987,,11,3,2,,41,https://www.sg.ch/tools/informationen-coronavirus.html,263,824,
 2020-10-07,,VD,,11365,,90,12,,,318,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-07,,VS,,2969,2,54,2,1,332,158,https://www.vs.ch/de/web/coronavirus,291,656,909
+2020-10-07,,VS,,2969,2,55,2,1,332,158,https://www.vs.ch/de/web/coronavirus,291,656,909
 2020-10-07,00:00,OW,,145,,1,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-07,01:00,SO,,945,,3,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-10-07,08:00,AG,,2811,,9,2,,1915,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,150,454,1848
@@ -5535,7 +5535,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-08,,NW,,186,,1,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-08,,SG,,2056,,9,4,3,,42,https://www.sg.ch/tools/informationen-coronavirus.html,291,846,
 2020-10-08,,VD,,11562,,90,12,,,319,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-08,,VS,,3064,1,58,2,1,332,159,https://www.vs.ch/de/web/coronavirus,384,749,885
+2020-10-08,,VS,,3064,1,59,2,1,332,159,https://www.vs.ch/de/web/coronavirus,384,749,885
 2020-10-08,00:00,OW,,150,,1,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-08,08:00,AG,,2869,,8,2,,1925,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,167,477,1817
 2020-10-08,08:00,BE,,4006,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5561,7 +5561,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-09,,NW,,195,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-09,,SG,,2153,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,324,825,
 2020-10-09,,VD,,11772,,96,12,,,319,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-09,,VS,,3203,4,62,2,1,333,159,https://www.vs.ch/de/web/coronavirus,503,789,904
+2020-10-09,,VS,,3203,4,63,2,1,333,159,https://www.vs.ch/de/web/coronavirus,503,789,904
 2020-10-09,00:00,OW,,160,,1,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-09,08:00,AG,,2934,,12,2,,1940,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,191,521,1845
 2020-10-09,08:00,BE,,4105,,39,7,3,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5588,7 +5588,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-10,,NW,,199,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-10,,SG,,2192,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-10-10,,VD,,11967,,106,15,,,319,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-10,,VS,,3284,3,67,2,1,333,159,https://www.vs.ch/de/web/coronavirus,552,820,897
+2020-10-10,,VS,,3284,3,68,2,1,333,159,https://www.vs.ch/de/web/coronavirus,552,820,897
 2020-10-10,00:00,OW,,160,,1,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-10,08:00,AG,,2997,,,,,1945,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-10-10,08:00,BE,,4218,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5609,7 +5609,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-11,,NW,,204,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-11,,SG,,2218,,10,3,2,,42,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-10-11,,VD,,12111,,111,12,,,320,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-11,,VS,,3360,4,71,2,1,333,159,https://www.vs.ch/de/web/coronavirus,597,859,913
+2020-10-11,,VS,,3360,4,72,2,1,333,159,https://www.vs.ch/de/web/coronavirus,597,859,913
 2020-10-11,00:00,OW,,160,,1,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-11,08:00,AG,,3021,,,,,1950,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-10-11,08:00,BE,,4352,,,,,,104,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -5629,7 +5629,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-12,,NW,,211,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-12,,SG,,2406,,20,3,2,,43,https://www.sg.ch/tools/informationen-coronavirus.html,441,736,
 2020-10-12,,VD,,12366,,111,12,,,320,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-12,,VS,,3589,7,77,3,1,335,160,https://www.vs.ch/de/web/coronavirus,769,892,894
+2020-10-12,,VS,,3589,7,78,3,1,335,160,https://www.vs.ch/de/web/coronavirus,769,892,894
 2020-10-12,00:00,OW,,169,,1,,,,1,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-12,01:00,SO,,1029,,6,,,,18,https://corona.so.ch/index.php?id=27979,120,280,388
 2020-10-12,08:00,AG,,3066,,18,1,,1950,56,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,180,582,2025
@@ -5655,7 +5655,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-13,,NW,,220,,0,0,,,4,http://www.nw.ch/coronastatistik,,,
 2020-10-13,,SG,,2559,,24,4,2,,43,https://www.sg.ch/tools/informationen-coronavirus.html,455,,
 2020-10-13,,VD,,12671,,120,11,,,320,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-13,,VS,,3811,6,86,3,1,336,161,https://www.vs.ch/de/web/coronavirus,898,775,846
+2020-10-13,,VS,,3811,6,87,3,1,336,161,https://www.vs.ch/de/web/coronavirus,898,775,846
 2020-10-13,00:00,OW,,171,,1,,,,1,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-13,01:00,SO,,1049,,6,,,,18,https://corona.so.ch/index.php?id=27979,,,
 2020-10-13,08:00,AG,,3196,,20,1,,1960,57,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,200,479,2037
@@ -6089,7 +6089,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-30,,NW,,462,,7,2,,,4,http://www.nw.ch/coronastatistik,114,266,69
 2020-10-30,,SG,,7959,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-10-30,,VD,,25843,,438,61,,,349,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-30,,VS,,13556,,215,18,4,,234,https://www.vs.ch/de/web/coronavirus,,,
+2020-10-30,,VS,,13556,,216,19,5,,234,https://www.vs.ch/de/web/coronavirus,,,
 2020-10-30,00:00,OW,,414,,8,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-30,01:00,SO,,2410,,37,,,,19,https://corona.so.ch/index.php?id=27979,,,
 2020-10-30,08:00,AG,,7444,,83,13,,2925,72,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,990,,1124
@@ -6116,7 +6116,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-31,,NW,,473,,7,2,,,4,http://www.nw.ch/coronastatistik,105,274,69
 2020-10-31,,SG,,8126,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-10-31,,VD,,26708,,472,63,,,354,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-10-31,,VS,,14025,,236,23,7,,242,https://www.vs.ch/de/web/coronavirus,,,
+2020-10-31,,VS,,14025,,237,24,8,,242,https://www.vs.ch/de/web/coronavirus,,,
 2020-10-31,00:00,OW,,414,,8,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-10-31,08:00,AG,,7811,,,,,3045,77,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-10-31,08:00,BE,,13584,,,,,,128,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6138,7 +6138,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-01,,NW,,504,,8,2,,,4,http://www.nw.ch/coronastatistik,119,276,69
 2020-11-01,,SG,,8221,,152,20,16,,73,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-01,,VD,,27531,,500,66,,,360,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-01,,VS,,14343,,251,21,7,,253,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-01,,VS,,14343,,252,22,8,,253,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-01,00:00,OW,,414,,8,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-01,08:00,AG,,8096,,,,,3135,80,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-11-01,08:00,BE,,14263,,,,,,133,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6161,7 +6161,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-02,,SG,,8917,,184,24,20,,76,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-02,,SO,42009,,,,,,,,https://corona.so.ch/fileadmin/internet/staatskanzlei/stk-komm/Dokumente/2020/Corona/Neue_Webseite/Fallzahlen/2020_1102_Woechentlicher_Situationsbericht.pdf,1192,1177,114
 2020-11-02,,VD,,29127,,536,74,,,361,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-02,,VS,,15194,,274,24,10,,261,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-02,,VS,,15194,,275,25,11,,261,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-02,00:00,OW,,433,,10,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-02,08:00,AG,,8346,,118,13,,3185,84,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1685,,1139
 2020-11-02,08:00,BE,,14844,,307,45,31,,139,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6187,7 +6187,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-03,,NW,,539,,11,3,,,4,http://www.nw.ch/coronastatistik,133,313,64
 2020-11-03,,SG,,9433,,194,23,17,,85,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-03,,VD,,30502,,533,78,,,368,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-03,,VS,,15877,,306,25,11,,273,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-03,,VS,,15877,,307,26,12,,273,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-03,00:00,OW,,455,,12,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-03,01:00,SO,,2899,,58,10,,,22,https://corona.so.ch/,,,
 2020-11-03,08:00,AG,,8812,,133,15,,3430,87,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1608,,1042
@@ -6214,7 +6214,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-04,,NW,,585,,11,2,,,4,http://www.nw.ch/coronastatistik,140,335,61
 2020-11-04,,SG,,9891,,192,27,20,,91,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-04,,VD,,31885,,535,78,,,377,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-04,,VS,,16416,,318,29,16,,281,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-04,,VS,,16416,,319,30,17,,281,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-04,00:00,OW,,468,,13,,,,5,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-04,01:00,SO,,3066,,62,,,,23,https://corona.so.ch/,,,
 2020-11-04,08:00,AG,,9308,,133,19,,3705,90,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1809,,898
@@ -6241,7 +6241,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-05,,NW,,603,,12,3,,,5,http://www.nw.ch/coronastatistik,169,342,61
 2020-11-05,,SG,,10213,,195,26,22,,98,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-05,,VD,,33130,,548,87,,,382,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-05,,VS,,16960,,332,30,18,,295,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-05,,VS,,16960,,333,31,19,,295,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-05,00:00,OW,,486,,11,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-05,01:00,SO,,3234,,61,9,,,25,https://corona.so.ch/,,,
 2020-11-05,08:00,AG,,9765,,132,20,,3975,92,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1850,,827
@@ -6268,7 +6268,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-06,,NW,,629,,11,3,,,6,http://www.nw.ch/coronastatistik,170,367,58
 2020-11-06,,SG,,10678,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-06,,VD,,34302,,550,86,,,391,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-06,,VS,,17418,,339,32,21,,309,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-06,,VS,,17418,,340,33,22,,309,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-06,00:00,OW,,518,,11,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-06,01:00,SO,,3414,,58,11,,,25,https://corona.so.ch/,,,
 2020-11-06,08:00,AG,,10163,,131,22,,4240,98,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1900,,805
@@ -6295,7 +6295,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-07,,NW,,657,,11,3,,,6,http://www.nw.ch/coronastatistik,164,370,59
 2020-11-07,,SG,,10809,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-07,,VD,,35144,,560,88,,,397,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-07,,VS,,17683,,328,34,21,,318,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-07,,VS,,17683,,329,35,22,,318,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-07,00:00,OW,,518,,11,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-07,08:00,AG,,10526,,,,,4565,100,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-11-07,08:00,BE,,18632,,368,,,,168,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6317,7 +6317,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-08,,NW,,668,,12,2,,,6,http://www.nw.ch/coronastatistik,163,369,59
 2020-11-08,,SG,,10885,,204,27,22,,117,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-08,,VD,,35887,,584,89,,,411,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-08,,VS,,17874,,344,37,24,,329,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-08,,VS,,17874,,345,38,25,,329,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-08,00:00,OW,,518,,11,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-08,08:00,AG,,10657,,,,,4720,102,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-11-08,08:00,BE,,19233,,376,,,,175,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6340,7 +6340,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-09,,SG,,11492,,192,27,24,,133,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-09,,TI,,10389,,290,23,18,1088,401,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-09,,VD,,37241,,592,92,,,421,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-09,,VS,,18428,,335,34,26,,340,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-09,,VS,,18428,,337,36,27,,340,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-09,00:00,OW,,588,,11,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-09,01:00,SO,,3813,,59,12,,,30,https://corona.so.ch/index.php?id=27979,,,
 2020-11-09,08:00,AG,,10849,,140,25,,4990,103,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2100,,763
@@ -6367,7 +6367,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-10,,SG,,11905,,188,30,24,,145,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-10,,TI,,10712,,303,25,18,1108,407,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1405,2950,
 2020-11-10,,VD,,38541,,604,95,,,435,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-10,,VS,,18854,,329,34,25,,354,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-10,,VS,,18854,,331,36,27,,354,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-10,00:00,OW,,593,,13,,,,6,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-10,01:00,SO,,3902,,60,11,,,35,https://corona.so.ch/index.php?id=27979,,,
 2020-11-10,08:00,AG,,11303,,147,26,,5425,108,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2250,,747
@@ -6394,7 +6394,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-11,,SG,,12260,,184,28,24,,157,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-11,,TI,,11194,,309,27,20,1126,413,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-11,,VD,,39550,,611,98,,,446,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-11,,VS,,19197,,328,34,25,,374,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-11,,VS,,19197,,330,36,27,,374,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-11,00:00,OW,,616,,14,,,,9,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-11,01:00,SO,,4071,,62,14,,,36,https://corona.so.ch/index.php?id=27979,,,
 2020-11-11,08:00,AG,,11627,,139,24,,5895,110,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1660,,732
@@ -6421,7 +6421,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-12,,SG,,12580,,178,30,26,,158,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-12,,TI,,11530,,329,28,22,1142,416,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1668,3253,
 2020-11-12,,VD,,40495,,609,97,,,457,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-12,,VS,,19515,,307,36,25,,382,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-12,,VS,,19515,,309,38,27,,382,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-12,00:00,OW,,633,,14,,,,10,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-12,01:00,SO,,4214,,,14,,,39,https://corona.so.ch/,,,
 2020-11-12,08:00,AG,,11957,,132,24,,6290,116,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2122,,729
@@ -6448,7 +6448,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-13,,SG,,12922,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-13,,TI,,11876,,336,33,25,1166,421,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-13,,VD,,41354,,603,94,,,468,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-13,,VS,,19818,,295,33,24,,390,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-13,,VS,,19818,,297,35,26,,390,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-13,00:00,OW,,664,,14,,,,10,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-13,01:00,SO,,4354,,69,13,,,39,https://corona.so.ch/index.php?id=27979,,,
 2020-11-13,08:00,AG,,12292,,140,23,,6670,121,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2343,,726
@@ -6475,7 +6475,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-14,,SG,,13035,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-14,,TI,,12221,,330,31,24,1191,428,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-14,,VD,,41990,,630,92,,,480,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-14,,VS,,19998,,281,32,25,,397,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-14,,VS,,19998,,283,34,27,,397,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-14,00:00,OW,,683,,14,,,,10,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-14,08:00,AG,,12556,,,,,7035,124,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-11-14,08:00,BE,,22404,,,,,,243,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -6497,7 +6497,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-11-15,,SG,,13112,,192,29,26,,171,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2020-11-15,,TI,,12480,,344,33,20,1202,431,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-11-15,,VD,,42366,,650,99,,,494,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2020-11-15,,VS,,20117,,282,33,23,,406,https://www.vs.ch/de/web/coronavirus,,,
+2020-11-15,,VS,,20117,,283,34,24,,406,https://www.vs.ch/de/web/coronavirus,,,
 2020-11-15,00:00,OW,,702,,14,,,,10,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-11-15,08:00,AG,,12659,,,,,7320,126,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2020-11-15,08:00,BE,,22869,,,,,,248,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html,,,
@@ -7934,7 +7934,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-11,,SG,,30020,,124,18,18,,579,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-11,,TI,,25378,,352,51,44,2411,850,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,1223,1871,
 2021-01-11,,VD,,59698,,308,47,,,840,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-11,,VS,,27290,,96,10,7,,640,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-11,,VS,,27290,,97,10,7,,640,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-11,00:00,OW,,1518,,12,,,,30,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,105,171,23
 2021-01-11,00:00,UR,,1530,,9,,,,32,https://www.ur.ch/themen/2962,,203,
 2021-01-11,01:00,SO,,11655,,64,17,,,228,https://corona.so.ch/index.php?id=27979,862,1560,157
@@ -7961,7 +7961,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-12,,SG,,30204,,116,18,18,,585,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-12,,TI,,25504,,335,55,49,2438,856,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-12,,VD,,59879,,288,44,,,845,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-12,,VS,,27439,,109,10,7,,641,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-12,,VS,,27439,,110,10,7,,641,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-12,00:00,OW,,1526,,12,,,,30,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,106,133,23
 2021-01-12,00:00,UR,,1539,,10,,,,35,https://www.ur.ch/themen/2962,,177,
 2021-01-12,01:00,SO,,11727,,65,17,,,229,https://corona.so.ch/index.php?id=27979,,,
@@ -7988,7 +7988,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-13,,SG,,30376,,114,18,18,,589,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-13,,TI,,25658,,314,52,46,2462,860,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-13,,VD,,60111,,280,47,,,847,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-13,,VS,,27574,,111,11,8,,643,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-13,,VS,,27574,,112,11,8,,643,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-13,00:00,OW,,1540,,9,,,,30,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,101,151,18
 2021-01-13,00:00,UR,,1555,,8,,,,35,https://www.ur.ch/themen/2962,,190,
 2021-01-13,01:00,SO,,11815,,59,15,,,232,https://corona.so.ch/index.php?id=27979,,,
@@ -8015,7 +8015,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-14,,SG,,30504,,111,19,17,,595,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-14,,TI,,25741,,304,49,43,2485,863,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,994,1541,
 2021-01-14,,VD,,60313,,269,51,,,850,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-14,,VS,,27692,,126,11,9,,644,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-14,,VS,,27692,,127,11,9,,644,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-14,00:00,OW,,1556,,8,,,,30,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,104,167,18
 2021-01-14,00:00,UR,,1570,,7,,,,35,https://www.ur.ch/themen/2962,,184,
 2021-01-14,01:00,SO,,11892,,58,15,,,234,https://corona.so.ch/index.php?id=27979,,,
@@ -8042,7 +8042,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-15,,SG,,30640,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-15,,TI,,25849,,291,40,35,2505,873,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,891,1421,
 2021-01-15,,VD,,60528,,270,53,,,853,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-15,,VS,,27811,,136,12,8,,650,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-15,,VS,,27811,,137,12,8,,650,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-15,00:00,OW,,1583,,8,,,,31,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,123,176,18
 2021-01-15,00:00,UR,,1584,,10,,,,35,https://www.ur.ch/themen/2962,,180,
 2021-01-15,01:00,SO,,11960,,62,16,,,235,https://corona.so.ch/index.php?id=27979,,,
@@ -8068,7 +8068,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-16,,SG,,30699,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-16,,TI,,25962,,272,37,32,2531,878,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-16,,VD,,60705,,277,52,,,855,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-16,,VS,,27870,,129,12,10,,654,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-16,,VS,,27870,,130,12,10,,654,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-16,08:00,AG,,32413,,,,,28455,559,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-01-16,08:00,BE,,47891,,,,,,809,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-01-16,08:00,ZG,,5613,,16,4,,5222,93,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,286,389,151
@@ -8089,7 +8089,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-17,,SG,,30714,,113,16,15,,604,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-17,,TI,,26045,,264,37,32,2541,882,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-17,,VD,,60832,,279,50,,,859,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-17,,VS,,27921,,122,12,11,,658,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-17,,VS,,27921,,123,12,11,,658,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-17,08:00,AG,,32484,,,,,28575,561,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-01-17,08:00,BE,,48071,,,,,,810,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-01-17,08:00,ZG,,5626,,16,3,,5241,99,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,265,358,174
@@ -8111,7 +8111,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-18,,SG,,30983,,106,16,16,,609,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-18,,TI,,26069,,262,37,32,2543,888,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-18,,VD,,61073,,279,48,,,860,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-18,,VS,,28084,,123,12,10,,662,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-18,,VS,,28084,,124,12,10,,662,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-18,00:00,OW,,1618,,13,,,,32,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,114,169,20
 2021-01-18,00:00,UR,,1622,,10,,,,35,https://www.ur.ch/themen/2962,,280,
 2021-01-18,01:00,SO,,12082,,49,11,,,238,https://corona.so.ch/index.php?id=27979,653,1145,99
@@ -8138,7 +8138,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-19,,SG,,31163,,100,16,16,,613,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-19,,TI,,26155,,254,35,30,2566,895,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,601,1009,
 2021-01-19,,VD,,61288,,275,49,,,862,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-19,,VS,,28225,,139,13,12,,666,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-19,,VS,,28225,,140,13,12,,666,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-19,00:00,OW,,1627,,12,,,,32,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,89,150,22
 2021-01-19,00:00,UR,,1635,,10,,,,35,https://www.ur.ch/themen/2962,,275,
 2021-01-19,01:00,SO,,12137,,44,10,,,239,https://corona.so.ch/index.php?id=27979,,,
@@ -8165,7 +8165,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-20,,SG,,31320,,87,15,14,,614,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-20,,TI,,26269,,232,32,26,2593,899,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-20,,VD,,61532,,255,53,,,863,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-20,,VS,,28396,,124,12,9,,668,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-20,,VS,,28396,,125,12,9,,668,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-20,00:00,OW,,1642,,8,,,,32,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,111,150,17
 2021-01-20,00:00,UR,,1642,,6,,,,35,https://www.ur.ch/themen/2962,,257,
 2021-01-20,01:00,SO,,12192,,39,9,,,241,https://corona.so.ch/index.php?id=27979,,,
@@ -8192,7 +8192,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-21,,SG,,31465,,72,16,15,,617,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-21,,TI,,26347,,223,33,26,2610,903,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,564,1010,
 2021-01-21,,VD,,61757,,252,51,,,865,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-21,,VS,,28512,,126,13,9,,671,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-21,,VS,,28512,,127,13,9,,671,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-21,00:00,OW,,1658,,6,,,,33,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,112,202,18
 2021-01-21,00:00,UR,,1648,,6,,,,35,https://www.ur.ch/themen/2962,,253,
 2021-01-21,01:00,SO,,12253,,38,9,,,241,https://corona.so.ch/index.php?id=27979,,,
@@ -8219,7 +8219,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-22,,SG,,31605,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-22,,TI,,26421,,215,28,25,2626,907,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,551,963,
 2021-01-22,,VD,,61963,,255,48,,,865,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-22,,VS,,28639,,128,14,8,,673,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-22,,VS,,28639,,129,14,8,,673,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-22,00:00,OW,,1664,,8,,,,33,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,112,204,16
 2021-01-22,00:00,UR,,1660,,5,,,,36,https://www.ur.ch/themen/2962,,254,
 2021-01-22,01:00,SO,,12309,,36,10,,,242,https://corona.so.ch/index.php?id=27979,,,
@@ -8246,7 +8246,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-23,,SG,,31659,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-23,,TI,,26473,,205,30,19,2644,910,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-23,,VD,,62089,,269,48,,,869,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-23,,VS,,28704,,122,10,8,,674,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-23,,VS,,28704,,123,10,8,,674,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-23,08:00,AG,,33617,,,,,30315,585,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-01-23,08:00,BE,,49270,,,,,,867,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-01-23,08:00,ZG,,5824,,11,3,,5505,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,224,428,111
@@ -8267,7 +8267,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-24,,SG,,31683,,78,18,17,,624,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-24,,TI,,26514,,207,32,22,2646,914,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-24,,VD,,62179,,266,46,,,870,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-24,,VS,,28775,,136,11,8,,680,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-24,,VS,,28775,,137,11,8,,680,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-24,08:00,AG,,33658,,,,,30425,585,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-01-24,08:00,BE,,49431,,,,,,874,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-01-24,08:00,ZG,,5846,,8,2,,5515,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,229,435,102
@@ -8288,7 +8288,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-25,,SG,,31896,,82,17,17,,626,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-25,,TI,,26526,,209,31,23,2648,915,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-25,,VD,,62438,,267,44,,,872,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-25,,VS,,28928,,146,13,11,,683,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-25,,VS,,28928,,147,13,11,,683,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-25,00:00,OW,,1696,,11,,,,35,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,93,183,14
 2021-01-25,00:00,UR,,1675,,5,,,,36,https://www.ur.ch/themen/2962,,206,
 2021-01-25,01:00,SO,101476,12409,,29,7,,,242,https://corona.so.ch/index.php?id=27979,449,1056,69
@@ -8315,7 +8315,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-26,,SG,,32023,,79,17,16,,629,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-26,,TI,,26584,,195,30,23,2662,921,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,444,773,
 2021-01-26,,VD,,62638,,257,43,,,872,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-26,,VS,,29015,,148,13,9,,685,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-26,,VS,,29015,,149,13,9,,685,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-26,00:00,OW,,1707,,9,,,,35,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,94,185,14
 2021-01-26,00:00,UR,,1677,,4,,,,37,https://www.ur.ch/themen/2962,,199,
 2021-01-26,01:00,SO,,12446,,29,5,,,243,https://corona.so.ch/index.php?id=27979,,,
@@ -8342,7 +8342,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-27,,SG,,32145,,76,18,17,,631,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-27,,TI,,26628,,177,27,21,2682,924,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-27,,VD,,62849,,244,40,,,877,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-27,,VS,,29107,,145,15,10,,689,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-27,,VS,,29107,,146,15,10,,689,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-27,00:00,OW,,1715,,7,,,,35,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,89,145,9
 2021-01-27,00:00,UR,,1683,,3,,,,37,https://www.ur.ch/themen/2962,,176,
 2021-01-27,01:00,SO,,12532,,30,6,,,244,https://corona.so.ch/index.php?id=27979,,,
@@ -8369,7 +8369,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-28,,SG,,32246,,74,19,19,,634,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-28,,TI,,26676,,164,24,20,2699,928,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,396,600,
 2021-01-28,,VD,,63052,,249,39,,,885,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-28,,VS,,29231,,124,15,12,,692,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-28,,VS,,29231,,125,15,12,,692,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-28,00:00,OW,,1724,,5,,,,36,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,80,130,12
 2021-01-28,00:00,UR,,1686,,3,,,,37,https://www.ur.ch/themen/2962,,150,
 2021-01-28,01:00,SO,,12584,,28,6,,,244,https://corona.so.ch/index.php?id=27979,,,
@@ -8396,7 +8396,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-29,,SG,,32380,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-29,,TI,,26717,,160,24,20,2708,933,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,370,549,
 2021-01-29,,VD,,63252,,254,34,,,885,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-29,,VS,,29339,,119,15,11,,695,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-29,,VS,,29339,,120,15,11,,695,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-29,00:00,OW,,1727,,6,,,,36,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,70,126,10
 2021-01-29,00:00,UR,,1694,,3,,,,37,https://www.ur.ch/themen/2962,,135,
 2021-01-29,01:00,SO,,12620,,28,6,,,244,https://corona.so.ch/index.php?id=27979,,,
@@ -8422,7 +8422,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-01-30,,SG,,32436,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-01-30,,TI,,26763,,160,25,18,2723,934,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-01-30,,VD,,63379,,254,35,,,886,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-01-30,,VS,,29414,,116,13,12,,697,https://www.vs.ch/de/web/coronavirus,,,
+2021-01-30,,VS,,29414,,117,13,12,,697,https://www.vs.ch/de/web/coronavirus,,,
 2021-01-30,08:00,AG,,34513,,,,,30970,608,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-01-30,08:00,BE,,50422,,,,,,918,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-01-30,08:00,ZG,,5995,,7,2,,5683,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,193,385,107
@@ -9023,7 +9023,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-23,,SG,,33971,,40,8,7,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-02-23,,TI,,27752,,74,14,12,2917,954,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,282,463,
 2021-02-23,,VD,,67370,,210,36,,,915,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-02-23,,VS,,31083,,42,10,8,,747,https://www.vs.ch/de/web/coronavirus,,,
+2021-02-23,,VS,,31083,,41,9,8,,747,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-23,00:00,OW,,1868,,3,,,,37,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,42,94,19
 2021-02-23,00:00,UR,,1786,,1,,,,39,https://www.ur.ch/themen/2962,,50,
 2021-02-23,01:00,SO,,13423,,12,4,,,250,https://corona.so.ch/index.php?id=27979,,,
@@ -9050,7 +9050,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-24,,SG,,34028,,45,11,9,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-02-24,,TI,,27810,,71,11,9,2922,956,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-02-24,,VD,,67513,,198,37,,,916,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-02-24,,VS,,31131,,35,9,6,,748,https://www.vs.ch/de/web/coronavirus,,,
+2021-02-24,,VS,,31149,,34,8,6,,748,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-24,00:00,OW,,1873,,4,,,,37,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,49,95,19
 2021-02-24,00:00,UR,,1788,,1,,,,39,https://www.ur.ch/themen/2962,,51,
 2021-02-24,01:00,SO,,13451,,14,6,,,252,https://corona.so.ch/index.php?id=27979,,,
@@ -9077,7 +9077,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-25,,SG,,34058,,43,9,8,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-02-25,,TI,,27862,,72,11,9,2926,956,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,344,498,
 2021-02-25,,VD,,67639,,199,33,,,917,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
-2021-02-25,,VS,,31134,,38,9,7,,748,https://www.vs.ch/de/web/coronavirus,,,
+2021-02-25,,VS,,31203,,37,8,7,,748,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-25,00:00,OW,,1876,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,41,89,15
 2021-02-25,00:00,UR,,1789,,1,,,,39,https://www.ur.ch/themen/2962,,51,
 2021-02-25,01:00,SO,,13494,,12,6,,,252,https://corona.so.ch/index.php?id=27979,,,
@@ -9097,6 +9097,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-26,,GL,,2199,,4,,,,69,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-02-26,,LU,,,,28,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,341,352,151
 2021-02-26,,TI,,27910,,70,11,10,2932,956,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-02-26,,VS,,31216,,35,9,7,,748,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-26,00:00,OW,,1878,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,40,85,11
 2021-02-26,00:00,UR,,1795,,1,,,,39,https://www.ur.ch/themen/2962,,55,
 2021-02-26,01:00,SO,,13529,,13,8,,,252,https://corona.so.ch/,,,
