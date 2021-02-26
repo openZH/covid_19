@@ -9047,7 +9047,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-24,,LU,,21667,,30,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,317,344,158
 2021-02-24,,NE,,13994,,51,4,4,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-02-24,,NW,,1984,,1,1,,,19,http://www.nw.ch/coronastatistik,31,51,12
-2021-02-24,,SG,,34012,,45,11,9,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-02-24,,SG,,34028,,45,11,9,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-02-24,,TI,,27810,,71,11,9,2922,956,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-02-24,,VD,,67491,,185,36,,,916,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
 2021-02-24,,VS,,31131,,35,9,6,,748,https://www.vs.ch/de/web/coronavirus,,,
@@ -9072,6 +9072,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-25,,GR,,10635,,8,3,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,174,221,
 2021-02-25,,LU,,,,29,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,348,342,151
 2021-02-25,,NW,,1987,,1,1,,,19,http://www.nw.ch/coronastatistik,32,51,12
+2021-02-25,,SG,,34058,,43,9,8,,675,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-02-25,,TI,,27862,,72,11,9,2926,956,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,344,498,
 2021-02-25,,VS,,31134,,38,9,7,,748,https://www.vs.ch/de/web/coronavirus,,,
 2021-02-25,00:00,OW,,1876,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,41,89,15
