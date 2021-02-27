@@ -13,7 +13,7 @@ for url in svc.get_vs_weekly_pdf_urls():
     pdf = sc.download_content(url, silent=True)
     td.week, td.year = svc.get_vs_weekly_general_data(pdf)
 
-    for page in range(4, 5):
+    for page in range(4, 6):
         content = sc.pdftotext(pdf, page=page, raw=True)
         content = re.sub(r'(\d)\‘(\d)', r'\1\2', content)
         content = re.sub(r'(\d)\’(\d)', r'\1\2', content)
