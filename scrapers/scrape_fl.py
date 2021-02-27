@@ -36,9 +36,9 @@ for bulletin in bulletins:
     if m:
         dd.hospitalized = sc.int_or_word(m[1].lower())
 
-    m = re.search(r'Gegenwärtig\s+befinden\s+sich\s+(\d+)\s+enge\s+Kontaktpersonen\s+in\s+Quarantäne.', content)
+    m = re.search(r'Gegenwärtig\s+befinden\s+sich\s+(\w+)\s+enge\s+Kontaktpersonen\s+in\s+Quarantäne.', content)
     if m:
-        dd.quarantined = m[1]
+        dd.quarantined = sc.int_or_word(m[1])
 
     if dd:
         if not is_first:
