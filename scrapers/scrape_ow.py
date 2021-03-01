@@ -7,11 +7,12 @@ import scrape_common as sc
 
 
 url = 'https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962'
-d = sc.download(url, silent=True)
+d = sc.download(url, silent=True, encoding='windows-1252')
+d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
 
 dd = sc.DayData(canton='OW', url=url)
-date = sc.find(r'Stand (\d+\. \w+ 20\d{2})', d)
+date = sc.find(r'Stand (\d+\.\s+\w+\s+20\d{2})', d)
 time = sc.find(r'Stand .*,\s?([\d\.:]+).*Uhr', d)
 dd.datetime = f'{date}, {time} Uhr'
 dd.isolated = soup.find(text=re.compile(r'In Isolation \(aktuell\)')).find_next('td').string
