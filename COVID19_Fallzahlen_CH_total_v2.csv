@@ -9131,12 +9131,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-28,,BL,,13593,,17,2,0,13047,209,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-02-28,,FL,,2567,,,,,,,https://www.regierung.li/de/mitteilungen/224319/?typ=content&nid=11076,,,
 2021-02-28,,FR,,27228,,30,9,,810,465,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-02-28,,GE,,47416,,,,,,696,https://infocovid.smc.unige.ch/,819,975,
+2021-02-28,,GE,,47416,,,,,,696,https://infocovid.smc.unige.ch/,819,975,596
 2021-02-28,,GR,,10686,,7,3,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,159,231,
 2021-02-28,,NW,,1991,,2,2,,,19,http://www.nw.ch/coronastatistik,24,62,7
 2021-02-28,,TI,,27995,,64,11,9,2641,957,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-02-28,08:00,BE,,53538,,,,,,993,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-02-28,08:00,ZG,,6500,,8,2,,6297,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
-2021-02-28,09:00,BS,,9853,,0,0,,9503,192,https://www.gesundheit.bs.ch,158,167,
+2021-02-28,09:00,BS,,9853,,16,7,,9503,192,https://www.gesundheit.bs.ch,158,167,
 2021-02-28,09:00,SZ,,9569,,,,,9193,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
+2021-03-01,,BS,,9853,,0,0,,0,0,https://www.gesundheit.bs.ch,0,0,
 2021-03-01,00:00,UR,,1806,,2,,,,39,https://www.ur.ch/themen/2962,,48,
+2021-03-01,09:00,SZ,,9576,,,,,9207,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
