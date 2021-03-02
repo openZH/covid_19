@@ -31,4 +31,10 @@ for row in reader:
     dd.quarantine_riskareatravel = row['current_quarantined_riskareatravel']
     dd.quarantine_total = row['current_quarantined_total']
     dd.hosp_resident = row['current_hosp_resident']
+    
+    # TODO: remove if source is fixed
+    # BS corrected data on 2021-03-01 without adapting their time series
+    if row['date'] in ('2021-02-27', '2021-02-28'):
+        dd.cases = ''
+        dd.recovered = ''
     print(dd)
