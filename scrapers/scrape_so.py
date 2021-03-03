@@ -67,10 +67,10 @@ if data_table:
 
 
 # and scrape the main page as well
-url = "https://corona.so.ch/"
+url = "https://corona.so.ch/bevoelkerung/daten/"
 d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
-title = soup.find('h3', text=re.compile("Situation Kanton Solothurn"))
+title = soup.find('h3', text=re.compile("Stand"))
 data = sc.DayData(canton='SO', url=url)
 data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
 table = title.find_next('table')
