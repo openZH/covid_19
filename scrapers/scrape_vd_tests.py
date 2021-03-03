@@ -11,6 +11,7 @@ for pdf_url in pdf_urls:
     pdf = sc.pdfdownload(pdf_url, silent=True, page=1)
     pdf = re.sub(r'(\d+)\'(\d+)', r'\1\2', pdf)
     pdf = re.sub(r'(\d+)’(\d+)', r'\1\2', pdf)
+    pdf = re.sub(r'(\d)er', r'\1', pdf)
 
     td = sc.TestData(canton='VD', url=pdf_url)
 
