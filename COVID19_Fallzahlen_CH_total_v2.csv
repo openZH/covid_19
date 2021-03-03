@@ -9123,7 +9123,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-02-27,,GE,,47368,,67,9,,,705,https://infocovid.smc.unige.ch/,972,1150,651
 2021-02-27,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/34778/Sentinella%20Bericht%20KW8.pdf,26,55,13
 2021-02-27,,GR,,10679,,6,3,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,164,239,
-2021-02-27,,JU,,5630,,11,2,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-02-27,,JU,,5629,,11,2,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-02-27,,LU,,21764,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-02-27,,NE,,14096,,44,3,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-02-27,,NW,,1988,,2,2,,,19,http://www.nw.ch/coronastatistik,27,34,8
@@ -9211,6 +9211,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-02,10:40,BS,,9867,,22,7,,9526,192,https://www.gesundheit.bs.ch,149,197,
 2021-03-02,12:00,AI,,880,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,22,19,
 2021-03-02,14:30,ZH,,87684,,134,28,10,,1279,https://www.zh.ch/de/gesundheit/coronavirus.html,1116,2660,
+2021-03-03,,FL,,2577,,,,,,54,https://www.regierung.li/de/mitteilungen/224332/?typ=content&nid=11076,,49,
 2021-03-03,,GL,,2213,,3,,,,69,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-03,,TI,,28139,,60,8,5,2957,957,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-03,00:00,OW,,1893,,4,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,22,52,14
