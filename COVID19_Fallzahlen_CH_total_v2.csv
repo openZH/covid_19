@@ -9194,7 +9194,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-02,,GL,,2208,,3,,,,69,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-02,,GR,,10715,,6,4,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,153,207,
 2021-03-02,,JU,,5669,,8,1,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-03-02,,LU,,21862,,29,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,288,312,182
+2021-03-02,,LU,,21861,,29,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,288,312,182
 2021-03-02,,NE,,14168,,50,3,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-03-02,,NW,,1998,,1,0,,,19,http://www.nw.ch/coronastatistik,24,67,11
 2021-03-02,,SG,,34330,,42,11,9,,680,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -9221,7 +9221,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-03,,GL,,2213,,3,,,,69,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-03,,GR,,10743,,11,5,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,163,203,
 2021-03-03,,JU,,5684,,9,1,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-03-03,,LU,,,,33,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,321,341,182
+2021-03-03,,LU,,21916,,33,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,321,341,182
 2021-03-03,,NW,,2006,,1,0,,,19,http://www.nw.ch/coronastatistik,30,61,9
 2021-03-03,,SG,,34367,,38,11,9,,681,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-03-03,,TI,,28139,,60,8,5,2957,957,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
@@ -9238,8 +9238,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-03,11:50,BS,,9880,,23,7,,9541,192,https://www.gesundheit.bs.ch,147,241,
 2021-03-03,12:00,AI,,880,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,22,17,
 2021-03-03,14:30,ZH,,87819,,137,24,10,,1279,https://www.zh.ch/de/gesundheit/coronavirus.html,1116,2660,
-2021-03-04,,FL,,2582,,,,,,54,https://www.regierung.li/de/mitteilungen/224334/?typ=content&nid=11076,,39,
+2021-03-04,,FL,,2582,,2,,,2487,54,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,39,
 2021-03-04,,GL,,2220,,3,,,,69,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-03-04,,LU,,,,37,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,376,338,
 2021-03-04,,TI,,28189,,60,6,6,2961,958,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-04,00:00,OW,,1896,,4,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,24,47,10
 2021-03-04,00:00,UR,,1816,,2,,,,39,https://www.ur.ch/themen/2962,,60,
