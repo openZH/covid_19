@@ -9297,13 +9297,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-06,,GE,,48000,,,,,,705,https://infocovid.smc.unige.ch/,827,1016,719
 2021-03-06,,GR,,10818,,8,3,2,,175,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,171,241,
 2021-03-06,,JU,,5718,,3,1,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-03-06,,NW,,2020,,1,1,,,19,https://www.nw.ch/gesundheitsamtdienste/6044,33,116,5
+2021-03-06,,NW,,2020,,1,1,,,19,http://www.nw.ch/coronastatistik,33,116,5
 2021-03-06,,TI,,28298,,54,6,5,2974,961,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-06,08:00,BE,,54078,,,,,,999,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-03-06,09:00,SZ,,9655,,,,,9271,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-03-06,12:20,BS,,9954,,19,5,,9601,192,https://www.gesundheit.bs.ch,161,417,
 2021-03-07,,BL,,13821,,15,2,1,13235,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-07,,FL,,2590,,,,,,,https://www.regierung.li/de/mitteilungen/224340/?typ=content&nid=11076,,,
+2021-03-07,,NW,,2025,,1,1,,,19,http://www.nw.ch/coronastatistik,37,137,
 2021-03-07,,TI,,28353,,54,6,5,2975,961,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-07,08:00,BE,,54163,,,,,,1000,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-03-07,09:00,SZ,,9667,,,,,9307,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
