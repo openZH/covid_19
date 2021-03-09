@@ -19,7 +19,7 @@ for pdf_url in pdf_urls:
     res = re.search(r'Entre\s+le\s+(?P<start>\d+\s+\w+)\s+et\s+le\s+(?P<end>\d+\s+\w+)(?P<year>\s+\d{4})?,', pdf, flags=re.I|re.UNICODE)
     res_with_year = re.search(r'Entre\s+le\s+(?P<start>\d+\s+\w+\s+\d{4})\s+et\s+le\s+(?P<end>\d+\s+\w+\s+\d{4}),', pdf, flags=re.I|re.UNICODE)
     res_no_month = re.search(r'Entre\s+le\s+(?P<start>\d+)\s+et\s+le\s+(?P<end>\d+\s+\w+),', pdf, flags=re.I|re.UNICODE)
-    res_no_month_with_year = re.search(r'Entre\s+le\s+(?P<start>\d+)\s+et\s+le\s+(?P<end>\d+\s+\w+\s+\d{4}),', pdf, flags=re.I|re.UNICODE)
+    res_no_month_with_year = re.search(r'Entre(?P<et>\s+et)?\s+le\s+(?P<start>\d+)\s+et\s+le\s+(?P<end>\d+\s+\w+\s+\d{4}),', pdf, flags=re.I|re.UNICODE)
 
     if res:
         start_date = sc.date_from_text(f"{res['start']} {year}")
