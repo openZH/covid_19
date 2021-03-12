@@ -35,6 +35,7 @@ main_site = sc.download(main_url, silent=True)
 
 def get_row_date(s):
     row_date = s.replace('-', '.')
+    row_date = s.replace('/', '.')
     parts = row_date.split('.')
     s_date = datetime(day=int(parts[0]), month=int(parts[1]), year=int(parts[2]))
     key = s_date.date().isoformat()
