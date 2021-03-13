@@ -9471,6 +9471,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-13,,FL,,2602,,,,,,,https://www.regierung.li/de/mitteilungen/224355/?typ=content&nid=11076,,,
 2021-03-13,,FR,,27902,,31,7,,837,471,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-03-13,,GE,,,,62,8,,,,https://infocovid.smc.unige.ch/,,,
+2021-03-13,,GR,,11017,,11,5,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,234,279,
 2021-03-13,,NW,,2057,,1,1,,,19,https://www.nw.ch/gesundheitsamtdienste/6044,43,125,10
 2021-03-13,,TI,,28756,,65,7,6,2997,965,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-13,08:00,BE,,54722,,,,,,1012,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
