@@ -54,6 +54,7 @@ if data_table:
                 tmp_time = cell.string.strip()
             elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
                 data.cases = cell.string.strip()
+                data.cases = data.cases.replace("'", "")
             elif headers[col_num] == 'Todesfälle (kumuliert)':
                 data.deaths = cell.string.strip()
             elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
