@@ -9521,7 +9521,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-15,,GL,,2244,,3,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-15,,GR,,11055,,11,4,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,192,238,
 2021-03-15,,JU,,5783,,6,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-03-15,,LU,,,,44,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,577,634,158
+2021-03-15,,LU,,22620,,44,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,577,634,158
 2021-03-15,,NE,,14532,,19,3,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-03-15,,NW,,2067,,1,1,,,19,http://www.nw.ch/coronastatistik,45,115,11
 2021-03-15,,SG,,35001,,33,8,8,,685,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -9539,8 +9539,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-15,10:30,BS,,10144,,35,5,,9761,193,https://www.gesundheit.bs.ch,190,651,
 2021-03-15,12:00,AI,,894,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,22,11,
 2021-03-15,14:30,ZH,,90159,,138,23,17,,1294,https://www.zh.ch/de/gesundheit/coronavirus.html,1601,4195,
-2021-03-16,,FL,,2615,,1,,,2523,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,,
+2021-03-16,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,140,64,
+2021-03-16,,FL,,2615,,1,,,2523,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,70,
 2021-03-16,,GL,,2246,,3,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-03-16,,LU,,,,45,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,577,643,
 2021-03-16,,TI,,28951,,71,8,5,3003,967,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-16,00:00,OW,,1953,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,37,61,12
 2021-03-16,00:00,UR,,1885,,6,,,,39,https://www.ur.ch/themen/2962,,87,
