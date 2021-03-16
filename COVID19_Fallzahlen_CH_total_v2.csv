@@ -9480,7 +9480,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-13,,LU,,22540,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-03-13,,NE,,14505,,22,3,3,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-03-13,,NW,,2057,,1,1,,,19,http://www.nw.ch/coronastatistik,43,125,10
-2021-03-13,,SG,,34927,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-03-13,,SG,,34931,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-03-13,,TI,,28756,,65,7,6,2997,965,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-13,,VS,,32199,,30,5,2,,755,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-13,08:00,AG,,37831,,,,,32930,638,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -9500,7 +9500,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-14,,LU,,22568,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-03-14,,NE,,14512,,25,3,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-03-14,,NW,,2063,,1,1,,,19,http://www.nw.ch/coronastatistik,47,128,10
-2021-03-14,,SG,,34938,,29,8,8,,685,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-03-14,,SG,,34942,,29,8,8,,685,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-03-14,,TI,,28828,,63,7,5,3000,967,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-14,,VS,,32214,,31,4,2,,755,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-14,08:00,AG,,37910,,,,,32975,638,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -9519,6 +9519,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-15,,GR,,11055,,11,4,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,192,238,
 2021-03-15,,LU,,,,44,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,577,634,158
 2021-03-15,,NW,,2067,,1,1,,,19,http://www.nw.ch/coronastatistik,45,115,11
+2021-03-15,,SG,,35001,,33,8,8,,685,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-03-15,,TI,,28876,,67,7,5,3001,967,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-15,,VS,,32225,,31,6,5,,755,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-15,00:00,OW,,1952,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,35,71,9
