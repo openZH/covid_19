@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total,ncumul_ICF
 2020-01-05,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
 2020-01-06,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
 2020-01-07,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
@@ -9567,7 +9567,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-16,11:10,BS,,10177,,29,6,,9778,193,https://www.gesundheit.bs.ch,206,634,
 2021-03-16,12:00,AI,,898,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,21,8,
 2021-03-16,14:30,ZH,,90468,,141,22,17,,1303,https://www.zh.ch/de/gesundheit/coronavirus.html,1638,4310,
-2021-03-17,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,141,62,
+2021-03-17,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,141,62,24
+2021-03-17,,BL,,14288,,16,3,2,13550,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-17,,FL,,2616,,0,,,2525,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,68,
 2021-03-17,,GL,,2250,,4,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-17,,LU,,,,50,,11,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,632,627,183
