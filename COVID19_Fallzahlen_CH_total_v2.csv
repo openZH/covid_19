@@ -9530,7 +9530,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-15,,VS,,32304,,31,6,5,,755,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-15,00:00,OW,,1952,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,35,71,9
 2021-03-15,00:00,UR,,1881,,4,,,,39,https://www.ur.ch/themen/2962,,65,
-2021-03-15,01:00,SO,,14126,,11,5,,,256,https://corona.so.ch/index.php?id=27979,,,
+2021-03-15,01:00,SO,134142,14126,,11,5,,,256,https://corona.so.ch/index.php?id=27979,328,815,109
 2021-03-15,08:00,AG,,38028,,31,7,,33020,639,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1363,2131,246
 2021-03-15,08:00,BE,,54861,,,,,,1013,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-03-15,08:00,ZG,,6744,,6,2,,6492,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,139,196,152
@@ -9592,6 +9592,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-17,11:10,BS,,10207,,31,7,,9793,193,https://www.gesundheit.bs.ch,221,667,
 2021-03-17,14:30,ZH,,90758,,132,21,15,,1308,https://www.zh.ch/de/gesundheit/coronavirus.html,1638,4310,
 2021-03-18,,FL,,2620,,0,,,2526,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf,,63,
+2021-03-18,,GL,,2256,,4,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-18,,TI,,29122,,72,5,4,3011,967,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-03-18,00:00,UR,,1909,,4,,,,39,https://www.ur.ch/themen/2962,,85,
 2021-03-18,08:00,BE,,55234,,,,,,1019,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
