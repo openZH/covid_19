@@ -9661,7 +9661,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-20,,VS,,32675,,35,3,3,,758,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-20,08:00,AG,,38800,,,,,33240,644,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-03-20,08:00,BE,,55496,,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-03-20,08:00,ZG,,6905,,7,1,,6622,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,195,218,125
+2021-03-20,08:00,ZG,,6905,,7,1,,6622,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,180,218,125
 2021-03-20,09:00,SZ,,9858,,,,,9496,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-03-20,10:00,TG,,15757,0,19,3,,921,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,285,,
 2021-03-20,10:40,BS,,10297,,31,7,,9848,193,https://www.gesundheit.bs.ch,256,608,
@@ -9681,7 +9681,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-21,,VS,,32695,,41,3,3,,758,https://www.vs.ch/de/web/coronavirus,,,
 2021-03-21,08:00,AG,,38881,,,,,33285,644,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-03-21,08:00,BE,,55584,,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-03-21,08:00,ZG,,6917,,7,1,,6608,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,249,127
+2021-03-21,08:00,ZG,,6917,,7,1,,6623,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,249,127
 2021-03-21,09:00,SZ,,9874,,,,,9518,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-03-21,10:00,TG,,15763,0,18,3,,922,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,304,,
 2021-03-21,10:40,BS,,10320,,34,7,,9869,193,https://www.gesundheit.bs.ch,258,718,
@@ -9702,7 +9702,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-22,00:00,OW,,1984,,3,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,39,59,10
 2021-03-22,01:00,SO,,14454,,17,4,,,257,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-03-22,08:00,BE,,55638,,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-03-22,08:00,ZG,,6930,,8,0,,6631,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-03-22,08:00,ZG,,6930,,8,0,,6631,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,182,234,151
 2021-03-22,09:00,SZ,,9891,,,,,9518,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-03-22,09:30,SH,,3784,,6,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,66,118,38
 2021-03-22,10:00,TG,,15773,0,18,3,,922,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
@@ -9711,5 +9711,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-22,14:30,ZH,,91985,,144,26,13,,1314,https://www.zh.ch/de/gesundheit/coronavirus.html,1893,5217,
 2021-03-23,00:00,UR,,1959,,5,,,,39,https://www.ur.ch/themen/2962,,130,
 2021-03-23,08:00,BE,,55747,,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-03-23,09:00,SH,,3791,,5,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,71,136,
+2021-03-23,08:00,ZG,,6963,,9,0,,6667,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-03-23,09:00,SH,,3791,,5,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,71,136,34
 2021-03-23,09:00,SZ,,9913,,,,,9546,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
