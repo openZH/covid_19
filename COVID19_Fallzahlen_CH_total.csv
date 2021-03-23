@@ -387,7 +387,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-16,,NW,,10,7,,,,,http://www.nw.ch/coronastatistik
 2020-03-16,,SG,,77,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-16,,SH,,2,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-16,,TG,246,20,1,,,0,1,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-16,,TG,246,20,1,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-16,,TI,,368,112,18,0,61,8,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-16,,VD,,797,154,20,,,8,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-16,,VS,,162,44,2,1,8,3,https://www.vs.ch/de/web/coronavirus
@@ -408,7 +408,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-17,,NW,,12,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-17,,SG,,106,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-17,,SH,,2,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-17,,TG,276,27,4,,,0,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-17,,TG,276,27,4,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-17,,TI,,426,137,23,0,62,10,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-17,,VD,,1041,168,24,,,10,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-17,,VS,,215,49,2,2,11,3,https://www.vs.ch/de/web/coronavirus
@@ -429,7 +429,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-18,,NW,,18,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-18,,SG,,133,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-18,,SH,,8,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-18,,TG,,42,5,,,0,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-18,,TG,,42,5,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-18,,TI,,511,163,29,28,62,12,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-18,,UR,85,5,,,,,,https://www.ur.ch/mmdirektionen/63802
 2020-03-18,,VD,,1305,183,23,,,13,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -453,7 +453,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-19,,NW,,25,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-19,,SG,,153,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-19,,SH,,12,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-19,,TG,,49,7,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-19,,TG,,49,7,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-19,,TI,,638,182,33,32,65,13,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-19,,UR,,7,,,,,,https://www.ur.ch/mmdirektionen/63841
 2020-03-19,,VD,,1516,197,25,,,14,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -474,7 +474,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-20,,NW,,28,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-20,,SG,,192,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-20,,SH,,17,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-20,,TG,,57,8,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-20,,TG,,57,8,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-20,,VD,,1756,207,24,,,19,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-20,,VS,,430,75,6,5,15,7,https://www.vs.ch/de/web/coronavirus
 2020-03-20,08:00,AG,,175,25,4,2,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx
@@ -498,7 +498,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-21,,NW,,33,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-21,,SG,,201,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-21,,SH,,28,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-21,,TG,,71,9,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-21,,TG,,71,9,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-21,,VD,,1875,239,28,,,22,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-21,,VS,,481,85,8,6,17,10,https://www.vs.ch/de/web/coronavirus
 2020-03-21,08:00,AG,,223,,,,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx
@@ -519,7 +519,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-22,,NW,,36,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-22,,SG,,212,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-22,,SH,,30,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-22,,TG,,78,10,,,0,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-22,,TG,,78,10,,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-22,,VD,,1977,262,36,,,24,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-22,,VS,,518,94,11,7,19,11,https://www.vs.ch/de/web/coronavirus
 2020-03-22,08:00,AG,,235,,,,,1,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx
@@ -539,7 +539,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-23,,NW,,39,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-23,,SG,,261,,,,,1,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-23,,SH,,32,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-23,,TG,,84,9,,,2,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-23,,TG,,84,9,,,2,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-23,,UR,,22,1,,,,,https://www.ur.ch/themen/2920
 2020-03-23,,VD,,2283,284,44,,,28,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-23,,VS,,614,106,12,9,24,13,https://www.vs.ch/de/web/coronavirus
@@ -566,7 +566,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-24,,SG,,290,,,,,1,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-24,,SH,,34,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-24,,SZ,,97,,,,10,0,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-24,,TG,,93,12,,,2,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-24,,TG,,93,12,,,2,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-24,,VD,,2548,325,48,,,30,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-24,,VS,,714,120,13,12,25,14,https://www.vs.ch/de/web/coronavirus
 2020-03-24,00:00,OW,,25,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX
@@ -593,7 +593,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-25,,SG,,320,,,,,1,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-25,,SH,,35,10,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-25,,SZ,,,,,,10,0,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-25,,TG,,110,11,,,4,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-25,,TG,,110,11,,,4,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-25,,VD,,2740,353,56,,,38,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-25,,VS,,783,121,15,14,35,15,https://www.vs.ch/de/web/coronavirus
 2020-03-25,00:00,OW,,27,2,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX
@@ -619,7 +619,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-26,,SG,,351,,,,,1,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-26,,SH,,36,6,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-26,,SZ,,107,,,,20,0,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-26,,TG,,115,14,,,4,3,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-26,,TG,,115,14,,,4,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-26,,UR,,38,4,,,,,https://www.ur.ch/themen/2920
 2020-03-26,,VD,,2945,366,60,,,52,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-26,,VS,,859,131,19,17,41,17,https://www.vs.ch/de/web/coronavirus
@@ -646,7 +646,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-27,,SG,,386,,,,,2,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-27,,SH,,37,10,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-27,,SZ,,119,,,,32,1,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-27,,TG,,129,15,,,5,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-27,,TG,,129,15,,,5,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-27,,UR,,40,7,,,,,https://www.ur.ch/themen/2920
 2020-03-27,,VD,,3179,399,64,,,54,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-27,,VS,,951,140,20,16,50,21,https://www.vs.ch/de/web/coronavirus
@@ -673,7 +673,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-28,,SG,,394,,,,,5,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-28,,SH,,40,14,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-28,,SZ,,122,,,,33,1,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-28,,TG,,138,18,,,5,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-28,,TG,,138,18,,,5,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-28,,UR,,48,7,,,,,https://www.ur.ch/themen/2920
 2020-03-28,,VD,,3310,410,67,,,61,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-28,,VS,,997,145,21,19,53,25,https://www.vs.ch/de/web/coronavirus
@@ -700,7 +700,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-29,,SG,,396,,,,,5,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-29,,SH,,41,15,1,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-29,,SZ,,128,,,,33,2,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-29,,TG,,146,21,,,6,6,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-29,,TG,,146,21,,,6,2,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-29,,UR,,50,7,,,,,https://www.ur.ch/themen/2920
 2020-03-29,,VD,,3395,412,69,,,69,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-29,,VS,,1031,155,22,21,54,31,https://www.vs.ch/de/web/coronavirus
@@ -725,7 +725,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-30,,SG,,433,,,,,7,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-30,,SH,,42,19,3,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-30,,SZ,,135,,,,33,2,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-30,,TG,,156,22,,,10,6,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-30,,TG,,156,22,,,10,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-30,,UR,,53,7,,,,,https://www.ur.ch/themen/2920
 2020-03-30,,VD,,3607,413,70,,,78,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-30,,VS,,1116,156,25,23,71,35,https://www.vs.ch/de/web/coronavirus
@@ -751,7 +751,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-31,,SG,,469,,,,,7,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-31,,SH,,44,18,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-03-31,,SZ,,140,,,,48,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-03-31,,TG,,167,23,,,11,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-31,,TG,,167,23,,,11,4,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-31,,UR,,57,9,,,,,https://www.ur.ch/themen/2920
 2020-03-31,,VD,,3766,422,73,,,85,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-31,,VS,,1184,155,24,23,81,37,https://www.vs.ch/de/web/coronavirus
@@ -778,7 +778,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-01,,SG,,491,,,,,7,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-01,,SH,,44,10,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-01,,SZ,,146,,,,65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-01,,TG,,183,22,,,13,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-01,,TG,,183,22,,,13,5,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-01,,UR,,59,10,,,,1,https://www.ur.ch/themen/2920
 2020-04-01,,VD,,3918,422,77,,,93,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-01,,VS,,1253,149,26,25,96,40,https://www.vs.ch/de/web/coronavirus
@@ -804,7 +804,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-02,,SG,,513,64,11,,49,8,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-02,,SH,,47,18,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-02,,SZ,,155,,,,65,4,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-02,,TG,,195,25,,,14,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-02,,TG,,195,25,,,14,6,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-02,,VD,,4052,408,76,,,109,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-02,,VS,,1300,149,28,24,104,47,https://www.vs.ch/de/web/coronavirus
 2020-04-02,00:00,OW,,51,6,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX
@@ -885,7 +885,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-05,,SG,,560,70,13,,70,9,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-04-05,,SH,,49,12,3,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-05,,SZ,,170,,,,93,5,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-05,,TG,,218,24,,,22,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-05,,TG,,218,24,,,22,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-05,,VD,,4298,407,77,,,138,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-04-05,,VS,,1398,149,26,23,115,57,https://www.vs.ch/de/web/coronavirus
 2020-04-05,00:00,OW,,56,3,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX
@@ -921,7 +921,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-06,08:00,TI,,2546,357,72,62,350,189,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-04-06,08:00,ZG,,152,14,8,,52,3,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-06,09:45,BS,,798,98,13,,481,26,https://www.coronavirus.bs.ch/nm/2020-tagesbulletin-coronavirus-803-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-06,10:00,TG,,227,28,14,,23,7,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-06,10:00,TG,,227,28,14,,23,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-06,11:00,AI,,21,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-06,11:00,LU,,495,28,6,6,,9,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-06,14:00,UR,,67,9,,,,2,https://www.ur.ch/themen/2920
@@ -1081,7 +1081,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-12,08:00,ZG,,168,13,9,,80,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-12,09:30,SH,,57,16,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-12,10:00,BS,,877,88,9,,629,33,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-882-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-12,10:00,TG,,292,24,14,,34,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-12,10:00,TG,,292,24,14,,34,9,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-12,11:00,LU,,561,20,5,5,,12,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-12,14:30,ZH,,2981,153,0,49,,79,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-12,15:00,UR,,77,5,,,,4,https://www.ur.ch/themen/2962
@@ -1107,7 +1107,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-13,08:00,ZG,,170,13,9,,84,5,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-13,09:30,SH,,57,16,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-13,10:00,BS,,888,84,9,,653,34,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-893-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-13,10:00,TG,,295,24,17,,36,8,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-13,10:00,TG,,295,24,17,,36,10,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-13,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-13,11:00,LU,,567,23,5,5,,13,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-13,14:00,UR,,78,4,,,,4,https://www.ur.ch/themen/2962
@@ -1163,7 +1163,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-15,10:00,BS,,904,75,6,,682,36,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-909-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-15,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-15,11:00,LU,,581,26,4,4,,14,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
-2020-04-15,12:00,TG,,309,24,14,,39,11,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-15,12:00,TG,,309,24,14,,39,12,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-15,14:30,ZH,,3091,136,0,50,,91,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-04-15,16:00,UR,,78,3,,,,4,https://www.ur.ch/themen/2962
 2020-04-16,,BL,,813,46,8,6,647,25,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -1188,7 +1188,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-16,08:00,ZG,,171,9,7,,94,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-16,09:00,BS,,912,67,7,,711,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-917-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-16,09:30,SH,,60,10,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-16,10:30,TG,,320,21,14,,42,11,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-16,10:30,TG,,320,21,14,,42,12,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-16,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-16,12:30,LU,,586,23,3,3,,15,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-16,14:30,ZH,,3125,135,0,51,,95,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -1213,7 +1213,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-17,08:00,ZG,,172,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-17,09:00,BS,,918,66,8,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-17,09:30,SH,,60,8,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-17,09:30,TG,,329,20,13,,44,12,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-17,09:30,TG,,329,20,13,,44,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-17,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-17,11:00,LU,,598,23,3,4,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-17,12:00,AR,,82,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -1240,7 +1240,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-18,08:00,ZG,,174,6,6,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-18,09:30,SH,,61,11,4,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-18,09:45,BS,,924,60,7,,753,40,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-929-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-18,10:30,TG,,332,20,12,,44,13,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-18,10:30,TG,,332,20,12,,44,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-18,12:30,LU,,608,21,4,4,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-18,13:00,GL,,111,4,,,,3,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2020-04-18,14:30,ZH,,3187,114,0,44,,105,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -1265,7 +1265,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-19,08:00,ZG,,175,11,6,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-19,09:30,SH,,62,6,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-19,10:00,BS,,927,56,8,,764,40,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-932-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
-2020-04-19,10:00,TG,,334,20,12,,44,13,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-19,10:00,TG,,334,20,12,,44,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-19,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-19,11:00,LU,,615,21,4,4,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-19,13:00,GL,,111,4,,,,3,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
@@ -1291,7 +1291,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-20,08:00,ZG,,175,11,5,,99,7,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-20,09:30,BS,,928,53,9,,770,42,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-20,09:30,SH,,63,6,2,,,1,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-20,10:00,TG,,338,20,12,,44,13,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-20,10:00,TG,,338,20,12,,44,15,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-20,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-20,11:00,LU,,619,19,5,5,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-20,13:00,AR,,86,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -1318,7 +1318,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-21,09:15,BS,,928,48,7,,781,44,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-2.html
 2020-04-21,09:30,SH,,63,10,2,,,2,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-21,10:00,SZ,,276,,,,192,16,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-21,10:00,TG,,340,18,12,,46,13,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-21,10:00,TG,,340,18,12,,46,15,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-21,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-21,12:00,LU,,627,20,5,6,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-21,13:00,AR,,86,,,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -1345,7 +1345,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-22,09:30,SH,,63,10,2,,,3,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-22,09:45,BS,,928,41,7,,786,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-933-bestaetigte-faelle-im-kanton-basel-stadt-gd-3.html
 2020-04-22,10:00,SZ,,282,,,,194,16,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-22,10:00,TG,,351,19,9,,47,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-22,10:00,TG,,351,19,9,,47,15,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-22,11:00,AI,,24,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-22,11:00,LU,,635,19,,5,,16,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-22,13:30,GL,,117,3,,,,6,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
@@ -1372,7 +1372,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-23,09:00,BS,,931,39,7,,793,45,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-931-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-23,09:30,SH,,65,8,2,,,3,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-23,10:00,SZ,,282,,,,198,16,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-23,10:00,TG,,357,20,9,,47,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-23,10:00,TG,,357,20,9,,47,15,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-23,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-23,11:00,LU,,639,18,7,5,,17,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-23,13:30,GL,,117,3,,,,6,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
@@ -1400,7 +1400,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-24,09:30,AR,,88,4,2,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-04-24,09:30,SH,,70,4,1,,,3,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-04-24,10:00,SZ,,284,,,,206,16,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-04-24,10:00,TG,,358,18,9,,49,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-24,10:00,TG,,358,18,9,,49,16,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-24,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-24,11:00,LU,,644,22,,7,,17,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-24,13:00,GL,,117,3,,,,7,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
@@ -1426,7 +1426,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-25,08:00,ZG,,181,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-25,09:30,BS,,938,28,7,,,46,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-941-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-25,09:30,SH,,71,6,1,,,5,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-25,10:00,TG,,359,17,8,,50,14,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-25,10:00,TG,,359,17,8,,50,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-25,11:00,AI,,25,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-04-25,12:00,LU,,652,20,8,8,,17,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-25,12:00,UR,,78,3,,,,5,https://www.ur.ch/themen/2962
@@ -1452,7 +1452,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-04-26,08:00,ZG,,181,6,3,,133,8,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-04-26,09:30,BS,,940,27,6,,,46,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-941-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-04-26,09:30,SH,,72,9,2,,,5,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-04-26,10:00,TG,,359,17,8,,50,16,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-04-26,10:00,TG,,359,17,8,,50,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-04-26,12:00,LU,,653,21,7,7,,18,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-04-26,12:00,UR,,80,3,,,,5,https://www.ur.ch/themen/2962
 2020-04-26,13:00,GL,,120,3,,,,7,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
@@ -2024,7 +2024,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-18,08:30,BS,,974,12,3,,904,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-974-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-05-18,09:30,SH,,78,5,3,,,6,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-05-18,10:00,SZ,,307,,,,281,23,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-05-18,10:00,TG,,377,5,4,,65,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-05-18,10:00,TG,,377,5,4,,65,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-18,13:00,GL,,128,2,,,,12,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2020-05-18,14:30,ZH,,3553,33,12,8,,130,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-18,15:30,UR,,93,5,,,,7,https://www.ur.ch/themen/2962
@@ -2049,7 +2049,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-05-19,08:30,BS,,975,7,3,,916,50,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-975-bestaetigte-faelle-im-kanton-basel-stadt-gd.html
 2020-05-19,09:30,SH,,78,8,2,,,6,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-05-19,10:00,SZ,,307,,,,281,23,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-05-19,10:00,TG,,377,5,4,,65,17,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-05-19,10:00,TG,,377,5,4,,65,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-05-19,12:00,GL,,128,2,,,,12,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2020-05-19,14:30,ZH,,3557,30,8,6,,131,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-05-19,15:00,UR,,93,3,,,,7,https://www.ur.ch/themen/2962
@@ -3757,7 +3757,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-07-28,09:30,AR,,108,1,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-07-28,09:30,SH,,109,3,1,,,8,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-07-28,10:00,SZ,,390,,,,350,25,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-07-28,10:00,TG,,456,0,0,,78,18,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-07-28,10:00,TG,,456,0,0,,78,19,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-07-28,12:00,GL,,138,1,,,,13,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2020-07-28,14:30,ZH,,4408,25,7,3,,139,https://www.zh.ch/de/gesundheit/coronavirus.html
 2020-07-29,,BL,,955,3,1,0,900,35,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7598,7 +7598,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-28,08:00,ZG,,4710,15,3,,4339,65,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-12-28,09:00,SH,,2914,22,2,,,49,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2020-12-28,09:00,SZ,,7397,,,,6079,133,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2020-12-28,10:00,TG,,11603,88,17,,606,243,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-12-28,10:00,TG,,11603,88,17,,606,244,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-12-28,10:30,BS,,7901,141,25,,7123,139,https://www.gesundheit.bs.ch
 2020-12-28,11:55,AR,,2340,14,1,,,38,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2020-12-28,12:00,AI,,679,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -7625,7 +7625,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-29,08:00,ZG,,4764,15,4,,4413,66,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-12-29,09:00,SZ,,7480,,,,6225,135,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-12-29,09:30,SH,,2945,22,2,,,52,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-12-29,10:00,TG,,11752,85,15,,616,245,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-12-29,10:00,TG,,11752,85,15,,616,246,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-12-29,11:15,BS,,7990,141,22,,7243,144,https://www.gesundheit.bs.ch
 2020-12-29,12:00,AI,,686,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-12-29,14:30,ZH,,67688,514,105,71,,913,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -7650,7 +7650,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-30,08:00,ZG,,4829,17,3,,4513,67,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-12-30,09:00,SZ,,7574,,,,6250,142,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-12-30,09:30,SH,,2977,19,1,,,52,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-12-30,10:00,TG,,11958,89,16,,624,251,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-12-30,10:00,TG,,11958,89,16,,624,252,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-12-30,10:45,BS,,8043,133,23,,7301,148,https://www.gesundheit.bs.ch
 2020-12-30,12:00,AI,,694,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-12-30,14:30,ZH,,68588,492,97,69,,925,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -7676,7 +7676,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-31,08:00,ZG,,4888,16,4,,4541,67,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2020-12-31,09:00,SZ,,7683,,,,6370,145,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2020-12-31,09:30,SH,,2991,18,1,,,52,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-12-31,10:00,TG,,12083,79,17,,639,259,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-12-31,10:00,TG,,12083,79,17,,639,260,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-12-31,11:00,BS,,8108,136,21,,7370,149,https://www.gesundheit.bs.ch
 2020-12-31,12:00,AI,,703,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2020-12-31,13:15,AR,,2437,13,1,,,38,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -7700,7 +7700,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-01,08:00,BE,,43520,,,,,684,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2021-01-01,08:00,ZG,,4960,17,4,,4592,67,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-01,09:00,SZ,,7773,,,,6557,152,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-01,10:00,TG,,12112,79,16,,649,260,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-01,10:00,TG,,12112,79,16,,649,261,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-01,10:30,BS,,8182,117,16,,7436,153,https://www.gesundheit.bs.ch
 2021-01-01,14:30,ZH,,70044,445,96,62,,957,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-02,,BL,,11015,68,9,8,9644,169,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7721,7 +7721,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-02,08:00,BE,,43701,,,,,690,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2021-01-02,08:00,ZG,,4989,19,4,,4601,68,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-02,09:00,SZ,,7845,,,,6634,152,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-02,10:00,TG,,12195,89,17,,653,267,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-02,10:00,TG,,12195,89,17,,653,268,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-02,11:00,BS,,8203,120,18,,7512,155,https://www.gesundheit.bs.ch
 2021-01-02,14:30,ZH,,70421,455,101,67,,968,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-03,,BL,,11081,69,7,7,9777,170,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7742,7 +7742,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-03,08:00,BE,,43888,,,,,696,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2021-01-03,08:00,ZG,,5026,18,4,,4619,70,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-03,09:00,SZ,,7886,,,,6636,152,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-03,10:00,TG,,12278,94,16,,657,275,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-03,10:00,TG,,12278,94,16,,657,276,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-03,12:00,BS,,8259,110,19,,7576,156,https://www.gesundheit.bs.ch
 2021-01-03,14:30,ZH,,70909,479,98,69,,977,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-04,,BL,,11160,74,8,7,9883,178,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7766,7 +7766,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-04,08:00,BE,,44187,306,49,41,,703,https://www.besondere-lage.sites.be.ch/besondere-lage_sites/de/index/corona/index.html
 2021-01-04,08:00,ZG,,5066,16,3,,4686,74,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-04,09:00,SZ,,7913,,,,6718,152,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-04,10:00,TG,,12448,89,16,,669,282,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-04,10:00,TG,,12448,89,16,,669,283,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-04,10:30,SH,,3056,14,2,,,53,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-04,11:05,AR,,2478,16,1,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-01-04,11:15,BS,,8306,107,17,,7611,160,https://www.gesundheit.bs.ch
@@ -7794,7 +7794,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-05,08:00,ZG,,5137,19,4,,4737,76,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-05,09:00,SH,,3086,17,2,,,54,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-05,09:00,SZ,,7946,,,,6880,155,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-05,10:00,TG,,12602,86,15,,679,288,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-05,10:00,TG,,12602,86,15,,679,289,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-05,10:10,AR,,2526,16,1,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-01-05,12:00,AI,,726,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-05,12:00,BS,,8382,108,19,,7688,163,https://www.gesundheit.bs.ch
@@ -7820,7 +7820,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-06,08:00,ZG,,5217,23,4,,4781,78,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-06,09:00,SH,,3120,18,4,,,54,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-06,09:00,SZ,,8027,,,,6990,156,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-06,10:00,TG,,12758,77,17,,691,290,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-06,10:00,TG,,12758,77,17,,691,292,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-06,11:15,BS,,8464,109,21,,7764,163,https://www.gesundheit.bs.ch
 2021-01-06,12:00,AI,,738,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-06,13:20,AR,,2583,17,2,,,39,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -7846,7 +7846,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-07,08:00,BE,,45458,300,53,41,,734,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-07,08:00,ZG,,5260,24,4,,4824,78,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-07,09:00,SZ,,8138,,,,7084,156,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-07,10:00,TG,,12900,71,17,,703,298,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-07,10:00,TG,,12900,71,17,,703,300,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-07,10:15,BS,,8534,102,21,,7815,163,https://www.gesundheit.bs.ch
 2021-01-07,10:15,SH,,3145,15,6,,,55,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-07,10:55,AR,,2615,18,1,,,40,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -7874,7 +7874,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-08,08:00,ZG,,5324,27,5,,4851,79,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-08,09:00,SZ,,8190,,,,7200,159,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-08,09:20,SH,,3163,14,4,,,55,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-08,10:00,TG,,12973,68,17,,715,302,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-08,10:00,TG,,12973,68,17,,715,304,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-08,10:45,BS,,8608,104,19,,7915,163,https://www.gesundheit.bs.ch
 2021-01-08,12:00,AI,,748,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-08,14:30,ZH,,74448,417,89,63,,1019,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -7897,7 +7897,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-09,08:00,BE,,46125,,,,,749,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-09,08:00,ZG,,5365,23,5,,4900,82,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-09,09:00,SZ,,8263,,,,7282,163,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-09,10:00,TG,,13063,70,15,,719,308,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-09,10:00,TG,,13063,70,15,,719,310,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-09,12:15,BS,,8656,102,17,,7939,163,https://www.gesundheit.bs.ch
 2021-01-09,14:30,ZH,,74964,380,86,60,,1030,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-10,,BL,,11655,64,7,7,10492,187,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7918,7 +7918,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-10,08:00,BE,,46403,,,,,756,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-10,08:00,ZG,,5400,21,5,,4971,83,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-10,09:00,SZ,,8362,,,,7334,164,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-10,10:00,TG,,13091,73,15,,720,312,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-10,10:00,TG,,13091,73,15,,720,314,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-10,10:40,BS,,8695,100,14,,8020,163,https://www.gesundheit.bs.ch
 2021-01-10,14:30,ZH,,75196,376,87,58,,1038,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-11,,BL,,11701,62,7,7,10560,187,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -7943,7 +7943,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-11,08:00,ZG,,5432,18,5,,4998,83,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-11,09:00,SZ,,8387,,,,7374,164,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-11,09:45,SH,,3195,15,4,,,55,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-11,10:00,TG,,13184,80,14,,722,316,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-11,10:00,TG,,13184,80,14,,722,318,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-11,10:40,BS,,8720,98,14,,8080,163,https://www.gesundheit.bs.ch
 2021-01-11,11:10,AR,,2675,19,0,,,40,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-01-11,12:00,AI,,756,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -7970,7 +7970,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-12,08:00,ZG,,5461,18,5,,5028,84,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-12,09:00,SZ,,8421,,,,7496,168,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-12,09:45,SH,,3233,14,4,,,56,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-12,10:00,TG,,13242,71,16,,735,319,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-12,10:00,TG,,13242,71,16,,735,321,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-12,11:00,BS,,8785,89,15,,8143,167,https://www.gesundheit.bs.ch
 2021-01-12,12:00,AI,,769,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-12,12:30,AR,,2710,23,0,,,40,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -7997,7 +7997,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-13,08:00,ZG,,5511,20,5,,5087,86,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-13,09:00,SZ,,8487,,,,7591,170,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-13,09:45,SH,,3259,12,4,,,57,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-13,10:00,TG,,13331,63,15,,746,328,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-13,10:00,TG,,13331,63,15,,746,330,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-13,10:45,BS,,8835,83,13,,8198,167,https://www.gesundheit.bs.ch
 2021-01-13,12:00,AI,,771,6,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-13,14:30,ZH,,76598,381,76,54,,1067,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8024,7 +8024,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-14,08:00,ZG,,5564,19,5,,5151,89,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-14,09:00,SH,,3291,12,4,,,57,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-14,09:00,SZ,,8532,,,,7654,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-14,10:00,TG,,13431,58,16,,755,333,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-14,10:00,TG,,13431,58,16,,755,335,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-14,10:45,BS,,8870,68,14,,8259,167,https://www.gesundheit.bs.ch
 2021-01-14,12:00,AI,,775,6,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-14,13:20,AR,,2756,19,1,,,43,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8051,7 +8051,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-15,08:00,ZG,,5585,17,4,,5184,91,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-15,09:00,SZ,,8573,,,,7683,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-15,09:30,SH,,3301,12,4,,,57,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-15,10:00,TG,,13477,52,17,,766,339,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-15,10:00,TG,,13477,52,17,,766,341,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-15,11:00,BS,,8896,64,10,,8335,168,https://www.gesundheit.bs.ch
 2021-01-15,11:35,AR,,2766,19,1,,,45,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-01-15,14:30,ZH,,77378,336,79,60,,1086,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8073,7 +8073,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-16,08:00,BE,,47891,,,,,809,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-16,08:00,ZG,,5613,16,4,,5222,93,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-16,09:00,SZ,,8620,,,,7719,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-16,10:00,TG,,13510,53,17,,770,341,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-16,10:00,TG,,13510,53,17,,770,344,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-16,11:00,BS,,8924,65,13,,8395,169,https://www.gesundheit.bs.ch
 2021-01-16,14:30,ZH,,77724,301,75,56,,1092,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-17,,BL,,12046,24,5,5,11097,192,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8094,7 +8094,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-17,08:00,BE,,48071,,,,,810,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-17,08:00,ZG,,5626,16,3,,5241,99,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-17,09:00,SZ,,8670,,,,7719,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-17,10:00,TG,,13527,55,18,,770,342,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-17,10:00,TG,,13527,55,18,,770,345,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-17,11:15,BS,,8942,67,13,,8441,169,https://www.gesundheit.bs.ch
 2021-01-17,12:00,AI,,784,6,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-17,14:30,ZH,,77944,299,71,56,,1099,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8120,7 +8120,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-18,08:00,ZG,,5648,15,3,,5284,99,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-18,09:00,SZ,,8683,,,,7861,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-18,10:00,SH,,3335,14,4,,,58,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-18,10:00,TG,,13614,54,17,,776,344,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-18,10:00,TG,,13614,54,17,,776,347,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-18,11:30,BS,,8951,69,13,,8481,169,https://www.gesundheit.bs.ch
 2021-01-18,12:00,AI,,785,6,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-18,13:50,AR,,2792,15,1,,,46,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8147,7 +8147,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-19,08:00,ZG,,5682,15,3,,5328,99,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-19,09:00,SZ,,8700,,,,7952,173,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-19,09:15,SH,,3359,13,3,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-19,10:00,TG,,13665,55,18,,779,349,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-19,10:00,TG,,13665,55,18,,779,352,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-19,10:50,BS,,8974,70,12,,8507,170,https://www.gesundheit.bs.ch
 2021-01-19,12:00,AI,,796,5,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-19,13:25,AR,,2807,17,1,,,48,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8174,7 +8174,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-20,08:00,ZG,,5721,13,3,,5384,102,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-20,09:00,SZ,,8746,,,,7996,176,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-20,09:15,SH,,3368,13,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-20,10:00,TG,,13732,49,18,,786,351,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-20,10:00,TG,,13732,49,18,,786,355,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-20,10:50,BS,,9021,67,11,,8550,171,https://www.gesundheit.bs.ch
 2021-01-20,12:00,AI,,800,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-20,13:55,AR,,2822,17,1,,,48,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8201,7 +8201,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-21,08:00,ZG,,5758,12,2,,5426,105,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-21,09:00,SZ,,8786,,,,8067,177,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-21,09:15,SH,,3378,13,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-21,10:00,TG,,13784,42,17,,796,355,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-21,10:00,TG,,13784,42,17,,796,358,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-21,11:10,BS,,9067,62,11,,8596,171,https://www.gesundheit.bs.ch
 2021-01-21,12:00,AI,,803,4,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-21,13:45,AR,,2855,22,1,,,48,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8228,7 +8228,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-22,08:00,ZG,,5789,9,2,,5460,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-22,09:00,SZ,,8828,,,,8133,180,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-22,09:15,SH,,3391,15,2,,,59,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-22,10:00,TG,,13843,38,15,,803,356,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-22,10:00,TG,,13843,38,15,,803,360,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-22,10:50,BS,,9096,61,12,,8614,171,https://www.gesundheit.bs.ch
 2021-01-22,12:00,AI,,806,4,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-22,13:25,AR,,2867,18,1,,,50,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8251,7 +8251,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-23,08:00,BE,,49270,,,,,867,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-23,08:00,ZG,,5824,11,3,,5505,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-23,09:00,SZ,,8877,,,,8174,185,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-23,10:00,TG,,13883,39,13,,803,356,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-23,10:00,TG,,13883,39,13,,803,360,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-23,11:00,BS,,9117,54,11,,8654,172,https://www.gesundheit.bs.ch
 2021-01-23,14:30,ZH,,80142,256,70,52,,1152,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-24,,BL,,12392,25,6,5,11563,199,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8272,7 +8272,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-24,08:00,BE,,49431,,,,,874,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-24,08:00,ZG,,5846,8,2,,5515,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-24,09:00,SZ,,8910,,,,8204,186,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-24,10:00,TG,,13896,39,13,,804,356,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-24,10:00,TG,,13896,39,13,,804,360,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-24,11:20,BS,,9154,53,12,,8688,174,https://www.gesundheit.bs.ch
 2021-01-24,14:30,ZH,,80342,252,68,52,,1158,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-25,,BL,,12420,25,6,5,11622,200,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8297,7 +8297,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-25,08:00,ZG,,5854,8,2,,5518,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-25,09:00,SZ,,8925,,,,8274,186,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-25,10:00,SH,,3421,10,2,,,60,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-25,10:00,TG,,13970,41,14,,808,356,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-25,10:00,TG,,13970,41,14,,808,360,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-25,10:30,BS,,9171,49,11,,8712,174,https://www.gesundheit.bs.ch
 2021-01-25,12:00,AI,,816,4,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-25,14:30,ZH,,80538,258,67,51,,1164,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8324,7 +8324,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-26,08:00,ZG,,5875,8,2,,5541,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-26,09:00,SZ,,8935,,,,8320,190,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-26,09:15,SH,,3429,6,0,,,60,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-26,10:00,TG,,13989,38,15,,813,357,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-26,10:00,TG,,13989,38,15,,813,361,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-26,10:30,BS,,9188,51,10,,8749,176,https://www.gesundheit.bs.ch
 2021-01-26,12:00,AI,,823,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-26,14:30,ZH,,80869,239,62,42,,1167,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8351,7 +8351,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-27,08:00,ZG,,5908,9,2,,5591,107,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-27,09:00,SZ,,8958,,,,8363,191,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-27,10:00,SH,,3444,6,0,,,62,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-27,10:00,TG,,14045,36,14,,817,358,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-27,10:00,TG,,14045,36,14,,817,362,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-27,10:50,BS,,9239,48,11,,8772,176,https://www.gesundheit.bs.ch
 2021-01-27,12:00,AI,,826,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-27,14:30,ZH,,81239,236,61,43,,1173,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8378,7 +8378,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-28,08:00,ZG,,5936,8,2,,5625,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-28,09:00,SZ,,9006,,,,8421,193,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-01-28,09:30,SH,,3451,6,0,,,62,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-01-28,10:00,TG,,14087,35,16,,820,360,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-28,10:00,TG,,14087,35,16,,820,364,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-28,12:00,AI,,827,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-28,12:15,BS,,9273,45,9,,8824,177,https://www.gesundheit.bs.ch
 2021-01-28,14:30,ZH,,81593,241,67,40,,1179,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8405,7 +8405,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-29,08:00,ZG,,5964,9,2,,5653,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-29,09:00,SH,,3464,5,0,,,63,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-01-29,09:00,SZ,,9029,,,,8461,198,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-29,10:00,TG,,14124,35,15,,824,361,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-29,10:00,TG,,14124,35,15,,824,365,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-29,10:40,BS,,9294,48,9,,8843,179,https://www.gesundheit.bs.ch
 2021-01-29,12:00,AI,,831,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-01-29,14:30,ZH,,81907,222,60,36,,1183,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8427,7 +8427,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-30,08:00,BE,,50422,,,,,918,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-30,08:00,ZG,,5995,7,2,,5683,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-30,09:00,SZ,,9053,,,,8473,199,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-30,10:00,TG,,14182,36,15,,825,361,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-30,10:00,TG,,14182,36,15,,825,365,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-30,13:00,BS,,9321,52,13,,8899,179,https://www.gesundheit.bs.ch
 2021-01-30,14:30,ZH,,82154,216,55,36,,1187,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-01-31,,BL,,12666,18,4,3,11951,203,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8448,7 +8448,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-01-31,08:00,BE,,50535,,,,,923,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-01-31,08:00,ZG,,6014,7,2,,5713,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-01-31,09:00,SZ,,9099,,,,8483,199,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-01-31,10:00,TG,,14199,35,15,,827,362,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-01-31,10:00,TG,,14199,35,15,,827,366,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-01-31,11:00,BS,,9337,57,14,,8905,179,https://www.gesundheit.bs.ch
 2021-01-31,14:30,ZH,,82325,229,58,33,,1195,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-01,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8474,7 +8474,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-01,08:00,ZG,,6022,7,2,,5722,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-01,09:00,SZ,,9116,,,,8535,200,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-01,09:45,SH,,3482,4,0,,,63,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-01,10:00,TG,,14258,33,14,,831,363,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-01,10:00,TG,,14258,33,14,,831,367,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-01,10:40,BS,,9348,52,12,,8938,179,https://www.gesundheit.bs.ch
 2021-02-01,12:00,AI,,836,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-01,14:30,ZH,,82474,235,51,36,,1198,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8501,7 +8501,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-02,08:00,ZG,,6056,8,2,,5765,108,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-02,09:00,SH,,3491,4,0,,,64,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-02,09:00,SZ,,9124,,,,8580,201,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-02,10:00,TG,,14289,28,13,,836,363,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-02,10:00,TG,,14289,28,13,,836,367,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-02,10:40,BS,,9363,48,14,,8962,180,https://www.gesundheit.bs.ch
 2021-02-02,12:00,AI,,839,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-02,14:30,ZH,,82801,230,54,36,,1203,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8528,7 +8528,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-03,08:00,ZG,,6084,8,3,,5801,109,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-03,09:00,SZ,,9149,,,,8624,202,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-03,09:30,SH,,3502,5,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-03,10:00,TG,,14342,30,12,,836,363,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-03,10:00,TG,,14342,30,12,,836,367,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-03,10:30,BS,,9410,48,14,,8990,180,https://www.gesundheit.bs.ch
 2021-02-03,12:00,AI,,839,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-03,14:30,ZH,,83076,221,52,36,,1209,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8555,7 +8555,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-04,08:00,ZG,,6117,8,3,,5830,110,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-04,09:00,SZ,,9177,,,,8656,204,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-04,09:30,SH,,3505,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-04,10:00,TG,,14363,28,12,,841,367,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-04,10:00,TG,,14363,28,12,,841,371,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-04,11:00,BS,,9437,49,11,,8995,181,https://www.gesundheit.bs.ch
 2021-02-04,12:00,AI,,845,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-04,14:30,ZH,,83347,207,50,39,,1212,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8582,7 +8582,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-05,08:00,ZG,,6150,6,2,,5846,111,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-05,09:00,SZ,,9205,,,,8686,204,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-05,09:30,SH,,3507,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-05,10:00,TG,,14389,28,12,,843,368,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-05,10:00,TG,,14389,28,12,,843,372,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-05,10:30,BS,,9456,46,11,,9035,181,https://www.gesundheit.bs.ch
 2021-02-05,12:00,AI,,846,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-05,14:30,ZH,,83599,208,49,36,,1220,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8604,7 +8604,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-06,08:00,BE,,51366,,,,,948,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-06,08:00,ZG,,6190,8,2,,5884,111,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-06,09:00,SZ,,9223,,,,8702,205,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-06,10:00,TG,,14410,26,12,,845,370,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-06,10:00,TG,,14410,26,12,,845,374,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-06,10:50,BS,,9491,48,10,,9061,187,https://www.gesundheit.bs.ch
 2021-02-06,14:30,ZH,,83818,200,48,38,,1225,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-07,,BL,,12943,20,3,1,12257,205,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8625,7 +8625,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-07,08:00,BE,,51469,,,,,950,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-07,08:00,ZG,,6203,8,2,,5898,111,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-07,09:00,SZ,,9246,,,,8707,205,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-07,10:00,TG,,14418,27,12,,845,371,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-07,10:00,TG,,14418,27,12,,845,375,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-07,11:40,BS,,9519,46,10,,9095,187,https://www.gesundheit.bs.ch
 2021-02-07,14:30,ZH,,83947,215,52,38,,1230,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-08,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8651,7 +8651,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-08,08:00,ZG,,6215,8,2,,5919,111,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-08,09:00,SZ,,9257,,,,8738,205,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-08,09:30,SH,,3516,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-08,10:00,TG,,14458,24,13,,849,372,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-08,10:00,TG,,14458,24,13,,849,376,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-08,10:40,BS,,9534,46,10,,9107,187,https://www.gesundheit.bs.ch
 2021-02-08,12:00,AI,,848,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-08,14:30,ZH,,84082,221,50,40,,1235,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8678,7 +8678,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-09,08:00,ZG,,6234,8,2,,5931,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-09,09:00,SH,,3519,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-09,09:00,SZ,,9264,,,,8771,207,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-09,10:00,TG,,14478,26,13,,849,374,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-09,10:00,TG,,14478,26,13,,849,378,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-09,10:40,BS,,9553,44,10,,9143,188,https://www.gesundheit.bs.ch
 2021-02-09,12:00,AI,,849,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-09,14:30,ZH,,84382,203,45,36,,1240,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8705,7 +8705,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-10,08:00,ZG,,6269,6,2,,5978,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-10,09:00,SH,,3522,1,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-10,09:00,SZ,,9293,,,,8804,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-10,10:00,TG,,14524,25,13,,850,374,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-10,10:00,TG,,14524,25,13,,850,378,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-10,11:30,BS,,9587,39,9,,9165,188,https://www.gesundheit.bs.ch
 2021-02-10,12:00,AI,,853,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-10,14:30,ZH,,84632,203,49,34,,1244,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8732,7 +8732,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-11,08:00,ZG,,6292,6,2,,6005,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-11,09:00,SH,,3526,2,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-11,09:00,SZ,,9308,,,,8828,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-11,10:00,TG,,14551,23,12,,855,376,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-11,10:00,TG,,14551,23,12,,855,380,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-11,10:20,BS,,9604,33,9,,9177,188,https://www.gesundheit.bs.ch
 2021-02-11,12:00,AI,,854,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-11,14:30,ZH,,84838,180,47,39,,1244,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8759,7 +8759,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-12,08:00,ZG,,6309,7,2,,6021,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-12,09:00,SH,,3527,3,0,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-12,09:00,SZ,,9331,,,,8866,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-12,10:00,TG,,14583,20,11,,859,376,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-12,10:00,TG,,14583,20,11,,859,380,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-12,10:50,BS,,9615,31,9,,9216,188,https://www.gesundheit.bs.ch
 2021-02-12,12:00,AI,,854,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-12,14:30,ZH,,85013,176,46,39,,1247,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8781,7 +8781,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-13,08:00,BE,,52139,,,,,966,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-13,08:00,ZG,,6327,7,2,,6042,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-13,09:00,SZ,,9348,,,,8882,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-13,10:00,TG,,14608,22,11,,859,376,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-13,10:00,TG,,14608,22,11,,859,380,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-13,10:20,BS,,9632,26,7,,9238,188,https://www.gesundheit.bs.ch
 2021-02-13,14:30,ZH,,85216,165,43,39,,1251,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-14,,BL,,13211,18,1,0,12549,208,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -8802,7 +8802,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-14,08:00,BE,,52246,,,,,968,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-14,08:00,ZG,,6340,7,2,,6095,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-14,09:00,SZ,,9376,,,,8895,211,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-14,10:00,TG,,14616,24,11,,859,377,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-14,10:00,TG,,14616,24,11,,859,381,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-14,10:30,BS,,9646,25,8,,9257,188,https://www.gesundheit.bs.ch
 2021-02-14,14:30,ZH,,85280,157,38,32,,1255,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-15,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -8828,7 +8828,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-15,08:00,ZG,,6349,8,2,,6096,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-15,09:00,SZ,,9382,,,,8939,213,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-15,09:45,SH,,3545,4,1,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-15,10:00,TG,,14643,23,10,,863,379,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-15,10:00,TG,,14643,23,10,,863,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-15,10:30,BS,,9655,25,12,,9304,189,https://www.gesundheit.bs.ch
 2021-02-15,12:00,AI,,857,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-15,14:30,ZH,,85386,157,41,30,,1258,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8855,7 +8855,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-16,08:00,ZG,,6358,8,2,,6115,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-16,09:00,SH,,3553,4,1,,,65,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-16,09:00,SZ,,9386,,,,8966,213,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-16,10:00,TG,,14683,24,10,,865,379,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-16,10:00,TG,,14683,24,10,,865,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-16,10:40,BS,,9662,27,12,,9326,189,https://www.gesundheit.bs.ch
 2021-02-16,12:00,AI,,858,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-16,14:30,ZH,,85577,151,40,29,,1259,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8882,7 +8882,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-17,08:00,ZG,,6364,5,2,,6127,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-17,09:00,SH,,3562,5,1,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-17,09:00,SZ,,9405,,,,8984,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-17,10:00,TG,,14729,22,10,,867,379,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-17,10:00,TG,,14729,22,10,,867,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-17,12:00,AI,,859,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-17,14:00,BS,,9669,21,6,,9337,189,https://www.gesundheit.bs.ch
 2021-02-17,14:30,ZH,,85756,147,37,30,,1260,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8909,7 +8909,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-18,08:00,ZG,,6383,8,2,,6162,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-18,09:00,SH,,3571,3,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-18,09:00,SZ,,9420,,,,9009,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-18,10:00,TG,,14755,25,11,,869,379,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-18,10:00,TG,,14755,25,11,,869,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-18,10:50,BS,,9689,21,7,,9361,189,https://www.gesundheit.bs.ch
 2021-02-18,12:00,AI,,860,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-18,14:30,ZH,,85943,153,40,27,,1261,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8936,7 +8936,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-19,08:00,ZG,,6389,7,2,,6177,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-19,09:00,SH,,3578,4,1,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-19,09:00,SZ,,9437,,,,9027,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-19,10:00,TG,,14809,29,12,,869,379,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-19,10:00,TG,,14809,29,12,,869,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-19,10:20,BS,,9703,16,5,,9372,190,https://www.gesundheit.bs.ch
 2021-02-19,12:00,AI,,861,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-19,14:30,ZH,,86116,151,40,24,,1264,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -8958,14 +8958,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-20,08:00,BE,,52784,,,,,984,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-20,08:00,ZG,,6404,7,2,,6189,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-20,09:00,SZ,,9456,,,,9040,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-20,10:00,TG,,14847,29,11,,870,380,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-20,10:00,TG,,14847,29,11,,870,384,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-20,10:30,BS,,9719,17,6,,9402,190,https://www.gesundheit.bs.ch
 2021-02-20,14:30,ZH,,86265,145,38,22,,1265,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-21,,BL,,13410,27,2,0,12825,209,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-02-21,,FL,,2546,,,,,,https://www.regierung.li/de/mitteilungen/224302/?typ=content&nid=11076
 2021-02-21,,FR,,26875,22,6,,799,463,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-02-21,,GE,,46770,93,10,,,709,https://infocovid.smc.unige.ch/
-2021-02-21,,GL,16877,,,1,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-02-21,,GL,16877,,,1,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-02-21,,GR,,10528,17,4,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-02-21,,JU,,5566,20,1,,,137,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-02-21,,LU,,21531,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -8979,7 +8979,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-21,08:00,BE,,52872,,,,,984,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-21,08:00,ZG,,6416,7,2,,6208,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-21,09:00,SZ,,9474,,,,9044,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-21,10:00,TG,,14851,30,11,,870,381,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-21,10:00,TG,,14851,30,11,,870,385,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-21,10:30,BS,,9732,23,6,,9410,190,https://www.gesundheit.bs.ch
 2021-02-21,14:30,ZH,,86373,140,35,21,,1270,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-22,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -9005,7 +9005,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-22,08:00,ZG,,6423,8,3,,6221,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-22,09:00,SZ,,9481,,,,9069,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-22,09:45,SH,,3591,3,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-22,10:00,TG,,14892,27,12,,874,381,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-22,10:00,TG,,14892,27,12,,874,385,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-22,10:30,BS,,9741,19,7,,9437,190,https://www.gesundheit.bs.ch
 2021-02-22,12:00,AI,,865,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-22,14:30,ZH,,86453,148,31,15,,1271,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9032,7 +9032,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-23,08:00,ZG,,6433,8,4,,6231,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-23,09:00,SZ,,9485,,,,9090,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-23,09:15,SH,,3595,3,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-23,10:00,TG,,14928,26,11,,878,382,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-23,10:00,TG,,14928,26,11,,878,386,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-23,10:20,BS,,9751,22,6,,9444,191,https://www.gesundheit.bs.ch
 2021-02-23,12:00,AI,,867,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-23,14:30,ZH,,86646,130,29,16,,1274,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9059,7 +9059,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-24,08:00,ZG,,6442,7,2,,6233,112,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-24,09:00,SH,,3606,4,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-24,09:00,SZ,,9501,,,,9119,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-24,10:00,TG,,14960,25,11,,881,383,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-24,10:00,TG,,14960,25,11,,881,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-24,10:30,BS,,9774,21,8,,9453,191,https://www.gesundheit.bs.ch
 2021-02-24,12:00,AI,,867,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-24,14:30,ZH,,86814,122,29,14,,1274,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9086,7 +9086,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-25,08:00,ZG,,6457,7,2,,6262,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-25,09:00,SH,,3607,3,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-02-25,09:00,SZ,,9512,,,,9145,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-25,10:00,TG,,14966,24,10,,882,384,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-25,10:00,TG,,14966,24,10,,882,388,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-25,10:30,BS,,9791,19,7,,9460,192,https://www.gesundheit.bs.ch
 2021-02-25,12:00,AI,,868,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-25,14:30,ZH,,86973,126,31,15,,1275,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9113,7 +9113,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-26,08:00,ZG,,6472,8,2,,6275,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-26,09:00,SZ,,9526,,,,9175,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-02-26,09:45,SH,,3616,4,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-02-26,10:00,TG,,15007,24,9,,883,384,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-26,10:00,TG,,15007,24,9,,883,388,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-26,10:30,BS,,9819,17,7,,9475,192,https://www.gesundheit.bs.ch
 2021-02-26,12:00,AI,,871,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-02-26,14:30,ZH,,87120,126,31,16,,1276,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9121,7 +9121,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-27,,FL,,2566,,,,,,https://www.regierung.li/de/mitteilungen/224318/?typ=content&nid=11076
 2021-02-27,,FR,,27196,29,8,,809,465,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-02-27,,GE,,47366,67,9,,,711,https://infocovid.smc.unige.ch/
-2021-02-27,,GL,,,,1,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-02-27,,GL,,,,1,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-02-27,,GR,,10679,6,3,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-02-27,,JU,,5629,11,2,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-02-27,,LU,,21766,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9135,14 +9135,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-27,08:00,BE,,53429,,,,,993,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-02-27,08:00,ZG,,6488,8,2,,6285,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-27,09:00,SZ,,9554,,,,9189,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-27,10:00,TG,,15042,25,9,,883,384,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-27,10:00,TG,,15042,25,9,,883,388,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-27,10:30,BS,,,16,7,,,192,https://www.gesundheit.bs.ch
 2021-02-27,14:30,ZH,,87264,132,27,14,,1277,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-02-28,,BL,,13593,17,2,0,13047,209,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-02-28,,FL,,2567,,,,,,https://www.regierung.li/de/mitteilungen/224319/?typ=content&nid=11076
 2021-02-28,,FR,,27231,30,9,,810,465,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-02-28,,GE,,47414,66,10,,,711,https://infocovid.smc.unige.ch/
-2021-02-28,,GL,17452,,,1,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-02-28,,GL,17452,,,1,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-02-28,,GR,,10686,7,3,3,,174,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-02-28,,JU,,5637,9,2,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-02-28,,LU,,21777,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9157,7 +9157,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-02-28,08:00,ZG,,6500,8,2,,6297,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-02-28,09:00,BS,,,16,7,,,192,https://www.gesundheit.bs.ch
 2021-02-28,09:00,SZ,,9569,,,,9193,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-02-28,10:00,TG,,15053,24,8,,884,385,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-02-28,10:00,TG,,15053,24,8,,884,389,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-02-28,14:30,ZH,,87346,126,25,11,,1278,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-01,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-03-01,,BL,,13611,18,2,0,13080,209,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
@@ -9182,7 +9182,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-01,08:00,ZG,,6506,7,1,,6307,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-01,09:00,SZ,,9576,,,,9207,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-03-01,09:30,SH,,3630,4,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-03-01,10:00,TG,,15083,18,8,,892,386,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-01,10:00,TG,,15083,18,8,,892,390,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-01,10:40,BS,,9839,21,7,,9499,192,https://www.gesundheit.bs.ch
 2021-03-01,12:00,AI,,874,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-01,14:30,ZH,,87451,121,24,11,,1281,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9209,7 +9209,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-02,08:00,ZG,,6526,7,1,,6333,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-02,09:00,SH,,3630,5,0,,,66,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-02,09:00,SZ,,9589,,,,9217,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-02,10:00,TG,,15118,17,8,,895,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-02,10:00,TG,,15118,17,8,,895,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-02,10:40,BS,,9867,22,7,,9526,192,https://www.gesundheit.bs.ch
 2021-03-02,12:00,AI,,880,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-02,14:30,ZH,,87642,134,28,10,,1283,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9236,7 +9236,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-03,08:00,ZG,,6537,7,1,,6337,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-03,09:00,SH,,3630,7,0,,,67,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-03,09:00,SZ,,9606,,,,9231,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-03,10:00,TG,,15172,17,8,,895,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-03,10:00,TG,,15172,17,8,,895,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-03,11:50,BS,,9880,23,7,,9541,192,https://www.gesundheit.bs.ch
 2021-03-03,12:00,AI,,880,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-03,14:30,ZH,,87780,137,24,10,,1283,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9263,7 +9263,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-04,08:00,ZG,,6548,7,1,,6347,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-04,09:00,SH,,3640,7,0,,,68,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-04,09:00,SZ,,9625,,,,9245,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-04,10:00,TG,,15177,15,8,,897,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-04,10:00,TG,,15177,15,8,,897,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-04,10:40,BS,,9907,21,6,,9564,192,https://www.gesundheit.bs.ch
 2021-03-04,12:00,AI,,880,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-04,14:30,ZH,,88008,138,27,10,,1284,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9290,7 +9290,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-05,08:00,ZG,,6563,7,1,,6357,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-05,09:00,SH,,3652,9,0,,,68,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-05,09:00,SZ,,9640,,,,9269,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-05,10:00,TG,,15202,16,8,,898,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-05,10:00,TG,,15202,16,8,,898,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-05,10:50,BS,,9932,20,6,,9578,192,https://www.gesundheit.bs.ch
 2021-03-05,12:00,AI,,883,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-05,14:30,ZH,,88184,147,28,8,,1286,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9298,7 +9298,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-06,,FL,,2589,,,,,,https://www.regierung.li/de/mitteilungen/224339/?typ=content&nid=11076
 2021-03-06,,FR,,27560,35,9,,819,467,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-06,,GE,,48001,63,5,,,715,https://infocovid.smc.unige.ch/
-2021-03-06,,GL,,,,0,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-03-06,,GL,,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-06,,GR,,10818,8,3,2,,175,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-06,,JU,,5717,4,1,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-06,,LU,,22073,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9312,14 +9312,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-06,08:00,BE,,54078,,,,,999,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-06,08:00,ZG,,6580,7,1,,6372,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-06,09:00,SZ,,9655,,,,9271,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-06,10:00,TG,,15250,17,8,,898,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-06,10:00,TG,,15250,17,8,,898,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-06,12:20,BS,,9954,19,5,,9601,192,https://www.gesundheit.bs.ch
 2021-03-06,14:30,ZH,,88403,143,24,12,,1287,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-07,,BL,,13821,15,2,1,13235,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-03-07,,FL,,2590,,,,,,https://www.regierung.li/de/mitteilungen/224340/?typ=content&nid=11076
 2021-03-07,,FR,,27593,37,7,,820,468,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-07,,GE,,48056,64,5,,,715,https://infocovid.smc.unige.ch/
-2021-03-07,,GL,18090,,,0,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-03-07,,GL,18090,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-07,,GR,,10832,11,3,2,,175,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-07,,JU,,5721,4,1,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-07,,LU,,22102,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9333,7 +9333,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-07,08:00,BE,,54163,,,,,1000,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-07,08:00,ZG,,6591,7,1,,6374,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-07,09:00,SZ,,9667,,,,9307,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-07,10:00,TG,,15273,18,9,,899,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-07,10:00,TG,,15273,18,9,,899,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-07,12:40,BS,,9967,20,5,,9617,192,https://www.gesundheit.bs.ch
 2021-03-07,14:30,ZH,,88509,142,24,10,,1287,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-08,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -9359,7 +9359,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-08,08:00,ZG,,6603,2,1,,6389,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-08,09:00,SZ,,9675,,,,9310,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-03-08,09:15,SH,,3667,8,0,,,68,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-03-08,10:00,TG,,15325,17,8,,905,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-08,10:00,TG,,15325,17,8,,905,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-08,10:30,BS,,9971,19,5,,9627,192,https://www.gesundheit.bs.ch
 2021-03-08,12:00,AI,,884,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-08,14:30,ZH,,88628,143,24,12,,1290,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9386,7 +9386,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-09,08:00,ZG,,6629,5,1,,6417,113,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-09,09:00,SZ,,9688,,,,9317,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-03-09,09:30,SH,,3677,8,1,,,70,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-03-09,10:00,TG,,15367,17,8,,905,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-09,10:00,TG,,15367,17,8,,905,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-09,10:20,BS,,9990,21,5,,9640,193,https://www.gesundheit.bs.ch
 2021-03-09,12:00,AI,,887,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-09,14:30,ZH,,88896,146,27,12,,1290,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9413,7 +9413,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-10,08:00,ZG,,6648,3,1,,6426,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-10,09:00,SH,,3684,6,0,,,70,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-10,09:00,SZ,,9720,,,,9340,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-10,10:00,TG,,15412,21,8,,905,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-10,10:00,TG,,15412,21,8,,905,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-10,11:20,BS,,10009,26,6,,9659,193,https://www.gesundheit.bs.ch
 2021-03-10,12:00,AI,,888,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-10,14:30,ZH,,89145,136,23,15,,1291,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9440,7 +9440,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-11,08:00,ZG,,6679,2,1,,6446,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-11,09:00,SH,,3700,6,1,,,71,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-11,09:00,SZ,,9732,,,,9355,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-11,10:00,TG,,15419,18,8,,909,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-11,10:00,TG,,15419,18,8,,909,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-11,10:40,BS,,10047,23,4,,9680,193,https://www.gesundheit.bs.ch
 2021-03-11,12:00,AI,,889,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-11,14:30,ZH,,89386,136,26,17,,1294,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9467,7 +9467,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-12,08:00,SH,,3706,6,1,,,72,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-12,08:00,ZG,,6696,2,1,,6459,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-12,09:00,SZ,,9741,,,,9363,214,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-12,10:00,TG,,15451,18,7,,911,387,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-12,10:00,TG,,15451,18,7,,911,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-12,10:30,BS,,10078,26,4,,9688,193,https://www.gesundheit.bs.ch
 2021-03-12,12:00,AI,,891,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-12,14:30,ZH,,89579,119,23,17,,1294,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9475,7 +9475,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-13,,FL,,2602,,,,,,https://www.regierung.li/de/mitteilungen/224355/?typ=content&nid=11076
 2021-03-13,,FR,,27904,31,7,,837,471,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-13,,GE,,48727,65,8,,,715,https://infocovid.smc.unige.ch/
-2021-03-13,,GL,,,,0,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-03-13,,GL,,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-13,,GR,,11017,11,5,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-13,,JU,,5772,6,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-13,,LU,,22541,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9489,14 +9489,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-13,08:00,BE,,54722,,,,,1012,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-13,08:00,ZG,,6720,2,1,,6469,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-13,09:00,SZ,,9760,,,,9386,215,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-13,10:00,TG,,15474,16,5,,914,389,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-13,10:00,TG,,15474,16,5,,914,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-13,10:30,BS,,10102,31,5,,9722,193,https://www.gesundheit.bs.ch
 2021-03-13,14:30,ZH,,89786,127,26,18,,1298,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-14,,BL,,14093,14,2,0,13442,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-03-14,,FL,,2612,,,,,,https://www.regierung.li/de/mitteilungen/224356/?typ=content&nid=11076
 2021-03-14,,FR,,27935,31,7,,838,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-14,,GE,,48799,69,8,,,715,https://infocovid.smc.unige.ch/
-2021-03-14,,GL,18826,,,0,,,,https://www.gl.ch/public/upload/assets/35098/Sentinella%20Bericht%20KW10.pdf
+2021-03-14,,GL,18826,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-14,,GR,,11022,9,4,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-14,,JU,,5777,7,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-14,,LU,,22569,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9510,7 +9510,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-14,08:00,BE,,54791,,,,,1012,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-14,08:00,ZG,,6730,2,1,,6470,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-14,09:00,SZ,,9769,,,,9395,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-14,10:00,TG,,15509,16,6,,914,389,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-14,10:00,TG,,15509,16,6,,914,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-14,10:30,BS,,10129,34,6,,9746,193,https://www.gesundheit.bs.ch
 2021-03-14,14:30,ZH,,89945,128,22,16,,1300,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-15,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -9518,7 +9518,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-15,,FL,,2612,2,,,2521,55,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2021-03-15,,FR,,27989,31,7,,838,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-15,,GE,,48940,72,8,,,715,https://infocovid.smc.unige.ch/
-2021-03-15,,GL,,2244,3,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-03-15,,GL,,2244,3,0,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-15,,GR,,11055,11,4,4,,177,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-15,,JU,,5783,6,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-15,,LU,,22621,44,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9536,7 +9536,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-15,08:00,ZG,,6744,6,2,,6492,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-15,09:00,SZ,,9777,,,,9408,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-03-15,09:30,SH,,3728,7,2,,,72,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-03-15,10:00,TG,,15545,18,6,,914,389,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-15,10:00,TG,,15545,18,6,,914,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-15,10:30,BS,,10144,35,5,,9761,193,https://www.gesundheit.bs.ch
 2021-03-15,12:00,AI,,894,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-15,14:30,ZH,,90119,138,23,17,,1304,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9545,7 +9545,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-16,,FL,,2615,1,,,2523,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2021-03-16,,FR,,28053,29,7,,841,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-16,,GE,,49077,72,7,,,715,https://infocovid.smc.unige.ch/
-2021-03-16,,GL,,2246,3,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-03-16,,GL,,2246,3,0,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-16,,GR,,11096,12,4,4,,178,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-16,,JU,,5788,4,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-16,,LU,,22714,45,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9563,7 +9563,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-16,08:00,ZG,,6774,6,2,,6521,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-16,09:00,SH,,3731,8,2,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-16,09:00,SZ,,9788,,,,9425,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-16,10:00,TG,,15586,16,5,,917,390,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-16,10:00,TG,,15586,16,5,,917,394,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-16,11:10,BS,,10177,29,6,,9778,193,https://www.gesundheit.bs.ch
 2021-03-16,12:00,AI,,898,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-16,14:30,ZH,,90428,141,22,17,,1308,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9572,7 +9572,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-17,,FL,,2616,0,,,2525,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2021-03-17,,FR,,28143,29,6,,841,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-17,,GE,,49226,72,6,,,715,https://infocovid.smc.unige.ch/
-2021-03-17,,GL,,2250,4,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-03-17,,GL,,2250,4,1,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-17,,GR,,11117,14,4,3,,178,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-17,,JU,,5796,4,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-17,,LU,,22786,50,,11,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9590,7 +9590,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-17,08:00,ZG,,6810,6,1,,6560,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-17,09:00,SH,,3744,8,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-17,09:00,SZ,,9807,,,,9440,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-17,10:00,TG,,15640,18,4,,917,390,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-17,10:00,TG,,15639,18,4,,917,394,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-17,11:10,BS,,10207,31,7,,9793,193,https://www.gesundheit.bs.ch
 2021-03-17,14:30,ZH,,90719,132,21,15,,1311,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-18,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -9598,7 +9598,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-18,,FL,,2620,0,,,2526,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2021-03-18,,FR,,28206,24,5,,843,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-18,,GE,,49377,72,4,,,715,https://infocovid.smc.unige.ch/
-2021-03-18,,GL,,2256,4,,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-03-18,,GL,,2256,4,1,,,70,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-18,,GR,,11141,11,3,3,,178,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-18,,JU,,5807,4,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-18,,LU,,22855,49,,12,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9615,7 +9615,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-18,08:00,ZG,,6840,7,1,,6576,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-18,09:00,SH,,3747,10,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-18,09:00,SZ,,9820,,,,9440,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-18,10:00,TG,,15670,19,4,,919,391,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-18,10:00,TG,,15669,19,4,,919,395,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-18,10:20,BS,,10235,34,7,,9806,193,https://www.gesundheit.bs.ch
 2021-03-18,12:00,AI,,898,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-18,14:30,ZH,,91043,125,19,12,,1312,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9625,7 +9625,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-19,,FL,,2622,,,,,,https://www.regierung.li/de/mitteilungen/224378/?typ=content&nid=11076
 2021-03-19,,FR,,28266,25,5,,843,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-19,,GE,,49532,72,4,,,715,https://infocovid.smc.unige.ch/
-2021-03-19,,GL,,2260,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-03-19,,GL,,2260,3,0,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-19,,GR,,11172,11,2,2,,178,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-19,,JU,,5818,5,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-19,,LU,,22917,46,,9,,301,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9642,7 +9642,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-19,08:00,ZG,,6866,7,1,,6588,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-19,09:00,SH,,3757,10,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-19,09:00,SZ,,9837,,,,9468,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-19,10:00,TG,,15738,20,4,,920,392,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-19,10:00,TG,,15737,21,4,,920,395,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-19,10:30,BS,,10272,33,7,,9821,193,https://www.gesundheit.bs.ch
 2021-03-19,12:00,AI,,898,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-19,14:30,ZH,,91301,127,20,13,,1312,https://www.zh.ch/de/gesundheit/coronavirus.html
@@ -9650,6 +9650,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-20,,FL,,2627,,,,,,https://www.regierung.li/de/mitteilungen/224379/?typ=content&nid=11076
 2021-03-20,,FR,,28320,25,6,,843,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-20,,GE,,49654,65,6,,,715,https://infocovid.smc.unige.ch/
+2021-03-20,,GL,,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-20,,GR,,11199,11,2,2,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-20,,JU,,5830,6,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-20,,LU,,22975,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9663,13 +9664,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-20,08:00,BE,,55496,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-20,08:00,ZG,,6905,7,1,,6622,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-20,09:00,SZ,,9858,,,,9496,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-20,10:00,TG,,15757,19,3,,921,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-20,10:00,TG,,15756,20,3,,921,396,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-20,10:40,BS,,10297,31,7,,9848,193,https://www.gesundheit.bs.ch
 2021-03-20,14:30,ZH,,91603,132,22,11,,1312,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-21,,BL,,14471,16,1,1,13711,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-03-21,,FL,,2628,,,,,,https://www.regierung.li/de/mitteilungen/224381/?typ=content&nid=11076
 2021-03-21,,FR,,28357,24,6,,843,472,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-03-21,,GE,,49727,72,6,,,715,https://infocovid.smc.unige.ch/
+2021-03-21,,GL,19590,,,0,,,,https://www.gl.ch/public/upload/assets/35191/Sentinella%20Bericht%20KW11.pdf
 2021-03-21,,GR,,11205,13,2,2,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-03-21,,JU,,5838,4,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-03-21,,LU,,23007,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9683,7 +9685,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-21,08:00,BE,,55584,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-03-21,08:00,ZG,,6917,7,1,,6623,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-21,09:00,SZ,,9874,,,,9518,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-03-21,10:00,TG,,15763,18,3,,922,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-21,10:00,TG,,15762,19,3,,922,396,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-21,10:40,BS,,10320,34,7,,9869,193,https://www.gesundheit.bs.ch
 2021-03-21,14:30,ZH,,91782,131,25,12,,1314,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-22,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
@@ -9708,11 +9710,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-22,08:00,ZG,,6930,8,0,,6631,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-22,09:00,SZ,,9891,,,,9518,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-03-22,09:30,SH,,3784,6,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2021-03-22,10:00,TG,,15773,18,3,,922,393,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-03-22,10:00,TG,,15807,17,2,,924,396,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-22,11:50,BS,,10337,34,7,,9912,193,https://www.gesundheit.bs.ch
 2021-03-22,12:00,AI,,899,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-03-22,14:30,ZH,,91985,144,26,13,,1314,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-03-23,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
+2021-03-23,,BL,,14563,15,1,1,13797,211,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-03-23,,FL,,2634,2,,,2542,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf
 2021-03-23,,GL,,2265,2,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-03-23,,LU,,,41,,11,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
@@ -9724,5 +9727,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-03-23,08:00,ZG,,6963,9,0,,6667,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-03-23,09:00,SH,,3791,5,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-03-23,09:00,SZ,,9913,,,,9546,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2021-03-23,10:00,TG,,15814,16,2,,925,396,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-03-23,10:30,BS,,10347,33,6,,9923,193,https://www.gesundheit.bs.ch
 2021-03-23,12:00,AI,,902,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
