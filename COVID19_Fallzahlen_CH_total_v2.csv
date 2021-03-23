@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total,ncumul_ICF
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel
 2020-01-05,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
 2020-01-06,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
 2020-01-07,,GE,,4,,,,,,0,https://infocovid.smc.unige.ch/,2,0,0
@@ -9693,6 +9693,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-22,,GE,,49880,,76,7,,,715,https://infocovid.smc.unige.ch/,1184,1449,570
 2021-03-22,,GL,,2264,,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-22,,GR,,11229,,18,2,2,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,159,273,
+2021-03-22,,JU,,5845,,2,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-03-22,,LU,,,,43,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,587,566,165
 2021-03-22,,NW,,2107,,3,1,,,19,http://www.nw.ch/coronastatistik,42,98,17
 2021-03-22,,SG,,35545,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -9709,4 +9710,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-22,12:00,AI,,899,,0,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,18,8,
 2021-03-22,14:30,ZH,,91985,,144,26,13,,1314,https://www.zh.ch/de/gesundheit/coronavirus.html,1893,5217,
 2021-03-23,00:00,UR,,1959,,5,,,,39,https://www.ur.ch/themen/2962,,130,
+2021-03-23,08:00,BE,,55747,,,,,,1020,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
+2021-03-23,09:00,SH,,3791,,5,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,71,136,
 2021-03-23,09:00,SZ,,9913,,,,,9546,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
