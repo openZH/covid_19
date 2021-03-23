@@ -54,7 +54,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 101,Bezirk Affoltern,55111,8,2021,38,1,2707,46
 101,Bezirk Affoltern,55111,9,2021,61,3,2768,49
 101,Bezirk Affoltern,55111,10,2021,42,2,2810,51
-101,Bezirk Affoltern,55111,11,2021,40,2,2850,53
+101,Bezirk Affoltern,55111,11,2021,40,3,2850,54
 102,Bezirk Andelfingen,31490,9,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,10,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,11,2020,1,0,1,0
@@ -166,7 +166,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,8,2021,104,0,8385,111
 103,Bezirk Bülach,154731,9,2021,132,1,8517,112
 103,Bezirk Bülach,154731,10,2021,167,1,8684,113
-103,Bezirk Bülach,154731,11,2021,203,0,8887,113
+103,Bezirk Bülach,154731,11,2021,202,0,8886,113
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -221,8 +221,8 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 104,Bezirk Dielsdorf,91112,7,2021,60,1,4771,46
 104,Bezirk Dielsdorf,91112,8,2021,74,0,4845,46
 104,Bezirk Dielsdorf,91112,9,2021,90,1,4935,47
-104,Bezirk Dielsdorf,91112,10,2021,132,0,5067,47
-104,Bezirk Dielsdorf,91112,11,2021,144,4,5211,51
+104,Bezirk Dielsdorf,91112,10,2021,131,0,5066,47
+104,Bezirk Dielsdorf,91112,11,2021,144,4,5210,51
 105,Bezirk Hinwil,96595,9,2020,0,0,0,0
 105,Bezirk Hinwil,96595,10,2020,2,0,2,0
 105,Bezirk Hinwil,96595,11,2020,7,0,9,0
