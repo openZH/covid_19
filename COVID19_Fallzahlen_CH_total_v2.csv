@@ -9756,7 +9756,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-24,00:00,UR,,1969,,5,,,,39,https://www.ur.ch/themen/2962,,150,
 2021-03-24,01:00,SO,,14547,,17,5,,,257,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-03-24,08:00,BE,,55933,,71,21,18,,1024,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-03-24,08:00,ZG,,7004,,9,1,,6704,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-03-24,08:00,ZG,,7004,,9,1,,6704,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,269,144
 2021-03-24,09:00,SH,,3797,,6,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,69,150,42
 2021-03-24,09:00,SZ,,9949,,,,,9554,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-03-24,10:00,TG,,15863,0,15,3,,928,405,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
@@ -9765,3 +9765,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-24,14:30,ZH,,92722,,130,29,20,,1321,https://www.zh.ch/de/gesundheit/coronavirus.html,2043,5342,
 2021-03-25,00:00,UR,,1985,,5,,,,39,https://www.ur.ch/themen/2962,,177,
 2021-03-25,08:00,BE,,56116,,,,,,1025,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
+2021-03-25,09:00,SH,,3814,,7,1,,,73,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,67,169,
+2021-03-25,09:00,SZ,,9973,,,,,9564,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
