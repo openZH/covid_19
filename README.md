@@ -97,7 +97,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 |[GL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GL_total.csv)|![Last update on 2021-03-25](https://placehold.it/200x50/4d9221/000000?text=2021-03-25 'Last update on 2021-03-25')||
 |[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GR_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
 |[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_JU_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
-|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
+|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-03-25](https://placehold.it/200x50/4d9221/000000?text=2021-03-25 'Last update on 2021-03-25')||
 |[NE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NE_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
 |[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NW_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
 |[OW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_OW_total.csv)|![Last update on 2021-03-25](https://placehold.it/200x50/4d9221/000000?text=2021-03-25 'Last update on 2021-03-25')||
@@ -111,7 +111,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 |[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VD_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
 |[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VS_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
 |[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2021-03-25](https://placehold.it/200x50/4d9221/000000?text=2021-03-25 'Last update on 2021-03-25')||
-|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2021-03-24](https://placehold.it/200x50/b8e186/000000?text=2021-03-24 'Last update on 2021-03-24')||
+|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2021-03-25](https://placehold.it/200x50/4d9221/000000?text=2021-03-25 'Last update on 2021-03-25')||
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
