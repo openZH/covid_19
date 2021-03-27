@@ -6,14 +6,16 @@ import re
 from bs4 import BeautifulSoup
 
 
-# get the daily bulletins
+# get the daily bulletin
 base_url = 'https://www.regierung.li'
-d = sc.download(f'{base_url}/ministerien/ministerium-fuer-gesellschaft/medienmitteilungen/', silent=True)
+d = sc.download(base_url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-bulletins = soup.find_all('a', text=re.compile(r'.*Situationsbericht.*'))
-for bulletin in bulletins:
+bulletin = soup.find('h1', text=re.compile(r'COVID-19: Situationsbericht.*'))
+if bulletin:
+    bulletin = bulletin.find_next('a')
+if bulletin:
     url = f"{base_url}{bulletin.get('href')}"
     bulletin_d = sc.download(url, silent=True)
     bulletin_soup = BeautifulSoup(bulletin_d, 'html.parser')
@@ -47,30 +49,19 @@ for bulletin in bulletins:
         is_first = False
 
 
-# get the data from PDF file containing full history
-history_url = 'https://www.llv.li/files/ag/aktuelle-fallzahlen.pdf'
-d = sc.pdfdownload(history_url, layout=True, silent=True)
-assert d, f"No content in history PDF found ({history_url})"
-data_in_history_found = False
-d = re.sub(r'(\d+)’(\d+)', r'\1\2', d)
-rows = d.splitlines()
-header = rows[2]
-assert re.search(r'^Situationsbericht\s+vom\s+Datenstand\s+Anzahl\s+pos\.\s+Fälle\s+genesen\s+hospitalisiert\s+Todesfälle$', header), f"Header in PDF changed: {header}"
+# get the data from XLS file containing full history
+history_url='https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx'
+xls = sc.xlsdownload(history_url, silent=True)
+rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
-    row = row.replace("'", "")
-    m = re.search(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+(?P<report_date>.+?\d{4})\s+(?P<date>.+?\s+Uhr)\s+(?P<cases>\d+)\s+(?P<recovered>\d+)\s+(?P<hosp>\d+)?\s+(?P<deaths>\d+)$', row)
-    if m:
-        data_in_history_found = True
-        dd_full_list = sc.DayData(canton='FL', url=history_url)
-        dd_full_list.datetime = m['report_date']
-        dd_full_list.cases = m['cases']
-        dd_full_list.recovered = m['recovered']
-        dd_full_list.hospitalized = m['hosp']
-        dd_full_list.deaths = m['deaths']
-        if dd_full_list:
-            if not is_first:
-                print('-' * 10)
-            is_first = False
-            print(dd_full_list)
-
-assert data_in_history_found, f"Unable to retrieve data from {history_url}"
+    dd_full_list = sc.DayData(canton='FL', url=history_url)
+    dd_full_list.datetime = row['Datenstand']
+    dd_full_list.cases = row['Anzahl pos. Fälle']
+    dd_full_list.recovered = row['genesen']
+    dd_full_list.hospitalized = row['hospitalisiert']
+    dd_full_list.deaths = row['Todesfälle']
+    if dd_full_list:
+        if not is_first:
+            print('-' * 10)
+        is_first = False
+        print(dd_full_list)
