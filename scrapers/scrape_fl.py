@@ -56,7 +56,7 @@ rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     dd_full_list = sc.DayData(canton='FL', url=history_url)
     dd_full_list.datetime = row['Datenstand']
-    dd_full_list.cases = row['Anzahl pos. Fälle']
+    dd_full_list.cases = str(row['Anzahl pos. Fälle']).replace("'","")
     dd_full_list.recovered = row['genesen']
     dd_full_list.hospitalized = row['hospitalisiert']
     dd_full_list.deaths = row['Todesfälle']
