@@ -9798,7 +9798,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-25,14:30,ZH,,93115,,133,27,19,,1324,https://www.zh.ch/de/gesundheit/coronavirus.html,2371,6503,
 2021-03-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,136,58,12
 2021-03-26,,BL,,14724,,14,3,2,13925,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
-2021-03-26,,FR,,28694,,26,8,,848,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
+2021-03-26,,FR,,28692,,26,8,,848,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-03-26,,GE,,50523,,70,5,,,722,https://infocovid.smc.unige.ch/,1531,1994,542
 2021-03-26,,GL,,2284,,0,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-26,,GR,,11365,,12,1,1,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,202,333,
@@ -9821,6 +9821,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-26,14:30,ZH,,93484,,127,26,16,,1324,https://www.zh.ch/de/gesundheit/coronavirus.html,2371,6503,
 2021-03-27,,BL,,14791,,12,3,2,13998,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-27,,FL,,2649,,,,,,,https://www.regierung.li/de/mitteilungen/227860/?typ=news,,,
+2021-03-27,,FR,,28757,,25,10,,852,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-03-27,,GE,,,,78,7,,,,https://infocovid.smc.unige.ch/,,,
 2021-03-27,,NW,,2157,,4,1,,,19,https://www.nw.ch/gesundheitsamtdienste/6044,59,140,13
 2021-03-27,,TI,,29884,,71,8,8,3073,972,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
