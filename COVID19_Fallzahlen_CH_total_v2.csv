@@ -9898,6 +9898,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-30,,GE,,51070,,81,8,,,718,https://infocovid.smc.unige.ch/,1489,1832,587
 2021-03-30,,GL,,2293,,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-30,,GR,,11502,,11,0,0,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,254,358,
+2021-03-30,,JU,,5948,,1,0,,,140,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-03-30,,LU,,,,44,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,672,635,307
 2021-03-30,,NW,,2180,,3,1,,,19,http://www.nw.ch/coronastatistik,65,114,4
 2021-03-30,,SG,,36378,,44,8,8,,691,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -9918,5 +9919,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-31,,FL,,2670,,,,,,56,https://www.regierung.li/de/mitteilungen/227884/?typ=news,,51,
 2021-03-31,00:00,UR,,2086,,5,,,,39,https://www.ur.ch/themen/2962,,246,
 2021-03-31,08:00,ZG,,7205,,11,1,,6897,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
-2021-03-31,09:00,SH,,3899,,5,1,,,74,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,114,193,
+2021-03-31,09:00,SH,,3899,,5,1,,,74,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,114,193,42
 2021-03-31,09:00,SZ,,10111,,,,,9659,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
