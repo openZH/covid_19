@@ -1620,7 +1620,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-02,15:00,UR,,89,,0,,,,6,https://www.ur.ch/themen/2962,,,
 2020-05-03,,BL,,865,,10,1,1,799,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-03,,FR,,1100,,35,4,,130,79,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-03,,GE,26822,5227,2,73,16,16,660,260,https://infocovid.smc.unige.ch/,212,26,0
+2020-05-03,,GE,26822,5227,2,73,16,16,660,260,https://infocovid.smc.unige.ch/,212,24,0
 2020-05-03,,GR,,816,,18,6,6,,45,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-03,,JU,,193,,10,5,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-03,,LU,,,,19,7,7,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1646,7 +1646,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-03,14:30,ZH,,3461,,42,19,12,,126,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-04,,BL,,865,,9,1,1,804,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-04,,FR,,1105,,36,4,,130,79,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-04,,GE,27165,5233,5,68,16,16,661,262,https://infocovid.smc.unige.ch/,178,27,0
+2020-05-04,,GE,27165,5233,5,68,16,16,661,262,https://infocovid.smc.unige.ch/,178,25,0
 2020-05-04,,GR,,816,,16,5,5,,45,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-04,,JU,,193,,10,5,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-04,,LU,,689,,15,6,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1673,7 +1673,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-04,14:30,ZH,,3463,,43,18,11,,126,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-05,,BL,,866,,8,1,1,808,32,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-05,,FR,,1107,,35,3,,131,80,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-05,,GE,27691,5242,4,56,15,16,664,263,https://infocovid.smc.unige.ch/,158,35,0
+2020-05-05,,GE,27691,5242,4,56,15,16,664,263,https://infocovid.smc.unige.ch/,158,33,0
 2020-05-05,,GR,,816,,18,5,5,,45,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-05,,JU,,196,,10,5,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-05,,LU,,,,16,6,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1700,7 +1700,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-05,15:30,UR,,91,,2,,,,7,https://www.ur.ch/themen/2962,,,
 2020-05-06,,BL,,867,,6,1,1,809,33,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-06,,FR,,1111,,34,5,,131,80,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-06,,GE,28100,5248,2,47,14,15,671,264,https://infocovid.smc.unige.ch/,152,41,0
+2020-05-06,,GE,28100,5248,2,47,14,15,671,264,https://infocovid.smc.unige.ch/,152,39,0
 2020-05-06,,GR,,818,,20,6,5,,45,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-06,,JU,,196,,11,5,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-06,,LU,,,,16,6,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1727,7 +1727,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-06,14:30,ZH,,3494,,53,14,7,,128,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-07,,BL,,870,,6,1,1,811,33,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-07,,FR,,1119,,30,5,,134,80,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-07,,GE,28415,5255,2,37,13,13,686,269,https://infocovid.smc.unige.ch/,153,46,0
+2020-05-07,,GE,28415,5255,2,37,13,13,686,269,https://infocovid.smc.unige.ch/,153,44,0
 2020-05-07,,GR,,818,,14,6,5,,46,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-07,,JU,,196,,10,4,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-07,,LU,,692,,16,6,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1753,7 +1753,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-07,14:30,ZH,,3504,,50,12,7,,128,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-08,,BL,,871,,5,1,1,814,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-08,,FR,,1121,,30,5,,134,81,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-08,,GE,28728,5261,3,31,9,9,694,269,https://infocovid.smc.unige.ch/,138,49,0
+2020-05-08,,GE,28728,5261,3,31,9,9,694,269,https://infocovid.smc.unige.ch/,138,47,0
 2020-05-08,,GR,,819,,13,6,5,,46,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-08,,JU,,197,,9,4,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-08,,LU,,693,,14,6,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1779,7 +1779,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-08,14:30,ZH,,3514,,47,8,5,,128,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-09,,BL,,872,,3,1,1,818,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-09,,FR,,1125,,30,5,,134,82,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-09,,GE,29033,5270,4,31,7,7,700,270,https://infocovid.smc.unige.ch/,129,51,1
+2020-05-09,,GE,29033,5270,4,31,7,7,700,270,https://infocovid.smc.unige.ch/,129,48,1
 2020-05-09,,GR,,820,,13,6,5,,46,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-09,,JU,,197,,9,4,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-09,,LU,,,,14,,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1804,7 +1804,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-09,14:30,ZH,,3519,,37,8,5,,129,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-10,,BL,,873,,2,1,1,821,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2020-05-10,,FR,,1130,,26,4,,137,83,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-10,,GE,29205,5271,1,34,7,7,707,272,https://infocovid.smc.unige.ch/,122,51,1
+2020-05-10,,GE,29205,5271,1,34,7,7,707,272,https://infocovid.smc.unige.ch/,122,48,1
 2020-05-10,,GR,,820,,11,5,5,,47,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-10,,JU,,197,,9,4,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-10,,LU,,,,14,,6,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1827,7 +1827,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-10,14:30,ZH,,3522,,40,10,5,,129,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-05-11,,BL,,873,,3,1,1,821,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,0,0,0
 2020-05-11,,FR,,1133,,26,5,,137,83,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-11,,GE,29569,5276,3,30,6,6,709,272,https://infocovid.smc.unige.ch/,103,47,1
+2020-05-11,,GE,29569,5276,3,30,6,6,709,272,https://infocovid.smc.unige.ch/,103,44,1
 2020-05-11,,GR,,820,,12,5,5,,47,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-11,,JU,,197,,6,3,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-11,,LU,,694,,12,5,5,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1854,7 +1854,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-11,17:00,AI,,25,,,,,,0,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,,,
 2020-05-12,,BL,,874,,3,1,1,825,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2,1,0
 2020-05-12,,FR,,1142,,26,6,,138,83,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-12,,GE,30070,5286,2,25,5,5,711,273,https://infocovid.smc.unige.ch/,91,39,1
+2020-05-12,,GE,30070,5286,2,25,5,5,711,273,https://infocovid.smc.unige.ch/,91,38,1
 2020-05-12,,GR,,821,,12,5,5,,47,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,0,0,
 2020-05-12,,JU,,197,,6,3,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-12,,LU,,695,,12,5,4,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1881,7 +1881,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-12,16:30,UR,,92,,3,,,,7,https://www.ur.ch/themen/2962,,,
 2020-05-13,,BL,,874,,2,1,0,826,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2,1,0
 2020-05-13,,FR,,1145,,25,5,,139,84,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-13,,GE,30511,5290,5,20,5,6,722,274,https://infocovid.smc.unige.ch/,89,37,1
+2020-05-13,,GE,30511,5290,5,20,5,6,722,274,https://infocovid.smc.unige.ch/,89,36,1
 2020-05-13,,GR,,822,,11,5,5,,47,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1,3,
 2020-05-13,,JU,,197,,3,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-13,,LU,,,,12,4,4,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1906,7 +1906,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-13,15:15,UR,,92,,3,,,,7,https://www.ur.ch/themen/2962,,,
 2020-05-14,,BL,,874,,3,1,0,826,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2,1,0
 2020-05-14,,FR,,1147,,20,5,,142,84,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-14,,GE,30921,5297,6,21,6,6,734,274,https://infocovid.smc.unige.ch/,90,39,1
+2020-05-14,,GE,30921,5297,6,21,6,6,734,274,https://infocovid.smc.unige.ch/,90,38,1
 2020-05-14,,GR,,823,,11,5,5,,48,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2,4,
 2020-05-14,,JU,,197,,3,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-14,,LU,,697,,11,4,4,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -1932,7 +1932,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-05-14,16:15,UR,,92,,3,,,,7,https://www.ur.ch/themen/2962,,,
 2020-05-15,,BL,,874,,1,0,0,828,34,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2,1,0
 2020-05-15,,FR,,1149,,19,5,,143,84,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-05-15,,GE,31403,5302,2,21,7,6,736,274,https://infocovid.smc.unige.ch/,94,36,1
+2020-05-15,,GE,31403,5302,2,21,7,6,736,274,https://infocovid.smc.unige.ch/,94,35,1
 2020-05-15,,GR,,823,,9,4,4,,48,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2,4,
 2020-05-15,,JU,,197,,3,2,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-05-15,,LU,,701,,11,4,4,,20,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -4927,7 +4927,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-13,14:30,ZH,,7000,,23,10,8,,148,https://www.zh.ch/de/gesundheit/coronavirus.html,569,1066,
 2020-09-14,,BL,,1137,,2,0,0,1053,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,43,133,223
 2020-09-14,,FR,,2133,,22,2,,164,88,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-14,,GE,,7664,,18,1,,,290,https://infocovid.smc.unige.ch/,514,517,1067
+2020-09-14,,GE,,7664,,18,1,,,290,https://infocovid.smc.unige.ch/,514,512,1067
 2020-09-14,,GR,,1052,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,32,124,
 2020-09-14,,JU,,284,,9,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-14,,LU,,1110,,7,0,0,,23,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,36,111,
@@ -4954,7 +4954,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-14,16:00,UR,,139,,0,,,,7,https://www.ur.ch/themen/2962,,22,
 2020-09-15,,BL,,1145,,3,0,0,1058,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,39,123,192
 2020-09-15,,FR,,2159,,20,2,,165,88,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-15,,GE,,7725,,26,1,,,291,https://infocovid.smc.unige.ch/,508,501,1198
+2020-09-15,,GE,,7725,,26,1,,,291,https://infocovid.smc.unige.ch/,508,496,1198
 2020-09-15,,GR,,1053,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,88,
 2020-09-15,,JU,,286,,8,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-15,,LU,,1118,,5,0,0,,23,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,43,120,
@@ -4979,7 +4979,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-15,16:00,UR,,139,,0,,,,7,https://www.ur.ch/themen/2962,,22,
 2020-09-16,,BL,,1147,,3,0,0,1061,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,43,85,206
 2020-09-16,,FR,,2188,,17,1,,166,95,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-16,,GE,,7797,,23,1,,,291,https://infocovid.smc.unige.ch/,521,504,1194
+2020-09-16,,GE,,7797,,23,1,,,291,https://infocovid.smc.unige.ch/,521,499,1194
 2020-09-16,,GR,,1055,,1,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,30,79,
 2020-09-16,,JU,,287,,7,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-16,,LU,,1124,,6,0,0,,23,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,50,113,
@@ -5005,7 +5005,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-16,16:00,UR,,139,,0,,,,7,https://www.ur.ch/themen/2962,,20,
 2020-09-17,,BL,,1152,,3,0,0,1061,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,44,74,204
 2020-09-17,,FR,,2206,,19,1,,166,97,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-17,,GE,,7855,,25,1,,,291,https://infocovid.smc.unige.ch/,533,525,1270
+2020-09-17,,GE,,7855,,25,1,,,291,https://infocovid.smc.unige.ch/,533,521,1270
 2020-09-17,,GR,,1056,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,93,
 2020-09-17,,JU,,289,,7,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-17,,LU,,1137,,6,0,0,,23,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,56,139,
@@ -5031,7 +5031,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-17,17:35,AR,,157,,2,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,10,67,47
 2020-09-18,,BL,,1153,,3,0,0,1069,36,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,40,80,196
 2020-09-18,,FR,,2233,,14,2,,168,98,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-18,,GE,,7916,,24,1,,,292,https://infocovid.smc.unige.ch/,578,553,1330
+2020-09-18,,GE,,7916,,24,1,,,292,https://infocovid.smc.unige.ch/,578,549,1330
 2020-09-18,,GR,,1059,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,28,82,
 2020-09-18,,JU,,292,,6,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-18,,LU,,1147,,6,0,0,,23,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,65,145,
@@ -5058,7 +5058,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-18,16:00,UR,,139,,0,,,,7,https://www.ur.ch/themen/2962,,22,
 2020-09-19,,BL,,1156,,1,0,0,1073,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,37,118,220
 2020-09-19,,FR,,2270,,9,2,,169,101,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-19,,GE,,7964,,26,1,,,292,https://infocovid.smc.unige.ch/,607,577,1464
+2020-09-19,,GE,,7964,,26,1,,,292,https://infocovid.smc.unige.ch/,607,573,1464
 2020-09-19,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,5,10,41
 2020-09-19,,GR,,1064,,4,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,84,
 2020-09-19,,JU,,294,,6,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -5079,7 +5079,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-19,14:30,ZH,,7342,,23,12,8,,148,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-09-20,,BL,,1156,,2,0,0,1079,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,35,138,249
 2020-09-20,,FR,,2286,,9,2,,171,101,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-20,,GE,,7989,,26,1,,,292,https://infocovid.smc.unige.ch/,600,541,1637
+2020-09-20,,GE,,7989,,26,1,,,292,https://infocovid.smc.unige.ch/,600,537,1637
 2020-09-20,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31558/Sentinella%20Bericht%20KW42.pdf,4,8,40
 2020-09-20,,GR,,1064,,4,1,1,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,29,84,
 2020-09-20,,JU,,296,,5,0,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -5300,7 +5300,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-28,16:00,UR,,141,,1,,,,7,https://www.ur.ch/themen/2962,,18,
 2020-09-29,,BL,,1178,,0,0,0,1113,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,23,105,347
 2020-09-29,,FR,,2415,,11,2,,173,102,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-29,,GE,,8367,,23,2,,,295,https://infocovid.smc.unige.ch/,480,462,1729
+2020-09-29,,GE,,8367,,23,2,,,295,https://infocovid.smc.unige.ch/,480,459,1729
 2020-09-29,,GR,,1086,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,21,66,
 2020-09-29,,JU,,318,,9,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-29,,LU,,1204,,6,0,0,,24,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,42,72,
@@ -5326,7 +5326,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-29,18:00,UR,,142,,1,,,,7,https://www.ur.ch/themen/2962,,90,
 2020-09-30,,BL,,1180,,0,0,0,1113,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,19,101,326
 2020-09-30,,FR,,2431,,9,2,,174,102,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-09-30,,GE,,8427,,22,1,,,295,https://infocovid.smc.unige.ch/,494,442,1698
+2020-09-30,,GE,,8427,,22,1,,,295,https://infocovid.smc.unige.ch/,494,439,1698
 2020-09-30,,GR,,1095,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,30,103,
 2020-09-30,,JU,,319,,10,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-09-30,,LU,,1218,,5,0,0,,24,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,52,86,
@@ -5353,7 +5353,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-09-30,16:00,UR,,142,,0,,,,7,https://www.ur.ch/themen/2962,,100,
 2020-10-01,,BL,,1186,,0,0,0,1114,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,25,111,337
 2020-10-01,,FR,,2456,,9,2,,174,102,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-10-01,,GE,,8503,,25,2,,,296,https://infocovid.smc.unige.ch/,488,441,1631
+2020-10-01,,GE,,8503,,25,2,,,296,https://infocovid.smc.unige.ch/,488,438,1631
 2020-10-01,,GR,,1103,,3,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,35,123,
 2020-10-01,,JU,,326,,10,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-10-01,,LU,,1228,,6,1,1,,24,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,51,108,
@@ -5379,7 +5379,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-01,16:30,UR,,143,,0,,,,7,https://www.ur.ch/themen/2962,,100,
 2020-10-02,,BL,,1191,,0,0,0,1117,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,28,104,361
 2020-10-02,,FR,,2480,,8,2,,175,102,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-10-02,,GE,,8566,,24,1,,,296,https://infocovid.smc.unige.ch/,506,523,1665
+2020-10-02,,GE,,8566,,24,1,,,296,https://infocovid.smc.unige.ch/,506,520,1665
 2020-10-02,,GR,,1117,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,46,124,
 2020-10-02,,JU,,327,,12,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-10-02,,LU,,1238,,,,,,24,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -5406,7 +5406,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-02,15:00,AR,,185,,3,0,,,3,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,16,61,70
 2020-10-03,,BL,,1201,,0,0,0,1119,37,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,32,114,361
 2020-10-03,,FR,,2504,,8,1,,176,102,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-10-03,,GE,,8633,,24,1,,,296,https://infocovid.smc.unige.ch/,533,600,1810
+2020-10-03,,GE,,8633,,24,1,,,296,https://infocovid.smc.unige.ch/,533,597,1810
 2020-10-03,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/31866/Sentinella%20Bericht%20KW44.pdf,10,26,45
 2020-10-03,,GR,,1122,,2,0,0,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,48,137,
 2020-10-03,,JU,,334,,13,1,,,7,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -5974,7 +5974,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-10-25,14:30,ZH,,17313,,159,22,14,,166,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2020-10-26,,BL,,2215,,27,4,4,1429,39,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,290,1009,348
 2020-10-26,,FR,,6798,,83,10,,218,119,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2020-10-26,,GE,,16389,,333,12,,,309,https://infocovid.smc.unige.ch/,8110,7186,2118
+2020-10-26,,GE,,16389,,333,12,,,309,https://infocovid.smc.unige.ch/,8110,7185,2118
 2020-10-26,,GL,,367,,4,0,,,14,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,83,175,73
 2020-10-26,,GR,,2006,,27,5,5,,50,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,461,1043,
 2020-10-26,,JU,,1477,,80,3,,,21,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9745,7 +9745,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-24,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,144,47,6
 2021-03-24,,BL,,14621,,15,3,2,13817,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-24,,FR,,28557,,22,10,,847,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-24,,GE,,50180,,82,5,,,718,https://infocovid.smc.unige.ch/,1555,1837,639
+2021-03-24,,GE,,50180,,82,5,,,718,https://infocovid.smc.unige.ch/,1555,1837,640
 2021-03-24,,GL,,2268,,2,0,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,24,44,21
 2021-03-24,,GR,,11297,,13,1,1,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,181,246,
 2021-03-24,,JU,,5871,,1,0,,,139,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9772,7 +9772,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-25,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,140,60,6
 2021-03-25,,BL,,14673,,14,3,2,13849,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,469,,
 2021-03-25,,FR,,28620,,23,10,,847,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-25,,GE,,50362,,79,6,,,718,https://infocovid.smc.unige.ch/,1634,2024,573
+2021-03-25,,GE,,50362,,79,6,,,718,https://infocovid.smc.unige.ch/,1634,2024,575
 2021-03-25,,GL,,2279,,1,0,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,28,47,14
 2021-03-25,,GR,,11339,,14,1,1,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,219,277,
 2021-03-25,,JU,,5884,,0,0,,,139,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9799,7 +9799,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,136,58,12
 2021-03-26,,BL,,14724,,14,3,2,13925,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-26,,FR,,28692,,26,8,,848,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-26,,GE,,50517,,70,5,,,718,https://infocovid.smc.unige.ch/,1718,2115,573
+2021-03-26,,GE,,50517,,70,5,,,718,https://infocovid.smc.unige.ch/,1716,2117,576
 2021-03-26,,GL,,2284,,0,0,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,29,47,13
 2021-03-26,,GR,,11365,,12,1,1,,179,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,202,333,
 2021-03-26,,JU,,5909,,0,0,,,139,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9825,7 +9825,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-26,14:30,ZH,,93473,,127,26,16,,1327,https://www.zh.ch/de/gesundheit/coronavirus.html,2371,6503,
 2021-03-27,,BL,,14791,,12,3,2,13998,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-27,,FR,,28756,,25,10,,852,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-27,,GE,,50651,,78,7,,,718,https://infocovid.smc.unige.ch/,1733,2209,604
+2021-03-27,,GE,,50651,,78,7,,,718,https://infocovid.smc.unige.ch/,1731,2212,609
 2021-03-27,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/35263/Sentinella%20Bericht%20KW12.pdf,28,47,10
 2021-03-27,,GR,,11386,,12,1,1,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,220,353,
 2021-03-27,,JU,,5911,,0,0,,,139,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9846,7 +9846,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-27,14:30,ZH,,93853,,133,26,17,,1330,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-03-28,,BL,,14817,,14,3,2,14059,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-28,,FR,,28793,,32,9,,852,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-28,,GE,,50729,,83,8,,,719,https://infocovid.smc.unige.ch/,1708,2150,639
+2021-03-28,,GE,,50729,,83,8,,,719,https://infocovid.smc.unige.ch/,1709,2159,642
 2021-03-28,,GL,20365,,,,0,,,,https://www.gl.ch/public/upload/assets/35263/Sentinella%20Bericht%20KW12.pdf,26,47,11
 2021-03-28,,GR,,11402,,14,1,1,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,202,349,
 2021-03-28,,JU,,5916,,0,0,,,139,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9868,7 +9868,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-29,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,149,75,7
 2021-03-29,,BL,,14865,,11,2,1,14120,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-29,,FR,,28842,,32,9,,853,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-29,,GE,,50914,,81,8,,,719,https://infocovid.smc.unige.ch/,1675,2112,674
+2021-03-29,,GE,,50914,,81,8,,,719,https://infocovid.smc.unige.ch/,1678,2132,681
 2021-03-29,,GL,,2289,,2,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-29,,GR,,11445,,12,1,1,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,207,341,
 2021-03-29,,JU,,5931,,1,1,,,140,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9895,7 +9895,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-30,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,156,76,15
 2021-03-30,,BL,,14923,,16,3,1,14149,212,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-30,,FR,,28885,,32,9,,854,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-30,,GE,,51071,,81,8,,,719,https://infocovid.smc.unige.ch/,1667,1996,654
+2021-03-30,,GE,,51071,,81,8,,,719,https://infocovid.smc.unige.ch/,1676,2029,666
 2021-03-30,,GL,,2293,,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-30,,GR,,11502,,11,0,0,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,254,358,
 2021-03-30,,JU,,5948,,2,2,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9923,7 +9923,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-03-31,,BL,,14991,,16,3,1,14176,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-03-31,,FL,,2670,,,,,,56,https://www.regierung.li/de/mitteilungen/227884/?typ=news,,51,
 2021-03-31,,FR,,28936,,32,9,,857,473,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-03-31,,GE,,51228,,83,8,,,719,https://infocovid.smc.unige.ch/,1602,1883,585
+2021-03-31,,GE,,51227,,83,8,,,719,https://infocovid.smc.unige.ch/,1619,1931,606
 2021-03-31,,GL,,2301,,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-03-31,,GR,,11546,,7,0,0,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,298,347,
 2021-03-31,,JU,,5961,,2,2,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9950,7 +9950,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-01,,BL,,15050,,17,2,1,14214,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-04-01,,FL,,2675,,,,,,56,https://www.regierung.li/de/mitteilungen/227895/?typ=news,,74,
 2021-04-01,,FR,,28990,,30,9,,860,475,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-04-01,,GE,,51372,,,,,,719,https://infocovid.smc.unige.ch/,1559,1769,485
+2021-04-01,,GE,,51391,,73,6,,,719,https://infocovid.smc.unige.ch/,1597,1831,527
 2021-04-01,,GL,,2306,,4,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-01,,GR,,11615,,8,0,0,,180,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,306,362,
 2021-04-01,,JU,,5970,,2,2,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -9971,6 +9971,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-01,14:30,ZH,,95545,,183,29,24,,1336,https://www.zh.ch/de/gesundheit/coronavirus.html,2888,8418,
 2021-04-02,,BL,,15108,,18,1,1,14269,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-04-02,,FL,,2678,,,,,,56,https://www.regierung.li/de/mitteilungen/227900/?typ=news,,28,
+2021-04-02,,GE,,,,81,8,,,,https://infocovid.smc.unige.ch/,,,
 2021-04-02,,TI,,30410,,89,10,9,3116,975,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-04-02,08:00,BE,,57441,,,,,,1034,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-04-02,08:00,ZG,,7287,,8,0,,6964,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
