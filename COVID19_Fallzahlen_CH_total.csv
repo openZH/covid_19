@@ -10006,7 +10006,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-04,,GR,,11725,6,0,0,,182,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-04-04,,JU,,6006,2,1,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-04-04,,NE,,15186,0,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
-2021-04-04,,NW,,2217,3,1,,,19,https://www.nw.ch/gesundheitsamtdienste/6044
+2021-04-04,,NW,,2217,3,1,,,19,http://www.nw.ch/coronastatistik
 2021-04-04,,TI,,30571,87,10,7,3132,975,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-04-04,,VD,,74416,182,29,,,970,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2021-04-04,00:00,FL,,2697,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
@@ -10017,6 +10017,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-05,,BL,,15205,23,1,0,14431,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-04-05,,FL,,2697,,,,,,https://www.regierung.li/de/mitteilungen/227903/?typ=news
 2021-04-05,,GE,,,115,9,,,,https://infocovid.smc.unige.ch/
+2021-04-05,,NW,,2224,3,1,,,19,http://www.nw.ch/coronastatistik
 2021-04-05,,TI,,30594,94,13,10,3132,975,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-04-05,01:00,SO,,15213,,,,,259,https://corona.so.ch/bevoelkerung/daten/
 2021-04-05,08:00,BE,,57780,,,,,1035,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
