@@ -21,7 +21,7 @@ jobs:
           - FR
           - GE
           - GL
-          - JU
+#          - JU #disable until PDF is fixed
           - NW
           - SG
           - SH
