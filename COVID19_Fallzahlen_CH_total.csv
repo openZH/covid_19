@@ -165,7 +165,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-05,,LU,,6,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-03-05,,NE,,9,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-05,,SG,,1,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-03-05,,TG,,1,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-05,,TG,,1,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-05,,TI,,25,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-05,,VD,,,14,1,,,,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-05,,VS,,6,13,0,0,2,0,https://www.vs.ch/de/web/coronavirus
@@ -184,7 +184,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-06,,LU,,7,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-03-06,,NE,,13,2,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-06,,SZ,6,6,,,,,,https://www.sz.ch/public/upload/assets/45417/MM_Coronavirus_6_3_2020.pdf
-2020-03-06,,TG,,1,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-06,,TG,,1,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-06,,TI,,28,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-06,,VD,,23,15,2,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-06,,VS,,6,14,0,0,2,0,https://www.vs.ch/de/web/coronavirus
@@ -204,7 +204,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-07,,LU,,8,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-03-07,,NE,,18,2,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-07,,SG,,4,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-03-07,,TG,,1,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-07,,TG,,1,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-07,,TI,,41,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-07,,VD,,30,16,4,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-07,,VS,,7,14,0,0,2,0,https://www.vs.ch/de/web/coronavirus
@@ -221,7 +221,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-08,,JU,,4,6,0,,,0,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-03-08,,NE,,24,3,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-08,,SG,,5,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-03-08,,TG,,1,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-08,,TG,,1,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-08,,TI,,49,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-08,,VD,,40,22,3,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-08,,VS,,14,18,1,1,2,0,https://www.vs.ch/de/web/coronavirus
@@ -240,7 +240,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-09,,LU,,10,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-03-09,,NE,,27,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-09,,SG,,13,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-03-09,,TG,,2,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-09,,TG,,2,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-09,,TI,,61,0,0,0,0,0,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-09,,VD,,51,29,5,,,1,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/
 2020-03-09,,VS,,18,19,1,1,2,0,https://www.vs.ch/de/web/coronavirus
@@ -258,7 +258,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-10,,LU,,11,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-03-10,,NE,,31,4,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-03-10,,SG,,14,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
-2020-03-10,,TG,,5,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-10,,TG,,5,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-10,,TI,,75,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-10,,VD,,130,71,9,,,2,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-10,,VS,,23,22,1,1,2,0,https://www.vs.ch/de/web/coronavirus
@@ -278,7 +278,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-11,,NW,,4,2,,,,,http://www.nw.ch/coronastatistik
 2020-03-11,,SG,,22,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-11,,SH,,1,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-11,,TG,,5,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-11,,TG,,5,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-11,,TI,,108,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-11,,VD,,203,75,9,,,3,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-11,,VS,,30,23,1,1,3,0,https://www.vs.ch/de/web/coronavirus
@@ -299,7 +299,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-12,,NW,,5,5,,,,,http://www.nw.ch/coronastatistik
 2020-03-12,,SG,,30,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-12,,SH,,1,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-12,,TG,,7,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-12,,TG,,7,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-12,,TI,,163,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-12,,UR,,2,,,,,,
 2020-03-12,,VD,,277,84,10,,,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -320,7 +320,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-13,,NW,,5,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-13,,SG,,39,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-13,,SH,,1,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-13,,TG,,8,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-13,,TG,,8,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-13,,TI,,206,0,0,0,0,1,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-13,,VD,,370,89,11,,,4,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-13,,VS,,71,32,1,1,5,1,https://www.vs.ch/de/web/coronavirus
@@ -343,7 +343,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-03-14,,NW,,5,6,,,,,http://www.nw.ch/coronastatistik
 2020-03-14,,SG,,46,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2020-03-14,,SH,,1,,,,,0,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
-2020-03-14,,TG,,11,,0,,,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2020-03-14,,TG,,11,0,0,,0,0,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2020-03-14,,TI,,265,77,13,0,61,3,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2020-03-14,,VD,,477,98,13,,,5,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2020-03-14,,VS,,92,36,1,1,6,1,https://www.vs.ch/de/web/coronavirus
@@ -9967,7 +9967,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-01,08:00,ZG,,7237,8,0,,6920,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-01,09:00,SH,,3921,8,1,,,74,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-04-01,09:00,SZ,,10154,,,,9684,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-04-01,10:00,TG,,16319,19,5,,952,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-04-01,10:00,TG,,16319,19,6,,953,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-01,10:00,UR,,2110,7,,,,39,https://www.ur.ch/themen/2962
 2021-04-01,11:10,BS,,10695,32,4,,10170,196,https://www.gesundheit.bs.ch
 2021-04-01,12:00,AI,,921,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
@@ -9986,8 +9986,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-02,08:00,BE,,57441,,,,,1034,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-04-02,08:00,ZG,,7287,8,0,,6964,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-02,09:00,SZ,,10184,,,,9697,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2021-04-02,10:00,TG,,16385,22,7,,953,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-02,10:50,BS,,10739,30,3,,10210,196,https://www.gesundheit.bs.ch
-2021-04-02,11:00,TG,,16385,22,5,,952,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-03,,BL,,15138,19,1,1,14327,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-04-03,,FR,,29080,34,7,,863,475,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2021-04-03,,GE,,51601,93,8,,,719,https://infocovid.smc.unige.ch/
@@ -10002,7 +10002,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-03,08:00,BE,,57579,,,,,1035,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-04-03,08:00,ZG,,7304,8,0,,6990,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-03,09:00,SZ,,10207,,,,9735,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-04-03,10:00,TG,,16428,24,5,,952,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-04-03,10:00,TG,,16428,24,7,,953,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-03,10:30,BS,,10768,33,4,,10246,196,https://www.gesundheit.bs.ch
 2021-04-04,,BL,,15173,20,1,0,14379,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-04-04,,FR,,29112,33,7,,865,475,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
@@ -10018,7 +10018,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-04,08:00,BE,,57680,,,,,1035,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-04-04,08:00,ZG,,7319,8,0,,6997,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-04,09:00,SZ,,10214,,,,9757,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
-2021-04-04,10:00,TG,,16443,24,5,,952,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
+2021-04-04,10:00,TG,,16443,24,7,,954,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-04,13:20,BS,,10795,38,4,,10279,196,https://www.gesundheit.bs.ch
 2021-04-05,,BL,,15205,23,1,0,14431,213,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-04-05,,FL,,2697,,,,,,https://www.regierung.li/de/mitteilungen/227903/?typ=news
@@ -10033,14 +10033,17 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-04-05,08:00,BE,,57780,,,,,1035,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-04-05,08:00,ZG,,7341,8,0,,7016,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-05,09:00,SZ,,10226,,,,9768,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
+2021-04-05,10:00,TG,,16471,24,7,,956,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-05,10:30,BS,,10813,41,6,,10330,196,https://www.gesundheit.bs.ch
-2021-04-05,11:00,TG,,16446,24,5,,952,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-06,,FL,,2697,,,,,56,https://www.regierung.li/de/mitteilungen/227904/?typ=news
 2021-04-06,,GL,,2322,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-04-06,,TI,,30630,100,15,13,3134,977,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
+2021-04-06,00:00,OW,,2086,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
+2021-04-06,01:00,SO,,15240,,,,,260,https://corona.so.ch/bevoelkerung/daten/
 2021-04-06,08:00,BE,,57864,,,,,1036,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-04-06,08:00,ZG,,7356,16,1,,7040,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-04-06,09:00,SZ,,10237,,,,9779,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-04-06,09:15,SH,,3986,8,1,,,74,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2021-04-06,10:00,TG,,16471,24,7,,956,417,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-04-06,10:40,BS,,10845,42,6,,10364,196,https://www.gesundheit.bs.ch
 2021-04-06,11:00,UR,,2226,10,,,,40,https://www.ur.ch/themen/2962
