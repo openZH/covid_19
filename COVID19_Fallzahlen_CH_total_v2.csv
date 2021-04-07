@@ -10072,7 +10072,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-06,00:00,FL,,2702,,4,,,2601,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,79,
 2021-04-06,00:00,OW,,2086,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,47,70,21
 2021-04-06,01:00,SO,,15240,,28,7,,,260,https://corona.so.ch/index.php?id=27979,,,
-2021-04-06,08:00,AG,,41130,,81,9,,34430,665,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1822,2414,
+2021-04-06,08:00,AG,,41130,,81,9,,34430,665,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1822,2414,420
 2021-04-06,08:00,BE,,57864,,,,,,1036,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-04-06,08:00,ZG,,7356,,16,1,,7040,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,200,224,173
 2021-04-06,09:00,SZ,,10237,,,,,9779,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -10082,6 +10082,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-06,11:00,UR,,2226,,10,,,,40,https://www.ur.ch/themen/2962,,267,
 2021-04-06,12:00,AI,,930,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,24,20,
 2021-04-06,14:30,ZH,,96971,,204,38,23,,1340,https://www.zh.ch/de/gesundheit/coronavirus.html,2377,6736,
+2021-04-07,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,144,78,
 2021-04-07,,FL,,2702,,,,,,56,https://www.regierung.li/de/mitteilungen/227906/?typ=news,,69,
 2021-04-07,,GL,,2328,,4,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-07,,LU,,,,44,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,756,730,233
