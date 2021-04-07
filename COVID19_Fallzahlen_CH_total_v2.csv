@@ -10061,6 +10061,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-06,,GE,,51975,,111,10,,,721,https://infocovid.smc.unige.ch/,1255,1360,617
 2021-04-06,,GL,,2322,,3,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-06,,GR,,11784,,6,0,0,,183,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,342,449,
+2021-04-06,,JU,,6030,,4,0,,,142,https://www.jura.ch/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-04-06,,LU,,,,43,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,685,741,233
 2021-04-06,,NE,,15241,,17,1,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-06,,NW,,2231,,3,1,,,19,https://www.nw.ch/gesundheitsamtdienste/6044,59,89,8
@@ -10070,7 +10071,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-06,,VS,,33911,,40,10,5,,760,https://www.vs.ch/de/web/coronavirus,,,
 2021-04-06,00:00,FL,,2702,,4,,,2601,56,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,79,
 2021-04-06,00:00,OW,,2086,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,47,70,21
-2021-04-06,01:00,SO,,15240,,28,7,,,260,https://corona.so.ch/bevoelkerung/daten/,,,
+2021-04-06,01:00,SO,,15240,,28,7,,,260,https://corona.so.ch/index.php?id=27979,,,
 2021-04-06,08:00,BE,,57864,,,,,,1036,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-04-06,08:00,ZG,,7356,,16,1,,7040,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,200,224,173
 2021-04-06,09:00,SZ,,10237,,,,,9779,216,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -10081,7 +10082,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-06,12:00,AI,,930,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,24,20,
 2021-04-06,14:30,ZH,,96971,,204,38,23,,1340,https://www.zh.ch/de/gesundheit/coronavirus.html,2377,6736,
 2021-04-07,,FL,,2702,,,,,,56,https://www.regierung.li/de/mitteilungen/227906/?typ=news,,69,
+2021-04-07,,GL,,2328,,4,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-07,,TI,,30707,,102,15,12,3139,977,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-04-07,01:00,SO,,15290,,32,8,,,261,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-04-07,08:00,ZG,,7392,,16,2,,7078,114,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-04-07,09:00,SH,,4002,,10,2,,,75,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,125,185,70
 2021-04-07,09:00,SZ,,10256,,,,,9806,217,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
