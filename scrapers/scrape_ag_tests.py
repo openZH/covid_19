@@ -31,6 +31,7 @@ for row in rows:
     td.week = int(row['Kalenderwoche'])
     if td.week == 1:
         year = '2021'
+    td.year = year
     td.positive_tests = get_value_int(row['Positive Tests'])
     td.negative_tests = get_value_int(row['Negative Tests'])
     td.total_tests = int(row['Anzahl Tests'])
