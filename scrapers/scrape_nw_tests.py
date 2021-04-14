@@ -22,7 +22,7 @@ for row in rows:
     cols = row.findChildren('td')
     item = cols[0].text
     if re.match(r'Covid-19-Tests innert 24h.*', item, re.I):
-        res = re.match(r'(\d+) \((\d+\.?\d?)%\)', cols[1].text)
+        res = re.match(r'(\d+)\s+(\d+\.?\d?)%', cols[1].text)
         assert res
         td.total_tests = res[1]
         td.positivity_rate = res[2]
