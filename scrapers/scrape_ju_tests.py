@@ -6,12 +6,12 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 base_url = 'https://www.jura.ch'
-url = f'{base_url}/fr/Autorites/Coronavirus/Chiffres-H-JU/Evolution-des-cas-COVID-19-dans-le-Jura.html'
+url = f'{base_url}/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
 
-pdf_url = soup.find('a', title=re.compile(r'.*PDF.*')).get('href')
+pdf_url = soup.find('a', title=re.compile(r'Situation.*PDF.*')).get('href')
 if not pdf_url.startswith('http'):
     pdf_url = f'{base_url}{pdf_url}'
 pdf_url = pdf_url.replace('?download=1', '')
