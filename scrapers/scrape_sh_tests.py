@@ -41,7 +41,7 @@ for content_id in content_ids:
     td.end_date = date.isoformat()
 
     #content = sc.pdftotext(pdf, page=14)
-    for page in range(14, 16):
+    for page in range(12, 16):
         content = sc.pdftotext(pdf, page=page)
         # remove ' separator to simplify pattern matching
         content = re.sub(r'(\d)\’(\d)', r'\1\2', content)
@@ -58,7 +58,7 @@ for content_id in content_ids:
         if not td.positivity_rate:
             td.positivity_rate = sc.find(r'Positivitätsrate\s+[\w\s]+\s+(\d+\.?\d?)%[\w\s]+?\(Vorwoche', content)
         if not td.positivity_rate:
-            td.positivity_rate = sc.find(r'Positivitätsrate\s+[\w\s\,\d%]+\s+\((\d+\.?\d?)%\s+gegen.ber', content)
+            td.positivity_rate = sc.find(r'Positivitätsrate\s+[\w\s\,\d%]+\s+\((\d+\.?\d?)%\s+(gegen.ber|gg.\.)', content)
 
         td.ag_total_tests = sc.find(r'Der\s+Anteil\s+der\s+Antigen-Schnelltests\s+betrug\s+letzte\s+Woche\s+\d+%\s\((\d+)\s+Tests\)', content)
         if not td.ag_total_tests:
