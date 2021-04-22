@@ -25,6 +25,7 @@ for link in links:
     content_ids.append(link.get('contentid'))
 
 # fetch the PDFs and parse
+found_data = False
 for content_id in content_ids:
     url = f'https://sh.ch/CMS/content.jsp?contentid={content_id}&language=DE'
     pdf_url = shc.get_sh_url_from_json(url)
@@ -64,5 +65,8 @@ for content_id in content_ids:
         if not td.ag_total_tests:
             td.ag_total_tests = sc.find(r'Der\s+Anteil\s+der\s+Antigen-Schnelltests\s+betrug\s+letzte\s+Woche\s+\d+%\s+mit\s+(\d+)\s+Tests', content)
 
-        if td.total_tests and td.positivity_rate:
+        if td:
+            found_data = True
             print(td)
+
+assert found_data, 'Did not find any tests data for SH'
