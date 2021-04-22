@@ -10347,7 +10347,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-17,,GE,,53821,,82,12,,,728,https://infocovid.smc.unige.ch/,1788,1962,1128
 2021-04-17,,GR,,12318,,20,6,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,377,559,
 2021-04-17,,JU,,6202,,5,2,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-17,,LU,,25348,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-04-17,,LU,,25347,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-04-17,,NE,,15753,,20,1,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-17,,NW,,2339,,6,1,,,19,http://www.nw.ch/coronastatistik,66,93,5
 2021-04-17,,SG,,38187,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10368,7 +10368,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-18,,GL,22553,,,,,,,,https://www.gl.ch/public/upload/assets/35579/Sentinella%20Bericht%20KW15.pdf,,,
 2021-04-18,,GR,,12346,,20,6,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,337,527,
 2021-04-18,,JU,,6207,,7,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-18,,LU,,25412,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-04-18,,LU,,25411,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-04-18,,NE,,15766,,20,1,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-18,,NW,,2346,,5,1,,,19,http://www.nw.ch/coronastatistik,64,91,5
 2021-04-18,,SG,,38215,,52,12,9,,700,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10390,7 +10390,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-19,,GL,,2461,,9,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-19,,GR,,12375,,19,5,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,332,520,
 2021-04-19,,JU,,6222,,6,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-19,,LU,,25518,,49,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,890,898,322
+2021-04-19,,LU,,25515,,49,,13,,313,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,890,898,322
 2021-04-19,,NE,,15815,,15,2,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-19,,NW,,2358,,6,2,,,19,http://www.nw.ch/coronastatistik,68,77,4
 2021-04-19,,SG,,38431,,56,13,11,,700,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10417,7 +10417,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-20,,GL,,2481,,10,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-20,,GR,,12422,,19,6,5,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,329,510,
 2021-04-20,,JU,,6246,,6,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-20,,LU,,25603,,43,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,892,868,351
+2021-04-20,,LU,,25600,,43,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,892,868,351
 2021-04-20,,NE,,15879,,17,2,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-20,,NW,,2367,,5,2,,,19,http://www.nw.ch/coronastatistik,66,61,10
 2021-04-20,,SG,,38523,,45,13,9,,700,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10444,7 +10444,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-21,,GL,,2496,,9,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-21,,GR,,12467,,20,4,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,351,491,
 2021-04-21,,JU,,6264,,8,0,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-21,,LU,,,,46,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,885,885,351
+2021-04-21,,LU,,25701,,46,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,885,885,351
 2021-04-21,,NE,,15930,,16,2,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-21,,NW,,2375,,6,2,,,20,http://www.nw.ch/coronastatistik,71,66,8
 2021-04-21,,TI,,31634,,93,15,13,3231,982,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
@@ -10464,6 +10464,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-21,14:30,ZH,,103478,,234,55,39,,1366,https://www.zh.ch/de/gesundheit/coronavirus.html,3082,6540,
 2021-04-22,,FL,,2851,,,,,,,https://www.regierung.li/de/mitteilungen/227940/?typ=news,,94,
 2021-04-22,,GL,,2510,,9,,,,71,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-04-22,,LU,,,,43,,14,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,920,897,
 2021-04-22,,TI,,31703,,94,17,14,3236,982,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-04-22,00:00,OW,,2206,,3,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,59,85,24
 2021-04-22,00:00,UR,,2691,,7,,,,46,https://www.ur.ch/themen/2962,,338,
