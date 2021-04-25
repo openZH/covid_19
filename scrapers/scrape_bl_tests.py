@@ -50,12 +50,11 @@ for iframe in soup.find_all('iframe'):
     d = d.replace('\n', ' ')
 
     # Taegliche PCR-Tests BL
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Negative PCR-Tests&quot;,&quot;Positive PCR-Tests&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Negative Tests&quot;,&quot;Positive Tests&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            date = sc.date_from_text(c[0].replace('-', '.'))
-            date = date.isoformat()
+            date = sbc.parse_bl_date(c[0])[0]
             if date not in tests_data:
                 tests_data[date] = create_bs_test_data(date)
             tests_data[date].negative_tests = round(float(c[1]))
@@ -63,12 +62,11 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # Taegliche Positivitaetsrate BL
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;T.gliche Positivit.tsrate BL in %&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;T.gliche Positivit.tsrate BL&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            date = sc.date_from_text(c[0].replace('-', '.'))
-            date = date.isoformat()
+            date = sbc.parse_bl_date(c[0])[0]
             if date not in tests_data:
                 tests_data[date] = create_bs_test_data(date)
             tests_data[date].positivity_rate = c[1]

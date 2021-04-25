@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import datetime
 from bs4 import BeautifulSoup
 import re
 import scrape_common as sc
@@ -26,3 +27,12 @@ def strip_bl_bulletin_numbers(content):
     content = re.sub(r'(\d+)’(\d+)', r'\1\2', content)
     content = re.sub(r'(\d+)\'(\d+)', r'\1\2', content)
     return content
+
+
+def parse_bl_date(s):
+    row_date = s.replace('-', '.')
+    row_date = s.replace('/', '.')
+    parts = row_date.split('.')
+    s_date = datetime.datetime(day=int(parts[0]), month=int(parts[1]), year=int(parts[2]))
+    key = s_date.date().isoformat()
+    return (key, row_date)
