@@ -3,6 +3,7 @@
 
 from bs4 import BeautifulSoup
 import scrape_common as sc
+import scrape_bl_common as sbc
 from collections import defaultdict, OrderedDict
 from datetime import datetime
 
@@ -17,11 +18,7 @@ main_site = sc.download(main_url, silent=True)
 
 
 def parse_row_date(s):
-    row_date = s.replace('-', '.')
-    row_date = s.replace('/', '.')
-    parts = row_date.split('.')
-    s_date = datetime(day=int(parts[0]), month=int(parts[1]), year=int(parts[2]))
-    return s_date.date().isoformat()
+    return sbc.parse_bl_date(s)[0]
 
 
 rows = defaultdict(dict)
