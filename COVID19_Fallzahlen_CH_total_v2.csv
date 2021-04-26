@@ -10345,7 +10345,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-17,,BL,,15928,,21,2,1,15007,217,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-04-17,,FR,,29868,,21,6,,888,478,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-04-17,,GE,,53829,,82,12,,,728,https://infocovid.smc.unige.ch/,1818,1983,1133
-2021-04-17,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/35659/Sentinella%20Bericht%20KW16.pdf,95,64,
+2021-04-17,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/35659/Sentinella%20Bericht%20KW16.pdf,95,64,12
 2021-04-17,,GR,,12318,,20,6,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,377,559,
 2021-04-17,,JU,,6202,,5,2,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-04-17,,LU,,25346,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -10522,7 +10522,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-24,,BL,,16448,,28,5,2,15405,217,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-04-24,,FR,,30325,,26,6,,900,478,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-04-24,,GE,,54900,,89,12,,,731,https://infocovid.smc.unige.ch/,1493,1506,628
-2021-04-24,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/35659/Sentinella%20Bericht%20KW16.pdf,96,139,
+2021-04-24,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/35659/Sentinella%20Bericht%20KW16.pdf,96,139,14
 2021-04-24,,GR,,12612,,21,3,3,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,349,559,
 2021-04-24,,JU,,6332,,7,0,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-04-24,,LU,,26006,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -10559,12 +10559,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-25,10:00,TG,,17420,3,43,11,,1013,438,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,396,,
 2021-04-25,10:40,BS,,11736,,48,13,,11092,198,https://www.gesundheit.bs.ch,446,1048,
 2021-04-25,14:30,ZH,,104960,,222,59,45,,1373,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-04-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,56,92,
+2021-04-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,56,92,27
 2021-04-26,,BL,,16557,,30,5,3,15534,217,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-04-26,,FL,,2885,,,,,,57,https://www.regierung.li/de/mitteilungen/227952/?typ=news,,89,
 2021-04-26,,GE,,,,96,10,,,,https://infocovid.smc.unige.ch/,,,
 2021-04-26,,GL,,2537,,7,,,,72,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-26,,LU,,,,56,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,844,961,279
+2021-04-26,,NW,,2419,,7,1,,,21,http://www.nw.ch/coronastatistik,64,55,
 2021-04-26,,TI,,31941,,85,16,14,3267,984,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-04-26,00:00,OW,,2269,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,77,70,23
 2021-04-26,00:00,UR,,2810,,5,,,,47,https://www.ur.ch/themen/2962,,374,
@@ -10574,4 +10575,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-26,09:30,SH,,4286,,10,4,,,75,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,111,128,66
 2021-04-26,10:00,TG,,17441,0,43,11,,1013,438,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-04-26,11:10,BS,,11771,,48,14,,11129,198,https://www.gesundheit.bs.ch,444,992,
+2021-04-26,12:00,AI,,974,,1,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,18,18,
 2021-04-26,14:30,ZH,,105226,,225,63,47,,1373,https://www.zh.ch/de/gesundheit/coronavirus.html,3288,6811,
