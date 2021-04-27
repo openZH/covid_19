@@ -73,7 +73,7 @@ d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 title = soup.find('h3', text=re.compile("Stand"))
 data = sc.DayData(canton='SO', url=url)
-data.datetime = sc.find(r'Stand\s*(.+)\s*Uhr', title.string)
+data.datetime = sc.find(r'Stand\s*(\d+\.\d+\.\d{4})\s*', title.string)
 table = title.find_next('table')
 for table_row in table.find_all('tr'):
     items = table_row.find_all('td')
