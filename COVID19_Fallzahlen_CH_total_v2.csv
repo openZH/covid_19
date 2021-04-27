@@ -10546,7 +10546,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-25,,GL,23312,,,,1,,,,https://www.gl.ch/public/upload/assets/35659/Sentinella%20Bericht%20KW16.pdf,94,146,12
 2021-04-25,,GR,,12634,,20,4,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,335,535,
 2021-04-25,,JU,,6336,,7,0,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-25,,LU,,26054,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-04-25,,LU,,26052,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-04-25,,NE,,16080,,19,4,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-25,,NW,,2406,,6,1,,,21,http://www.nw.ch/coronastatistik,62,37,10
 2021-04-25,,SG,,39085,,67,16,12,,703,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10568,7 +10568,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-26,,GL,,2537,,7,,,,72,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-04-26,,GR,,12661,,26,5,4,,184,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,323,500,
 2021-04-26,,JU,,6348,,6,0,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-04-26,,LU,,,,56,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,844,961,279
+2021-04-26,,LU,,26156,,56,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,844,961,279
 2021-04-26,,NE,,16134,,24,4,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-04-26,,NW,,2419,,7,1,,,21,http://www.nw.ch/coronastatistik,64,55,11
 2021-04-26,,SG,,39206,,67,16,14,,703,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10589,6 +10589,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-27,,FL,,2903,,,,,,57,https://www.regierung.li/de/mitteilungen/227953/?typ=news,,84,
 2021-04-27,,GE,,55144,,,,,,731,https://infocovid.smc.unige.ch/,,,
 2021-04-27,,GL,,2547,,6,,,,0,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-04-27,,LU,,,,50,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,849,944,
 2021-04-27,,TI,,32008,,76,14,14,3280,985,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-04-27,00:00,OW,,2271,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,66,71,22
 2021-04-27,00:00,UR,,2828,,7,,,,47,https://www.ur.ch/themen/2962,,336,
