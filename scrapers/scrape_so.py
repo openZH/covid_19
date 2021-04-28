@@ -32,42 +32,7 @@ if res is not None:
     rows.append(data)
 
 
-url = f"{base_url}/index.php?id=27979"
-d = sc.download(url, silent=True)
-d = d.replace("&nbsp;", " ")
-
-soup = BeautifulSoup(d, 'html.parser')
-data_table = soup.find('h2', text=re.compile("Situation Kanton Solothurn")).find_next("table")
-if data_table:
-    headers = [cell.string for cell in data_table.find('tr').find_all('th')]
-    for row in data_table.find_all('tr'):
-        data = sc.DayData(canton='SO', url=url)
-        col_num = 0
-        tmp_date = None
-        tmp_time = None
-        for cell in row.find_all(['td']):
-            if not cell.string:
-                continue
-            if headers[col_num] == 'Datum':
-                tmp_date = cell.string.strip()
-            elif headers[col_num] == 'Zeit':
-                tmp_time = cell.string.strip()
-            elif headers[col_num] == 'Bestätigte Fälle (kumuliert)':
-                data.cases = cell.string.strip()
-                data.cases = data.cases.replace("'", "")
-            elif headers[col_num] == 'Todesfälle (kumuliert)':
-                data.deaths = cell.string.strip()
-            elif headers[col_num] == 'Im Kanton Hospitalisierte Personen':
-                data.hospitalized = cell.string.strip()
-            elif headers[col_num] == 'Von Covid-19 Patienten belegte IPS-Betten':
-                data.icu = cell.string.strip()
-            col_num += 1
-        if data and tmp_date and tmp_time and not tmp_date.startswith('bis '):
-            data.datetime = f"{tmp_date} {tmp_time}".strip()
-            rows.append(data)
-
-
-# and scrape the main page as well
+# scrape the main page as well
 url = "https://corona.so.ch/bevoelkerung/daten/"
 d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
