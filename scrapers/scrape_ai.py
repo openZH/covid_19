@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
+import re
 import scrape_common as sc
 
 url = 'https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus'
 d = sc.download(url, silent=True)
+d = re.sub(r'(\d+)\'(\d+)', r'\1\2', d)
 
 """
 no separate date for hospitalizations on 2020-11-19
