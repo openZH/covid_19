@@ -15,7 +15,7 @@ jobs:
       matrix:
         canton:
           - AG
-#          - AI
+          - AI
           - AR
           - BE
           - BL
