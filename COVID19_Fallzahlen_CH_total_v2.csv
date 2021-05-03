@@ -10697,7 +10697,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-04-30,12:00,AI,,1004,,2,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,35,33,
 2021-04-30,14:30,ZH,,106579,,210,67,53,,1377,https://www.zh.ch/de/gesundheit/coronavirus.html,2880,5331,
 2021-05-01,,BL,,16952,,23,6,5,15859,218,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
-2021-05-01,,FR,,30779,,28,8,,902,479,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
+2021-05-01,,FR,,30778,,28,8,,902,479,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-01,,GE,,55882,,80,5,,,734,https://infocovid.smc.unige.ch/,1441,1820,559
 2021-05-01,,GR,,12832,,24,5,3,,185,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,312,371,
 2021-05-01,,JU,,6437,,9,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -10716,7 +10716,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-01,10:40,BS,,12031,,51,13,,11404,199,https://www.gesundheit.bs.ch,428,543,
 2021-05-01,14:30,ZH,,106872,,210,65,49,,1380,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-05-02,,BL,,16995,,24,4,3,15946,218,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
-2021-05-02,,FR,,30820,,28,7,,902,479,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
+2021-05-02,,FR,,30819,,28,7,,902,479,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-02,,GE,,55971,,77,7,,,735,https://infocovid.smc.unige.ch/,1339,1733,564
 2021-05-02,,GL,24240,,,,,,,,https://www.gl.ch/public/upload/assets/35756/Sentinella%20Bericht%20KW17.pdf,,,
 2021-05-02,,GR,,12853,,24,5,3,,185,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,268,323,
@@ -10738,6 +10738,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-03,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,36,55,14
 2021-05-03,,BL,,17033,,20,4,3,16025,218,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-05-03,,FL,,,,,,,,57,https://www.regierung.li/de/mitteilungen/227970/?typ=news,,45,
+2021-05-03,,FR,,30861,,28,9,,903,479,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-03,,GE,,56035,,76,7,,,735,https://infocovid.smc.unige.ch/,,,
 2021-05-03,,GL,,2614,,3,,,,73,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-03,,LU,,,,50,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,854,942,237
