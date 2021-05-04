@@ -10721,7 +10721,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-02,,GL,24240,,,,,,,,https://www.gl.ch/public/upload/assets/35756/Sentinella%20Bericht%20KW17.pdf,,,
 2021-05-02,,GR,,12853,,24,5,3,,185,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,268,323,
 2021-05-02,,JU,,6448,,10,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-05-02,,LU,,26692,,,,,,317,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-05-02,,LU,,26692,,,,,,319,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-05-02,,NE,,16373,,24,3,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-02,,NW,,2464,,6,1,,,22,http://www.nw.ch/coronastatistik,64,102,2
 2021-05-02,,SG,,39786,,56,14,11,,706,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10742,7 +10742,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-03,,GL,,2614,,3,,,,73,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-03,,GR,,12874,,24,7,5,,185,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,252,296,
 2021-05-03,,JU,,6460,,9,1,,,144,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-05-03,,LU,,,,50,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,854,942,237
+2021-05-03,,LU,,26806,,50,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,854,942,237
 2021-05-03,,NE,,16396,,19,4,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-03,,NW,,2469,,6,1,,,22,http://www.nw.ch/coronastatistik,58,93,2
 2021-05-03,,SG,,39859,,57,10,9,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -10753,7 +10753,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-03,00:00,FL,,2948,,7,,,2830,57,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,45,
 2021-05-03,00:00,OW,,2302,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,72,47,25
 2021-05-03,00:00,UR,,2957,,8,,,,47,https://www.ur.ch/themen/2962,,247,
-2021-05-03,08:00,AG,,45236,,69,13,,36655,689,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2006,2510,
+2021-05-03,08:00,AG,,45236,,69,13,,36655,689,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2006,2510,567
 2021-05-03,08:00,BE,,62487,,,,,,1053,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-03,09:00,SH,,4370,,9,3,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,95,122,90
 2021-05-03,09:00,SZ,,11218,,,,,10557,223,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -10764,8 +10764,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-04,,FL,,2948,,,,,,57,https://www.regierung.li/de/mitteilungen/227973/?typ=news,,42,
 2021-05-04,,GE,,56102,,,,,,735,https://infocovid.smc.unige.ch/,,,
 2021-05-04,,GL,,2625,,7,,,,73,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-05-04,,LU,,,,56,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,861,932,
 2021-05-04,,SO,,16888,,31,6,,,266,https://corona.so.ch/bevoelkerung/daten/,,,
-2021-05-04,,TI,,32328,,60,13,7,3319,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-05-04,,TI,,32328,,60,13,7,3319,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,333,618,
 2021-05-04,00:00,OW,,2303,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,49,43,26
 2021-05-04,08:00,BE,,62647,,,,,,1053,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-04,08:30,UR,,2968,,5,,,,47,https://www.ur.ch/themen/2962,,262,
