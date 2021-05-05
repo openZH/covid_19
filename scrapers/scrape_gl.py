@@ -33,7 +33,7 @@ if number_of_tests:
 
 
 content = sc.pdftotext(pdf, page=2, raw=True)
-dates = split_whitespace(sc.find(r'\n(\d+\.\d+\s+\d+\.\d+\s+.*)\nMassenquarant.ne', content))
+dates = split_whitespace(sc.find(r'\n(\d+\.\d+\s+\d+\.\d+\s+.*)\nEinreisequarant.ne', content))
 travel_q = split_whitespace(sc.find(r'\nEinreisequarant.ne\s+(\d.*)\n', content))
 isolation = split_whitespace(sc.find(r'\nIsolation\s+(\d.*)\n', content))
 quarantined = split_whitespace(sc.find(r'\nQuarant.ne\s+(\d.*)\n', content))
