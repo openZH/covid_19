@@ -10748,7 +10748,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-03,,LU,,26804,,50,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,854,942,237
 2021-05-03,,NE,,16420,,19,4,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-03,,NW,,2469,,6,1,,,22,http://www.nw.ch/coronastatistik,58,93,2
-2021-05-03,,SG,,39921,,57,10,9,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-05-03,,SG,,39924,,57,10,9,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-05-03,,SO,176645,16845,,28,5,,,266,https://corona.so.ch/fileadmin/corona/Bevoelkerung/Daten/Woechentlicher_Situationsbericht/0305_2021_Woechentlicher_Situationsbericht.pdf,528,1213,272
 2021-05-03,,TI,,32271,,62,13,10,3312,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-05-03,,VD,,80477,,145,21,,,999,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
@@ -10775,7 +10775,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-04,,LU,,26887,,56,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,861,932,256
 2021-05-04,,NE,,16453,,18,3,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-04,,NW,,2488,,3,1,,,23,http://www.nw.ch/coronastatistik,64,100,4
-2021-05-04,,SG,,40003,,51,9,8,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-05-04,,SG,,40041,,51,9,8,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-05-04,,SO,,16888,,31,6,,,266,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-05-04,,TI,,32328,,60,13,7,3319,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,333,618,
 2021-05-04,,VD,,80614,,131,23,,,1000,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/,,,
@@ -10801,6 +10801,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-05,,GR,,12955,,16,5,4,,187,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,283,336,
 2021-05-05,,LU,,,,53,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,870,953,256
 2021-05-05,,NW,,2495,,3,1,,,23,http://www.nw.ch/coronastatistik,64,124,4
+2021-05-05,,SG,,40105,,49,11,10,,707,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-05-05,,SO,,16965,,28,8,,,268,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-05-05,,TI,,32388,,60,11,7,3324,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-05-05,,VS,,36716,,28,7,5,,778,https://www.vs.ch/de/web/coronavirus,,,
@@ -10816,3 +10817,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-05,14:30,ZH,,107780,,196,55,40,,1383,https://www.zh.ch/de/gesundheit/coronavirus.html,2143,3847,
 2021-05-06,,GE,,56390,,,,,,741,https://infocovid.smc.unige.ch/,,,
 2021-05-06,00:00,UR,,3003,,5,,,,47,https://www.ur.ch/themen/2962,,219,
+2021-05-06,09:00,SZ,,11316,,,,,10779,224,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
