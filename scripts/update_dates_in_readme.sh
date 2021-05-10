@@ -18,6 +18,6 @@ do
     else
         color='de77ae'
     fi
-    sed -i -e "/\[$area\]/s#update on [^|]*|#update on $update_date_str](https://placehold.it/200x50/$color/000000?text=$update_date_str 'Last update on $update_date_str')|#" $DIR/../README.md
+    sed -i -e "/\[$area\]/s#update on [^|]*|#update on $update_date_str](https://placehold.jp/$color/000000/200x50.png?text=$update_date_str 'Last update on $update_date_str')|#" $DIR/../README.md
     echo "Update README for ${area} (date: ${update_date_str}, color: ${color})"
 done
