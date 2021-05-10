@@ -10864,7 +10864,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-07,00:00,FL,,2967,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,32,
 2021-05-07,00:00,OW,,2317,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,40,27,30
 2021-05-07,00:00,UR,,3024,,5,,,,47,https://www.ur.ch/themen/2962,,197,
-2021-05-07,08:00,AG,,45759,,69,16,,36945,690,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1943,2445,
+2021-05-07,08:00,AG,,45759,,69,16,,36945,690,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1943,2445,419
 2021-05-07,08:00,BE,,63199,,,,,,1053,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-07,08:00,ZG,,8103,,8,2,,7842,119,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,142,161,246
 2021-05-07,09:00,SH,,4413,,9,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,96,118,77
@@ -10896,6 +10896,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-09,,FR,,31155,,22,4,,912,484,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-09,,GE,,56886,,58,10,,,743,https://infocovid.smc.unige.ch/,1208,1743,567
 2021-05-09,,GR,,13076,,13,4,4,,187,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,251,370,
+2021-05-09,,JU,,6557,,8,0,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-05-09,,LU,,27299,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-05-09,,NE,,16648,,17,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-09,,NW,,2530,,5,2,,,23,http://www.nw.ch/coronastatistik,71,159,6
@@ -10911,6 +10912,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-09,11:40,BS,,12385,,41,8,,11780,200,https://www.gesundheit.bs.ch,405,421,
 2021-05-09,14:30,ZH,,108529,,149,49,36,,1384,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-05-10,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,46,58,8
+2021-05-10,,BL,,17388,,27,4,1,16534,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-05-10,,FL,,2974,,,,,,58,https://www.regierung.li/de/mitteilungen/227996/?typ=news,,29,
 2021-05-10,,GE,,56887,,,,,,743,https://infocovid.smc.unige.ch/,,,
 2021-05-10,,GL,,2654,,9,,,,73,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
