@@ -628,7 +628,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,15,2021,293,0,10276,116
 110,Bezirk Winterthur,171101,16,2021,317,1,10593,117
 110,Bezirk Winterthur,171101,17,2021,252,0,10845,117
-110,Bezirk Winterthur,171101,18,2021,202,0,11047,117
+110,Bezirk Winterthur,171101,18,2021,201,0,11046,117
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -691,7 +691,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,15,2021,219,0,7169,81
 111,Bezirk Dietikon,92275,16,2021,191,1,7360,82
 111,Bezirk Dietikon,92275,17,2021,133,1,7493,83
-111,Bezirk Dietikon,92275,18,2021,89,1,7582,84
+111,Bezirk Dietikon,92275,18,2021,90,1,7583,84
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -754,4 +754,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,15,2021,726,3,29177,437
 112,Bezirk Zürich,422870,16,2021,690,4,29867,441
 112,Bezirk Zürich,422870,17,2021,535,3,30402,444
-112,Bezirk Zürich,422870,18,2021,374,2,30776,446
+112,Bezirk Zürich,422870,18,2021,374,3,30776,447
