@@ -10931,7 +10931,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-10,00:00,FL,,2975,,3,,,2887,58,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,29,
 2021-05-10,00:00,OW,,2330,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,29,33,21
 2021-05-10,00:00,UR,,3089,,11,,,,47,https://www.ur.ch/themen/2962,,168,
-2021-05-10,08:00,AG,,46039,,83,17,,37165,690,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1861,2323,
+2021-05-10,08:00,AG,,46039,,83,17,,37165,690,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1861,2323,359
 2021-05-10,08:00,BE,,63540,,,,,,1055,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-10,08:00,ZG,,8132,,8,2,,7892,119,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,118,144,233
 2021-05-10,09:00,SZ,,11441,,,,,10853,224,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -10940,13 +10940,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-10,10:30,BS,,12411,,44,7,,11816,200,https://www.gesundheit.bs.ch,395,367,
 2021-05-10,12:00,AI,,1038,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,19,43,
 2021-05-10,14:30,ZH,,108662,,180,44,30,,1388,https://www.zh.ch/de/gesundheit/coronavirus.html,2051,3425,
-2021-05-11,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,47,59,
+2021-05-11,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,47,59,5
 2021-05-11,,FL,,2975,,,,,,58,https://www.regierung.li/de/mitteilungen/227998/?typ=news,,25,
 2021-05-11,,GE,,57032,,,,,,743,https://infocovid.smc.unige.ch/,,,
 2021-05-11,,GL,,2658,,8,,,,74,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-11,,LU,,,,53,,13,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,802,900,232
 2021-05-11,,SO,,17239,,25,4,,,270,https://corona.so.ch/bevoelkerung/daten/,,,
-2021-05-11,,TI,,32665,,43,9,7,3350,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-05-11,,TI,,32665,,43,9,7,3350,991,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,335,669,
 2021-05-11,00:00,OW,,2335,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,33,35,24
 2021-05-11,00:00,SH,,4460,,12,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,97,121,72
 2021-05-11,00:00,UR,,3095,,10,,,,48,https://www.ur.ch/themen/2962,,157,
