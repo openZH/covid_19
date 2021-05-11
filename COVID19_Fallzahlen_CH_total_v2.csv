@@ -10919,6 +10919,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-10,,GE,,57019,,54,11,,,743,https://infocovid.smc.unige.ch/,1160,1596,563
 2021-05-10,,GL,,2654,,9,,,,73,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-10,,GR,,13089,,14,4,4,,188,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,235,362,
+2021-05-10,,JU,,6575,,8,0,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-05-10,,LU,,,,58,,15,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,801,895,208
 2021-05-10,,NE,,16685,,14,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-10,,NW,,2544,,5,1,,,23,http://www.nw.ch/coronastatistik,74,135,1
@@ -10946,3 +10947,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-11,08:00,BE,,63635,,,,,,1055,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-11,08:00,ZG,,8147,,7,2,,7910,119,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-05-11,09:00,SZ,,11454,,,,,10950,224,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
+2021-05-11,10:30,BS,,12453,,39,7,,11872,200,https://www.gesundheit.bs.ch,381,441,
