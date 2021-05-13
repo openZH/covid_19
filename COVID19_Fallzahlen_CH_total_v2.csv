@@ -10975,6 +10975,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-12,,GE,,57252,,55,7,,,743,https://infocovid.smc.unige.ch/,1155,1543,509
 2021-05-12,,GL,,2671,,7,,,,74,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-12,,GR,,13127,,14,4,4,,188,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,215,294,
+2021-05-12,,JU,,6615,,6,0,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-05-12,,LU,,,,54,,15,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,816,880,232
 2021-05-12,,NW,,2565,,4,1,,,23,http://www.nw.ch/coronastatistik,85,131,11
 2021-05-12,,SO,,17301,,31,8,,,270,https://corona.so.ch/bevoelkerung/daten/,,,
