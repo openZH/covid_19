@@ -17,7 +17,7 @@ matrix = {
     'BE': ['Confirmed cases', 'Deaths'],
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
-    'FR': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'FR': ['Confirmed cases', 'Deaths'],
     'GE': [], # GE does not always provide the same numbers
     'GL': ['Confirmed cases', 'Deaths', 'Hospitalized'],
     'GR': ['Confirmed cases', 'Deaths', 'Hospitalized'],
