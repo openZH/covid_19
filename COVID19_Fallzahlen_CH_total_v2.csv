@@ -11143,6 +11143,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-19,,FR,,31673,,13,4,,926,486,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-19,,GE,,57796,,43,5,,,744,https://infocovid.smc.unige.ch/,,,
 2021-05-19,,GL,,2702,,1,,,,75,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-05-19,,GR,,13239,,10,4,3,,190,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,137,298,
 2021-05-19,,LU,,,,48,,14,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,596,828,208
 2021-05-19,,NW,,2613,,3,1,,,23,http://www.nw.ch/coronastatistik,64,92,5
 2021-05-19,,SO,,17543,,21,6,,,270,https://corona.so.ch/bevoelkerung/daten/,,,
