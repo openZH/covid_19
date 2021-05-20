@@ -11143,6 +11143,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-19,,GE,,57837,,43,5,,,744,https://infocovid.smc.unige.ch/,863,1015,540
 2021-05-19,,GL,,2702,,1,,,,75,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-19,,GR,,13239,,10,4,3,,190,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,137,298,
+2021-05-19,,JU,,6758,,3,1,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-05-19,,LU,,,,48,,14,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,596,828,208
 2021-05-19,,NE,,17014,,15,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-05-19,,NW,,2613,,3,1,,,23,http://www.nw.ch/coronastatistik,64,92,5
@@ -11172,3 +11173,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-20,09:00,SH,,4560,,9,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,103,138,46
 2021-05-20,09:00,SZ,,11670,,,,,11216,226,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-05-20,10:00,TG,,18458,0,18,7,,1109,449,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2021-05-20,10:40,BS,,12655,,20,5,,12223,202,https://www.gesundheit.bs.ch,230,216,
