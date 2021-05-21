@@ -11157,7 +11157,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-19,00:00,UR,,3167,,10,,,,49,https://www.ur.ch/themen/2962,,77,
 2021-05-19,08:00,AG,,46862,,44,10,,37670,697,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1738,2265,174
 2021-05-19,08:00,BE,,64690,,79,30,25,,1058,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
-2021-05-19,08:00,ZG,,8254,,5,3,,8042,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-05-19,08:00,ZG,,8254,,5,3,,8042,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,93,119,160
 2021-05-19,09:00,SH,,4551,,9,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,92,137,46
 2021-05-19,09:00,SZ,,11638,,,,,11187,226,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-05-19,10:00,TG,,18457,1,19,7,,1109,449,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,332,,
@@ -11183,12 +11183,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-20,00:00,OW,,2397,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,56,67,22
 2021-05-20,00:00,UR,,3175,,9,,,,49,https://www.ur.ch/themen/2962,,77,
 2021-05-20,08:00,BE,,64830,,,,,,1059,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
+2021-05-20,08:00,ZG,,8272,,7,2,,8058,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,96,127,
 2021-05-20,09:00,SH,,4560,,9,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,103,138,46
 2021-05-20,09:00,SZ,,11670,,,,,11216,226,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-05-20,10:00,TG,,18476,1,20,7,,1109,449,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,317,,
 2021-05-20,10:40,BS,,12655,,20,5,,12223,202,https://www.gesundheit.bs.ch,230,216,
 2021-05-20,14:30,ZH,,110353,,123,41,33,,1395,https://www.zh.ch/de/gesundheit/coronavirus.html,1246,2338,
-2021-05-21,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,62,34,
+2021-05-21,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,62,34,16
 2021-05-21,,FL,,2997,,,,,,58,https://www.regierung.li/de/mitteilungen/228021/?typ=news,,15,
 2021-05-21,,GE,,57918,,,,,,744,https://infocovid.smc.unige.ch/,,,
 2021-05-21,,GL,,2715,,2,,,,75,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
@@ -11197,7 +11198,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-21,00:00,OW,,2408,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,64,71,23
 2021-05-21,00:00,UR,,3191,,7,,,,49,https://www.ur.ch/themen/2962,,112,
 2021-05-21,08:00,BE,,64961,,,,,,1061,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
+2021-05-21,08:00,ZG,,8282,,6,2,,8065,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-05-21,09:00,SH,,4571,,9,4,,,76,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,108,138,44
 2021-05-21,09:00,SZ,,11711,,,,,11225,228,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-05-21,10:00,TG,,18485,0,20,7,,1109,449,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-05-21,10:40,BS,,12671,,16,4,,12265,202,https://www.gesundheit.bs.ch,204,207,
+2021-05-21,12:00,AI,,1105,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,46,73,
