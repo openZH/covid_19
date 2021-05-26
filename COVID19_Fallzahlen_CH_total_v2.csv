@@ -11283,7 +11283,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-25,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,45,56,17
 2021-05-25,,BL,,17797,,14,1,0,17244,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-05-25,,FL,,3002,,,,,,58,https://www.regierung.li/de/mitteilungen/228033/?typ=news,,25,
-2021-05-25,,FR,,31881,,10,3,,931,487,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
+2021-05-25,,FR,,31880,,10,3,,931,487,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-25,,GE,,58159,,34,4,,,744,https://infocovid.smc.unige.ch/,600,602,623
 2021-05-25,,GL,,2728,,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-25,,GR,,13322,,5,3,3,,190,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,138,189,
@@ -11307,9 +11307,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-25,11:00,BS,,12733,,14,4,,12338,203,https://www.gesundheit.bs.ch,192,193,
 2021-05-25,12:00,AI,,1124,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,59,131,
 2021-05-25,14:30,ZH,,110878,,111,43,29,,1400,https://www.zh.ch/de/gesundheit/coronavirus.html,994,2128,
-2021-05-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,47,62,
+2021-05-26,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,47,62,17
 2021-05-26,,BL,,17819,,12,2,0,17261,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-05-26,,FL,,3002,,,,,,58,https://www.regierung.li/de/mitteilungen/228037/?typ=news,,25,
+2021-05-26,,FR,,31930,,12,4,,931,487,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-05-26,,GE,,58179,,34,4,,,744,https://infocovid.smc.unige.ch/,,,
 2021-05-26,,GL,,2732,,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-05-26,,LU,,,,41,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,542,631,181
