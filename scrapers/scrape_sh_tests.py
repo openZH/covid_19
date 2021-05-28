@@ -42,7 +42,7 @@ for content_id in content_ids:
     td.end_date = date.isoformat()
 
     #content = sc.pdftotext(pdf, page=14)
-    for page in range(12, 16):
+    for page in range(10, 16):
         content = sc.pdftotext(pdf, page=page)
         # remove ' separator to simplify pattern matching
         content = re.sub(r'(\d)\’(\d)', r'\1\2', content)
