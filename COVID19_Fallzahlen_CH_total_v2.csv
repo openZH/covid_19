@@ -11384,11 +11384,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-28,12:00,AI,,1152,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,60,117,
 2021-05-28,14:30,ZH,,111269,,99,42,30,,1401,https://www.zh.ch/de/gesundheit/coronavirus.html,947,2256,
 2021-05-29,,BL,,17868,,8,0,0,17368,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
-2021-05-29,,FL,,3008,,,,,,,https://www.regierung.li/de/mitteilungen/228051/?typ=news,,,
 2021-05-29,,GE,,58377,,28,5,,,745,https://infocovid.smc.unige.ch/,478,533,522
 2021-05-29,,GR,,13384,,5,3,3,,191,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,118,183,
 2021-05-29,,NW,,2684,,2,0,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,53,114,8
 2021-05-29,,TI,,33038,,10,1,0,3400,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-05-29,00:00,FL,,3008,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-05-29,08:00,BE,,65649,,,,,,1066,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-29,10:40,BS,,12784,,12,2,,12417,204,https://www.gesundheit.bs.ch,163,140,
 2021-05-30,,GE,,58378,,,,,,745,https://infocovid.smc.unige.ch/,,,
+2021-05-30,,TI,,33050,,11,1,0,3400,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-05-30,08:00,BE,,65696,,,,,,1067,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
