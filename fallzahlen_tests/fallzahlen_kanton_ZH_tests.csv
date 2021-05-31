@@ -1,5 +1,5 @@
 canton,start_date,end_date,week,year,positive_tests,negative_tests,total_tests,positivity_rate,source,pcr_positive_tests,pcr_negative_tests,pcr_total_tests,pcr_positivity_rate,ag_positive_tests,ag_negative_tests,ag_total_tests,ag_positivity_rate
-ZH,2020-05-25,2020-05-31,22,,28,4955,,0.6,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
+ZH,2020-05-25,2020-05-31,22,,86,4955,,1.7,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
 ZH,2020-06-01,2020-06-07,23,,23,4937,,0.5,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
 ZH,2020-06-08,2020-06-14,24,,15,7111,,0.2,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
 ZH,2020-06-15,2020-06-21,25,,42,11385,,0.4,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
@@ -48,6 +48,7 @@ ZH,2021-04-05,2021-04-11,14,,2856,36010,,7.3,https://raw.githubusercontent.com/o
 ZH,2021-04-12,2021-04-18,15,,2888,35052,,7.6,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
 ZH,2021-04-19,2021-04-25,16,,2770,39610,,6.5,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
 ZH,2021-04-26,2021-05-02,17,,2107,34872,,5.7,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
-ZH,2021-05-03,2021-05-09,18,,1464,28575,,4.9,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
-ZH,2021-05-10,2021-05-16,19,,1133,31200,,3.5,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
-ZH,2021-05-17,2021-05-23,20,,1060,34888,,2.9,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
+ZH,2021-05-03,2021-05-09,18,,1463,28575,,4.9,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
+ZH,2021-05-10,2021-05-16,19,,1132,31189,,3.5,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
+ZH,2021-05-17,2021-05-23,20,,1059,34891,,2.9,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
+ZH,2021-05-24,2021-05-30,21,,692,27048,,2.5,https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_zh/COVID19_Anteil_positiver_Test_pro_KW.csv,,,,,,,,
