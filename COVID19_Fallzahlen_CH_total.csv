@@ -11400,7 +11400,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-29,10:00,TG,,18704,21,7,,1123,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-05-29,10:40,BS,,12784,12,2,,12417,204,https://www.gesundheit.bs.ch
 2021-05-30,,BL,,17872,8,0,0,17401,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2021-05-30,,FL,,3008,,,,,,https://www.regierung.li/de/mitteilungen/228052/?typ=news
 2021-05-30,,GE,,58393,31,6,,,745,https://infocovid.smc.unige.ch/
 2021-05-30,,GR,,13388,6,3,3,,191,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-05-30,,JU,,6960,4,1,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
@@ -11408,13 +11407,17 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-30,,NW,,2684,2,0,,,23,http://www.nw.ch/coronastatistik
 2021-05-30,,SG,,42027,39,7,7,,709,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-05-30,,TI,,33050,11,1,0,3400,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
+2021-05-30,00:00,FL,,3012,3,,,2933,58,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
 2021-05-30,08:00,BE,,65696,,,,,1067,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-05-30,09:00,SZ,,11926,,,,11431,232,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-05-30,10:00,TG,,18716,21,7,,1123,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-05-30,10:50,BS,,12796,11,2,,12436,204,https://www.gesundheit.bs.ch
+2021-05-31,,FL,,,,,,,58,https://www.regierung.li/de/mitteilungen/228053/?typ=news
 2021-05-31,,GE,,58408,,,,,745,https://infocovid.smc.unige.ch/
+2021-05-31,,GL,,2754,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-05-31,,SO,,17778,,2,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-05-31,00:00,UR,,3231,5,,,,49,https://www.ur.ch/themen/2962
+2021-05-31,08:00,BE,,65739,,,,,1067,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html
 2021-05-31,09:00,SH,,4718,7,4,,,77,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
 2021-05-31,09:00,SZ,,11938,,,,11446,232,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-05-31,10:00,TG,,18716,21,7,,1123,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
