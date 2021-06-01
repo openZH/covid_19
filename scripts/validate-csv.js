@@ -71,7 +71,7 @@ const validateSequentially = async csvFiles => {
             // check if cumulative field only increase
             cumulativeFields.forEach(function(col, col_idx) {
                 if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col])) {
-                    errors.push(`Row ${index+1}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
+                    errors.push(`Row ${index+2}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
                 }
                 if (item[col]) {
                     last[col] = item[col];
@@ -83,7 +83,7 @@ const validateSequentially = async csvFiles => {
             var date = item['date'];
             var dateObj = new Date(date);
             if (dateObj.getTime() > today.getTime()) {
-                errors.push(`Row ${index+1}: date ${date} is in the future.`);
+                errors.push(`Row ${index+2}: date ${date} is in the future.`);
             }
 
             // check if there is only one entry per area and date
@@ -92,7 +92,7 @@ const validateSequentially = async csvFiles => {
             }
             if (abbr in unique[date]) {
                 unique[date][abbr] += 1;
-                errors.push(`Row ${index+1}: duplicate entry for date ${date}`);
+                errors.push(`Row ${index+2}: duplicate entry for date ${date}`);
             } else {
                 unique[date][abbr] = 1;
             }
