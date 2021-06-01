@@ -11371,7 +11371,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-28,,LU,,28405,42,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-05-28,,NE,,17179,14,2,2,,403,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-05-28,,NW,,2680,2,0,,,23,http://www.nw.ch/coronastatistik
-2021-05-28,,SG,,41973,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-05-28,,SG,,41976,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-05-28,,SO,,17732,,2,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-05-28,,TI,,33021,15,1,0,3394,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-05-28,,VD,,83470,58,18,,,1012,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
@@ -11397,7 +11397,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-29,,LU,,28442,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-05-29,,NE,,17186,12,2,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-05-29,,NW,,2684,2,0,,,23,http://www.nw.ch/coronastatistik
-2021-05-29,,SG,,42012,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-05-29,,SG,,42016,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-05-29,,TI,,33038,10,1,0,3400,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-05-29,,VD,,83527,56,17,,,1012,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2021-05-29,,VS,,37811,16,4,3,,783,https://www.vs.ch/de/web/coronavirus
@@ -11418,7 +11418,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-30,,LU,,28469,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-05-30,,NE,,17187,12,2,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-05-30,,NW,,2684,2,0,,,23,http://www.nw.ch/coronastatistik
-2021-05-30,,SG,,42027,39,7,7,,709,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-05-30,,SG,,42040,39,7,7,,709,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-05-30,,TI,,33050,11,1,0,3400,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-05-30,,VD,,83552,57,16,,,1012,https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/
 2021-05-30,,VS,,37821,17,4,3,,783,https://www.vs.ch/de/web/coronavirus
@@ -11434,11 +11434,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-31,,BL,,17881,8,0,0,17435,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-05-31,,FL,,,,,,,58,https://www.regierung.li/de/mitteilungen/228053/?typ=news
 2021-05-31,,FR,,32099,10,4,,934,488,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
-2021-05-31,,GE,,58432,31,6,,,745,https://infocovid.smc.unige.ch/
+2021-05-31,,GE,,58458,31,6,,,745,https://infocovid.smc.unige.ch/
 2021-05-31,,GL,,2754,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-05-31,,GR,,13395,6,3,3,,191,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-05-31,,LU,,,43,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-05-31,,NW,,2686,2,0,,,23,http://www.nw.ch/coronastatistik
+2021-05-31,,SG,,42110,40,8,8,,709,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-05-31,,SO,,17778,,2,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-05-31,,VS,,37823,15,4,2,,783,https://www.vs.ch/de/web/coronavirus
 2021-05-31,00:00,OW,,2484,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962
@@ -11451,3 +11452,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-05-31,11:10,BS,,12796,11,1,,12453,204,https://www.gesundheit.bs.ch
 2021-05-31,12:00,AI,,1170,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-05-31,14:30,ZH,,111457,93,39,27,,1402,https://www.zh.ch/de/gesundheit/coronavirus.html
+2021-06-01,,GE,,58458,,,,,745,https://infocovid.smc.unige.ch/
+2021-06-01,00:00,UR,,3234,4,,,,49,https://www.ur.ch/themen/2962
+2021-06-01,09:00,SH,,4722,6,3,,,77,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html
+2021-06-01,09:00,SZ,,11962,,,,11462,232,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
