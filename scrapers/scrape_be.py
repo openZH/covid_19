@@ -1,48 +1,54 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup
+import csv
+from io import StringIO
 import re
 import scrape_common as sc
 
-html_url = 'https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html'
-d = sc.download(html_url, silent=True)
+url = 'https://covid-kennzahlen.apps.be.ch/#/de/cockpit'
 
-soup = BeautifulSoup(d, 'html.parser')
-for t in soup.find('caption', string=re.compile('Corona-Erkrankungen im Kanton Bern')).find_parents('table'):
-    headers = [" ".join(cell.stripped_strings) for cell in t.find('tr').find_all('th')]
+csv_url = 'https://raw.githubusercontent.com/openDataBE/covid19Data/develop/total_faelle.csv'
+d = sc.download(csv_url, silent=True)
+reader = csv.DictReader(StringIO(d), delimiter=',')
+is_first = True
+for row in reader:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
-    is_first = True
-    for row in [r for r in t.find_all('tr') if r.find_all('td')]:
-        if not is_first:
-            print('-' * 10)
-        is_first = False
+    dd = sc.DayData(canton='BE', url=url)
+    dd.datetime = row['datum']
+    dd.cases = row['total_laborbestaetigte_faelle']
+    dd.deaths = row['total_todesfaelle']
+    print(dd)
 
-        dd = sc.DayData(canton='BE', url=html_url)
+csv_url = 'https://raw.githubusercontent.com/openDataBE/covid19Data/develop/spa_auslastung.csv'
+d = sc.download(csv_url, silent=True)
+reader = csv.DictReader(StringIO(d), delimiter=',')
+is_first = True
+for row in reader:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
-        for col_num, cell in enumerate(row.find_all(['td'])):
-            value = " ".join(cell.stripped_strings)
-            if value:
-                value = value.replace("'", "")
-            if value and '*' in value and not '**' in value:
-                # the asteriks (*) indicates a not-current value
-                # ** means "Datenkorrektur"
-                continue
-            if value and '(' in value:
-                value = sc.find(r'(\d+)([\s<>br\w]*\(.*\))?', value)
+    dd = sc.DayData(canton='BE', url=url)
+    dd.datetime = row['datum']
+    dd.hospitalized = row['personen_hospitalisiert']
+    dd.vent = int(row['auf_intensivpflegestation_beatmet'])
+    dd.icu = int(row['auf_intensivpflegestation_unbeatmet']) + dd.vent
+    print(dd)
 
-            if headers[col_num] == 'Datum':
-                date_string = "".join(list(cell.stripped_strings)[0:-1])
-                time_string = list(cell.stripped_strings)[-1]
-                dd.datetime = f'{date_string} {time_string}'
-            elif headers[col_num] == 'Fälle positiv':
-                dd.cases = value
-            elif 'Todes' in headers[col_num]:
-                dd.deaths = value
-            elif headers[col_num] == 'Im Spital':
-                dd.hospitalized = value
-            elif 'beatmet' in headers[col_num]:
-                dd.vent = value
-            elif 'Intensiv' in headers[col_num] and 'gesamt' in headers[col_num]:
-                dd.icu = value
+csv_url = 'https://raw.githubusercontent.com/openDataBE/covid19Data/develop/contact_tracing.csv'
+d = sc.download(csv_url, silent=True)
+reader = csv.DictReader(StringIO(d), delimiter=',')
+is_first = True
+for row in reader:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
 
-        print(dd)
+    dd = sc.DayData(canton='BE', url=url)
+    dd.datetime = row['datum']
+    dd.quarantined = row['personen_in_quarantaene']
+    dd.isolated = row['personen_in_isolation']
+    print(dd)
