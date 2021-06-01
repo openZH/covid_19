@@ -11447,7 +11447,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-31,00:00,FL,,3012,,3,,,2934,58,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,19,
 2021-05-31,00:00,OW,,2484,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,55,71,16
 2021-05-31,00:00,UR,,3231,,5,,,,49,https://www.ur.ch/themen/2962,,31,
-2021-05-31,08:00,AG,,47397,,26,7,,38115,699,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1128,886,
+2021-05-31,08:00,AG,,47397,,26,7,,38115,699,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1128,886,275
 2021-05-31,08:00,BE,,65739,,,,,,1067,https://www.besondere-lage.sites.be.ch/de/start/news/fallzahlen.html,,,
 2021-05-31,08:00,ZG,,8351,,5,1,,8179,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-05-31,09:00,SH,,4718,,7,4,,,77,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,129,250,48
@@ -11455,8 +11455,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-05-31,10:00,TG,,18725,1,23,7,,1129,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,172,,
 2021-05-31,11:10,BS,,12796,,11,1,,12453,204,https://www.gesundheit.bs.ch,139,92,
 2021-05-31,12:00,AI,,1170,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,50,67,
-2021-05-31,14:30,ZH,,111457,,93,39,27,,1402,https://www.zh.ch/de/gesundheit/coronavirus.html,947,2256,
-2021-06-01,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,25,32,
+2021-05-31,14:30,ZH,,111457,,93,39,27,,1403,https://www.zh.ch/de/gesundheit/coronavirus.html,947,2256,
+2021-06-01,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,25,32,12
+2021-06-01,,BL,,17898,,7,0,0,17468,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-06-01,,FL,,3012,,,,,,58,https://www.regierung.li/de/mitteilungen/228059/?typ=news,,23,
 2021-06-01,,GE,,58471,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-06-01,,GL,,2768,,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
@@ -11468,3 +11469,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-01,10:00,TG,,18725,0,23,7,,1129,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-06-01,10:20,BS,,12810,,13,2,,12460,204,https://www.gesundheit.bs.ch,146,117,
 2021-06-01,12:00,AI,,1176,,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,49,58,
+2021-06-01,14:30,ZH,,111573,,81,37,30,,1403,https://www.zh.ch/de/gesundheit/coronavirus.html,752,1824,
