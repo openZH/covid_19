@@ -14,7 +14,7 @@ matrix = {
     'AG': [], # AG does not always provide the same numbers
     'AI': ['Confirmed cases', 'Deaths'],
     'AR': [], # TODO: AR removed the cases data on 2021-01-23
-    'BE': ['Confirmed cases', 'Deaths'],
+    'BE': [], # BE does not always provide the same numbers
     'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
     'FR': ['Confirmed cases', 'Deaths'],
@@ -47,7 +47,7 @@ matrix_time = [
     'AI',
     'AG',
     # 'AR',  # Not available anymore.
-    'BE',
+    # 'BE',  # Not available.
     # 'BL',  # Not available.
     'BS',
     # 'FR',  # Not available.
