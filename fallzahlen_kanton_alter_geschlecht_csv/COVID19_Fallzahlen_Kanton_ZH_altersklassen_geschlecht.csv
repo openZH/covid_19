@@ -1480,8 +1480,8 @@ Week,Year,Area,AgeYearCat,Gender,NewConfCases,NewDeaths,Source
 9,2021,Canton_ZH,40-49,M,15,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 9,2021,Canton_ZH,40-49,unbekannt,73,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 9,2021,Canton_ZH,50-59,F,94,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-9,2021,Canton_ZH,50-59,M,19,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-9,2021,Canton_ZH,50-59,unbekannt,80,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+9,2021,Canton_ZH,50-59,M,20,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+9,2021,Canton_ZH,50-59,unbekannt,79,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 9,2021,Canton_ZH,60-69,F,44,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 9,2021,Canton_ZH,60-69,M,4,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 9,2021,Canton_ZH,60-69,unbekannt,37,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -1863,7 +1863,7 @@ Week,Year,Area,AgeYearCat,Gender,NewConfCases,NewDeaths,Source
 21,2021,Canton_ZH,20-29,F,63,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,20-29,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,20-29,unbekannt,59,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-21,2021,Canton_ZH,30-39,F,71,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+21,2021,Canton_ZH,30-39,F,71,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,30-39,M,8,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,30-39,unbekannt,60,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,40-49,F,57,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -1873,9 +1873,9 @@ Week,Year,Area,AgeYearCat,Gender,NewConfCases,NewDeaths,Source
 21,2021,Canton_ZH,50-59,M,3,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,50-59,unbekannt,38,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,60-69,F,23,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-21,2021,Canton_ZH,60-69,M,3,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-21,2021,Canton_ZH,60-69,unbekannt,11,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-21,2021,Canton_ZH,70-79,F,7,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+21,2021,Canton_ZH,60-69,M,3,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+21,2021,Canton_ZH,60-69,unbekannt,11,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+21,2021,Canton_ZH,70-79,F,7,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,70-79,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,70-79,unbekannt,6,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 21,2021,Canton_ZH,80-89,F,6,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
