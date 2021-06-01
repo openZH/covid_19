@@ -13,6 +13,7 @@ soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
 
+"""
 container = soup.find('h2', string=re.compile(r'Isolamento e quarantena')).find_next('div')
 for item in container.find_all('div'):
     divs = item.find_all('div')
@@ -28,7 +29,7 @@ for item in container.find_all('div'):
                 print('-' * 10)
             is_first = False
             print(dd)
-
+"""
 
 xls_url = soup.find(href=re.compile("\.xlsx$")).get('href')
 assert xls_url, "URL is empty"
