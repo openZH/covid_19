@@ -19,10 +19,10 @@ for pdf_url in pdf_urls:
     date = sc.date_from_text(date)
     year1 = (date - datetime.timedelta(weeks=2)).year
     year2 = (date - datetime.timedelta(weeks=1)).year
-    res = re.match(r'.*Woche (\d+)\s+Woche (\d+)', content, re.DOTALL)
+    res = re.match(r'.*Woche (?P<w1>\d+)(\s+\(\d+\.\d+-\d+\.\d+\))?\s+Woche (?P<w2>\d+)\s+', content, re.DOTALL)
     assert res, 'Weeks could not be extracted'
-    week1 = res[1]
-    week2 = res[2]
+    week1 = res['w1']
+    week2 = res['w2']
 
     res = re.match(r'.*PCR-Tes\s?ts\s+(\d.*\n)?Total\s+\d+\s+\d+\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
     if not res:
