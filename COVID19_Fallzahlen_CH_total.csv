@@ -11521,11 +11521,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-06-02,10:00,TG,,18766,21,8,,1136,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-06-02,10:40,BS,,12835,15,2,,12470,204,https://www.gesundheit.bs.ch
 2021-06-02,13:00,AI,,1183,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
-2021-06-02,14:30,ZH,,111667,80,36,30,,1403,https://www.zh.ch/de/gesundheit/coronavirus.html
+2021-06-02,14:30,ZH,,111667,80,36,30,,1404,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-06-03,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
 2021-06-03,,BE,,65183,46,16,15,,1080,https://covid-kennzahlen.apps.be.ch/
 2021-06-03,,BL,,17924,4,0,0,17487,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
-2021-06-03,,GE,,58601,28,5,,,745,https://infocovid.smc.unige.ch/
+2021-06-03,,GE,,58602,28,5,,,745,https://infocovid.smc.unige.ch/
 2021-06-03,,GL,,2770,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-06-03,,GR,,13436,5,1,1,,191,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-06-03,,JU,,7018,1,1,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
@@ -11542,9 +11542,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-06-03,09:00,SZ,,12017,,,,11557,234,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-06-03,10:00,TG,,18770,21,8,,1136,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-06-03,10:40,BS,,12844,16,3,,12475,204,https://www.gesundheit.bs.ch
-2021-06-03,14:30,ZH,,111749,81,34,27,,1403,https://www.zh.ch/de/gesundheit/coronavirus.html
+2021-06-03,14:30,ZH,,111749,81,34,27,,1404,https://www.zh.ch/de/gesundheit/coronavirus.html
+2021-06-04,,AR,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/
+2021-06-04,,BL,,17939,4,1,0,17512,220,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft
 2021-06-04,,FL,,3019,,,,,,https://www.regierung.li/de/mitteilungen/228071/?typ=news
-2021-06-04,,GE,,58601,,,,,745,https://infocovid.smc.unige.ch/
+2021-06-04,,GE,,58603,,,,,745,https://infocovid.smc.unige.ch/
 2021-06-04,,GL,,2773,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-06-04,,LU,,,36,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-06-04,,SO,,17822,,2,,,,https://corona.so.ch/bevoelkerung/daten/
@@ -11556,3 +11558,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-06-04,10:00,TG,,18776,21,8,,1136,451,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-06-04,10:30,BS,,12860,16,4,,12498,204,https://www.gesundheit.bs.ch
 2021-06-04,13:00,AI,,1190,3,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
+2021-06-04,14:30,ZH,,111817,79,33,27,,1404,https://www.zh.ch/de/gesundheit/coronavirus.html
