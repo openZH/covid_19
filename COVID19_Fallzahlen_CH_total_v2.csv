@@ -11550,6 +11550,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-04,,GE,,58613,,,,,,745,https://infocovid.smc.unige.ch/,417,437,726
 2021-06-04,,GL,,2773,,1,,,,76,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-06-04,,GR,,13457,,4,1,1,,191,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,90,183,
+2021-06-04,,JU,,7029,,1,1,,,145,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-06-04,,LU,,,,36,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,399,417,152
 2021-06-04,,NW,,2701,,0,0,,,23,http://www.nw.ch/coronastatistik,,,
 2021-06-04,,SO,,17822,,,2,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -11565,7 +11566,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-04,14:30,ZH,,111817,,79,33,27,,1404,https://www.zh.ch/de/gesundheit/coronavirus.html,699,1758,
 2021-06-05,,FL,,3020,,,,,,,https://www.regierung.li/de/mitteilungen/228073/?typ=news,,,
 2021-06-05,,GE,,58617,,,,,,745,https://infocovid.smc.unige.ch/,,,
-2021-06-05,,NW,,2706,,0,0,,,23,http://www.nw.ch/coronastatistik,32,22,
+2021-06-05,,NW,,2706,,0,0,,,23,http://www.nw.ch/coronastatistik,32,22,17
 2021-06-05,,TI,,33116,,4,0,0,3410,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-06-05,09:00,SZ,,12055,,,,,11628,235,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-06-05,10:30,BS,,12873,,,,,12516,204,https://www.gesundheit.bs.ch,153,168,
