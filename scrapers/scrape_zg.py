@@ -96,5 +96,10 @@ for day in days:
     # handle wrong value on 2020-07-29
     if day == '2020-07-29 08:00:00':
         dd.recovered = None
+    
+    # TODO: remove when source is fixed
+    # handle wrong value on 2021-05-30
+    if day == '2021-05-30 08:00:00':
+        dd.recovered = None
 
     print(dd)
