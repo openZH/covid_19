@@ -35,5 +35,5 @@ for row in reader:
     week = date.isocalendar()[1]
     dd.week = week
     dd.year = date.year
-    dd.new_cases = round(float(row['7_d_inzidenz']) / 100e3 * float(row['einwohnerzahl']))
+    dd.new_cases = round(float(row['7_d_inzidenz']) / 100e3 * int(row['einwohnerzahl']))
     print(dd)
