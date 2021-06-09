@@ -31,6 +31,6 @@ for row in reader:
     dd.url = url
     dd.district_id = district_id
     dd.population = row['einwohnerzahl']
-    dd.date  = sc.date_from_text(row['datum'])
+    dd.date  = sc.date_from_text(row['datum']).date().isoformat()
     dd.new_cases = round(float(row['7_d_inzidenz']) / 100e3 * int(row['einwohnerzahl']))
     print(dd)
