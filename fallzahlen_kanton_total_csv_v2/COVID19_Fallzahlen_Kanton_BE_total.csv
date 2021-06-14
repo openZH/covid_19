@@ -48,7 +48,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-14,08:00,BE,,1528,,85,31,21,,65,https://covid-kennzahlen.apps.be.ch/,,,
 2020-04-15,08:00,BE,,1558,,82,30,18,,67,https://covid-kennzahlen.apps.be.ch/,,,
 2020-04-16,08:00,BE,,1580,,70,26,12,,68,https://covid-kennzahlen.apps.be.ch/,,,
-2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,324,1460,
+2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,301,1488,
 2020-04-18,08:00,BE,,1606,,71,22,12,,73,https://covid-kennzahlen.apps.be.ch/,,,
 2020-04-19,08:00,BE,,1616,,71,19,11,,73,https://covid-kennzahlen.apps.be.ch/,,,
 2020-04-20,08:00,BE,,1649,,66,17,11,,77,https://covid-kennzahlen.apps.be.ch/,,,
@@ -467,3 +467,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-09,,BE,,65405,,,,,,1086,https://covid-kennzahlen.apps.be.ch/,344,1531,
 2021-06-10,,BE,,65434,,33,12,10,,1086,https://covid-kennzahlen.apps.be.ch/,332,1513,
 2021-06-11,,BE,,,,,,,,,https://covid-kennzahlen.apps.be.ch/,328,1608,
+2021-06-12,,BE,,,,,,,,,https://covid-kennzahlen.apps.be.ch/,324,1460,
