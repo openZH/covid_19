@@ -15,7 +15,7 @@ matrix = {
     'AI': ['Confirmed cases', 'Deaths'],
     'AR': [], # TODO: AR removed the cases data on 2021-01-23
     'BE': [], # BE does not always provide the same numbers
-    'BL': ['Confirmed cases', 'Deaths', 'Released', 'Hospitalized', 'ICU'],
+    'BL': ['Hospitalized', 'ICU'], # BL does not always provide the same numbers
     'BS': ['Confirmed cases', 'Deaths', 'Released'],
     'FR': ['Confirmed cases', 'Deaths'],
     'GE': [], # GE does not always provide the same numbers
