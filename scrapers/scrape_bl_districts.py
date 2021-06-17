@@ -26,7 +26,7 @@ soup = BeautifulSoup(main_site, 'html.parser')
 for iframe in soup.find_all('iframe'):
     iframe_url = (iframe['src'])
 
-    if iframe_url.find('/dbw/123') <= 0:
+    if iframe_url.find('/dbw/360') <= 0:
         continue
 
     d = sc.download(iframe_url, silent=True)
