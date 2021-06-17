@@ -140,16 +140,20 @@ for iframe in soup.find_all('iframe'):
 
     d = d.replace('\n', ' ')
 
+
     # cases data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum, Bestätigte Fälle, Geheilte (?:geschätzt|kalkuliert), (?:Verstorbene|Todesfälle)\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Positive Fälle Kanton BL&quot;,&quot;Positive Fälle Kanton BS&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            row_date = c[0].replace('-', '.')
-            rows[row_date]['date'] = row_date
-            rows[row_date]['cases'] = c[1]
-            rows[row_date]['deaths'] = c[3]
-            rows[row_date]['recovered'] = c[2]
+            key, row_date = get_row_date(c[0])
+            rows[key]['date'] = row_date
+            rows[key]['cases'] = c[1]
+        continue
+
+    # daily cases data
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Fallzahl BL&quot;\s*([^<]+)</pre>', d)
+    if data:
         continue
 
     # hospitalization data
@@ -165,19 +169,14 @@ for iframe in soup.find_all('iframe'):
                 rows[key]['icu'] = c[2]
         continue
 
-    # death and recovered data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum, Geheilte kalkuliert, Aktive Fälle, Todesfälle\s*([^<]+)</pre>', d) or \
-        sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Geheilte \(kalkuliert\)&quot;,&quot;Aktive Fälle \(kalkuliert\)&quot;,&quot;Todesfälle&quot;\s*([^<]+)</pre>', d)
+    # death
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Todesfälle BL&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
-            if len(c) == 4:
-                key, row_date = get_row_date(c[0])
-                rows[key]['date'] = row_date
-                if c[1] or c[2] or c[3]:
-                    rows[key]['cases'] = int(c[1] or 0) + int(c[2] or 0) + int(c[3] or 0)
-                rows[key]['recovered'] = c[1]
-                rows[key]['deaths'] = c[3]
+            key, row_date = get_row_date(c[0])
+            rows[key]['date'] = row_date
+            rows[key]['deaths'] = c[1]
         continue
 
     # hospitalization data
@@ -208,7 +207,7 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # 14-Tage-Inzidenz Region
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14-Tage\)&quot;,&quot;Inzidenz BS \(14-Tage\)&quot;,&quot;Inzidenz Dorneck/Thierstein \(14-Tage\)&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14 Tage\)&quot;,&quot;Inzidenz BS \(14 Tage\)&quot;\s*([^<]+)</pre>', d)
     if data:
         # nothing to do here
         continue
