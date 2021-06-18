@@ -95,7 +95,7 @@ for district, district_id in district_ids.items():
     last_total_cases_val = initial_cases[district]
     if district == 'Arlesheim':
         # 2020-05-31 is 527
-        last_total_cases_val = 527
+        last_total_cases_val = 0
 
     for row_date, row in ordered_rows.items():
         dd = sc.DistrictData(canton='BL', district=district)
