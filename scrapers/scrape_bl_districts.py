@@ -76,26 +76,11 @@ population = {
     'Waldenburg': 16119,
 }
 
-# based on https://github.com/openZH/covid_19/issues/1185#issuecomment-709952315
-initial_cases = {
-    'Arlesheim': 528,
-    'Laufen': 65,
-    'Liestal': 177,
-    'Sissach': 81,
-    'Waldenburg': 15,
-}
-
 # order dict by key to ensure the most recent entry is last
 ordered_rows = OrderedDict(sorted(rows.items()))
 
-#for row_date, row in ordered_rows.items():
-#    for district, district_id in district_ids.items():
-
 for district, district_id in district_ids.items():
-    last_total_cases_val = initial_cases[district]
-    if district == 'Arlesheim':
-        # 2020-05-31 is 527
-        last_total_cases_val = 527
+    last_total_cases_val = 0
 
     for row_date, row in ordered_rows.items():
         dd = sc.DistrictData(canton='BL', district=district)
@@ -103,7 +88,7 @@ for district, district_id in district_ids.items():
         dd.population = population[district]
         dd.url = main_url
         dd.date = row['date']
-        dd.total_cases = row[district] + initial_cases[district]
+        dd.total_cases = row[district]
         dd.new_cases = dd.total_cases - last_total_cases_val
         last_total_cases_val = dd.total_cases
         print(dd)
