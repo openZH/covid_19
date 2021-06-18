@@ -78,11 +78,11 @@ population = {
 
 # based on https://github.com/openZH/covid_19/issues/1185#issuecomment-709952315
 initial_cases = {
-    'Arlesheim': 528,
-    'Laufen': 65,
-    'Liestal': 177,
-    'Sissach': 81,
-    'Waldenburg': 15,
+    'Arlesheim': 0,
+    'Laufen': 0,
+    'Liestal': 0,
+    'Sissach': 0,
+    'Waldenburg': 0,
 }
 
 # order dict by key to ensure the most recent entry is last
