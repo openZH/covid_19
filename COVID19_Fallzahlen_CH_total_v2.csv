@@ -11923,6 +11923,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-19,10:20,BS,,12946,,,,,12642,205,https://www.gesundheit.bs.ch,99,56,
 2021-06-20,,GR,,13588,,3,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,72,149,
 2021-06-20,,NW,,2736,,0,0,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,12,26,15
-2021-06-20,00:00,GE,,58880,,,,,,745,https://infocovid.smc.unige.ch/,,,
+2021-06-20,00:00,GE,,58881,,,,,,745,https://infocovid.smc.unige.ch/,137,75,475
 2021-06-20,09:00,SZ,,12270,,,,,11907,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-06-20,11:10,BS,,12948,,,,,12644,205,https://www.gesundheit.bs.ch,99,54,
+2021-06-21,00:00,GE,,58882,,,,,,745,https://infocovid.smc.unige.ch/,,,
+2021-06-21,09:00,SZ,,12281,,,,,11918,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
