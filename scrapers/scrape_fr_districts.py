@@ -43,9 +43,6 @@ d = d.replace('&nbsp;', ' ')
 
 soup = BeautifulSoup(d, 'html.parser')
 table = soup.find(string=re.compile(r'Anzahl positive F.lle nach Bezirk')).find_next('table')
-year_re = r'\(\d+\.\d+\.(\d+) bis'
-year = soup.find(string=re.compile(year_re))
-year = sc.find(year_re, year)
 
 weeks = []
 years = []
@@ -55,10 +52,7 @@ for header in trs[0]:
     week = sc.find(r'Woche (\d+)', header.string)
     if week is not None:
         weeks.append(week)
-        if int(week) > 50:
-            years.append('2020')
-        else:
-            years.append('2021')
+        years.append('2021')
 
 for tr in trs[1:]:
     tds = tr.find_all('td')
