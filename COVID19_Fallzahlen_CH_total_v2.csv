@@ -12101,11 +12101,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-26,10:40,BS,,12960,,,,,12724,205,https://www.gesundheit.bs.ch,31,34,
 2021-06-27,,GR,,13615,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,51,90,
 2021-06-27,,NW,,2737,,0,0,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,4,27,9
-2021-06-27,,SG,,42801,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-06-27,,SG,,42801,,3,1,1,,715,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-06-27,00:00,FL,,3034,,4,,,2959,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-06-27,00:00,GE,,58920,,,,,,745,https://infocovid.smc.unige.ch/,67,30,401
 2021-06-27,09:00,SZ,,12325,,,,,12003,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-06-27,10:30,BS,,12963,,,,,12728,205,https://www.gesundheit.bs.ch,30,34,
+2021-06-28,,FL,,3034,,,,,,59,https://www.regierung.li/de/mitteilungen/228128/?typ=news,,5,
 2021-06-28,00:00,GE,,58921,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-06-28,00:00,UR,,3264,,0,,,,50,https://www.ur.ch/themen/2962,,9,
 2021-06-28,09:00,SZ,,12328,,,,,12018,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
