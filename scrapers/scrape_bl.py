@@ -224,6 +224,10 @@ for iframe in soup.find_all('iframe'):
         # nothing to do here
         continue
 
+    if iframe_url.endswith('/383'):
+        # Stand vom ... iframe
+        continue
+
     # we should never reach here unless there is an unknown iframe
     raise Exception(f"issue parsing data in iframe {iframe_url}")
 
