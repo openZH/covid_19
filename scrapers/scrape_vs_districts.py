@@ -13,7 +13,7 @@ pdf = sc.download_content(url, silent=True)
 week, year = svc.get_vs_weekly_general_data(pdf)
 
 # second last page contains the district data
-page = int(sc.pdfinfo(pdf)) - 2
+page = int(sc.pdfinfo(pdf)) - 4
 content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 403, 420, 50], fixed=2)
 
 # strip everything including the "Anzahl Faelle" column + values
