@@ -59,7 +59,7 @@ def parse_xlsx():
     html_url = 'https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/point-de-situation-statistique-dans-le-canton-de-vaud/'
     d = sc.download(html_url, silent=True)
     soup = BeautifulSoup(d, 'html.parser')
-    xls_url = soup.find('a', string=re.compile("Donn.*es compl.*te.*", flags=re.I)).get('href')
+    xls_url = soup.find('a', string=re.compile("les donn.*es", flags=re.I)).get('href')
     assert xls_url, "URL is empty"
     xls = sc.xlsdownload(xls_url, silent=True)
     rows = [row for row in sc.parse_xls(xls, header_row=2) if isinstance(row['Date'], datetime.datetime)]
@@ -87,29 +87,14 @@ def parse_weekly_pdf():
     pdf_url = svc.get_weekly_pdf_url()
     pdf = sc.pdfdownload(pdf_url, silent=True)
 
-    """
-    29.07.2020
-    Concernant le traçage des contacts de cas positifs, le 27 juillet, 83 personnes étaient en isolement, 633 en quarantaine de contacts étroits et 901 en quarantaine de retour de voyage.
-    """
-
     dd = sc.DayData(canton='VD', url=pdf_url)
-    year= sc.find('Situation au \d+.*(20\d{2})', pdf)
-    date = sc.find('Concernant le traçage des contacts de cas positifs, le (\d+.*),', pdf)
-    if not date:
-        print("isolated/quarantined numbers missing in weekly PDF of VD", file=sys.stderr)
-        return
-    dd.datetime = date + ' ' + year
-    dd.isolated = sc.find('(\d+)\s(personnes|cas\spositifs)\sétaient\sen\sisolement', pdf)
-    dd.quarantined = text_to_int(sc.find('(\d.\d+|\d+)\scontacts\sétroits\sen\squarantaine\.', pdf))
+    dd.datetime = sc.find('Point .pid.miologique du (\d+\s+\w+\s+\d{4})', pdf)
+    dd.cases = text_to_int(sc.find('\s(\d+.\d+)\s+personnes ont .t. test.es positives au SARS-CoV-2.', pdf))
+    dd.hospitalized = sc.find('(\d+)\s+patients\s+sont\s+actuellement\s+hospitalis.s', pdf)
+    dd.icu = sc.find('dont\s+(\d+)\s+en\s+soins\s+intensifs', pdf)
+    assert dd
     print(dd)
-    print('-' * 10)
 
-    dd = sc.DayData(canton='VD', url=pdf_url)
-    date = sc.find('quarantaine. Le (\d+ .*),', pdf)
-    dd.datetime = date + ' ' + year
-    dd.quarantine_riskareatravel = text_to_int(sc.find(', (\d.\d+|\d+)\spersonnes\sétaient\sen\squarantaines?\ssuite\sà\sun\sretour\sde\svoyage.', pdf))
-    print(dd)
-    print('-' * 10)
 
 if __name__ == '__main__':
     parse_weekly_pdf()
