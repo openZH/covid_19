@@ -12197,7 +12197,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-06-30,,LU,,28929,,7,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,53,76,100
 2021-06-30,,NE,,17355,,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-06-30,,NW,,2735,,0,0,,,23,http://www.nw.ch/coronastatistik,3,12,4
-2021-06-30,,SG,,42820,,1,1,0,,715,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-06-30,,SG,,42821,,1,1,0,,715,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-06-30,,SO,,17970,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-06-30,,TI,,33246,,0,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-06-30,,VS,,38163,,6,3,2,,785,https://www.vs.ch/de/web/coronavirus,,,
@@ -12221,6 +12221,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-01,,GR,,13629,,1,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,42,82,
 2021-07-01,,LU,,,,6,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,61,80,76
 2021-07-01,,NW,,2735,,0,0,,,23,http://www.nw.ch/coronastatistik,3,11,3
+2021-07-01,,SG,,42830,,1,1,0,,715,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-01,,SO,,17973,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-01,,TI,,33254,,0,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-01,,VS,,38164,,6,3,2,,785,https://www.vs.ch/de/web/coronavirus,,,
