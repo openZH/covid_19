@@ -173,7 +173,7 @@ BS,2020-11-01,2020-11-01,,,60,300,360,16.7,https://data.bs.ch/explore/dataset/10
 BS,2020-11-02,2020-11-02,,,95,588,683,13.9,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,95,588,683,13.9,0,0,0,
 BS,2020-11-03,2020-11-03,,,104,627,731,14.2,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,104,627,731,14.2,0,0,0,
 BS,2020-11-04,2020-11-04,,,91,652,743,12.2,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,90,650,740,12.2,1,2,3,33.3
-BS,2020-11-05,2020-11-05,,,106,635,741,14.3,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,106,631,737,14.4,0,4,4,0.0
+BS,2020-11-05,2020-11-05,,,105,635,740,14.2,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,105,631,736,14.3,0,4,4,0.0
 BS,2020-11-06,2020-11-06,,,105,555,660,15.9,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,105,550,655,16.0,0,5,5,0.0
 BS,2020-11-07,2020-11-07,,,57,422,479,11.9,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,57,422,479,11.9,0,0,0,
 BS,2020-11-08,2020-11-08,,,54,220,274,19.7,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,54,220,274,19.7,0,0,0,
@@ -338,7 +338,7 @@ BS,2021-04-15,2021-04-15,,,62,958,1020,6.1,https://data.bs.ch/explore/dataset/10
 BS,2021-04-16,2021-04-16,,,64,883,947,6.8,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,63,682,745,8.5,1,201,202,0.5
 BS,2021-04-17,2021-04-17,,,30,524,554,5.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,26,399,425,6.1,4,125,129,3.1
 BS,2021-04-18,2021-04-18,,,22,261,283,7.8,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,17,219,236,7.2,5,42,47,10.6
-BS,2021-04-19,2021-04-19,,,91,994,1085,8.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,86,816,902,9.5,5,178,183,2.7
+BS,2021-04-19,2021-04-19,,,90,994,1084,8.3,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,85,816,901,9.4,5,178,183,2.7
 BS,2021-04-20,2021-04-20,,,77,955,1032,7.5,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,73,808,881,8.3,4,147,151,2.6
 BS,2021-04-21,2021-04-21,,,80,1012,1092,7.3,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,71,853,924,7.7,9,159,168,5.4
 BS,2021-04-22,2021-04-22,,,67,1104,1171,5.7,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,62,899,961,6.5,5,205,210,2.4
@@ -409,5 +409,6 @@ BS,2021-06-25,2021-06-25,,,3,622,625,0.5,https://data.bs.ch/explore/dataset/1000
 BS,2021-06-26,2021-06-26,,,5,491,496,1.0,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,4,323,327,1.2,1,168,169,0.6
 BS,2021-06-27,2021-06-27,,,1,276,277,0.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,1,248,249,0.4,0,28,28,0.0
 BS,2021-06-28,2021-06-28,,,3,687,690,0.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,2,511,513,0.4,1,176,177,0.6
-BS,2021-06-29,2021-06-29,,,2,888,890,0.2,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,2,730,732,0.3,0,158,158,0.0
-BS,2021-06-30,2021-06-30,,,4,924,928,0.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,4,618,622,0.6,0,306,306,0.0
+BS,2021-06-29,2021-06-29,,,2,891,893,0.2,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,2,730,732,0.3,0,161,161,0.0
+BS,2021-06-30,2021-06-30,,,4,983,987,0.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,4,673,677,0.6,0,310,310,0.0
+BS,2021-07-01,2021-07-01,,,4,1117,1121,0.4,https://data.bs.ch/explore/dataset/100094/download/?format=csv&timezone=Europe/Berlin&lang=en&use_labels_for_header=true&csv_separator=%3B,4,718,722,0.6,0,399,399,0.0
