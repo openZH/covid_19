@@ -12255,6 +12255,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-02,10:30,BS,,12970,,9,3,,12737,205,https://www.gesundheit.bs.ch,28,26,
 2021-07-02,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
 2021-07-02,14:30,ZH,,112732,,19,13,7,,1417,https://www.zh.ch/de/gesundheit/coronavirus.html,135,333,
+2021-07-03,,GR,,13641,,1,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,50,101,
 2021-07-03,,NW,,2735,,0,0,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,1,3,3
 2021-07-03,00:00,GE,,58989,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-03,00:00,UR,,3266,,0,,,,50,https://www.ur.ch/themen/2962,,10,
