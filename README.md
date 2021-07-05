@@ -85,7 +85,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
  Canton / FL | Last update (of any variable) | Important notes |
 |-------------|------------|------|
-|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-07-03](https://placehold.jp/de77ae/000000/200x50.png?text=2021-07-03 'Last update on 2021-07-03')||
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-07-04](https://placehold.jp/b8e186/000000/200x50.png?text=2021-07-04 'Last update on 2021-07-04')||
 |[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-06-30](https://placehold.jp/de77ae/000000/200x50.png?text=2021-06-30 'Last update on 2021-06-30')| |
 |[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AI_total.csv)|![Last update on 2021-07-02](https://placehold.jp/de77ae/000000/200x50.png?text=2021-07-02 'Last update on 2021-07-02')||
 |[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AR_total.csv)|![Last update on 2021-07-01](https://placehold.jp/de77ae/000000/200x50.png?text=2021-07-01 'Last update on 2021-07-01')|Since 2021-01-22 AR is not publishing <br />updated case numbers on its website anymore,<br />but referencing to FOPH.<br />You find respective data via FOPH's API:<br />https://www.covid19.admin.ch/api/data/context|
