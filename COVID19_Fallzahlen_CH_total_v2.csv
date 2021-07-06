@@ -12280,7 +12280,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-03,08:00,ZG,,8484,,0,0,,8331,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,37,63,76
 2021-07-03,09:00,SZ,,12354,,,,,12072,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-03,10:00,TG,,18974,0,5,0,,1162,455,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,38,,
-2021-07-03,10:30,BS,,12977,,,,,12741,205,https://www.gesundheit.bs.ch,31,38,
+2021-07-03,10:30,BS,,12977,,5,3,,12741,205,https://www.gesundheit.bs.ch,31,38,
 2021-07-03,14:30,ZH,,112760,,17,10,6,,1417,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-07-04,,BE,,65725,,8,4,3,,1092,https://covid-kennzahlen.apps.be.ch/,,,
 2021-07-04,,BL,,18239,,2,2,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -12298,7 +12298,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-04,08:00,ZG,,8493,,0,0,,8335,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,45,65,68
 2021-07-04,09:00,SZ,,12359,,,,,12078,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-04,10:00,TG,,18978,0,5,0,,1162,455,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,34,,
-2021-07-04,10:30,BS,,12982,,,,,12742,205,https://www.gesundheit.bs.ch,35,45,
+2021-07-04,10:30,BS,,12982,,4,2,,12742,205,https://www.gesundheit.bs.ch,35,45,
 2021-07-04,14:30,ZH,,112778,,17,10,6,,1417,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-07-05,,BE,,65743,,8,4,3,,1092,https://covid-kennzahlen.apps.be.ch/,,,
 2021-07-05,,BL,,,,1,1,0,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -12315,11 +12315,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-05,00:00,GE,,59028,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-05,00:00,OW,,2602,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,3,5,7
 2021-07-05,00:00,UR,,3266,,0,,,,50,https://www.ur.ch/themen/2962,,9,
-2021-07-05,08:00,ZG,,8497,,0,0,,8331,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-07-05,08:00,ZG,,8497,,0,0,,8331,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,45,63,69
 2021-07-05,09:00,SH,,4820,,0,0,,,78,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,15,14,3
 2021-07-05,09:00,SZ,,12363,,,,,12078,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-05,10:00,TG,,18978,0,5,0,,1162,455,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
-2021-07-05,10:30,BS,,12987,,,,,12743,205,https://www.gesundheit.bs.ch,39,53,
+2021-07-05,10:30,BS,,12987,,4,2,,12743,205,https://www.gesundheit.bs.ch,39,53,
 2021-07-05,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
 2021-07-05,14:30,ZH,,112806,,16,8,4,,1417,https://www.zh.ch/de/gesundheit/coronavirus.html,135,333,
 2021-07-06,,GL,,2816,,0,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
@@ -12331,3 +12331,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-06,08:00,ZG,,8514,,0,0,,8348,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-07-06,09:00,SH,,4822,,0,0,,,78,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,15,10,4
 2021-07-06,09:00,SZ,,12365,,,,,12090,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
+2021-07-06,10:20,BS,,12988,,3,2,,12746,205,https://www.gesundheit.bs.ch,37,48,
