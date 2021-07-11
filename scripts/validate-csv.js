@@ -47,6 +47,15 @@ const validateSequentially = async csvFiles => {
     ];
 
 
+  const csvCorrectionFilePath = path.resolve('correction_status.csv');
+  const parsedCorrection = await csv(csvCorrectionFilePath, headers);
+  let correction = {};
+  parsedCorrection.forEach(function (item, index) {
+      if (correction[item['date']] === undefined) {
+          correction[item['date']] = {};
+      }
+      correction[item['date']][item['abbreviation_canton_and_fl']] = item['column'];
+  });
 
   let failedChecks = 0;
 
@@ -68,16 +77,6 @@ const validateSequentially = async csvFiles => {
         var unique = {};
         var today = new Date();
         parsed.forEach(function (item, index) {
-            // check if cumulative field only increase
-            cumulativeFields.forEach(function(col, col_idx) {
-                if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col])) {
-                    errors.push(`Row ${index+2}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
-                }
-                if (item[col]) {
-                    last[col] = item[col];
-                }
-            });
-
             // check if date is in the future
             var abbr = item['abbreviation_canton_and_fl'];
             var date = item['date'];
@@ -85,6 +84,18 @@ const validateSequentially = async csvFiles => {
             if (dateObj.getTime() > today.getTime()) {
                 errors.push(`Row ${index+2}: date ${date} is in the future.`);
             }
+
+            // check if cumulative field only increase
+            cumulativeFields.forEach(function(col, col_idx) {
+	        const skip = correction[date] !== undefined && correction[date][abbr] === col;
+                if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col]) && !skip) {
+                    errors.push(`Row ${index+2}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
+                }
+                if (item[col]) {
+                    last[col] = item[col];
+                }
+            });
+
 
             // check if there is only one entry per area and date
             if (!(date in unique)) {
