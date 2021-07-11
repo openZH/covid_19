@@ -21,8 +21,10 @@ for row in rows:
     td.week = int(week)
     td.year = year
     td.pcr_total_tests = int(row['Tests PCR'])
-    td.pcr_positivity_rate = round(row['Taux/Rate PCR'] * 100)
+    if row['Taux/Rate PCR']:
+        td.pcr_positivity_rate = round(row['Taux/Rate PCR'] * 100)
     td.ag_total_tests = int(row['Tests AG'])
-    td.ag_positivity_rate = round(row['Taux/Rate AG'] * 100)
+    if row['Taux/Rate AG']:
+        td.ag_positivity_rate = round(row['Taux/Rate AG'] * 100)
     td.total_tests = td.pcr_total_tests + td.ag_total_tests
     print(td)
