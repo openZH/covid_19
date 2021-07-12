@@ -20,6 +20,7 @@ for row in rows:
     item = cols[0].text
     if re.match(r'positiv getestete personen.*', item, re.I):
         dd.cases = cols[1].text
+        dd.cases = dd.cases.replace('*', '')
     elif re.match(r'derzeit hospitalisiert', item, re.I):
         dd.hospitalized = cols[1].text
     elif re.match(r'davon auf der intensivstation', item, re.I):
