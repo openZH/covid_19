@@ -94,6 +94,7 @@ def parse_weekly_pdf():
     dd.icu = sc.find('dont\s+(\d+)\s+en\s+soins\s+intensifs', pdf)
     assert dd
     print(dd)
+    print('-' * 10)
 
 
 if __name__ == '__main__':
