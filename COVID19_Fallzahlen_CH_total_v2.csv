@@ -12412,7 +12412,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-09,,JU,,7140,,0,0,,,147,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-07-09,,LU,,29036,,6,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,105,99,53
 2021-07-09,,NW,,2742,,0,0,,,23,http://www.nw.ch/coronastatistik,5,7,2
-2021-07-09,,SG,,42978,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-09,,SG,,42979,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-09,,SO,,18006,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-09,,TI,,33349,,0,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-09,,VS,,38211,,6,2,2,,785,https://www.vs.ch/de/web/coronavirus,,,
@@ -12436,7 +12436,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-10,,JU,,7143,,0,0,,,147,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-07-10,,LU,,29047,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-07-10,,NW,,2744,,0,0,,,23,http://www.nw.ch/coronastatistik,7,6,1
-2021-07-10,,SG,,42991,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-10,,SG,,42992,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-10,,VS,,38224,,6,2,2,,785,https://www.vs.ch/de/web/coronavirus,,,
 2021-07-10,00:00,FL,,3057,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-10,00:00,GE,,59133,,,,,,745,https://infocovid.smc.unige.ch/,239,107,130
@@ -12473,7 +12473,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-12,,JU,,7145,,0,0,,,147,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-07-12,,LU,,29069,,5,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,119,110,53
 2021-07-12,,NW,,2745,,0,0,,,23,http://www.nw.ch/coronastatistik,8,4,2
-2021-07-12,,SG,,43024,,4,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-12,,SG,,43035,,4,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-12,,SO,,18018,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-12,,TI,,33386,,2,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-12,,VS,,38233,,7,3,2,,785,https://www.vs.ch/de/web/coronavirus,,,
@@ -12494,8 +12494,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-13,,GR,,13720,,1,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,73,98,
 2021-07-13,,LU,,,,11,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,124,113,33
 2021-07-13,,NW,,2749,,0,0,,,23,http://www.nw.ch/coronastatistik,9,5,2
+2021-07-13,,SG,,43055,,4,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-13,,SO,,18023,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-13,,TI,,33400,,3,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-07-13,00:00,FL,,3060,,4,,,2984,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-13,00:00,GE,,59236,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-13,00:00,OW,,2609,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,7,6,2
 2021-07-13,00:00,UR,,3266,,0,,,,50,https://www.ur.ch/themen/2962,,0,
