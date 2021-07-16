@@ -19782,7 +19782,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-14,,LU,,29121,,9,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,148,132,33
 2021-07-14,,NE,,17394,,2,1,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-14,,NW,,2750,,0,0,,,23,http://www.nw.ch/coronastatistik,11,6,2
-2021-07-14,,SG,,43092,,4,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-14,,SG,,43100,,4,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-14,,SO,,18032,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-14,,TI,,33438,,5,0,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-14,,VS,,38302,,5,3,2,,785,https://www.vs.ch/de/web/coronavirus,,,
@@ -19804,13 +19804,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-15,,GR,,13743,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,65,100,
 2021-07-15,,LU,,,,9,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,160,148,27
 2021-07-15,,NW,,2751,,0,0,,,23,http://www.nw.ch/coronastatistik,11,6,2
+2021-07-15,,SG,,43116,,5,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-15,,SO,,18040,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-15,,TI,,33475,,5,1,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-15,,VS,,38303,,5,3,2,,785,https://www.vs.ch/de/web/coronavirus,,,
 2021-07-15,00:00,GE,,59410,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-15,00:00,OW,,2612,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,8,18,0
 2021-07-15,00:00,UR,,3266,,0,,,,50,https://www.ur.ch/themen/2962,,0,
-2021-07-15,08:00,AG,,48112,,4,0,,47140,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,167,196,
+2021-07-15,08:00,AG,,48112,,4,0,,47140,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,167,196,66
 2021-07-15,08:00,ZG,,8611,,0,0,,8419,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,69,68,32
 2021-07-15,09:00,SH,,4838,,0,0,,,78,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,12,6,1
 2021-07-15,09:00,SZ,,12468,,,,,12133,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -19829,3 +19830,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-16,09:00,SZ,,12479,,,,,12137,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-16,10:00,TG,,19041,0,2,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-07-16,10:20,BS,,13104,,6,3,,12797,205,https://www.gesundheit.bs.ch,102,91,
+2021-07-16,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
