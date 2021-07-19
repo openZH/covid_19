@@ -19812,7 +19812,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-15,00:00,GE,,59414,,4,0,,,745,https://infocovid.smc.unige.ch/,523,272,102
 2021-07-15,00:00,OW,,2612,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,8,18,0
 2021-07-15,00:00,UR,,3266,,0,,,,50,https://www.ur.ch/themen/2962,,0,
-2021-07-15,08:00,AG,,48112,,4,0,,47140,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,167,196,66
+2021-07-15,08:00,AG,,48111,,4,0,,47140,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,167,196,66
 2021-07-15,08:00,ZG,,8611,,0,0,,8419,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,69,68,32
 2021-07-15,09:00,SH,,4838,,0,0,,,78,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,12,6,1
 2021-07-15,09:00,SZ,,12468,,,,,12133,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -19832,10 +19832,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-16,00:00,GE,,59490,,4,0,,,745,https://infocovid.smc.unige.ch/,549,275,94
 2021-07-16,00:00,OW,,2614,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,7,17,0
 2021-07-16,00:00,UR,,3267,,0,,,,50,https://www.ur.ch/themen/2962,,3,
+2021-07-16,08:00,AG,,48130,,2,0,,47150,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,160,204,
 2021-07-16,08:00,ZG,,8617,,2,0,,8427,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,70,59,35
 2021-07-16,09:00,SH,,4842,,1,0,,,78,https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Verwaltung/Departement-des-Innern/Gesundheitsamt-3209198-DE.html,11,5,1
 2021-07-16,09:00,SZ,,12479,,,,,12137,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
-2021-07-16,10:00,TG,,19048,0,3,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,48,,
+2021-07-16,10:00,TG,,19049,0,3,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,48,,
 2021-07-16,10:20,BS,,13104,,6,3,,12797,205,https://www.gesundheit.bs.ch,102,91,
 2021-07-16,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
 2021-07-16,14:30,ZH,,113839,,19,9,5,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,675,1356,
@@ -19845,9 +19846,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-17,,NW,,2755,,0,0,,,23,http://www.nw.ch/coronastatistik,11,10,2
 2021-07-17,,SG,,43179,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-17,00:00,GE,,59578,,,,,,745,https://infocovid.smc.unige.ch/,584,305,96
+2021-07-17,08:00,AG,,48154,,,,,47165,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-07-17,08:00,ZG,,8636,,2,0,,8445,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,73,59,34
 2021-07-17,09:00,SZ,,12503,,,,,12151,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
-2021-07-17,10:00,TG,,19049,0,3,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,42,,
+2021-07-17,10:00,TG,,19050,0,3,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,42,,
 2021-07-17,10:30,BS,,13116,,,,,12798,205,https://www.gesundheit.bs.ch,113,97,
 2021-07-18,,BE,,66131,,5,3,3,,1094,https://covid-kennzahlen.apps.be.ch/,,,
 2021-07-18,,GR,,13766,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,70,100,
@@ -19855,6 +19857,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-18,,NW,,2757,,0,0,,,23,http://www.nw.ch/coronastatistik,13,10,1
 2021-07-18,,SG,,43191,,2,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-18,00:00,GE,,59648,,,,,,745,https://infocovid.smc.unige.ch/,599,300,88
+2021-07-18,08:00,AG,,48178,,,,,47175,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-07-18,08:00,ZG,,8642,,2,0,,8448,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,70,59,31
 2021-07-18,09:00,SZ,,12517,,,,,12152,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-18,10:00,TG,,19056,0,3,0,,1173,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,42,,
