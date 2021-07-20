@@ -2,20 +2,64 @@
 # -*- coding: utf-8 -*-
 
 import re
+import sys
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+import pandas as pd
 import scrape_common as sc
 
 
-def sanitize_row(row):
-    # sanitize data:
-    # 2020-12-04 contains 'Non communiqué' entries, skip them for now
-    if not sc.represents_int(row.get('Nombre de cas actuellement hospitalisés')):
-        row['Nombre de cas actuellement hospitalisés'] = ''
-    if not sc.represents_int(row.get('Nombre de cas actuellement en soins intensifs')):
-        row['Nombre de cas actuellement en soins intensifs'] = ''
-    if not sc.represents_int(row.get('Nombre de nouveaux décès')):
-        row['Nombre de nouveaux décès'] = ''
-    return row
+def load_with_selenium(url):
+    options = Options()
+    options.headless = True
+    driver = webdriver.Firefox(options=options)
+
+    driver.get(url)
+    wait = WebDriverWait(driver, 10)
+    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "columnHeaders")))
+    wait.until(EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'date-slicer-input')]")))
+    begin = driver.find_element(By.XPATH, "//input[contains(@class, 'date-slicer-input')]")
+    begin.click()
+    begin.send_keys(Keys.CONTROL + "a")
+    begin.send_keys(Keys.DELETE)
+    begin.clear()
+    begin.send_keys("2/24/2020")
+    begin.send_keys(Keys.ENTER)
+    driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
+    time.sleep(5)
+    return driver
+
+def scrape_page_part(html):
+    table = BeautifulSoup(html, 'html.parser')
+
+    headers = [" ".join(cell.stripped_strings) for cell in table.find(class_='columnHeaders').find_all('div', class_='pivotTableCellWrap')]
+    assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
+    assert headers[0] == 'Date', f"Header changed to {headers[0]}"
+    assert headers[1] == 'Nouveaux cas', f"Header changed to {headers[1]}"
+    assert headers[2] == 'Cumul des cas confirmés', f"Header changed to {headers[2]}"
+    assert headers[3] == 'Cas actuellement hospitalisés', f"Header changed to {headers[3]}"
+    assert headers[4] == 'Cas actuellement en soins intensifs', f"Header changed to {headers[4]}"
+    assert headers[5] == 'Nouveaux décès', f"Header changed to {headers[5]}"
+    
+    columns = table.find(class_='bodyCells').find('div', recursive=False).find('div', recursive=False).findChildren('div', recursive=False)
+    assert len(columns) == 6, f"Number of columns changed: {len(columns)} != 6"
+
+    cols = {}
+    for i, col in enumerate(columns):
+        values = []
+        for cell in col.find_all('div'):
+            values.append(" ".join(cell.stripped_strings).strip())
+        cols[headers[i]] = values
+
+    rows = pd.DataFrame.from_dict(cols).to_dict('records')
+    return rows
 
 
 url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html'
@@ -24,37 +68,40 @@ d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-data_table = soup.find('caption', string=re.compile(r'Evolution du nombre de cas.*Jura')).find_parent('table')
-if data_table:
-    headers = [" ".join(cell.stripped_strings) for cell in data_table.find('tr').find_all(['td', 'th'])]
-    assert len(headers) == 6, f"Number of headers changed: {len(headers)} != 6"
+iframe = soup.find(string=re.compile(r'Evolution du nombre de cas.*Jura')).find_next('iframe')
+if iframe and iframe['src']:
+    driver = load_with_selenium(iframe['src'])
+
+    scroll = driver.find_elements(By.XPATH, "//div[contains(@class, 'scroll-bar-part-bar')]")[1]
     rows = []
-    for row in data_table.find_all('tr')[1:-1]:
-        data = {}
-        for col_num, cell in enumerate(row.find_all(['th', 'td'])):
-            content = " ".join(cell.stripped_strings).strip()
-            if content:
-                data[headers[col_num]] = content
-        rows.append(data)
+    last_rows = {}
+    # scrool through Power BI table
+    while True:
+        try:
+            current_rows = scrape_page_part(driver.page_source)
+            if current_rows == last_rows:
+                break
+            rows.extend(current_rows)
+            last_rows = current_rows
+            action = ActionChains(driver)
+            action.drag_and_drop_by_offset(scroll, 0, 20).perform()
+            time.sleep(2)
+        except Exception as e:
+            print("Error: %s" % e, file=sys.stderr)
+            break
+        finally:
+            driver.quit()
 
     if rows:
-        for row in rows[:-1]:
-            row = sanitize_row(row)
-
-        for i, row in enumerate(rows[:-1]):
-            if not row.get('Date') or row.get('Date') == 'Date':
-                continue
-
+        for i, row in enumerate(rows):
             if not is_first:
                 print('-' * 10)
             is_first = False
 
             dd = sc.DayData(canton='JU', url=url)
             dd.datetime = row.get('Date', '')
-            dd.datetime = dd.datetime.replace('1 er', '1')
-
             dd.cases = row.get('Cumul des cas confirmés')
-            dd.hospitalized = row.get('Nombre de cas actuellement hospitalisés')
-            dd.icu = row.get('Nombre de cas actuellement en soins intensifs')
-            dd.deaths = sum(int(str(r.get('Nombre de nouveaux décès', 0)).replace('*', '')) for r in rows[i:] if r.get('Nombre de nouveaux décès'))
+            dd.hospitalized = row.get('Cas actuellement hospitalisés')
+            dd.icu = row.get('Cas actuellement en soins intensifs')
+            dd.deaths = sum(int(str(r.get('Nouveaux décès', 0))) for r in rows[i:] if r.get('Nouveaux décès'))
             print(dd)
