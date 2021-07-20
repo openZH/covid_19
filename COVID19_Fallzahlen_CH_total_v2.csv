@@ -19804,6 +19804,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-15,,GL,,2840,,1,0,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,23,33,0
 2021-07-15,,GR,,13743,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,65,100,
 2021-07-15,,LU,,29156,,9,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,160,148,27
+2021-07-15,,NE,,17401,,2,1,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-15,,NW,,2751,,0,0,,,23,http://www.nw.ch/coronastatistik,11,6,2
 2021-07-15,,SG,,43134,,5,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-15,,SO,,18040,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -19826,6 +19827,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-16,,GL,,2844,,1,0,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,26,37,0
 2021-07-16,,GR,,13757,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,72,104,
 2021-07-16,,LU,,29197,,8,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,174,170,27
+2021-07-16,,NE,,17407,,3,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-16,,NW,,2754,,0,0,,,23,http://www.nw.ch/coronastatistik,9,6,2
 2021-07-16,,SG,,43162,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-16,,SO,,18048,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -19847,6 +19849,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-17,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/36840/Sentinella%20Bericht%20KW28.pdf,23,32,0
 2021-07-17,,GR,,13761,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,65,100,
 2021-07-17,,LU,,29225,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-07-17,,NE,,17417,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-17,,NW,,2755,,0,0,,,23,http://www.nw.ch/coronastatistik,11,10,2
 2021-07-17,,SG,,43183,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-17,00:00,GE,,59585,,,,,,745,https://infocovid.smc.unige.ch/,621,349,96
@@ -19862,6 +19865,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-18,,GL,32482,,,,0,,,,https://www.gl.ch/public/upload/assets/36840/Sentinella%20Bericht%20KW28.pdf,22,32,0
 2021-07-18,,GR,,13766,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,70,100,
 2021-07-18,,LU,,29252,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
+2021-07-18,,NE,,17419,,3,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-18,,NW,,2757,,0,0,,,23,http://www.nw.ch/coronastatistik,13,10,1
 2021-07-18,,SG,,43200,,2,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-18,00:00,GE,,59658,,,,,,745,https://infocovid.smc.unige.ch/,653,348,92
@@ -19877,6 +19881,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-19,,GL,,2852,,1,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-07-19,,GR,,13779,,4,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,66,97,
 2021-07-19,,LU,,,,10,,2,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,224,216,27
+2021-07-19,,NE,,17424,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-19,,NW,,2761,,0,0,,,23,http://www.nw.ch/coronastatistik,13,10,1
 2021-07-19,,SG,,43228,,5,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-19,,SO,,18083,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -19892,6 +19897,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-19,10:20,BS,,13142,,6,3,,12817,205,https://www.gesundheit.bs.ch,120,91,
 2021-07-19,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
 2021-07-19,14:30,ZH,,114209,,26,13,7,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,675,1356,
+2021-07-20,,GL,,2859,,1,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-07-20,,SO,,18099,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-20,,TI,,33557,,7,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-20,00:00,GE,,59761,,,,,,745,https://infocovid.smc.unige.ch/,,,
