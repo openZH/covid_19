@@ -3,3 +3,4 @@ node_modules
 scrapers/data.sqlite
 *.pyc
 boxplot.png
+geckodriver.log
