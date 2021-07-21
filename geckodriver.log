@@ -346,3 +346,378 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1626899382794	geckodriver	INFO	Listening on 127.0.0.1:57871
+1626899383561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef3c3R5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899392381	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef3c3R5/search.json.mozlz4", (void 0)))
+1626899397339	Marionette	INFO	Listening on port 43473
+1626899397804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899408638	Marionette	INFO	Stopped listening on port 43473
+1626899413148	geckodriver	INFO	Listening on 127.0.0.1:52073
+1626899413152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1LplSF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899413445	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1LplSF/search.json.mozlz4", (void 0)))
+1626899414845	Marionette	INFO	Listening on port 35035
+1626899414888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899424397	Marionette	INFO	Stopped listening on port 35035
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1626899429005	geckodriver	INFO	Listening on 127.0.0.1:48397
+1626899429011	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileleK9Qf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899429304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileleK9Qf/search.json.mozlz4", (void 0)))
+1626899430719	Marionette	INFO	Listening on port 33437
+1626899430837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899440160	Marionette	INFO	Stopped listening on port 33437
+1626899444673	geckodriver	INFO	Listening on 127.0.0.1:41949
+1626899444678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8fxWwe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899444975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8fxWwe/search.json.mozlz4", (void 0)))
+1626899446157	Marionette	INFO	Listening on port 35591
+1626899446205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899455342	Marionette	INFO	Stopped listening on port 35591
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899459878	geckodriver	INFO	Listening on 127.0.0.1:56903
+1626899459881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelFRCLv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899460149	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelFRCLv/search.json.mozlz4", (void 0)))
+1626899461259	Marionette	INFO	Listening on port 45115
+1626899461302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899470268	Marionette	INFO	Stopped listening on port 45115
+1626899474773	geckodriver	INFO	Listening on 127.0.0.1:59467
+1626899474778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0OntWC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899475045	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0OntWC/search.json.mozlz4", (void 0)))
+1626899476238	Marionette	INFO	Listening on port 39753
+1626899476299	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899485284	Marionette	INFO	Stopped listening on port 39753
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1626899489799	geckodriver	INFO	Listening on 127.0.0.1:45131
+1626899489803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX5HAuW"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899490063	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX5HAuW/search.json.mozlz4", (void 0)))
+1626899491193	Marionette	INFO	Listening on port 34301
+1626899491223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899500356	Marionette	INFO	Stopped listening on port 34301
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899504943	geckodriver	INFO	Listening on 127.0.0.1:40329
+1626899504949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg2VFxf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899505247	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg2VFxf/search.json.mozlz4", (void 0)))
+1626899506401	Marionette	INFO	Listening on port 33465
+1626899506471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899515883	Marionette	INFO	Stopped listening on port 33465
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899520394	geckodriver	INFO	Listening on 127.0.0.1:41189
+1626899521402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekOSHAu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899521677	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekOSHAu/search.json.mozlz4", (void 0)))
+1626899523088	Marionette	INFO	Listening on port 44841
+1626899523127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899532354	Marionette	INFO	Stopped listening on port 44841
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899536951	geckodriver	INFO	Listening on 127.0.0.1:44683
+1626899536956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei9QTnj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899537247	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei9QTnj/search.json.mozlz4", (void 0)))
+1626899538664	Marionette	INFO	Listening on port 38455
+1626899538779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899547919	Marionette	INFO	Stopped listening on port 38455
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1626899552499	geckodriver	INFO	Listening on 127.0.0.1:48127
+1626899552504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq1Logx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899552783	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq1Logx/search.json.mozlz4", (void 0)))
+1626899554194	Marionette	INFO	Listening on port 43887
+1626899554237	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899563363	Marionette	INFO	Stopped listening on port 43887
+1626899567877	geckodriver	INFO	Listening on 127.0.0.1:41169
+1626899568883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTrcspN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899569163	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTrcspN/search.json.mozlz4", (void 0)))
+1626899570300	Marionette	INFO	Listening on port 36463
+1626899570407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899579414	Marionette	INFO	Stopped listening on port 36463
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1626899583925	geckodriver	INFO	Listening on 127.0.0.1:48707
+1626899583931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileapKFxB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899584189	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileapKFxB/search.json.mozlz4", (void 0)))
+1626899585546	Marionette	INFO	Listening on port 46737
+1626899585653	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899594841	Marionette	INFO	Stopped listening on port 46737
+1626899599323	geckodriver	INFO	Listening on 127.0.0.1:51605
+1626899599327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg7d7aK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899599588	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg7d7aK/search.json.mozlz4", (void 0)))
+1626899600713	Marionette	INFO	Listening on port 38327
+1626899600759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899609877	Marionette	INFO	Stopped listening on port 38327
+1626899614378	geckodriver	INFO	Listening on 127.0.0.1:44931
+1626899615386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesc4Emy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899615659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesc4Emy/search.json.mozlz4", (void 0)))
+1626899616787	Marionette	INFO	Listening on port 43191
+1626899616811	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899625853	Marionette	INFO	Stopped listening on port 43191
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899630362	geckodriver	INFO	Listening on 127.0.0.1:34817
+1626899630366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejQiG12"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899630640	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejQiG12/search.json.mozlz4", (void 0)))
+1626899631759	Marionette	INFO	Listening on port 34549
+1626899631787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899640792	Marionette	INFO	Stopped listening on port 34549
+1626899645299	geckodriver	INFO	Listening on 127.0.0.1:55469
+1626899645305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDTdnx3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899645563	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDTdnx3/search.json.mozlz4", (void 0)))
+1626899646688	Marionette	INFO	Listening on port 34071
+1626899646724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899655660	Marionette	INFO	Stopped listening on port 34071
+1626899660151	geckodriver	INFO	Listening on 127.0.0.1:34125
+1626899660155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGbMbeG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899660417	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGbMbeG/search.json.mozlz4", (void 0)))
+1626899661626	Marionette	INFO	Listening on port 36509
+1626899661688	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899670661	Marionette	INFO	Stopped listening on port 36509
+1626899675178	geckodriver	INFO	Listening on 127.0.0.1:49795
+1626899675185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXWeFMl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899675451	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXWeFMl/search.json.mozlz4", (void 0)))
+1626899676573	Marionette	INFO	Listening on port 44363
+1626899676606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899685582	Marionette	INFO	Stopped listening on port 44363
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899690110	geckodriver	INFO	Listening on 127.0.0.1:49141
+1626899690116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileswX3oo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899690384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileswX3oo/search.json.mozlz4", (void 0)))
+1626899691408	Marionette	INFO	Listening on port 39111
+1626899691441	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899700468	Marionette	INFO	Stopped listening on port 39111
+1626899704995	geckodriver	INFO	Listening on 127.0.0.1:55179
+1626899705000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUhj9TI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899705260	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUhj9TI/search.json.mozlz4", (void 0)))
+1626899706389	Marionette	INFO	Listening on port 39633
+1626899706421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899715427	Marionette	INFO	Stopped listening on port 39633
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1626899719952	geckodriver	INFO	Listening on 127.0.0.1:59039
+1626899719958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1lO5yj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899720225	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1lO5yj/search.json.mozlz4", (void 0)))
+1626899721389	Marionette	INFO	Listening on port 41247
+1626899721477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899730566	Marionette	INFO	Stopped listening on port 41247
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899735144	geckodriver	INFO	Listening on 127.0.0.1:44079
+1626899735149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilertRqAp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899735418	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilertRqAp/search.json.mozlz4", (void 0)))
+1626899736556	Marionette	INFO	Listening on port 35137
+1626899736673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899745569	Marionette	INFO	Stopped listening on port 35137
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390143,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626899750093	geckodriver	INFO	Listening on 127.0.0.1:33277
+1626899750098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEwkvSX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1626899750368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEwkvSX/search.json.mozlz4", (void 0)))
+1626899751754	Marionette	INFO	Listening on port 40389
+1626899751824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626899760621	Marionette	INFO	Stopped listening on port 40389
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
