@@ -3,6 +3,7 @@
 import scrape_common as sc
 import sys
 import re
+import datetime
 from bs4 import BeautifulSoup
 
 
@@ -55,7 +56,11 @@ xls = sc.xlsdownload(history_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     dd_full_list = sc.DayData(canton='FL', url=history_url)
-    dd_full_list.datetime = row['Datenstand']
+    if isinstance(row['Datenstand'], datetime.datetime):
+        dd_full_list.datetime = row['Datenstand']
+    else:
+        dd_full_list.datetime = str(row['Datenstand']).replace(':', '.')
+        
     dd_full_list.cases = str(row['Anzahl pos. Fälle']).replace("'","")
     dd_full_list.recovered = row['genesen']
     dd_full_list.hospitalized = row['hospitalisiert']
