@@ -19800,6 +19800,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-15,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,6,1,
 2021-07-15,,BE,,66055,,5,3,3,,1094,https://covid-kennzahlen.apps.be.ch/,273,589,
 2021-07-15,,BL,,18368,,1,0,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,79,,
+2021-07-15,,FL,,3061,,2,,,2989,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-15,,FR,,32565,,3,0,,958,493,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-07-15,,GL,,2840,,1,0,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,23,33,0
 2021-07-15,,GR,,13743,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,65,100,
@@ -19833,6 +19834,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-16,,SO,,18048,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-16,,TI,,33492,,5,1,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-16,,VS,,38353,,2,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
+2021-07-16,00:00,FL,,3064,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-16,00:00,GE,,59493,,4,0,,,745,https://infocovid.smc.unige.ch/,597,314,94
 2021-07-16,00:00,OW,,2614,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,7,17,0
 2021-07-16,00:00,UR,,3267,,0,,,,50,https://www.ur.ch/themen/2962,,3,
@@ -19854,6 +19856,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-17,,NW,,2755,,0,0,,,23,http://www.nw.ch/coronastatistik,11,10,2
 2021-07-17,,SG,,43184,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-17,,VS,,38368,,2,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
+2021-07-17,00:00,FL,,3064,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-17,00:00,GE,,59585,,,,,,745,https://infocovid.smc.unige.ch/,665,386,96
 2021-07-17,08:00,AG,,48154,,,,,47165,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-07-17,08:00,ZG,,8636,,2,0,,8445,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,73,59,34
@@ -19872,6 +19875,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-18,,SG,,43201,,2,2,1,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-18,,VD,,85948,,,2,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20210720_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-07-18,,VS,,38372,,2,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
+2021-07-18,00:00,FL,,3069,,2,,,2994,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-18,00:00,GE,,59658,,,,,,745,https://infocovid.smc.unige.ch/,728,398,92
 2021-07-18,08:00,AG,,48178,,,,,47175,704,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-07-18,08:00,ZG,,8642,,2,0,,8448,121,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,70,59,31
@@ -19891,6 +19895,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-19,,SO,,18083,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-19,,TI,,33541,,7,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-19,,VS,,38373,,2,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
+2021-07-19,00:00,FL,,3069,,2,,,2994,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-19,00:00,GE,,59770,,9,1,,,745,https://infocovid.smc.unige.ch/,751,402,108
 2021-07-19,00:00,OW,,2617,,0,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,8,20,0
 2021-07-19,00:00,UR,,3271,,1,,,,50,https://www.ur.ch/themen/2962,,5,
@@ -19911,6 +19916,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-20,,SG,,43279,,4,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-20,,SO,,18099,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-20,,TI,,33557,,7,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-07-20,00:00,FL,,3070,,2,,,2995,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-20,00:00,GE,,59877,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-20,00:00,OW,,2619,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,9,19,0
 2021-07-20,00:00,UR,,3271,,1,,,,50,https://www.ur.ch/themen/2962,,5,
