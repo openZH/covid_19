@@ -26,12 +26,14 @@ def load_with_selenium(url):
     wait = WebDriverWait(driver, 10)
     wait.until(EC.presence_of_element_located((By.CLASS_NAME, "columnHeaders")))
     wait.until(EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'date-slicer-input')]")))
+    
+    # select the complete date range by setting 2020-02-24 as start date
     begin = driver.find_element(By.XPATH, "//input[contains(@class, 'date-slicer-input')]")
     begin.click()
     begin.send_keys(Keys.CONTROL + "a")
     begin.send_keys(Keys.DELETE)
     begin.clear()
-    begin.send_keys("2/24/2020")
+    begin.send_keys("2/24/2020") # 2020-02-24 is the date of the earliest data from JU
     begin.send_keys(Keys.ENTER)
     driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
     time.sleep(5)
@@ -73,8 +75,9 @@ iframe = soup.find(string=re.compile(r'Evolution du nombre de cas.*Jura')).find_
 if iframe and iframe['src']:
     rows = []
     last_rows = {}
-    # scrool through Power BI table
-
+    
+    # scroll through Power BI table
+    # each time the table is scrolled, a new slice of data is loaded in the table
     i = 0
     while True:
         try:
@@ -85,6 +88,7 @@ if iframe and iframe['src']:
 
             current_rows = scrape_page_part(driver.page_source)
             driver.quit()
+            # if we don't get new data after scrolling, we are at the end
             if current_rows == last_rows:
                 break
             rows.extend(current_rows)
