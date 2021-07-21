@@ -71,28 +71,30 @@ soup = BeautifulSoup(d, 'html.parser')
 is_first = True
 iframe = soup.find(string=re.compile(r'Evolution du nombre de cas.*Jura')).find_next('iframe')
 if iframe and iframe['src']:
-    driver = load_with_selenium(iframe['src'])
-
-    scroll = driver.find_elements(By.XPATH, "//div[contains(@class, 'scroll-bar-part-bar')]")[1]
     rows = []
     last_rows = {}
     # scrool through Power BI table
+
+    i = 0
     while True:
         try:
+            driver = load_with_selenium(iframe['src'])
+            scroll = driver.find_elements(By.XPATH, "//div[contains(@class, 'scroll-bar-part-bar')]")[1]
+            action = ActionChains(driver)
+            action.drag_and_drop_by_offset(scroll, 0, i * 20).perform()
+
             current_rows = scrape_page_part(driver.page_source)
+            driver.quit()
             if current_rows == last_rows:
                 break
             rows.extend(current_rows)
             last_rows = current_rows
-            action = ActionChains(driver)
-            action.drag_and_drop_by_offset(scroll, 0, 20).perform()
-            time.sleep(5)
+            time.sleep(2)
         except Exception as e:
             print("Error: %s" % e, file=sys.stderr)
             print(traceback.format_exc(), file=sys.stderr)
             break
-        finally:
-            driver.quit()
+        i += 1
 
     if rows:
         for i, row in enumerate(rows):
