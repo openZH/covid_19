@@ -57,7 +57,7 @@ for row in rows:
     dd_full_list = sc.DayData(canton='FL', url=history_url)
     if isinstance(row['Datenstand'], datetime.datetime):
         dd_full_list.datetime = row['Datenstand']
-    else
+    else:
         dd_full_list.datetime = str(row['Datenstand']).replace(':', '.')
         
     dd_full_list.cases = str(row['Anzahl pos. Fälle']).replace("'","")
