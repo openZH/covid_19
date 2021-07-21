@@ -3,6 +3,7 @@
 
 import re
 import sys
+import traceback
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -85,9 +86,10 @@ if iframe and iframe['src']:
             last_rows = current_rows
             action = ActionChains(driver)
             action.drag_and_drop_by_offset(scroll, 0, 20).perform()
-            time.sleep(2)
+            time.sleep(5)
         except Exception as e:
             print("Error: %s" % e, file=sys.stderr)
+            print(traceback.format_exc(), file=sys.stderr)
             break
         finally:
             driver.quit()
