@@ -19969,7 +19969,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-22,,GL,,2875,,2,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-07-22,,GR,,13829,,3,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,102,118,
 2021-07-22,,JU,,7165,,0,0,,,137,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-07-22,,LU,,,,8,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,334,270,32
+2021-07-22,,LU,,29443,,8,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,334,270,32
 2021-07-22,,NW,,2772,,0,0,,,23,http://www.nw.ch/coronastatistik,21,17,1
 2021-07-22,,SG,,43355,,4,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-22,,SO,,18119,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -19986,6 +19986,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-22,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
 2021-07-22,14:30,ZH,,114821,,32,10,6,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,1151,2453,
 2021-07-23,,GL,,2883,,3,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-07-23,,LU,,,,9,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,364,274,
 2021-07-23,,SO,,18135,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-23,,TI,,33646,,11,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-23,00:00,GE,,60128,,,,,,745,https://infocovid.smc.unige.ch/,,,
@@ -19995,3 +19996,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-23,09:00,SZ,,12576,,,,,12227,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-07-23,10:00,TG,,19104,0,1,0,,1175,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-07-23,10:30,BS,,13216,,7,3,,12883,205,https://www.gesundheit.bs.ch,128,111,
+2021-07-23,12:00,AI,,1238,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,0,0,
