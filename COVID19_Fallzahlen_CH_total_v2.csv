@@ -19947,7 +19947,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-21,,LU,,29396,,9,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,294,273,28
 2021-07-21,,NE,,17454,,2,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-21,,NW,,2771,,0,0,,,23,http://www.nw.ch/coronastatistik,21,17,1
-2021-07-21,,SG,,43322,,5,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-21,,SG,,43336,,5,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-21,,SO,,18106,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-21,,TI,,33600,,8,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-21,,VS,,38464,,2,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
@@ -19969,6 +19969,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-22,,GR,,13829,,3,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,102,118,
 2021-07-22,,LU,,,,8,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,334,270,32
 2021-07-22,,NW,,2772,,0,0,,,23,http://www.nw.ch/coronastatistik,21,17,1
+2021-07-22,,SG,,43355,,4,2,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-07-22,,SO,,18119,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-22,,TI,,33614,,8,2,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-22,,VS,,38465,,3,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
