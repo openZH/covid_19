@@ -20011,6 +20011,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-07-24,00:00,GE,,60321,,,,,745,https://infocovid.smc.unige.ch/
 2021-07-24,09:00,SZ,,12589,,,,12236,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-07-24,11:30,BS,,13239,,,,12906,205,https://www.gesundheit.bs.ch
+2021-07-25,,GR,,13873,5,1,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-07-25,,NW,,2777,3,0,,,23,https://www.nw.ch/gesundheitsamtdienste/6044
 2021-07-25,00:00,GE,,60321,,,,,745,https://infocovid.smc.unige.ch/
 2021-07-25,09:00,SZ,,12608,,,,12258,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
