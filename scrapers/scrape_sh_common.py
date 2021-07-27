@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import json
+import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
@@ -59,3 +61,11 @@ def get_sh_url_from_json(url):
     meta = json.loads(m['data_filemeta'])
     url = f"https://sh.ch{meta['url']}"
     return url
+
+def get_sh_xlsx():
+    main_url = 'https://coviddashboard.sh.ch/'
+    content = sc.download(main_url, silent=True)
+    soup = BeautifulSoup(content, 'html.parser')
+    link = soup.find('a', href=re.compile(r'.*\.xlsx'))
+    xls = sc.xlsdownload(link.get('href'), silent=True)
+    return main_url, xls
