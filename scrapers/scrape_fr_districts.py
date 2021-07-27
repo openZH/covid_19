@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import csv
+from io import StringIO
 import re
 from bs4 import BeautifulSoup
 import scrape_common as sc
-from scrape_fr_common import get_fr_xls
+from scrape_fr_common import get_fr_csv
 
 inhabitants = {
     'Broye': 32894,
@@ -72,17 +74,20 @@ for tr in trs[1:]:
             print(dd)
 
 
-# daily data from xls
-xls_url, xls, main_url = get_fr_xls()
-rows = sc.parse_xls(xls, header_row=0)
-for row in rows:
-    row_date = row.search(r'.*Date.*')
+# daily data from csv
+csv_url, csv_data, main_url = get_fr_csv()
+reader = csv.DictReader(StringIO(csv_data), delimiter=';')
+
+for row in reader:
+    row_date = row['Date / Datum']
+    row_date = sc.date_from_text(row_date)
     for district, d_id in district_ids.items():
-        district_cell = row.search(r'.*' + district + '.*')
-        dd = sc.DistrictData(canton='FR', district=district)
-        dd.url = url
-        dd.date = row_date.date().isoformat()
-        dd.new_cases = district_cell
-        dd.population = inhabitants[district]
-        dd.district_id = d_id
-        print(dd)
+        for key, val in row.items():
+            if sc.find(r'.*(' + district + ').*', key):
+                dd = sc.DistrictData(canton='FR', district=district)
+                dd.url = url
+                dd.date = row_date.isoformat()
+                dd.new_cases = val
+                dd.population = inhabitants[district]
+                dd.district_id = d_id
+                print(dd)
