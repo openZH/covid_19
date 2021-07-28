@@ -18,7 +18,7 @@ jobs:
           - BL
           - BS
           - FL
-          - FR
+#          - FR # no more data published anymore
           - GE
           - GL
 #          - JU #disable until PDF is fixed
