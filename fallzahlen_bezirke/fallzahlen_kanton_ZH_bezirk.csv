@@ -590,7 +590,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 108,Bezirk Pfäffikon,60703,26,2021,5,0,4297,53
 108,Bezirk Pfäffikon,60703,27,2021,8,0,4305,53
 108,Bezirk Pfäffikon,60703,28,2021,21,0,4326,53
-108,Bezirk Pfäffikon,60703,29,2021,42,0,4368,53
+108,Bezirk Pfäffikon,60703,29,2021,41,0,4367,53
 109,Bezirk Uster,131422,9,2020,0,0,0,0
 109,Bezirk Uster,131422,10,2020,1,0,1,0
 109,Bezirk Uster,131422,11,2020,11,0,12,0
@@ -738,7 +738,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,26,2021,17,0,11675,118
 110,Bezirk Winterthur,171101,27,2021,36,0,11711,118
 110,Bezirk Winterthur,171101,28,2021,82,0,11793,118
-110,Bezirk Winterthur,171101,29,2021,72,0,11865,118
+110,Bezirk Winterthur,171101,29,2021,73,0,11866,118
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -886,4 +886,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,26,2021,46,0,31855,452
 112,Bezirk Zürich,422870,27,2021,121,1,31976,453
 112,Bezirk Zürich,422870,28,2021,315,0,32291,453
-112,Bezirk Zürich,422870,29,2021,351,0,32642,453
+112,Bezirk Zürich,422870,29,2021,352,0,32643,453
