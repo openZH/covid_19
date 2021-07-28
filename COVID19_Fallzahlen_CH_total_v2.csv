@@ -20028,7 +20028,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-24,10:00,TG,,19134,2,3,0,,1175,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,78,,
 2021-07-24,11:30,BS,,13239,,9,3,,12906,205,https://www.gesundheit.bs.ch,128,98,
 2021-07-24,14:30,ZH,,115110,,35,13,6,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-07-25,,BE,,66460,,10,2,2,,1097,https://covid-kennzahlen.apps.be.ch/,294,637,
+2021-07-25,,BE,,66461,,10,2,2,,1097,https://covid-kennzahlen.apps.be.ch/,294,637,
 2021-07-25,,BL,,18568,,1,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-07-25,,GL,33441,,,,0,,,,https://www.gl.ch/public/upload/assets/36917/Sentinella%20Bericht%20KW29.pdf,39,34,0
 2021-07-25,,GR,,13873,,5,1,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,125,133,
@@ -20037,6 +20037,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-25,,NE,,17499,,4,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-25,,NW,,2777,,3,0,,,23,http://www.nw.ch/coronastatistik,17,17,2
 2021-07-25,,SG,,43433,,4,0,0,,717,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-07-25,,VD,,86403,,,2,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20210725_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-07-25,,VS,,38544,,3,1,0,,785,https://www.vs.ch/de/web/coronavirus,,,
 2021-07-25,00:00,FL,,3076,,2,,,3000,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-07-25,00:00,GE,,60415,,,,,,745,https://infocovid.smc.unige.ch/,1153,554,79
@@ -20046,7 +20047,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-25,10:00,TG,,19143,0,3,0,,1175,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,74,,
 2021-07-25,10:30,BS,,13250,,9,2,,12911,205,https://www.gesundheit.bs.ch,134,104,
 2021-07-25,14:30,ZH,,115211,,33,12,7,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-07-26,,BE,,66488,,10,2,2,,1097,https://covid-kennzahlen.apps.be.ch/,306,624,
+2021-07-26,,BE,,66514,,10,2,2,,1097,https://covid-kennzahlen.apps.be.ch/,306,624,
 2021-07-26,,BL,,18598,,1,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-07-26,,GL,,2900,,4,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-07-26,,GR,,13896,,5,2,1,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,145,153,
@@ -20068,6 +20069,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-26,10:00,TG,,19159,0,3,0,,1175,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,79,,
 2021-07-26,10:30,BS,,13263,,10,2,,12919,205,https://www.gesundheit.bs.ch,139,119,
 2021-07-26,14:30,ZH,,115297,,34,13,5,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,1151,2453,
+2021-07-27,,BE,,66538,,13,4,2,,1097,https://covid-kennzahlen.apps.be.ch/,,,
 2021-07-27,,BL,,,,1,1,0,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-07-27,,GL,,2904,,4,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-07-27,,GR,,13920,,5,2,1,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,140,170,
@@ -20086,6 +20088,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-27,10:30,BS,,13292,,9,2,,12932,205,https://www.gesundheit.bs.ch,155,116,
 2021-07-27,12:00,AI,,1242,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,2,1,
 2021-07-27,14:30,ZH,,115516,,38,14,10,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,1121,2455,
+2021-07-28,,SO,,18225,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-07-28,,TI,,33781,,12,4,0,,995,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-07-28,00:00,GE,,60600,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-07-28,00:00,UR,,3279,,1,,,,50,https://www.ur.ch/themen/2962,,3,
