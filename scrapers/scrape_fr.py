@@ -1,40 +1,36 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import csv
+from io import StringIO
 import datetime
 import sys
 import scrape_common as sc
-from scrape_fr_common import get_fr_xls
+from scrape_fr_common import get_fr_csv
 
-xls_url, xls, main_url = get_fr_xls()
-rows = sc.parse_xls(xls, header_row=0)
+
+csv_url, csv_data, main_url = get_fr_csv()
+reader = csv.DictReader(StringIO(csv_data), delimiter=';')
 is_first = True
 
-col_info = (
-    (r'.*Total cas avérés.*', 'Confirmed cases'),
-    (r'.*Personnes hospitalisées.*', 'Hospitalized'),
-    (r'.*aux soins intensifs.*', 'ICU'),
-    (r'.*Total décès.*', 'Deaths'),
-    (r'.*Total Sorties de l\'hôpital.*', 'Recovered')
-)
-
-for row in rows:
-    row_date = row.search(r'.*Date.*')
-
-    if not isinstance(row_date, datetime.datetime):
-        print(f"WARNING: {row_date} is not a valid date, skipping.", file=sys.stderr)
-        continue
-
+for row in reader:
     if not is_first:
         print('-' * 10)
     is_first = False
 
-    print('FR')
-    sc.timestamp()
-    print('Downloading:', main_url)
-    print('Date and time:', row_date.date().isoformat())
-    for col in col_info:
-        value = row.search(col[0])
-        if value is not None:
-            value = str(value).replace('*', '')
-            print(f'{col[1]}:', value)
+    dd = sc.DayData(canton='FR', url=main_url)
+    dd.datetime = row['Date / Datum']
+    for key, val in row.items():
+        if sc.find(r'(Total cas av.r.s).*', key):
+            dd.cases = val
+        elif sc.find(r'(Personnes hospitalis.es).*', key):
+            dd.hospitalized = val
+        elif sc.find(r'(aux soins intensifs).*', key):
+            dd.icu = val
+        elif sc.find(r'(Total d.c.s).*', key):
+            dd.deaths = val
+        elif sc.find(r'(Total Sorties de l\'h.pital).*', key):
+            dd.recovered = val
+
+    assert dd
+    print(dd)

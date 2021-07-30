@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import scrape_common as sc
-from scrape_fr_common import get_fr_xls
+from scrape_fr_common import get_fr_csv
 
-xls_url, xls, main_url = get_fr_xls()
-rows = sc.parse_xls(xls, header_row=0, sheet_name='tests', enable_float=True)
+"""
+csv_url, csv_data, main_url = get_fr_csv()
+reader = csv.DictReader(StringIO(csv_data), delimiter=';')
+
 
 year = '2020'
 
@@ -28,3 +30,4 @@ for row in rows:
         td.ag_positivity_rate = round(row['Taux/Rate AG'] * 100)
     td.total_tests = td.pcr_total_tests + td.ag_total_tests
     print(td)
+"""

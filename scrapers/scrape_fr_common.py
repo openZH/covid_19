@@ -6,17 +6,16 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
-def get_fr_xls():
+def get_fr_csv():
     main_url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton'
     d = sc.download(main_url, silent=True)
 
     soup = BeautifulSoup(d, 'html.parser')
-    item = soup.find('span', text=re.compile(r"Statistik .ber die Entwicklungen im Kanton.*"))
-    item = item.find_parent('a')
-    xls_url = item.get('href')
-    assert xls_url, "URL is empty"
-    if not xls_url.startswith('http'):
-        xls_url = f'https://www.fr.ch{xls_url}'
+    item = soup.find('a', title=re.compile(r"Statistik .ber die Entwicklungen im Kanton.*"))
+    csv_url = item.get('href')
+    assert csv_url, "URL is empty"
+    if not csv_url.startswith('http'):
+        csv_url = f'https://www.fr.ch{csv_url}'
 
-    xls = sc.xlsdownload(xls_url, silent=True)
-    return xls_url, xls, main_url
+    csv = sc.download(csv_url, silent=True)
+    return csv_url, csv, main_url
