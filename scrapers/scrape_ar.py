@@ -13,8 +13,7 @@ d = d.replace('&nbsp;', ' ')
 
 dd_ct = sc.DayData(canton='AR', url=url)
 
-elem = soup.find('h3', text=re.compile(r'Contact\s+tracing\s+\(.* Stand.*'))
-dd_ct.datetime = sc.find(r'Stand (\d+\.\d+\.\d{4})', elem.text)
+dd_ct.datetime = sc.find(r'Contact\s+tracing\s+\(.* Stand\s+(\d+\.\d+\.\d{4})', d)
 
 dd_ct.isolated = sc.find(r'Aktuell\s+COVID-19-Erkrankte\s+in\s+Isolation:\s+<strong>\s?(\d+)\s?</strong>', d)
 dd_ct.quarantined = sc.find(r'Aktuell\s+im\s+Kanton\s+wohnhafte\s+(?:Kontaktpersonen|Personen)\s+in\s+Quarantäne(\s+\(Kontaktpersonen\))?:\s?<strong>\s?(\d+)\s?</strong>', d, group=2)
