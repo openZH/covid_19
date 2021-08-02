@@ -20268,7 +20268,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-07-30,,GL,,2924,7,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-07-30,,GR,,13964,3,2,1,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-07-30,,JU,,7209,1,0,,,136,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
-2021-07-30,,LU,,,11,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
+2021-07-30,,LU,,29698,11,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-07-30,,NW,,2794,3,1,,,23,http://www.nw.ch/coronastatistik
 2021-07-30,,SG,,43615,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-07-30,,SH,,4897,2,1,,,78,https://coviddashboard.sh.ch/
@@ -20287,6 +20287,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-07-31,,BE,,66834,,,,,1100,https://covid-kennzahlen.apps.be.ch/
 2021-07-31,,GR,,13978,10,2,1,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-07-31,,JU,,7214,0,0,,,136,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
+2021-07-31,,LU,,29735,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-07-31,,NW,,2797,2,1,,,23,http://www.nw.ch/coronastatistik
 2021-07-31,,SG,,43625,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-07-31,,SH,,4900,2,1,,,78,https://coviddashboard.sh.ch/
@@ -20298,6 +20299,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-01,,BE,,66869,13,4,2,,1100,https://covid-kennzahlen.apps.be.ch/
 2021-08-01,,GR,,13996,10,1,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-08-01,,JU,,7215,0,0,,,136,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
+2021-08-01,,LU,,29750,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-01,,NW,,2797,2,1,,,23,http://www.nw.ch/coronastatistik
 2021-08-01,,SG,,43632,2,0,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-01,,SH,,4910,2,1,,,78,https://coviddashboard.sh.ch/
@@ -20307,6 +20309,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-01,10:00,TG,,19254,4,0,,1178,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-08-01,10:20,BS,,13472,,,,13017,207,https://www.gesundheit.bs.ch
 2021-08-02,,GL,,2939,6,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-08-02,,LU,,,15,,1,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-02,,SO,,18320,,,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-08-02,,TI,,33932,10,3,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-08-02,00:00,GE,,61118,,,,,745,https://infocovid.smc.unige.ch/
