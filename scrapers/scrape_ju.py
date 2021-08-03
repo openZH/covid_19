@@ -111,5 +111,7 @@ if iframe and iframe['src']:
             dd.cases = row.get('Cumul des cas confirmés')
             dd.hospitalized = row.get('Cas actuellement hospitalisés')
             dd.icu = row.get('Cas actuellement en soins intensifs')
-            dd.deaths = sum(int(str(r.get('Nouveaux décès', 0))) for r in rows[i:] if r.get('Nouveaux décès'))
+            dd.deaths = 0
+            for r in rows[i:]:
+                dd.deaths += int(r.get('Nouveaux décès'))
             print(dd)
