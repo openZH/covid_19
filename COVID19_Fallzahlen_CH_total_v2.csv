@@ -8480,7 +8480,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-17,00:00,OW,,66,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-17,00:00,SO,,350,,20,,,,9,https://corona.so.ch/index.php?id=27979,,,
 2020-04-17,08:00,AG,,988,,58,20,20,,30,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,431,755,
+2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,455,801,
 2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-04-17,08:00,ZG,,172,,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,20,23,
 2020-04-17,09:00,BS,,918,,66,8,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,488
@@ -20308,7 +20308,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-31,10:00,TG,,19243,0,4,0,,1178,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,124,,
 2021-07-31,10:20,BS,,13452,,7,2,,13003,207,https://www.gesundheit.bs.ch,242,136,
 2021-07-31,14:30,ZH,,116087,,46,16,10,,1418,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-08-01,,BE,,66869,,13,4,2,,1100,https://covid-kennzahlen.apps.be.ch/,,,
+2021-08-01,,BE,,66869,,13,4,2,,1100,https://covid-kennzahlen.apps.be.ch/,431,755,
 2021-08-01,,BL,,18771,,2,0,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-08-01,,FR,,32825,,0,0,,961,493,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-08-01,,GR,,13996,,10,1,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,150,192,
@@ -20338,6 +20338,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-02,,SO,,18320,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-08-02,,TI,,33932,,10,3,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-08-02,,VS,,38686,,4,1,1,,785,https://www.vs.ch/documents/6756452/7008787/2021 08 02 - Sit Epid - État Stand,,,
+2021-08-02,00:00,FL,,3089,,1,,,3011,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-08-02,00:00,GE,,61255,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-08-02,00:00,OW,,2662,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,20,15,11
 2021-08-02,00:00,UR,,3286,,0,,,,50,https://www.ur.ch/themen/2962,,7,
