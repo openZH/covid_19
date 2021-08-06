@@ -20397,7 +20397,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-04,00:00,GE,,61487,,28,5,,,745,https://infocovid.smc.unige.ch/,1079,522,63
 2021-08-04,00:00,OW,,2671,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,24,19,10
 2021-08-04,08:00,AG,,49008,,13,4,,47570,705,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,478,617,98
-2021-08-04,08:00,ZG,,8828,,3,0,,8649,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-08-04,08:00,ZG,,8828,,3,0,,8649,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,64,60,14
 2021-08-04,09:00,SZ,,12736,,,,,12366,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-04,10:00,TG,,19368,1,5,1,,1180,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,134,,
 2021-08-04,11:10,BS,,13600,,8,1,,13092,207,https://www.gesundheit.bs.ch,301,106,
@@ -20420,12 +20420,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-05,00:00,GE,,61594,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-08-05,00:00,OW,,2680,,1,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,28,30,8
 2021-08-05,00:00,UR,,3290,,0,,,,50,https://www.ur.ch/themen/2962,,7,
-2021-08-05,08:00,ZG,,8846,,3,0,,8659,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-08-05,08:00,ZG,,8846,,3,0,,8659,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,64,53,11
 2021-08-05,09:00,SZ,,12756,,,,,12394,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-05,10:00,TG,,19388,0,5,1,,1180,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,156,,
 2021-08-05,10:40,BS,,13637,,8,1,,13106,207,https://www.gesundheit.bs.ch,324,109,
 2021-08-05,12:00,AI,,1249,,,,,,15,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,2,0,
 2021-08-05,14:30,ZH,,116754,,61,18,12,,1420,https://www.zh.ch/de/gesundheit/coronavirus.html,1017,1948,
+2021-08-06,,SO,,18448,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-08-06,,TI,,34043,,13,3,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-08-06,00:00,GE,,61594,,,,,,745,https://infocovid.smc.unige.ch/,,,
 2021-08-06,00:00,UR,,3293,,0,,,,50,https://www.ur.ch/themen/2962,,7,
