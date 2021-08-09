@@ -6,7 +6,7 @@ import sys
 import traceback
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -20,7 +20,7 @@ import scrape_common as sc
 def load_with_selenium(url):
     options = Options()
     options.headless = True
-    driver = webdriver.Firefox(options=options)
+    driver = webdriver.Chrome(options=options)
 
     driver.get(url)
     wait = WebDriverWait(driver, 10)
