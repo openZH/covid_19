@@ -20454,6 +20454,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-07,,SH,,4969,,,,,,78,https://coviddashboard.sh.ch/,67,58,2
 2021-08-07,00:00,FL,,3101,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-08-07,00:00,GE,,61869,,,,,,746,https://infocovid.smc.unige.ch/,1121,564,41
+2021-08-07,08:00,ZG,,8861,,2,0,,8674,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-08-07,09:00,SZ,,12797,,,,,12429,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-07,11:20,BS,,13729,,,,,13212,208,https://www.gesundheit.bs.ch,309,156,
 2021-08-08,,GR,,14144,,7,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,202,258,
@@ -20463,8 +20464,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-08,,SH,,4977,,4,2,,,78,https://coviddashboard.sh.ch/,70,60,2
 2021-08-08,00:00,FL,,3102,,1,,,3024,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-08-08,00:00,GE,,61903,,,,,,746,https://infocovid.smc.unige.ch/,,,
+2021-08-08,08:00,ZG,,8873,,2,0,,8675,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-08-08,09:00,SZ,,12829,,,,,12435,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-08,10:30,BS,,13757,,,,,13247,208,https://www.gesundheit.bs.ch,302,152,
+2021-08-09,,TI,,34152,,16,2,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-08-09,00:00,GE,,61903,,,,,,746,https://infocovid.smc.unige.ch/,,,
 2021-08-09,00:00,UR,,3296,,0,,,,50,https://www.ur.ch/themen/2962,,6,
+2021-08-09,08:00,ZG,,8899,,1,0,,8700,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-08-09,09:00,SZ,,12842,,,,,12440,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
