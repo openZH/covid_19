@@ -20411,7 +20411,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-05,,JU,,7273,3,0,,,138,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-08-05,,LU,,29954,21,,3,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-05,,NW,,2813,3,1,,,23,http://www.nw.ch/coronastatistik
-2021-08-05,,SG,,43858,9,1,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-08-05,,SG,,43877,9,1,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-05,,SH,,4942,4,1,,,78,https://coviddashboard.sh.ch/
 2021-08-05,,SO,,18420,,,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-08-05,,TI,,34011,11,3,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
@@ -20454,8 +20454,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-07,11:20,BS,,13729,,,,13212,208,https://www.gesundheit.bs.ch
 2021-08-08,,GR,,14144,7,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-08-08,,NW,,2825,3,1,,,23,http://www.nw.ch/coronastatistik
-2021-08-08,,SG,,44021,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-08-08,,SG,,44035,16,1,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-08,00:00,GE,,61903,,,,,746,https://infocovid.smc.unige.ch/
 2021-08-08,09:00,SZ,,12829,,,,12435,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-08-08,10:30,BS,,13757,,,,13247,208,https://www.gesundheit.bs.ch
 2021-08-09,00:00,GE,,61903,,,,,746,https://infocovid.smc.unige.ch/
+2021-08-09,00:00,UR,,3296,0,,,,50,https://www.ur.ch/themen/2962
+2021-08-09,09:00,SZ,,12842,,,,12440,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
