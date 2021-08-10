@@ -20441,7 +20441,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-06,,LU,,30005,24,,3,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-06,,NE,,17698,1,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-08-06,,NW,,2816,3,1,,,23,http://www.nw.ch/coronastatistik
-2021-08-06,,SG,,43941,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-08-06,,SG,,43942,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-06,,SH,,4956,,,,,78,https://coviddashboard.sh.ch/
 2021-08-06,,SO,,18448,,,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-08-06,,TI,,34043,13,3,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
@@ -20465,7 +20465,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-07,,LU,,30051,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-07,,NE,,17713,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-08-07,,NW,,2820,3,1,,,23,http://www.nw.ch/coronastatistik
-2021-08-07,,SG,,43989,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-08-07,,SG,,43997,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-07,,SH,,4969,,,,,78,https://coviddashboard.sh.ch/
 2021-08-07,,VS,,38852,6,2,2,,785,https://www.vs.ch/de/web/coronavirus
 2021-08-07,00:00,FL,,3101,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
@@ -20485,7 +20485,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-08,,LU,,30075,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-08,,NE,,17719,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-08-08,,NW,,2825,3,1,,,23,http://www.nw.ch/coronastatistik
-2021-08-08,,SG,,44035,16,1,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
+2021-08-08,,SG,,44036,16,1,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-08,,SH,,4977,4,2,,,78,https://coviddashboard.sh.ch/
 2021-08-08,,VS,,38877,7,2,2,,785,https://www.vs.ch/de/web/coronavirus
 2021-08-08,00:00,FL,,3102,1,,,3024,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
@@ -20503,6 +20503,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-09,,GR,,14165,10,1,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-08-09,,LU,,,24,,2,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-09,,NW,,2825,3,2,,,23,http://www.nw.ch/coronastatistik
+2021-08-09,,SG,,44160,21,2,0,,718,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-09,,SO,,18554,,,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-08-09,,TI,,34152,16,2,,,996,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-08-09,,VS,,38879,7,2,2,,785,https://www.vs.ch/de/web/coronavirus
@@ -20516,3 +20517,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-09,12:00,AI,,1249,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-08-09,14:30,ZH,,117439,66,22,13,,1420,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-08-10,00:00,GE,,62040,,,,,746,https://infocovid.smc.unige.ch/
+2021-08-10,09:00,SZ,,12853,,,,12466,238,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
