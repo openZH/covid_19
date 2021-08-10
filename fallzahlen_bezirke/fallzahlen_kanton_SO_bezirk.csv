@@ -440,7 +440,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1102,Thal,SO,2021-08-05,,,14798,1047,2,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1102,Thal,SO,2021-08-06,,,14798,1050,2,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1102,Thal,SO,2021-08-09,,,14798,1050,2,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
-1102,Thal,SO,2021-08-10,,,14798,1050,2,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
+1102,Thal,SO,2021-08-10,,,14798,1052,2,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1103,Bucheggberg,SO,2020-09-28,,,7954,12,0,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1103,Bucheggberg,SO,2020-09-29,,,7954,13,1,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1103,Bucheggberg,SO,2020-09-30,,,7954,13,0,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
@@ -1324,7 +1324,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1106,Wasseramt,SO,2021-08-05,,,53189,3700,5,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1106,Wasseramt,SO,2021-08-06,,,53189,3723,18,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1106,Wasseramt,SO,2021-08-09,,,53189,3723,18,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
-1106,Wasseramt,SO,2021-08-10,,,53189,3723,18,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
+1106,Wasseramt,SO,2021-08-10,,,53189,3736,13,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1107,Lebern,SO,2020-09-28,,,24536,135,6,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1107,Lebern,SO,2020-09-29,,,24536,136,1,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1107,Lebern,SO,2020-09-30,,,24536,138,2,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
@@ -1545,7 +1545,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1107,Lebern,SO,2021-08-05,,,46726,2910,10,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1107,Lebern,SO,2021-08-06,,,46726,2938,19,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1107,Lebern,SO,2021-08-09,,,46726,2938,19,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
-1107,Lebern,SO,2021-08-10,,,46726,2938,19,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
+1107,Lebern,SO,2021-08-10,,,46726,2952,14,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1108,Olten,SO,2020-09-28,,,55686,194,2,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1108,Olten,SO,2020-09-29,,,55686,197,3,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1108,Olten,SO,2020-09-30,,,55686,199,2,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
@@ -1766,7 +1766,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1108,Olten,SO,2021-08-05,,,56304,4055,9,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1108,Olten,SO,2021-08-06,,,56304,4087,27,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1108,Olten,SO,2021-08-09,,,56304,4087,27,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
-1108,Olten,SO,2021-08-10,,,56304,4087,27,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
+1108,Olten,SO,2021-08-10,,,56304,4093,6,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1109,Solothurn,SO,2020-09-28,,,16933,39,1,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1109,Solothurn,SO,2020-09-29,,,16933,39,0,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
 1109,Solothurn,SO,2020-09-30,,,16933,39,0,,,https://corona.so.ch/spezialseiten/die-covid-19-kennzahlen-im-ueberblick/
@@ -2208,4 +2208,4 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 1110,Thierstein,SO,2021-08-05,,,14829,850,1,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1110,Thierstein,SO,2021-08-06,,,14829,859,6,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
 1110,Thierstein,SO,2021-08-09,,,14829,859,6,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
-1110,Thierstein,SO,2021-08-10,,,14829,859,6,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
+1110,Thierstein,SO,2021-08-10,,,14829,860,1,,,https://corona.so.ch/bevoelkerung/daten/fallzahlen-nach-gemeinden/
