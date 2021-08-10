@@ -20457,7 +20457,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-06,10:50,BS,,13684,,6,1,,13128,208,https://www.gesundheit.bs.ch,348,122,
 2021-08-06,14:30,ZH,,116918,,63,18,12,,1420,https://www.zh.ch/de/gesundheit/coronavirus.html,1017,1948,
 2021-08-07,,BE,,67621,,,,,,1100,https://covid-kennzahlen.apps.be.ch/,711,1220,
-2021-08-07,,BL,,19035,,6,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2021-08-07,,BL,,19039,,6,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-08-07,,FR,,33029,,5,0,,962,493,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-08-07,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/36985/Sentinella%20Bericht%20KW31.pdf,49,26,0
 2021-08-07,,GR,,14122,,6,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,215,258,
@@ -20477,7 +20477,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-07,11:20,BS,,13729,,9,2,,13212,208,https://www.gesundheit.bs.ch,309,156,
 2021-08-07,14:30,ZH,,117092,,61,21,11,,1420,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-08-08,,BE,,67729,,,,,,1100,https://covid-kennzahlen.apps.be.ch/,740,1271,
-2021-08-08,,BL,,19088,,5,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2021-08-08,,BL,,19096,,5,1,0,,219,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-08-08,,FR,,33070,,5,0,,962,493,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-08-08,,GL,34570,,,,0,,,,https://www.gl.ch/public/upload/assets/36985/Sentinella%20Bericht%20KW31.pdf,48,21,0
 2021-08-08,,GR,,14144,,7,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,202,258,
