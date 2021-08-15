@@ -20613,6 +20613,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-13,10:30,BS,,14005,,21,6,,13438,208,https://www.gesundheit.bs.ch,359,179,
 2021-08-13,12:00,AI,,1262,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,7,10,
 2021-08-13,14:30,ZH,,118843,,75,27,16,,1422,https://www.zh.ch/de/gesundheit/coronavirus.html,1716,3534,
+2021-08-14,,GR,,14370,,13,2,2,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,265,250,
 2021-08-14,,JU,,7397,,2,1,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-08-14,,NW,,2857,,4,1,,,23,http://www.nw.ch/coronastatistik,39,19,0
 2021-08-14,00:00,FL,,3155,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
