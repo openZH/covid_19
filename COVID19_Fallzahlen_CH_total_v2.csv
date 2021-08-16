@@ -20630,7 +20630,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-14,08:00,ZG,,8999,,4,1,,8765,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,131,89,1
 2021-08-14,09:00,SZ,,13019,,,,,12533,239,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-14,10:00,TG,,20135,0,12,3,,1191,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,551,,
-2021-08-14,10:30,BS,,14080,,,,,13488,208,https://www.gesundheit.bs.ch,384,170,
+2021-08-14,10:30,BS,,14080,,26,8,,13488,208,https://www.gesundheit.bs.ch,384,170,
 2021-08-15,,GR,,14389,,13,2,2,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,267,250,
 2021-08-15,,JU,,7406,,5,1,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-08-15,,LU,,30680,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -20643,7 +20643,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-15,08:00,ZG,,9023,,4,1,,8769,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,134,103,1
 2021-08-15,09:00,SZ,,13049,,,,,12545,240,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-15,10:00,TG,,20165,0,12,4,,1191,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,618,,
-2021-08-15,10:30,BS,,14132,,,,,13531,208,https://www.gesundheit.bs.ch,393,186,
+2021-08-15,10:30,BS,,14132,,33,7,,13531,208,https://www.gesundheit.bs.ch,393,186,
 2021-08-16,,GL,,3071,,5,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-08-16,,LU,,,,34,,3,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,714,387,40
 2021-08-16,,SO,,19067,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -20654,5 +20654,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-16,08:00,ZG,,9045,,14,2,,8788,123,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-08-16,09:00,SZ,,13069,,,,,12546,240,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-08-16,10:00,TG,,20165,0,12,4,,1191,456,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
-2021-08-16,10:40,BS,,14182,,,,,13554,208,https://www.gesundheit.bs.ch,420,189,
+2021-08-16,10:40,BS,,14182,,35,7,,13554,208,https://www.gesundheit.bs.ch,420,189,
 2021-08-16,12:00,AI,,1282,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,16,15,
