@@ -69,8 +69,13 @@ assert quarantine_xls_url, "Couldn't find quarantine XLS url"
 xls = sc.xlsdownload(quarantine_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
+    date = sc.date_from_text(row['date'])
+    if date < datetime.date(2020, 1, 1):
+        # skip entries from before 2020
+        continue
+
     dd = sc.DayData(canton='GE', url=url)
-    dd.datetime = row['date']
+    dd.datetime = date.isoformat()
     dd.isolated = row['isolement déjà en cours']
     dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
     dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
@@ -91,8 +96,13 @@ assert case_xls_url, "Couldn't find cases XLS url"
 xls = sc.xlsdownload(case_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
+    date = row['Date']
+    if date < datetime.datetime(2020, 1, 1):
+        # skip entries from before 2020
+        continue
+
     dd = sc.DayData(canton='GE', url=url)
-    dd.datetime = row['Date']
+    dd.datetime = date.isoformat()
     dd.cases = row['Cumul cas COVID-19']
     current_hosp = row['Total hospitalisations COVID-19 actifs (en cours) canton (HUG-cliniques)']
     if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
