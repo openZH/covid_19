@@ -68,8 +68,9 @@ for item in json:
             # interesting...
             deaths += 1
         elif r == 6:
-            dd.cases = data[2]
-            dd.hospitalized = data[3]
+            dd.cases = data[1]
+            dd.hospitalized = data[2]
+            dd.icu = data[3]
         elif r == 12:
             dd.hospitalized = data[2]
             dd.icu = data[3]
