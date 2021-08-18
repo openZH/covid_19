@@ -55,7 +55,7 @@ for item in json:
     if len(data) > 0:
         dd = sc.DayData(canton='JU', url=url)
         date = int(data[0]) / 1000
-        dd.datetime = datetime.datetime.utcfromtimestamp(date).isoformat()
+        dd.datetime = datetime.datetime.utcfromtimestamp(date).date().isoformat()
         if not r:
             deaths += data[2]
             dd.cases = data[3]
