@@ -13465,7 +13465,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-18,,GL,,3130,,7,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-08-18,,GR,,14554,,17,4,2,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,340,406,
 2021-08-18,,JU,,7479,,5,2,,,134,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-08-18,,LU,,,,33,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,920,504,24
+2021-08-18,,LU,,31084,,33,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,920,504,24
 2021-08-18,,NE,,18079,,3,0,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-08-18,,NW,,2896,,6,2,,,23,http://www.nw.ch/coronastatistik,64,32,0
 2021-08-18,,SG,,45966,,57,12,9,,720,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -13483,6 +13483,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-18,12:00,AI,,1301,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,29,20,
 2021-08-18,14:30,ZH,,120982,,133,44,29,,1424,https://www.zh.ch/de/gesundheit/coronavirus.html,2565,5626,
 2021-08-19,,GL,,3169,,8,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-08-19,,LU,,,,36,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,991,630,
 2021-08-19,,TI,,34703,,17,3,,,997,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-08-19,00:00,GE,,63413,,,,,,748,https://infocovid.smc.unige.ch/,,,
 2021-08-19,00:00,OW,,2793,,4,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,76,77,0
