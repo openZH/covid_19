@@ -19,10 +19,13 @@ def split_whitespace(text):
 pdf_url = sgc.get_gl_pdf_url()
 pdf = sc.download_content(pdf_url, silent=True)
 content = sc.pdftotext(pdf, page=1)
+content = re.sub(r'(\d+)\'(\d+)', r'\1\2', content)
+content = re.sub(r'(\d+)’(\d+)', r'\1\2', content)
+
 pdf_date = sc.find(r'Stand: (\d{2}\.\d{2}.\d{4})', content)
 pdf_date = sc.date_from_text(pdf_date)
 
-number_of_tests = sc.find(r'PCR-Tests/Schnelltests\sKanton Glarus\s(\d+\'?\d+)\s', content).replace('\'', '')
+number_of_tests = sc.find(r'PCR-Tests/Schnelltests\sKanton Glarus\s(\d+)\s', content)
 is_first = True
 if number_of_tests:
         dd = sc.DayData(canton='GL', url=pdf_url)
