@@ -19,7 +19,7 @@ for row in reader:
     is_first = False
 
     dd = sc.DayData(canton='FR', url=main_url)
-    dd.datetime = row['Date / Datum']
+    dd.datetime = row['Date']
     for key, val in row.items():
         if sc.find(r'(Total cas av.r.s).*', key):
             dd.cases = val

@@ -18,4 +18,5 @@ def get_fr_csv():
         csv_url = f'https://www.fr.ch{csv_url}'
 
     csv = sc.download(csv_url, silent=True)
+    csv = re.sub(r'(\d+)\'(\d+)', r'\1\2', csv)
     return csv_url, csv, main_url
