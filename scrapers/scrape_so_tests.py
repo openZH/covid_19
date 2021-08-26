@@ -27,6 +27,8 @@ for pdf_url in pdf_urls:
     res = re.match(r'.*PCR-Tes\s?ts\s+(\d.*\n)?Total\s+\d+\s+\d+\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
     if not res:
         res = re.match(r'.*Labortes\s?ts\s\(PCR\s-\sund\sS\s?chnelltes\s?ts\s?\)\s+(\d.*\n)?Total\s+\d+\s+\d+\.?\d?\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
+    if not res:
+        res = re.match(r'.*Labortes\s?ts\s\(PCR\s-\sund\sS\s?chnelltes\s?ts\s?\)\s+(\d.*\n)?Total\s+\d+\s+(\d+)\s+\d+\.?\d?\s+(\d+)\s', content, re.DOTALL)
     assert res, f'PCR tests for week {week1} or {week2} could not be extracted!'
     total_tests1 = res[2]
     total_tests2 = res[3]
