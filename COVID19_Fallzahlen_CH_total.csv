@@ -13700,6 +13700,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-27,10:30,BS,,15025,45,12,,14206,211,https://www.gesundheit.bs.ch
 2021-08-27,12:00,AI,,1363,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-08-27,14:30,ZH,,125376,165,57,45,,1433,https://www.zh.ch/de/gesundheit/coronavirus.html
+2021-08-28,,BE,,,,,,,,https://covid-kennzahlen.apps.be.ch/
 2021-08-28,,GR,,15147,16,5,3,,194,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-08-28,,JU,,7718,5,3,,,130,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2021-08-28,,NE,,18478,,,,,403,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
@@ -13717,10 +13718,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-29,,NW,,2965,3,2,,,23,https://www.nw.ch/gesundheitsamtdienste/6044
 2021-08-29,,SG,,47856,69,20,18,,724,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-08-29,,SH,,5565,10,4,,,79,https://coviddashboard.sh.ch/
+2021-08-29,00:00,FL,,3266,3,,,3166,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
 2021-08-29,00:00,GE,,64870,,,,,748,https://infocovid.smc.unige.ch/
 2021-08-29,08:00,ZG,,9451,3,2,,9126,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-08-29,09:00,SZ,,13648,,,,13019,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-08-29,11:00,BS,,15136,,,,14372,211,https://www.gesundheit.bs.ch
+2021-08-30,,TI,,35242,33,5,,,998,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-08-30,00:00,GE,,64871,,,,,748,https://infocovid.smc.unige.ch/
 2021-08-30,00:00,UR,,3434,7,,,,51,https://www.ur.ch/themen/2962
 2021-08-30,08:00,ZG,,9466,5,2,,9166,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
