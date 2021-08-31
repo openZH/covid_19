@@ -13747,7 +13747,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-29,11:00,BS,,15136,,43,14,,14372,211,https://www.gesundheit.bs.ch,553,584,
 2021-08-29,14:30,ZH,,126220,,184,66,49,,1434,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-08-30,,BE,,73363,,112,27,23,,1116,https://covid-kennzahlen.apps.be.ch/,,,
-2021-08-30,,BL,,,,17,4,1,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2021-08-30,,BL,,21185,,17,4,1,,224,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-08-30,,GL,,3355,,11,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-08-30,,GR,,15227,,19,4,3,,195,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,479,709,
 2021-08-30,,JU,,7743,,5,3,,,132,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -13770,6 +13770,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-30,11:20,BS,,15173,,44,14,,14417,211,https://www.gesundheit.bs.ch,545,536,
 2021-08-30,12:00,AI,,1384,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,42,47,
 2021-08-30,14:30,ZH,,126515,,185,68,55,,1435,https://www.zh.ch/de/gesundheit/coronavirus.html,3780,11679,
+2021-08-31,,BL,,,,20,3,1,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-08-31,,GL,,3380,,10,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-08-31,,LU,,,,52,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1171,1392,12
 2021-08-31,,SO,,20736,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
