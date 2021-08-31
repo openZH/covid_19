@@ -13753,11 +13753,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-30,,LU,,,,48,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1165,1446,9
 2021-08-30,,NW,,2974,,3,2,,,23,http://www.nw.ch/coronastatistik,49,48,0
 2021-08-30,,SG,,48044,,64,21,19,,726,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2021-08-30,,SH,,5579,,8,4,,,79,https://coviddashboard.sh.ch/,217,301,
 2021-08-30,,SO,,20636,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-08-30,,TI,,35242,,33,5,,,998,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-08-30,,VS,,40463,,28,8,5,,785,https://www.vs.ch/de/web/coronavirus,,,
 2021-08-30,00:00,FL,,3273,,3,,,3177,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-08-30,00:00,GE,,64914,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-08-30,00:00,OW,,2918,,4,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,108,113,
 2021-08-30,00:00,UR,,3434,,7,,,,51,https://www.ur.ch/themen/2962,,40,
 2021-08-30,08:00,ZG,,9466,,5,2,,9166,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-08-30,09:00,SZ,,13681,,,,,13031,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -13766,5 +13768,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-08-30,12:00,AI,,1384,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,42,47,
 2021-08-30,14:30,ZH,,126515,,185,68,55,,1435,https://www.zh.ch/de/gesundheit/coronavirus.html,3780,11679,
 2021-08-31,00:00,GE,,64914,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-08-31,00:00,OW,,2922,,3,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,95,105,0
 2021-08-31,00:00,UR,,3440,,7,,,,51,https://www.ur.ch/themen/2962,,44,
 2021-08-31,09:00,SZ,,13710,,,,,13039,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
