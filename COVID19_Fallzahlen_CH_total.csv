@@ -13776,7 +13776,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-08-31,,GL,,3380,10,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-08-31,,GR,,15326,16,3,3,,195,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-08-31,,JU,,7757,5,2,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
-2021-08-31,,LU,,32701,52,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
+2021-08-31,,LU,,32700,52,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-08-31,,NE,,18602,9,2,1,,403,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-08-31,,NW,,2984,2,2,,,23,http://www.nw.ch/coronastatistik
 2021-08-31,,SG,,48483,60,20,18,,726,https://www.sg.ch/tools/informationen-coronavirus.html
@@ -13799,7 +13799,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-09-01,,GL,,3399,9,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2021-09-01,,GR,,15383,18,4,3,,195,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2021-09-01,,JU,,7782,6,2,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
-2021-09-01,,LU,,,53,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
+2021-09-01,,LU,,32826,53,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-09-01,,NE,,18636,11,4,2,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2021-09-01,,NW,,2998,2,2,,,23,http://www.nw.ch/coronastatistik
 2021-09-01,,SG,,48585,68,20,19,,726,https://www.sg.ch/tools/informationen-coronavirus.html
@@ -13816,6 +13816,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-09-01,12:00,AI,,1424,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
 2021-09-01,14:30,ZH,,127708,185,69,59,,1438,https://www.zh.ch/de/gesundheit/coronavirus.html
 2021-09-02,,GL,,3430,9,,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
+2021-09-02,,LU,,,45,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2021-09-02,,SO,,21024,,,,,,https://corona.so.ch/bevoelkerung/daten/
 2021-09-02,,TI,,35399,31,7,,,999,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx
 2021-09-02,00:00,GE,,65309,,,,,748,https://infocovid.smc.unige.ch/
@@ -13823,3 +13824,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-09-02,09:00,SZ,,13844,,,,13138,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-09-02,10:00,TG,,21993,37,18,,1284,461,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552
 2021-09-02,10:30,BS,,15312,38,14,,14602,211,https://www.gesundheit.bs.ch
+2021-09-02,12:00,AI,,1442,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus
