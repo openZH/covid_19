@@ -20,15 +20,15 @@ Hospitalisationen im Kanton  Anzahl Personen in Isolation  davon Kontakte in Qua
 rows = []
 
 date = sc.find(r'S\s?tand: (\d+\.\d+\.20\d{2})', content)
-number_of_tests = sc.find(r'Labortes\s?ts \(PCR.*Total\s+(\d+)\s', content, flags=re.DOTALL)
-res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+', content, re.DOTALL)
+number_of_tests = sc.find(r'Gem\s?eldete\s+Tes\s?ts\s+\(Total\)\*+?\s+(\d+)\s', content, flags=re.DOTALL)
+res = re.search(r'Hospitalisationen im Kanton.*\d+ \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+(\d+) \(\d+\)\s+', content, re.DOTALL)
 if res is not None:
     data = sc.DayData(canton='SO', url=pdf_url)
     data.datetime = date
     data.tested = number_of_tests
     data.isolated = soc.strip_value(res[1])
-    data.quarantined = int(soc.strip_value(res[2])) + int(soc.strip_value(res[3]))
-    data.quarantine_riskareatravel = soc.strip_value(res[4])
+    data.quarantined = soc.strip_value(res[2])
+    data.quarantine_riskareatravel = soc.strip_value(res[3])
     rows.append(data)
 
 
@@ -47,17 +47,14 @@ for table_row in table.find_all('tr'):
     if sc.find(r'(Laborbestätigte Infektionen).*?:', name):
         data.cases = value
         continue
-    if name == 'Verstorbene Personen (kumuliert) inkl. Nachmeldung:':
+    if name == 'Verstorbene Personen (kumuliert seit 06.03.2020):':
         data.deaths = value
         continue
-    if name == 'Aktuell im Kanton hospitalisierte COVID-19 Patienten:':
+    if name == 'Im Kanton hospitalisierte Covid-19-positive Patientinnen und Patienten:':
         data.hospitalized = value
         continue
-    if name == 'Davon intensivmedizinisch betreut:':
+    if name.strip() == 'Davon befinden sich auf Intensivstationen:':
         data.icu = value
-        continue
-    if name == 'Verstorbene Personen (kumuliert):':
-        data.deaths = value
         continue
 if data:
     rows.append(data)
