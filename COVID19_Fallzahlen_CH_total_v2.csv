@@ -13864,6 +13864,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-03,00:00,GE,,65583,,,,,,748,https://infocovid.smc.unige.ch/,1465,755,0
 2021-09-03,00:00,OW,,2979,,2,,,,39,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,102,95,0
 2021-09-03,00:00,UR,,3479,,6,,,,51,https://www.ur.ch/themen/2962,,85,
+2021-09-03,08:00,AG,,55616,,76,24,,51245,716,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2654,3768,
 2021-09-03,08:00,ZG,,9661,,7,2,,9282,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-09-03,09:00,SZ,,13914,,,,,13218,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-09-03,10:00,TG,,22404,2,39,21,,1290,462,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,757,,
@@ -13880,6 +13881,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-04,,SH,,5752,,,,,,79,https://coviddashboard.sh.ch/,243,251,0
 2021-09-04,00:00,FL,,3322,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-09-04,00:00,GE,,65686,,,,,,748,https://infocovid.smc.unige.ch/,1372,707,0
+2021-09-04,08:00,AG,,55852,,,,,51470,716,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-09-04,08:00,ZG,,9695,,7,2,,9308,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-09-04,09:00,SZ,,13996,,,,,13257,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-09-04,10:00,TG,,22473,1,40,21,,1290,462,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,740,,
@@ -13894,12 +13896,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-05,,SH,,5782,,6,4,,,79,https://coviddashboard.sh.ch/,252,252,0
 2021-09-05,00:00,FL,,3331,,2,,,3205,59,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-09-05,00:00,GE,,65724,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-09-05,08:00,AG,,55965,,,,,51605,716,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-09-05,08:00,ZG,,9720,,7,2,,9318,124,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-09-05,09:00,SZ,,14050,,,,,13260,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-09-05,10:00,TG,,22499,1,41,21,,1290,462,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,738,,
 2021-09-05,10:30,BS,,15452,,,,,14810,211,https://www.gesundheit.bs.ch,431,399,
 2021-09-06,,GL,,3539,,4,,,,79,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
-2021-09-06,,LU,,,,41,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1270,1790,
+2021-09-06,,LU,,,,41,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1270,1790,15
 2021-09-06,,SO,,21483,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-09-06,,TI,,35503,,27,9,,,999,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-09-06,00:00,GE,,65724,,,,,,748,https://infocovid.smc.unige.ch/,,,
