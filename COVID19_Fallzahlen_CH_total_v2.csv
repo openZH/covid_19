@@ -13875,7 +13875,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-03,14:30,ZH,,128864,,194,72,54,,1446,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-09-04,,BE,,75029,,,,,,1135,https://covid-kennzahlen.apps.be.ch/,2401,4671,
 2021-09-04,,FR,,34848,,27,6,,991,493,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-09-04,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/37549/Sentinella%20GL%20KW35.pdf,190,125,
+2021-09-04,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/37549/Sentinella%20GL%20KW35.pdf,190,125,0
 2021-09-04,,GR,,15602,,23,5,5,,195,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,552,727,
 2021-09-04,,JU,,7871,,5,1,,,134,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-09-04,,LU,,33314,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -13913,7 +13913,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-05,14:30,ZH,,129713,,177,65,50,,1447,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-09-06,,GL,,3539,,4,,,,79,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-09-06,,LU,,,,41,,9,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1270,1790,15
-2021-09-06,,NW,,3060,,2,2,,,23,http://www.nw.ch/coronastatistik,86,91,
+2021-09-06,,NW,,3060,,2,2,,,23,http://www.nw.ch/coronastatistik,86,91,0
 2021-09-06,,SO,,21483,,,,,,,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-09-06,,TI,,35503,,27,9,,,999,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-09-06,,VS,,41043,,25,10,8,,672,https://www.vs.ch/de/web/coronavirus,,,
