@@ -78,7 +78,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 101,Bezirk Affoltern,55111,32,2021,45,0,3573,56
 101,Bezirk Affoltern,55111,33,2021,86,0,3659,56
 101,Bezirk Affoltern,55111,34,2021,105,1,3764,57
-101,Bezirk Affoltern,55111,35,2021,119,0,3883,57
+101,Bezirk Affoltern,55111,35,2021,120,0,3884,57
 102,Bezirk Andelfingen,31490,9,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,10,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,11,2020,1,0,1,0
@@ -398,7 +398,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,32,2021,162,0,8206,101
 105,Bezirk Hinwil,96595,33,2021,279,0,8485,101
 105,Bezirk Hinwil,96595,34,2021,242,0,8727,101
-105,Bezirk Hinwil,96595,35,2021,322,1,9049,102
+105,Bezirk Hinwil,96595,35,2021,322,3,9049,104
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
