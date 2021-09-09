@@ -1229,7 +1229,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-17,00:00,OW,,66,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-17,00:00,SO,,350,,20,,,,9,https://corona.so.ch/index.php?id=27979,,,
 2020-04-17,08:00,AG,,988,,58,20,20,,30,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,2398,4407,
+2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,2418,4559,
 2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-04-17,08:00,ZG,,172,,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,20,23,
 2020-04-17,09:00,BS,,918,,66,8,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,488
@@ -13938,7 +13938,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-06,12:00,AI,,1492,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,92,70,
 2021-09-06,12:00,UR,,3522,,3,,,,51,https://www.ur.ch/themen/2962,,116,
 2021-09-06,14:30,ZH,,130065,,182,65,49,,1451,https://www.zh.ch/de/gesundheit/coronavirus.html,3613,12386,
-2021-09-07,,BE,,75665,,90,39,33,,1140,https://covid-kennzahlen.apps.be.ch/,,,
+2021-09-07,,BE,,75665,,90,39,33,,1140,https://covid-kennzahlen.apps.be.ch/,2398,4407,
 2021-09-07,,BL,,21806,,14,3,,,224,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-09-07,,GL,,3569,,7,,,,79,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-09-07,,GR,,15779,,15,5,5,,195,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,568,569,
@@ -13967,7 +13967,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-08,,LU,,,,43,,10,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1409,1882,
 2021-09-08,,NW,,3088,,2,2,,,23,http://www.nw.ch/coronastatistik,101,104,0
 2021-09-08,,SG,,50316,,59,23,21,,728,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-09-08,,SH,,5861,,5,3,,,80,https://coviddashboard.sh.ch/,243,228,
+2021-09-08,,SH,,5861,,5,3,,,80,https://coviddashboard.sh.ch/,243,228,0
 2021-09-08,,SO,,21717,,36,12,,,275,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-09-08,,TI,,35568,,20,8,,,999,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-09-08,00:00,GE,,66091,,,,,,748,https://infocovid.smc.unige.ch/,1119,562,0
@@ -13980,4 +13980,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-08,12:00,AI,,1559,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,114,76,
 2021-09-08,14:30,ZH,,131536,,192,68,53,,1456,https://www.zh.ch/de/gesundheit/coronavirus.html,3852,13144,
 2021-09-09,00:00,GE,,66099,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-09-09,00:00,UR,,3566,,3,,,,51,https://www.ur.ch/themen/2962,,142,
 2021-09-09,09:00,SZ,,14288,,,,,13478,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
