@@ -14034,6 +14034,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-11,00:00,GE,,66378,,,,,,748,https://infocovid.smc.unige.ch/,,,
 2021-09-11,09:00,SZ,,14422,,,,,13572,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-09-11,10:50,BS,,15762,,,,,15093,212,https://www.gesundheit.bs.ch,457,357,
+2021-09-12,,GR,,16010,,21,6,5,,196,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,456,603,
 2021-09-12,,NW,,3135,,4,1,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,90,125,0
 2021-09-12,00:00,GE,,66378,,,,,,748,https://infocovid.smc.unige.ch/,,,
 2021-09-12,09:00,SZ,,14508,,,,,13622,242,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
