@@ -79,7 +79,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 101,Bezirk Affoltern,55111,33,2021,86,0,3659,56
 101,Bezirk Affoltern,55111,34,2021,105,1,3764,57
 101,Bezirk Affoltern,55111,35,2021,120,0,3884,57
-101,Bezirk Affoltern,55111,36,2021,140,0,4024,57
+101,Bezirk Affoltern,55111,36,2021,139,0,4023,57
 102,Bezirk Andelfingen,31490,9,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,10,2020,0,0,0,0
 102,Bezirk Andelfingen,31490,11,2020,1,0,1,0
@@ -808,7 +808,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 110,Bezirk Winterthur,171101,33,2021,505,0,12914,120
 110,Bezirk Winterthur,171101,34,2021,474,0,13388,120
 110,Bezirk Winterthur,171101,35,2021,515,1,13903,121
-110,Bezirk Winterthur,171101,36,2021,534,3,14437,124
+110,Bezirk Winterthur,171101,36,2021,534,4,14437,125
 111,Bezirk Dietikon,92275,9,2020,0,0,0,0
 111,Bezirk Dietikon,92275,10,2020,2,0,2,0
 111,Bezirk Dietikon,92275,11,2020,20,0,22,0
@@ -889,7 +889,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,33,2021,266,0,8620,86
 111,Bezirk Dietikon,92275,34,2021,331,0,8951,86
 111,Bezirk Dietikon,92275,35,2021,269,0,9220,86
-111,Bezirk Dietikon,92275,36,2021,323,0,9543,86
+111,Bezirk Dietikon,92275,36,2021,322,0,9542,86
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -970,4 +970,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,33,2021,650,2,34324,457
 112,Bezirk Zürich,422870,34,2021,754,4,35078,461
 112,Bezirk Zürich,422870,35,2021,773,2,35851,463
-112,Bezirk Zürich,422870,36,2021,971,2,36822,465
+112,Bezirk Zürich,422870,36,2021,970,2,36821,465
