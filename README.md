@@ -28,7 +28,7 @@ If you have any questions, please don't hestitate to contact us: <br>
 - [Travel self quarantine](https://github.com/openZH/covid_19/tree/master#canton-zurich-travel-self-quarantine)<br>
 - [Intensive care occupancy](https://github.com/openZH/covid_19/tree/master#canton-zurich-intensive-care-occupancy)<br>
 - [Variants of Concern (VOC)](https://github.com/openZH/covid_19/tree/master#canton-zurich-variants-of-concern) - Note: ZH data is deprecated (2021-02-12); since 2021-02-19 FOPH publishes data for all Cantons ("virusVariants", https://www.covid19.admin.ch/api/data/context)<br>
-- [Vaccination campaign](https://github.com/openZH/covid_19/tree/master#canton-zurich-vaccination-campaign)<br>
+- [Vaccination campaign](https://github.com/openZH/covid_19_vaccination_campaign_ZH)<br>
 
 Don't forget to take a look at the [community contributions](https://github.com/openZH/covid_19/tree/master#community-contributions).
 
@@ -85,33 +85,33 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 
  Canton / FL | Last update (of any variable) | Important notes |
 |-------------|------------|------|
-|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')| |
-|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AI_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AR_total.csv)|![Last update on 2021-08-12](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-12 'Last update on 2021-08-12')|Since 2021-01-22 AR is not publishing <br />updated case numbers on its website anymore,<br />but referencing to FOPH.<br />You find respective data via FOPH's API:<br />https://www.covid19.admin.ch/api/data/context|
-|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BE_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BL_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BS_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[FR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_FR_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[GE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GE_total.csv)|![Last update on 2021-08-18](https://placehold.jp/4d9221/000000/200x50.png?text=2021-08-18 'Last update on 2021-08-18')||
-|[GL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GL_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GR_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_JU_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[NE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NE_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NW_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[OW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_OW_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SG_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SH_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[SO](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SO_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[SZ](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SZ_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[TG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TG_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[TI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TI_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[UR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_UR_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VD_total.csv)|![Last update on 2021-08-15](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-15 'Last update on 2021-08-15')||
-|[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VS_total.csv)|![Last update on 2021-08-16](https://placehold.jp/de77ae/000000/200x50.png?text=2021-08-16 'Last update on 2021-08-16')||
-|[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
-|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2021-08-17](https://placehold.jp/b8e186/000000/200x50.png?text=2021-08-17 'Last update on 2021-08-17')||
+|[FL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_FL_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[AG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AG_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')| |
+|[AI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AI_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[AR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_AR_total.csv)|![Last update on 2021-09-09](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-09 'Last update on 2021-09-09')|Since 2021-01-22 AR is not publishing <br />updated case numbers on its website anymore,<br />but referencing to FOPH.<br />You find respective data via FOPH's API:<br />https://www.covid19.admin.ch/api/data/context|
+|[BE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BE_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[BL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BL_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[BS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_BS_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[FR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_FR_total.csv)|![Last update on 2021-09-12](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-12 'Last update on 2021-09-12')||
+|[GE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GE_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[GL](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GL_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[GR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_GR_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[JU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_JU_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[LU](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_LU_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[NE](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NE_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[NW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_NW_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[OW](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_OW_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[SG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SG_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[SH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SH_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[SO](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SO_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[SZ](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_SZ_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[TG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TG_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[TI](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_TI_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[UR](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_UR_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VD_total.csv)|![Last update on 2021-09-12](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-12 'Last update on 2021-09-12')||
+|[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VS_total.csv)|![Last update on 2021-09-13](https://placehold.jp/de77ae/000000/200x50.png?text=2021-09-13 'Last update on 2021-09-13')||
+|[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
+|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2021-09-14](https://placehold.jp/4d9221/000000/200x50.png?text=2021-09-14 'Last update on 2021-09-14')||
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
@@ -335,50 +335,6 @@ Variants of concern ('VOC') can *not* be detected by 'rapid' tests, but can be d
 | __date__            | Date of notification                       | YYYY-MM-DD         |
 | __new_pcr_pos__     | Number of newly positive PCR tests         | Number             |
 | __new_voc__         | Number of newly detected variants of concern ('VOC') | Number             |	 
-
-## Canton Zurich: Vaccination campaign
-
-*Status (2021-02-12):* Metadata description (s. below) is currently under review (Fieldnames *tbc.* are *not* definitive); Data structure is under preparation; Data publication is forthcoming (expected to start mid-February). <br>
-Please share your feedback/questions regarding variables/descriptions with us here: [https://github.com/openZH/covid_19/discussions/1663](https://github.com/openZH/covid_19/discussions/1663).
-
-**Data** <br>
-
->**https://...** <br>
->*Description:* [(expected) Dataset: "COVID_19 Impfkampagne im Kanton Zürich"](https://...) <br>
->*Spatial unit:* Canton Zurich <br>
->*Format:* csv <br>
-
-**Metadata**
-
-| Variable type        | Fieldname   | Beschreibung (DE)                          | Description (EN)                          | Format             |
-|----------------------|-------------|--------------------------------------------|-------------------------------------------|--------------------|
-| Personal data        | __gender__  | Geschlecht                                 | Gender                                    | Text               |
-| Personal data        | __age__     | Alter (automatisch berechnet aus Geburtsdatum) | Age (automatically calculated from date of birth) | Number             |
-| Personal data        | __canton_or_country_of_residence__ *tbc.* | Wohnkanton ('AG', 'AI', 'AR' ... 'ZG', 'ZH') oder -sitz (Land: 'LI', 'AT', 'DE', 'F', 'I', 'UNK') | Canton ('AG', 'AI', 'AR' ... 'ZG', 'ZH') or country of residence ('LI', 'AT', 'DE', 'F', 'I', 'UNK') | Text             |
-| Vaccination indication according to strategy | __age_group__ *tbc.* | ja/nein (Liste gemäss Impfempfehlung EKIF) *tbc.* | yes/no (list according to vaccination recommendation EKIF) *tbc.* | *tbc.* |
-| Vaccination indication according to strategy | __people_with_chronic_diseases__ *tbc.* | ja/nein (Chronische Krankheit(en), Bluthochdruck etc.) | yes/no (Chronic disease(s), high blood pressure etc.) | Text |
-| Vaccination indication according to strategy | __health_care_personnel__ *tbc.* | ja/nein (Gesundheits- und Betreuungspersonal, das durch Pflege, Behandlung und Betreuung direkte Kontakte mit Patientinnen und Patienten sowie besonders gefährdeten Personen hat) | yes/no (health and care personnel who have direct contact with patients and particularly vulnerable persons through nursing, treatment and care) | Text |
-| Vaccination indication according to strategy | __close_contact_persons__ *tbc.* | ja/nein (Personen ab 16 Jahren, die mit besonders gefährdeten Personen im selben Haushalt leben (z.B. Partner/in, Familienmitglieder, Mitbewohner/innen, Haushälter/in, Au-pairs) oder pflegende Angehörige) | yes/no (persons aged 16 and over who live in the same household with particularly vulnerable persons (e.g. partner, family members, flatmates, housekeepers, au-pairs) or caring relatives) | Text |
-| Vaccination indication according to strategy | __people_in_community_facilities__ *tbc.* | ja/nein (Heime und Einrichtungen für Menschen mit Behinderungen, psychosomatische und psychiatrische Kliniken, Bundesasylzentren und kantonale Kollektivunterkünfte für Asylsuchende, Obdachlosenunterkünfte und Anstalten des Freiheitsentzugs) | yes/no (homes and facilities for people with disabilities, psychosomatic and psychiatric clinics, federal asylum centres and cantonal collective accommodation for asylum seekers, accommodation for the homeless and institutions for deprivation of liberty) | Text |
-| Vaccination indication according to strategy | __further_indications__ *tbc.* | ja/nein | yes/no | Text |
-| Details 1st vaccination | __place_canton_vaccination_1__ *tbc.* | Ort (Kanton) der 1. Impfung (automatisch berechnet aus PLZ) | Place (Canton) of 1st vaccination (automatically calculated from POSTCODE) | Text |
-| Details 1st vaccination | __place_type_vaccination_1__ *tbc.* | Ort (Typ) der 1. Impfung ('1'=Impfzentrum, '2'=Alters- und Pflegeheim, '3'=Arztpraxis, '4'=Apotheke, '5'=andere (legacy), '6'=Spital, '99'=andere) | Place (type) of 1st vaccination ('1'=vaccination centre, '2'=home for the elderly and nursing home, '3'=doctor's surgery, '4'=pharmacy, '5'=other (legacy), '6'=hospital, '99'=other) | Number (Controlled vocabulary) |
-| Details 1st vaccination | __id_reporting_system_vaccination_1__ *tbc.* | Eindeutige ID des Meldesystems (*tbc.*) | Unique ID of the reporting system (*tbc.*) | Number (Controlled vocabulary) |
-| Details 1st vaccination | __id_vaccination_unit_vaccination_1__ *tbc.* | Eindeutige ID der Impf-Einheit innerhalb des Meldesystems, z.B. Impfzentrum A oder Spital B, die beide das Meldesystem X nutzen (*tbc.*) | Unique ID of the vaccination unit within the reporting system, e.g. vaccination centre A or hospital B, both of which use reporting system X (*tbc.*) | Number (*tbc.*) |
-| Details 1st vaccination | __id_vaccination_action_vaccination_1__ *tbc.* | Eindeutige ID der Impf-Aktion; wird von der Impf-Einheit erzeugt | Unique ID of the vaccination action; generated by the vaccination unit | Number |
-| Details 1st vaccination | __id_anonymous_person_vaccination_1__ *tbc.* | Eindeutige anonyme ID der Person; wird von der Impf-Einheit erzeugt | Unique anonymous ID of the person; generated by the vaccination unit | Number |
-| Details 1st vaccination | __date_vaccination_1__ | Datum der 1. Impfung | Date of 1st vaccination | YYYY-MM-DD |
-| Details 1st vaccination | __vaccine_code_vaccination_1__ | Impfstoff Code (Global Trade Item Number, GTIN) der 1. Impfung | Vaccine code (Global Trade Item Number, GTIN) of 1st vaccination | Number (Controlled vocabulary) |
-| Details 1st vaccination | __batch_number_vaccination_1__ *tbc.* | Losnummer der 1. Impfung *tbc.* | Batch number of 1st vaccination *tbc.*| Number |
-| Details 2nd vaccination | __place_canton_vaccination_2__ *tbc.* | Ort (Kanton) der 2. Impfung (automatisch berechnet aus PLZ) | Place (Canton) of 2nd vaccination (automatically calculated from POSTCODE) | Text |
-| Details 2nd vaccination | __place_type_vaccination_2__ *tbc.* | Ort (Typ) der 2. Impfung ('1'=Impfzentrum, '2'=Alters- und Pflegeheim, '3'=Arztpraxis, '4'=Apotheke, '5'=andere (legacy), '6'=Spital, '99'=andere) | Place (type) of 2nd vaccination ('1'=vaccination centre, '2'=home for the elderly and nursing home, '3'=doctor's surgery, '4'=pharmacy, '5'=other (legacy), '6'=hospital, '99'=other) | Number (Controlled vocabulary) |
-| Details 2nd vaccination | __id_reporting_system_vaccination_2__ *tbc.* | Eindeutige ID des Meldesystems (*tbc.*) | Unique ID of the reporting system (*tbc.*) | Number (Controlled vocabulary) |
-| Details 2nd vaccination | __id_vaccination_unit_vaccination_2__ *tbc.* | Eindeutige ID der Impf-Einheit innerhalb des Meldesystems, z.B. Impfzentrum A oder Spital B, die beide das Meldesystem X nutzen (*tbc.*) | Unique ID of the vaccination unit within the reporting system, e.g. vaccination centre A or hospital B, both of which use reporting system X (*tbc.*) | Number (*tbc.*) |
-| Details 2nd vaccination | __id_vaccination_action_vaccination_2__ *tbc.* | Eindeutige ID der Impf-Aktion; wird von der Impf-Einheit erzeugt | Unique ID of the vaccination action; generated by the vaccination unit | Number |
-| Details 2nd vaccination | __id_anonymous_person_vaccination_2__ *tbc.* | Eindeutige anonyme ID der Person; wird von der Impf-Einheit erzeugt | Unique anonymous ID of the person; generated by the vaccination unit | Number |
-| Details 2nd vaccination | __date_vaccination_2__ | Datum der 2. Impfung | Date of 2nd vaccination | YYYY-MM-DD |
-| Details 2nd vaccination | __vaccine_code_vaccination_2__ | Impfstoff Code (Global Trade Item Number, GTIN) der 2. Impfung | Vaccine code (Global Trade Item Number, GTIN) of 2nd vaccination | Number (Controlled vocabulary) |
-| Details 2nd vaccination | __batch_number_vaccination_2__ *tbc.* | Losnummer der 2. Impfung *tbc.* | Batch number of 2nd vaccination *tbc.*| Number |
 
 
 # Community Contributions

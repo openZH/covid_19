@@ -79,7 +79,7 @@ csv_url, csv_data, main_url = get_fr_csv()
 reader = csv.DictReader(StringIO(csv_data), delimiter=';')
 
 for row in reader:
-    row_date = row['Date / Datum']
+    row_date = row['Date']
     row_date = sc.date_from_text(row_date)
     for district, d_id in district_ids.items():
         for key, val in row.items():
