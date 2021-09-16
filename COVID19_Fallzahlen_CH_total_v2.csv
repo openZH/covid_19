@@ -14154,6 +14154,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-15,14:30,ZH,,134916,,188,59,43,,1460,https://www.zh.ch/de/gesundheit/coronavirus.html,3515,15504,
 2021-09-16,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,153,84,0
 2021-09-16,,GL,,3882,,8,,,,81,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-09-16,,GR,,16148,,18,6,6,,196,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,364,535,
 2021-09-16,,LU,,,,35,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1410,1948,
 2021-09-16,,NW,,3178,,3,1,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,80,85,0
 2021-09-16,,SO,,22382,,25,12,,,279,https://corona.so.ch/bevoelkerung/daten/,,,
