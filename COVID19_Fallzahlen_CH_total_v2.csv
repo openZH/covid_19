@@ -14195,6 +14195,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-17,10:40,BS,,15925,,28,16,,15344,212,https://www.gesundheit.bs.ch,369,280,
 2021-09-17,12:00,AI,,1656,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,82,49,
 2021-09-17,14:30,ZH,,135674,,180,63,46,,1462,https://www.zh.ch/de/gesundheit/coronavirus.html,3788,15189,
+2021-09-18,,GR,,16212,,16,5,5,,196,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,345,534,
 2021-09-18,,JU,,8114,,3,1,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-09-18,,NW,,3191,,6,2,,,23,https://www.nw.ch/gesundheitsamtdienste/6044,73,87,0
 2021-09-18,00:00,GE,,66906,,,,,,748,https://infocovid.smc.unige.ch/,,,
