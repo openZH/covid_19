@@ -41,9 +41,12 @@ data = sc.DayData(canton='SO', url=url)
 data.datetime = sc.find(r'Stand\s*(\d+\.\d+\.\d{4})\s*', title.string)
 table = title.find_next('table')
 for table_row in table.find_all('tr'):
+    title = table_row.find_all('th')
     items = table_row.find_all('td')
-    name = items[0].string
-    value = items[1].string.replace("'", "")
+    if len(items) == 0:
+        continue
+    name = title[0].text
+    value = items[0].text.replace("'", "")
     if sc.find(r'(Laborbestätigte Infektionen).*?:', name):
         data.cases = value
         continue
