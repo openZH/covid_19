@@ -40,6 +40,7 @@ district_xls = {
 
 # weekly data
 url = 'https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton'
+"""
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 
@@ -72,7 +73,7 @@ for tr in trs[1:]:
             dd.population = inhabitants[district]
             dd.district_id = district_ids[district]
             print(dd)
-
+"""
 
 # daily data from csv
 csv_url, csv_data, main_url = get_fr_csv()
@@ -81,13 +82,13 @@ reader = csv.DictReader(StringIO(csv_data), delimiter=';')
 for row in reader:
     row_date = row['Date']
     row_date = sc.date_from_text(row_date)
-    for district, d_id in district_ids.items():
+    for district, xls_district in district_xls.items():
         for key, val in row.items():
-            if sc.find(r'.*(' + district + ').*', key):
+            if sc.find(r'.*(' + xls_district + ').*', key):
                 dd = sc.DistrictData(canton='FR', district=district)
                 dd.url = url
                 dd.date = row_date.isoformat()
                 dd.new_cases = val
                 dd.population = inhabitants[district]
-                dd.district_id = d_id
+                dd.district_id = district_ids[district]
                 print(dd)
