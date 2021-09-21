@@ -17,6 +17,6 @@ def get_fr_csv():
     if not csv_url.startswith('http'):
         csv_url = f'https://www.fr.ch{csv_url}'
 
-    csv = sc.download(csv_url, silent=True)
+    csv = sc.download(csv_url, silent=True, encoding='ISO-8859-1')
     csv = re.sub(r'(\d+)\'(\d+)', r'\1\2', csv)
     return csv_url, csv, main_url
