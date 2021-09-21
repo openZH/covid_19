@@ -14157,7 +14157,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-15,12:20,BS,,15859,,25,12,,15265,212,https://www.gesundheit.bs.ch,382,244,
 2021-09-15,14:30,ZH,,134904,,188,59,43,,1462,https://www.zh.ch/de/gesundheit/coronavirus.html,3515,15504,
 2021-09-16,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,153,84,0
-2021-09-16,,BE,,78013,,89,30,24,,1150,https://covid-kennzahlen.apps.be.ch/,2229,3916,
+2021-09-16,,BE,,78012,,89,30,24,,1150,https://covid-kennzahlen.apps.be.ch/,2229,3916,
 2021-09-16,,BL,,22304,,14,1,,,226,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-09-16,,FR,,35834,,18,3,,1010,497,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-09-16,,GL,,3882,,8,1,,,81,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,242,137,0
@@ -14207,7 +14207,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-17,10:40,BS,,15925,,28,16,,15344,212,https://www.gesundheit.bs.ch,369,280,
 2021-09-17,12:00,AI,,1656,,,,,,16,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,82,49,
 2021-09-17,14:30,ZH,,135678,,180,63,46,,1465,https://www.zh.ch/de/gesundheit/coronavirus.html,3788,15189,
-2021-09-18,,BE,,78303,,,,,,1151,https://covid-kennzahlen.apps.be.ch/,2131,3526,
+2021-09-18,,BE,,78306,,,,,,1151,https://covid-kennzahlen.apps.be.ch/,2131,3526,
 2021-09-18,,BL,,22379,,12,2,,,226,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-09-18,,FR,,35971,,12,4,,1016,497,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-09-18,,GL,,,,,1,,,,https://www.gl.ch/public/upload/assets/37764/Sentinella%20GL%20KW37.pdf,208,112,0
@@ -14227,7 +14227,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-18,10:00,TG,,24225,1,48,18,,1353,469,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,828,,
 2021-09-18,10:30,BS,,15946,,30,15,,15395,212,https://www.gesundheit.bs.ch,339,272,
 2021-09-18,14:30,ZH,,136086,,165,63,49,,1465,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-09-19,,BE,,78358,,89,30,24,,1151,https://covid-kennzahlen.apps.be.ch/,1987,3195,
+2021-09-19,,BE,,78386,,89,30,24,,1151,https://covid-kennzahlen.apps.be.ch/,1987,3195,
 2021-09-19,,BL,,22398,,11,2,,,226,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-09-19,,FR,,36021,,15,5,,1016,497,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-09-19,,GL,42513,,,,1,,,,https://www.gl.ch/public/upload/assets/37764/Sentinella%20GL%20KW37.pdf,191,107,0
@@ -14247,6 +14247,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-19,10:00,TG,,24240,0,48,18,,1353,469,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,750,,
 2021-09-19,10:40,BS,,15964,,33,13,,15441,212,https://www.gesundheit.bs.ch,311,241,
 2021-09-19,14:30,ZH,,136334,,164,59,44,,1466,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
+2021-09-20,,BE,,78492,,89,30,24,,1151,https://covid-kennzahlen.apps.be.ch/,,,
 2021-09-20,,GL,,3947,,13,,,,81,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-09-20,,GR,,16250,,20,5,5,,196,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,241,502,
 2021-09-20,,JU,,8126,,2,1,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
