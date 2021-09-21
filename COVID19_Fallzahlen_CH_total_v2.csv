@@ -14272,6 +14272,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-09-20,12:00,AI,,1667,,,,,,17,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,57,41,
 2021-09-20,14:30,ZH,,136482,,150,53,42,,1466,https://www.zh.ch/de/gesundheit/coronavirus.html,3788,15189,
 2021-09-21,,GL,,3970,,15,,,,81,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-09-21,,GR,,16284,,21,5,5,,196,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,245,490,
 2021-09-21,,LU,,,,40,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1066,1265,
 2021-09-21,,NW,,3215,,6,2,,,23,http://www.nw.ch/coronastatistik,61,66,
 2021-09-21,,SO,,22542,,27,11,,,281,https://corona.so.ch/bevoelkerung/daten/,,,
