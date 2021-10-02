@@ -18,6 +18,8 @@ for pdf_url in pdf_urls:
 
     year = sc.find(r'Situation au \d+.*(20\d{2})', pdf)
     date = sc.find(r'Point .pid.miologique au (\d+\s+\w+\s+20\d{2})', pdf)
+    if date is None:
+        date = sc.find(r'Point .pid.miologique au (\d+\.\d+\.20\d{2})', pdf)
     res = re.search(r'Entre\s+(?P<et>et\s+)?le\s+(?P<start>\d+\s+\w+)\s+et\s+le\s+(?P<end>\d+\s+\w+)(?P<year>\s+\d{4})?,', pdf, flags=re.I|re.UNICODE)
     res_with_year = re.search(r'Entre\s+le\s+(?P<start>\d+\s+\w+\s+\d{4})\s+et\s+le\s+(?P<end>\d+\s+\w+\s+\d{4}),', pdf, flags=re.I|re.UNICODE)
     res_no_month = re.search(r'Entre\s+le\s+(?P<start>\d+)\s+et\s+le\s+(?P<end>\d+\s+\w+),', pdf, flags=re.I|re.UNICODE)
@@ -36,7 +38,6 @@ for pdf_url in pdf_urls:
         end_date = sc.date_from_text(res_no_month_with_year['end'])
         start_date = sc.date_from_text(f"{res_no_month_with_year['start']}.{end_date.month}.{end_date.year}")
     elif date:
-        print(date)
         end_date = sc.date_from_text(date)
         start_date = end_date - datetime.timedelta(days=6)
 
