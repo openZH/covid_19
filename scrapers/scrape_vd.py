@@ -89,6 +89,8 @@ def parse_weekly_pdf():
 
     dd = sc.DayData(canton='VD', url=pdf_url)
     dd.datetime = sc.find('Point .pid.miologique au (\d+\s+\w+\s+\d{4})', pdf)
+    if dd.datetime is None:
+        dd.datetime = sc.find('Point .pid.miologique au (\d+\.\d+\.\d{4})', pdf)
     dd.cases = text_to_int(sc.find('\s(\d+.\d+)\s+personnes ont .t. test.es positives au SARS-CoV-2.', pdf))
     dd.hospitalized = sc.find('(\d+)\s+patients\s+(COVID-19\s+)?sont\s+(actuellement\s+)?hospitalis.s', pdf)
     dd.icu = sc.find('dont\s+(\d+)\s+en\s+soins\s+intensifs', pdf)
