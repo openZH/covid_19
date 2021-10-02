@@ -99,4 +99,4 @@ def parse_weekly_pdf():
 
 if __name__ == '__main__':
     parse_weekly_pdf()
-    parse_xlsx()
+    # parse_xlsx()
