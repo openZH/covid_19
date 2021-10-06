@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel
 2020-01-01,00:00,GE,,1,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
 2020-01-02,00:00,GE,,1,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
 2020-01-03,00:00,GE,,1,,,,,,0,https://infocovid.smc.unige.ch/,0,0,0
@@ -14619,3 +14619,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-05,12:00,AI,,1735,,,,,,17,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,13,7,
 2021-10-05,14:30,ZH,,139938,,99,46,32,,1481,https://www.zh.ch/de/gesundheit/coronavirus.html,1516,6450,
 2021-10-06,00:00,GE,,67369,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-10-06,09:00,SZ,,15591,,,,,14908,249,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
