@@ -14829,7 +14829,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-14,,VS,,43103,,8,2,1,,677,https://www.vs.ch/de/web/coronavirus,,,
 2021-10-14,00:00,FL,,3478,,1,,,3390,60,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-10-14,00:00,GE,,67821,,18,6,,,748,https://infocovid.smc.unige.ch/,507,303,0
-2021-10-14,00:00,OW,,3732,,3,,,,41,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,102,79,
+2021-10-14,00:00,OW,,3732,,3,,,,41,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,102,79,0
 2021-10-14,00:00,UR,,4014,,5,,,,52,https://www.ur.ch/themen/2962,,56,
 2021-10-14,08:00,ZG,,10539,,7,2,,10346,132,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-10-14,09:00,SZ,,15860,,,,,15227,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -14837,6 +14837,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-14,10:50,BS,,16266,,13,5,,15969,215,https://www.gesundheit.bs.ch,82,57,
 2021-10-14,12:00,AI,,1779,,,,,,17,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,32,6,
 2021-10-14,14:30,ZH,,141320,,71,34,24,,1489,https://www.zh.ch/de/gesundheit/coronavirus.html,1113,4340,
+2021-10-15,,GL,,4125,,3,,,,89,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-10-15,,SO,,22980,,6,2,,,283,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-10-15,,TI,,36316,,9,1,,,1007,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-10-15,00:00,GE,,67822,,,,,,748,https://infocovid.smc.unige.ch/,,,
