@@ -19,8 +19,9 @@ for row in reader:
     is_first = False
 
     dd = sc.DayData(canton='FR', url=main_url)
-    dd.datetime = row['Date']
     for key, val in row.items():
+        if sc.find(r'(Date).*', key):
+            dd.datetime = val
         if sc.find(r'(Total cas av.r.s).*', key):
             dd.cases = val
         elif sc.find(r'(Personnes hospitalis.es).*', key):
@@ -33,4 +34,5 @@ for row in reader:
             dd.recovered = val
 
     assert dd
+    assert dd.datetime
     print(dd)
