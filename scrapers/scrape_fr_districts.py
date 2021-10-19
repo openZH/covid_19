@@ -80,7 +80,11 @@ csv_url, csv_data, main_url = get_fr_csv()
 reader = csv.DictReader(StringIO(csv_data), delimiter=';')
 
 for row in reader:
-    row_date = row['Date']
+    row_date = None
+    for key, val in row.items():
+        if sc.find(r'(Date).*', key):
+            row_date = val
+    assert row_date
     row_date = sc.date_from_text(row_date)
     for district, xls_district in district_xls.items():
         for key, val in row.items():
