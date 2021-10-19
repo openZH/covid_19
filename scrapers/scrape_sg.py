@@ -38,6 +38,7 @@ print(dd_hosp)
 
 print('-' * 10)
 
+"""
 # isolated / quarantined cases
 url_isolated = 'https://stada.sg.ch/covid/ContactTracing.html'
 soup = BeautifulSoup(sc.download(url_isolated, silent=True), 'html.parser')
@@ -67,6 +68,7 @@ for i in range(1, len(rows)):
 if dd_isolated:
     print(dd_isolated)
     print('-' * 10)
+"""
 
 
 # historized cases
