@@ -14953,7 +14953,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-19,00:00,GE,,68577,,18,5,,,748,https://infocovid.smc.unige.ch/,660,408,0
 2021-10-19,00:00,OW,,3805,,3,,,,45,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,105,85,0
 2021-10-19,00:00,UR,,4059,,7,,,,53,https://www.ur.ch/themen/2962,,45,
-2021-10-19,08:00,AG,,60264,,28,7,,58735,733,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,429,298,1
+2021-10-19,08:00,AG,,60264,,28,7,,58735,733,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,429,298,0
 2021-10-19,08:00,ZG,,10613,,6,3,,10407,132,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,77,106,0
 2021-10-19,09:00,SZ,,16018,,,,,15370,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-19,10:00,TG,,25725,4,17,5,,1463,491,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,242,,
@@ -14964,7 +14964,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-20,,GL,,4153,,3,,,,89,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-10-20,,GR,,17057,,11,4,3,,201,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,250,487,
 2021-10-20,,JU,,8299,,1,0,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-10-20,,LU,,,,27,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,658,474,
+2021-10-20,,LU,,37976,,27,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,658,474,
 2021-10-20,,NE,,19995,,6,3,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-20,,NW,,3469,,4,2,,,25,http://www.nw.ch/coronastatistik,89,56,
 2021-10-20,,SG,,55707,,22,4,4,,744,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -14975,6 +14975,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-20,00:00,GE,,68666,,14,5,,,748,https://infocovid.smc.unige.ch/,634,374,0
 2021-10-20,00:00,OW,,3814,,3,,,,46,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,98,80,0
 2021-10-20,00:00,UR,,4070,,5,,,,53,https://www.ur.ch/themen/2962,,35,
+2021-10-20,08:00,AG,,60341,,26,8,,58795,733,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,458,336,
 2021-10-20,08:00,ZG,,10647,,5,3,,10438,132,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-10-20,09:00,SZ,,16075,,,,,15411,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-20,10:00,TG,,25751,0,16,5,,1464,491,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,274,,
@@ -14982,6 +14983,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-20,12:00,AI,,1826,,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,49,16,
 2021-10-20,14:30,ZH,,142244,,74,27,19,,1490,https://www.zh.ch/de/gesundheit/coronavirus.html,981,3015,
 2021-10-21,,GL,,4159,,3,,,,89,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-10-21,,LU,,,,25,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,702,474,
 2021-10-21,,TI,,36410,,9,2,,,1007,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-10-21,00:00,GE,,68669,,,,,,748,https://infocovid.smc.unige.ch/,,,
 2021-10-21,00:00,OW,,3819,,3,,,,47,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,89,71,0
