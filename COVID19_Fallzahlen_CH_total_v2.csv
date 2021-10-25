@@ -15017,7 +15017,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-22,,NE,,20045,,6,4,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-22,,NW,,3494,,4,2,,,25,http://www.nw.ch/coronastatistik,88,63,
 2021-10-22,,SG,,56140,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-10-22,,SH,,6325,,,,,,80,https://coviddashboard.sh.ch/,65,45,
+2021-10-22,,SH,,6325,,,,,,80,https://coviddashboard.sh.ch/,65,45,0
 2021-10-22,,SO,,23107,,10,2,,,284,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-10-22,,TI,,36428,,11,1,,,1007,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-10-22,00:00,FL,,3524,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
@@ -15035,7 +15035,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-23,,NE,,20064,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-23,,NW,,3506,,4,2,,,25,http://www.nw.ch/coronastatistik,,,
 2021-10-23,,SG,,56238,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-10-23,,SH,,6337,,,,,,80,https://coviddashboard.sh.ch/,72,28,
+2021-10-23,,SH,,6337,,,,,,80,https://coviddashboard.sh.ch/,72,28,0
 2021-10-23,00:00,FL,,3529,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-10-23,08:00,ZG,,10735,,6,3,,10463,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,172,156,0
 2021-10-23,09:00,SZ,,16235,,,,,15509,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -15045,11 +15045,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-24,,NE,,20068,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-24,,NW,,3512,,4,2,,,25,http://www.nw.ch/coronastatistik,92,55,
 2021-10-24,,SG,,56288,,21,4,3,,746,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-10-24,,SH,,6345,,10,0,,,81,https://coviddashboard.sh.ch/,71,32,
+2021-10-24,,SH,,6345,,10,0,,,81,https://coviddashboard.sh.ch/,71,32,0
 2021-10-24,00:00,FL,,3529,,2,,,3432,60,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-10-24,08:00,ZG,,10751,,6,3,,10446,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,170,160,0
 2021-10-24,09:00,SZ,,16292,,,,,15535,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-24,10:30,BS,,16442,,,,,16081,215,https://www.gesundheit.bs.ch,146,131,
+2021-10-25,,SO,,23209,,12,2,,,284,https://corona.so.ch/bevoelkerung/daten/,,,
+2021-10-25,,TI,,36482,,9,1,,,1007,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-10-25,00:00,OW,,3872,,4,,,,49,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,93,68,0
 2021-10-25,00:00,UR,,4105,,7,,,,53,https://www.ur.ch/themen/2962,,31,
 2021-10-25,08:00,ZG,,10762,,6,3,,10459,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-10-25,09:00,SZ,,16314,,,,,15573,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
