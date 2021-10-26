@@ -15085,7 +15085,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-25,,NE,,20081,,6,3,1,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-25,,NW,,3522,,4,2,,,25,http://www.nw.ch/coronastatistik,86,51,
 2021-10-25,,SG,,56487,,27,4,3,,1748,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-10-25,,SH,,6362,,9,1,,,81,https://coviddashboard.sh.ch/,75,25,
+2021-10-25,,SH,,6362,,9,1,,,81,https://coviddashboard.sh.ch/,75,25,0
 2021-10-25,,SO,,23209,,12,2,,,284,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-10-25,,TI,,36482,,9,1,,,1007,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-10-25,,VS,,43491,,10,2,2,,678,https://www.vs.ch/de/web/coronavirus,,,
@@ -15099,5 +15099,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-25,10:40,BS,,16463,,,,,16095,215,https://www.gesundheit.bs.ch,153,113,
 2021-10-25,14:30,ZH,,143086,,76,26,17,,1492,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-10-26,00:00,GE,,69114,,,,,,748,https://infocovid.smc.unige.ch/,,,
+2021-10-26,00:00,OW,,3889,,4,,,,51,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,83,67,0
 2021-10-26,00:00,UR,,4110,,4,,,,54,https://www.ur.ch/themen/2962,,31,
 2021-10-26,09:00,SZ,,16343,,,,,15614,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
