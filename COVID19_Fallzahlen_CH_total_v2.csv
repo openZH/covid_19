@@ -14938,7 +14938,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-18,10:00,TG,,25673,2,19,5,,1459,491,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,212,,
 2021-10-18,10:30,BS,,16313,,13,4,,16007,215,https://www.gesundheit.bs.ch,91,49,
 2021-10-18,14:30,ZH,,141791,,73,32,18,,1491,https://www.zh.ch/de/gesundheit/coronavirus.html,1113,4340,
-2021-10-19,,BE,,81621,,,,,,1165,https://covid-kennzahlen.apps.be.ch/,574,419,
+2021-10-19,,BE,,81621,,41,11,8,,1165,https://covid-kennzahlen.apps.be.ch/,574,419,
 2021-10-19,,BL,,23164,,8,0,,,229,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-10-19,,FR,,37222,,11,6,,1045,500,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-10-19,,GL,,4145,,3,0,,,89,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,32,21,0
@@ -15097,12 +15097,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-25,00:00,OW,,3872,,4,,,,49,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,93,68,0
 2021-10-25,00:00,UR,,4105,,7,,,,53,https://www.ur.ch/themen/2962,,31,
 2021-10-25,08:00,AG,,60715,,34,9,,59035,735,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,547,415,0
-2021-10-25,08:00,ZG,,10762,,6,3,,10459,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-10-25,08:00,ZG,,10762,,6,3,,10459,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,168,168,0
 2021-10-25,09:00,SZ,,16314,,,,,15573,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-25,10:00,TG,,26066,3,20,4,,1472,493,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,354,,
 2021-10-25,10:40,BS,,16463,,15,2,,16095,215,https://www.gesundheit.bs.ch,153,113,
 2021-10-25,14:30,ZH,,143086,,76,26,17,,1494,https://www.zh.ch/de/gesundheit/coronavirus.html,1149,3475,
-2021-10-26,,BE,,82488,,41,11,8,,1171,https://covid-kennzahlen.apps.be.ch/,,,
+2021-10-26,,BE,,82488,,32,6,6,,1171,https://covid-kennzahlen.apps.be.ch/,,,
 2021-10-26,,GL,,4207,,5,,,,90,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-10-26,,GR,,17293,,19,3,2,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,288,609,
 2021-10-26,,LU,,38358,,23,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,596,462,
@@ -15116,7 +15116,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-26,00:00,GE,,69177,,14,4,,,748,https://infocovid.smc.unige.ch/,717,349,0
 2021-10-26,00:00,OW,,3889,,4,,,,51,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,83,67,0
 2021-10-26,00:00,UR,,4110,,4,,,,54,https://www.ur.ch/themen/2962,,31,
-2021-10-26,08:00,ZG,,10785,,4,2,,10484,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-10-26,08:00,AG,,60811,,32,8,,59100,735,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,593,469,
+2021-10-26,08:00,ZG,,10785,,4,2,,10484,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,187,207,0
 2021-10-26,09:00,SZ,,16343,,,,,15614,251,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-26,10:00,TG,,26108,1,19,4,,1474,494,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,385,,
 2021-10-26,10:30,BS,,16505,,17,2,,16108,215,https://www.gesundheit.bs.ch,182,122,
