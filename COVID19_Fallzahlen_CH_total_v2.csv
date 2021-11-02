@@ -15065,7 +15065,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-24,,GR,,17191,,23,5,3,,202,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,285,568,
 2021-10-24,,JU,,8327,,1,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-10-24,,LU,,38223,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
-2021-10-24,,NE,,20067,,6,3,1,,409,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
+2021-10-24,,NE,,20068,,6,3,1,,409,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-24,,NW,,3512,,4,2,,,25,http://www.nw.ch/coronastatistik,92,55,
 2021-10-24,,SG,,56341,,21,4,3,,746,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-10-24,,SH,,6345,,10,0,,,81,https://coviddashboard.sh.ch/,71,32,0
@@ -15085,7 +15085,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-25,,GR,,17229,,20,3,3,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,258,553,
 2021-10-25,,JU,,8329,,1,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-10-25,,LU,,38261,,23,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,627,446,
-2021-10-25,,NE,,20087,,6,3,1,,409,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
+2021-10-25,,NE,,20088,,6,3,1,,409,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-25,,NW,,3522,,4,2,,,25,http://www.nw.ch/coronastatistik,86,51,
 2021-10-25,,SG,,56665,,27,4,3,,746,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-10-25,,SH,,6360,,9,1,,,81,https://coviddashboard.sh.ch/,75,25,0
@@ -15201,7 +15201,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-30,,BL,,23673,,11,2,,,230,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-10-30,,GR,,17596,,20,3,3,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,457,722,
 2021-10-30,,JU,,8360,,1,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-10-30,,NE,,20183,,,,,,410,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
+2021-10-30,,NE,,20181,,9,2,1,,410,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-30,,NW,,3673,,7,3,,,26,http://www.nw.ch/coronastatistik,144,137,
 2021-10-30,,SG,,57560,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-10-30,,SH,,6448,,,,,,83,https://coviddashboard.sh.ch/,125,65,0
@@ -15216,7 +15216,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-31,,BL,,23704,,12,1,,,230,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-10-31,,GR,,17627,,22,3,3,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,454,722,
 2021-10-31,,JU,,8365,,1,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
-2021-10-31,,NE,,20189,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
+2021-10-31,,NE,,20187,,11,2,0,,410,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-10-31,,NW,,3687,,6,2,,,26,http://www.nw.ch/coronastatistik,163,187,
 2021-10-31,,SG,,57671,,33,6,4,,752,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-10-31,,SH,,6471,,7,2,,,83,https://coviddashboard.sh.ch/,121,58,0
@@ -15229,9 +15229,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-31,14:30,ZH,,144735,,67,20,13,,1498,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2021-11-01,,GR,,17681,,22,5,4,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,454,732,
 2021-11-01,,JU,,8370,,1,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-11-01,,NE,,20209,,12,3,0,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-11-01,,NW,,3705,,6,2,,,26,http://www.nw.ch/coronastatistik,181,213,
 2021-11-01,,SG,,57754,,45,7,4,,753,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-11-01,,SH,,6480,,8,2,,,85,https://coviddashboard.sh.ch/,124,64,
+2021-11-01,,SH,,6480,,8,2,,,86,https://coviddashboard.sh.ch/,124,64,0
 2021-11-01,,SO,,23455,,12,4,,,284,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-11-01,00:00,FL,,3594,,1,,,3471,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-11-01,00:00,GE,,69587,,28,5,,,755,https://infocovid.smc.unige.ch/,,,
