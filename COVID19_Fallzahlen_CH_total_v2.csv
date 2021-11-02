@@ -15215,7 +15215,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-30,00:00,FL,,3576,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-10-30,00:00,GE,,69516,,19,5,,,755,https://infocovid.smc.unige.ch/,813,356,0
 2021-10-30,08:00,AG,,61310,,,,,59305,737,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2021-10-30,08:00,ZG,,10921,,4,3,,10613,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,190,202,
+2021-10-30,08:00,ZG,,10921,,4,3,,10613,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,190,202,0
 2021-10-30,09:00,SZ,,16697,,,,,15744,252,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-30,10:00,TG,,26440,1,19,4,,1483,497,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,507,,
 2021-10-30,11:20,BS,,16640,,19,3,,16203,215,https://www.gesundheit.bs.ch,222,153,
@@ -15233,7 +15233,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-10-31,00:00,FL,,3579,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-10-31,00:00,GE,,69576,,21,5,,,755,https://infocovid.smc.unige.ch/,772,326,0
 2021-10-31,08:00,AG,,61389,,,,,59340,737,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2021-10-31,08:00,ZG,,10936,,4,3,,10613,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,197,
+2021-10-31,08:00,ZG,,10936,,4,3,,10613,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,197,0
 2021-10-31,09:00,SZ,,16791,,,,,15760,253,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-10-31,10:00,TG,,26462,2,21,4,,1483,497,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,510,,
 2021-10-31,10:30,BS,,16663,,21,3,,16215,215,https://www.gesundheit.bs.ch,233,150,
@@ -15248,7 +15248,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-01,,SO,,23455,,12,4,,,284,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-11-01,00:00,FL,,3594,,1,,,3471,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2021-11-01,00:00,GE,,69694,,28,5,,,755,https://infocovid.smc.unige.ch/,752,297,0
-2021-11-01,08:00,ZG,,10956,,4,3,,10638,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,208,
+2021-11-01,08:00,ZG,,10956,,4,3,,10638,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,185,208,0
 2021-11-01,09:00,SZ,,16826,,,,,15814,253,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-01,10:00,TG,,26557,0,19,4,,1485,500,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,503,,
 2021-11-01,10:50,BS,,16682,,21,3,,16249,215,https://www.gesundheit.bs.ch,218,146,
@@ -15263,3 +15263,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-02,09:00,SZ,,16869,,,,,15876,255,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-02,10:00,TG,,26557,0,19,4,,1485,500,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-11-02,10:40,BS,,16722,,20,3,,16258,217,https://www.gesundheit.bs.ch,247,156,
+2021-11-02,12:00,AI,,1916,,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,64,25,
