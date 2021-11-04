@@ -15260,7 +15260,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-01,10:50,BS,,16682,,21,3,,16249,215,https://www.gesundheit.bs.ch,218,146,
 2021-11-01,14:30,ZH,,144915,,80,20,13,,1499,https://www.zh.ch/de/gesundheit/coronavirus.html,1478,4469,
 2021-11-02,,BE,,84177,,43,6,5,,1177,https://covid-kennzahlen.apps.be.ch/,1417,1081,
-2021-11-02,,BL,,23887,,12,1,,,230,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2021-11-02,,BL,,23901,,12,1,,,230,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-11-02,,GL,,4273,,7,,,,92,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-11-02,,GR,,17789,,22,5,4,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,525,782,
 2021-11-02,,JU,,8377,,0,0,,,141,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -15297,7 +15297,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-03,00:00,GE,,69880,,,,,,755,https://infocovid.smc.unige.ch/,814,337,0
 2021-11-03,00:00,OW,,4011,,4,,,,51,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,77,57,0
 2021-11-03,00:00,UR,,4178,,3,,,,54,https://www.ur.ch/themen/2962,,33,
-2021-11-03,08:00,AG,,61880,,35,11,,59565,741,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,889,491,
+2021-11-03,08:00,AG,,61880,,35,11,,59565,741,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,889,491,0
 2021-11-03,08:00,ZG,,11021,,8,3,,10707,133,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-11-03,09:00,SZ,,16930,,,,,15929,255,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-03,10:00,TG,,26825,0,17,2,,1492,500,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,622,,
@@ -15313,3 +15313,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-04,09:00,SZ,,17090,,,,,15982,256,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-04,10:00,TG,,26825,0,17,2,,1492,500,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2021-11-04,10:30,BS,,16843,,27,5,,16313,217,https://www.gesundheit.bs.ch,313,205,
+2021-11-04,12:00,AI,,1997,,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,84,25,
