@@ -15338,6 +15338,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-11-04,14:30,ZH,,146227,84,25,18,,1500,https://www.zh.ch/de/gesundheit/coronavirus.html,
 2021-11-05,,GL,,4339,10,,,,92,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,
 2021-11-05,,GR,,18096,18,5,4,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,
+2021-11-05,,JU,,8395,0,0,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,
 2021-11-05,,LU,,,33,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,
 2021-11-05,,NW,,3831,4,2,,,26,http://www.nw.ch/coronastatistik,
 2021-11-05,,SO,,23739,10,3,,,285,https://corona.so.ch/bevoelkerung/daten/,
