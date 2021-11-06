@@ -15352,6 +15352,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-11-05,10:50,BS,,16915,31,5,,16344,217,https://www.gesundheit.bs.ch,
 2021-11-05,12:00,AI,,2008,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,
 2021-11-05,14:30,ZH,,146741,79,26,20,,1500,https://www.zh.ch/de/gesundheit/coronavirus.html,
+2021-11-06,,GR,,18205,19,5,4,,203,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,
 2021-11-06,,NW,,3865,3,2,,,26,http://www.nw.ch/coronastatistik,
 2021-11-06,00:00,GE,,70048,,,,,755,https://infocovid.smc.unige.ch/,
 2021-11-06,09:00,SZ,,17424,,,,16064,261,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,
