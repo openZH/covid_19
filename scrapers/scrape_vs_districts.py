@@ -22,7 +22,7 @@ for p in range(1, pages):
         break
 
 assert page > 0
-content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 403, 420, 50], fixed=2)
+content = sc.pdftotext(pdf, page=page, layout=True, rect=[0, 443, 420, 50], fixed=2)
 
 # strip everything including the "Anzahl Faelle" column + values
 def strip_left_number(content):
@@ -59,7 +59,7 @@ def strip_right_items(content):
 
 # kill the left and right axis
 content = strip_left_number(content)
-content = strip_right_items(content)
+# content = strip_right_items(content)
 
 # remove strange characters at the end of the string
 #content = content.rstrip()
@@ -81,7 +81,7 @@ for line in content.split('\n'):
         length = llenght
     else:
         length = max(llenght, length)
-length = round(length / 16.5)
+length = round(length / 12.5)
 
 # split up all lines by the length and use the "lowest line" value
 district_values = []
