@@ -6,7 +6,7 @@ import scrape_common as sc
 url = 'https://statistik.tg.ch/themen-und-daten/covid-19.html/10816'
 content = sc.download(url, silent=True)
 
-res = re.search(r".*name: '2020',\s+categories: \[(.*)\]\s+}, {\s+name: '2021',\s+categories: \[(.*)\]", content)
+res = re.search(r".*name: '2020',\s+categories: \[\'(.*)\]\s+}, {\s+name: '2021',\s+categories: \[(.*)\]", content)
 assert res, f'failed to extract weeks, got {res}'
 weeks_2020 = res[1].split(',')
 weeks_2021 = res[2].split(',')
