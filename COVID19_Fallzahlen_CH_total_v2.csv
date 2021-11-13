@@ -15504,6 +15504,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-11,12:00,AI,,2084,,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,77,38,
 2021-11-11,14:30,ZH,,149624,,95,25,19,,1507,https://www.zh.ch/de/gesundheit/coronavirus.html,3531,13601,
 2021-11-12,,GL,,4496,,12,,,,93,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-11-12,,GR,,19012,,22,4,3,,204,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1070,1157,
 2021-11-12,,LU,,,,41,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1528,1647,
 2021-11-12,,NW,,4108,,6,2,,,26,http://www.nw.ch/coronastatistik,259,212,
 2021-11-12,,SO,,24367,,18,4,,,285,https://corona.so.ch/bevoelkerung/daten/,,,
@@ -15516,3 +15517,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-12,10:30,BS,,17451,,37,6,,16636,222,https://www.gesundheit.bs.ch,594,360,
 2021-11-12,12:00,AI,,2096,,,,,,18,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,80,51,
 2021-11-12,14:30,ZH,,150318,,92,21,14,,1508,https://www.zh.ch/de/gesundheit/coronavirus.html,3531,13601,
+2021-11-13,09:00,SZ,,18373,,,,,16524,265,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
