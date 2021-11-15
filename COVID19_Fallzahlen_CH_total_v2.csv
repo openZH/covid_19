@@ -15534,12 +15534,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-13,,BE,,88755,,,,,,1186,https://covid-kennzahlen.apps.be.ch/,3101,1347,
 2021-11-13,,BL,,25091,,27,3,,,235,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-11-13,,FR,,38669,,24,4,,1070,508,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
-2021-11-13,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/38724/Sentinella%20GL%20KW45.pdf,175,77,
+2021-11-13,,GL,,,,,0,,,,https://www.gl.ch/public/upload/assets/38724/Sentinella%20GL%20KW45.pdf,175,77,0
 2021-11-13,,GR,,19144,,28,4,4,,204,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1134,1172,
 2021-11-13,,JU,,8518,,5,1,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-11-13,,LU,,40778,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-11-13,,NE,,20560,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
-2021-11-13,,NW,,4159,,5,2,,,26,https://www.nw.ch/gesundheitsamtdienste/6044,234,215,
+2021-11-13,,NW,,4159,,5,2,,,26,http://www.nw.ch/coronastatistik,234,215,
 2021-11-13,,SG,,62058,,,,,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-11-13,,SH,,6902,,,,,,91,https://coviddashboard.sh.ch/,303,297,0
 2021-11-13,00:00,FL,,3798,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
@@ -15558,7 +15558,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-14,,JU,,8526,,5,1,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-11-14,,LU,,40947,,,,,,370,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-11-14,,NE,,20564,,,,,,,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
-2021-11-14,,NW,,4209,,4,2,,,27,https://www.nw.ch/gesundheitsamtdienste/6044,239,201,
+2021-11-14,,NW,,4209,,4,2,,,27,http://www.nw.ch/coronastatistik,239,201,
 2021-11-14,,SG,,62169,,47,6,5,,756,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2021-11-14,,SH,,6927,,7,3,,,91,https://coviddashboard.sh.ch/,299,283,0
 2021-11-14,00:00,FL,,3822,,4,,,3615,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
@@ -15572,6 +15572,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-15,,BE,,88955,,69,15,11,,1186,https://covid-kennzahlen.apps.be.ch/,,,
 2021-11-15,,GL,,4533,,9,,,,94,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-11-15,,LU,,,,45,,2,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1566,1610,
+2021-11-15,,NW,,4235,,3,2,,,27,http://www.nw.ch/coronastatistik,259,214,
 2021-11-15,,SO,,24648,,17,4,,,285,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-11-15,,TI,,37266,,24,5,,,1008,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-15,00:00,GE,,70949,,,,,,755,https://infocovid.smc.unige.ch/,,,
@@ -15581,4 +15582,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-15,10:00,TG,,28687,0,21,3,,1517,504,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10553,,,
 2021-11-15,10:00,UR,,4438,,1,,,,54,https://www.ur.ch/themen/2962,,84,
 2021-11-15,10:40,BS,,17650,,,,,16813,223,https://www.gesundheit.bs.ch,614,400,
+2021-11-15,12:00,AI,,2140,,,,,,19,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,83,45,
 2021-11-15,14:30,ZH,,151919,,101,25,17,,1511,https://www.zh.ch/de/gesundheit/coronavirus.html,3531,13601,
