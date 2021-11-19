@@ -15639,7 +15639,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-17,00:00,OW,,4362,,4,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,118,63,0
 2021-11-17,00:00,UR,,4495,,2,,,,54,https://www.ur.ch/themen/2962,,85,
 2021-11-17,08:00,AG,,65344,,61,9,,61070,747,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,2149,967,0
-2021-11-17,08:00,ZG,,11882,,15,4,,,135,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2021-11-17,08:00,ZG,,11882,,15,4,,,135,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,481,423,0
 2021-11-17,09:00,SZ,,18954,,,,,17403,267,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-17,10:00,TG,,29573,3,24,3,,1531,504,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,1719,,
 2021-11-17,10:30,BS,,17851,,48,5,,16961,223,https://www.gesundheit.bs.ch,667,403,
@@ -15649,7 +15649,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-18,,BE,,91155,,98,13,9,,1191,https://covid-kennzahlen.apps.be.ch/,,,
 2021-11-18,,BL,,,,,,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/medienmitteilungen/coronavirus-wochenbulletin-zu-den-aktuellen-fallzahlen-58,1280,,
 2021-11-18,,GR,,20022,,37,6,4,,205,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1455,1352,
-2021-11-18,,JU,,8643,,6,1,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-11-18,,JU,,8643,,7,1,,,143,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-11-18,,LU,,,,50,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,1963,2183,
 2021-11-18,,NW,,4450,,2,2,,,27,http://www.nw.ch/coronastatistik,302,230,
 2021-11-18,,SG,,64431,,41,4,3,,757,https://www.sg.ch/tools/informationen-coronavirus.html,,,
@@ -15659,11 +15659,14 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-18,00:00,GE,,71645,,,,,,755,https://infocovid.smc.unige.ch/,1409,476,0
 2021-11-18,00:00,OW,,4370,,4,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,98,50,0
 2021-11-18,00:00,UR,,4539,,2,,,,54,https://www.ur.ch/themen/2962,,105,
+2021-11-18,08:00,ZG,,12022,,15,4,,,135,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,574,427,
 2021-11-18,09:00,SZ,,19169,,,,,17649,268,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-11-18,10:00,TG,,29585,1,25,3,,1531,504,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10553,,,
 2021-11-18,12:00,AI,,2195,,,,,,19,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,96,59,
 2021-11-18,14:30,ZH,,154794,,114,26,18,,1513,https://www.zh.ch/de/gesundheit/coronavirus.html,4947,19465,
 2021-11-18,16:00,BS,,18074,,49,6,,17068,223,https://www.gesundheit.bs.ch,783,516,
+2021-11-19,,SO,,25208,,20,4,,,286,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-11-19,00:00,GE,,71650,,,,,,755,https://infocovid.smc.unige.ch/,,,
 2021-11-19,00:00,UR,,4588,,4,,,,54,https://www.ur.ch/themen/2962,,127,
+2021-11-19,08:00,ZG,,12120,,17,4,,,136,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2021-11-19,09:00,SZ,,19432,,,,,17860,269,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
