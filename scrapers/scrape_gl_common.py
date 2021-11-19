@@ -11,5 +11,5 @@ def get_gl_pdf_url():
     soup = BeautifulSoup(d, 'html.parser')
 
     # weekly pdf
-    pdf_url = soup.find(href=re.compile(r'Sentinella.*\.pdf$')).get('href')
+    pdf_url = soup.find(href=re.compile(r'Sentinella.*\.pdf')).get('href')
     return pdf_url
