@@ -15699,6 +15699,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-11-20,,SH,,7342,,,,,92,https://coviddashboard.sh.ch/
 2021-11-20,00:00,FL,,4144,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
 2021-11-20,00:00,GE,,72040,42,5,,,756,https://infocovid.smc.unige.ch/
+2021-11-20,08:00,ZG,,12234,17,4,,,136,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-11-20,09:00,SZ,,19661,,,,18039,271,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-11-20,09:30,BS,,18455,,,,17237,224,https://www.gesundheit.bs.ch
 2021-11-21,,GR,,20574,34,4,3,,205,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
@@ -15707,9 +15708,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2021-11-21,,NW,,4591,3,2,,,27,http://www.nw.ch/coronastatistik
 2021-11-21,,SG,,65804,57,5,4,,757,https://www.sg.ch/tools/informationen-coronavirus.html
 2021-11-21,,SH,,7381,9,3,,,92,https://coviddashboard.sh.ch/
+2021-11-21,00:00,FL,,4214,3,,,3769,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
 2021-11-21,00:00,GE,,72152,45,6,,,756,https://infocovid.smc.unige.ch/
+2021-11-21,08:00,ZG,,12333,17,4,,,136,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-11-21,09:00,SZ,,19881,,,,18183,274,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2021-11-21,10:30,BS,,18548,,,,17332,224,https://www.gesundheit.bs.ch
 2021-11-22,00:00,GE,,72152,,,,,756,https://infocovid.smc.unige.ch/
 2021-11-22,00:00,UR,,4692,3,,,,54,https://www.ur.ch/themen/2962
+2021-11-22,08:00,ZG,,12398,20,4,,,136,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona
 2021-11-22,09:00,SZ,,20067,,,,18300,275,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
