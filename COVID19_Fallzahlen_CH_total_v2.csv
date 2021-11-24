@@ -1229,7 +1229,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-17,00:00,OW,,66,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-17,00:00,SO,,350,,20,,,,9,https://corona.so.ch/index.php?id=27979,,,
 2020-04-17,08:00,AG,,988,,58,20,20,,30,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,3813,2171,
+2020-04-17,08:00,BE,,1598,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,4205,2270,
 2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-04-17,08:00,ZG,,172,,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,20,23,
 2020-04-17,09:00,BS,,918,,66,8,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,488
@@ -15738,7 +15738,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-21,10:00,TG,,30742,2,36,5,,1543,506,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,1946,,
 2021-11-21,10:30,BS,,18548,,62,10,,17332,224,https://www.gesundheit.bs.ch,992,579,
 2021-11-21,14:30,ZH,,157046,,112,27,18,,1522,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2021-11-22,,BE,,94551,,98,13,9,,1196,https://covid-kennzahlen.apps.be.ch/,,,
+2021-11-22,,BE,,94551,,98,13,9,,1196,https://covid-kennzahlen.apps.be.ch/,3813,2171,
 2021-11-22,,BL,,26792,,45,3,,,237,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2021-11-22,,GL,,4769,,9,,,,94,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-11-22,,GR,,20739,,38,3,3,,206,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1619,1420,
@@ -15781,5 +15781,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-23,10:30,BS,,18793,,80,11,,17525,224,https://www.gesundheit.bs.ch,1044,537,
 2021-11-23,12:00,AI,,2260,,,,,,20,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,96,59,
 2021-11-23,14:30,ZH,,159016,,149,31,19,,1523,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
+2021-11-24,,TI,,38125,,52,7,,,1008,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2021-11-24,00:00,OW,,4635,,3,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,301,45,0
 2021-11-24,00:00,UR,,4765,,5,,,,54,https://www.ur.ch/themen/2962,,115,
 2021-11-24,09:00,SZ,,20439,,,,,18655,278,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
