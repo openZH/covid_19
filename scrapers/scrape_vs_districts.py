@@ -81,7 +81,7 @@ for line in content.split('\n'):
         length = llenght
     else:
         length = max(llenght, length)
-length = round(length / 12.5)
+length = round(length / 13.0)
 
 # split up all lines by the length and use the "lowest line" value
 district_values = []
