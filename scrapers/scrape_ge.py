@@ -103,7 +103,7 @@ for row in rows:
 
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
-    dd.cases = row['Cumul cas COVID-19']
+    dd.cases = row['Cumul cas COVID-19 (GE)']
     current_hosp = row['Total hospitalisations COVID-19 actifs (en cours) HUG']
     if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
         dd.hospitalized = current_hosp
