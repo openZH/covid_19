@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
-"""
 url = 'https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962'
+"""
 d = sc.download(url, silent=True, encoding='windows-1252')
 d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
