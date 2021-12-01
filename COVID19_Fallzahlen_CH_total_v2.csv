@@ -15928,11 +15928,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-30,,BE,,101080,,154,29,23,,1219,https://covid-kennzahlen.apps.be.ch/,,,
 2021-11-30,,GL,,5143,,7,,,,95,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-11-30,,GR,,22804,,63,7,5,,208,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2371,1533,
-2021-11-30,,JU,,9270,,27,4,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-11-30,,JU,,9270,,28,4,,,135,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-11-30,,LU,,,,62,,11,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,3247,5001,
 2021-11-30,,NW,,5072,,3,1,,,28,http://www.nw.ch/coronastatistik,298,147,
 2021-11-30,,SG,,72178,,,19,17,,765,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-11-30,,SH,,8050,,11,4,,,96,https://coviddashboard.sh.ch/,549,447,
+2021-11-30,,SH,,8050,,11,4,,,96,https://coviddashboard.sh.ch/,549,447,0
 2021-11-30,,SO,,27099,,26,4,,,290,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-11-30,,TI,,38934,,70,7,,,1012,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-30,00:00,GE,,75709,,84,10,,,757,https://infocovid.smc.unige.ch/,3773,1099,1283
