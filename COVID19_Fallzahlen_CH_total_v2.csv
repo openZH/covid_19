@@ -15948,6 +15948,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-30,14:30,ZH,,167647,,177,42,24,,1543,https://www.zh.ch/de/gesundheit/coronavirus.html,7035,30644,
 2021-12-01,,BE,,102397,,176,26,22,,1225,https://covid-kennzahlen.apps.be.ch/,,,
 2021-12-01,,GL,,5206,,7,,,,95,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2021-12-01,,GR,,23058,,58,7,4,,208,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2455,1606,
 2021-12-01,,LU,,,,65,,8,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,3354,5209,
 2021-12-01,,NW,,5113,,3,1,,,28,http://www.nw.ch/coronastatistik,293,152,
 2021-12-01,,SO,,27343,,25,4,,,291,https://corona.so.ch/bevoelkerung/daten/,,,
