@@ -26,6 +26,8 @@ if dd:
     is_first = False
 """
 
+is_first = True
+
 
 d = sc.download('https://www.ow.ch/de/kanton/publired/publikationen/?action=info&pubid=20318',
                 encoding='windows-1252', silent=True)
