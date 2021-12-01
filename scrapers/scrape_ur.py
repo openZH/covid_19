@@ -7,6 +7,7 @@ import scrape_common as sc
 url = 'https://www.ur.ch/themen/2962'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
+d = d.replace('<br />', ' ')
 
 # 2020-03-26 (and possibly earlier) from https://www.ur.ch/themen/2962
 # 2020-07-07 they changed the title, so we're using the table header to find the table
@@ -69,14 +70,14 @@ assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 
 headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
-assert headers[0].text.strip().lower() == "aktive fälle"
-assert headers[1].text.lower() == "positiv getestete erkrankungsfälle total seit märz 2020"
+assert re.search(r'(aktive\s+fälle)', headers[0].text, flags=re.I) is not None
+assert re.search(r"(positiv\s+getestete\s+erkrankungsfälle\s+total\s+seit\s+märz\s+2020)", headers[1].text, flags=re.I) is not None
 assert headers[2].text.lower() == "hospitalisiert"
 assert headers[3].text.lower() == "quarantäne"
-assert headers[4].text.lower() == "total verstorbene"
+assert re.search(r"(total\s+verstorbene)", headers[4].text, flags=re.I) is not None
 
 cells = rows[1].find_all('td')
-assert len(cells) == 6, f"Number of columns changed, {len(cells)} != 6"
+assert len(cells) == 5, f"Number of columns changed, {len(cells)} != 5"
 
 ur_number_regex = r'(\d+)\s*(\(.+?\))?'
 dd.cases = sc.find(ur_number_regex, cells[1].text)
