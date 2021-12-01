@@ -63,7 +63,7 @@ data_table = soup.find(string=re.compile(r'Positiv\s+getestete\s+Erkrankungsfäl
 assert data_table, "Can't find data table"
 
 dd = sc.DayData(canton='UR', url=url)
-dd.datetime = sc.find(r'Stand[A-Za-z ]*[:,]? ([^<)]+ Uhr)<', d)
+dd.datetime = sc.find(r'Stand: (.* Uhr)', d)
 
 rows = data_table.find_all('tr')
 assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
