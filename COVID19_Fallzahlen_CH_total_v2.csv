@@ -16017,6 +16017,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-04,00:00,GE,,77884,,,,,,757,https://infocovid.smc.unige.ch/,4823,1313,2144
 2021-12-04,09:00,SZ,,22833,,,,,20897,290,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-12-04,11:40,BS,,21310,,,,,19308,233,https://www.gesundheit.bs.ch,1769,825,
+2021-12-05,,GR,,24069,,62,5,4,,211,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2222,1605,
 2021-12-05,,NW,,5306,,4,2,,,28,https://www.nw.ch/gesundheitsamtdienste/6044,266,120,
 2021-12-05,09:00,SZ,,23095,,,,,21062,292,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-12-05,11:40,BS,,21489,,,,,19612,233,https://www.gesundheit.bs.ch,1644,800,
