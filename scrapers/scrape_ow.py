@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
-url = 'https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962'
+base_url = 'https://www.ow.ch'
+url = f'{base_url}/de/verwaltung/dienstleistungen/?dienst_id=5962'
 """
 d = sc.download(url, silent=True, encoding='windows-1252')
 d = d.replace('&nbsp;', ' ')
@@ -29,16 +30,17 @@ if dd:
 is_first = True
 
 
-d = sc.download('https://www.ow.ch/de/kanton/publired/publikationen/?action=info&pubid=20318',
+d = sc.download(f'{base_url}/de/kanton/publired/publikationen/?action=info&pubid=20318',
                 encoding='windows-1252', silent=True)
 soup = BeautifulSoup(d, 'html.parser')
-xls_url = soup.find(href=re.compile("\.xlsx$", flags=re.IGNORECASE)).get('href')
+xls_url = soup.find('a', string=re.compile("Download")).get('href')
 assert xls_url, "URL is empty"
+xls_url = f'{base_url}{xls_url}'
 
-for row in soup.find_all('tr'):
-    cells = row.find_all('td')
-    if cells[0].string and cells[0].string.startswith('Datum'):
-        file_date = cells[1].string
+for row in soup.find_all('dl'):
+    cells = row.find_all('dd')
+    if cells[0].string:
+        file_date = cells[0].string
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=4)
