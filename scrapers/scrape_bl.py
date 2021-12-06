@@ -157,15 +157,15 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # hospitalization data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Intensivstation&quot;,&quot;Normalstation&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Normalstation&quot;,&quot;Intensivstation&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
             if len(c) == 3:
                 key, row_date = get_row_date(c[0])
                 rows[key]['date'] = row_date
-                rows[key]['icu'] = c[1]
-                rows[key]['hospitalized'] = c[2]
+                rows[key]['icu'] = int(float(c[2] or 0))
+                rows[key]['hospitalized'] = int(float(c[1] or 0)) + rows[key]['icu']
         continue
 
     # death
