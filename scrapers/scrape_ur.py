@@ -58,7 +58,7 @@ d = d.replace('<br />', ' ')
 """
 
 soup = BeautifulSoup(d, 'html.parser')
-data_table = soup.find(string=re.compile(r'Positiv\s+getestete\s+Erkrankungsfälle')).find_parent('table')
+data_table = soup.find(string=re.compile(r'Positive\s+Fälle\s+total')).find_parent('table')
 
 assert data_table, "Can't find data table"
 
@@ -71,7 +71,7 @@ assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 headers = rows[0].find_all('td') or rows[0].find_all('th')
 assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
 assert re.search(r'(aktive\s+fälle)', headers[0].text, flags=re.I) is not None
-assert re.search(r"(positiv\s+getestete\s+erkrankungsfälle\s+total\s+seit\s+märz\s+2020)", headers[1].text, flags=re.I) is not None
+assert re.search(r"(positive\s+fälle\s+total\s+seit\s+märz\s+2020)", headers[1].text, flags=re.I) is not None
 assert headers[2].text.lower() == "hospitalisiert"
 assert headers[3].text.lower() == "quarantäne"
 assert re.search(r"(total\s+verstorbene)", headers[4].text, flags=re.I) is not None
