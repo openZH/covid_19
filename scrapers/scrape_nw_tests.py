@@ -23,9 +23,9 @@ for row in rows:
     item = cols[0].text
     if re.match(r'Covid-19-Tests innert 24h.*', item, re.I):
         res = re.match(r'(\d+)\s+(\d+\.?\d?)%', cols[1].text)
-        assert res
-        td.total_tests = res[1]
-        td.positivity_rate = res[2]
+        if res is not None:
+            td.total_tests = res[1]
+            td.positivity_rate = res[2]
 
-assert td
-print(td)
+if td:
+    print(td)
