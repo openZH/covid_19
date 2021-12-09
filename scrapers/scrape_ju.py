@@ -64,6 +64,12 @@ def scrape_page_part(html):
     rows = pd.DataFrame.from_dict(cols).to_dict('records')
     return rows
 
+def get_row_value(row, key):
+    value = int(row.get(key))
+    if value < 0:
+        return None
+    return value
+
 
 url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html'
 d = sc.download(url, silent=True)
@@ -109,7 +115,7 @@ if iframe and iframe['src']:
             dd = sc.DayData(canton='JU', url=url)
             dd.datetime = row.get('Date', '')
             dd.cases = row.get('Cumul des cas confirmés')
-            dd.hospitalized = row.get('Cas actuellement hospitalisés')
-            dd.icu = row.get('Cas actuellement en soins intensifs')
+            dd.hospitalized = get_row_value(row, 'Cas actuellement hospitalisés')
+            dd.icu = get_row_value(row, 'Cas actuellement en soins intensifs')
             dd.deaths = sum(int(str(r.get('Nouveaux décès', 0))) for r in rows[i:] if r.get('Nouveaux décès'))
             print(dd)
