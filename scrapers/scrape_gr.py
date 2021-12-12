@@ -1,7 +1,39 @@
 #!/usr/bin/env python3
 
 import datetime
+import re
+from bs4 import BeautifulSoup
 import scrape_common as sc
+
+
+is_first = True
+
+url = 'https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx'
+data = sc.download(url, silent=True)
+data = re.sub(r'(\d+)&#39;(\d+)', r'\1\2', data)
+soup = BeautifulSoup(data, 'html.parser')
+elem = soup.find('h2', text=re.compile(r'Fallzahlen\s+Kanton.*'))
+if elem is not None:
+    table = elem.find_next('table')
+    body = table.find('tbody')
+    for row in body.find_all('tr'):
+        tds = row.find_all('td')
+
+        if not is_first:
+            print('-' * 10)
+        is_first = False
+
+        dd = sc.DayData(canton='GR', url=url)
+        dd.datetime = tds[0].text
+        dd.cases = tds[1].text
+        dd.isolated = tds[3].text
+        dd.quarantined = tds[4].text
+        dd.deaths = tds[6].text
+        dd.hospitalized = tds[8].text
+        dd.icu = tds[10].text
+        dd.vent = tds[11].text
+        print(dd)
+
 
 json_url = 'https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson'
 data = sc.jsondownload(json_url, silent=True)
@@ -57,7 +89,6 @@ features: [
 
 assert 'features' in data, "JSON did not contain `features` key"
 
-is_first = True
 for feature in data['features']:
     row = feature['attributes']
     if not is_first:
