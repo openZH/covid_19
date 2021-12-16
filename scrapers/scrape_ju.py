@@ -71,7 +71,7 @@ def get_row_value(row, key):
     return value
 
 
-url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualite/Statistiques-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html'
+url = 'https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
