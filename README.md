@@ -313,6 +313,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 | __current_icu_covid__ | Reported number of hospitalised Covid19 patients in ICU on date. | Number      |
 | __current_vent_covid__ | Reported number of hospitalised Covid19 patients requiring invasive ventilation on date. (These data are communicated by the Health Department Canton Zurich on weekdays, and available here: https://github.com/openZH/covid_19/tree/master#swiss-cantons-and-principality-of-liechtenstein-unified-dataset) | Number      |
 | __current_icu_not_covid__ | Reported number of hospitalised non-Covid19 patients in ICU on date. | Number      |
+| __current_icu_service_certified_operated__ | Reported number of currently operated certified 'Intensive Care Unit' (ICU) beds on date and time  | Number      |
 | __source__ | Source URL of the data reported. | String      |
 
 ## Canton Zurich: Variants of Concern
