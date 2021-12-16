@@ -10,13 +10,13 @@ from datetime import datetime
 
 
 bulletin_url = sbc.get_latest_bl_bulletin_url()
-bulletin_content = sc.download(bulletin_url, silent=True)
-content = bulletin_content
+content = sc.download(bulletin_url, silent=True)
+content = sbc.strip_bl_bulletin_numbers(content)
 
 dd = sc.DayData(canton='BL', url=bulletin_url)
 dd.datetime = sc.find(r'Per heute \w+, (\d+\. \w+ 20\d{2})', content)
 dd.isolated = sc.find(r'Es befinden sich (\d+) positiv getestete Personen in Isolation', content)
-dd.quarantined = sc.find(r'Aktuell befinden sich.* (\d+) Personen in Quarantäne', content)
+dd.quarantined = sc.find(r'(\d+) Personen sind aufgrund eines Kontaktes mit einer positiven Person in Quarantäne', content)
 
 is_first = True
 if dd:
