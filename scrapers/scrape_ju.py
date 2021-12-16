@@ -77,7 +77,7 @@ d = d.replace('&nbsp;', ' ')
 soup = BeautifulSoup(d, 'html.parser')
 
 is_first = True
-iframe = soup.find(string=re.compile(r'Tableau des données épidémiologiques quotidiennes')).find_next('iframe')
+iframe = soup.find('h3', string=re.compile(r'Avertissement')).find_next('iframe')
 if iframe and iframe['src']:
     rows = []
     last_rows = {}
