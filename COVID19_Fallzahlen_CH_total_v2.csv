@@ -16305,11 +16305,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-16,,BL,,,,57,7,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,2923,2119,
 2021-12-16,,GL,,6006,,7,,,,98,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2021-12-16,,GR,,26598,,52,6,6,,219,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1809,1712,
-2021-12-16,,JU,,10913,,23,3,,,131,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-12-16,,JU,,10913,,24,3,,,131,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-12-16,,LU,,,,64,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,4227,5573,
 2021-12-16,,NW,,5906,,9,3,,,30,http://www.nw.ch/coronastatistik,434,218,
 2021-12-16,,SG,,83395,,88,22,17,,786,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2021-12-16,,SH,,9458,,22,3,,,100,https://coviddashboard.sh.ch/,581,439,
+2021-12-16,,SH,,9458,,22,3,,,100,https://coviddashboard.sh.ch/,581,439,0
 2021-12-16,,SO,,31056,,48,10,,,301,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-12-16,,TI,,41924,,102,14,,,1029,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-16,,VS,,53012,,79,8,5,,709,https://www.vs.ch/de/web/coronavirus,,,
