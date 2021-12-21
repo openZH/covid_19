@@ -30,8 +30,8 @@ district_ids = {
 
 district_xls = {
     'Broye': 'Broye',
-    'Glane': 'Glâne',
-    'Greyerz': 'Gruyère',
+    'Glane': 'Gl.ne',
+    'Greyerz': 'Gruy.re',
     'Saane': 'Sarine',
     'See': 'Lac',
     'Sense': 'Singine',
