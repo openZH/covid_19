@@ -54,7 +54,10 @@ const validateSequentially = async csvFiles => {
       if (correction[item['date']] === undefined) {
           correction[item['date']] = {};
       }
-      correction[item['date']][item['abbreviation_canton_and_fl']] = item['column'];
+      if (correction[item['date']][item['abbreviation_canton_and_fl']] === undefined) {
+          correction[item['date']][item['abbreviation_canton_and_fl']] = {};
+      }
+      correction[item['date']][item['abbreviation_canton_and_fl']][item['column']] = 1;
   });
 
   let failedChecks = 0;
@@ -87,7 +90,7 @@ const validateSequentially = async csvFiles => {
 
             // check if cumulative field only increase
             cumulativeFields.forEach(function(col, col_idx) {
-	        const skip = correction[date] !== undefined && correction[date][abbr] === col;
+	        const skip = correction[date] !== undefined && correction[date][abbr] !== undefined && correction[date][abbr][col] !== undefined;
                 if (col in last && last[col] && item[col] && parseInt(item[col]) < parseInt(last[col]) && !skip) {
                     errors.push(`Row ${index+2}: cumulative field ${col}: ${item[col]} < ${last[col]}`);
                 }
