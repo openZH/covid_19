@@ -663,7 +663,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,47,2021,562,2,9415,94
 107,Bezirk Meilen,104274,48,2021,597,0,10012,94
 107,Bezirk Meilen,104274,49,2021,774,2,10786,96
-107,Bezirk Meilen,104274,50,2021,652,1,11438,97
+107,Bezirk Meilen,104274,50,2021,651,2,11437,98
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -1138,4 +1138,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,47,2021,2081,3,44498,484
 112,Bezirk Zürich,422870,48,2021,2308,5,46806,489
 112,Bezirk Zürich,422870,49,2021,2687,6,49493,495
-112,Bezirk Zürich,422870,50,2021,2598,2,52091,497
+112,Bezirk Zürich,422870,50,2021,2597,2,52090,497
