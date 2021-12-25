@@ -61,10 +61,10 @@ for row in rows:
     else:
         dd_full_list.datetime = str(row['Datenstand']).replace(':', '.')
         
-    dd_full_list.cases = str(row['Anzahl pos. Fälle']).replace("'","")
-    dd_full_list.recovered = row['genesen']
-    dd_full_list.hospitalized = row['hospitalisiert']
-    dd_full_list.deaths = row['Todesfälle']
+    dd_full_list.cases = str(row['Anzahl pos. Fälle kumuliert']).replace("'","")
+    dd_full_list.recovered = row['Genesene kumuliert']
+    dd_full_list.hospitalized = row['Hospitalisierte']
+    dd_full_list.deaths = row['Todesfälle kumuliert']
     if dd_full_list:
         if not is_first:
             print('-' * 10)
