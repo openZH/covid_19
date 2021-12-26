@@ -16502,6 +16502,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-25,,GR,,28575,,40,10,9,,224,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1818,1634,
 2021-12-25,,JU,,11994,,28,2,,,134,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-12-25,,NW,,6395,,8,2,,,31,https://www.nw.ch/gesundheitsamtdienste/6044,395,205,
-2021-12-25,00:00,GE,,91539,,164,19,,,788,https://infocovid.smc.unige.ch/,7676,1165,
+2021-12-25,00:00,GE,,91539,,164,19,,,788,https://infocovid.smc.unige.ch/,7676,1165,0
 2021-12-25,09:00,SZ,,27758,,,,,26128,316,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2021-12-25,12:00,BS,,24863,,,,,23454,246,https://www.gesundheit.bs.ch,1163,571,
+2021-12-26,00:00,FL,,5934,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
