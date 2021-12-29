@@ -38,7 +38,9 @@ district_ids = {
 
 
 def strip_so_number(value):
-    return int(value.replace('\'', ''))
+    value = value.replace('\'', '')
+    value = value.replace('^', '')
+    return int(value)
 
 
 soup = BeautifulSoup(d, 'html.parser')
