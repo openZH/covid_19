@@ -169,7 +169,7 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # death
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Todesfälle BL&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Covid-19-Todesfälle BL&quot;\s*([^<]+)</pre>', d)
     if data:
         for row in data.split(" "):
             c = row.split(',')
