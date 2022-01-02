@@ -16668,6 +16668,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-01-01,00:00,GE,,99884,158,17,,,796,https://infocovid.smc.unige.ch/,,
 2022-01-01,09:00,SZ,,29181,,,,27426,328,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,
 2022-01-01,14:50,BS,,26279,,,,24469,250,https://www.gesundheit.bs.ch,,
+2022-01-02,,GR,,32205,35,9,8,,232,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,,
 2022-01-02,,NW,,6932,5,2,,,31,http://www.nw.ch/coronastatistik,,
 2022-01-02,,TI,,55189,138,16,,,1048,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,
 2022-01-02,09:00,SZ,,29395,,,,27546,329,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,
