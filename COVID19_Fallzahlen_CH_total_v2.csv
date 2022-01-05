@@ -16754,11 +16754,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-04,,LU,,,,51,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5654,2270,
 2022-01-04,,NW,,7119,,4,2,,,31,http://www.nw.ch/coronastatistik,509,174,
 2022-01-04,,SG,,93807,,78,14,12,,808,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-01-04,,SH,,11397,,14,3,,,102,https://coviddashboard.sh.ch/,804,549,
+2022-01-04,,SH,,11397,,14,3,,,102,https://coviddashboard.sh.ch/,804,549,0
 2022-01-04,,SO,,36908,,40,14,,,312,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-04,,TI,,57341,,160,17,,,1053,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-04,00:00,FL,,6351,,8,,,5964,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-04,00:00,GE,,104373,,197,18,,,796,https://infocovid.smc.unige.ch/,13184,966,
+2022-01-04,00:00,GE,,104373,,197,18,,,796,https://infocovid.smc.unige.ch/,13184,966,0
 2022-01-04,00:00,OW,,7339,,7,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,585,1588,0
 2022-01-04,09:00,SZ,,29686,,,,,27890,331,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-01-04,10:00,TG,,48505,3,52,13,,1840,566,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2941,,
@@ -16766,6 +16766,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-04,12:30,BS,,26954,,82,18,,24992,252,https://www.gesundheit.bs.ch,1710,628,
 2022-01-04,14:30,ZH,,224701,,192,57,43,,1626,https://www.zh.ch/de/gesundheit/coronavirus.html,11528,54456,
 2022-01-05,,GL,,6875,,10,,,,100,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
+2022-01-05,,SO,,37554,,38,15,,,312,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-05,,TI,,59362,,158,12,,,1053,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-05,00:00,UR,,6721,,7,,,,59,https://www.ur.ch/themen/2962,,178,
 2022-01-05,09:00,SZ,,30040,,,,,28096,332,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
