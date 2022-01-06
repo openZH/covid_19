@@ -34,6 +34,8 @@ for row in rows:
     dd.isolated = sc.int_or_word(row.search(r'in\s+Isolation'))
     dd.quarantined = sc.int_or_word(row.search(r'in\s+Quarantäne'))
     dd.quarantine_riskareatravel = sc.int_or_word(row.search(r'Reiserückkehrer\s+in\s+Quarantäne'))
+    if dd.cases is None and dd.datetime == '31.12.2022':
+        continue
     if dd:
         if not is_first:
             print('-' * 10)
