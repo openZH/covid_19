@@ -16801,10 +16801,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-06,,LU,,,,52,,7,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,7124,3221,
 2022-01-06,,NW,,7334,,4,1,,,32,http://www.nw.ch/coronastatistik,588,194,
 2022-01-06,,SG,,96250,,72,15,12,,810,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2022-01-06,,SH,,11829,,13,2,,,102,https://coviddashboard.sh.ch/,1013,655,
 2022-01-06,,SO,,38211,,37,15,,,314,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-06,,TI,,60994,,149,13,,,1056,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-06,,VS,,70870,,106,11,8,,728,https://www.vs.ch/de/web/coronavirus,,,
-2022-01-06,00:00,GE,,109263,,198,13,,,796,https://infocovid.smc.unige.ch/,17326,594,
+2022-01-06,00:00,GE,,109263,,198,13,,,796,https://infocovid.smc.unige.ch/,17326,594,0
 2022-01-06,00:00,OW,,7527,,9,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,701,1643,0
 2022-01-06,00:00,UR,,6820,,7,,,,59,https://www.ur.ch/themen/2962,,218,
 2022-01-06,09:00,SZ,,30470,,,,,28308,333,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16812,3 +16813,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-06,12:00,AI,,3290,,,,,,22,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,146,56,
 2022-01-06,12:00,BS,,28081,,86,19,,25697,254,https://www.gesundheit.bs.ch,2130,1006,
 2022-01-06,14:30,ZH,,233606,,202,57,41,,1628,https://www.zh.ch/de/gesundheit/coronavirus.html,15230,61152,
+2022-01-07,09:00,SZ,,30902,,,,,28576,333,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
