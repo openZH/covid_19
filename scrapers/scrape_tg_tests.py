@@ -6,12 +6,20 @@ import scrape_common as sc
 url = 'https://statistik.tg.ch/themen-und-daten/covid-19.html/10816'
 content = sc.download(url, silent=True)
 
-res = re.search(r".*name: '2020',\s+categories: \[\'(.*)\]\s+}, {\s+name: '2021',\s+categories: \[(.*)\]", content)
-assert res, f'failed to extract weeks, got {res}'
+res = re.search(r".*name: '2020',\s+categories: \[\'(.*)\]\s+}", content)
+assert res, f'failed to extract 2020 weeks, got {res}'
 weeks_2020 = res[1].split(',')
-weeks_2021 = res[2].split(',')
-weeks = weeks_2020 + weeks_2021
-years = ['2020'] * len(weeks_2020) + ['2021'] * len(weeks_2021)
+
+res = re.search(r".*name: '2021',\s+categories: \[\'(.*)\]\s+}", content)
+assert res, f'failed to extract 2021 weeks, got {res}'
+weeks_2021 = res[1].split(',')
+
+res = re.search(r".*name: '2022',\s+categories: \[\'(.*)\]\s+}", content)
+assert res, f'failed to extract 2022 weeks, got {res}'
+weeks_2022 = res[1].split(',')
+
+weeks = weeks_2020 + weeks_2021 + weeks_2022
+years = ['2020'] * len(weeks_2020) + ['2021'] * len(weeks_2021) + ['2022'] * len(weeks_2022)
 
 res = re.search(r".*name: 'Anzahl negativer Tests.?',\s+color: '.*',\s+data: \[(.*)\],", content)
 assert res, f'failed to extract negative tests, got {res}'
