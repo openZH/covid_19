@@ -16916,9 +16916,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-12,,NE,,34591,,58,3,3,,423,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-12,,NW,,7902,,6,1,,,32,http://www.nw.ch/coronastatistik,782,136,
 2022-01-12,,SG,,101728,,,16,16,,814,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-01-12,,SH,,12885,,9,1,,,103,https://coviddashboard.sh.ch/,1448,884,
+2022-01-12,,SH,,12885,,9,1,,,103,https://coviddashboard.sh.ch/,1448,884,0
 2022-01-12,,SO,,41441,,26,11,,,316,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-12,,TI,,69443,,168,14,,,1070,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2022-01-12,00:00,FL,,6915,,5,,,6411,72,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-01-12,00:00,OW,,7998,,5,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,754,1808,0
 2022-01-12,00:00,UR,,7347,,5,,,,59,https://www.ur.ch/themen/2962,,233,
 2022-01-12,08:00,ZG,,20927,,16,3,,,152,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
