@@ -29,8 +29,8 @@ def get_vs_weekly_pdf_urls():
 
 def get_vs_weekly_general_data(pdf):
     content = sc.pdftotext(pdf, page=1)
-    week = sc.find(r'Epidemiologische Situation Woche (\d+)', content)
-    end_date = sc.find(r'(\d+\.\d+\.\d{4})', content)
+    week = int(sc.find(r'Epidemiologische Situation Woche (\d+)', content))
+    end_date = sc.find(r'bis\s+(\d+\.\d+\.\d{4})', content)
     end_date = sc.date_from_text(end_date)
     start_date = end_date - datetime.timedelta(days=7)
     year = start_date.year
