@@ -16934,7 +16934,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-12,14:30,ZH,,258706,,217,53,34,,1636,https://www.zh.ch/de/gesundheit/coronavirus.html,25997,80426,
 2022-01-13,,AR,,,,,,,,,https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/,429,139,0
 2022-01-13,,BE,,165169,,204,34,22,,1387,https://covid-kennzahlen.apps.be.ch/,,,
-2022-01-13,,BL,,,,42,7,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2022-01-13,,BL,,46744,,42,7,,,262,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-01-13,,GL,,7493,,5,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-01-13,,GR,,43371,,38,7,6,,237,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7929,1668,
 2022-01-13,,JU,,17540,,37,3,,,159,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -16958,6 +16958,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-13,12:00,BS,,31265,,91,19,,28204,256,https://www.gesundheit.bs.ch,2805,1127,
 2022-01-13,14:30,ZH,,263263,,227,60,38,,1636,https://www.zh.ch/de/gesundheit/coronavirus.html,29023,87969,
 2022-01-14,,BE,,165175,,204,34,22,,1387,https://covid-kennzahlen.apps.be.ch/,,,
+2022-01-14,,BL,,,,34,3,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-01-14,,GL,,7629,,6,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-01-14,,LU,,,,57,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,4501,2396,
 2022-01-14,,SO,,42998,,28,9,,,317,https://corona.so.ch/bevoelkerung/daten/,,,
