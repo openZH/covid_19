@@ -2820,7 +2820,7 @@ Week,Year,Area,AgeYearCat,Gender,NewConfCases,NewDeaths,Source
 2,2022,Canton_ZH,10-19,M,2512,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,10-19,unbekannt,26,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,20-29,F,2607,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,20-29,M,2373,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,20-29,M,2372,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,20-29,unbekannt,38,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,30-39,F,2997,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,30-39,M,2715,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -2834,11 +2834,11 @@ Week,Year,Area,AgeYearCat,Gender,NewConfCases,NewDeaths,Source
 2,2022,Canton_ZH,60-69,F,568,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,60-69,M,583,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,60-69,unbekannt,11,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,70-79,F,228,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,70-79,M,177,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,80-89,F,83,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,80-89,M,68,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2,2022,Canton_ZH,90-99,F,32,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,70-79,F,228,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,70-79,M,177,1,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,80-89,F,83,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,80-89,M,68,3,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2,2022,Canton_ZH,90-99,F,32,2,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,90-99,M,14,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,100+,F,4,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2,2022,Canton_ZH,100+,M,1,0,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
