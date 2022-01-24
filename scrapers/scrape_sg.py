@@ -25,7 +25,7 @@ assert headers[1].text.strip() == "Anzahl", f"Header text changed '{headers[1].t
 
 for i in range(1, len(rows)):
     cells = rows[i].find_all('td')
-    if cells[0].text.strip() == 'Total Patienten mit SARS-CoV-2-Infektion':
+    if cells[0].text.strip() == 'Total Patienten':
         dd_hosp.hospitalized = cells[1].text
     elif cells[0].text.strip() == '...davon auf Intensivstation ohne Beatmung':
         dd_hosp.icu = int(cells[1].text)
