@@ -8,7 +8,39 @@ import scrape_common as sc
 
 main_url = 'https://www.sg.ch/tools/informationen-coronavirus.html'
 
-# hospitalized
+# historized hospitalized
+url_hospitalized = 'https://stada.sg.ch/covid/C19_Pat_Zeitreihe_Pandemiebeginn.html'
+d = sc.download(url_hospitalized, silent=True)
+
+for i in ['"x":', '"y":', '"base":', '"text":']:
+    d = d.replace(i, '\n' + i)
+dates_res = re.findall(r'"x":\[(.*)\]', d)
+hosp_res = re.findall(r'"y":\[(.*)\]', d)
+
+assert len(dates_res) == len(hosp_res) == 3, f'{dates_res} and {hosp_res} not match!'
+
+dates_icu_vent = dates_res[0].split(',')
+dates_icu_no_vent = dates_res[1].split(',')
+dates_hosp = dates_res[2].split(',')
+assert len(dates_icu_vent) == len(dates_icu_no_vent) == len(dates_hosp)
+
+no_icu_vent = hosp_res[0].split(',')
+no_icu_no_vent = hosp_res[1].split(',')
+no_hosp = hosp_res[2].split(',')
+assert len(no_icu_vent) == len(no_icu_no_vent) == len(no_hosp)
+assert len(no_icu_vent) == len(dates_icu_vent)
+
+for i in range(len(no_icu_vent)):
+    dd_hosp = sc.DayData(canton='SG', url=main_url)
+    dd_hosp.datetime = dates_hosp[i].replace('"', '')
+    dd_hosp.vent = int(no_icu_vent[i])
+    dd_hosp.icu = int(no_icu_no_vent[i]) + dd_hosp.vent
+    dd_hosp.hospitalized = int(no_hosp[i]) + dd_hosp.icu
+    print(dd_hosp)
+    print('-' * 10)
+
+
+# current hospitalized
 url_hospitalized = 'https://stada.sg.ch/covid/C19_Faelle_hospitalisiert.html'
 soup = BeautifulSoup(sc.download(url_hospitalized, silent=True), 'html.parser')
 dd_hosp = sc.DayData(canton='SG', url=main_url)
