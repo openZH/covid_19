@@ -1200,7 +1200,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-04-17,00:00,OW,,66,,0,,,,0,https://www.ow.ch/dl.php/de/5fed92a4d9b76/OW-1103775-v1-Statistik_OW_Covid-19.XLSX,,,
 2020-04-17,00:00,SO,,350,,20,,,,9,https://corona.so.ch/index.php?id=27979,,,
 2020-04-17,08:00,AG,,988,,58,20,20,,30,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
-2020-04-17,08:00,BE,,1597,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,12788,6749,
+2020-04-17,08:00,BE,,1597,,71,22,12,,69,https://covid-kennzahlen.apps.be.ch/,13924,6925,
 2020-04-17,08:00,TI,,2977,,254,57,44,580,270,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2020-04-17,08:00,ZG,,172,,8,6,,96,6,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,20,23,
 2020-04-17,09:00,BS,,918,,66,8,,720,37,https://www.gd.bs.ch//nm/2020-tagesbulletin-coronavirus-923-bestaetigte-faelle-im-kanton-basel-stadt-gd.html,,,488
@@ -17198,7 +17198,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-23,10:00,TG,,62530,7,43,11,,1942,588,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2812,,
 2022-01-23,11:20,BS,,37929,,90,17,,35686,260,https://www.gesundheit.bs.ch,1983,986,
 2022-01-23,14:30,ZH,,312188,,235,54,33,,1658,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
-2022-01-24,,BE,,199935,,164,19,16,,1409,https://covid-kennzahlen.apps.be.ch/,,,
+2022-01-24,,BE,,199935,,164,19,16,,1409,https://covid-kennzahlen.apps.be.ch/,12788,6749,
 2022-01-24,,BL,,57076,,44,5,,,265,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-01-24,,GL,,8790,,7,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-01-24,,GR,,50968,,37,5,4,,242,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2499,1939,
@@ -17231,9 +17231,10 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-25,,NE,,46469,,69,3,2,,435,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-25,,NW,,9754,,4,1,,,33,http://www.nw.ch/coronastatistik,439,233,
 2022-01-25,,SG,,121149,,65,10,5,,821,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2022-01-25,,SH,,15630,,11,1,,,105,https://coviddashboard.sh.ch/,684,708,
 2022-01-25,,SO,,52608,,33,9,,,324,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-25,,TI,,86677,,173,14,,,1089,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
-2022-01-25,00:00,GE,,152061,,535,17,,,810,https://infocovid.smc.unige.ch/,25809,1934,
+2022-01-25,00:00,GE,,152061,,535,17,,,810,https://infocovid.smc.unige.ch/,25809,1934,0
 2022-01-25,00:00,OW,,9379,,3,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,837,1974,0
 2022-01-25,00:00,UR,,8852,,1,,,,61,https://www.ur.ch/themen/2962,,212,
 2022-01-25,09:00,SZ,,38376,,,,,37031,341,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17242,3 +17243,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-25,12:00,BS,,39002,,91,12,,37030,260,https://www.gesundheit.bs.ch,1712,708,
 2022-01-25,14:30,ZH,,321935,,234,50,36,,1658,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2022-01-26,00:00,UR,,9013,,1,,,,61,https://www.ur.ch/themen/2962,,221,
+2022-01-26,09:00,SZ,,39076,,,,,37579,342,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
