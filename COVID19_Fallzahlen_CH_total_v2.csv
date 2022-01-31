@@ -17302,7 +17302,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-28,,LU,,,,47,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,7070,2886,
 2022-01-28,,NW,,10630,,4,1,,,33,http://www.nw.ch/coronastatistik,772,219,
 2022-01-28,,SG,,128811,,55,6,5,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-01-28,,SH,,16344,,,,,,105,https://coviddashboard.sh.ch/,840,692,
+2022-01-28,,SH,,16344,,,,,,105,https://coviddashboard.sh.ch/,840,692,0
 2022-01-28,,SO,,56858,,26,6,,,326,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-01-28,,TI,,90892,,166,15,,,1094,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-28,00:00,FL,,8775,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
@@ -17319,7 +17319,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-29,,GR,,54930,,42,5,4,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3120,2138,
 2022-01-29,,NW,,10844,,4,1,,,33,http://www.nw.ch/coronastatistik,751,196,
 2022-01-29,,SG,,129779,,60,5,4,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-01-29,,SH,,16554,,,,,,105,https://coviddashboard.sh.ch/,855,664,
+2022-01-29,,SH,,16554,,,,,,105,https://coviddashboard.sh.ch/,855,664,0
 2022-01-29,,TI,,92158,,173,17,,,1094,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-29,00:00,FL,,8854,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-01-29,00:00,GE,,162105,,482,15,,,810,https://infocovid.smc.unige.ch/,27257,1480,0
@@ -17328,7 +17328,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-30,,GR,,55328,,38,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2788,1967,
 2022-01-30,,NW,,11113,,5,1,,,33,http://www.nw.ch/coronastatistik,636,143,
 2022-01-30,,SG,,130204,,67,5,4,,822,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-01-30,,SH,,16749,,13,1,,,105,https://coviddashboard.sh.ch/,847,674,
+2022-01-30,,SH,,16749,,13,1,,,105,https://coviddashboard.sh.ch/,847,674,0
 2022-01-30,,TI,,93253,,166,15,,,1098,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-30,00:00,FL,,8928,,0,,,8475,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-01-30,00:00,GE,,162642,,488,13,,,810,https://infocovid.smc.unige.ch/,24732,1259,0
