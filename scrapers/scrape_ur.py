@@ -8,6 +8,7 @@ url = 'https://www.ur.ch/themen/2962'
 d = sc.download(url, silent=True)
 d = d.replace('&nbsp;', ' ')
 d = d.replace('<br />', ' ')
+d = re.sub(r'(\d+)\'(\d+)', r'\1\2', d)
 
 # 2020-03-26 (and possibly earlier) from https://www.ur.ch/themen/2962
 # 2020-07-07 they changed the title, so we're using the table header to find the table
