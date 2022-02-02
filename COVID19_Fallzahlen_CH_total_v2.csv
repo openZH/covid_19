@@ -17385,7 +17385,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-31,00:00,OW,,10409,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1063,408,0
 2022-01-31,00:00,UR,,9955,,2,,,,61,https://www.ur.ch/themen/2962,,302,
 2022-01-31,08:00,AG,,149624,,131,12,,114440,889,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
-2022-01-31,08:00,ZG,,29816,,12,2,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2022-01-31,08:00,ZG,,29816,,12,2,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1733,524,0
 2022-01-31,09:00,SZ,,42547,,,,,40593,344,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-01-31,10:00,TG,,71073,8,48,10,,1986,589,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2061,,
 2022-01-31,12:00,BS,,43636,,136,14,,42098,262,https://www.gesundheit.bs.ch,1276,944,
@@ -17406,6 +17406,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-01,00:00,OW,,10578,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1011,508,0
 2022-02-01,00:00,UR,,10079,,2,,,,61,https://www.ur.ch/themen/2962,,233,
 2022-02-01,08:00,AG,,152469,,131,12,,116850,889,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,1
+2022-02-01,08:00,ZG,,30339,,15,2,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2132,618,
 2022-02-01,09:00,SZ,,42913,,,,,40681,344,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-01,10:00,TG,,71474,5,46,10,,1993,590,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2395,,
 2022-02-01,11:40,BS,,44372,,140,12,,42863,262,https://www.gesundheit.bs.ch,1247,705,
@@ -17418,6 +17419,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-02,,SO,,62291,,30,7,,,327,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-02-02,,TI,,96017,,183,15,,,1103,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-02,00:00,UR,,10247,,3,,,,62,https://www.ur.ch/themen/2962,,228,
+2022-02-02,08:00,ZG,,30986,,13,2,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-02-02,09:00,SZ,,43576,,,,,41858,344,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-02,10:00,TG,,71474,0,46,10,,1993,590,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-02-02,11:50,BS,,45235,,137,11,,43465,264,https://www.gesundheit.bs.ch,1506,677,
