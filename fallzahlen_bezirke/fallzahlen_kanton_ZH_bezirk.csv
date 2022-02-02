@@ -301,7 +301,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 103,Bezirk Bülach,154731,1,2022,2492,0,24290,146
 103,Bezirk Bülach,154731,2,2022,2798,2,27088,148
 103,Bezirk Bülach,154731,3,2022,3642,1,30730,149
-103,Bezirk Bülach,154731,4,2022,4109,0,34839,149
+103,Bezirk Bülach,154731,4,2022,4109,1,34839,150
 104,Bezirk Dielsdorf,91112,9,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,10,2020,0,0,0,0
 104,Bezirk Dielsdorf,91112,11,2020,13,0,13,0
@@ -503,7 +503,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,1,2022,1410,0,17552,115
 105,Bezirk Hinwil,96595,2,2022,1450,0,19002,115
 105,Bezirk Hinwil,96595,3,2022,2062,0,21064,115
-105,Bezirk Hinwil,96595,4,2022,2317,0,23381,115
+105,Bezirk Hinwil,96595,4,2022,2316,0,23380,115
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -604,7 +604,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 106,Bezirk Horgen,125834,1,2022,2124,0,18767,144
 106,Bezirk Horgen,125834,2,2022,2774,2,21541,146
 106,Bezirk Horgen,125834,3,2022,3453,0,24994,146
-106,Bezirk Horgen,125834,4,2022,3492,0,28486,146
+106,Bezirk Horgen,125834,4,2022,3492,1,28486,147
 107,Bezirk Meilen,104274,9,2020,0,0,0,0
 107,Bezirk Meilen,104274,10,2020,3,0,3,0
 107,Bezirk Meilen,104274,11,2020,12,0,15,0
@@ -702,10 +702,10 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,50,2021,649,3,11436,100
 107,Bezirk Meilen,104274,51,2021,779,1,12215,101
 107,Bezirk Meilen,104274,52,2021,951,3,13166,104
-107,Bezirk Meilen,104274,1,2022,1930,2,15096,106
-107,Bezirk Meilen,104274,2,2022,1972,0,17068,106
-107,Bezirk Meilen,104274,3,2022,2256,1,19324,107
-107,Bezirk Meilen,104274,4,2022,2086,0,21410,107
+107,Bezirk Meilen,104274,1,2022,1930,3,15096,107
+107,Bezirk Meilen,104274,2,2022,1972,0,17068,107
+107,Bezirk Meilen,104274,3,2022,2256,1,19324,108
+107,Bezirk Meilen,104274,4,2022,2085,0,21409,108
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -1109,7 +1109,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,1,2022,1614,1,15670,101
 111,Bezirk Dietikon,92275,2,2022,1719,0,17389,101
 111,Bezirk Dietikon,92275,3,2022,2111,2,19500,103
-111,Bezirk Dietikon,92275,4,2022,2147,0,21647,103
+111,Bezirk Dietikon,92275,4,2022,2146,0,21646,103
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -1208,6 +1208,6 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,51,2021,3543,3,55631,502
 112,Bezirk Zürich,422870,52,2021,4436,4,60067,506
 112,Bezirk Zürich,422870,1,2022,8104,4,68171,510
-112,Bezirk Zürich,422870,2,2022,8243,3,76414,513
-112,Bezirk Zürich,422870,3,2022,10557,2,86971,515
-112,Bezirk Zürich,422870,4,2022,10965,1,97936,516
+112,Bezirk Zürich,422870,2,2022,8242,3,76413,513
+112,Bezirk Zürich,422870,3,2022,10557,2,86970,515
+112,Bezirk Zürich,422870,4,2022,10965,1,97935,516
