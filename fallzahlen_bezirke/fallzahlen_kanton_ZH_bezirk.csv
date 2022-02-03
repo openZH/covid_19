@@ -503,7 +503,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 105,Bezirk Hinwil,96595,1,2022,1410,0,17552,115
 105,Bezirk Hinwil,96595,2,2022,1450,0,19002,115
 105,Bezirk Hinwil,96595,3,2022,2062,0,21064,115
-105,Bezirk Hinwil,96595,4,2022,2316,0,23380,115
+105,Bezirk Hinwil,96595,4,2022,2315,0,23379,115
 106,Bezirk Horgen,125834,9,2020,0,0,0,0
 106,Bezirk Horgen,125834,10,2020,2,0,2,0
 106,Bezirk Horgen,125834,11,2020,17,0,19,0
@@ -806,7 +806,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 108,Bezirk Pfäffikon,60703,1,2022,791,0,9686,64
 108,Bezirk Pfäffikon,60703,2,2022,1010,1,10696,65
 108,Bezirk Pfäffikon,60703,3,2022,1360,0,12056,65
-108,Bezirk Pfäffikon,60703,4,2022,1591,1,13647,66
+108,Bezirk Pfäffikon,60703,4,2022,1590,1,13646,66
 109,Bezirk Uster,131422,9,2020,0,0,0,0
 109,Bezirk Uster,131422,10,2020,1,0,1,0
 109,Bezirk Uster,131422,11,2020,11,0,12,0
@@ -1210,4 +1210,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,1,2022,8104,4,68171,510
 112,Bezirk Zürich,422870,2,2022,8242,3,76413,513
 112,Bezirk Zürich,422870,3,2022,10557,2,86970,515
-112,Bezirk Zürich,422870,4,2022,10965,1,97935,516
+112,Bezirk Zürich,422870,4,2022,10960,1,97930,516
