@@ -17498,7 +17498,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-05,00:00,GE,,171436,,200,11,,,810,https://infocovid.smc.unige.ch/,5783,3,0
 2022-02-05,09:00,SZ,,45570,,,,,43545,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-05,10:00,TG,,74937,5,51,6,,2025,593,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2178,,
-2022-02-05,11:50,BS,,47358,,,,,45554,264,https://www.gesundheit.bs.ch,1540,0,
+2022-02-05,11:50,BS,,47358,,126,12,,45554,264,https://www.gesundheit.bs.ch,1540,0,
 2022-02-06,,BE,,251631,,,,,,1436,https://covid-kennzahlen.apps.be.ch/,,,
 2022-02-06,,GR,,59850,,32,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1835,0,
 2022-02-06,,JU,,24735,,36,2,,,186,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
@@ -17512,7 +17512,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-06,00:00,GE,,171767,,202,10,,,810,https://infocovid.smc.unige.ch/,4266,0,0
 2022-02-06,09:00,SZ,,46220,,,,,44261,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-06,10:00,TG,,75177,4,54,6,,2026,593,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,1903,,
-2022-02-06,11:40,BS,,47703,,,,,46246,264,https://www.gesundheit.bs.ch,1193,0,
+2022-02-06,11:40,BS,,47703,,126,14,,46246,264,https://www.gesundheit.bs.ch,1193,0,
 2022-02-07,,BE,,251632,,225,21,13,,1436,https://covid-kennzahlen.apps.be.ch/,,,
 2022-02-07,,GL,,11057,,5,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-07,,LU,,,,57,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5741,,
@@ -17521,3 +17521,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-07,00:00,UR,,10759,,3,,,,62,https://www.ur.ch/themen/2962,,0,
 2022-02-07,09:00,SZ,,46554,,,,,44858,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-07,10:00,TG,,75184,0,54,6,,2026,593,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
+2022-02-07,11:50,BS,,47989,,136,15,,46872,264,https://www.gesundheit.bs.ch,853,0,
