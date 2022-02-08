@@ -69,14 +69,14 @@ assert quarantine_xls_url, "Couldn't find quarantine XLS url"
 xls = sc.xlsdownload(quarantine_xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
-    date = sc.date_from_text(row['date'])
+    date = sc.date_from_text(row['Date'])
     if date < datetime.date(2020, 1, 1):
         # skip entries from before 2020
         continue
 
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
-    dd.isolated = row['isolement déjà en cours']
+    dd.isolated = row['Isolement déjà en cours']
     #dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
     #dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
 
