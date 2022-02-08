@@ -77,8 +77,8 @@ for row in rows:
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
     dd.isolated = row['isolement déjà en cours']
-    dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
-    dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
+    #dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
+    #dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
 
     if dd:
         if not is_first:
