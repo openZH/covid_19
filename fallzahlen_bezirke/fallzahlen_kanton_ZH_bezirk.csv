@@ -712,7 +712,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 107,Bezirk Meilen,104274,2,2022,1972,0,17068,107
 107,Bezirk Meilen,104274,3,2022,2256,1,19324,108
 107,Bezirk Meilen,104274,4,2022,2084,0,21408,108
-107,Bezirk Meilen,104274,5,2022,1940,2,23348,110
+107,Bezirk Meilen,104274,5,2022,1940,3,23348,111
 108,Bezirk Pfäffikon,60703,9,2020,0,0,0,0
 108,Bezirk Pfäffikon,60703,10,2020,1,0,1,0
 108,Bezirk Pfäffikon,60703,11,2020,6,0,7,0
@@ -916,7 +916,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 109,Bezirk Uster,131422,2,2022,2337,3,22685,142
 109,Bezirk Uster,131422,3,2022,3090,2,25775,144
 109,Bezirk Uster,131422,4,2022,3502,0,29277,144
-109,Bezirk Uster,131422,5,2022,3236,0,32513,144
+109,Bezirk Uster,131422,5,2022,3235,0,32512,144
 110,Bezirk Winterthur,171101,9,2020,0,0,0,0
 110,Bezirk Winterthur,171101,10,2020,3,0,3,0
 110,Bezirk Winterthur,171101,11,2020,22,0,25,0
@@ -1120,7 +1120,7 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 111,Bezirk Dietikon,92275,2,2022,1719,0,17389,101
 111,Bezirk Dietikon,92275,3,2022,2111,2,19500,103
 111,Bezirk Dietikon,92275,4,2022,2143,0,21643,103
-111,Bezirk Dietikon,92275,5,2022,2163,0,23806,103
+111,Bezirk Dietikon,92275,5,2022,2164,0,23807,103
 112,Bezirk Zürich,422870,9,2020,7,0,7,0
 112,Bezirk Zürich,422870,10,2020,13,0,20,0
 112,Bezirk Zürich,422870,11,2020,70,1,90,1
@@ -1222,4 +1222,4 @@ DistrictId,District,Population,Week,Year,NewConfCases,NewDeaths,TotalConfCases,T
 112,Bezirk Zürich,422870,2,2022,8242,3,76413,513
 112,Bezirk Zürich,422870,3,2022,10557,2,86970,515
 112,Bezirk Zürich,422870,4,2022,10960,1,97930,516
-112,Bezirk Zürich,422870,5,2022,8854,5,106784,521
+112,Bezirk Zürich,422870,5,2022,8853,5,106783,521
