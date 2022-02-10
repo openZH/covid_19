@@ -7317,7 +7317,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2020-12-16,,FR,,22204,79,16,,653,385,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton
 2020-12-16,,GL,,1279,3,1,,,31,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit
 2020-12-16,,GR,,6882,46,7,6,,124,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
-2020-12-16,,JU,,4088,18,1,,,75,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
+2020-12-16,,JU,,4085,18,1,,,99,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2020-12-16,,LU,,13959,100,,17,,170,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx
 2020-12-16,,NE,,10858,71,7,4,,293,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx
 2020-12-16,,NW,,1208,8,2,,,11,http://www.nw.ch/coronastatistik
@@ -17597,3 +17597,4 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-02-09,12:10,BS,,49122,133,11,,47575,265,https://www.gesundheit.bs.ch
 2022-02-09,14:30,ZH,,401506,264,57,38,,1679,https://www.zh.ch/de/gesundheit/coronavirus.html
 2022-02-10,00:00,UR,,11111,4,,,,64,https://www.ur.ch/themen/2962
+2022-02-10,09:00,SZ,,48255,,,,46465,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
