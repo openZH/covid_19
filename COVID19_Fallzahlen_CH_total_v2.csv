@@ -17647,6 +17647,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-11,11:30,BS,,50356,,125,6,,48286,266,https://www.gesundheit.bs.ch,1804,0,
 2022-02-11,12:00,AI,,4922,,,,,,24,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,163,,
 2022-02-11,14:30,ZH,,409990,,256,58,38,,1686,https://www.zh.ch/de/gesundheit/coronavirus.html,13777,0,
+2022-02-12,,GR,,63803,,32,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2153,0,
 2022-02-12,,TI,,103821,,99,11,,,1111,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-12,09:00,SZ,,49431,,,,,47559,346,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-12,12:00,BS,,50881,,,,,49003,266,https://www.gesundheit.bs.ch,1612,0,
