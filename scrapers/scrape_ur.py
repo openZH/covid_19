@@ -70,20 +70,18 @@ rows = data_table.find_all('tr')
 assert len(rows) == 2, f"Number of rows changed, {len(rows)} != 2"
 
 headers = rows[0].find_all('td') or rows[0].find_all('th')
-assert len(headers) == 6, f"Number of header columns changed, {len(headers)} != 6"
+assert len(headers) == 5, f"Number of header columns changed, {len(headers)} != 5"
 assert re.search(r'(aktive\s+fälle)', headers[0].text, flags=re.I) is not None
 assert re.search(r"(positive\s+fälle\s+total\s+seit\s+märz\s+2020)", headers[1].text, flags=re.I) is not None
 assert headers[2].text.lower() == "hospitalisiert"
-assert headers[3].text.lower() == "quarantäne"
-assert re.search(r"(total\s+verstorbene)", headers[4].text, flags=re.I) is not None
+assert re.search(r"(total\s+verstorbene)", headers[3].text, flags=re.I) is not None
 
 cells = rows[1].find_all('td')
-assert len(cells) == 5, f"Number of columns changed, {len(cells)} != 5"
+assert len(cells) == 4, f"Number of columns changed, {len(cells)} != 4"
 
 ur_number_regex = r'(\d+)\s*(\(.+?\))?'
 dd.cases = sc.find(ur_number_regex, cells[1].text)
 dd.hospitalized = sc.find(ur_number_regex, cells[2].text)
-dd.quarantined = sc.find(ur_number_regex, cells[3].text)
-dd.deaths = sc.find(ur_number_regex, cells[4].text)
+dd.deaths = sc.find(ur_number_regex, cells[3].text)
 
 print(dd)
