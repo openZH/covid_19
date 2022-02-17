@@ -7497,7 +7497,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-23,,FR,,22779,,58,12,,675,400,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2020-12-23,,GL,,1459,,12,2,,,35,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,310,84,19
 2020-12-23,,GR,,7580,,42,7,5,,133,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,787,978,
-2020-12-23,,JU,,4271,,31,0,,,81,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2020-12-23,,JU,,4271,,31,0,,,100,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-23,,LU,,15409,,99,,13,,212,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,2061,1993,98
 2020-12-23,,NE,,11230,,39,6,4,,311,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-12-23,,NW,,1324,,4,1,,,12,http://www.nw.ch/coronastatistik,111,188,15
@@ -12538,7 +12538,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-11,,FR,,32565,,3,0,,957,491,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-07-11,,GL,31626,,,,1,,,,https://www.gl.ch/public/upload/assets/36985/Sentinella%20Bericht%20KW31.pdf,11,12,2
 2021-07-11,,GR,,13705,,2,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,71,100,
-2021-07-11,,JU,,7127,,0,0,,,130,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-07-11,,JU,,7126,,0,0,,,128,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-07-11,,LU,,29069,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2021-07-11,,NE,,17514,,1,1,0,,404,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-11,,NW,,2744,,0,0,,,23,http://www.nw.ch/coronastatistik,8,5,1
@@ -15800,7 +15800,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-25,,TI,,38275,,56,7,,,1008,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-25,,VS,,47019,,59,10,4,,699,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-25,00:00,FL,,4413,,8,,,3958,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-25,00:00,GE,,68524,,97,10,,,801,https://infocovid.smc.unige.ch/,2880,1223,0
+2021-11-25,00:00,GE,,68525,,97,10,,,801,https://infocovid.smc.unige.ch/,2880,1223,0
 2021-11-25,00:00,OW,,4721,,3,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,251,41,0
 2021-11-25,00:00,UR,,4817,,6,,,,54,https://www.ur.ch/themen/2962,,124,
 2021-11-25,08:00,AG,,68778,,77,13,,62700,756,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1644,1034,0
@@ -15825,7 +15825,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-26,,TI,,38423,,66,7,,,1010,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-26,,VS,,47287,,59,10,3,,699,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-26,00:00,FL,,4460,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-26,00:00,GE,,68944,,104,8,,,802,https://infocovid.smc.unige.ch/,3045,1285,0
+2021-11-26,00:00,GE,,68945,,104,8,,,802,https://infocovid.smc.unige.ch/,3046,1285,0
 2021-11-26,00:00,OW,,4735,,4,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,242,45,0
 2021-11-26,00:00,UR,,4870,,6,,,,54,https://www.ur.ch/themen/2962,,149,
 2021-11-26,08:00,AG,,69307,,79,14,,62940,758,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1701,1124,0
@@ -15847,7 +15847,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-27,,SH,,7846,,,,,,93,https://coviddashboard.sh.ch/,535,463,0
 2021-11-27,,VS,,47441,,63,10,3,,699,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-27,00:00,FL,,4507,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-27,00:00,GE,,69300,,107,9,,,802,https://infocovid.smc.unige.ch/,3148,1407,64
+2021-11-27,00:00,GE,,69301,,107,9,,,802,https://infocovid.smc.unige.ch/,3149,1407,64
 2021-11-27,08:00,AG,,69811,,,,,63175,761,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-11-27,08:00,ZG,,13019,,14,5,,,140,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,730,378,0
 2021-11-27,09:00,SZ,,21130,,,,,19335,283,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -15867,7 +15867,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-28,,VD,,106068,,137,22,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20211130_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-11-28,,VS,,47587,,69,12,5,,700,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-28,00:00,FL,,4562,,8,,,4139,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-28,00:00,GE,,69491,,112,11,,,802,https://infocovid.smc.unige.ch/,3474,1561,138
+2021-11-28,00:00,GE,,69492,,112,11,,,802,https://infocovid.smc.unige.ch/,3475,1561,138
 2021-11-28,08:00,AG,,70087,,,,,63405,764,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-11-28,08:00,ZG,,13133,,14,5,,,140,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,691,412,0
 2021-11-28,09:00,SZ,,21429,,,,,19544,283,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -15889,7 +15889,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-29,,TI,,38767,,70,7,,,1012,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-29,,VS,,48009,,64,11,3,,700,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-29,00:00,FL,,4633,,9,,,4206,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-29,00:00,GE,,69987,,122,10,,,802,https://infocovid.smc.unige.ch/,3812,1620,1086
+2021-11-29,00:00,GE,,69988,,122,10,,,802,https://infocovid.smc.unige.ch/,3813,1620,1086
 2021-11-29,00:00,OW,,4961,,6,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,96,56,0
 2021-11-29,00:00,UR,,5002,,10,,,,54,https://www.ur.ch/themen/2962,,148,
 2021-11-29,08:00,AG,,70585,,96,20,,63615,765,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1472,967,230
@@ -15913,7 +15913,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-11-30,,TI,,38934,,70,7,,,1012,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-11-30,,VS,,48333,,72,11,6,,700,https://www.vs.ch/de/web/coronavirus,,,
 2021-11-30,00:00,FL,,4696,,7,,,4246,61,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-11-30,00:00,GE,,70651,,138,10,,,802,https://infocovid.smc.unige.ch/,4105,1675,1561
+2021-11-30,00:00,GE,,70652,,138,10,,,802,https://infocovid.smc.unige.ch/,4106,1675,1561
 2021-11-30,00:00,OW,,4999,,7,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,196,48,0
 2021-11-30,08:00,AG,,71272,,98,19,,64020,770,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1724,1024,389
 2021-11-30,08:00,ZG,,13377,,19,3,,,142,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,707,428,0
@@ -15937,7 +15937,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-01,,TI,,39138,,72,8,,,1013,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-01,,VS,,48680,,67,10,6,,702,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-01,00:00,FL,,4752,,11,,,4304,62,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-01,00:00,GE,,71216,,143,11,,,804,https://infocovid.smc.unige.ch/,4429,1791,1854
+2021-12-01,00:00,GE,,71217,,143,11,,,804,https://infocovid.smc.unige.ch/,4430,1791,1854
 2021-12-01,00:00,OW,,5083,,8,,,,52,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,464,49,0
 2021-12-01,00:00,UR,,5084,,7,,,,57,https://www.ur.ch/themen/2962,,153,
 2021-12-01,08:00,AG,,71946,,92,15,,64440,774,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1578,1111,486
@@ -15963,7 +15963,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-02,,TI,,39298,,64,8,,,1014,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-02,,VS,,49020,,71,10,8,,702,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-02,00:00,FL,,4779,,11,,,4357,62,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-02,00:00,GE,,71803,,144,11,,,805,https://infocovid.smc.unige.ch/,4677,1900,2144
+2021-12-02,00:00,GE,,71804,,144,11,,,805,https://infocovid.smc.unige.ch/,4678,1900,2144
 2021-12-02,00:00,OW,,5142,,5,,,,53,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,523,46,0
 2021-12-02,00:00,UR,,5137,,8,,,,57,https://www.ur.ch/themen/2962,,178,
 2021-12-02,08:00,AG,,72623,,93,17,,64820,779,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1521,1141,959
@@ -15988,7 +15988,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-03,,TI,,39484,,67,8,,,1014,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-03,,VS,,49371,,75,10,9,,703,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-03,00:00,FL,,4848,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-03,00:00,GE,,72410,,144,12,,,807,https://infocovid.smc.unige.ch/,4804,1987,2144
+2021-12-03,00:00,GE,,72411,,144,12,,,807,https://infocovid.smc.unige.ch/,4805,1987,2144
 2021-12-03,00:00,OW,,5196,,5,,,,53,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,577,52,0
 2021-12-03,00:00,UR,,5187,,8,,,,57,https://www.ur.ch/themen/2962,,164,
 2021-12-03,08:00,AG,,73315,,94,18,,65230,783,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1501,1132,735
@@ -16011,7 +16011,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-04,,SH,,8446,,,,,,96,https://coviddashboard.sh.ch/,617,594,0
 2021-12-04,,VS,,49514,,84,10,8,,703,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-04,00:00,FL,,4893,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-04,00:00,GE,,72904,,160,16,,,810,https://infocovid.smc.unige.ch/,4903,2143,2144
+2021-12-04,00:00,GE,,72905,,160,16,,,810,https://infocovid.smc.unige.ch/,4904,2143,2144
 2021-12-04,08:00,AG,,73962,,,,,65580,786,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-04,08:00,ZG,,14004,,22,4,,,144,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,914,472,0
 2021-12-04,09:00,SZ,,22833,,,,,20897,290,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16032,7 +16032,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-05,,VD,,111605,,183,26,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20211207_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-12-05,,VS,,49644,,83,10,7,,706,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-05,00:00,FL,,4941,,11,,,4530,62,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-05,00:00,GE,,73148,,172,16,,,813,https://infocovid.smc.unige.ch/,5163,2231,2144
+2021-12-05,00:00,GE,,73149,,172,16,,,813,https://infocovid.smc.unige.ch/,5164,2231,2144
 2021-12-05,08:00,AG,,74360,,,,,65870,788,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-05,08:00,ZG,,14129,,22,4,,,144,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,820,487,0
 2021-12-05,09:00,SZ,,23095,,,,,21062,292,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16054,7 +16054,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-06,,TI,,39888,,77,11,,,1017,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-06,,VS,,50117,,80,11,8,,708,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-06,00:00,FL,,5050,,18,,,4600,64,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-06,00:00,GE,,73754,,185,17,,,813,https://infocovid.smc.unige.ch/,5509,2213,2080
+2021-12-06,00:00,GE,,73755,,185,17,,,813,https://infocovid.smc.unige.ch/,5509,2213,2080
 2021-12-06,00:00,OW,,5370,,4,,,,53,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,626,44,0
 2021-12-06,00:00,UR,,5308,,10,,,,57,https://www.ur.ch/themen/2962,,187,
 2021-12-06,08:00,AG,,75032,,121,21,,66265,794,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,993,802,0
@@ -16078,7 +16078,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-07,,TI,,40076,,83,11,,,1017,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-07,,VS,,50497,,76,14,9,,708,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-07,00:00,FL,,5116,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-07,00:00,GE,,74500,,185,16,,,814,https://infocovid.smc.unige.ch/,5820,2111,2006
+2021-12-07,00:00,GE,,74501,,185,16,,,814,https://infocovid.smc.unige.ch/,5820,2111,2006
 2021-12-07,00:00,OW,,5406,,4,,,,53,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,577,128,0
 2021-12-07,00:00,UR,,5335,,10,,,,57,https://www.ur.ch/themen/2962,,175,
 2021-12-07,08:00,AG,,75862,,127,21,,66775,796,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1044,791,0
@@ -16102,7 +16102,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-08,,SO,,28912,,30,8,,,296,https://corona.so.ch/bevoelkerung/daten/,,,
 2021-12-08,,VS,,50665,,76,13,9,,710,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-08,00:00,FL,,5186,,15,,,4705,65,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-08,00:00,GE,,75227,,187,19,,,816,https://infocovid.smc.unige.ch/,6053,2118,1058
+2021-12-08,00:00,GE,,75228,,187,19,,,816,https://infocovid.smc.unige.ch/,6053,2118,1058
 2021-12-08,00:00,UR,,5389,,9,,,,57,https://www.ur.ch/themen/2962,,147,
 2021-12-08,08:00,AG,,76726,,127,22,,67240,798,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,1099,864,0
 2021-12-08,08:00,ZG,,14534,,16,4,,,145,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,854,463,0
@@ -16126,7 +16126,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-09,,TI,,40505,,98,13,,,1022,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-09,,VS,,51110,,78,13,10,,710,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-09,00:00,FL,,5222,,11,,,4772,67,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-09,00:00,GE,,75898,,190,18,,,818,https://infocovid.smc.unige.ch/,6166,2050,583
+2021-12-09,00:00,GE,,75899,,190,18,,,818,https://infocovid.smc.unige.ch/,6166,2050,583
 2021-12-09,00:00,OW,,5580,,7,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,751,210,0
 2021-12-09,00:00,UR,,5442,,9,,,,57,https://www.ur.ch/themen/2962,,149,
 2021-12-09,08:00,AG,,77572,,124,20,,67750,804,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,958,835,0
@@ -16151,7 +16151,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-10,,TI,,40678,,93,12,,,1022,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-10,,VS,,51450,,80,13,9,,710,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-10,00:00,FL,,5275,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-10,00:00,GE,,76527,,195,15,,,819,https://infocovid.smc.unige.ch/,6158,1984,290
+2021-12-10,00:00,GE,,76528,,195,15,,,819,https://infocovid.smc.unige.ch/,6158,1984,290
 2021-12-10,00:00,OW,,5706,,7,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,824,207,0
 2021-12-10,00:00,UR,,5482,,6,,,,57,https://www.ur.ch/themen/2962,,135,
 2021-12-10,08:00,AG,,78299,,120,21,,68280,806,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16173,7 +16173,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-11,,SH,,9075,,,,,,96,https://coviddashboard.sh.ch/,670,555,0
 2021-12-11,,VS,,51697,,75,13,10,,710,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-11,00:00,FL,,5327,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-11,00:00,GE,,77056,,204,15,,,820,https://infocovid.smc.unige.ch/,5951,1940,0
+2021-12-11,00:00,GE,,77057,,204,15,,,820,https://infocovid.smc.unige.ch/,5951,1940,0
 2021-12-11,08:00,AG,,79000,,,,,68785,808,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-11,08:00,ZG,,14972,,24,4,,,147,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,821,376,0
 2021-12-11,09:00,SZ,,24754,,,,,22526,296,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16193,7 +16193,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-12,,VD,,118020,,235,30,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20211212_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-12-12,,VS,,51832,,83,14,8,,712,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-12,00:00,FL,,5401,,15,,,4929,67,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-12,00:00,GE,,77300,,212,15,,,821,https://infocovid.smc.unige.ch/,6286,1888,0
+2021-12-12,00:00,GE,,77301,,212,15,,,821,https://infocovid.smc.unige.ch/,6286,1888,0
 2021-12-12,08:00,AG,,79415,,,,,69060,810,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-12,08:00,ZG,,15067,,24,4,,,147,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,731,385,0
 2021-12-12,09:00,SZ,,25051,,,,,22812,296,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16215,7 +16215,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-13,,TI,,41158,,101,13,,,1025,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-13,,VS,,52365,,82,13,6,,712,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-13,00:00,FL,,5405,,19,,,4994,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-13,00:00,GE,,78015,,209,16,,,822,https://infocovid.smc.unige.ch/,6456,1845,0
+2021-12-13,00:00,GE,,78016,,209,16,,,822,https://infocovid.smc.unige.ch/,6456,1845,0
 2021-12-13,00:00,OW,,5891,,12,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,915,42,0
 2021-12-13,00:00,UR,,5585,,6,,,,57,https://www.ur.ch/themen/2962,,107,
 2021-12-13,08:00,AG,,79907,,130,22,,69550,814,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16239,7 +16239,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-14,,TI,,41389,,97,12,,,1028,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-14,,VS,,52795,,79,12,6,,712,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-14,00:00,FL,,5472,,22,,,5041,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-14,00:00,GE,,78802,,210,16,,,823,https://infocovid.smc.unige.ch/,6710,1865,0
+2021-12-14,00:00,GE,,78803,,210,16,,,823,https://infocovid.smc.unige.ch/,6710,1865,0
 2021-12-14,00:00,OW,,5924,,12,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,785,31,0
 2021-12-14,00:00,UR,,5616,,4,,,,58,https://www.ur.ch/themen/2962,,104,
 2021-12-14,08:00,AG,,80702,,110,22,,70255,820,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16264,7 +16264,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-15,,TI,,41653,,102,14,,,1028,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-15,,VS,,53177,,77,11,6,,714,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-15,00:00,FL,,5503,,20,,,5108,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-15,00:00,GE,,79548,,206,17,,,824,https://infocovid.smc.unige.ch/,6798,1908,0
+2021-12-15,00:00,GE,,79549,,206,17,,,824,https://infocovid.smc.unige.ch/,6798,1908,0
 2021-12-15,00:00,OW,,6022,,12,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,845,,0
 2021-12-15,00:00,UR,,5655,,3,,,,58,https://www.ur.ch/themen/2962,,99,
 2021-12-15,08:00,AG,,81414,,115,24,,70925,820,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16290,7 +16290,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-16,,TI,,41924,,102,14,,,1029,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-16,,VS,,53561,,76,9,5,,715,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-16,00:00,FL,,5551,,18,,,5152,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-16,00:00,GE,,80134,,201,15,,,824,https://infocovid.smc.unige.ch/,6854,1981,0
+2021-12-16,00:00,GE,,80135,,201,15,,,824,https://infocovid.smc.unige.ch/,6854,1981,0
 2021-12-16,00:00,OW,,6110,,12,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,889,,0
 2021-12-16,00:00,UR,,5695,,3,,,,58,https://www.ur.ch/themen/2962,,88,
 2021-12-16,08:00,AG,,82051,,106,23,,71610,824,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16315,7 +16315,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-17,,TI,,42190,,95,16,,,1030,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-17,,VS,,53902,,78,11,4,,718,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-17,00:00,FL,,5596,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-17,00:00,GE,,80790,,208,16,,,825,https://infocovid.smc.unige.ch/,6850,1965,0
+2021-12-17,00:00,GE,,80791,,208,16,,,825,https://infocovid.smc.unige.ch/,6850,1965,0
 2021-12-17,00:00,OW,,6228,,11,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,970,,0
 2021-12-17,00:00,UR,,5741,,3,,,,58,https://www.ur.ch/themen/2962,,98,
 2021-12-17,08:00,AG,,82862,,103,24,,72305,830,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16337,7 +16337,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-18,,SH,,9628,,,,,,100,https://coviddashboard.sh.ch/,579,399,0
 2021-12-18,,VS,,54101,,79,10,5,,718,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-18,00:00,FL,,5661,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-18,00:00,GE,,81320,,213,18,,,825,https://infocovid.smc.unige.ch/,6902,1971,0
+2021-12-18,00:00,GE,,81321,,213,18,,,825,https://infocovid.smc.unige.ch/,6902,1971,0
 2021-12-18,08:00,AG,,83447,,,,,72955,833,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-18,08:00,ZG,,15794,,17,4,,,149,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,841,298,0
 2021-12-18,09:00,SZ,,26419,,,,,24492,303,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16357,7 +16357,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-19,,VD,,124353,,259,33,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20211221_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2021-12-19,,VS,,54266,,83,11,4,,719,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-19,00:00,FL,,5672,,14,,,5274,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-19,00:00,GE,,81590,,208,18,,,825,https://infocovid.smc.unige.ch/,7100,1958,0
+2021-12-19,00:00,GE,,81591,,208,18,,,825,https://infocovid.smc.unige.ch/,7100,1958,0
 2021-12-19,08:00,AG,,83811,,,,,73350,836,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-19,08:00,ZG,,15868,,17,4,,,149,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,743,300,0
 2021-12-19,09:00,SZ,,26645,,,,,24693,303,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16379,7 +16379,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-20,,TI,,42857,,104,19,,,1035,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-20,,VS,,54810,,83,10,4,,719,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-20,00:00,FL,,5728,,18,,,5346,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-20,00:00,GE,,82345,,212,19,,,827,https://infocovid.smc.unige.ch/,7477,1911,0
+2021-12-20,00:00,GE,,82346,,212,19,,,827,https://infocovid.smc.unige.ch/,7477,1911,0
 2021-12-20,00:00,OW,,6420,,8,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,862,,0
 2021-12-20,00:00,UR,,5867,,2,,,,58,https://www.ur.ch/themen/2962,,100,
 2021-12-20,08:00,AG,,84298,,112,23,,74015,837,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,660,0
@@ -16403,7 +16403,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-21,,TI,,43170,,109,17,,,1036,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-21,,VS,,55350,,83,12,4,,721,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-21,00:00,FL,,5761,,16,,,5382,68,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-21,00:00,GE,,83290,,215,20,,,829,https://infocovid.smc.unige.ch/,7758,1809,0
+2021-12-21,00:00,GE,,83291,,215,20,,,829,https://infocovid.smc.unige.ch/,7758,1809,0
 2021-12-21,00:00,OW,,6454,,7,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,824,,0
 2021-12-21,00:00,UR,,5896,,2,,,,59,https://www.ur.ch/themen/2962,,91,
 2021-12-21,08:00,AG,,85060,,110,22,,74845,840,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,916,0
@@ -16428,7 +16428,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-22,,TI,,43662,,106,15,,,1037,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-22,,VS,,55943,,74,11,5,,721,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-22,00:00,FL,,5819,,17,,,5438,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-22,00:00,GE,,84313,,220,19,,,830,https://infocovid.smc.unige.ch/,8114,1826,0
+2021-12-22,00:00,GE,,84314,,220,19,,,830,https://infocovid.smc.unige.ch/,8114,1826,0
 2021-12-22,00:00,OW,,6523,,7,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,831,,0
 2021-12-22,00:00,UR,,5947,,0,,,,59,https://www.ur.ch/themen/2962,,119,
 2021-12-22,08:00,AG,,85777,,113,25,,75710,844,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,1286,0
@@ -16454,7 +16454,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-23,,TI,,44254,,99,14,,,1039,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-23,,VS,,56552,,75,10,5,,724,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-23,00:00,FL,,5854,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-23,00:00,GE,,85350,,227,16,,,830,https://infocovid.smc.unige.ch/,8304,1758,0
+2021-12-23,00:00,GE,,85351,,227,16,,,830,https://infocovid.smc.unige.ch/,8304,1758,0
 2021-12-23,00:00,OW,,6593,,7,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,839,,0
 2021-12-23,00:00,UR,,6019,,1,,,,59,https://www.ur.ch/themen/2962,,140,
 2021-12-23,08:00,AG,,86503,,109,23,,76560,845,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,1047,0
@@ -16479,7 +16479,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-24,,TI,,45001,,103,14,,,1039,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-24,,VS,,57107,,70,10,6,,725,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-24,00:00,FL,,5895,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-24,00:00,GE,,86341,,240,17,,,830,https://infocovid.smc.unige.ch/,8741,1662,0
+2021-12-24,00:00,GE,,86342,,240,17,,,830,https://infocovid.smc.unige.ch/,8741,1662,0
 2021-12-24,00:00,UR,,6064,,1,,,,59,https://www.ur.ch/themen/2962,,168,
 2021-12-24,08:00,AG,,87397,,,,,77285,846,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,987,0
 2021-12-24,08:00,ZG,,16513,,19,4,,,149,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,818,258,0
@@ -16499,7 +16499,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-25,,SH,,10238,,,,,,101,https://coviddashboard.sh.ch/,653,332,0
 2021-12-25,,VS,,57458,,71,11,7,,728,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-25,00:00,FL,,5934,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-25,00:00,GE,,86870,,241,19,,,833,https://infocovid.smc.unige.ch/,9086,1630,0
+2021-12-25,00:00,GE,,86871,,241,19,,,833,https://infocovid.smc.unige.ch/,9086,1630,0
 2021-12-25,08:00,AG,,87795,,,,,77985,848,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-25,08:00,ZG,,16622,,19,4,,,149,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,797,247,0
 2021-12-25,09:00,SZ,,27758,,,,,26128,316,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16518,7 +16518,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-26,,SH,,10301,,25,4,,,101,https://coviddashboard.sh.ch/,636,314,0
 2021-12-26,,VS,,57841,,75,11,7,,728,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-26,00:00,FL,,5940,,10,,,5588,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-26,00:00,GE,,87337,,251,19,,,833,https://infocovid.smc.unige.ch/,9667,1632,0
+2021-12-26,00:00,GE,,87338,,251,19,,,833,https://infocovid.smc.unige.ch/,9667,1632,0
 2021-12-26,08:00,AG,,88184,,,,,78400,849,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2021-12-26,08:00,ZG,,16705,,19,4,,,149,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,743,253,0
 2021-12-26,09:00,SZ,,27937,,,,,26287,316,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16540,7 +16540,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-27,,TI,,46617,,107,12,,,1042,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-27,,VS,,58970,,83,13,8,,730,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-27,00:00,FL,,5982,,14,,,5637,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-27,00:00,GE,,88635,,264,20,,,834,https://infocovid.smc.unige.ch/,10311,1565,0
+2021-12-27,00:00,GE,,88636,,264,20,,,834,https://infocovid.smc.unige.ch/,10311,1565,0
 2021-12-27,00:00,OW,,6837,,8,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,746,,0
 2021-12-27,00:00,UR,,6168,,3,,,,59,https://www.ur.ch/themen/2962,,165,
 2021-12-27,08:00,AG,,88874,,105,26,,78895,849,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16565,7 +16565,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-28,,TI,,47621,,110,14,,,1042,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-28,,VS,,60094,,76,11,8,,730,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-28,00:00,FL,,6021,,15,,,5682,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-28,00:00,GE,,90176,,286,20,,,834,https://infocovid.smc.unige.ch/,11346,1520,0
+2021-12-28,00:00,GE,,90177,,286,20,,,834,https://infocovid.smc.unige.ch/,11346,1520,0
 2021-12-28,00:00,OW,,6878,,9,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,714,,0
 2021-12-28,00:00,UR,,6210,,3,,,,59,https://www.ur.ch/themen/2962,,187,
 2021-12-28,08:00,AG,,89854,,104,25,,79695,850,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16590,7 +16590,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-29,,TI,,49134,,123,16,,,1044,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-29,,VS,,61400,,82,10,8,,731,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-29,00:00,FL,,6066,,12,,,5715,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-29,00:00,GE,,91943,,278,18,,,835,https://infocovid.smc.unige.ch/,12115,1555,0
+2021-12-29,00:00,GE,,91944,,278,18,,,835,https://infocovid.smc.unige.ch/,12115,1555,0
 2021-12-29,00:00,OW,,6967,,4,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,730,,0
 2021-12-29,00:00,UR,,6262,,6,,,,59,https://www.ur.ch/themen/2962,,164,
 2021-12-29,08:00,AG,,90757,,113,24,,80395,852,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16616,7 +16616,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-30,,TI,,50776,,135,17,,,1045,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-30,,VS,,62672,,79,11,8,,731,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-30,00:00,FL,,6108,,12,,,5715,69,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-30,00:00,GE,,93890,,292,17,,,835,https://infocovid.smc.unige.ch/,12590,1562,0
+2021-12-30,00:00,GE,,93891,,292,17,,,835,https://infocovid.smc.unige.ch/,12590,1562,0
 2021-12-30,00:00,OW,,7051,,4,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,703,,0
 2021-12-30,00:00,UR,,6323,,6,,,,59,https://www.ur.ch/themen/2962,,186,
 2021-12-30,08:00,AG,,91907,,113,25,,81035,853,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16641,7 +16641,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-12-31,,TI,,52410,,131,16,,,1047,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2021-12-31,,VS,,63827,,84,11,8,,733,https://www.vs.ch/de/web/coronavirus,,,
 2021-12-31,00:00,FL,,6167,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2021-12-31,00:00,GE,,95239,,283,18,,,837,https://infocovid.smc.unige.ch/,13356,1479,0
+2021-12-31,00:00,GE,,95240,,283,18,,,837,https://infocovid.smc.unige.ch/,13356,1479,0
 2021-12-31,00:00,OW,,7130,,2,,,,54,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,748,,0
 2021-12-31,00:00,UR,,6384,,6,,,,59,https://www.ur.ch/themen/2962,,186,
 2021-12-31,08:00,AG,,92935,,,,,81845,858,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16664,7 +16664,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-01,,TI,,54151,,130,16,,,1047,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-01,,VS,,64497,,90,9,8,,733,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-01,00:00,FL,,6208,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-01,00:00,GE,,96017,,303,19,,,838,https://infocovid.smc.unige.ch/,14149,1479,0
+2022-01-01,00:00,GE,,96018,,303,19,,,838,https://infocovid.smc.unige.ch/,14150,1479,0
 2022-01-01,08:00,AG,,93554,,,,,82430,859,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
 2022-01-01,08:00,ZG,,17684,,18,5,,,150,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,931,321,0
 2022-01-01,09:00,SZ,,29181,,,,,27426,328,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16686,7 +16686,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-02,,VD,,146005,,268,42,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220104_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-01-02,,VS,,65399,,87,10,8,,733,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-02,00:00,FL,,6236,,10,,,5866,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-02,00:00,GE,,96793,,326,19,,,838,https://infocovid.smc.unige.ch/,14868,1571,0
+2022-01-02,00:00,GE,,96794,,326,19,,,838,https://infocovid.smc.unige.ch/,14869,1571,0
 2022-01-02,08:00,AG,,94082,,,,,82795,860,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
 2022-01-02,08:00,ZG,,17802,,18,5,,,150,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,828,312,0
 2022-01-02,09:00,SZ,,29395,,,,,27546,329,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16708,7 +16708,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-03,,TI,,55987,,152,16,,,1051,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-03,,VS,,67692,,98,12,8,,733,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-03,00:00,FL,,6283,,9,,,5911,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-03,00:00,GE,,98774,,339,19,,,839,https://infocovid.smc.unige.ch/,15980,1627,0
+2022-01-03,00:00,GE,,98775,,339,19,,,839,https://infocovid.smc.unige.ch/,15981,1627,0
 2022-01-03,00:00,OW,,7309,,2,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,586,,0
 2022-01-03,00:00,UR,,6574,,5,,,,59,https://www.ur.ch/themen/2962,,196,
 2022-01-03,08:00,AG,,95104,,112,22,,83280,861,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16733,7 +16733,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-04,,TI,,57341,,160,17,,,1053,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-04,,VS,,69981,,105,12,8,,733,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-04,00:00,FL,,6351,,8,,,5964,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-04,00:00,GE,,101674,,352,17,,,839,https://infocovid.smc.unige.ch/,17762,1557,0
+2022-01-04,00:00,GE,,101675,,352,17,,,839,https://infocovid.smc.unige.ch/,17763,1557,0
 2022-01-04,00:00,OW,,7339,,7,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,585,1588,0
 2022-01-04,08:00,AG,,96577,,109,22,,84045,861,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
 2022-01-04,08:00,ZG,,18224,,13,4,,,150,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,923,348,0
@@ -16757,7 +16757,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-05,,TI,,59362,,158,12,,,1053,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-05,,VS,,72016,,104,12,9,,733,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-05,00:00,FL,,6452,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-05,00:00,GE,,104549,,370,15,,,839,https://infocovid.smc.unige.ch/,19220,1518,0
+2022-01-05,00:00,GE,,104550,,370,15,,,839,https://infocovid.smc.unige.ch/,19220,1518,0
 2022-01-05,00:00,OW,,7426,,9,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,641,1593,0
 2022-01-05,00:00,UR,,6721,,7,,,,59,https://www.ur.ch/themen/2962,,178,
 2022-01-05,08:00,AG,,98351,,105,23,,84765,861,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16783,7 +16783,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-06,,TI,,60994,,149,13,,,1056,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-06,,VS,,73935,,103,10,8,,735,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-06,00:00,FL,,6530,,5,,,6064,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-06,00:00,GE,,106836,,370,13,,,841,https://infocovid.smc.unige.ch/,19995,1761,0
+2022-01-06,00:00,GE,,106837,,370,13,,,841,https://infocovid.smc.unige.ch/,19995,1761,0
 2022-01-06,00:00,OW,,7527,,9,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,701,1643,0
 2022-01-06,00:00,UR,,6820,,7,,,,59,https://www.ur.ch/themen/2962,,218,
 2022-01-06,08:00,AG,,99870,,108,21,,85490,862,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16808,7 +16808,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-07,,TI,,62522,,153,14,,,1059,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-07,,VS,,75733,,107,11,7,,736,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-07,00:00,FL,,6591,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-07,00:00,GE,,109391,,399,15,,,842,https://infocovid.smc.unige.ch/,20901,1757,0
+2022-01-07,00:00,GE,,109392,,399,15,,,842,https://infocovid.smc.unige.ch/,20900,1757,0
 2022-01-07,00:00,OW,,7609,,9,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,694,1969,0
 2022-01-07,00:00,UR,,6908,,6,,,,59,https://www.ur.ch/themen/2962,,239,
 2022-01-07,08:00,AG,,101387,,103,21,,86390,865,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16832,7 +16832,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-08,,TI,,63770,,156,15,,,1061,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-08,,VS,,76838,,107,12,7,,737,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-08,00:00,FL,,6658,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-08,00:00,GE,,110996,,423,15,,,844,https://infocovid.smc.unige.ch/,21714,1670,0
+2022-01-08,00:00,GE,,110997,,423,15,,,844,https://infocovid.smc.unige.ch/,21713,1670,0
 2022-01-08,08:00,AG,,102527,,,,,86785,866,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-08,08:00,ZG,,19730,,12,3,,,151,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1287,454,0
 2022-01-08,09:00,SZ,,31201,,,,,28845,333,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16854,7 +16854,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-09,,VD,,169813,,315,36,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220111_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-01-09,,VS,,77645,,115,11,7,,738,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-09,00:00,FL,,6716,,5,,,6163,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-09,00:00,GE,,112081,,423,14,,,844,https://infocovid.smc.unige.ch/,21991,1648,0
+2022-01-09,00:00,GE,,112082,,423,14,,,844,https://infocovid.smc.unige.ch/,21991,1648,0
 2022-01-09,08:00,AG,,103430,,,,,87175,867,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-09,08:00,ZG,,19944,,12,3,,,151,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1126,439,0
 2022-01-09,09:00,SZ,,31613,,,,,29042,334,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -16876,7 +16876,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-10,,TI,,66346,,178,15,,,1066,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-10,,VS,,79949,,120,11,7,,738,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-10,00:00,FL,,6782,,4,,,6230,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-10,00:00,GE,,114554,,427,13,,,845,https://infocovid.smc.unige.ch/,22053,1846,0
+2022-01-10,00:00,GE,,114555,,427,13,,,845,https://infocovid.smc.unige.ch/,22053,1846,0
 2022-01-10,00:00,OW,,7841,,10,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,675,1729,0
 2022-01-10,00:00,UR,,7133,,8,,,,59,https://www.ur.ch/themen/2962,,227,
 2022-01-10,08:00,AG,,104458,,98,18,,87870,867,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16890,7 +16890,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-11,,FR,,67106,,59,9,,1262,529,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-11,,GL,,7278,,6,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,484,105,
 2022-01-11,,GR,,41461,,32,8,7,,234,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,8551,1602,
-2022-01-11,,JU,,16896,,37,4,,,176,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-11,,JU,,16897,,37,4,,,176,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-11,,LU,,70593,,60,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,7653,3767,
 2022-01-11,,NE,,33880,,69,3,3,,433,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-11,,NW,,7842,,7,2,,,32,http://www.nw.ch/coronastatistik,759,163,
@@ -16900,7 +16900,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-11,,TI,,67895,,178,16,,,1067,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-11,,VS,,81837,,130,10,7,,738,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-11,00:00,FL,,6858,,5,,,6301,71,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-11,00:00,GE,,117440,,431,9,,,845,https://infocovid.smc.unige.ch/,22745,2427,0
+2022-01-11,00:00,GE,,117441,,431,9,,,845,https://infocovid.smc.unige.ch/,22745,2427,0
 2022-01-11,00:00,OW,,7906,,10,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,701,1746,0
 2022-01-11,00:00,UR,,7214,,8,,,,59,https://www.ur.ch/themen/2962,,230,
 2022-01-11,08:00,AG,,106354,,90,16,,88860,868,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16915,7 +16915,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-12,,FR,,68495,,59,10,,1268,529,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-12,,GL,,7417,,5,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,501,103,
 2022-01-12,,GR,,42405,,34,8,7,,236,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,8306,1606,
-2022-01-12,,JU,,17167,,34,3,,,176,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-12,,JU,,17168,,34,3,,,176,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-12,,LU,,72047,,62,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,8828,3579,
 2022-01-12,,NE,,35186,,58,3,3,,433,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-12,,NW,,7902,,6,1,,,32,http://www.nw.ch/coronastatistik,782,136,
@@ -16925,7 +16925,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-12,,TI,,69443,,168,14,,,1070,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-12,,VS,,83485,,155,12,8,,739,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-12,00:00,FL,,6915,,5,,,6411,72,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-12,00:00,GE,,120254,,412,11,,,845,https://infocovid.smc.unige.ch/,23054,2923,0
+2022-01-12,00:00,GE,,120255,,412,11,,,845,https://infocovid.smc.unige.ch/,23055,2923,0
 2022-01-12,00:00,OW,,7998,,5,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,754,1808,0
 2022-01-12,00:00,UR,,7347,,5,,,,59,https://www.ur.ch/themen/2962,,233,
 2022-01-12,08:00,AG,,108063,,89,14,,89765,870,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16941,7 +16941,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-13,,FR,,69979,,60,9,,1274,530,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-13,,GL,,7493,,5,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,244,50,
 2022-01-13,,GR,,43371,,38,7,6,,237,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,7929,1668,
-2022-01-13,,JU,,17530,,33,3,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-13,,JU,,17531,,33,3,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-13,,LU,,73385,,62,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,9618,,
 2022-01-13,,NE,,36177,,77,4,3,,433,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-13,,NW,,8016,,6,0,,,32,http://www.nw.ch/coronastatistik,538,122,
@@ -16951,7 +16951,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-13,,TI,,71180,,179,14,,,1074,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-13,,VS,,85037,,154,12,7,,740,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-13,00:00,FL,,6970,,5,,,6582,72,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-13,00:00,GE,,122686,,420,8,,,846,https://infocovid.smc.unige.ch/,13628,2799,0
+2022-01-13,00:00,GE,,122687,,420,8,,,846,https://infocovid.smc.unige.ch/,13627,2799,0
 2022-01-13,00:00,OW,,8165,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,507,,0
 2022-01-13,00:00,UR,,7433,,6,,,,59,https://www.ur.ch/themen/2962,,179,
 2022-01-13,08:00,AG,,109663,,89,16,,90915,871,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16966,7 +16966,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-14,,FR,,71525,,66,7,,1275,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-14,,GL,,7629,,6,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,273,44,
 2022-01-14,,GR,,44195,,38,7,6,,237,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,8575,1706,
-2022-01-14,,JU,,18058,,34,2,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-14,,JU,,18059,,34,2,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-14,,LU,,74671,,57,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,4501,2396,
 2022-01-14,,NE,,36741,,82,3,2,,433,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-14,,NW,,8182,,4,0,,,32,http://www.nw.ch/coronastatistik,401,144,
@@ -16976,7 +16976,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-14,,TI,,72664,,173,14,,,1076,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-14,,VS,,86641,,169,12,7,,740,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-14,00:00,FL,,7153,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-14,00:00,GE,,124710,,444,10,,,846,https://infocovid.smc.unige.ch/,13542,2978,0
+2022-01-14,00:00,GE,,124711,,444,10,,,846,https://infocovid.smc.unige.ch/,13541,2978,0
 2022-01-14,00:00,OW,,8205,,8,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,547,,0
 2022-01-14,00:00,UR,,7543,,4,,,,59,https://www.ur.ch/themen/2962,,89,
 2022-01-14,08:00,AG,,111385,,90,13,,91940,873,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -16991,7 +16991,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-15,,FR,,72737,,69,8,,1280,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-15,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/39935/Sentinella_kw3.pdf?fp=1,239,40,
 2022-01-15,,GR,,44854,,33,6,6,,239,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,6591,1554,
-2022-01-15,,JU,,18270,,36,3,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-15,,JU,,18271,,36,3,,,177,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-15,,LU,,75559,,,,,,426,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-15,,NE,,37793,,82,5,3,,434,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-15,,NW,,8202,,4,0,,,32,http://www.nw.ch/coronastatistik,322,161,
@@ -17000,7 +17000,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-15,,TI,,73976,,167,15,,,1076,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-15,,VS,,87624,,167,13,9,,741,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-15,00:00,FL,,7201,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-15,00:00,GE,,126782,,446,10,,,846,https://infocovid.smc.unige.ch/,12346,2622,0
+2022-01-15,00:00,GE,,126783,,446,10,,,846,https://infocovid.smc.unige.ch/,12345,2622,0
 2022-01-15,08:00,AG,,112789,,,,,92560,874,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-15,08:00,ZG,,22147,,12,2,,,152,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1567,476,0
 2022-01-15,09:00,SZ,,33984,,,,,31397,338,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17012,7 +17012,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-16,,FR,,73786,,77,8,,1281,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-16,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/39935/Sentinella_kw3.pdf?fp=1,201,39,
 2022-01-16,,GR,,45303,,39,6,6,,239,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,5711,1554,
-2022-01-16,,JU,,18356,,36,3,,,178,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-16,,JU,,18357,,36,3,,,178,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-16,,LU,,76808,,,,,,427,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-16,,NE,,38115,,86,4,1,,434,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-16,,NW,,8254,,4,0,,,32,http://www.nw.ch/coronastatistik,293,191,
@@ -17022,7 +17022,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-16,,VD,,194233,,337,35,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220118_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-01-16,,VS,,88385,,165,12,8,,741,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-16,00:00,FL,,7265,,1,,,6922,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-16,00:00,GE,,127756,,457,12,,,848,https://infocovid.smc.unige.ch/,12102,2126,0
+2022-01-16,00:00,GE,,127757,,457,12,,,848,https://infocovid.smc.unige.ch/,12101,2126,0
 2022-01-16,08:00,AG,,113980,,,,,93085,874,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-16,08:00,ZG,,22467,,12,2,,,152,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1424,556,0
 2022-01-16,09:00,SZ,,34399,,,,,31966,338,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17034,7 +17034,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-17,,FR,,74894,,80,8,,1284,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-17,,GL,,7916,,9,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,232,62,
 2022-01-17,,GR,,45928,,34,6,6,,240,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3808,1633,
-2022-01-17,,JU,,18606,,33,3,,,178,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-17,,JU,,18607,,33,3,,,178,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-17,,LU,,78616,,56,,5,,428,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,4931,3045,
 2022-01-17,,NE,,38896,,91,4,2,,434,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-17,,NW,,8476,,5,0,,,32,http://www.nw.ch/coronastatistik,395,237,
@@ -17044,7 +17044,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-17,,TI,,76419,,176,17,,,1077,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-17,,VS,,90679,,175,14,8,,743,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-17,00:00,FL,,7340,,2,,,7001,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-17,00:00,GE,,130147,,444,14,,,848,https://infocovid.smc.unige.ch/,12123,2175,0
+2022-01-17,00:00,GE,,130148,,444,14,,,848,https://infocovid.smc.unige.ch/,12122,2175,0
 2022-01-17,00:00,OW,,8427,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,511,,0
 2022-01-17,00:00,UR,,7810,,5,,,,60,https://www.ur.ch/themen/2962,,171,
 2022-01-17,08:00,AG,,115459,,91,14,,94110,874,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17059,7 +17059,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-18,,FR,,76328,,70,6,,1299,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-18,,GL,,7969,,7,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,200,69,
 2022-01-18,,GR,,46800,,33,6,6,,240,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3390,1747,
-2022-01-18,,JU,,18858,,23,3,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-18,,JU,,18859,,23,3,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-18,,LU,,80470,,56,,5,,429,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5445,2560,
 2022-01-18,,NE,,40206,,82,2,1,,434,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-18,,NW,,8712,,5,0,,,32,http://www.nw.ch/coronastatistik,423,252,
@@ -17069,7 +17069,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-18,,TI,,77423,,168,17,,,1081,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-18,,VS,,92716,,165,14,8,,746,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-18,00:00,FL,,7488,,1,,,7061,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-18,00:00,GE,,133217,,485,15,,,848,https://infocovid.smc.unige.ch/,13287,2564,0
+2022-01-18,00:00,GE,,133218,,485,15,,,848,https://infocovid.smc.unige.ch/,13287,2564,0
 2022-01-18,00:00,OW,,8488,,7,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,532,,0
 2022-01-18,00:00,UR,,8005,,2,,,,60,https://www.ur.ch/themen/2962,,110,
 2022-01-18,08:00,AG,,117870,,90,15,,95580,874,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17084,7 +17084,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-19,,FR,,78368,,69,4,,1306,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-19,,GL,,8102,,5,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,250,75,
 2022-01-19,,GR,,47720,,39,7,6,,240,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3415,1946,
-2022-01-19,,JU,,19198,,24,2,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-19,,JU,,19199,,24,2,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-19,,LU,,81920,,47,,4,,430,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5816,3118,
 2022-01-19,,NE,,41325,,63,3,1,,434,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-19,,NW,,8818,,5,0,,,33,http://www.nw.ch/coronastatistik,643,261,
@@ -17094,7 +17094,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-19,,TI,,79124,,166,19,,,1081,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-19,,VS,,94634,,168,13,7,,750,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-19,00:00,FL,,7597,,1,,,7148,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-19,00:00,GE,,136249,,470,10,,,850,https://infocovid.smc.unige.ch/,14629,3199,0
+2022-01-19,00:00,GE,,136250,,470,10,,,850,https://infocovid.smc.unige.ch/,14629,3199,0
 2022-01-19,00:00,OW,,8619,,7,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,623,,0
 2022-01-19,00:00,UR,,8005,,2,,,,60,https://www.ur.ch/themen/2962,,110,
 2022-01-19,08:00,AG,,120526,,88,15,,97360,877,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17110,7 +17110,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-20,,FR,,80394,,75,4,,1309,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-20,,GL,,8307,,4,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,280,69,
 2022-01-20,,GR,,48481,,39,6,6,,241,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3864,2064,
-2022-01-20,,JU,,19494,,21,1,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-20,,JU,,19495,,21,1,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-20,,LU,,83324,,41,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5852,3118,
 2022-01-20,,NE,,42444,,62,2,1,,435,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-20,,NW,,8985,,5,0,,,33,http://www.nw.ch/coronastatistik,643,261,
@@ -17120,7 +17120,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-20,,TI,,80597,,153,17,,,1082,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-20,,VS,,96459,,172,10,6,,754,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-20,00:00,FL,,7731,,1,,,7238,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-20,00:00,GE,,139550,,493,12,,,852,https://infocovid.smc.unige.ch/,15320,3853,0
+2022-01-20,00:00,GE,,139551,,493,12,,,852,https://infocovid.smc.unige.ch/,15320,3853,0
 2022-01-20,00:00,OW,,8769,,7,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,714,,0
 2022-01-20,00:00,UR,,8112,,2,,,,60,https://www.ur.ch/themen/2962,,145,
 2022-01-20,08:00,AG,,122763,,87,15,,98880,879,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17135,7 +17135,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-21,,FR,,82253,,76,6,,1314,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-21,,GL,,8441,,6,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,393,79,
 2022-01-21,,GR,,49273,,43,6,6,,241,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3970,2057,
-2022-01-21,,JU,,19818,,22,1,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-21,,JU,,19819,,22,1,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-21,,LU,,85252,,40,,3,,431,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5717,3220,
 2022-01-21,,NE,,43721,,60,1,0,,435,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-21,,NW,,9140,,5,1,,,33,http://www.nw.ch/coronastatistik,559,213,
@@ -17145,7 +17145,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-21,,TI,,82018,,158,15,,,1085,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-21,,VS,,98309,,177,8,5,,755,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-21,00:00,FL,,7838,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-21,00:00,GE,,142608,,503,13,,,852,https://infocovid.smc.unige.ch/,14973,4255,0
+2022-01-21,00:00,GE,,142609,,503,13,,,852,https://infocovid.smc.unige.ch/,14973,4255,0
 2022-01-21,00:00,OW,,8882,,2,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,671,,0
 2022-01-21,00:00,UR,,8244,,2,,,,60,https://www.ur.ch/themen/2962,,174,
 2022-01-21,08:00,AG,,125517,,93,16,,100390,880,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17160,7 +17160,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-22,,FR,,83895,,86,6,,1317,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-22,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/40012/Sentinella_kw4.pdf?fp=1,361,66,
 2022-01-22,,GR,,49901,,40,6,6,,241,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3252,1958,
-2022-01-22,,JU,,20133,,23,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-22,,JU,,20134,,23,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-22,,LU,,86906,,,,,,432,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-22,,NE,,44559,,54,1,0,,435,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-22,,NW,,9248,,4,1,,,33,http://www.nw.ch/coronastatistik,510,253,
@@ -17169,7 +17169,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-22,,TI,,83366,,158,16,,,1086,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-22,,VS,,99437,,168,7,2,,756,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-22,00:00,FL,,7921,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-22,00:00,GE,,144849,,505,15,,,853,https://infocovid.smc.unige.ch/,13309,4228,0
+2022-01-22,00:00,GE,,144850,,505,15,,,853,https://infocovid.smc.unige.ch/,13309,4228,0
 2022-01-22,08:00,AG,,127908,,,,,101530,880,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-22,08:00,ZG,,25511,,16,1,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1510,521,0
 2022-01-22,09:00,SZ,,37136,,,,,35409,341,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17181,7 +17181,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-23,,FR,,85223,,91,6,,1322,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-23,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/40012/Sentinella_kw4.pdf?fp=1,278,58,
 2022-01-23,,GR,,50348,,39,5,5,,241,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2765,1803,
-2022-01-23,,JU,,20171,,25,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-23,,JU,,20172,,25,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-23,,LU,,87886,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-23,,NE,,45018,,59,1,0,,436,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-23,,NW,,9305,,3,1,,,33,http://www.nw.ch/coronastatistik,445,263,
@@ -17191,7 +17191,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-23,,VD,,222936,,382,31,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220125_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-01-23,,VS,,100294,,171,7,2,,760,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-23,00:00,FL,,8013,,1,,,7612,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-23,00:00,GE,,145932,,527,14,,,853,https://infocovid.smc.unige.ch/,11984,3880,0
+2022-01-23,00:00,GE,,145933,,527,14,,,853,https://infocovid.smc.unige.ch/,11985,3880,0
 2022-01-23,08:00,AG,,129661,,,,,102430,882,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-23,08:00,ZG,,25916,,16,1,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1428,518,0
 2022-01-23,09:00,SZ,,37679,,,,,35924,341,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17203,7 +17203,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-24,,FR,,86552,,90,5,,1512,535,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-24,,GL,,8790,,7,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,275,132,
 2022-01-24,,GR,,50968,,37,5,4,,242,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2499,1939,
-2022-01-24,,JU,,20457,,21,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-24,,JU,,20458,,21,0,,,180,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-24,,LU,,89430,,45,,3,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5603,3400,
 2022-01-24,,NE,,46078,,65,2,0,,437,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-24,,NW,,9515,,3,1,,,33,http://www.nw.ch/coronastatistik,482,263,
@@ -17213,7 +17213,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-24,,TI,,85568,,177,15,,,1087,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-24,,VS,,102720,,176,7,5,,760,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-24,00:00,FL,,8171,,2,,,7724,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-24,00:00,GE,,148687,,518,17,,,853,https://infocovid.smc.unige.ch/,11645,3513,0
+2022-01-24,00:00,GE,,148688,,518,17,,,853,https://infocovid.smc.unige.ch/,11646,3513,0
 2022-01-24,00:00,OW,,9278,,4,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,867,,0
 2022-01-24,00:00,UR,,8760,,1,,,,60,https://www.ur.ch/themen/2962,,195,
 2022-01-24,08:00,AG,,131827,,99,14,,103455,883,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17228,7 +17228,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-25,,FR,,87739,,87,3,,1515,536,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-25,,GL,,8936,,6,,,,101,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,266,106,
 2022-01-25,,GR,,51892,,36,5,4,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2750,2047,
-2022-01-25,,JU,,20800,,20,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-25,,JU,,20801,,20,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-25,,LU,,92447,,54,,3,,433,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5394,3204,
 2022-01-25,,NE,,47510,,69,3,2,,440,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-25,,NW,,9754,,4,1,,,33,http://www.nw.ch/coronastatistik,439,233,
@@ -17238,7 +17238,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-25,,TI,,86677,,173,14,,,1089,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-25,,VS,,104604,,187,7,4,,763,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-25,00:00,FL,,8296,,1,,,7810,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-25,00:00,GE,,152192,,535,17,,,856,https://infocovid.smc.unige.ch/,12105,2648,0
+2022-01-25,00:00,GE,,152193,,535,17,,,856,https://infocovid.smc.unige.ch/,12107,2648,0
 2022-01-25,00:00,OW,,9379,,4,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,837,1974,0
 2022-01-25,00:00,UR,,8852,,1,,,,61,https://www.ur.ch/themen/2962,,212,
 2022-01-25,08:00,AG,,134187,,102,12,,105345,884,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17253,7 +17253,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-26,,FR,,90560,,89,5,,1522,536,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-26,,GL,,9264,,5,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,346,97,
 2022-01-26,,GR,,52794,,34,5,5,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3262,2100,
-2022-01-26,,JU,,21288,,18,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-26,,JU,,21289,,18,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-26,,LU,,94233,,62,,3,,434,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5941,3219,
 2022-01-26,,NE,,48734,,63,6,3,,440,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-26,,NW,,10043,,4,1,,,33,http://www.nw.ch/coronastatistik,618,185,
@@ -17263,7 +17263,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-26,,TI,,88246,,170,12,,,1090,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-26,,VS,,106409,,193,6,4,,765,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-26,00:00,FL,,8406,,1,,,7920,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-26,00:00,GE,,155225,,541,15,,,856,https://infocovid.smc.unige.ch/,12997,2112,0
+2022-01-26,00:00,GE,,155226,,541,15,,,856,https://infocovid.smc.unige.ch/,12998,2112,0
 2022-01-26,00:00,OW,,9601,,3,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,909,1956,0
 2022-01-26,00:00,UR,,9013,,1,,,,61,https://www.ur.ch/themen/2962,,221,
 2022-01-26,08:00,AG,,137065,,113,16,,107045,885,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17279,7 +17279,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-27,,FR,,92678,,94,5,,1529,538,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-27,,GL,,9544,,6,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,346,78,
 2022-01-27,,GR,,53547,,29,5,4,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3179,2174,
-2022-01-27,,JU,,21600,,14,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-27,,JU,,21601,,14,1,,,181,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-27,,LU,,96362,,54,,5,,436,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6580,3337,
 2022-01-27,,NE,,50030,,78,7,3,,440,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-27,,NW,,10302,,4,1,,,33,http://www.nw.ch/coronastatistik,724,215,
@@ -17289,7 +17289,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-27,,TI,,89630,,166,14,,,1094,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-27,,VS,,108069,,189,5,3,,765,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-27,00:00,FL,,8590,,1,,,8066,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-27,00:00,GE,,157982,,524,16,,,857,https://infocovid.smc.unige.ch/,12849,1978,0
+2022-01-27,00:00,GE,,157983,,524,16,,,857,https://infocovid.smc.unige.ch/,12848,1978,0
 2022-01-27,00:00,OW,,9818,,3,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1056,166,0
 2022-01-27,00:00,UR,,9184,,1,,,,61,https://www.ur.ch/themen/2962,,230,
 2022-01-27,08:00,AG,,139888,,107,16,,108650,885,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17304,7 +17304,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-28,,FR,,94450,,79,8,,1548,539,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-28,,GL,,9744,,8,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,342,61,
 2022-01-28,,GR,,54297,,37,5,4,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3378,2182,
-2022-01-28,,JU,,22092,,14,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-28,,JU,,22093,,14,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-28,,LU,,98336,,47,,4,,439,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,7070,2886,
 2022-01-28,,NE,,51253,,78,7,2,,440,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-28,,NW,,10630,,4,1,,,33,http://www.nw.ch/coronastatistik,772,219,
@@ -17314,7 +17314,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-28,,TI,,90892,,166,15,,,1094,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-28,,VS,,109568,,178,9,4,,766,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-28,00:00,FL,,8775,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-28,00:00,GE,,160320,,524,16,,,859,https://infocovid.smc.unige.ch/,12085,1924,0
+2022-01-28,00:00,GE,,160321,,524,16,,,859,https://infocovid.smc.unige.ch/,12084,1924,0
 2022-01-28,00:00,OW,,10029,,3,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1136,242,0
 2022-01-28,00:00,UR,,9381,,2,,,,61,https://www.ur.ch/themen/2962,,229,
 2022-01-28,08:00,AG,,142440,,109,16,,110370,888,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17329,7 +17329,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-29,,FR,,95972,,85,6,,1553,539,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-29,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/40012/Sentinella_kw4.pdf?fp=1,266,34,
 2022-01-29,,GR,,54930,,42,5,4,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3120,2138,
-2022-01-29,,JU,,22402,,14,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-29,,JU,,22403,,14,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-29,,LU,,100028,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-29,,NE,,51798,,76,7,4,,441,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-29,,NW,,10844,,4,1,,,33,http://www.nw.ch/coronastatistik,751,196,
@@ -17338,7 +17338,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-29,,TI,,92158,,173,17,,,1094,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-29,,VS,,110495,,175,8,5,,767,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-29,00:00,FL,,8854,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-29,00:00,GE,,161884,,530,14,,,860,https://infocovid.smc.unige.ch/,10571,2188,0
+2022-01-29,00:00,GE,,161885,,530,14,,,860,https://infocovid.smc.unige.ch/,10570,2188,0
 2022-01-29,08:00,AG,,144885,,,,,111775,890,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-29,08:00,ZG,,29064,,13,2,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2112,424,0
 2022-01-29,09:00,SZ,,41424,,,,,39229,344,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17350,7 +17350,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-30,,FR,,97395,,86,5,,1556,539,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-30,,GL,,,,,,,,,https://www.gl.ch/public/upload/assets/40012/Sentinella_kw4.pdf?fp=1,163,19,
 2022-01-30,,GR,,55328,,38,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2788,1967,
-2022-01-30,,JU,,22543,,18,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-30,,JU,,22544,,18,1,,,182,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-30,,LU,,101302,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-01-30,,NE,,52377,,77,6,3,,443,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-30,,NW,,11113,,5,1,,,33,http://www.nw.ch/coronastatistik,636,143,
@@ -17360,7 +17360,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-30,,VD,,249978,,393,27,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220130_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-01-30,,VS,,111225,,179,11,7,,769,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-30,00:00,FL,,8928,,0,,,8475,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-30,00:00,GE,,162675,,521,15,,,861,https://infocovid.smc.unige.ch/,9408,2235,0
+2022-01-30,00:00,GE,,162676,,521,15,,,861,https://infocovid.smc.unige.ch/,9407,2235,0
 2022-01-30,08:00,AG,,146483,,,,,112965,891,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-01-30,08:00,ZG,,29447,,13,2,,,153,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2344,456,0
 2022-01-30,09:00,SZ,,42233,,,,,39998,344,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17372,7 +17372,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-31,,FR,,98597,,90,4,,1560,539,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-01-31,,GL,,10116,,9,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-01-31,,GR,,55876,,38,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2202,2006,
-2022-01-31,,JU,,22692,,20,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-01-31,,JU,,22693,,20,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-01-31,,LU,,102984,,53,,5,,440,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6569,3402,
 2022-01-31,,NE,,53712,,79,6,2,,443,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-01-31,,NW,,11276,,6,1,,,33,http://www.nw.ch/coronastatistik,625,124,
@@ -17382,7 +17382,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-01-31,,TI,,93752,,175,14,,,1102,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-01-31,,VS,,113058,,182,10,7,,770,https://www.vs.ch/de/web/coronavirus,,,
 2022-01-31,00:00,FL,,9030,,2,,,8609,73,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-01-31,00:00,GE,,164766,,521,15,,,861,https://infocovid.smc.unige.ch/,8410,2008,0
+2022-01-31,00:00,GE,,164766,,521,15,,,861,https://infocovid.smc.unige.ch/,8409,2008,0
 2022-01-31,00:00,OW,,10409,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1063,408,0
 2022-01-31,00:00,UR,,9955,,2,,,,61,https://www.ur.ch/themen/2962,,302,
 2022-01-31,08:00,AG,,148721,,131,12,,114425,891,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17396,7 +17396,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-01,,FR,,100513,,98,7,,1566,543,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-01,,GL,,10303,,10,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-01,,GR,,56633,,28,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2862,2175,
-2022-02-01,,JU,,23144,,25,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-01,,JU,,23145,,25,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-01,,LU,,104881,,51,,5,,441,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6659,3429,
 2022-02-01,,NE,,54585,,75,5,3,,443,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-01,,NW,,11499,,5,1,,,33,http://www.nw.ch/coronastatistik,783,100,
@@ -17406,7 +17406,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-01,,TI,,94519,,183,14,,,1103,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-01,,VS,,114485,,173,9,6,,771,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-01,00:00,FL,,9176,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-01,00:00,GE,,166984,,510,13,,,861,https://infocovid.smc.unige.ch/,8421,1563,0
+2022-02-01,00:00,GE,,166984,,510,13,,,861,https://infocovid.smc.unige.ch/,8422,1563,0
 2022-02-01,00:00,OW,,10578,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1011,508,0
 2022-02-01,00:00,UR,,10079,,2,,,,61,https://www.ur.ch/themen/2962,,233,
 2022-02-01,08:00,AG,,151537,,131,12,,116835,892,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17421,7 +17421,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-02,,FR,,102411,,102,7,,1573,543,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-02,,GL,,10495,,11,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-02,,GR,,57364,,31,5,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,3149,2056,
-2022-02-02,,JU,,23608,,30,2,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-02,,JU,,23609,,30,2,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-02,,LU,,106824,,52,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6748,3314,
 2022-02-02,,NE,,55867,,74,4,3,,444,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-02,,NW,,11630,,4,1,,,34,http://www.nw.ch/coronastatistik,742,74,
@@ -17431,7 +17431,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-02,,TI,,96017,,183,15,,,1103,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-02,,VS,,115818,,188,10,7,,771,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-02,00:00,FL,,9328,,2,,,8826,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-02,00:00,GE,,168865,,532,12,,,863,https://infocovid.smc.unige.ch/,8528,1207,0
+2022-02-02,00:00,GE,,168865,,532,12,,,863,https://infocovid.smc.unige.ch/,8530,1207,0
 2022-02-02,00:00,OW,,10798,,6,,,,55,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1014,509,0
 2022-02-02,00:00,UR,,10247,,3,,,,62,https://www.ur.ch/themen/2962,,228,
 2022-02-02,08:00,AG,,154166,,122,10,,119500,893,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,0
@@ -17447,7 +17447,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-03,,FR,,104040,,103,8,,1577,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-03,,GL,,10644,,9,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-03,,GR,,58091,,27,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2995,0,
-2022-02-03,,JU,,24006,,25,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-03,,JU,,24007,,25,1,,,183,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-03,,LU,,108511,,54,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,7033,3234,
 2022-02-03,,NE,,56675,,75,4,1,,444,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-03,,NW,,11925,,5,1,,,34,http://www.nw.ch/coronastatistik,699,0,
@@ -17472,7 +17472,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-04,,FR,,105425,,99,8,,1589,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-04,,GL,,10798,,7,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-04,,GR,,58866,,27,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2512,0,
-2022-02-04,,JU,,24267,,24,0,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-04,,JU,,24268,,24,0,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-04,,LU,,110124,,51,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6852,,
 2022-02-04,,NE,,57370,,78,4,1,,445,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-04,,NW,,12180,,5,1,,,34,http://www.nw.ch/coronastatistik,661,0,
@@ -17496,7 +17496,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-05,,BL,,71212,,47,2,,,272,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-05,,FR,,106759,,91,6,,1595,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-05,,GR,,59497,,31,2,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2187,0,
-2022-02-05,,JU,,24536,,25,1,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-05,,JU,,24537,,25,1,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-05,,LU,,111395,,,,,,442,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-02-05,,NE,,57861,,82,2,1,,445,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-05,,NW,,12328,,3,1,,,34,http://www.nw.ch/coronastatistik,677,0,
@@ -17505,7 +17505,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-05,,TI,,98774,,162,10,,,1104,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-05,,VS,,118634,,156,10,5,,774,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-05,00:00,FL,,9672,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-05,00:00,GE,,172718,,528,11,,,863,https://infocovid.smc.unige.ch/,6265,3,0
+2022-02-05,00:00,GE,,172718,,528,11,,,863,https://infocovid.smc.unige.ch/,6264,3,0
 2022-02-05,08:00,AG,,160692,,,,,126905,896,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-02-05,08:00,ZG,,32426,,17,2,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,2179,0,0
 2022-02-05,09:00,SZ,,45570,,,,,43545,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17516,7 +17516,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-06,,BL,,71887,,46,3,,,272,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-06,,FR,,107496,,89,9,,1597,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-06,,GR,,59850,,32,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1835,0,
-2022-02-06,,JU,,24642,,27,2,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-06,,JU,,24643,,27,2,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-06,,LU,,112204,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-02-06,,NE,,58184,,84,4,1,,446,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-06,,NW,,12451,,3,1,,,34,http://www.nw.ch/coronastatistik,503,0,
@@ -17526,7 +17526,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-06,,VD,,272190,,414,28,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220206_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-02-06,,VS,,119145,,160,11,6,,775,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-06,00:00,FL,,9764,,4,,,9338,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-06,00:00,GE,,173185,,539,11,,,864,https://infocovid.smc.unige.ch/,5741,0,0
+2022-02-06,00:00,GE,,173186,,539,11,,,864,https://infocovid.smc.unige.ch/,5740,0,0
 2022-02-06,08:00,AG,,162015,,,,,128660,896,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-02-06,08:00,ZG,,32664,,17,2,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1622,0,0
 2022-02-06,09:00,SZ,,46220,,,,,44261,345,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17538,7 +17538,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-07,,FR,,108377,,90,9,,1600,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-07,,GL,,11057,,5,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-07,,GR,,60358,,32,4,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1891,0,
-2022-02-07,,JU,,24842,,21,1,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-07,,JU,,24844,,21,1,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-07,,LU,,113515,,57,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5741,,
 2022-02-07,,NE,,59071,,81,3,1,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-07,,NW,,12555,,4,1,,,34,http://www.nw.ch/coronastatistik,452,0,
@@ -17548,7 +17548,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-07,,TI,,100119,,163,11,,,1105,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-07,,VS,,120439,,166,11,7,,776,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-07,00:00,FL,,9872,,4,,,,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-07,00:00,GE,,174435,,536,11,,,865,https://infocovid.smc.unige.ch/,5160,,
+2022-02-07,00:00,GE,,174436,,536,11,,,865,https://infocovid.smc.unige.ch/,5159,,
 2022-02-07,00:00,OW,,11757,,5,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,1090,0,0
 2022-02-07,00:00,UR,,10759,,3,,,,62,https://www.ur.ch/themen/2962,,0,
 2022-02-07,08:00,AG,,163501,,107,10,,130815,896,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17563,7 +17563,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-08,,FR,,109846,,91,8,,1606,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-08,,GL,,11203,,4,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-08,,GR,,61219,,37,3,3,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1867,0,
-2022-02-08,,JU,,25063,,21,2,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-08,,JU,,25065,,21,2,,,184,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-08,,LU,,115308,,54,,6,,443,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5342,,
 2022-02-08,,NE,,59694,,81,4,1,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-08,,NW,,12692,,4,1,,,34,http://www.nw.ch/coronastatistik,335,0,
@@ -17573,7 +17573,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-08,,TI,,100738,,151,12,,,1105,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-08,,VS,,121422,,163,11,6,,777,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-08,00:00,FL,,10093,,4,,,9573,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-08,00:00,GE,,175619,,547,11,,,865,https://infocovid.smc.unige.ch/,5113,,
+2022-02-08,00:00,GE,,175620,,547,11,,,865,https://infocovid.smc.unige.ch/,5114,,
 2022-02-08,00:00,OW,,11838,,5,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,951,0,0
 2022-02-08,00:00,UR,,10844,,3,,,,62,https://www.ur.ch/themen/2962,,0,
 2022-02-08,08:00,AG,,165848,,111,13,,133170,898,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17588,7 +17588,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-09,,FR,,111108,,92,8,,1619,544,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-09,,GL,,11406,,7,,,,102,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,,,
 2022-02-09,,GR,,61942,,25,3,2,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2129,0,
-2022-02-09,,JU,,25294,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-09,,JU,,25296,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-09,,LU,,117241,,58,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5400,,
 2022-02-09,,NE,,60271,,66,3,1,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-09,,NW,,12881,,2,0,,,34,http://www.nw.ch/coronastatistik,376,,
@@ -17598,7 +17598,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-09,,TI,,101736,,145,10,,,1107,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-09,,VS,,122349,,157,12,5,,778,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-09,00:00,FL,,10238,,3,,,9658,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-09,00:00,GE,,176531,,535,11,,,865,https://infocovid.smc.unige.ch/,4936,,
+2022-02-09,00:00,GE,,176532,,535,11,,,865,https://infocovid.smc.unige.ch/,4936,,
 2022-02-09,00:00,OW,,12016,,4,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,930,0,0
 2022-02-09,00:00,UR,,10975,,5,,,,64,https://www.ur.ch/themen/2962,,0,
 2022-02-09,08:00,AG,,167877,,115,13,,136045,899,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17613,7 +17613,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-10,,BL,,76251,,44,5,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-10,,FR,,112188,,93,8,,1630,545,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-10,,GR,,62713,,24,3,2,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2357,0,
-2022-02-10,,JU,,25492,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-10,,JU,,25495,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-10,,LU,,118992,,54,,6,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5924,,
 2022-02-10,,NE,,60839,,69,3,1,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-10,,NW,,12994,,1,0,,,34,http://www.nw.ch/coronastatistik,433,,
@@ -17623,7 +17623,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-10,,TI,,102554,,134,12,,,1108,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-10,,VS,,123119,,159,14,5,,780,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-10,00:00,FL,,10335,,3,,,9789,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-10,00:00,GE,,177411,,531,12,,,865,https://infocovid.smc.unige.ch/,4283,,
+2022-02-10,00:00,GE,,177413,,531,12,,,865,https://infocovid.smc.unige.ch/,4283,,
 2022-02-10,00:00,OW,,12209,,4,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,924,0,0
 2022-02-10,00:00,UR,,11111,,4,,,,64,https://www.ur.ch/themen/2962,,0,
 2022-02-10,08:00,AG,,169695,,113,12,,138870,900,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17637,7 +17637,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-11,,BL,,77067,,44,5,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-11,,FR,,113238,,90,6,,1640,545,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-11,,GR,,63218,,29,3,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2169,0,
-2022-02-11,,JU,,25636,,18,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-11,,JU,,25639,,18,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-11,,LU,,120402,,53,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,6187,,
 2022-02-11,,NE,,61310,,77,5,2,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-11,,NW,,13140,,1,0,,,34,http://www.nw.ch/coronastatistik,420,,
@@ -17647,7 +17647,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-11,,TI,,103189,,117,11,,,1110,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-11,,VS,,123784,,151,11,6,,781,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-11,00:00,FL,,10451,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-11,00:00,GE,,178095,,542,9,,,865,https://infocovid.smc.unige.ch/,3929,,
+2022-02-11,00:00,GE,,178097,,542,9,,,865,https://infocovid.smc.unige.ch/,3931,,
 2022-02-11,00:00,OW,,12341,,4,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,845,0,0
 2022-02-11,00:00,UR,,11234,,4,,,,64,https://www.ur.ch/themen/2962,,0,
 2022-02-11,08:00,AG,,171247,,110,12,,141425,903,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17661,7 +17661,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-12,,BL,,77570,,39,4,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-12,,FR,,114104,,84,6,,1653,545,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-12,,GR,,63803,,32,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2153,0,
-2022-02-12,,JU,,25778,,20,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-12,,JU,,25781,,20,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-12,,LU,,121454,,,,,,445,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-02-12,,NE,,61668,,68,4,2,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-12,,NW,,13270,,1,0,,,34,http://www.nw.ch/coronastatistik,379,,
@@ -17670,7 +17670,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-12,,TI,,103821,,99,11,,,1111,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-12,,VS,,124160,,139,11,5,,781,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-12,00:00,FL,,10523,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-12,00:00,GE,,178577,,513,8,,,865,https://infocovid.smc.unige.ch/,3113,,
+2022-02-12,00:00,GE,,178580,,513,8,,,865,https://infocovid.smc.unige.ch/,3118,,
 2022-02-12,08:00,AG,,172769,,,,,143870,904,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-02-12,08:00,ZG,,34269,,21,3,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1148,0,0
 2022-02-12,09:00,SZ,,49431,,,,,47559,346,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17681,7 +17681,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-13,,BL,,78079,,35,5,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-13,,FR,,114601,,90,5,,1655,545,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2022-02-13,,GR,,64057,,29,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1710,0,
-2022-02-13,,JU,,25840,,21,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-13,,JU,,25843,,21,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-13,,LU,,122295,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2022-02-13,,NE,,61893,,72,4,3,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-13,,NW,,13334,,0,0,,,34,http://www.nw.ch/coronastatistik,317,,
@@ -17691,7 +17691,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-13,,VD,,285257,,397,33,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220213_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-02-13,,VS,,124291,,143,10,5,,781,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-13,00:00,FL,,10682,,4,,,10211,74,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-13,00:00,GE,,178828,,517,8,,,865,https://infocovid.smc.unige.ch/,2643,,
+2022-02-13,00:00,GE,,178831,,517,8,,,865,https://infocovid.smc.unige.ch/,2685,,
 2022-02-13,08:00,AG,,173573,,,,,145470,905,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
 2022-02-13,08:00,ZG,,34425,,21,3,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,823,0,0
 2022-02-13,09:00,SZ,,49884,,,,,48181,348,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
@@ -17701,7 +17701,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-14,,BE,,274664,,,,,,1458,https://covid-kennzahlen.apps.be.ch/,9387,0,
 2022-02-14,,BL,,79191,,44,3,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-14,,GR,,64514,,31,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1779,0,
-2022-02-14,,JU,,25969,,22,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-14,,JU,,25972,,22,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-14,,LU,,123638,,50,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5344,,
 2022-02-14,,NE,,62390,,65,3,2,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-14,,NW,,13443,,1,0,,,34,http://www.nw.ch/coronastatistik,306,,
@@ -17711,7 +17711,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-14,,TI,,104799,,92,10,,,1115,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-14,,VS,,124360,,148,11,5,,781,https://www.vs.ch/de/web/coronavirus,,,
 2022-02-14,00:00,FL,,10741,,4,,,10294,75,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-14,00:00,GE,,179459,,517,8,,,865,https://infocovid.smc.unige.ch/,2189,,
+2022-02-14,00:00,GE,,179459,,517,8,,,865,https://infocovid.smc.unige.ch/,2357,,
 2022-02-14,00:00,OW,,12631,,4,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,771,0,0
 2022-02-14,00:00,UR,,11399,,4,,,,64,https://www.ur.ch/themen/2962,,0,
 2022-02-14,08:00,AG,,175079,,113,10,,147705,905,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17723,7 +17723,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-15,,BE,,276564,,226,26,13,,1458,https://covid-kennzahlen.apps.be.ch/,10256,0,
 2022-02-15,,BL,,79832,,42,2,,,274,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-15,,GR,,65210,,31,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1743,0,
-2022-02-15,,JU,,26099,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-02-15,,JU,,26102,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-15,,LU,,125034,,44,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5344,,
 2022-02-15,,NE,,62573,,56,4,2,,447,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-02-15,,NW,,13557,,1,0,,,34,http://www.nw.ch/coronastatistik,317,,
@@ -17732,7 +17732,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-15,,SO,,73316,,26,2,,,333,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-02-15,,TI,,105505,,93,10,,,1116,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-02-15,00:00,FL,,10822,,4,,,10379,75,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-02-15,00:00,GE,,179904,,524,9,,,865,https://infocovid.smc.unige.ch/,1753,,
+2022-02-15,00:00,GE,,179994,,524,9,,,865,https://infocovid.smc.unige.ch/,2095,,
 2022-02-15,00:00,OW,,12696,,4,,,,56,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,660,0,0
 2022-02-15,00:00,UR,,11443,,3,,,,64,https://www.ur.ch/themen/2962,,0,
 2022-02-15,08:00,AG,,176922,,108,11,,150525,905,https://www.ag.ch/media/kanton_aargau/themen_1/coronavirus_1/daten_excel/Covid-19-Daten_Kanton_Aargau.xlsx,,,
@@ -17745,11 +17745,13 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-16,,BE,,276638,,226,26,13,,1458,https://covid-kennzahlen.apps.be.ch/,,,
 2022-02-16,,BL,,,,42,5,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-02-16,,GR,,65803,,21,2,1,,243,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2083,0,
+2022-02-16,,JU,,26247,,19,2,,,185,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-16,,LU,,,,43,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,4939,,
 2022-02-16,,NW,,13659,,1,0,,,34,http://www.nw.ch/coronastatistik,339,,
 2022-02-16,,SG,,154806,,66,7,5,,833,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2022-02-16,,SO,,74059,,30,2,,,333,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-02-16,,TI,,106121,,86,8,,,1117,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2022-02-16,00:00,GE,,180348,,522,7,,,865,https://infocovid.smc.unige.ch/,,,
 2022-02-16,00:00,UR,,11543,,3,,,,66,https://www.ur.ch/themen/2962,,0,
 2022-02-16,08:00,ZG,,35106,,20,3,,,154,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-02-16,09:00,SZ,,50881,,,,,49580,349,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
