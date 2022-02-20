@@ -7575,7 +7575,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2020-12-26,,FR,,22997,,55,10,,683,400,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2020-12-26,,GL,,,,,3,,,,https://www.gl.ch/public/upload/assets/39495/Sentinella_Kw52.pdf?fp=1,272,54,26
 2020-12-26,,GR,,7756,,42,8,6,,134,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,675,762,
-2020-12-26,,JU,,4322,,30,1,,,82,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2020-12-26,,JU,,4320,,30,1,,,101,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2020-12-26,,LU,,15928,,,,,,222,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
 2020-12-26,,NE,,11350,,39,5,4,,315,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2020-12-26,,NW,,1345,,5,1,,,12,http://www.nw.ch/coronastatistik,103,112,13
@@ -12609,7 +12609,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2021-07-14,,FR,,32586,,3,0,,958,491,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
 2021-07-14,,GL,,2838,,0,0,,,78,https://docs.google.com/spreadsheets/d/1Q7VoxM6wvbdsC84DLWrzyNymkcxUKqIXHy6BpB2Ez0k/edit,21,14,0
 2021-07-14,,GR,,13731,,1,0,0,,192,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,73,110,
-2021-07-14,,JU,,7132,,0,0,,,130,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2021-07-14,,JU,,7128,,0,0,,,129,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2021-07-14,,LU,,29133,,9,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,148,132,33
 2021-07-14,,NE,,17528,,2,1,0,,404,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2021-07-14,,NW,,2750,,0,0,,,23,http://www.nw.ch/coronastatistik,11,6,2
@@ -17805,6 +17805,8 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-18,13:20,BS,,53556,,106,7,,51880,271,https://www.gesundheit.bs.ch,1405,0,
 2022-02-18,14:30,ZH,,431855,,231,51,31,,1696,https://www.zh.ch/de/gesundheit/coronavirus.html,9811,0,
 2022-02-19,,GR,,67096,,23,2,2,,246,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1582,0,
+2022-02-19,,JU,,26501,,21,2,,,188,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-02-19,,NW,,13950,,2,0,,,34,https://www.nw.ch/gesundheitsamtdienste/6044,246,,
+2022-02-19,00:00,FL,,11238,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-02-19,09:00,SZ,,52118,,,,,50802,355,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-19,11:00,BS,,53961,,,,,52301,271,https://www.gesundheit.bs.ch,1389,0,
