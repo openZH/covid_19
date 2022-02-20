@@ -17810,6 +17810,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-19,00:00,FL,,11238,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-02-19,09:00,SZ,,52118,,,,,50802,355,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-19,11:00,BS,,53961,,,,,52301,271,https://www.gesundheit.bs.ch,1389,0,
+2022-02-20,,GR,,67358,,26,3,2,,246,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1321,0,
 2022-02-20,,NW,,14003,,2,0,,,34,https://www.nw.ch/gesundheitsamtdienste/6044,225,,
 2022-02-20,09:00,SZ,,52412,,,,,50809,355,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-20,12:00,BS,,54229,,,,,52849,271,https://www.gesundheit.bs.ch,1109,0,
