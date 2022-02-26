@@ -17965,6 +17965,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-02-25,11:30,BS,,56422,,87,8,,54695,271,https://www.gesundheit.bs.ch,1456,0,
 2022-02-25,12:00,AI,,5434,,,,,,24,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,116,,
 2022-02-25,14:30,ZH,,449397,,208,41,27,,1706,https://www.zh.ch/de/gesundheit/coronavirus.html,8868,0,
+2022-02-26,,GR,,70820,,28,3,3,,248,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1705,0,
 2022-02-26,,NW,,14448,,3,0,,,35,https://www.nw.ch/gesundheitsamtdienste/6044,224,,
 2022-02-26,09:00,SZ,,54142,,,,,52927,356,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948,,,
 2022-02-26,11:50,BS,,56874,,,,,55220,271,https://www.gesundheit.bs.ch,1383,0,
