@@ -17968,6 +17968,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-02-26,,GR,,70820,28,3,3,,248,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson
 2022-02-26,,JU,,27037,8,0,,,187,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html
 2022-02-26,,NW,,14448,3,0,,,35,https://www.nw.ch/gesundheitsamtdienste/6044
+2022-02-26,00:00,FL,,11809,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx
 2022-02-26,00:00,GE,,184318,,,,,865,https://infocovid.smc.unige.ch/
 2022-02-26,09:00,SZ,,54142,,,,52927,356,https://www.sz.ch/behoerden/information-medien/medienmitteilungen/coronavirus.html/72-416-412-1379-6948
 2022-02-26,11:50,BS,,56874,,,,55220,271,https://www.gesundheit.bs.ch
