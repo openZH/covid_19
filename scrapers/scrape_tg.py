@@ -8,10 +8,10 @@ import scrape_common as sc
 # perma link to TG COVID dataset on opendata.swiss
 r = requests.get(
     'https://opendata.swiss/api/3/action/ogdch_dataset_by_identifier',
-    params={'identifier': 'gesundheit_04-2020_stat@kanton-thurgau'}
+    params={'identifier': 'dfs-ga-1@kanton-thurgau'}
 )
 dataset = r.json()['result']
-resource = next(r for r in dataset['resources'] if r['name']['de'] == 'COVID19 Fallzahlen Kanton Thurgau')
+resource = next(r for r in dataset['resources'] if r['mimetype'] == 'text/csv')
 
 assert resource['download_url'], "Download URL not found"
     
@@ -32,6 +32,6 @@ for row in reader:
     dd.hospitalized = row['current_hosp']
     dd.new_hosp = row['new_hosp']
     dd.recovered = row['ncumul_released']
-    dd.icu = row['current_ICU']
+    dd.icu = row['current_icu']
     dd.isolated = row['num_isolated']
     print(dd)
