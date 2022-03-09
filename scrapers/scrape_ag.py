@@ -53,7 +53,8 @@ for row in rows:
 
     dd = sc.DayData(canton='AG', url=xls_url)
     dd.datetime = f"{row['A'].date().isoformat()} {row['A'].time().isoformat()}"
-    dd.cases = row['Gesamtzahl']
+    if 'Gesamtzahl' in row:
+        dd.cases = row['Gesamtzahl']
 
     non_icu = row['Bestätigte Fälle Bettenstation (ohne IPS/IMC)']
     icu = row['Bestätigte Fälle Intensivpflegestation (IPS)']
@@ -62,8 +63,10 @@ for row in rows:
         dd.hospitalized = int(non_icu) + int(icu) + int(icf)
         dd.icu = icu
         dd.icf = icf
-    dd.deaths = row['Gesamtzahl21']
-    dd.recovered = row['Gesamtzahl25']
+    if 'Gesamtzahl21' in row:
+        dd.deaths = row['Gesamtzahl21']
+    if 'Gesamtzahl25' in row:
+        dd.recovered = row['Gesamtzahl25']
 
     if dd:
         if not is_first:
