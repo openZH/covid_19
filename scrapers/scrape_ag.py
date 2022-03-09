@@ -10,6 +10,7 @@ xls = sc.xlsdownload(xls_url, silent=True)
 is_first = True
 
 # quarantine_riskareatravel
+"""
 rows = sc.parse_xls(xls, sheet_name='5. Quarantäne nach Einreise', header_row=2)
 for row in rows:
     if not isinstance(row['A'], datetime.datetime):
@@ -24,6 +25,7 @@ for row in rows:
             print('-' * 10)
         is_first = False
         print(dd)
+"""
 
 # quarantine + isolation
 rows = sc.parse_xls(xls, sheet_name='2. Contact Tracing', header_row=2)
@@ -33,8 +35,10 @@ for row in rows:
 
     dd = sc.DayData(canton='AG', url=xls_url)
     dd.datetime = f"{row['A'].date().isoformat()} {row['A'].time().isoformat()}"
-    dd.isolated = row['Gesamtzahl aktuell betreuter Personen']
-    dd.quarantined = row['Gesamtzahl aktuell betreuter Personen5']
+    isolated = row['Gesamtzahl aktuell betreuter Personen']
+    if sc.represents_int(isolated):
+        dd.isolated = isolated
+    #dd.quarantined = row['Gesamtzahl aktuell betreuter Personen5']
     if dd:
         if not is_first:
             print('-' * 10)
