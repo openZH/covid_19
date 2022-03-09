@@ -35,8 +35,10 @@ for row in rows:
 
     dd = sc.DayData(canton='AG', url=xls_url)
     dd.datetime = f"{row['A'].date().isoformat()} {row['A'].time().isoformat()}"
-    dd.isolated = row['Gesamtzahl aktuell betreuter Personen']
-    dd.quarantined = row['Gesamtzahl aktuell betreuter Personen5']
+    isolated = row['Gesamtzahl aktuell betreuter Personen']
+    if sc.represents_int(isolated):
+        dd.isolated = isolated
+    #dd.quarantined = row['Gesamtzahl aktuell betreuter Personen5']
     if dd:
         if not is_first:
             print('-' * 10)
