@@ -100,7 +100,7 @@ if iframe and iframe['src']:
     # 2020-02-24 is the date of the earliest data from JU
     start_date = datetime.date(2020, 2, 24)
     while True:
-        end_date = start_date + datetime.timedelta(days=14)
+        end_date = start_date + datetime.timedelta(days=16)
         try:
             driver = load_with_selenium(iframe['src'], start_date, end_date)
 
