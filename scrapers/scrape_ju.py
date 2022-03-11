@@ -94,9 +94,6 @@ if iframe and iframe['src']:
     rows = []
     last_rows = {}
     
-    # scroll through Power BI table
-    # each time the table is scrolled, a new slice of data is loaded in the table
-    i = 0
     # 2020-02-24 is the date of the earliest data from JU
     start_date = datetime.date(2020, 2, 24)
     while True:
@@ -117,7 +114,6 @@ if iframe and iframe['src']:
             print("Error: %s" % e, file=sys.stderr)
             print(traceback.format_exc(), file=sys.stderr)
             break
-        i += 1
         start_date = end_date + + datetime.timedelta(days=1)
 
     if rows:
