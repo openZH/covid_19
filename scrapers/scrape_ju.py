@@ -27,6 +27,8 @@ def load_with_selenium(url, start_date, end_date):
     wait = WebDriverWait(driver, 10)
     wait.until(EC.presence_of_element_located((By.CLASS_NAME, "columnHeaders")))
     wait.until(EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'date-slicer-input')]")))
+
+    driver.find_element(By.XPATH, "//div[contains(@title, 'Date')]").click()
     
     # select the complete date range by setting 2020-02-24 as start date
     begin = driver.find_element(By.XPATH, "//input[contains(@class, 'date-slicer-input')]")
@@ -47,7 +49,6 @@ def load_with_selenium(url, start_date, end_date):
     begin.send_keys(Keys.ENTER)
 
     driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
-    driver.find_element(By.XPATH, "//div[contains(@title, 'Date')]").click()
     time.sleep(1)
     return driver
 
