@@ -4,6 +4,7 @@
 import re
 import sys
 import traceback
+import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -17,7 +18,7 @@ import pandas as pd
 import scrape_common as sc
 
 
-def load_with_selenium(url):
+def load_with_selenium(url, start_date, end_date):
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
@@ -33,10 +34,20 @@ def load_with_selenium(url):
     begin.send_keys(Keys.CONTROL + "a")
     begin.send_keys(Keys.DELETE)
     begin.clear()
-    begin.send_keys("2/24/2020") # 2020-02-24 is the date of the earliest data from JU
+    begin.send_keys(start_date.strftime('%m/%d/%Y')) # 2020-02-24 is the date of the earliest data from JU
     begin.send_keys(Keys.ENTER)
+
+    # set end date
+    begin = driver.find_element(By.XPATH, "//input[contains(@aria-label, 'End date')]")
+    begin.click()
+    begin.send_keys(Keys.CONTROL + "a")
+    begin.send_keys(Keys.DELETE)
+    begin.clear()
+    begin.send_keys(end_date.strftime('%m/%d/%Y'))
+    begin.send_keys(Keys.ENTER)
+
     driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
-    time.sleep(5)
+    time.sleep(1)
     return driver
 
 def scrape_page_part(html):
@@ -85,12 +96,12 @@ if iframe and iframe['src']:
     # scroll through Power BI table
     # each time the table is scrolled, a new slice of data is loaded in the table
     i = 0
+    # 2020-02-24 is the date of the earliest data from JU
+    start_date = datetime.date(2020, 2, 24)
     while True:
+        end_date = start_date + datetime.timedelta(days=14)
         try:
-            driver = load_with_selenium(iframe['src'])
-            scroll = driver.find_elements(By.XPATH, "//div[contains(@class, 'scroll-bar-part-bar')]")[1]
-            action = ActionChains(driver)
-            action.drag_and_drop_by_offset(scroll, 0, i * 20).perform()
+            driver = load_with_selenium(iframe['src'], start_date, end_date)
 
             current_rows = scrape_page_part(driver.page_source)
             driver.quit()
@@ -99,12 +110,14 @@ if iframe and iframe['src']:
                 break
             rows.extend(current_rows)
             last_rows = current_rows
-            time.sleep(2)
+            if end_date > datetime.datetime.now().date():
+                break;
         except Exception as e:
             print("Error: %s" % e, file=sys.stderr)
             print(traceback.format_exc(), file=sys.stderr)
             break
         i += 1
+        start_date = end_date + + datetime.timedelta(days=1)
 
     if rows:
         for i, row in enumerate(rows):
