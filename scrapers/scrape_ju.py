@@ -47,6 +47,7 @@ def load_with_selenium(url, start_date, end_date):
     begin.send_keys(Keys.ENTER)
 
     driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
+    driver.find_element(By.XPATH, "//div[contains(@title, 'Date')]").click()
     time.sleep(1)
     return driver
 
