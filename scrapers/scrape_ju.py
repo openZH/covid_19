@@ -29,14 +29,14 @@ def load_with_selenium(url, start_date, end_date):
     wait.until(EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'date-slicer-input')]")))
 
     driver.find_element(By.XPATH, "//div[contains(@title, 'Date')]").click()
-    
-    # select the complete date range by setting 2020-02-24 as start date
+
+    # set start date
     begin = driver.find_element(By.XPATH, "//input[contains(@class, 'date-slicer-input')]")
     begin.click()
     begin.send_keys(Keys.CONTROL + "a")
     begin.send_keys(Keys.DELETE)
     begin.clear()
-    begin.send_keys(start_date.strftime('%m/%d/%Y')) # 2020-02-24 is the date of the earliest data from JU
+    begin.send_keys(start_date.strftime('%m/%d/%Y'))
     begin.send_keys(Keys.ENTER)
 
     # set end date
