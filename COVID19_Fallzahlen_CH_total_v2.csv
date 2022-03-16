@@ -18367,6 +18367,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-15,14:30,ZH,,524936,,316,52,33,,1733,https://www.zh.ch/de/gesundheit/coronavirus.html,16236,0,
 2022-03-16,,BE,,358524,,288,19,11,,1491,https://covid-kennzahlen.apps.be.ch/,,,
 2022-03-16,,BL,,,,50,4,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
+2022-03-16,,GR,,83076,,29,3,3,,251,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,2291,0,
 2022-03-16,,LU,,,,92,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,5994,,
 2022-03-16,,NW,,16980,,9,1,,,36,http://www.nw.ch/coronastatistik,558,,
 2022-03-16,,SO,,99309,,51,6,,,348,https://corona.so.ch/bevoelkerung/daten/,,,
