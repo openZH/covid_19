@@ -63,7 +63,9 @@ elem.click()
 # get quarantine xls
 elem = driver.find_element_by_link_text('Cas et quarantaines')
 elem.click()
-quarantine_xls_url = sgc.get_link_from_element(driver, 'download_table_cas')
+elem = driver.find_element_by_id('dropdown_download_table')
+elem.click()
+quarantine_xls_url = sgc.get_link_from_element(driver, 'download_table_cas_xlsx')
 assert quarantine_xls_url, "Couldn't find quarantine XLS url"
 
 xls = sc.xlsdownload(quarantine_xls_url, silent=True)
@@ -89,6 +91,8 @@ for row in rows:
 
 # get cases xls
 elem = driver.find_element_by_link_text('Indicateurs principaux')
+elem.click()
+elem = driver.find_element_by_id('dropdown_download_table')
 elem.click()
 case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs')
 assert case_xls_url, "Couldn't find cases XLS url"
