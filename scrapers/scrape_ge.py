@@ -92,9 +92,10 @@ for row in rows:
 # get cases xls
 elem = driver.find_element_by_link_text('Indicateurs principaux')
 elem.click()
-elem = driver.find_element_by_id('dropdown_download_table')
+elem = driver.find_elements_by_id('dropdown_download_table')
+elem = elem[-1]
 elem.click()
-case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs')
+case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs_xlsx')
 assert case_xls_url, "Couldn't find cases XLS url"
 
 xls = sc.xlsdownload(case_xls_url, silent=True)
