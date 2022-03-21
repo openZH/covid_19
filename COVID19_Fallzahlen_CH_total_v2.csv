@@ -18427,7 +18427,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-18,00:00,FL,,15243,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-18,00:00,GE,,195035,,427,1,,,995,https://infocovid.smc.unige.ch/,3263,,
 2022-03-18,00:00,OW,,15880,,9,,,,60,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,584,0,0
-2022-03-18,08:00,ZG,,44958,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2022-03-18,08:00,ZG,,44958,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1504,0,0
 2022-03-18,10:00,TG,,109232,11,52,3,,2308,629,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,3352,,
 2022-03-18,12:00,AI,,6312,,,,,,24,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,81,,
 2022-03-18,13:20,BS,,69811,,138,12,,66737,275,https://www.gesundheit.bs.ch,2799,0,
@@ -18440,7 +18440,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-19,,SH,,28923,,,,,,115,https://coviddashboard.sh.ch/,1159,0,0
 2022-03-19,00:00,FL,,15312,,,,,,,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-19,00:00,GE,,195544,,414,2,,,995,https://infocovid.smc.unige.ch/,2753,,
-2022-03-19,08:00,ZG,,45362,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2022-03-19,08:00,ZG,,45362,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1617,0,0
 2022-03-19,10:00,TG,,109717,2,49,3,,2313,629,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2893,,
 2022-03-19,11:10,BS,,70853,,,,,67926,275,https://www.gesundheit.bs.ch,2652,0,
 2022-03-20,,FR,,134185,,69,7,,1877,563,https://www.fr.ch/de/gesundheit/covid-19/coronavirus-statistik-ueber-die-entwicklung-im-kanton,,,
@@ -18451,10 +18451,11 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-20,,SH,,29091,,16,3,,,115,https://coviddashboard.sh.ch/,1000,0,0
 2022-03-20,00:00,FL,,15458,,5,,,14807,83,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-20,00:00,GE,,195832,,416,1,,,995,https://infocovid.smc.unige.ch/,2050,,
-2022-03-20,08:00,ZG,,45578,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2022-03-20,08:00,ZG,,45578,,30,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1589,0,0
 2022-03-20,10:00,TG,,109928,5,53,3,,2314,629,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2384,,
 2022-03-20,12:30,BS,,71441,,,,,68941,275,https://www.gesundheit.bs.ch,2225,0,
 2022-03-21,,GE,,,,,,,,,https://infocovid.smc.unige.ch/,1389,,
+2022-03-21,,SO,,104760,,61,6,,,349,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-03-21,,TI,,132682,,132,9,,,1144,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-03-21,00:00,OW,,16097,,9,,,,60,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,562,0,0
 2022-03-21,08:00,ZG,,45810,,33,3,,,160,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
