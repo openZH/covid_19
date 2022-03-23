@@ -18486,7 +18486,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-21,00:00,FL,,15497,,4,,,14912,83,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-21,00:00,GE,,196419,,449,2,,,995,https://infocovid.smc.unige.ch/,1816,,
 2022-03-21,00:00,OW,,16097,,9,,,,61,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,562,0,0
-2022-03-21,08:00,ZG,,45810,,33,3,,,160,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
+2022-03-21,08:00,ZG,,45810,,33,3,,,160,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1087,0,0
 2022-03-21,10:00,TG,,111327,11,65,4,,2328,631,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2024,,
 2022-03-21,12:30,BS,,71802,,154,15,,69777,275,https://www.gesundheit.bs.ch,1750,0,
 2022-03-21,15:00,UR,,14879,,5,,,,68,https://www.ur.ch/themen/2962,,,
@@ -18501,6 +18501,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-22,,TI,,133750,,128,10,,,1145,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
 2022-03-22,00:00,FL,,15649,,9,,,15081,83,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-22,00:00,OW,,16124,,2,,,,61,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,443,0,0
+2022-03-22,08:00,ZG,,46178,,35,3,,,161,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1223,0,
 2022-03-22,10:00,TG,,111817,5,56,3,,2342,631,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2331,,
 2022-03-22,12:00,AI,,6392,,,,,,24,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,45,,
 2022-03-22,13:50,BS,,72884,,153,13,,70551,275,https://www.gesundheit.bs.ch,2058,0,
@@ -18508,6 +18509,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-23,,LU,,,,89,,5,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,3863,,
 2022-03-23,,SO,,106623,,66,7,,,350,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-03-23,,TI,,135027,,119,8,,,1147,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github.xlsx,,,
+2022-03-23,08:00,ZG,,46529,,31,2,,,161,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-03-23,10:00,TG,,111828,0,56,3,,2342,631,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-03-23,12:00,AI,,6440,,,,,,24,https://www.ai.ch/themen/gesundheit-alter-und-soziales/gesundheitsfoerderung-und-praevention/uebertragbare-krankheiten/coronavirus,63,,
 2022-03-23,15:00,UR,,15049,,6,,,,68,https://www.ur.ch/themen/2962,,,
