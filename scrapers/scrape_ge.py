@@ -72,7 +72,7 @@ assert xls_url, "Couldn't find XLS url"
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
-    date = sc.date_from_text(row['Date'])
+    date = row['Date']
     if date < datetime.date(2020, 1, 1):
         # skip entries from before 2020
         continue
