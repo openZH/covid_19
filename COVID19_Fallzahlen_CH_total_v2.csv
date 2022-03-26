@@ -18341,7 +18341,6 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-14,00:00,FL,,14424,,7,,,13780,79,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-03-14,00:00,GE,,191724,,439,2,,,995,https://infocovid.smc.unige.ch/,2772,,
 2022-03-14,00:00,OW,,15410,,9,,,,60,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,772,0,0
-2022-03-14,00:00,UR,,13197,,7,,,,66,https://www.ur.ch/themen/2962,,,
 2022-03-14,08:00,AG,,,,149,6,,,,https://www.ag.ch/media/kanton-aargau/themen/coronavirus/aktuelle-lage-und-fallzahlen/daten-excel/covid-19-daten-kanton-aargau.xlsx,,,
 2022-03-14,08:00,ZG,,42839,,24,3,,,159,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,1089,0,0
 2022-03-14,10:00,TG,,105037,13,61,3,,2266,626,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,2452,,
@@ -18499,7 +18498,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-22,,BE,,382585,,288,19,11,,1504,https://covid-kennzahlen.apps.be.ch/,12636,0,
 2022-03-22,,BL,,113972,,52,5,,,286,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-03-22,,GR,,86245,,30,1,1,,251,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1755,0,
-2022-03-22,,JU,,29919,,27,1,,,207,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-03-22,,JU,,29919,,26,1,,,207,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-03-22,,LU,,170821,,90,,4,,461,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,3883,,
 2022-03-22,,NE,,71842,,34,1,1,,457,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-03-22,,NW,,17466,,8,2,,,36,http://www.nw.ch/coronastatistik,292,,
@@ -18561,7 +18560,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-03-25,,BE,,386518,,261,25,17,,1505,https://covid-kennzahlen.apps.be.ch/,,,
 2022-03-25,,BL,,,,38,2,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-03-25,,GR,,87500,,31,1,1,,254,https://services1.arcgis.com/YAuo6vcW85VPu7OE/arcgis/rest/services/Fallzahlen_Total_Kanton/FeatureServer/0/query?where=1%3D1&objectIds=&time=&resultType=none&outFields=*&returnHiddenFields=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Eingangs_Datum&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&sqlFormat=standard&f=pjson,1376,0,
-2022-03-25,,JU,,30154,,26,1,,,207,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
+2022-03-25,,JU,,30154,,25,1,,,207,https://www.jura.ch/fr/Autorites/Coronavirus/Infos-Actualites/Statistique-COVID/Evolution-des-cas-COVID-19-dans-le-Jura.html,,,
 2022-03-25,,LU,,,,79,,4,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,3568,,
 2022-03-25,,NW,,17764,,4,2,,,36,http://www.nw.ch/coronastatistik,253,,
 2022-03-25,,SO,,108182,,62,8,,,351,https://corona.so.ch/bevoelkerung/daten/,,,
