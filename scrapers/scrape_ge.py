@@ -73,7 +73,7 @@ xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     date = row['Date']
-    if date < datetime.date(2020, 1, 1):
+    if date < datetime.datetime(2020, 1, 1):
         # skip entries from before 2020
         continue
 
