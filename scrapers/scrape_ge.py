@@ -60,15 +60,16 @@ driver.get(url)
 elem = driver.find_element_by_link_text('Tables')
 elem.click()
 
-# get quarantine xls
-elem = driver.find_element_by_link_text('Cas et quarantaines')
+# get hospitalized xls
+elem = driver.find_element_by_link_text('Hospitalisations')
 elem.click()
-elem = driver.find_element_by_id('dropdown_download_table')
+elem = driver.find_elements_by_id('dropdown_download_table')
+elem = elem[-1]
 elem.click()
-quarantine_xls_url = sgc.get_link_from_element(driver, 'download_table_cas_xlsx')
-assert quarantine_xls_url, "Couldn't find quarantine XLS url"
+xls_url = sgc.get_link_from_element(driver, 'download_table_hospit_xlsx')
+assert xls_url, "Couldn't find XLS url"
 
-xls = sc.xlsdownload(quarantine_xls_url, silent=True)
+xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     date = sc.date_from_text(row['Date'])
@@ -78,9 +79,11 @@ for row in rows:
 
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
-    dd.isolated = row['Isolement déjà en cours']
-    #dd.quarantined = row['Quarantaines en cours suite\nà un contact étroit']
-    #dd.quarantine_riskareatravel = row['Quarantaines en cours au retour de zone à risque']
+    current_hosp = row['Total hospitalisations COVID-19 actifs (en cours)']
+    if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
+        dd.hospitalized = current_hosp
+    dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
+    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
 
     if dd:
         if not is_first:
@@ -90,15 +93,15 @@ for row in rows:
 
 
 # get cases xls
-elem = driver.find_element_by_link_text('Indicateurs principaux')
+elem = driver.find_element_by_link_text('Cas et décès')
 elem.click()
 elem = driver.find_elements_by_id('dropdown_download_table')
-elem = elem[-1]
+elem = elem[0]
 elem.click()
-case_xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs_xlsx')
-assert case_xls_url, "Couldn't find cases XLS url"
+xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs_xlsx')
+assert xls_url, "Couldn't find XLS url"
 
-xls = sc.xlsdownload(case_xls_url, silent=True)
+xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
     date = row['Date']
@@ -109,11 +112,6 @@ for row in rows:
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
     dd.cases = row['Cumul cas COVID-19 (GE)']
-    current_hosp = row['Total hospitalisations COVID-19 actifs (en cours)']
-    if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
-        dd.hospitalized = current_hosp
-    dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
-    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
     dd.deaths = row['Cumul décès COVID-19 ']
     if dd:
         if not is_first:
