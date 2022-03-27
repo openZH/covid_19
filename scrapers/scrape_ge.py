@@ -98,7 +98,7 @@ elem.click()
 elem = driver.find_elements_by_id('dropdown_download_table')
 elem = elem[0]
 elem.click()
-xls_url = sgc.get_link_from_element(driver, 'download_table_indicateurs_xlsx')
+xls_url = sgc.get_link_from_element(driver, 'download_table_cas_deces_xlsx')
 assert xls_url, "Couldn't find XLS url"
 
 xls = sc.xlsdownload(xls_url, silent=True)
