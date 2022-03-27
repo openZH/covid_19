@@ -112,7 +112,8 @@ for row in rows:
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
     dd.cases = row['Cumul cas COVID-19 (GE)']
-    dd.deaths = row['Cumul décès COVID-19 ']
+    # death values seem to be sorted in the wrong order
+    # dd.deaths = row['Cumul décès COVID-19 ']
     if dd:
         if not is_first:
             print('-' * 10)
