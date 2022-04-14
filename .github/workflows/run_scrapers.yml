@@ -73,6 +73,9 @@ jobs:
       run: |
         ./scrapers/run_scraper.sh
         
+    - name: Mark this repo as safe
+      run: git config --global --add safe.directory /github/workspace
+        
     - name: Check if there are changes in the repo
       id: changes
       uses: UnicornGlobal/has-changes-action@v1.0.11
