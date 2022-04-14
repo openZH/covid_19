@@ -111,7 +111,7 @@ The latest updates are visualized [here](https://www.web.statistik.zh.ch/covid19
 |[VD](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VD_total.csv)|![Last update on 2022-03-27](https://placehold.jp/de77ae/000000/200x50.png?text=2022-03-27 'Last update on 2022-03-27')||
 |[VS](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_VS_total.csv)|![Last update on 2022-04-03](https://placehold.jp/de77ae/000000/200x50.png?text=2022-04-03 'Last update on 2022-04-03')||
 |[ZG](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZG_total.csv)|![Last update on 2022-04-11](https://placehold.jp/de77ae/000000/200x50.png?text=2022-04-11 'Last update on 2022-04-11')||
-|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2022-04-06](https://placehold.jp/de77ae/000000/200x50.png?text=2022-04-06 'Last update on 2022-04-06')|Since 2022-03-14 ZH is updating data only once per week (on Wednesdays).|
+|[ZH](https://github.com/openZH/covid_19/blob/master/fallzahlen_kanton_total_csv_v2/COVID19_Fallzahlen_Kanton_ZH_total.csv)|![Last update on 2022-04-13](https://placehold.jp/de77ae/000000/200x50.png?text=2022-04-13 'Last update on 2022-04-13')|Since 2022-03-14 ZH is updating data only once per week (on Wednesdays).|
 
 ## Swiss Cantons and Principality of Liechtenstein: More detailed dataset 
 
