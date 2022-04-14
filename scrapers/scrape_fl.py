@@ -53,7 +53,7 @@ if bulletin:
 # get the data from XLS file containing full history
 history_url='https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx'
 xls = sc.xlsdownload(history_url, silent=True)
-rows = sc.parse_xls(xls, header_row=2)
+rows = sc.parse_xls(xls, header_row=4)
 for row in rows:
     dd_full_list = sc.DayData(canton='FL', url=history_url)
     if isinstance(row['Datenstand'], datetime.datetime):
