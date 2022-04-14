@@ -73,12 +73,15 @@ jobs:
       run: |
         ./scrapers/run_scraper.sh
         
-    - name: Mark this repo as safe
-      run: git config --global --add safe.directory /github/workspace
-        
     - name: Check if there are changes in the repo
+      run: |
+        if git diff -w --no-ext-diff --quiet
+        then
+          echo '::set-output name=changed::0'
+        else
+          echo '::set-output name=changed::1'
+        fi
       id: changes
-      uses: UnicornGlobal/has-changes-action@v1.0.11
   
     - name: Set commit message
       env:
@@ -96,7 +99,7 @@ jobs:
       
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
-      uses: github-actions-x/commit@v2.6
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: master
@@ -160,13 +163,19 @@ jobs:
         ./scripts/new2oldcsv.py COVID19_Fallzahlen_CH_total_v2.csv > COVID19_Fallzahlen_CH_total.csv
 
     - name: Check if there are changes in the repo
+      run: |
+        if git diff -w --no-ext-diff --quiet
+        then
+          echo '::set-output name=changed::0'
+        else
+          echo '::set-output name=changed::1'
+        fi
       id: changes
-      uses: UnicornGlobal/has-changes-action@v1.0.11
 
     # Commit to repo with updated file
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
-      uses: github-actions-x/commit@v2.6
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: master
@@ -188,13 +197,19 @@ jobs:
       run: ./scripts/update_dates_in_readme.sh
 
     - name: Check if there are changes in the repo
+      run: |
+        if git diff -w --no-ext-diff --quiet
+        then
+          echo '::set-output name=changed::0'
+        else
+          echo '::set-output name=changed::1'
+        fi
       id: changes
-      uses: UnicornGlobal/has-changes-action@v1.0.11
 
     # Commit to repo with updated file
     - name: Commit and push to repo
       if: steps.changes.outputs.changed == 1 # only try to commit if there are actually changes
-      uses: github-actions-x/commit@v2.6
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: master
