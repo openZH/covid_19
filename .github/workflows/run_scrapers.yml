@@ -14,8 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         canton:
-          - AG
-          - AI
+          #- AG
+          #- AI # currently no data available
           - AR
           - BE
           - BL
