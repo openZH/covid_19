@@ -31,7 +31,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2011,Arbon,TG,,49,2020,57202,,294,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,50,2020,57202,,280,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,51,2020,57202,,283,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2011,Arbon,TG,,52,2020,57202,,181,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2011,Arbon,TG,,52,2020,57202,,180,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,53,2020,57202,,201,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,1,2021,58199,,222,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,2,2021,58199,,99,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
@@ -101,7 +101,8 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2011,Arbon,TG,,14,2022,58831,,225,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,15,2022,58831,,122,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,16,2022,58831,,111,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2011,Arbon,TG,,17,2022,58831,,96,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2011,Arbon,TG,,17,2022,58831,,101,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2011,Arbon,TG,,18,2022,58831,,12,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2011,Arbon,TG,,52,2022,58199,,102,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
 2012,Frauenfeld,TG,,11,2020,68828,,1,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2012,Frauenfeld,TG,,12,2020,68828,,19,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
@@ -207,7 +208,8 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2012,Frauenfeld,TG,,14,2022,70173,,343,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2012,Frauenfeld,TG,,15,2022,70173,,244,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2012,Frauenfeld,TG,,16,2022,70173,,191,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2012,Frauenfeld,TG,,17,2022,70173,,155,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2012,Frauenfeld,TG,,17,2022,70173,,161,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2012,Frauenfeld,TG,,18,2022,70173,,10,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2012,Frauenfeld,TG,,52,2022,69513,,130,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
 2013,Kreuzlingen,TG,,10,2020,48965,,1,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,11,2020,48965,,1,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
@@ -243,7 +245,7 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2013,Kreuzlingen,TG,,49,2020,48965,,137,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,50,2020,48965,,203,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,51,2020,48965,,235,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2013,Kreuzlingen,TG,,52,2020,48965,,152,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2013,Kreuzlingen,TG,,52,2020,48965,,153,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,53,2020,48965,,101,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,1,2021,49687,,106,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,2,2021,49687,,72,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
@@ -307,13 +309,14 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2013,Kreuzlingen,TG,,8,2022,70173,,798,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,9,2022,70173,,1105,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,10,2022,70173,,1310,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2013,Kreuzlingen,TG,,11,2022,70173,,1118,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2013,Kreuzlingen,TG,,11,2022,70173,,1119,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,12,2022,70173,,824,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,13,2022,70173,,429,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,14,2022,70173,,188,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,15,2022,70173,,141,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,16,2022,70173,,117,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2013,Kreuzlingen,TG,,17,2022,70173,,100,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2013,Kreuzlingen,TG,,17,2022,70173,,101,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2013,Kreuzlingen,TG,,18,2022,70173,,21,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2013,Kreuzlingen,TG,,52,2022,49687,,81,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
 2014,"MÃ¼nchwilen",TG,,11,2020,47508,,3,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,12,2020,47508,,13,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
@@ -415,13 +418,14 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2014,"MÃ¼nchwilen",TG,,8,2022,48734,,807,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,9,2022,48734,,1252,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,10,2022,48734,,1367,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2014,"MÃ¼nchwilen",TG,,11,2022,48734,,1133,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2014,"MÃ¼nchwilen",TG,,11,2022,48734,,1134,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,12,2022,48734,,700,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,13,2022,48734,,302,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,14,2022,48734,,208,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,15,2022,48734,,150,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"MÃ¼nchwilen",TG,,16,2022,48734,,112,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
-2014,"MÃ¼nchwilen",TG,,17,2022,48734,,70,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2014,"MÃ¼nchwilen",TG,,17,2022,48734,,75,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2014,"MÃ¼nchwilen",TG,,18,2022,48734,,7,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2014,"Münchwilen",TG,,11,2020,47508,,3,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
 2014,"Münchwilen",TG,,12,2020,47508,,13,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
 2014,"Münchwilen",TG,,13,2020,47508,,9,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
@@ -632,4 +636,5 @@ DistrictId,District,Canton,Date,Week,Year,Population,TotalConfCases,NewConfCases
 2015,Weinfelden,TG,,15,2022,57094,,141,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2015,Weinfelden,TG,,16,2022,57094,,119,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2015,Weinfelden,TG,,17,2022,57094,,94,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
+2015,Weinfelden,TG,,18,2022,57094,,10,,,https://data.tg.ch/api/v2/catalog/datasets/dfs-ga-3/exports/csv
 2015,Weinfelden,TG,,52,2022,56499,,81,,,https://statistik.tg.ch/public/upload/assets/104022/COVID19_Fallzahlen_Kanton_TG_Bezirke.csv
