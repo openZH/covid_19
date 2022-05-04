@@ -88,7 +88,7 @@ def parse_weekly_pdf():
     pdf = sc.pdfdownload(pdf_url, silent=True)
 
     dd = sc.DayData(canton='VD', url=pdf_url)
-    dd.datetime = sc.find('Situation\s+au\s+(\d+\s+\w+\s+\d{4})', pdf)
+    dd.datetime = sc.find('Situation\s+au\s+(\d+.*\s+\d{4})', pdf)
     dd.datetime = dd.datetime.replace('\n', ' ')
     if dd.datetime is None:
         dd.datetime = sc.find('Point .pid.miologique au (\d+\.\d+\.\d{4})', pdf)
