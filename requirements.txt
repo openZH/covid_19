@@ -4,4 +4,4 @@ dateparser
 xlrd==1.2.0
 pytest
 pandas
-selenium
+selenium==4.1.3
