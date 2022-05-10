@@ -37,18 +37,15 @@ def load_with_selenium(url, start_date, end_date):
     begin.send_keys(Keys.DELETE)
     begin.clear()
     begin.send_keys(start_date.strftime('%m/%d/%Y'))
-    begin.send_keys(Keys.ENTER)
+    begin.send_keys(Keys.TAB)
 
     # set end date
-    begin = driver.find_element(By.XPATH, "//input[contains(@aria-label, 'End date')]")
-    begin.click()
     begin.send_keys(Keys.CONTROL + "a")
     begin.send_keys(Keys.DELETE)
     begin.clear()
     begin.send_keys(end_date.strftime('%m/%d/%Y'))
-    begin.send_keys(Keys.ENTER)
+    begin.send_keys(Keys.TAB)
 
-    driver.find_element(By.XPATH, "//div[contains(@class, 'slicer-header')]").click()
     time.sleep(1)
     return driver
 
