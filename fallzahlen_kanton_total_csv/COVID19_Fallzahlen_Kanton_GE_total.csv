@@ -835,7 +835,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-05-14,00:00,GE,,212719,260,2,,,,https://infocovid.smc.unige.ch/,,1
 2022-05-15,00:00,GE,,212755,258,3,,,,https://infocovid.smc.unige.ch/,,1
 2022-05-16,00:00,GE,,212873,274,2,,,,https://infocovid.smc.unige.ch/,,1
-2022-05-17,00:00,GE,,212984,208,,,,,https://infocovid.smc.unige.ch/,,
+2022-05-17,00:00,GE,,212984,208,0,,,,https://infocovid.smc.unige.ch/,,0
 2022-05-18,00:00,GE,,213082,199,,,,,https://infocovid.smc.unige.ch/,,
 2022-05-19,00:00,GE,,213183,193,,,,,https://infocovid.smc.unige.ch/,,
 2022-05-20,00:00,GE,,213253,246,0,,,,https://infocovid.smc.unige.ch/,,1
@@ -859,9 +859,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-06-07,00:00,GE,,214873,208,1,,,,https://infocovid.smc.unige.ch/,,4
 2022-06-08,00:00,GE,,215036,195,2,,,,https://infocovid.smc.unige.ch/,,4
 2022-06-09,00:00,GE,,215178,192,2,,,,https://infocovid.smc.unige.ch/,,2
-2022-06-10,00:00,GE,,215308,42,2,,,,https://infocovid.smc.unige.ch/,,1
-2022-06-11,00:00,GE,,215440,45,3,,,,https://infocovid.smc.unige.ch/,,2
-2022-06-12,00:00,GE,,215487,44,2,,,,https://infocovid.smc.unige.ch/,,2
-2022-06-13,00:00,GE,,215757,49,1,,,,https://infocovid.smc.unige.ch/,,3
-2022-06-14,00:00,GE,,215947,51,0,,,,https://infocovid.smc.unige.ch/,,3
-2022-06-15,00:00,GE,,215952,44,0,,,,https://infocovid.smc.unige.ch/,,4
+2022-06-10,00:00,GE,,215308,191,2,,,,https://infocovid.smc.unige.ch/,,1
+2022-06-11,00:00,GE,,215440,181,3,,,,https://infocovid.smc.unige.ch/,,2
+2022-06-12,00:00,GE,,215487,178,2,,,,https://infocovid.smc.unige.ch/,,2
+2022-06-13,00:00,GE,,215757,192,1,,,,https://infocovid.smc.unige.ch/,,3
+2022-06-14,00:00,GE,,215997,194,0,,,,https://infocovid.smc.unige.ch/,,3
+2022-06-15,00:00,GE,,216242,189,0,,,,https://infocovid.smc.unige.ch/,,4
