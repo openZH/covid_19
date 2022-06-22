@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel
 2020-02-01,00:00,GE,109,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-02,00:00,GE,115,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-03,00:00,GE,136,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
@@ -19972,6 +19972,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-16,00:00,FL,,17681,,3,,,17525,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-16,00:00,GE,,216547,,187,0,,,,https://infocovid.smc.unige.ch/,,,
 2022-06-16,00:00,OW,,17163,,0,,,,61,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
+2022-06-16,08:00,ZG,,51389,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-16,10:00,TG,,121766,2,12,1,,2696,691,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-06-16,15:00,BS,,85128,,45,2,,84474,288,https://www.gesundheit.bs.ch,366,0,
 2022-06-17,,BL,,128469,,15,1,,,299,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -19985,6 +19986,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-17,,TI,,151318,,40,0,,,1194,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-06-17,00:00,FL,,17689,,3,,,17534,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-17,00:00,GE,,216794,,51,0,,,,https://infocovid.smc.unige.ch/,,,
+2022-06-17,08:00,ZG,,51433,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-17,10:00,TG,,121861,3,12,1,,2699,691,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-06-17,12:00,BS,,85247,,44,1,,84518,288,https://www.gesundheit.bs.ch,441,0,
 2022-06-18,,BL,,128580,,16,1,,,299,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -19996,6 +19998,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-18,,SH,,32984,,,,,,133,https://coviddashboard.sh.ch/,0,0,0
 2022-06-18,00:00,FL,,17705,,3,,,17549,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-18,00:00,GE,,216970,,45,0,,,,https://infocovid.smc.unige.ch/,,,
+2022-06-18,08:00,ZG,,51470,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-18,10:00,TG,,121914,2,14,2,,2699,691,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-06-19,,BL,,128661,,16,1,,,299,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-06-19,,BS,,0,,43,0,,0,0,https://www.gesundheit.bs.ch,0,0,
@@ -20007,6 +20010,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-19,,VD,,,,89,2,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220619_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-06-19,00:00,FL,,17706,,3,,,17556,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-19,00:00,GE,,217039,,53,0,,,,https://infocovid.smc.unige.ch/,,,
+2022-06-19,08:00,ZG,,51534,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-19,10:00,TG,,121936,1,15,2,,2699,691,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-06-20,,BL,,128806,,12,1,,,299,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-06-20,,LU,,182261,,,,,,,https://www.lustat.ch/files_ftp/daten/covid/web/w142_200t_kt0003_zz_d_0000.xlsx,,,
@@ -20018,6 +20022,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-20,,TI,,151690,,42,0,,,1194,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-06-20,00:00,FL,,17738,,2,,,17571,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-20,00:00,GE,,217455,,58,0,,,,https://infocovid.smc.unige.ch/,,,
+2022-06-20,08:00,ZG,,51562,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-20,10:00,TG,,121936,0,15,2,,2699,691,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-06-20,12:00,BS,,85482,,45,0,,84856,288,https://www.gesundheit.bs.ch,338,0,
 2022-06-21,,BL,,,,12,1,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
@@ -20028,7 +20033,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-21,,TI,,151924,,47,1,,,1194,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-06-21,00:00,FL,,17774,,3,,,17585,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-21,00:00,GE,,217854,,74,2,,,,https://infocovid.smc.unige.ch/,,,
+2022-06-21,08:00,ZG,,51594,,8,0,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-21,12:00,BS,,85524,,,,,84978,288,https://www.gesundheit.bs.ch,258,0,
 2022-06-22,,NW,,18769,,1,0,,,36,http://www.nw.ch/coronastatistik,,,
 2022-06-22,,SO,,117569,,13,1,,,367,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-06-22,,TI,,152209,,54,1,,,1194,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
+2022-06-22,08:00,ZG,,51673,,8,1,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
