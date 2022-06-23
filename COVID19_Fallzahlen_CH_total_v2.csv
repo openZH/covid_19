@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
 2020-02-01,00:00,GE,109,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-02,00:00,GE,115,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-03,00:00,GE,136,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
@@ -20044,6 +20044,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-22,,NW,,18769,,1,0,,,36,http://www.nw.ch/coronastatistik,,,
 2022-06-22,,SO,,117569,,13,1,,,367,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-06-22,,TI,,152209,,54,1,,,1194,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
+2022-06-22,00:00,FL,,17779,,3,,,17593,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-22,00:00,GE,,217939,,541,1,,,,https://infocovid.smc.unige.ch/,,,
 2022-06-22,08:00,ZG,,51673,,8,1,,,170,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-06-22,12:00,BS,,85684,,55,2,,85065,289,https://www.gesundheit.bs.ch,330,0,
