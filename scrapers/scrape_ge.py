@@ -6,6 +6,7 @@ import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 import scrape_common as sc
 import scrape_ge_common as sgc
 
@@ -57,13 +58,13 @@ driver.implicitly_wait(5)
 
 url = 'https://infocovid.smc.unige.ch/'
 driver.get(url)
-elem = driver.find_element_by_link_text('Tables')
+elem = driver.find_element(By.LINK_TEXT, 'Tables')
 elem.click()
 
 # get hospitalized xls
-elem = driver.find_element_by_link_text('Hospitalisations')
+elem = driver.find_element(By.LINK_TEXT, 'Hospitalisations')
 elem.click()
-elem = driver.find_elements_by_id('dropdown_download_table')
+elem = driver.find_elements(By.ID, 'dropdown_download_table')
 elem = elem[-1]
 elem.click()
 xls_url = sgc.get_link_from_element(driver, 'download_table_hospit_xlsx')
@@ -93,9 +94,9 @@ for row in rows:
 
 
 # get cases xls
-elem = driver.find_element_by_link_text('Cas et décès')
+elem = driver.find_element(By.LINK_TEXT, 'Cas et décès')
 elem.click()
-elem = driver.find_elements_by_id('dropdown_download_table')
+elem = driver.find_elements(By.ID, 'dropdown_download_table')
 elem = elem[0]
 elem.click()
 xls_url = sgc.get_link_from_element(driver, 'download_table_cas_deces_xlsx')
