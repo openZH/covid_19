@@ -48,12 +48,17 @@ for pdf_url in pdf_urls:
 
     assert res, f'PCR tests for week {week1} or {week2} could not be extracted!'
 
-    res = re.match(r'.*Anteil\s+pos\s?itiv\s?er\s+Tes\s?ts\s+\(%\)\s+(\d+\w+)?\s+(\d+\.?\d?)%?\s+(\d+\.?\d?)%?', content, re.DOTALL)
+    res = re.match(r'.*Positivit.tsrate\s+\*+?\s+\d+\.?\d?%?\s+(\d+\.?\d?)%?\s+(\d+\.?\d?)%?', content, re.DOTALL)
     pos_rate1 = None
     pos_rate2 = None
     if res:
-        pos_rate1 = res[2]
-        pos_rate2 = res[3]
+        pos_rate1 = res[1]
+        pos_rate2 = res[2]
+    else:
+        res = re.match(r'.*Anteil\s+pos\s?itiv\s?er\s+Tes\s?ts\s+\(%\)\s+(\d+\w+)?\s+(\d+\.?\d?)%?\s+(\d+\.?\d?)%?', content, re.DOTALL)
+        if res:
+            pos_rate1 = res[2]
+            pos_rate2 = res[3]
 
     data = sc.TestData(canton='SO', url=pdf_url)
     data.week = week1
