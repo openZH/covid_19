@@ -12,7 +12,7 @@ item = soup.find(text=re.compile('Anzahl F.lle')).find_parent('p')
 assert item, f"Could not find title item in {url}"
 
 dd = sc.DayData(canton='NW', url=url)
-dd.datetime = sc.find(r'Stand\*?: (\d+\. .* 20\d{2})', item.text)
+dd.datetime = sc.find(r'Stand\*?: (\d+\.\s?.* 20\d{2})', item.text)
 
 rows = item.find_next('table').findChildren('tr')
 for row in rows:
