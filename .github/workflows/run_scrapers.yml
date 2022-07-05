@@ -2,7 +2,7 @@ name: Run scrapers
 
 on:
   schedule:
-    - cron:  '*/20 5-21 * * *' # run every 20min from 05:00-21:00 UTC
+    - cron:  '*/20 * * * *' # run every 20min from 05:00-21:00 UTC
   workflow_dispatch: ~
 
 jobs:
