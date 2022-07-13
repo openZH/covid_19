@@ -19833,7 +19833,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-07,,SG,,214445,,8,0,0,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2022-06-07,,SH,,32578,,5,0,,,132,https://coviddashboard.sh.ch/,0,0,0
 2022-06-07,,SO,,116304,,6,1,,,366,https://corona.so.ch/bevoelkerung/daten/,,,
-2022-06-07,,TI,,150250,,34,0,,,1193,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
+2022-06-07,,TI,,156591,,77,6,,,1199,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-06-07,00:00,FL,,17582,,1,,,17415,84,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-07,00:00,GE,,214871,,208,1,,,,https://infocovid.smc.unige.ch/,,,
 2022-06-07,00:00,OW,,17089,,0,,,,61,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
@@ -19849,7 +19849,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-06-08,,SG,,214535,,7,0,0,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2022-06-08,,SH,,32629,,7,0,,,133,https://coviddashboard.sh.ch/,0,0,0
 2022-06-08,,SO,,116363,,7,0,,,366,https://corona.so.ch/bevoelkerung/daten/,,,
-2022-06-08,,TI,,150342,,37,0,,,1193,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
+2022-06-08,,TI,,156966,,83,6,,,1199,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-06-08,00:00,FL,,17589,,1,,,17426,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-06-08,00:00,GE,,215034,,195,2,,,,https://infocovid.smc.unige.ch/,,,
 2022-06-08,00:00,OW,,17097,,0,,,,61,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
@@ -20307,6 +20307,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-07-10,,NE,,81159,,26,2,0,,472,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-07-10,,SG,,220417,,17,0,0,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2022-07-10,,SH,,34039,,10,0,,,133,https://coviddashboard.sh.ch/,0,0,0
+2022-07-10,,VD,,,,161,6,,,,https://www.infosan.vd.ch/fileadmin/2-PUBLICATIONS/SANTE_POPULATION/SSP_20220712_COVID_Bulletin_hebdomadaire_epidemio.pdf,,,
 2022-07-10,00:00,FL,,18201,,2,,,17868,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-07-10,00:00,GE,,225942,,294,4,,,,https://infocovid.smc.unige.ch/,,,
 2022-07-10,10:00,TG,,125283,0,27,2,,2754,695,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
@@ -20317,6 +20318,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-07-11,,SG,,220822,,33,0,0,,861,https://www.sg.ch/tools/informationen-coronavirus.html,,,
 2022-07-11,,SH,,34097,,14,0,,,133,https://coviddashboard.sh.ch/,0,0,0
 2022-07-11,,SO,,121127,,21,0,,,368,https://corona.so.ch/bevoelkerung/daten/,,,
+2022-07-11,,TI,,157727,,97,7,,,1201,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-07-11,00:00,FL,,18227,,2,,,17900,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-07-11,00:00,GE,,225946,,305,4,,,,https://infocovid.smc.unige.ch/,,,
 2022-07-11,10:00,TG,,125284,0,27,2,,2754,695,,,,
@@ -20324,7 +20326,9 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-07-12,,BL,,,,42,1,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-07-12,,NW,,19262,,2,0,,,36,http://www.nw.ch/coronastatistik,,,
 2022-07-12,,SG,,,,36,1,0,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-07-12,,SH,,34194,,11,0,,,133,https://coviddashboard.sh.ch/,0,0,
+2022-07-12,,SH,,34194,,11,0,,,133,https://coviddashboard.sh.ch/,0,0,0
 2022-07-12,,SO,,121356,,26,0,,,368,https://corona.so.ch/bevoelkerung/daten/,,,
+2022-07-12,,TI,,158187,,96,7,,,1202,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-07-12,00:00,FL,,18257,,2,,,17931,85,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-07-12,12:00,BS,,89316,,86,3,,88150,291,https://www.gesundheit.bs.ch,875,0,
+2022-07-13,,TI,,158742,,91,5,,,1206,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
