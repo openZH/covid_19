@@ -20521,7 +20521,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-07-25,,NE,,83009,,41,2,0,,475,https://www.ne.ch/autorites/DFS/SCSP/medecin-cantonal/maladies-vaccinations/Documents/Covid-19-Statistiques/COVID19_PublicationInternet.xlsx,,,
 2022-07-25,,NW,,19553,,5,0,,,36,http://www.nw.ch/coronastatistik,,,
 2022-07-25,,SG,,224505,,38,2,1,,862,https://www.sg.ch/tools/informationen-coronavirus.html,,,
-2022-07-25,,SH,,34960,,20,1,,,135,https://coviddashboard.sh.ch/,0,0,
+2022-07-25,,SH,,34960,,20,1,,,135,https://coviddashboard.sh.ch/,0,0,0
 2022-07-25,,SO,,123930,,38,1,,,368,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-07-25,,TI,,162493,,115,2,,,1208,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-07-25,00:00,FL,,18609,,1,,,18300,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
@@ -20530,6 +20530,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-07-26,,BL,,,,44,2,,,,https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fur-gesundheit/medizinische-dienste/kantonsarztlicher-dienst/aktuelles/covid-19-faelle-kanton-basel-landschaft,,,
 2022-07-26,,NW,,19576,,5,0,,,36,http://www.nw.ch/coronastatistik,,,
 2022-07-26,,SG,,,,40,2,1,,,https://www.sg.ch/tools/informationen-coronavirus.html,,,
+2022-07-26,,SH,,35041,,21,3,,,135,https://coviddashboard.sh.ch/,0,0,
 2022-07-26,,SO,,124051,,33,1,,,368,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-07-26,,TI,,162827,,107,5,,,1208,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-07-26,00:00,FL,,18642,,2,,,18338,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
