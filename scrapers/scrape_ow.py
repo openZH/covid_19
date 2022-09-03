@@ -52,8 +52,10 @@ for row in rows:
         if isinstance(row['Infizierte Personen (kumuliert)'], int) and row['Infizierte Personen (kumuliert)'] > 0:
             dd.cases = row['Infizierte Personen (kumuliert)']
             data_found = True
-        if isinstance(row['Hospitalisierte Personen im KSOW'], int):
-            dd.hospitalized = row['Hospitalisierte Personen im KSOW']
+        hosp_key = """Hospitalisierte Personen im KSOW /
+Eintritte Covid-Station; Alle Einwohner OW alle Spitäler CH***"""
+        if isinstance(row[hosp_key], int):
+            dd.hospitalized = row[hosp_key]
         if isinstance(row['Gestorbene Personen (kumuliert)'], int):
             dd.deaths = row['Gestorbene Personen (kumuliert)']
         if isinstance(row['Isolation'], int):
