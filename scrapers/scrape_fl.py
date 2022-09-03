@@ -63,7 +63,7 @@ for row in rows:
         
     dd_full_list.cases = str(row['Anzahl pos. Fälle kumuliert']).replace("'","")
     dd_full_list.recovered = row['Genesene kumuliert']
-    dd_full_list.hospitalized = row['Hospitalisierte Personen']
+    dd_full_list.hospitalized = row['Hospitalisierte Personen*']
     dd_full_list.deaths = row['Todesfälle kumuliert']
     if dd_full_list:
         if not is_first:
