@@ -7,7 +7,7 @@
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
 ### Important note
-> Find **high quality data published by our data colleagues of the [FOPH](https://www.bag.admin.ch/bag/en/home.html)** for all Cantons and FL
+> Find and use **high quality data published by our data colleagues of the [FOPH](https://www.bag.admin.ch/bag/en/home.html)** for all Cantons and FL:
 > 1. visualized (Dashboard): https://www.covid19.admin.ch/en/overview
 > 2. published as 'open government data': https://opendata.swiss/en/dataset/covid-19-schweiz
 > * data documentation: https://www.covid19.admin.ch/api/data/documentation
