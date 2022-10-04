@@ -14,7 +14,7 @@ is_first = True
 for row in rows:
     if not isinstance(row['Datum'], datetime.datetime):
         continue
-    if not (row['Positiv'] or row.search(r'Hospitalisation isoliert\s+bestätigt.*$') or row.search(r'Hospitalisiert.*Intensiv.*$') or row['Verstorben']):
+    if not (row['Positiv'] or row.search(r'Hospitalisation isoliert\s+bestätigt') or row.search(r'Hospitalisation\s+intensiv.*$') or row['Verstorben']):
         continue
 
     if not is_first:
@@ -25,9 +25,9 @@ for row in rows:
     dd.datetime = row['Datum'].date().isoformat()
     dd.cases = row['Positiv']
 
-    if sc.represents_int(row.search(r'Hospitalisation isoliert\s+bestätigt.*$')) and sc.represents_int(row.search(r'Hospitalisiert.*Intensiv.*$')):
-        dd.hospitalized = row.search(r'Hospitalisation isoliert\s+bestätigt.*$') + row.search(r'Hospitalisiert.*Intensiv.*$')
-        dd.icu = row.search(r'Hospitalisiert.*Intensiv.*$')
+    if sc.represents_int(row.search(r'Hospitalisation isoliert\s+bestätigt')) and sc.represents_int(row.search(r'Hospitalisation\s+intensiv.*$')):
+        dd.hospitalized = row.search(r'Hospitalisation isoliert\s+bestätigt') + row.search(r'Hospitalisation\s+intensiv.*$')
+        dd.icu = row.search(r'Hospitalisation\s+intensiv.*$')
     if row['Verstorben'] is not None:
         dd.deaths = row['Verstorben']
 
