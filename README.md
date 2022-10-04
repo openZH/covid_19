@@ -6,11 +6,11 @@
 
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
-```
+___
 Find high quality data published by the FOPH for all Cantons and FL
 - visualized (Dashboard): https://www.covid19.admin.ch/en/overview
 - open government data: https://opendata.swiss/en/dataset/covid-19-schweiz (Documentation: https://www.covid19.admin.ch/api/data/documentation
-```
+___
 
 ## Aim
 
