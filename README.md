@@ -6,7 +6,7 @@
 
 # SARS-CoV-2 open government data reported by the Swiss Cantons and the Principality of Liechtenstein
 
-### Note
+### Important note
 > Find **high quality data published by the [FOPH](https://www.bag.admin.ch/bag/en/home.html)** for all Cantons and FL
 > 1. visualized (Dashboard): https://www.covid19.admin.ch/en/overview
 > 2. open government data: https://opendata.swiss/en/dataset/covid-19-schweiz
@@ -14,7 +14,7 @@
 > * release notes: https://www.covid19.admin.ch/api/data/documentation#releases
 > * Data Context API: https://www.covid19.admin.ch/api/data/documentation#data-context-api
 
-## Aim
+## Aim of this repository
 
 The aim of this repository is to provide open government datasets for SARS-CoV-2 related data reported by the Swiss Cantons and the Principality of Liechtenstein. Since Jun 8, 2020 most cantons report case numbers at least once or twice a week. Updates of cantonal case numbers during weekends are infrequent.
 
