@@ -1,4 +1,4 @@
-date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel,current_quarantined_total
+date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_hosp,current_icu,current_vent,ncumul_released,ncumul_deceased,source,current_isolated,current_quarantined,current_quarantined_riskareatravel
 2020-02-01,00:00,GE,109,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-02,00:00,GE,115,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
 2020-02-03,00:00,GE,136,0,,,,,,0,https://infocovid.smc.unige.ch/,1,0,0
@@ -21565,7 +21565,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-03,,TI,,171647,,83,5,,,1238,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-03,00:00,FL,,19883,,4,,,19508,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-03,00:00,GE,,236775,,211,2,,,,https://infocovid.smc.unige.ch/,,,
-2022-10-03,00:00,OW,,18482,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
+2022-10-03,00:00,OW,,18481,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
 2022-10-03,08:00,ZG,,57029,,4,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-03,10:00,TG,,133485,7,34,4,,3039,707,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-03,12:00,BS,,96373,,61,4,,95686,304,https://www.gesundheit.bs.ch,395,0,
@@ -21597,7 +21597,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-05,,TI,,172612,,98,3,,,1239,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-05,00:00,FL,,19988,,3,,,19545,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-05,00:00,GE,,237169,,208,3,,,,https://infocovid.smc.unige.ch/,,,
-2022-10-05,00:00,OW,,18518,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
+2022-10-05,00:00,OW,,18515,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
 2022-10-05,08:00,ZG,,57097,,5,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-05,10:00,TG,,133862,4,32,2,,3051,708,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-05,12:00,BS,,96573,,48,2,,95907,306,https://www.gesundheit.bs.ch,386,0,
@@ -21668,7 +21668,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-10,,TI,,174466,,164,5,,,1239,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-10,00:00,FL,,20211,,2,,,19716,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-10,00:00,GE,,237981,,204,0,,,,https://infocovid.smc.unige.ch/,,,
-2022-10-10,00:00,OW,,18576,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
+2022-10-10,00:00,OW,,18590,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
 2022-10-10,08:00,ZG,,57467,,5,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-10,10:00,TG,,134717,4,31,4,,3074,708,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-10,12:00,BS,,97104,,66,3,,96300,306,https://www.gesundheit.bs.ch,508,0,
@@ -21700,7 +21700,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-12,,TI,,175656,,161,6,,,1239,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-12,00:00,FL,,20266,,5,,,19824,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-12,00:00,GE,,238450,,120,,,,,https://infocovid.smc.unige.ch/,,,
-2022-10-12,00:00,OW,,18641,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
+2022-10-12,00:00,OW,,18644,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,0
 2022-10-12,08:00,ZG,,57548,,6,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-12,10:00,TG,,135107,5,27,4,,3089,708,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-12,12:00,BS,,97397,,79,4,,96543,306,https://www.gesundheit.bs.ch,570,0,
@@ -21716,6 +21716,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-13,,TI,,176158,,148,5,,,1240,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-13,00:00,FL,,20325,,5,,,19824,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-13,00:00,GE,,238636,,125,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-13,00:00,OW,,18668,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,
 2022-10-13,08:00,ZG,,57647,,6,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-13,10:00,TG,,135294,8,31,3,,3093,709,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-13,12:00,BS,,97541,,78,5,,96667,306,https://www.gesundheit.bs.ch,590,0,
@@ -21731,6 +21732,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-14,,TI,,176572,,153,7,,,1241,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-14,00:00,FL,,20346,,4,,,19848,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-14,00:00,GE,,238814,,125,0,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-14,00:00,OW,,18682,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,
 2022-10-14,08:00,ZG,,57738,,6,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-14,10:00,TG,,135469,6,32,3,,3098,709,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-14,12:00,BS,,97689,,72,3,,96742,306,https://www.gesundheit.bs.ch,644,0,
@@ -21767,6 +21769,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-17,,TI,,177399,,163,10,,,1243,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-17,00:00,FL,,20434,,1,,,20042,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
 2022-10-17,00:00,GE,,239251,,126,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-17,00:00,OW,,18729,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,
 2022-10-17,08:00,ZG,,57916,,6,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-17,10:00,TG,,135570,0,36,2,,3101,709,https://www.tg.ch/news/fachstab-gesundheit-coronavirus.html/10552,,,
 2022-10-17,12:00,BS,,97979,,88,3,,97117,306,https://www.gesundheit.bs.ch,561,0,
@@ -21778,13 +21781,15 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,new_hosp,current_
 2022-10-18,,SO,,133022,,37,2,,,375,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-10-18,,TI,,177931,,159,9,,,1245,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-18,00:00,FL,,20465,,1,,,20083,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-10-18,00:00,GE,,239469,,133,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-18,00:00,GE,,239474,,133,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-18,00:00,OW,,18741,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,
 2022-10-18,08:00,ZG,,57934,,6,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-18,12:00,BS,,98104,,98,3,,97259,306,https://www.gesundheit.bs.ch,543,0,
 2022-10-18,14:30,ZH,,753438,,205,10,6,,1866,https://www.zh.ch/de/gesundheit/coronavirus.html,,,
 2022-10-19,,SO,,133206,,31,1,,,376,https://corona.so.ch/bevoelkerung/daten/,,,
 2022-10-19,,TI,,178384,,157,10,,,1248,https://www4.ti.ch/fileadmin/DSS/DSP/UMC/malattie_infettive/Coronavirus/dati/COVID19_Dati_TI_UMC_per_github_storico.xlsx,,,
 2022-10-19,00:00,FL,,20470,,1,,,20108,86,https://www.llv.li/files/ag/aktuelle-fallzahlen.xlsx,,,
-2022-10-19,00:00,GE,,239478,,136,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-19,00:00,GE,,239666,,136,,,,,https://infocovid.smc.unige.ch/,,,
+2022-10-19,00:00,OW,,18761,,0,,,,62,https://www.ow.ch/de/verwaltung/dienstleistungen/?dienst_id=5962,0,0,
 2022-10-19,08:00,ZG,,58009,,4,0,,,172,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/themen/gesundheit/corona,,,
 2022-10-19,12:00,BS,,98284,,88,3,,97386,306,https://www.gesundheit.bs.ch,592,0,
