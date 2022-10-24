@@ -860,7 +860,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-07-13,12:00,BS,,89568,80,6,,88409,291,https://www.gesundheit.bs.ch,27,0,0,53
 2022-07-14,12:00,BS,,89748,83,4,,88617,291,https://www.gesundheit.bs.ch,29,0,0,54
 2022-07-15,12:00,BS,,89951,81,4,,88740,291,https://www.gesundheit.bs.ch,32,0,0,49
-2022-07-18,12:00,BS,,90301,92,2,,89303,291,https://www.gesundheit.bs.ch,34,0,0,58
+2022-07-18,12:00,BS,,90301,92,2,,89304,291,https://www.gesundheit.bs.ch,34,0,0,58
 2022-07-19,12:00,BS,,90516,94,3,,89480,291,https://www.gesundheit.bs.ch,36,0,0,58
 2022-07-20,12:00,BS,,90669,103,5,,89709,291,https://www.gesundheit.bs.ch,38,0,0,65
 2022-07-21,12:00,BS,,90842,97,3,,89856,291,https://www.gesundheit.bs.ch,36,0,0,61
@@ -884,12 +884,12 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-08-17,12:00,BS,,93435,54,4,,92753,296,https://www.gesundheit.bs.ch,17,0,0,37
 2022-08-18,12:00,BS,,93511,50,3,,92850,296,https://www.gesundheit.bs.ch,19,0,0,31
 2022-08-19,12:00,BS,,93605,48,1,,92909,296,https://www.gesundheit.bs.ch,15,0,0,33
-2022-08-22,12:00,BS,,93771,48,2,,93169,296,https://www.gesundheit.bs.ch,17,0,0,31
+2022-08-22,12:00,BS,,93771,48,2,,93170,296,https://www.gesundheit.bs.ch,17,0,0,31
 2022-08-23,12:00,BS,,93868,48,3,,93243,298,https://www.gesundheit.bs.ch,14,0,0,34
 2022-08-24,12:00,BS,,93954,43,3,,93339,299,https://www.gesundheit.bs.ch,13,0,0,30
 2022-08-25,12:00,BS,,94030,43,2,,93411,299,https://www.gesundheit.bs.ch,12,0,0,31
 2022-08-26,12:00,BS,,94093,40,3,,93486,299,https://www.gesundheit.bs.ch,13,0,0,27
-2022-08-29,12:00,BS,,94196,42,3,,93696,299,https://www.gesundheit.bs.ch,10,0,0,32
+2022-08-29,12:00,BS,,94196,42,3,,93697,299,https://www.gesundheit.bs.ch,10,0,0,32
 2022-08-30,12:00,BS,,94269,41,2,,93777,300,https://www.gesundheit.bs.ch,12,0,0,29
 2022-08-31,12:00,BS,,94340,38,2,,93842,300,https://www.gesundheit.bs.ch,11,0,0,27
 2022-09-01,12:00,BS,,94403,40,3,,93896,300,https://www.gesundheit.bs.ch,13,0,0,27
@@ -899,7 +899,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-09-07,12:00,BS,,94717,36,2,,94219,302,https://www.gesundheit.bs.ch,15,0,0,21
 2022-09-08,12:00,BS,,94769,43,1,,94285,302,https://www.gesundheit.bs.ch,16,0,0,27
 2022-09-09,12:00,BS,,94833,38,1,,94330,302,https://www.gesundheit.bs.ch,14,0,0,24
-2022-09-12,12:00,BS,,94980,32,1,,94486,302,https://www.gesundheit.bs.ch,14,0,0,18
+2022-09-12,12:00,BS,,94980,32,1,,94487,302,https://www.gesundheit.bs.ch,14,0,0,18
 2022-09-13,12:00,BS,,95040,37,4,,94556,303,https://www.gesundheit.bs.ch,16,0,0,21
 2022-09-14,12:00,BS,,95083,30,3,,94623,303,https://www.gesundheit.bs.ch,13,0,0,17
 2022-09-15,12:00,BS,,95134,24,4,,94698,303,https://www.gesundheit.bs.ch,8,0,0,16
@@ -914,7 +914,7 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-09-28,12:00,BS,,95945,40,5,,95348,304,https://www.gesundheit.bs.ch,19,0,0,21
 2022-09-29,12:00,BS,,96064,48,4,,95403,304,https://www.gesundheit.bs.ch,23,0,0,25
 2022-09-30,12:00,BS,,96181,61,3,,95450,304,https://www.gesundheit.bs.ch,28,0,0,33
-2022-10-03,12:00,BS,,96373,61,4,,95686,304,https://www.gesundheit.bs.ch,25,0,0,36
+2022-10-03,12:00,BS,,96373,61,4,,95687,304,https://www.gesundheit.bs.ch,25,0,0,36
 2022-10-04,12:00,BS,,96462,57,3,,95794,304,https://www.gesundheit.bs.ch,23,0,0,34
 2022-10-05,12:00,BS,,96573,48,2,,95907,306,https://www.gesundheit.bs.ch,22,0,0,26
 2022-10-06,12:00,BS,,96680,51,2,,95998,306,https://www.gesundheit.bs.ch,25,0,0,26
@@ -928,4 +928,5 @@ date,time,abbreviation_canton_and_fl,ncumul_tested,ncumul_conf,ncumul_hosp,ncumu
 2022-10-18,12:00,BS,,98104,98,3,,97260,306,https://www.gesundheit.bs.ch,30,0,0,68
 2022-10-19,12:00,BS,,98284,88,3,,97402,306,https://www.gesundheit.bs.ch,29,0,0,59
 2022-10-20,12:00,BS,,98423,78,6,,97535,306,https://www.gesundheit.bs.ch,26,0,0,52
-2022-10-21,12:00,BS,,98553,71,4,,97615,307,https://www.gesundheit.bs.ch,24,0,0,47
+2022-10-21,12:00,BS,,98553,71,4,,97634,307,https://www.gesundheit.bs.ch,24,0,0,47
+2022-10-24,12:00,BS,,98788,63,4,,97994,307,https://www.gesundheit.bs.ch,,,,
