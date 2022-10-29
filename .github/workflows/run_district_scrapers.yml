@@ -22,7 +22,7 @@ jobs:
           #- SO
           #- SZ
           - TG
-          - VS
+          #- VS
 
     steps:
     - uses: actions/checkout@v2
