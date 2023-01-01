@@ -94,7 +94,7 @@ for row in rows:
 
 
 # get cases xls
-elem = driver.find_element(By.LINK_TEXT, 'Cas et décès')
+elem = driver.find_element(By.LINK_TEXT, 'Cas')
 elem.click()
 elem = driver.find_elements(By.ID, 'dropdown_download_table')
 elem = elem[0]
