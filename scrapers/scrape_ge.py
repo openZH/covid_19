@@ -83,8 +83,8 @@ for row in rows:
     current_hosp = row['Patients hospitalisés COVID-19 actifs HUG']
     if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
         dd.hospitalized = current_hosp
-    dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
-    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
+    dd.icu = row['Patients COVID-19 hospitalisés aux soins intensifs']
+    dd.icf = row['Patients COVID-19 hospitalisés aux soins intermédiaires']
 
     if dd:
         if not is_first:
