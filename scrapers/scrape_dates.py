@@ -106,7 +106,7 @@ def parse_date(d):
         # 07.05.2020, 00;00 Uhr
         # 17.06.2020 um 8 Uhr
         # 08.07.2020, um 8 Uhr
-        assert 2020 <= int(mo[3]) <= 2022
+        assert 2020 <= int(mo[3]) <= 2023
         assert 1 <= int(mo[2]) <= 12
         return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]) if mo[5] else 0:02d}"
     mo = re.search(r'^(\d+)\.(\d+)\.(\d\d),?\s*(\d\d?)[h:\.](\d\d) ?h?', d)
@@ -123,14 +123,14 @@ def parse_date(d):
     if mo:
         # 20.03.2020
         # 12. 8. 2020
-        assert 2020 <= int(mo[3]) <= 2022
+        assert 2020 <= int(mo[3]) <= 2023
         assert 1 <= int(mo[2]) <= 12
         return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T"
     mo = re.search(r'^(\d+)[a-z]* ([^\W\d_]+) (20\d\d) \((\d+)h\)$', d)
     if mo:
         # 21 mars 2020 (18h)
         # 1er avril 2020 (16h)
-        assert 2020 <= int(mo[3]) <= 2022
+        assert 2020 <= int(mo[3]) <= 2023
         assert 1 <= int(mo[4]) <= 23
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:00"
     mo = re.search(r'^(\d+)(?:[a-z]*\s+)?([^\W\d_]+)\s*(20\d\d)$', d)
@@ -138,7 +138,7 @@ def parse_date(d):
         # 21 mars 2020
         # 6avril2020    # From pdftotext with NE statistics.
         # 1er septembre 2020
-        assert 2020 <= int(mo[3]) <= 2022
+        assert 2020 <= int(mo[3]) <= 2023
         return f"{int(mo[3]):4d}-{months_all[mo[2]]:02d}-{int(mo[1]):02d}T"
     mo = re.search(r'^(\d+)\.(\d+) à (\d+)h(\d\d)?$', d)
     if mo:
@@ -158,7 +158,7 @@ def parse_date(d):
         # 27.03.2020 ore 08:00
         assert 1 <= int(mo[1]) <= 31
         assert 1 <= int(mo[2]) <= 12
-        assert 2020 <= int(mo[3]) <= 2022
+        assert 2020 <= int(mo[3]) <= 2023
         assert 0 <= int(mo[4]) <= 23
         assert 0 <= int(mo[5]) <= 59
         return f"{int(mo[3]):4d}-{int(mo[2]):02d}-{int(mo[1]):02d}T{int(mo[4]):02d}:{int(mo[5]):02d}"
