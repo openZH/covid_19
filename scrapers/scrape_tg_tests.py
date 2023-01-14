@@ -18,8 +18,12 @@ res = re.search(r".*name: '2022',\s+categories: \[\'(.*)\]\s+}", content)
 assert res, f'failed to extract 2022 weeks, got {res}'
 weeks_2022 = res[1].split(',')
 
-weeks = weeks_2020 + weeks_2021 + weeks_2022
-years = ['2020'] * len(weeks_2020) + ['2021'] * len(weeks_2021) + ['2022'] * len(weeks_2022)
+res = re.search(r".*name: '2023',\s+categories: \[\'(.*)\]\s+}", content)
+assert res, f'failed to extract 2023 weeks, got {res}'
+weeks_2023 = res[1].split(',')
+
+weeks = weeks_2020 + weeks_2021 + weeks_2022 + weeks_2023
+years = ['2020'] * len(weeks_2020) + ['2021'] * len(weeks_2021) + ['2022'] * len(weeks_2022) + ['2023'] * len(weeks_2023)
 
 res = re.search(r".*name: 'Anzahl negativer Tests.?',\s+color: '.*',\s+data: \[(.*)\],", content)
 assert res, f'failed to extract negative tests, got {res}'
