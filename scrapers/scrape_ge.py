@@ -94,6 +94,7 @@ for row in rows:
 
 
 # get cases xls
+"""
 elem = driver.find_element(By.LINK_TEXT, 'Cas')
 elem.click()
 elem = driver.find_elements(By.ID, 'dropdown_download_table')
@@ -120,3 +121,4 @@ for row in rows:
             print('-' * 10)
         is_first = False
         print(dd)
+"""
