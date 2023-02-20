@@ -44,6 +44,8 @@ for row in rows:
         continue
     if 'Data' not in row:
         continue
+    if row['Data'] is None:
+        continue
 
     if not is_first:
         print('-' * 10)
