@@ -40,6 +40,11 @@ if not xls_url.startswith('http'):
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
 for row in rows:
+    if row is None:
+        continue
+    if 'Data' not in row:
+        continue
+
     if not is_first:
         print('-' * 10)
     is_first = False
