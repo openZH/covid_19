@@ -6,7 +6,7 @@ on:
   workflow_dispatch: ~
 jobs:
   run_scraper:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     continue-on-error: false
     timeout-minutes: 10
     strategy:
@@ -34,10 +34,10 @@ jobs:
           - ZH
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
  
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.7
     - run: npm ci
