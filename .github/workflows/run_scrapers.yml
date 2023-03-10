@@ -20,10 +20,10 @@ jobs:
           - BE
           - BL
           - BS
-          - FR
+          #- FR
           - GE
           - GL
-          - GR
+          #- GR
           - JU
           - LU 
           - NE
