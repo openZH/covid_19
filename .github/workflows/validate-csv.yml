@@ -44,7 +44,7 @@ jobs:
     - name: Get current unix timestamp
       if: always()
       id: date
-      run: echo "::set-output name=ts::$(date +'%s')"
+      run: echo "ts=$(date +'%s')" >> $GITHUB_OUTPUT
 
     # notify slack if a CSV validation failed
     - name: Notify slack failure
