@@ -39,13 +39,24 @@ if not xls_url.startswith('http'):
 
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=0)
+prev_date = None
 for row in rows:
+    if row is None:
+        continue
+    if 'Data' not in row:
+        continue
+    if row['Data'] is None:
+        continue
+
     if not is_first:
         print('-' * 10)
     is_first = False
 
     dd = sc.DayData(canton='TI', url=xls_url)
     dd.datetime = f"{row['Data'].date().isoformat()}"
+    if dd.datetime == "2023-08-09" and prev_date == "2023-03-08":
+        dd.datetime = "2023-03-09"
+    prev_date = dd.datetime
     if row.get('Ora'):
         dd.datetime += f"T{row['Ora'].time().isoformat()}"
     dd.cases = row['Totale casi confermati']

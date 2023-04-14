@@ -7,7 +7,7 @@ on:
 
 jobs:
   run_scraper:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     continue-on-error: false
     timeout-minutes: 10
     strategy:
@@ -20,18 +20,18 @@ jobs:
           - BE
           - BL
           - BS
-          - FR
+          #- FR
           - GE
           - GL
-          - GR
+          #- GR
           - JU
           - LU 
           - NE
           - NW
-          - OW
+          #- OW
           - SG
           - SH
-          - SO
+          #- SO
           #- SZ
           - TG
           - TI
@@ -43,10 +43,10 @@ jobs:
           - FL
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
  
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.7
     - run: npm ci
@@ -77,9 +77,9 @@ jobs:
       run: |
         if git diff -w --no-ext-diff --quiet
         then
-          echo '::set-output name=changed::0'
+          echo "changed=0" >> $GITHUB_OUTPUT
         else
-          echo '::set-output name=changed::1'
+          echo "changed=1" >> $GITHUB_OUTPUT
         fi
       id: changes
   
@@ -120,7 +120,7 @@ jobs:
     - name: Get current unix timestamp
       if: always()
       id: date
-      run: echo "::set-output name=ts::$(date +'%s')"
+      run: echo "ts=$(date +'%s')" >> $GITHUB_OUTPUT
 
     - name: Notify slack validation error
       if: ${{ env.validate_status == 'failed' }}
@@ -142,16 +142,16 @@ jobs:
   merge_csvs:
     needs: run_scraper
     if: always()
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     timeout-minutes: 10
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Setup Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: '2.6'
 
     - name: Print header line and then merge all files without header line
       run: ruby scripts/merge_canton_csvs.rb > COVID19_Fallzahlen_CH_total_v2.csv
@@ -166,9 +166,9 @@ jobs:
       run: |
         if git diff -w --no-ext-diff --quiet
         then
-          echo '::set-output name=changed::0'
+          echo "changed=0" >> $GITHUB_OUTPUT
         else
-          echo '::set-output name=changed::1'
+          echo "changed=1" >> $GITHUB_OUTPUT
         fi
       id: changes
 
@@ -187,11 +187,11 @@ jobs:
   update_readme:
     needs: merge_csvs
     if: always()
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     timeout-minutes: 10
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     - name: Update README with latest update dates from cantons
       run: ./scripts/update_dates_in_readme.sh
@@ -200,9 +200,9 @@ jobs:
       run: |
         if git diff -w --no-ext-diff --quiet
         then
-          echo '::set-output name=changed::0'
+          echo "changed=0" >> $GITHUB_OUTPUT
         else
-          echo '::set-output name=changed::1'
+          echo "changed=1" >> $GITHUB_OUTPUT
         fi
       id: changes
 

@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 import scrape_common as sc
 import scrape_ge_common as sgc
 
@@ -58,6 +59,27 @@ driver.implicitly_wait(5)
 
 url = 'https://infocovid.smc.unige.ch/'
 driver.get(url)
+
+dd = sc.DayData(canton='GE', url=url)
+
+# get data from front page
+dd.datetime = WebDriverWait(driver, timeout=10).until(lambda d: d.find_element(By.ID,"datedump").text)
+dd.datetime = sc.find(r'(\d{4}-\d{2}-\d{2}\s+\d+:\d+:\d+)', dd.datetime)
+
+elem = driver.find_element(By.ID, 'keyvalue_ns-cas_cum_pub')
+elem = elem.find_element(By.TAG_NAME, 'h3')
+dd.cases = elem.text
+
+elem = driver.find_element(By.ID, 'keyvalue_ns-deces_cum_pub')
+elem = elem.find_element(By.TAG_NAME, 'h3')
+dd.deaths = elem.text
+if dd:
+    if not is_first:
+        print('-' * 10)
+    is_first = False
+    print(dd)
+
+
 elem = driver.find_element(By.LINK_TEXT, 'Tables')
 elem.click()
 
@@ -80,11 +102,11 @@ for row in rows:
 
     dd = sc.DayData(canton='GE', url=url)
     dd.datetime = date.isoformat()
-    current_hosp = row['Total hospitalisations COVID-19 actifs (en cours)']
+    current_hosp = row['Patients hospitalisés COVID-19 actifs HUG']
     if sc.represents_int(current_hosp) and int(current_hosp) >= 0:
         dd.hospitalized = current_hosp
-    dd.icu = row['Patients COVID-19 actifs aux soins intensifs HUG']
-    dd.icf = row['Patients COVID-19 actifs aux soins intermédiaires HUG']
+    dd.icu = row['Patients COVID-19 hospitalisés aux soins intensifs']
+    dd.icf = row['Patients COVID-19 hospitalisés aux soins intermédiaires']
 
     if dd:
         if not is_first:
@@ -94,7 +116,8 @@ for row in rows:
 
 
 # get cases xls
-elem = driver.find_element(By.LINK_TEXT, 'Cas et décès')
+"""
+elem = driver.find_element(By.LINK_TEXT, 'Cas')
 elem.click()
 elem = driver.find_elements(By.ID, 'dropdown_download_table')
 elem = elem[0]
@@ -120,3 +143,4 @@ for row in rows:
             print('-' * 10)
         is_first = False
         print(dd)
+"""

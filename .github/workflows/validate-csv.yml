@@ -15,14 +15,14 @@ on:
   
 jobs:
   validate:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     timeout-minutes: 10
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.7
 
@@ -44,7 +44,7 @@ jobs:
     - name: Get current unix timestamp
       if: always()
       id: date
-      run: echo "::set-output name=ts::$(date +'%s')"
+      run: echo "ts=$(date +'%s')" >> $GITHUB_OUTPUT
 
     # notify slack if a CSV validation failed
     - name: Notify slack failure

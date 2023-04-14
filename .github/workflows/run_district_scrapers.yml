@@ -6,7 +6,7 @@ on:
   workflow_dispatch: ~
 jobs:
   run_scraper:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     continue-on-error: false
     timeout-minutes: 10
     strategy:
@@ -15,9 +15,9 @@ jobs:
         canton:
           #- AG
           - BE
-          - BL
-          - FR
-          - GR
+          #- BL
+          #- FR
+          #- GR
           - SG
           #- SO
           #- SZ
@@ -25,10 +25,10 @@ jobs:
           #- VS
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
  
     - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.7
     - run: npm ci
@@ -58,9 +58,9 @@ jobs:
       run: |
         if git diff -w --no-ext-diff --quiet
         then
-          echo '::set-output name=changed::0'
+          echo "changed=0" >> $GITHUB_OUTPUT
         else
-          echo '::set-output name=changed::1'
+          echo "changed=1" >> $GITHUB_OUTPUT
         fi
       id: changes
   
@@ -84,7 +84,7 @@ jobs:
     - name: Get current unix timestamp
       if: always()
       id: date
-      run: echo "::set-output name=ts::$(date +'%s')"
+      run: echo "ts=$(date +'%s')" >> $GITHUB_OUTPUT
 
     - name: Notify slack failure
       if: ${{ failure()  || cancelled() }}

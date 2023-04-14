@@ -141,14 +141,16 @@ for iframe in soup.find_all('iframe'):
     d = d.replace('\n', ' ')
 
 
-    # cases data
-    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Positive Fälle Kanton BL&quot;,&quot;Positive Fälle Kanton BS&quot;\s*([^<]+)</pre>', d)
+    # weekly cases data
+    data = sc.find(r'<pre id="data[^"]*".*?> ?Datum,&quot;Wöchentliche Fallzahlen BL&quot;\s*([^<]+)</pre>', d)
     if data:
+        cases = 0
         for row in data.split(" "):
             c = row.split(',')
             key, row_date = get_row_date(c[0])
             rows[key]['date'] = row_date
-            rows[key]['cases'] = c[1]
+            cases += int(c[1])
+            rows[key]['cases'] = cases
         continue
 
     # daily cases data
@@ -206,7 +208,7 @@ for iframe in soup.find_all('iframe'):
         continue
 
     # 14-Tage-Inzidenz Region
-    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL \(14 Tage\)&quot;,&quot;Inzidenz BS \(14 Tage\)&quot;\s*([^<]+)</pre>', d)
+    data = sc.find(r'<pre id="data_1".*?> ?Datum,&quot;Inzidenz BL&quot;,&quot;Inzidenz BS&quot;,&quot;Inzidenz CH&quot;\s*([^<]+)</pre>', d)
     if data:
         # nothing to do here
         continue
@@ -223,7 +225,7 @@ for iframe in soup.find_all('iframe'):
         # nothing to do here
         continue
 
-    if iframe_url.endswith('/383'):
+    if iframe_url.endswith('/539'):
         # Stand vom ... iframe
         continue
 
