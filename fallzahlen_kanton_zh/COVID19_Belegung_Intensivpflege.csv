@@ -13304,7 +13304,6 @@ date,time,abbreviation_canton_and_fl,hospital_name,current_icu_service_certified
 2023-04-03,14:30,ZH,Spital Zollikerberg,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-03,14:30,ZH,Stadtspital Waid,8,,,0,,6,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-03,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
-2023-04-04,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,1,,18,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-04,14:30,ZH,Kantonsspital Winterthur,18,,,0,,11,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-04,14:30,ZH,Kinderspital Zürich,25,,,0,,19,21,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-04,14:30,ZH,Stadtspital Triemli,18,,,1,,10,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -13319,6 +13318,7 @@ date,time,abbreviation_canton_and_fl,hospital_name,current_icu_service_certified
 2023-04-04,14:30,ZH,Spital Zollikerberg,6,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-04,14:30,ZH,Stadtspital Waid,8,,,0,,7,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-04,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-04,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,1,,18,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-06,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-06,14:30,ZH,Kantonsspital Winterthur,18,,,2,,10,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-06,14:30,ZH,Kinderspital Zürich,25,,,0,,19,21,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
@@ -13409,3 +13409,108 @@ date,time,abbreviation_canton_and_fl,hospital_name,current_icu_service_certified
 2023-04-11,14:30,ZH,Spital Zollikerberg,6,,,0,,3,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-11,14:30,ZH,Stadtspital Waid,8,,,0,,4,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
 2023-04-11,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Kantonsspital Winterthur,18,,,1,,8,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Kinderspital Zürich,25,,,0,,19,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Stadtspital Triemli,18,,,1,,12,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,UniversitätsSpital Zürich,72,,,2,,50,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,4,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Spital Limmattal,8,,,0,,5,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Spital Männedorf,7,,,0,,2,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Spital Uster,7,,,0,,3,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Spital Zollikerberg,6,,,0,,2,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Stadtspital Waid,8,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-12,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Spital Uster,7,,,0,,4,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Spital Zollikerberg,6,,,0,,2,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Stadtspital Waid,8,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Kantonsspital Winterthur,18,,,1,,8,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Kinderspital Zürich,25,,,0,,20,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Stadtspital Triemli,18,,,1,,12,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,UniversitätsSpital Zürich,72,,,5,,47,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,3,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Spital Limmattal,8,,,0,,2,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-13,14:30,ZH,Spital Männedorf,7,,,0,,1,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Kantonsspital Winterthur,18,,,1,,8,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Kinderspital Zürich,25,,,0,,21,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Stadtspital Triemli,18,,,1,,12,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,UniversitätsSpital Zürich,72,,,3,,49,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,3,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Spital Limmattal,8,,,0,,2,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Spital Männedorf,7,,,0,,2,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Spital Uster,7,,,1,,4,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Spital Zollikerberg,6,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Stadtspital Waid,8,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-14,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Spital Limmattal,8,,,0,,2,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Spital Männedorf,7,,,0,,2,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Spital Uster,7,,,1,,4,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Spital Zollikerberg,6,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Stadtspital Waid,8,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Kantonsspital Winterthur,18,,,1,,10,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Kinderspital Zürich,25,,,0,,21,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Stadtspital Triemli,18,,,0,,10,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,UniversitätsSpital Zürich,72,,,3,,49,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-15,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,3,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Kantonsspital Winterthur,18,,,0,,11,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Kinderspital Zürich,25,,,0,,21,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Stadtspital Triemli,18,,,0,,10,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,UniversitätsSpital Zürich,72,,,3,,49,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,3,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Spital Limmattal,8,,,0,,2,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Spital Männedorf,7,,,0,,2,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Spital Uster,7,,,1,,4,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Spital Zollikerberg,6,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Stadtspital Waid,8,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-16,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Kantonsspital Winterthur,18,,,0,,11,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Kinderspital Zürich,25,,,0,,21,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Stadtspital Triemli,18,,,0,,10,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,UniversitätsSpital Zürich,72,,,3,,42,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,3,4,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Spital Limmattal,8,,,0,,6,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Spital Männedorf,7,,,0,,2,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Spital Uster,7,,,1,,4,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Spital Zollikerberg,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Stadtspital Waid,8,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-17,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Hirslanden Klinik Hirslanden,22,,,0,,19,20,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Kantonsspital Winterthur,18,,,0,,11,12,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Kinderspital Zürich,25,,,0,,21,22,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Stadtspital Triemli,18,,,0,,10,16,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,UniversitätsSpital Zürich,72,,,4,,42,52,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,GZO Spital Wetzikon,7,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Hirslanden Klinik im Park,6,,,0,,3,5,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,See-Spital Horgen und Kilchberg,6,,,0,,4,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Spital Bülach,7,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Spital Limmattal,8,,,1,,6,8,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Spital Männedorf,7,,,0,,2,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Spital Uster,7,,,0,,5,7,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Spital Zollikerberg,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Stadtspital Waid,8,,,0,,5,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
+2023-04-18,14:30,ZH,Universitätsklinik Balgrist,6,,,0,,6,6,https://gd.zh.ch/internet/gesundheitsdirektion/de/themen/coronavirus.html
