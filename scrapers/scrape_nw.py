@@ -6,40 +6,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 import scrape_nw_common as snc
 
-url, soup = snc.get_nw_page()
-
-item = soup.find(text=re.compile('Anzahl F.lle')).find_parent('p')
-assert item, f"Could not find title item in {url}"
-
-dd = sc.DayData(canton='NW', url=url)
-dd.datetime = sc.find(r'Stand\*?: (\d+\.?\s?.* 20\d{2})', item.text)
-
-rows = item.find_next('table').findChildren('tr')
-for row in rows:
-    cols = row.findChildren('td')
-    item = cols[0].text
-    if re.match(r'positiv getestete personen.*', item, re.I):
-        dd.cases = cols[1].text
-        dd.cases = dd.cases.replace('*', '')
-    elif re.match(r'derzeit hospitalisiert', item, re.I):
-        dd.hospitalized = cols[1].text
-    elif re.match(r'davon auf der intensivstation', item, re.I):
-        dd.icu = cols[1].text
-    elif re.match(r'verstorbene personen', item, re.I):
-        dd.deaths = cols[1].text
-    elif re.match(r'personen in isolation', item, re.I):
-        dd.isolated = cols[1].text
-    elif re.match(r'kontaktpersonen in quarant.ne', item, re.I):
-        dd.quarantined = cols[1].text
-    elif re.match(r'Reiser.ckkehrer in quarant.ne', item, re.I):
-        dd.quarantine_riskareatravel = cols[1].text
-
 is_first = True
-if dd:
-    print(dd)
-    is_first = False
-
-
 xls_url = 'http://www.nw.ch/coronastatistik'
 xls = sc.xlsdownload(xls_url, silent=True)
 rows = sc.parse_xls(xls, header_row=2)
