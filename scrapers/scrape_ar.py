@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import re
 import scrape_common as sc
 
-url = 'https://www.ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationsseite-coronavirus/'
+url = 'https://ar.ch/verwaltung/departement-gesundheit-und-soziales/amt-fuer-gesundheit/informationen-coronavirus/'
 d = sc.download(url, silent=True)
 soup = BeautifulSoup(d, 'html.parser')
 d = d.replace('&nbsp;', ' ')
